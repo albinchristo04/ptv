@@ -33,19 +33,31 @@ jobs:
     - name: Run merge script
       run: python merge_streams.py
       
-    - name: Check if there are changes
-      id: verify_diff
+    - name: Check if file was created
       run: |
-        git diff --quiet merged_events.json || echo "changed=true" >> $GITHUB_OUTPUT
+        if [ -f "merged_events.json" ]; then
+          echo "✅ merged_events.json created successfully"
+          ls -lh merged_events.json
+          echo "📊 File preview:"
+          head -n 20 merged_events.json
+        else
+          echo "❌ merged_events.json not found!"
+          exit 1
+        fi
         
-    - name: Commit and push if changed
-      if: steps.verify_diff.outputs.changed == 'true'
+    - name: Commit and push changes
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add merged_events.json
-        git commit -m "Update merged events - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
-        git push
+        git add -f merged_events.json
+        
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Update merged events - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          git push
+          echo "✅ Changes committed and pushed"
+        fi
         
     - name: Upload artifact
       uses: actions/upload-artifact@v4
