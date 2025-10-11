@@ -1,17 +1,17 @@
 {
   "metadata": {
-    "fetched_at": "2025-10-10T18:20:21.595743",
+    "fetched_at": "2025-10-11T01:02:11.701929",
     "source": "https://ppv.to/api/streams",
     "total_events": null,
-    "m3u8_extraction_date": "2025-10-10T18:59:51.913029",
-    "total_m3u8_found": 8,
-    "total_processed": 96
+    "m3u8_extraction_date": "2025-10-11T01:23:40.895017",
+    "total_m3u8_found": 6,
+    "total_processed": 90
   },
   "events": {
     "success": true,
-    "timestamp": 1760120430,
+    "timestamp": 1760144540,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.01297307014465332,
+    "performance": 0.01909804344177246,
     "streams": [
       {
         "category": "American Football",
@@ -35,7 +35,7 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://embednow.top/embed/cfb-regseason/wk01/4939-4939",
-            "viewers": "0",
+            "viewers": "104",
             "substreams": [],
             "m3u8_url": null,
             "m3u8_error": "Could not extract m3u8 URL"
@@ -653,8 +653,8 @@
             "iframe": "https://embednow.top/embed/nfl/3971/3971-tb",
             "viewers": "0",
             "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/tampabaybuccaneers/index.m3u8",
-            "m3u8_extracted_at": "2025-10-10T18:44:35.571666"
+            "m3u8_url": null,
+            "m3u8_error": "Could not extract m3u8 URL"
           },
           {
             "id": 12225,
@@ -697,8 +697,8 @@
             "iframe": "https://embednow.top/embed/nfl/2932/2932-atl",
             "viewers": "0",
             "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/atlantafalcons/index.m3u8",
-            "m3u8_extracted_at": "2025-10-10T18:44:50.837355"
+            "m3u8_url": null,
+            "m3u8_error": "Could not extract m3u8 URL"
           },
           {
             "id": 12227,
@@ -746,10 +746,10 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://embednow.top/embed/mlb/2025-10-10/2820-sea",
-            "viewers": "0",
+            "viewers": "478",
             "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/mariners/index.m3u8",
-            "m3u8_extracted_at": "2025-10-10T18:45:06.090800"
+            "m3u8_url": null,
+            "m3u8_error": "Could not extract m3u8 URL"
           }
         ]
       },
@@ -775,7 +775,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://embednow.top/embed/nba/10-10-2025/bos-tor",
-            "viewers": "0",
+            "viewers": "44",
             "substreams": [],
             "m3u8_url": null,
             "m3u8_error": "Could not extract m3u8 URL"
@@ -797,7 +797,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://embednow.top/embed/nba/10-10-2025/orl-phi",
-            "viewers": "0",
+            "viewers": "25",
             "substreams": [],
             "m3u8_url": null,
             "m3u8_error": "Could not extract m3u8 URL"
@@ -819,7 +819,29 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://embednow.top/embed/wnba/10-10-2025/lva-phx",
-            "viewers": "0",
+            "viewers": "119",
+            "substreams": [],
+            "m3u8_url": null,
+            "m3u8_error": "Could not extract m3u8 URL"
+          },
+          {
+            "id": 12321,
+            "name": "Jazz at Spurs",
+            "tag": "WOAI-TV",
+            "poster": "https://ppv.to/assets/thumb/ede61b9206890810f9fdec43420177e9-thumbnail.jpg",
+            "blurhash": "L28z.G00_3_3D%?bofRj00IUD%WB",
+            "colors": [
+              "#000000",
+              "#4a4a4a"
+            ],
+            "uri_name": "nba/10-10-2025/uta-sas",
+            "starts_at": 1760140800,
+            "ends_at": 1760150700,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://embednow.top/embed/nba/10-10-2025/uta-sas",
+            "viewers": "66",
             "substreams": [],
             "m3u8_url": null,
             "m3u8_error": "Could not extract m3u8 URL"
@@ -870,7 +892,7 @@
             "locale": "en",
             "category_name": "Combat Sports",
             "iframe": "https://embednow.top/embed/dave-allen-vs.-arslanbek-makhmudov",
-            "viewers": "0",
+            "viewers": "2",
             "substreams": [],
             "m3u8_url": null,
             "m3u8_error": "Could not extract m3u8 URL"
@@ -914,7 +936,7 @@
             "locale": "en",
             "category_name": "Combat Sports",
             "iframe": "https://embednow.top/embed/ufc-fight-night-oliveira-vs.-gamrot",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": [],
             "m3u8_url": null,
             "m3u8_error": "Could not extract m3u8 URL"
@@ -926,28 +948,6 @@
         "id": 32,
         "always_live": false,
         "streams": [
-          {
-            "id": 12203,
-            "name": "World Grand Prix Darts (Day 5)",
-            "tag": "PDC Darts",
-            "poster": "https://ppv.to/assets/thumb/e3a192be8827596898cb6988397a6b32-thumbnail.jpg",
-            "blurhash": "LFBD8LI}E9%J?Ko%bdsl4mt1tQV?",
-            "colors": [
-              "#181f63",
-              "#171e62"
-            ],
-            "uri_name": "world-grand-prix-darts-day-5",
-            "starts_at": 1760119200,
-            "ends_at": 1760137200,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Darts",
-            "iframe": "https://embednow.top/embed/world-grand-prix-darts-day-5",
-            "viewers": "173",
-            "substreams": [],
-            "m3u8_url": null,
-            "m3u8_error": "Could not extract m3u8 URL"
-          },
           {
             "id": 12204,
             "name": "World Grand Prix Darts (Day 6)",
@@ -965,7 +965,7 @@
             "locale": "en",
             "category_name": "Darts",
             "iframe": "https://embednow.top/embed/world-grand-prix-darts-day-6",
-            "viewers": "5",
+            "viewers": "0",
             "substreams": [],
             "m3u8_url": null,
             "m3u8_error": "Could not extract m3u8 URL"
@@ -999,160 +999,6 @@
         "id": 34,
         "always_live": false,
         "streams": [
-          {
-            "id": 12168,
-            "name": "France vs. Azerbaijan",
-            "tag": "WC Qualifying",
-            "poster": "https://ppv.to/assets/thumb/cdc327760ea73eb1ce292a29334a3ea5-thumbnail.jpg",
-            "blurhash": "L4FDiI_4Dj0et9j:WBa*00Dh-;~C",
-            "colors": [
-              "#a8191f",
-              "#a8191f"
-            ],
-            "uri_name": "wc/2025-10-10/fra-aze",
-            "starts_at": 1760121900,
-            "ends_at": 1760132700,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://embednow.top/embed/wc/2025-10-10/fra-aze",
-            "viewers": "3",
-            "substreams": [],
-            "m3u8_url": null,
-            "m3u8_error": "Could not extract m3u8 URL"
-          },
-          {
-            "id": 12169,
-            "name": "Germany vs. Luxembourg",
-            "tag": "WC Qualifying",
-            "poster": "https://ppv.to/assets/thumb/b64dcb9f0a7cbeed5097ad2a402ef902-thumbnail.jpg",
-            "blurhash": "L7Fpmhh{VEpyn5JCae$e00lVpIU[",
-            "colors": [
-              "#a8191f",
-              "#a8191f"
-            ],
-            "uri_name": "wc/2025-10-10/ger-lux",
-            "starts_at": 1760121900,
-            "ends_at": 1760132700,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://embednow.top/embed/wc/2025-10-10/ger-lux",
-            "viewers": "1",
-            "substreams": [],
-            "m3u8_url": null,
-            "m3u8_error": "Could not extract m3u8 URL"
-          },
-          {
-            "id": 12170,
-            "name": "Belgium vs. North Macedonia",
-            "tag": "WC Qualifying",
-            "poster": "https://ppv.to/assets/thumb/a93cf21a220a02c3c7976972815a1f62-thumbnail.jpg",
-            "blurhash": "L2G6hP2Y4Tw0%1a|V@ay00|[_NSh",
-            "colors": [
-              "#a8191f",
-              "#a8191f"
-            ],
-            "uri_name": "wc/2025-10-10/bel-mkd",
-            "starts_at": 1760121900,
-            "ends_at": 1760132700,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://embednow.top/embed/wc/2025-10-10/bel-mkd",
-            "viewers": "2",
-            "substreams": [],
-            "m3u8_url": null,
-            "m3u8_error": "Could not extract m3u8 URL"
-          },
-          {
-            "id": 12171,
-            "name": "Sweden vs. Switzerland",
-            "tag": "WC Qualifying",
-            "poster": "https://ppv.to/assets/thumb/8e6969f6c1d8bddce13debdf350f1751-thumbnail.jpg",
-            "blurhash": "L6FpgM7qib{,s:bGaeja00:@cF7D",
-            "colors": [
-              "#a8191f",
-              "#a8191f"
-            ],
-            "uri_name": "wc/2025-10-10/swe-sui",
-            "starts_at": 1760121900,
-            "ends_at": 1760132700,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://embednow.top/embed/wc/2025-10-10/swe-sui",
-            "viewers": "9",
-            "substreams": [],
-            "m3u8_url": null,
-            "m3u8_error": "Could not extract m3u8 URL"
-          },
-          {
-            "id": 12172,
-            "name": "Iceland vs. Ukraine",
-            "tag": "WC Qualifying",
-            "poster": "https://ppv.to/assets/thumb/88f5e36da5c74f94eb7ac61c4a8b38c7-thumbnail.jpg",
-            "blurhash": "L2EwXnDLqG_69m?7V@9j00*3Yk8@",
-            "colors": [
-              "#a8191f",
-              "#a8191f"
-            ],
-            "uri_name": "wc/2025-10-10/isl-ukr",
-            "starts_at": 1760121900,
-            "ends_at": 1760132700,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://embednow.top/embed/wc/2025-10-10/isl-ukr",
-            "viewers": "1",
-            "substreams": [],
-            "m3u8_url": null,
-            "m3u8_error": "Could not extract m3u8 URL"
-          },
-          {
-            "id": 12173,
-            "name": "Northern Ireland vs. Slovakia",
-            "tag": "WC Qualifying",
-            "poster": "https://ppv.to/assets/thumb/9598feb959eefdb8cc65706c3611865d-thumbnail.jpg",
-            "blurhash": "L4F|cG~oMJ8{yDVYWBo}000MyX?t",
-            "colors": [
-              "#a8191f",
-              "#a8191f"
-            ],
-            "uri_name": "wc/2025-10-10/nir-svk",
-            "starts_at": 1760121900,
-            "ends_at": 1760132700,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://embednow.top/embed/wc/2025-10-10/nir-svk",
-            "viewers": "0",
-            "substreams": [],
-            "m3u8_url": null,
-            "m3u8_error": "Could not extract m3u8 URL"
-          },
-          {
-            "id": 12174,
-            "name": "Kosovo vs. Slovenia",
-            "tag": "WC Qualifying",
-            "poster": "https://ppv.to/assets/thumb/3d35eb556f1641aa1b60840c6cf2eca9-thumbnail.jpg",
-            "blurhash": "L4EAmC0#Qm}st,VZaekq00^Pu49]",
-            "colors": [
-              "#a8191f",
-              "#a8191f"
-            ],
-            "uri_name": "wc/2025-10-10/kos-svn",
-            "starts_at": 1760121900,
-            "ends_at": 1760132700,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://embednow.top/embed/wc/2025-10-10/kos-svn",
-            "viewers": "0",
-            "substreams": [],
-            "m3u8_url": null,
-            "m3u8_error": "Could not extract m3u8 URL"
-          },
           {
             "id": 12175,
             "name": "Latvia vs. Andorra",
@@ -1414,8 +1260,8 @@
             "iframe": "https://embednow.top/embed/wc/2025-10-12/ned-fin",
             "viewers": "0",
             "substreams": [],
-            "m3u8_url": null,
-            "m3u8_error": "Could not extract m3u8 URL"
+            "m3u8_url": "https://gg.poocloud.in/wc_netherlands/index.m3u8",
+            "m3u8_extracted_at": "2025-10-11T01:16:07.533953"
           },
           {
             "id": 12187,
@@ -1437,7 +1283,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/wc_croatia/index.m3u8",
-            "m3u8_extracted_at": "2025-10-10T18:52:28.596982"
+            "m3u8_extracted_at": "2025-10-11T01:16:07.833903"
           },
           {
             "id": 12188,
@@ -1478,10 +1324,10 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://embednow.top/embed/wc/2025-10-12/ltu-pol",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": [],
-            "m3u8_url": null,
-            "m3u8_error": "Could not extract m3u8 URL"
+            "m3u8_url": "https://gg.poocloud.in/wc_lithuania/index.m3u8",
+            "m3u8_extracted_at": "2025-10-11T01:16:23.176091"
           },
           {
             "id": 12190,
@@ -1502,8 +1348,8 @@
             "iframe": "https://embednow.top/embed/wc/2025-10-12/rou-aut",
             "viewers": "0",
             "substreams": [],
-            "m3u8_url": null,
-            "m3u8_error": "Could not extract m3u8 URL"
+            "m3u8_url": "https://gg.poocloud.in/wc_romania/index.m3u8",
+            "m3u8_extracted_at": "2025-10-11T01:16:23.455422"
           },
           {
             "id": 12191,
@@ -1546,8 +1392,8 @@
             "iframe": "https://embednow.top/embed/wc/2025-10-13/nir-ger",
             "viewers": "0",
             "substreams": [],
-            "m3u8_url": null,
-            "m3u8_error": "Could not extract m3u8 URL"
+            "m3u8_url": "https://gg.poocloud.in/wc_northern-ireland/index.m3u8",
+            "m3u8_extracted_at": "2025-10-11T01:16:38.803188"
           },
           {
             "id": 12193,
@@ -1569,7 +1415,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/wc_ukraine/index.m3u8",
-            "m3u8_extracted_at": "2025-10-10T18:53:44.274957"
+            "m3u8_extracted_at": "2025-10-11T01:16:39.078318"
           },
           {
             "id": 12194,
@@ -1612,8 +1458,8 @@
             "iframe": "https://embednow.top/embed/wc/2025-10-13/wal-bel",
             "viewers": "0",
             "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/wc_wales/index.m3u8",
-            "m3u8_extracted_at": "2025-10-10T18:53:59.529504"
+            "m3u8_url": null,
+            "m3u8_error": "Could not extract m3u8 URL"
           },
           {
             "id": 12196,
@@ -1656,8 +1502,8 @@
             "iframe": "https://embednow.top/embed/wc/2025-10-13/svn-sui",
             "viewers": "0",
             "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/wc_slovenia/index.m3u8",
-            "m3u8_extracted_at": "2025-10-10T18:54:14.786273"
+            "m3u8_url": null,
+            "m3u8_error": "Could not extract m3u8 URL"
           },
           {
             "id": 12198,
@@ -1773,8 +1619,8 @@
             "iframe": "https://embednow.top/embed/nhl/4097/4097-tb",
             "viewers": "0",
             "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/tampabaylightning/index.m3u8",
-            "m3u8_extracted_at": "2025-10-10T18:55:20.677368"
+            "m3u8_url": null,
+            "m3u8_error": "Could not extract m3u8 URL"
           },
           {
             "id": 12309,
@@ -1837,7 +1683,7 @@
             "locale": "en",
             "category_name": "Ice Hockey",
             "iframe": "https://embednow.top/embed/nhl/7709/7709-pit",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": [],
             "m3u8_url": null,
             "m3u8_error": "Could not extract m3u8 URL"
@@ -2021,6 +1867,35 @@
         ]
       },
       {
+        "category": "Miscellaneous",
+        "id": 44,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 12320,
+            "name": "Friday Finals - 2025 Olympia",
+            "tag": "PPV",
+            "poster": "https://ppv.to/assets/thumb/710cf601ef6d6b5dae01d75a82569cfb-thumbnail.jpg",
+            "blurhash": "LFKAsj9PDrwG1nO]0K$M0e$erA?b",
+            "colors": [
+              "#140c0a",
+              "#ec1417"
+            ],
+            "uri_name": "friday-finals---2025-olympia",
+            "starts_at": 1760144400,
+            "ends_at": 1760166000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Miscellaneous",
+            "iframe": "https://embednow.top/embed/friday-finals---2025-olympia",
+            "viewers": "6",
+            "substreams": [],
+            "m3u8_url": null,
+            "m3u8_error": "Could not extract m3u8 URL"
+          }
+        ]
+      },
+      {
         "category": "Wrestling",
         "id": 38,
         "always_live": false,
@@ -2064,7 +1939,7 @@
             "locale": "en",
             "category_name": "Wrestling",
             "iframe": "https://embednow.top/embed/aew/collision/25-10-11",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": [],
             "m3u8_url": null,
             "m3u8_error": "Could not extract m3u8 URL"
@@ -2093,7 +1968,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embednow.top/embed/247-south-park",
-            "viewers": "3",
+            "viewers": "5",
             "substreams": [],
             "m3u8_url": null,
             "m3u8_error": "Could not extract m3u8 URL"
@@ -2122,7 +1997,7 @@
           },
           {
             "id": 8008,
-            "name": "24/7 Family​​‌‌​‌​​‌​​‌‌​‌​​​​‌​‌​​​​‌‌​‌‌​ Guy",
+            "name": "24/7 Family‌​​​​‌‌‌‌‌‌​‌​​​‌‌‌​‌​​​​‌​​​​‌​ Guy",
             "tag": "24/7 channel",
             "poster": "https://thumbs.poocloud.in/familyguy/preview.jpg",
             "blurhash": "",
@@ -2137,7 +2012,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embednow.top/embed/247-family-guy",
-            "viewers": "1",
+            "viewers": "3",
             "substreams": [],
             "m3u8_url": null,
             "m3u8_error": "Could not extract m3u8 URL"
@@ -2159,7 +2034,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embednow.top/embed/247-the-simpsons",
-            "viewers": "5",
+            "viewers": "3",
             "substreams": [],
             "m3u8_url": null,
             "m3u8_error": "Could not extract m3u8 URL"
