@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "generated_at": "2025-10-12T11:11:46.423152",
-    "total_merged": 16,
-    "total_unmatched_streambtw": 8,
-    "total_unmatched_ptv": 22,
+    "generated_at": "2025-10-12T12:29:38.362129",
+    "total_merged": 17,
+    "total_unmatched_streambtw": 7,
+    "total_unmatched_ptv": 27,
     "streambtw_source": "https://raw.githubusercontent.com/albinchristo04/arda/refs/heads/main/streambtw_data.json",
     "ptv_source": "https://raw.githubusercontent.com/albinchristo04/ptv/refs/heads/main/events_with_m3u8.json"
   },
@@ -99,7 +99,7 @@
       "sources": {
         "streambtw": {
           "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
-          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl3.m3u8?md5=Cb_3hzuPkDaDZqQ58NdUpA&expires=1760269202",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl3.m3u8?md5=_wgwBiZHKzw-ueJB5sA9DQ&expires=1760272690",
           "iframe_url": "https://streambtw.com/iframe/nfl3.php",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -123,7 +123,7 @@
         }
       },
       "all_m3u8_urls": [
-        "https://playlist.streameast247.com/playlist/stream_nfl3.m3u8?md5=Cb_3hzuPkDaDZqQ58NdUpA&expires=1760269202",
+        "https://playlist.streameast247.com/playlist/stream_nfl3.m3u8?md5=_wgwBiZHKzw-ueJB5sA9DQ&expires=1760272690",
         "https://gg.poocloud.in/pittsburghsteelers/index.m3u8"
       ],
       "all_iframes": [
@@ -501,6 +501,47 @@
       ]
     },
     {
+      "title": "LA Clippers vs Denver Nuggets",
+      "alternative_title": "Nuggets at Clippers",
+      "match_confidence": 0.75,
+      "sport": "NBA",
+      "category": "Basketball",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://artwork.espncdn.com/categories/7b3729c9-7f69-308a-bf8a-ee15a6aba154/logo/original_20191002200202.svg",
+          "m3u8_url": "https://streameast247.com/playlist/stream_nba6.m3u8",
+          "iframe_url": "https://streambtw.com/iframe/nba6.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/nba6.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/54bbb8a37a2f1b5b007326fe72ccf6b5-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/clippers/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/nba/10-12-2025/den-lac",
+          "tag": "ESPN",
+          "starts_at": 1760319000,
+          "ends_at": 1760328900
+        }
+      },
+      "all_m3u8_urls": [
+        "https://streameast247.com/playlist/stream_nba6.m3u8",
+        "https://gg.poocloud.in/clippers/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/nba6.php",
+        "https://embednow.top/embed/nba/10-12-2025/den-lac"
+      ]
+    },
+    {
       "title": "San Marino vs Cyprus",
       "alternative_title": "San Marino vs. Cyprus",
       "match_confidence": 1.0,
@@ -509,7 +550,7 @@
       "sources": {
         "streambtw": {
           "thumbnail": "https://artwork.espncdn.com/categories/119cfa41-71d4-39bf-a790-6273a52b0259/logo/original_201809051718.svg",
-          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=_O2bCjDxtJjmMhzuCY15mQ&expires=1760269231",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=aF2N0QcXR8DlvtYhbFI_wg&expires=1760272719",
           "iframe_url": "https://streambtw.com/iframe/ch1.php",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -533,7 +574,7 @@
         }
       },
       "all_m3u8_urls": [
-        "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=_O2bCjDxtJjmMhzuCY15mQ&expires=1760269231",
+        "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=aF2N0QcXR8DlvtYhbFI_wg&expires=1760272719",
         "https://gg.poocloud.in/wc_san-marino/index.m3u8"
       ],
       "all_iframes": [
@@ -550,7 +591,7 @@
       "sources": {
         "streambtw": {
           "thumbnail": "https://artwork.espncdn.com/categories/119cfa41-71d4-39bf-a790-6273a52b0259/logo/original_201809051718.svg",
-          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=MkMYMpU5givCZ3M2vSYEjQ&expires=1760269232",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=G73IuQEqKXJiAnuiR-2tWg&expires=1760272721",
           "iframe_url": "https://streambtw.com/iframe/ch1.php",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -574,7 +615,7 @@
         }
       },
       "all_m3u8_urls": [
-        "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=MkMYMpU5givCZ3M2vSYEjQ&expires=1760269232",
+        "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=G73IuQEqKXJiAnuiR-2tWg&expires=1760272721",
         "https://gg.poocloud.in/wc_scotland/index.m3u8"
       ],
       "all_iframes": [
@@ -591,7 +632,7 @@
       "sources": {
         "streambtw": {
           "thumbnail": "https://artwork.espncdn.com/categories/119cfa41-71d4-39bf-a790-6273a52b0259/logo/original_201809051718.svg",
-          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_2.m3u8?md5=ZndfLmrB6vbjw5spsvK_UQ&expires=1760269234",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_2.m3u8?md5=R9GENnzAJy0K6IXGwbIt1g&expires=1760272723",
           "iframe_url": "https://streambtw.com/iframe/ch2.php",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -615,7 +656,7 @@
         }
       },
       "all_m3u8_urls": [
-        "https://playlist.streameast247.com/playlist/stream_2.m3u8?md5=ZndfLmrB6vbjw5spsvK_UQ&expires=1760269234",
+        "https://playlist.streameast247.com/playlist/stream_2.m3u8?md5=R9GENnzAJy0K6IXGwbIt1g&expires=1760272723",
         "https://gg.poocloud.in/wc_netherlands/index.m3u8"
       ],
       "all_iframes": [
@@ -632,7 +673,7 @@
       "sources": {
         "streambtw": {
           "thumbnail": "https://artwork.espncdn.com/categories/119cfa41-71d4-39bf-a790-6273a52b0259/logo/original_201809051718.svg",
-          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_2.m3u8?md5=fAFiW6MqdSTCJsW2YyqOVw&expires=1760269235",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_2.m3u8?md5=vFuBbpgbfNEW731ILOIbTA&expires=1760272724",
           "iframe_url": "https://streambtw.com/iframe/ch2.php",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -656,7 +697,7 @@
         }
       },
       "all_m3u8_urls": [
-        "https://playlist.streameast247.com/playlist/stream_2.m3u8?md5=fAFiW6MqdSTCJsW2YyqOVw&expires=1760269235",
+        "https://playlist.streameast247.com/playlist/stream_2.m3u8?md5=vFuBbpgbfNEW731ILOIbTA&expires=1760272724",
         "https://gg.poocloud.in/wc_lithuania/index.m3u8"
       ],
       "all_iframes": [
@@ -671,7 +712,7 @@
       "sport": "NFL",
       "link": "https://streambtw.com/iframe/redzone.php",
       "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_redzone.m3u8?md5=e41EZOWaqBJDkfthzf00GQ&expires=1760269196",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_redzone.m3u8?md5=R7iQCtPGEdVz29ESfe2abg&expires=1760272684",
       "iframe_url": "https://streambtw.com/iframe/redzone.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -805,26 +846,6 @@
         "Sec-Fetch-Site": "cross-site"
       },
       "source": "streambtw"
-    },
-    {
-      "title": "LA Clippers vs Denver Nuggets",
-      "sport": "NBA",
-      "link": "https://streambtw.com/iframe/nba6.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/7b3729c9-7f69-308a-bf8a-ee15a6aba154/logo/original_20191002200202.svg",
-      "m3u8_url": "https://streameast247.com/playlist/stream_nba6.m3u8",
-      "iframe_url": "https://streambtw.com/iframe/nba6.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/nba6.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
     }
   ],
   "unmatched_ptv": [
@@ -859,6 +880,72 @@
       "iframe_url": "https://embednow.top/embed/mlb/2025-10-12/6310-tor",
       "starts_at": 1760313780,
       "ends_at": 1760324580,
+      "source": "ptv"
+    },
+    {
+      "title": "Nets at Suns (NBA China Game)",
+      "category": "Basketball",
+      "tag": "NBA TV",
+      "thumbnail": "https://ppv.to/assets/thumb/ac01eb152b0bdab7b9781bf124d6312a-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/suns/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/nba/10-12-2025/bkn-phx",
+      "starts_at": 1760266800,
+      "ends_at": 1760276700,
+      "source": "ptv"
+    },
+    {
+      "title": "Raptors at Wizards",
+      "category": "Basketball",
+      "tag": "NBA TV",
+      "thumbnail": "https://ppv.to/assets/thumb/e03b08a9cf122d1a6a6dacdef45289ce-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/wizards/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/nba/10-12-2025/tor-was",
+      "starts_at": 1760295600,
+      "ends_at": 1760305500,
+      "source": "ptv"
+    },
+    {
+      "title": "Heat at Magic",
+      "category": "Basketball",
+      "tag": "FDSNFL",
+      "thumbnail": "https://ppv.to/assets/thumb/f98186aa0e6f30676034e38af43f5056-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/magic/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/nba/10-12-2025/mia-orl",
+      "starts_at": 1760306400,
+      "ends_at": 1760316300,
+      "source": "ptv"
+    },
+    {
+      "title": "Cavaliers at Celtics",
+      "category": "Basketball",
+      "tag": "ESPN",
+      "thumbnail": "https://ppv.to/assets/thumb/439b9232e7795fd29200f5e6c29dc544-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/celtics/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/nba/10-12-2025/cle-bos",
+      "starts_at": 1760310000,
+      "ends_at": 1760319900,
+      "source": "ptv"
+    },
+    {
+      "title": "Bucks at Bulls",
+      "category": "Basketball",
+      "tag": "CHSN",
+      "thumbnail": "https://ppv.to/assets/thumb/be063505d34e265126abb4c98ed0c455-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/bulls/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/nba/10-12-2025/mil-chi",
+      "starts_at": 1760310000,
+      "ends_at": 1760319900,
+      "source": "ptv"
+    },
+    {
+      "title": "Warriors at Lakers",
+      "category": "Basketball",
+      "tag": "SPECSN",
+      "thumbnail": "https://ppv.to/assets/thumb/5d291a7055fd5d846e4f94fa490fc004-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/lakers/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/nba/10-12-2025/gsw-lal",
+      "starts_at": 1760319000,
+      "ends_at": 1760328900,
       "source": "ptv"
     },
     {
@@ -1005,17 +1092,6 @@
       "source": "ptv"
     },
     {
-      "title": "2025 Mr. Olympia: Saturday Finals",
-      "category": "Miscellaneous",
-      "tag": "PPV",
-      "thumbnail": "https://ppv.to/assets/thumb/b08b641b5e93004ccd6064cb69a2214f-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/olympia3/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/2025-mr.-olympia-saturday-finals",
-      "starts_at": 1760234400,
-      "ends_at": 1760256000,
-      "source": "ptv"
-    },
-    {
       "title": "24/7 South Park",
       "category": "24/7 Streams",
       "tag": "24/7 channel",
@@ -1038,7 +1114,7 @@
       "source": "ptv"
     },
     {
-      "title": "24/7 Family‌​​​​‌‌‌​‌‌‌​‌‌‌​​‌​​‌‌​​​‌​​​‌​ Guy",
+      "title": "24/7 Family​​‌‌​‌​​‌​‌​‌‌​‌‌​‌‌​‌‌​‌​‌​​‌​‌ Guy",
       "category": "24/7 Streams",
       "tag": "24/7 channel",
       "thumbnail": "https://thumbs.poocloud.in/familyguy/preview.jpg",
