@@ -1,62 +1,40 @@
 {
   "metadata": {
-    "generated_at": "2025-10-12T05:14:26.972334",
-    "total_merged": 1,
-    "total_unmatched_streambtw": 12,
-    "total_unmatched_ptv": 63,
+    "generated_at": "2025-10-12T06:21:21.705697",
+    "total_merged": 0,
+    "total_unmatched_streambtw": 13,
+    "total_unmatched_ptv": 38,
     "streambtw_source": "https://raw.githubusercontent.com/albinchristo04/arda/refs/heads/main/streambtw_data.json",
     "ptv_source": "https://raw.githubusercontent.com/albinchristo04/ptv/refs/heads/main/events_with_m3u8.json"
   },
-  "merged_events": [
+  "merged_events": [],
+  "unmatched_streambtw": [
     {
       "title": "UFC Fight Night: Oliveria vs Fiziev",
-      "alternative_title": "UFC Fight Night: Oliveira vs. Gamrot",
-      "match_confidence": 0.48,
       "sport": "UFC",
-      "category": "Combat Sports",
-      "sources": {
-        "streambtw": {
-          "thumbnail": "https://artwork.espncdn.com/categories/394dad60-8a1a-31a8-912c-a207555bc939/logo/original_20211113210745.svg",
-          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_ufc.m3u8?md5=dO10GsKaRdASXYePP7w7vQ&expires=1760247710",
-          "iframe_url": "https://streambtw.com/iframe/ufc.php",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "Referer": "https://streambtw.com/iframe/ufc.php",
-            "Origin": "https://streambtw.com",
-            "Accept": "*/*",
-            "Accept-Language": "en-US,en;q=0.9",
-            "Connection": "keep-alive",
-            "Sec-Fetch-Dest": "empty",
-            "Sec-Fetch-Mode": "cors",
-            "Sec-Fetch-Site": "cross-site"
-          }
-        },
-        "ptv": {
-          "thumbnail": "https://ppv.to/assets/thumb/f752b3f8b3a333d521202fba6c8e0d24-thumbnail.jpg",
-          "m3u8_url": "https://gg.poocloud.in/ufc/index.m3u8",
-          "iframe_url": "https://embednow.top/embed/ufc-fight-night-oliveira-vs.-gamrot",
-          "tag": "ESPN",
-          "starts_at": 1760212800,
-          "ends_at": 1760241600
-        }
+      "link": "https://streambtw.com/iframe/ufc.php",
+      "thumbnail": "https://artwork.espncdn.com/categories/394dad60-8a1a-31a8-912c-a207555bc939/logo/original_20211113210745.svg",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_ufc.m3u8?md5=p1oA6plsJy6g7zLVw_5y6Q&expires=1760251174",
+      "iframe_url": "https://streambtw.com/iframe/ufc.php",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Referer": "https://streambtw.com/iframe/ufc.php",
+        "Origin": "https://streambtw.com",
+        "Accept": "*/*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Connection": "keep-alive",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "cross-site"
       },
-      "all_m3u8_urls": [
-        "https://playlist.streameast247.com/playlist/stream_ufc.m3u8?md5=dO10GsKaRdASXYePP7w7vQ&expires=1760247710",
-        "https://gg.poocloud.in/ufc/index.m3u8"
-      ],
-      "all_iframes": [
-        "https://streambtw.com/iframe/ufc.php",
-        "https://embednow.top/embed/ufc-fight-night-oliveira-vs.-gamrot"
-      ]
-    }
-  ],
-  "unmatched_streambtw": [
+      "source": "streambtw"
+    },
     {
       "title": "Allen vs Makhmudov",
       "sport": "BOXING",
       "link": "https://streambtw.com/iframe/box1.php",
       "thumbnail": "https://artwork.espncdn.com/categories/889c6d08-03c6-31cc-93da-ef344c22a1c4/logo/original_201809051644.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_box1.m3u8?md5=cSUusaQ6bzxXR2LfhncK5w&expires=1760247712",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_box1.m3u8?md5=X6c8-at7bmLEQBK5Xz2d-Q&expires=1760251176",
       "iframe_url": "https://streambtw.com/iframe/box1.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -76,7 +54,7 @@
       "sport": "BOXING",
       "link": "https://streambtw.com/iframe/box2.php",
       "thumbnail": "https://artwork.espncdn.com/categories/889c6d08-03c6-31cc-93da-ef344c22a1c4/logo/original_201809051644.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_box2.m3u8?md5=GG87gZwIefBSGdFgYAFu8g&expires=1760247714",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_box2.m3u8?md5=_CRSzrgKYtffzRGO-fUA-Q&expires=1760251178",
       "iframe_url": "https://streambtw.com/iframe/box2.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -96,7 +74,7 @@
       "sport": "BOXING",
       "link": "https://streambtw.com/iframe/box3.php",
       "thumbnail": "https://artwork.espncdn.com/categories/889c6d08-03c6-31cc-93da-ef344c22a1c4/logo/original_201809051644.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_box3.m3u8?md5=bBESNh8J60TvXwjUh7bXNg&expires=1760247717",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_box3.m3u8?md5=QXdDUSRomIUpLVRSRL970g&expires=1760251180",
       "iframe_url": "https://streambtw.com/iframe/box3.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -116,7 +94,7 @@
       "sport": "SOCCER",
       "link": "https://streambtw.com/iframe/ch2.php",
       "thumbnail": "https://artwork.espncdn.com/categories/119cfa41-71d4-39bf-a790-6273a52b0259/logo/original_201809051718.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_2.m3u8?md5=89CtiCjZ2-h7GMHpGl4bIg&expires=1760247720",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_2.m3u8?md5=PdLtebmvHyrXYS5hSEMwng&expires=1760251182",
       "iframe_url": "https://streambtw.com/iframe/ch2.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -136,7 +114,7 @@
       "sport": "SOCCER",
       "link": "https://streambtw.com/iframe/ch3.php",
       "thumbnail": "https://artwork.espncdn.com/categories/119cfa41-71d4-39bf-a790-6273a52b0259/logo/original_201809051718.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_3.m3u8?md5=E_GRaal2pWsIVnAEBw-5bA&expires=1760247721",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_3.m3u8?md5=gE0ry6RVH7cIFJe1wOulIg&expires=1760251184",
       "iframe_url": "https://streambtw.com/iframe/ch3.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -156,7 +134,7 @@
       "sport": "SOCCER",
       "link": "https://streambtw.com/iframe/ch1.php",
       "thumbnail": "https://artwork.espncdn.com/categories/119cfa41-71d4-39bf-a790-6273a52b0259/logo/original_201809051718.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=yqXUBXJ-XSiscqi6LdefqQ&expires=1760247724",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=S1VG1jXixHdCobK-fBm4sg&expires=1760251186",
       "iframe_url": "https://streambtw.com/iframe/ch1.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -176,7 +154,7 @@
       "sport": "SOCCER",
       "link": "https://streambtw.com/iframe/ch2.php",
       "thumbnail": "https://artwork.espncdn.com/categories/119cfa41-71d4-39bf-a790-6273a52b0259/logo/original_201809051718.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_2.m3u8?md5=dNhrJTx9mMc_FDqj6T77Ug&expires=1760247726",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_2.m3u8?md5=jdQSmGBlD0KMUH0MtxsNCQ&expires=1760251188",
       "iframe_url": "https://streambtw.com/iframe/ch2.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -196,7 +174,7 @@
       "sport": "SOCCER",
       "link": "https://streambtw.com/iframe/ch3.php",
       "thumbnail": "https://artwork.espncdn.com/categories/119cfa41-71d4-39bf-a790-6273a52b0259/logo/original_201809051718.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_3.m3u8?md5=NRFoxssPn9WJScnLQ6vdqg&expires=1760247728",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_3.m3u8?md5=wkcMM_YHWp9v96VowU1dKw&expires=1760251189",
       "iframe_url": "https://streambtw.com/iframe/ch3.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -216,7 +194,7 @@
       "sport": "SOCCER",
       "link": "https://streambtw.com/iframe/ch4.php",
       "thumbnail": "https://artwork.espncdn.com/categories/119cfa41-71d4-39bf-a790-6273a52b0259/logo/original_201809051718.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_4.m3u8?md5=XbUKsLzPObG5fwJXJ6A59g&expires=1760247730",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_4.m3u8?md5=UQcouIPvt_Y1_9lXqdnI4Q&expires=1760251191",
       "iframe_url": "https://streambtw.com/iframe/ch4.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -293,83 +271,6 @@
     }
   ],
   "unmatched_ptv": [
-    {
-      "title": "Florida Gators vs. Texas A&M Aggies",
-      "category": "American Football",
-      "tag": "ESPN",
-      "thumbnail": "https://ppv.to/assets/thumb/ae927adaf553e0da2e6447a2f092852e-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/ESPN/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/cfb-regseason/wk01/5755-5755",
-      "starts_at": 1760223600,
-      "ends_at": 1760236200,
-      "source": "ptv"
-    },
-    {
-      "title": "Kansas Jayhawks vs. Texas Tech Red Raiders",
-      "category": "American Football",
-      "tag": "FOX",
-      "thumbnail": "https://ppv.to/assets/thumb/2848029d625f42374188dad900fa6c72-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/FOX/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/cfb-regseason/wk01/5813-5813",
-      "starts_at": 1760225400,
-      "ends_at": 1760238000,
-      "source": "ptv"
-    },
-    {
-      "title": "Georgia Bulldogs vs. Auburn Tigers",
-      "category": "American Football",
-      "tag": "ABC",
-      "thumbnail": "https://ppv.to/assets/thumb/b2a9ca09b44be353dd4d72a9b61029ed-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/ABC/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/cfb-regseason/wk01/9808-9808",
-      "starts_at": 1760225400,
-      "ends_at": 1760238000,
-      "source": "ptv"
-    },
-    {
-      "title": "Michigan Wolverines vs. USC Trojans",
-      "category": "American Football",
-      "tag": "NBC",
-      "thumbnail": "https://ppv.to/assets/thumb/7f3f5c0882275d039dd44438f9a6ed8c-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/NBC/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/cfb-regseason/wk01/9866-9866",
-      "starts_at": 1760225400,
-      "ends_at": 1760238000,
-      "source": "ptv"
-    },
-    {
-      "title": "South Carolina Gamecocks vs. LSU Tigers",
-      "category": "American Football",
-      "tag": "SEC Network",
-      "thumbnail": "https://ppv.to/assets/thumb/6378b2cec42f0d4c5924c6d9b8715404-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/SECN/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/cfb-regseason/wk01/8353-8353",
-      "starts_at": 1760226300,
-      "ends_at": 1760238900,
-      "source": "ptv"
-    },
-    {
-      "title": "BYU Cougars vs. Arizona Wildcats",
-      "category": "American Football",
-      "tag": "ESPN2",
-      "thumbnail": "https://ppv.to/assets/thumb/d6acac6bc8487addf3c00839d501ad5c-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/ESPN2/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/cfb-regseason/wk01/2467-2467",
-      "starts_at": 1760227200,
-      "ends_at": 1760239800,
-      "source": "ptv"
-    },
-    {
-      "title": "Arizona State Sun Devils vs. Utah Utes",
-      "category": "American Football",
-      "tag": "ESPN",
-      "thumbnail": "https://ppv.to/assets/thumb/b6acc712a9747ffc430ea38fc9a4169c-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/ESPN/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/cfb-regseason/wk01/7251-7251",
-      "starts_at": 1760235300,
-      "ends_at": 1760247900,
-      "source": "ptv"
-    },
     {
       "title": "Denver Broncos vs. New York Jets",
       "category": "American Football",
@@ -525,47 +426,14 @@
       "source": "ptv"
     },
     {
-      "title": "Chicago Cubs vs. Milwaukee Brewers",
+      "title": "Seattle Mariners vs. Toronto Blue Jays",
       "category": "Baseball",
-      "tag": "TBS",
-      "thumbnail": "https://ppv.to/assets/thumb/4a25c6b1d65f30f2058e30d9526d86f3-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/brewers/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/mlb/2025-10-11/4129-mil",
-      "starts_at": 1760227680,
-      "ends_at": 1760238480,
-      "source": "ptv"
-    },
-    {
-      "title": "Thunder at Pacers",
-      "category": "Basketball",
-      "tag": "NBA TV",
-      "thumbnail": "https://ppv.to/assets/thumb/e226dfccc0c5cdb42243ea590272ab3c-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/pacers/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nba/10-11-2025/okc-ind",
-      "starts_at": 1760223600,
-      "ends_at": 1760233500,
-      "source": "ptv"
-    },
-    {
-      "title": "Hawks at Grizzlies",
-      "category": "Basketball",
-      "tag": "FDSNSE-MEM",
-      "thumbnail": "https://ppv.to/assets/thumb/d0c88b284de12b944206ca1ee9041d10-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/grizzlies/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nba/10-11-2025/atl-mem",
-      "starts_at": 1760227200,
-      "ends_at": 1760237100,
-      "source": "ptv"
-    },
-    {
-      "title": "Hornets at Mavericks",
-      "category": "Basketball",
-      "tag": "KFAA",
-      "thumbnail": "https://ppv.to/assets/thumb/719ed3337e68b9279cfdebab171df3db-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/mavericks/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nba/10-11-2025/cha-dal",
-      "starts_at": 1760229000,
-      "ends_at": 1760238900,
+      "tag": "FOX",
+      "thumbnail": "https://ppv.to/assets/thumb/dde154fba2e1dc8869d95d942b84afd3-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/bluejays/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/mlb/2025-10-12/6310-tor",
+      "starts_at": 1760313780,
+      "ends_at": 1760324580,
       "source": "ptv"
     },
     {
@@ -756,160 +624,6 @@
       "source": "ptv"
     },
     {
-      "title": "Buffalo Sabres vs. Boston Bruins",
-      "category": "Ice Hockey",
-      "tag": "NESN",
-      "thumbnail": "https://ppv.to/assets/thumb/88d519f596068ebf8d6765c282111ab1-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/bostonbruins/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nhl/5033/5033-bos",
-      "starts_at": 1760223600,
-      "ends_at": 1760234400,
-      "source": "ptv"
-    },
-    {
-      "title": "Toronto Maple Leafs vs. Detroit Red Wings",
-      "category": "Ice Hockey",
-      "tag": "FanDuel SN DET",
-      "thumbnail": "https://ppv.to/assets/thumb/e445ccb84c841123ac5e2e58c86c5327-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/detroitredwings/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nhl/8718/8718-det",
-      "starts_at": 1760223600,
-      "ends_at": 1760234400,
-      "source": "ptv"
-    },
-    {
-      "title": "New Jersey Devils vs. Tampa Bay Lightning",
-      "category": "Ice Hockey",
-      "tag": "The Spot - MTN",
-      "thumbnail": "https://ppv.to/assets/thumb/d8d59aaf8387197fa68e66c252632c8c-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/tampabaylightning/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nhl/4097/4097-tb",
-      "starts_at": 1760223600,
-      "ends_at": 1760234400,
-      "source": "ptv"
-    },
-    {
-      "title": "Ottawa Senators vs. Florida Panthers",
-      "category": "Ice Hockey",
-      "tag": "Scripps Sports",
-      "thumbnail": "https://ppv.to/assets/thumb/0776b930e5902bf7e94d6fc09ca7c580-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/floridapanthers/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nhl/7478/7478-fla",
-      "starts_at": 1760223600,
-      "ends_at": 1760234400,
-      "source": "ptv"
-    },
-    {
-      "title": "Washington Capitals vs. New York Islanders",
-      "category": "Ice Hockey",
-      "tag": "MSGSN",
-      "thumbnail": "https://ppv.to/assets/thumb/bb0832e6b2b9263140cae69d45b773f6-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/newyorkislanders/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nhl/9693/9693-nyi",
-      "starts_at": 1760223600,
-      "ends_at": 1760234400,
-      "source": "ptv"
-    },
-    {
-      "title": "New York Rangers vs. Pittsburgh Penguins",
-      "category": "Ice Hockey",
-      "tag": "ESPN+",
-      "thumbnail": "https://ppv.to/assets/thumb/87169ee18dfa4ac57f2bcf639ff66da3-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/pittsburghpenguins/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nhl/7709/7709-pit",
-      "starts_at": 1760223600,
-      "ends_at": 1760234400,
-      "source": "ptv"
-    },
-    {
-      "title": "Philadelphia Flyers vs. Carolina Hurricanes",
-      "category": "Ice Hockey",
-      "tag": "FanDuel SN South",
-      "thumbnail": "https://ppv.to/assets/thumb/6085813002e82cfa1beea618a712ca27-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/carolinahurricanes/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nhl/2804/2804-car",
-      "starts_at": 1760223600,
-      "ends_at": 1760234400,
-      "source": "ptv"
-    },
-    {
-      "title": "Montreal Canadiens vs. Chicago Blackhawks",
-      "category": "Ice Hockey",
-      "tag": "CHSN",
-      "thumbnail": "https://ppv.to/assets/thumb/581cfd2a3f278140b51b48089fc4c495-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/chicagoblackhawks/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nhl/5230/5230-chi",
-      "starts_at": 1760223600,
-      "ends_at": 1760234400,
-      "source": "ptv"
-    },
-    {
-      "title": "Utah Mammoth vs. Nashville Predators",
-      "category": "Ice Hockey",
-      "tag": "FanDuel SN South",
-      "thumbnail": "https://ppv.to/assets/thumb/f486bada741a77b93d7d6da936724cde-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/nashvillepredators/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nhl/4585/4585-nsh",
-      "starts_at": 1760227200,
-      "ends_at": 1760238000,
-      "source": "ptv"
-    },
-    {
-      "title": "Columbus Blue Jackets vs. Minnesota Wild",
-      "category": "Ice Hockey",
-      "tag": "FanDuel SN North",
-      "thumbnail": "https://ppv.to/assets/thumb/21a0479e684ed160f173bff10d76bd25-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/minnesotawild/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nhl/9113/9113-min",
-      "starts_at": 1760227200,
-      "ends_at": 1760238000,
-      "source": "ptv"
-    },
-    {
-      "title": "Dallas Stars vs. Colorado Avalanche",
-      "category": "Ice Hockey",
-      "tag": "Altitude Sports",
-      "thumbnail": "https://ppv.to/assets/thumb/39f92e3aed1370a8231a894f765c1d1e-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/coloradoavalanche/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nhl/2862/2862-col",
-      "starts_at": 1760230800,
-      "ends_at": 1760241600,
-      "source": "ptv"
-    },
-    {
-      "title": "Vancouver Canucks vs. Edmonton Oilers",
-      "category": "Ice Hockey",
-      "tag": "ESPN+",
-      "thumbnail": "https://ppv.to/assets/thumb/32f3a188e1691e6f12e60e654fab06e0-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/edmontonoilers/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nhl/4594/4594-edm",
-      "starts_at": 1760234400,
-      "ends_at": 1760245200,
-      "source": "ptv"
-    },
-    {
-      "title": "Anaheim Ducks vs. San Jose Sharks",
-      "category": "Ice Hockey",
-      "tag": "NBC Sports BA",
-      "thumbnail": "https://ppv.to/assets/thumb/72a3134ddfd6a11e1f20ed6bb8356700-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/sanjosesharks/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nhl/9167/9167-sj",
-      "starts_at": 1760234400,
-      "ends_at": 1760245200,
-      "source": "ptv"
-    },
-    {
-      "title": "Vegas Golden Knights vs. Seattle Kraken",
-      "category": "Ice Hockey",
-      "tag": "KONG",
-      "thumbnail": "https://ppv.to/assets/thumb/a60ed0d2e5edef13890466942d08a9bc-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/seattlekraken/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nhl/4854/4854-sea",
-      "starts_at": 1760234400,
-      "ends_at": 1760245200,
-      "source": "ptv"
-    },
-    {
       "title": "2025 Mr. Olympia: Saturday Finals",
       "category": "Miscellaneous",
       "tag": "PPV",
@@ -918,17 +632,6 @@
       "iframe_url": "https://embednow.top/embed/2025-mr.-olympia-saturday-finals",
       "starts_at": 1760234400,
       "ends_at": 1760256000,
-      "source": "ptv"
-    },
-    {
-      "title": "AEW: Collision",
-      "category": "Wrestling",
-      "tag": "TNT",
-      "thumbnail": "https://ppv.to/assets/thumb/6e29b1bb679dd5133c85bbaadc2c4b13-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/wrestling/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/aew/collision/25-10-11",
-      "starts_at": 1760227200,
-      "ends_at": 1760238000,
       "source": "ptv"
     },
     {
@@ -954,7 +657,7 @@
       "source": "ptv"
     },
     {
-      "title": "24/7 Family​‌​​​​​​‌‌‌​‌‌​​‌​​​​‌‌​​​‌‌​​​‌ Guy",
+      "title": "24/7 Family‌​​​​‌‌‌​‌‌‌​‌‌‌​​‌​​‌‌​​​‌​​​‌​ Guy",
       "category": "24/7 Streams",
       "tag": "24/7 channel",
       "thumbnail": "https://thumbs.poocloud.in/familyguy/preview.jpg",
