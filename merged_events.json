@@ -1,280 +1,185 @@
 {
   "metadata": {
-    "generated_at": "2025-10-13T14:17:16.737267",
-    "total_merged": 0,
-    "total_unmatched_streambtw": 24,
-    "total_unmatched_ptv": 83,
+    "generated_at": "2025-10-13T15:17:05.103561",
+    "total_merged": 4,
+    "total_unmatched_streambtw": 4,
+    "total_unmatched_ptv": 79,
     "streambtw_source": "https://raw.githubusercontent.com/albinchristo04/arda/refs/heads/main/streambtw_data.json",
     "ptv_source": "https://raw.githubusercontent.com/albinchristo04/ptv/refs/heads/main/events_with_m3u8.json"
   },
-  "merged_events": [],
+  "merged_events": [
+    {
+      "title": "Iceland vs France",
+      "alternative_title": "Iceland vs. France",
+      "match_confidence": 1.0,
+      "sport": "SOCCER",
+      "category": "Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://artwork.espncdn.com/categories/119cfa41-71d4-39bf-a790-6273a52b0259/logo/original_201809051718.svg",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=f_EQz7SYDIXiV2SyL8D_0w&expires=1760370241",
+          "iframe_url": "https://streambtw.com/iframe/ch1.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/ch1.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/f15054458c765e15f9cf6edadee32f64-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/wc_iceland/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/wc/2025-10-13/isl-fra",
+          "tag": "WC Qualifying",
+          "starts_at": 1760381100,
+          "ends_at": 1760391900
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=f_EQz7SYDIXiV2SyL8D_0w&expires=1760370241",
+        "https://gg.poocloud.in/wc_iceland/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/ch1.php",
+        "https://embednow.top/embed/wc/2025-10-13/isl-fra"
+      ]
+    },
+    {
+      "title": "Northern Ireland vs Germany",
+      "alternative_title": "Northern Ireland vs. Germany",
+      "match_confidence": 1.0,
+      "sport": "SOCCER",
+      "category": "Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://artwork.espncdn.com/categories/119cfa41-71d4-39bf-a790-6273a52b0259/logo/original_201809051718.svg",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_2.m3u8?md5=CWpN8UBr6BJ90GZXwNcCBg&expires=1760370244",
+          "iframe_url": "https://streambtw.com/iframe/ch2.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/ch2.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/4f6917e512d9a6f3e2b50ad6195dffe8-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/wc_northern-ireland/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/wc/2025-10-13/nir-ger",
+          "tag": "WC Qualifying",
+          "starts_at": 1760381100,
+          "ends_at": 1760391900
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_2.m3u8?md5=CWpN8UBr6BJ90GZXwNcCBg&expires=1760370244",
+        "https://gg.poocloud.in/wc_northern-ireland/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/ch2.php",
+        "https://embednow.top/embed/wc/2025-10-13/nir-ger"
+      ]
+    },
+    {
+      "title": "Atlanta Falcons vs Buffalo Bills",
+      "alternative_title": "Buffalo Bills vs. Atlanta Falcons",
+      "match_confidence": 0.95,
+      "sport": "NFL",
+      "category": "American Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl1.m3u8?md5=zmaMmQHC_v6iWP62ZJp61g&expires=1760370247",
+          "iframe_url": "https://streambtw.com/iframe/nfl1.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/nfl1.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/c3ade8302fcf97c81201a3a90fc80906-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/atlantafalcons/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/nfl/2932/2932-atl",
+          "tag": "ESPN",
+          "starts_at": 1760397300,
+          "ends_at": 1760409900
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_nfl1.m3u8?md5=zmaMmQHC_v6iWP62ZJp61g&expires=1760370247",
+        "https://gg.poocloud.in/atlantafalcons/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/nfl1.php",
+        "https://embednow.top/embed/nfl/2932/2932-atl"
+      ]
+    },
+    {
+      "title": "Washington Commanders vs Chicago Bears",
+      "alternative_title": "Chicago Bears vs. Washington Commanders",
+      "match_confidence": 0.95,
+      "sport": "NFL",
+      "category": "American Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl2.m3u8?md5=xE2yMXRR2As26xq3NiQ9RQ&expires=1760370250",
+          "iframe_url": "https://streambtw.com/iframe/nfl2.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/nfl2.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/6a286e12623b02265593ea56a953bbd6-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/washingtoncommanders/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/nfl/2324/2324-was",
+          "tag": "ABC",
+          "starts_at": 1760400900,
+          "ends_at": 1760413500
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_nfl2.m3u8?md5=xE2yMXRR2As26xq3NiQ9RQ&expires=1760370250",
+        "https://gg.poocloud.in/washingtoncommanders/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/nfl2.php",
+        "https://embednow.top/embed/nfl/2324/2324-was"
+      ]
+    }
+  ],
   "unmatched_streambtw": [
     {
-      "title": "NFL Redzone vs Live",
-      "sport": "NFL",
-      "link": "https://streambtw.com/iframe/redzone.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_redzone.m3u8?md5=av0oP6_D7M3KIjXjLZrtvA&expires=1760366966",
-      "iframe_url": "https://streambtw.com/iframe/redzone.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/redzone.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Denver Broncos vs New York Jets",
-      "sport": "NFL",
-      "link": "https://streambtw.com/iframe/nfl1.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl1.m3u8?md5=If6PfpW-3OakHQjZk04mLg&expires=1760366968",
-      "iframe_url": "https://streambtw.com/iframe/nfl1.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/nfl1.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Arizona Cardinals vs Indianapolis Colts",
-      "sport": "NFL",
-      "link": "https://streambtw.com/iframe/nfl2.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl2.m3u8?md5=bdBjlRsseIvJscJbAT2zow&expires=1760366970",
-      "iframe_url": "https://streambtw.com/iframe/nfl2.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/nfl2.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Cleveland Browns vs Pittsburgh Steelers",
-      "sport": "NFL",
-      "link": "https://streambtw.com/iframe/nfl3.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl3.m3u8?md5=4hZxbvCPXQDaXM2igGhPrw&expires=1760366972",
-      "iframe_url": "https://streambtw.com/iframe/nfl3.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/nfl3.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Dallas Cowboys vs Carolina Panthers",
-      "sport": "NFL",
-      "link": "https://streambtw.com/iframe/nfl4.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl4.m3u8?md5=bQydy85Shlfe6yfqi8IxAQ&expires=1760366974",
-      "iframe_url": "https://streambtw.com/iframe/nfl4.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/nfl4.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Los Angeles Chargers vs Miami Dolphins",
-      "sport": "NFL",
-      "link": "https://streambtw.com/iframe/nfl5.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl5.m3u8?md5=Mhv8GzEnP238PokiYSNPrQ&expires=1760366976",
-      "iframe_url": "https://streambtw.com/iframe/nfl5.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/nfl5.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Los Angeles Rams vs Baltimore Ravens",
-      "sport": "NFL",
-      "link": "https://streambtw.com/iframe/nfl6.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl6.m3u8?md5=1XFiN8vwrtAYDsPuOIBmlw&expires=1760366978",
-      "iframe_url": "https://streambtw.com/iframe/nfl6.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/nfl6.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "New Orleans Saints vs New England Patriots",
-      "sport": "NFL",
-      "link": "https://streambtw.com/iframe/nfl7.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl7.m3u8?md5=RqNojXYp7T-5NUkxszsFwg&expires=1760366980",
-      "iframe_url": "https://streambtw.com/iframe/nfl7.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/nfl7.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Seattle Seahawks vs Jacksonville Jaguars",
-      "sport": "NFL",
-      "link": "https://streambtw.com/iframe/nfl8.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl8.m3u8?md5=GZt2fvTV_5IjLGWEZmviBw&expires=1760366982",
-      "iframe_url": "https://streambtw.com/iframe/nfl8.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/nfl8.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Tennessee Titans vs Las Vegas Raiders",
-      "sport": "NFL",
-      "link": "https://streambtw.com/iframe/nfl9.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl9.m3u8?md5=qzW34XXCGui6nRCium8ZqQ&expires=1760366984",
-      "iframe_url": "https://streambtw.com/iframe/nfl9.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/nfl9.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Cincinnati Bengals vs Green Bay Packers",
-      "sport": "NFL",
-      "link": "https://streambtw.com/iframe/nfl10.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl10.m3u8?md5=NJTGK2YxflCwxYrU17_JxA&expires=1760366986",
-      "iframe_url": "https://streambtw.com/iframe/nfl10.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/nfl10.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "San Francisco 49ers vs Tampa Bay Buccaneers",
-      "sport": "NFL",
-      "link": "https://streambtw.com/iframe/nfl11.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl11.m3u8?md5=0sGGGh4SXv3eYj2bxFV9bw&expires=1760366988",
-      "iframe_url": "https://streambtw.com/iframe/nfl11.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/nfl11.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Kansas City Chiefs vs Detroit Lions",
-      "sport": "NFL",
-      "link": "https://streambtw.com/iframe/nfl1.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl1.m3u8?md5=6SQI9TSsgJw-xYBrK32R7A&expires=1760366989",
-      "iframe_url": "https://streambtw.com/iframe/nfl1.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/nfl1.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Phoenix Suns vs Brooklyn Nets",
+      "title": "Atlanta Hawks vs Miami Heat",
       "sport": "NBA",
       "link": "https://streambtw.com/iframe/nba1.php",
       "thumbnail": "https://artwork.espncdn.com/categories/7b3729c9-7f69-308a-bf8a-ee15a6aba154/logo/original_20191002200202.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba1.m3u8?md5=T78N1WY051qyZYuJRrzgQg&expires=1760366991",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba1.m3u8?md5=CT4kfIV0iuBJz9Tn4wV2lQ&expires=1760370253",
       "iframe_url": "https://streambtw.com/iframe/nba1.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -290,31 +195,11 @@
       "source": "streambtw"
     },
     {
-      "title": "Washington Wizards vs Toronto Raptors",
-      "sport": "NBA",
-      "link": "https://streambtw.com/iframe/nba1.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/7b3729c9-7f69-308a-bf8a-ee15a6aba154/logo/original_20191002200202.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba1.m3u8?md5=jV8gu9phiLzxozVR3ZtOxQ&expires=1760366993",
-      "iframe_url": "https://streambtw.com/iframe/nba1.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/nba1.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Orlando Magic vs Miami Heat",
+      "title": "Indiana Pacers vs San Antonio Spurs",
       "sport": "NBA",
       "link": "https://streambtw.com/iframe/nba2.php",
       "thumbnail": "https://artwork.espncdn.com/categories/7b3729c9-7f69-308a-bf8a-ee15a6aba154/logo/original_20191002200202.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba2.m3u8?md5=e_U7CRgcy90x4Oh_KVBEwQ&expires=1760366995",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba2.m3u8?md5=LWeo8m6aSBau356AuRq9uw&expires=1760370255",
       "iframe_url": "https://streambtw.com/iframe/nba2.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -330,11 +215,11 @@
       "source": "streambtw"
     },
     {
-      "title": "Chicago Bulls vs Milwaukee Bucks",
+      "title": "New York Knicks vs Washington Wizards",
       "sport": "NBA",
       "link": "https://streambtw.com/iframe/nba3.php",
       "thumbnail": "https://artwork.espncdn.com/categories/7b3729c9-7f69-308a-bf8a-ee15a6aba154/logo/original_20191002200202.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba3.m3u8?md5=CaNSwvNkJFOetJKU-blpJA&expires=1760366996",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba3.m3u8?md5=xxtRBR1NuFN9zGNLMwiLRQ&expires=1760370257",
       "iframe_url": "https://streambtw.com/iframe/nba3.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -350,135 +235,15 @@
       "source": "streambtw"
     },
     {
-      "title": "Boston Celtics vs Cleveland Cavaliers",
+      "title": "Utah Jazz vs Dallas Mavericks",
       "sport": "NBA",
-      "link": "https://streambtw.com/iframe/nba4.php",
+      "link": "https://streambtw.com/iframe/nba1.php",
       "thumbnail": "https://artwork.espncdn.com/categories/7b3729c9-7f69-308a-bf8a-ee15a6aba154/logo/original_20191002200202.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba4.m3u8?md5=7PWkMZDRnU2l0MVmZ4sqow&expires=1760366998",
-      "iframe_url": "https://streambtw.com/iframe/nba4.php",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba1.m3u8?md5=GHm5eHklS9GJUez01TGQLQ&expires=1760370260",
+      "iframe_url": "https://streambtw.com/iframe/nba1.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/nba4.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Los Angeles Lakers vs Golden State Warriors",
-      "sport": "NBA",
-      "link": "https://streambtw.com/iframe/nba5.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/7b3729c9-7f69-308a-bf8a-ee15a6aba154/logo/original_20191002200202.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba5.m3u8?md5=N1TeQqJZant8b5OupgmDKQ&expires=1760366999",
-      "iframe_url": "https://streambtw.com/iframe/nba5.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/nba5.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "LA Clippers vs Denver Nuggets",
-      "sport": "NBA",
-      "link": "https://streambtw.com/iframe/nba6.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/7b3729c9-7f69-308a-bf8a-ee15a6aba154/logo/original_20191002200202.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba4.m3u8?md5=2Pv8QYJWaTdVN9EdF5dHLQ&expires=1760367001",
-      "iframe_url": "https://streambtw.com/iframe/nba6.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/nba6.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "San Marino vs Cyprus",
-      "sport": "SOCCER",
-      "link": "https://streambtw.com/iframe/ch1.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/119cfa41-71d4-39bf-a790-6273a52b0259/logo/original_201809051718.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=4YVMP8zTP8zs5sczyb7ShA&expires=1760367003",
-      "iframe_url": "https://streambtw.com/iframe/ch1.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch1.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Scotland vs Belarus",
-      "sport": "SOCCER",
-      "link": "https://streambtw.com/iframe/ch1.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/119cfa41-71d4-39bf-a790-6273a52b0259/logo/original_201809051718.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=03oiOdhcM6J-8tcP6gJ5GA&expires=1760367004",
-      "iframe_url": "https://streambtw.com/iframe/ch1.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch1.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Netherlands vs Finland",
-      "sport": "SOCCER",
-      "link": "https://streambtw.com/iframe/ch2.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/119cfa41-71d4-39bf-a790-6273a52b0259/logo/original_201809051718.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_2.m3u8?md5=krR-zq0nNvj5YisFI5ZL1A&expires=1760367006",
-      "iframe_url": "https://streambtw.com/iframe/ch2.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch2.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Lithuania vs Poland",
-      "sport": "SOCCER",
-      "link": "https://streambtw.com/iframe/ch2.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/119cfa41-71d4-39bf-a790-6273a52b0259/logo/original_201809051718.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_2.m3u8?md5=X7jcelhGsXh1Sts5f5h3Fw&expires=1760367007",
-      "iframe_url": "https://streambtw.com/iframe/ch2.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch2.php",
+        "Referer": "https://streambtw.com/iframe/nba1.php",
         "Origin": "https://streambtw.com",
         "Accept": "*/*",
         "Accept-Language": "en-US,en;q=0.9",
@@ -491,28 +256,6 @@
     }
   ],
   "unmatched_ptv": [
-    {
-      "title": "Buffalo Bills vs. Atlanta Falcons",
-      "category": "American Football",
-      "tag": "ESPN",
-      "thumbnail": "https://ppv.to/assets/thumb/c3ade8302fcf97c81201a3a90fc80906-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/atlantafalcons/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nfl/2932/2932-atl",
-      "starts_at": 1760397300,
-      "ends_at": 1760409900,
-      "source": "ptv"
-    },
-    {
-      "title": "Chicago Bears vs. Washington Commanders",
-      "category": "American Football",
-      "tag": "ABC",
-      "thumbnail": "https://ppv.to/assets/thumb/6a286e12623b02265593ea56a953bbd6-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/washingtoncommanders/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nfl/2324/2324-was",
-      "starts_at": 1760400900,
-      "ends_at": 1760413500,
-      "source": "ptv"
-    },
     {
       "title": "Seattle Mariners vs. Toronto Blue Jays",
       "category": "Baseball",
@@ -588,28 +331,6 @@
       "iframe_url": "https://embednow.top/embed/nba/10-13-2025/dal-uta",
       "starts_at": 1760403600,
       "ends_at": 1760413500,
-      "source": "ptv"
-    },
-    {
-      "title": "Iceland vs. France",
-      "category": "Football",
-      "tag": "WC Qualifying",
-      "thumbnail": "https://ppv.to/assets/thumb/f15054458c765e15f9cf6edadee32f64-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/wc_iceland/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/wc/2025-10-13/isl-fra",
-      "starts_at": 1760381100,
-      "ends_at": 1760391900,
-      "source": "ptv"
-    },
-    {
-      "title": "Northern Ireland vs. Germany",
-      "category": "Football",
-      "tag": "WC Qualifying",
-      "thumbnail": "https://ppv.to/assets/thumb/4f6917e512d9a6f3e2b50ad6195dffe8-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/wc_northern-ireland/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/wc/2025-10-13/nir-ger",
-      "starts_at": 1760381100,
-      "ends_at": 1760391900,
       "source": "ptv"
     },
     {
