@@ -1,103 +1,20 @@
 {
   "metadata": {
-    "generated_at": "2025-10-14T05:15:47.724421",
-    "total_merged": 2,
-    "total_unmatched_streambtw": 6,
-    "total_unmatched_ptv": 75,
+    "generated_at": "2025-10-14T06:24:59.072122",
+    "total_merged": 0,
+    "total_unmatched_streambtw": 8,
+    "total_unmatched_ptv": 66,
     "streambtw_source": "https://raw.githubusercontent.com/albinchristo04/arda/refs/heads/main/streambtw_data.json",
     "ptv_source": "https://raw.githubusercontent.com/albinchristo04/ptv/refs/heads/main/events_with_m3u8.json"
   },
-  "merged_events": [
-    {
-      "title": "Atlanta Falcons vs Buffalo Bills",
-      "alternative_title": "Buffalo Bills vs. Atlanta Falcons",
-      "match_confidence": 0.95,
-      "sport": "NFL",
-      "category": "American Football",
-      "sources": {
-        "streambtw": {
-          "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
-          "m3u8_url": "https://streameast247.com/playlist/stream_nfl1.m3u8?md5=pPRgcFh5sq3flsjsxxbkDA&expires=1760420588",
-          "iframe_url": "https://streambtw.com/iframe/nfl1.php",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "Referer": "https://streambtw.com/iframe/nfl1.php",
-            "Origin": "https://streambtw.com",
-            "Accept": "*/*",
-            "Accept-Language": "en-US,en;q=0.9",
-            "Connection": "keep-alive",
-            "Sec-Fetch-Dest": "empty",
-            "Sec-Fetch-Mode": "cors",
-            "Sec-Fetch-Site": "cross-site"
-          }
-        },
-        "ptv": {
-          "thumbnail": "https://ppv.to/assets/thumb/c3ade8302fcf97c81201a3a90fc80906-thumbnail.jpg",
-          "m3u8_url": "https://gg.poocloud.in/atlantafalcons/index.m3u8",
-          "iframe_url": "https://embednow.top/embed/nfl/2932/2932-atl",
-          "tag": "ESPN",
-          "starts_at": 1760397300,
-          "ends_at": 1760409900
-        }
-      },
-      "all_m3u8_urls": [
-        "https://streameast247.com/playlist/stream_nfl1.m3u8?md5=pPRgcFh5sq3flsjsxxbkDA&expires=1760420588",
-        "https://gg.poocloud.in/atlantafalcons/index.m3u8"
-      ],
-      "all_iframes": [
-        "https://streambtw.com/iframe/nfl1.php",
-        "https://embednow.top/embed/nfl/2932/2932-atl"
-      ]
-    },
-    {
-      "title": "Washington Commanders vs Chicago Bears",
-      "alternative_title": "Chicago Bears vs. Washington Commanders",
-      "match_confidence": 0.95,
-      "sport": "NFL",
-      "category": "American Football",
-      "sources": {
-        "streambtw": {
-          "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
-          "m3u8_url": "https://streameast247.com/playlist/stream_nfl2.m3u8?md5=RDs1qqAp87WEmNkse-J1zw&expires=1760420591",
-          "iframe_url": "https://streambtw.com/iframe/nfl2.php",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "Referer": "https://streambtw.com/iframe/nfl2.php",
-            "Origin": "https://streambtw.com",
-            "Accept": "*/*",
-            "Accept-Language": "en-US,en;q=0.9",
-            "Connection": "keep-alive",
-            "Sec-Fetch-Dest": "empty",
-            "Sec-Fetch-Mode": "cors",
-            "Sec-Fetch-Site": "cross-site"
-          }
-        },
-        "ptv": {
-          "thumbnail": "https://ppv.to/assets/thumb/6a286e12623b02265593ea56a953bbd6-thumbnail.jpg",
-          "m3u8_url": "https://gg.poocloud.in/washingtoncommanders/index.m3u8",
-          "iframe_url": "https://embednow.top/embed/nfl/2324/2324-was",
-          "tag": "ABC",
-          "starts_at": 1760400900,
-          "ends_at": 1760413500
-        }
-      },
-      "all_m3u8_urls": [
-        "https://streameast247.com/playlist/stream_nfl2.m3u8?md5=RDs1qqAp87WEmNkse-J1zw&expires=1760420591",
-        "https://gg.poocloud.in/washingtoncommanders/index.m3u8"
-      ],
-      "all_iframes": [
-        "https://streambtw.com/iframe/nfl2.php",
-        "https://embednow.top/embed/nfl/2324/2324-was"
-      ]
-    }
-  ],
+  "merged_events": [],
   "unmatched_streambtw": [
     {
       "title": "Iceland vs France",
       "sport": "SOCCER",
       "link": "https://streambtw.com/iframe/ch1.php",
       "thumbnail": "https://artwork.espncdn.com/categories/119cfa41-71d4-39bf-a790-6273a52b0259/logo/original_201809051718.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=LjSh2KwVryw4SRtspIc4KQ&expires=1760420583",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=q7j8JYXHPO_zd2JuSXAwsQ&expires=1760424029",
       "iframe_url": "https://streambtw.com/iframe/ch1.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -117,7 +34,7 @@
       "sport": "SOCCER",
       "link": "https://streambtw.com/iframe/ch2.php",
       "thumbnail": "https://artwork.espncdn.com/categories/119cfa41-71d4-39bf-a790-6273a52b0259/logo/original_201809051718.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_2.m3u8?md5=bTe1-Psj-K7IFguvfYRhSQ&expires=1760420586",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_2.m3u8?md5=9jG5BsCar2K-yuw-Krjh0A&expires=1760424033",
       "iframe_url": "https://streambtw.com/iframe/ch2.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -133,11 +50,51 @@
       "source": "streambtw"
     },
     {
+      "title": "Atlanta Falcons vs Buffalo Bills",
+      "sport": "NFL",
+      "link": "https://streambtw.com/iframe/nfl1.php",
+      "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
+      "m3u8_url": "https://streameast247.com/playlist/stream_nfl1.m3u8?md5=tLebjxstG1pRuDE17NUnFA&expires=1760424035",
+      "iframe_url": "https://streambtw.com/iframe/nfl1.php",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Referer": "https://streambtw.com/iframe/nfl1.php",
+        "Origin": "https://streambtw.com",
+        "Accept": "*/*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Connection": "keep-alive",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "cross-site"
+      },
+      "source": "streambtw"
+    },
+    {
+      "title": "Washington Commanders vs Chicago Bears",
+      "sport": "NFL",
+      "link": "https://streambtw.com/iframe/nfl2.php",
+      "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
+      "m3u8_url": "https://streameast247.com/playlist/stream_nfl2.m3u8?md5=R8OirTekgg_IUTrVVyXUGQ&expires=1760424037",
+      "iframe_url": "https://streambtw.com/iframe/nfl2.php",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Referer": "https://streambtw.com/iframe/nfl2.php",
+        "Origin": "https://streambtw.com",
+        "Accept": "*/*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Connection": "keep-alive",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "cross-site"
+      },
+      "source": "streambtw"
+    },
+    {
       "title": "Atlanta Hawks vs Miami Heat",
       "sport": "NBA",
       "link": "https://streambtw.com/iframe/nba1.php",
       "thumbnail": "https://artwork.espncdn.com/categories/7b3729c9-7f69-308a-bf8a-ee15a6aba154/logo/original_20191002200202.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba1.m3u8?md5=vzlvYiFAyPb1_BktPdxZ6g&expires=1760420593",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba1.m3u8?md5=OvnYnuZkOIE5qzqCMamLzw&expires=1760424039",
       "iframe_url": "https://streambtw.com/iframe/nba1.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -157,7 +114,7 @@
       "sport": "NBA",
       "link": "https://streambtw.com/iframe/nba2.php",
       "thumbnail": "https://artwork.espncdn.com/categories/7b3729c9-7f69-308a-bf8a-ee15a6aba154/logo/original_20191002200202.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba2.m3u8?md5=QWL-MXF-1pxGKo7zUKgyCQ&expires=1760420595",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba2.m3u8?md5=iNtffo9cqF7-yPj-4Ben6A&expires=1760424041",
       "iframe_url": "https://streambtw.com/iframe/nba2.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -177,7 +134,7 @@
       "sport": "NBA",
       "link": "https://streambtw.com/iframe/nba3.php",
       "thumbnail": "https://artwork.espncdn.com/categories/7b3729c9-7f69-308a-bf8a-ee15a6aba154/logo/original_20191002200202.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba3.m3u8?md5=-5CxDUfGdidhCm6dhiU4jQ&expires=1760420597",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba3.m3u8?md5=NFVwfX4KOoE5rPa8De-ePQ&expires=1760424043",
       "iframe_url": "https://streambtw.com/iframe/nba3.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -197,7 +154,7 @@
       "sport": "NBA",
       "link": "https://streambtw.com/iframe/nba1.php",
       "thumbnail": "https://artwork.espncdn.com/categories/7b3729c9-7f69-308a-bf8a-ee15a6aba154/logo/original_20191002200202.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba1.m3u8?md5=9U4eVqS4vJqIN7B2f2uZAw&expires=1760420599",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba1.m3u8?md5=sEok25ca8hYIf5OjAbTmng&expires=1760424044",
       "iframe_url": "https://streambtw.com/iframe/nba1.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -220,53 +177,9 @@
       "tag": "TBS",
       "thumbnail": "https://ppv.to/assets/thumb/ca73eed674d702bdfaa68d1a4d9270af-thumbnail.jpg",
       "m3u8_url": "https://gg.poocloud.in/brewers/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/mlb/2025-10-13/8511-mil",
-      "starts_at": 1760400480,
-      "ends_at": 1760411280,
-      "source": "ptv"
-    },
-    {
-      "title": "Spurs at Pacers",
-      "category": "Basketball",
-      "tag": "FDSNIN",
-      "thumbnail": "https://ppv.to/assets/thumb/ee3d5542f6cca2b4af9baac300364e8a-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/pacers/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nba/10-13-2025/sas-ind",
-      "starts_at": 1760396400,
-      "ends_at": 1760406300,
-      "source": "ptv"
-    },
-    {
-      "title": "Wizards at Knicks",
-      "category": "Basketball",
-      "tag": "MSG",
-      "thumbnail": "https://ppv.to/assets/thumb/5790968d66ae4bef555211560d56ceda-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/knicks/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nba/10-13-2025/was-nyk",
-      "starts_at": 1760398200,
-      "ends_at": 1760408100,
-      "source": "ptv"
-    },
-    {
-      "title": "Loong-Lions at Timberwolves",
-      "category": "Basketball",
-      "tag": "Timberwolves Broadcast",
-      "thumbnail": "https://ppv.to/assets/thumb/19c47e5780a1cd850816e3c0efcae7cb-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/timberwolves/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nba/10-13-2025/gua-min",
-      "starts_at": 1760400000,
-      "ends_at": 1760409900,
-      "source": "ptv"
-    },
-    {
-      "title": "Mavericks at Jazz",
-      "category": "Basketball",
-      "tag": "NBA TV",
-      "thumbnail": "https://ppv.to/assets/thumb/dc4027ec58c6b324f4bcb61ba9e99515-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/jazz/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nba/10-13-2025/dal-uta",
-      "starts_at": 1760403600,
-      "ends_at": 1760413500,
+      "iframe_url": "https://embednow.top/embed/mlb/2025-10-14/5859-mil",
+      "starts_at": 1760486880,
+      "ends_at": 1760497680,
       "source": "ptv"
     },
     {
@@ -875,61 +788,6 @@
       "source": "ptv"
     },
     {
-      "title": "Florida Panthers vs. Philadelphia Flyers",
-      "category": "Ice Hockey",
-      "tag": "NBC Sports Phil",
-      "thumbnail": "https://ppv.to/assets/thumb/fc3aa02621393ba56e03888a4432b22f-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/philadelphiaflyers/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nhl/9816/9816-phi",
-      "starts_at": 1760396400,
-      "ends_at": 1760407200,
-      "source": "ptv"
-    },
-    {
-      "title": "New Jersey Devils vs. Columbus Blue Jackets",
-      "category": "Ice Hockey",
-      "tag": "FanDuel SN OH",
-      "thumbnail": "https://ppv.to/assets/thumb/08b4064fd02633429dbe65779290ce71-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/columbusbluejackets/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nhl/1272/1272-cbj",
-      "starts_at": 1760396400,
-      "ends_at": 1760407200,
-      "source": "ptv"
-    },
-    {
-      "title": "St. Louis Blues vs. Vancouver Canucks",
-      "category": "Ice Hockey",
-      "tag": "ESPN+",
-      "thumbnail": "https://ppv.to/assets/thumb/f1996e7d4c53457c0baf99a77d62732f-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/vancouvercanucks/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nhl/3491/3491-van",
-      "starts_at": 1760398200,
-      "ends_at": 1760409000,
-      "source": "ptv"
-    },
-    {
-      "title": "Los Angeles Kings vs. Minnesota Wild",
-      "category": "Ice Hockey",
-      "tag": "FanDuel SN North",
-      "thumbnail": "https://ppv.to/assets/thumb/5d62e95423a45787e4006c2a87d77bb1-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/minnesotawild/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nhl/7344/7344-min",
-      "starts_at": 1760400000,
-      "ends_at": 1760410800,
-      "source": "ptv"
-    },
-    {
-      "title": "Utah Mammoth vs. Chicago Blackhawks",
-      "category": "Ice Hockey",
-      "tag": "CHSN",
-      "thumbnail": "https://ppv.to/assets/thumb/12bda642ccfe85dd991a20e1a6deea16-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/chicagoblackhawks/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nhl/7738/7738-chi",
-      "starts_at": 1760401800,
-      "ends_at": 1760412600,
-      "source": "ptv"
-    },
-    {
       "title": "WWE: NXT",
       "category": "Wrestling",
       "tag": "Netflix",
@@ -1007,7 +865,7 @@
       "source": "ptv"
     },
     {
-      "title": "24/7 Family‌​​​​‌‌‌​‌‌‌​‌‌‌‌‌‌​‌‌​‌​‌​​​‌‌​ Guy",
+      "title": "24/7 Family‌​​‌​​​‌‌​​​​‌​​​‌‌​​​‌‌​‌‌​​‌‌‌ Guy",
       "category": "24/7 Streams",
       "tag": "24/7 channel",
       "thumbnail": "https://thumbs.poocloud.in/familyguy/preview.jpg",
