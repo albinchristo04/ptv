@@ -1,144 +1,80 @@
 {
   "metadata": {
-    "generated_at": "2025-10-14T23:14:43.263196",
-    "total_merged": 3,
-    "total_unmatched_streambtw": 6,
-    "total_unmatched_ptv": 77,
+    "generated_at": "2025-10-15T01:14:53.020172",
+    "total_merged": 0,
+    "total_unmatched_streambtw": 9,
+    "total_unmatched_ptv": 108,
     "streambtw_source": "https://raw.githubusercontent.com/albinchristo04/arda/refs/heads/main/streambtw_data.json",
     "ptv_source": "https://raw.githubusercontent.com/albinchristo04/ptv/refs/heads/main/events_with_m3u8.json"
   },
-  "merged_events": [
+  "merged_events": [],
+  "unmatched_streambtw": [
     {
       "title": "Latvia vs England",
-      "alternative_title": "Latvia vs. England",
-      "match_confidence": 1.0,
       "sport": "SOCCER",
-      "category": "Football",
-      "sources": {
-        "streambtw": {
-          "thumbnail": "https://artwork.espncdn.com/categories/119cfa41-71d4-39bf-a790-6273a52b0259/logo/original_201809051718.svg",
-          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=JICjezHpD0nKmg92v7PEgg&expires=1760485212",
-          "iframe_url": "https://streambtw.com/iframe/ch1.php",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "Referer": "https://streambtw.com/iframe/ch1.php",
-            "Origin": "https://streambtw.com",
-            "Accept": "*/*",
-            "Accept-Language": "en-US,en;q=0.9",
-            "Connection": "keep-alive",
-            "Sec-Fetch-Dest": "empty",
-            "Sec-Fetch-Mode": "cors",
-            "Sec-Fetch-Site": "cross-site"
-          }
-        },
-        "ptv": {
-          "thumbnail": "https://ppv.to/assets/thumb/e13f634176738b3078bac80b11d13b9f-thumbnail.jpg",
-          "m3u8_url": "https://gg.poocloud.in/wc_latvia/index.m3u8",
-          "iframe_url": "https://embednow.top/embed/wc/2025-10-14/lva-eng",
-          "tag": "WC Qualifying",
-          "starts_at": 1760467500,
-          "ends_at": 1760478300
-        }
+      "link": "https://streambtw.com/iframe/ch1.php",
+      "thumbnail": "https://artwork.espncdn.com/categories/119cfa41-71d4-39bf-a790-6273a52b0259/logo/original_201809051718.svg",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=DWLji3ab1eDRUHUp5G5NzA&expires=1760488663",
+      "iframe_url": "https://streambtw.com/iframe/ch1.php",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Referer": "https://streambtw.com/iframe/ch1.php",
+        "Origin": "https://streambtw.com",
+        "Accept": "*/*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Connection": "keep-alive",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "cross-site"
       },
-      "all_m3u8_urls": [
-        "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=JICjezHpD0nKmg92v7PEgg&expires=1760485212",
-        "https://gg.poocloud.in/wc_latvia/index.m3u8"
-      ],
-      "all_iframes": [
-        "https://streambtw.com/iframe/ch1.php",
-        "https://embednow.top/embed/wc/2025-10-14/lva-eng"
-      ]
+      "source": "streambtw"
     },
     {
       "title": "Portugal vs Hungary",
-      "alternative_title": "Portugal vs. Hungary",
-      "match_confidence": 1.0,
       "sport": "SOCCER",
-      "category": "Football",
-      "sources": {
-        "streambtw": {
-          "thumbnail": "https://artwork.espncdn.com/categories/119cfa41-71d4-39bf-a790-6273a52b0259/logo/original_201809051718.svg",
-          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_2.m3u8?md5=SXM6GWz7tIQBag1NsANvmw&expires=1760485215",
-          "iframe_url": "https://streambtw.com/iframe/ch2.php",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "Referer": "https://streambtw.com/iframe/ch2.php",
-            "Origin": "https://streambtw.com",
-            "Accept": "*/*",
-            "Accept-Language": "en-US,en;q=0.9",
-            "Connection": "keep-alive",
-            "Sec-Fetch-Dest": "empty",
-            "Sec-Fetch-Mode": "cors",
-            "Sec-Fetch-Site": "cross-site"
-          }
-        },
-        "ptv": {
-          "thumbnail": "https://ppv.to/assets/thumb/ecf268577dbe645129ea8c0cc388430d-thumbnail.jpg",
-          "m3u8_url": "https://gg.poocloud.in/wc_portugal/index.m3u8",
-          "iframe_url": "https://embednow.top/embed/wc/2025-10-14/por-hun",
-          "tag": "WC Qualifying",
-          "starts_at": 1760467500,
-          "ends_at": 1760478300
-        }
+      "link": "https://streambtw.com/iframe/ch2.php",
+      "thumbnail": "https://artwork.espncdn.com/categories/119cfa41-71d4-39bf-a790-6273a52b0259/logo/original_201809051718.svg",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_2.m3u8?md5=FgVM7awnl3mSOFUZY5UT7A&expires=1760488665",
+      "iframe_url": "https://streambtw.com/iframe/ch2.php",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Referer": "https://streambtw.com/iframe/ch2.php",
+        "Origin": "https://streambtw.com",
+        "Accept": "*/*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Connection": "keep-alive",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "cross-site"
       },
-      "all_m3u8_urls": [
-        "https://playlist.streameast247.com/playlist/stream_2.m3u8?md5=SXM6GWz7tIQBag1NsANvmw&expires=1760485215",
-        "https://gg.poocloud.in/wc_portugal/index.m3u8"
-      ],
-      "all_iframes": [
-        "https://streambtw.com/iframe/ch2.php",
-        "https://embednow.top/embed/wc/2025-10-14/por-hun"
-      ]
+      "source": "streambtw"
     },
     {
       "title": "Spain vs Bulgaria",
-      "alternative_title": "Spain vs. Bulgaria",
-      "match_confidence": 1.0,
       "sport": "SOCCER",
-      "category": "Football",
-      "sources": {
-        "streambtw": {
-          "thumbnail": "https://artwork.espncdn.com/categories/119cfa41-71d4-39bf-a790-6273a52b0259/logo/original_201809051718.svg",
-          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_3.m3u8?md5=JSkDW9L13wF5sATky8FCKg&expires=1760485217",
-          "iframe_url": "https://streambtw.com/iframe/ch3.php",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "Referer": "https://streambtw.com/iframe/ch3.php",
-            "Origin": "https://streambtw.com",
-            "Accept": "*/*",
-            "Accept-Language": "en-US,en;q=0.9",
-            "Connection": "keep-alive",
-            "Sec-Fetch-Dest": "empty",
-            "Sec-Fetch-Mode": "cors",
-            "Sec-Fetch-Site": "cross-site"
-          }
-        },
-        "ptv": {
-          "thumbnail": "https://ppv.to/assets/thumb/6eacb421b602db7b1657ef835d2ebe5d-thumbnail.jpg",
-          "m3u8_url": "https://gg.poocloud.in/wc_spain/index.m3u8",
-          "iframe_url": "https://embednow.top/embed/wc/2025-10-14/esp-bul",
-          "tag": "WC Qualifying",
-          "starts_at": 1760467500,
-          "ends_at": 1760478300
-        }
+      "link": "https://streambtw.com/iframe/ch3.php",
+      "thumbnail": "https://artwork.espncdn.com/categories/119cfa41-71d4-39bf-a790-6273a52b0259/logo/original_201809051718.svg",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_3.m3u8?md5=g02J-aa9oWZG1jOD9z5idQ&expires=1760488666",
+      "iframe_url": "https://streambtw.com/iframe/ch3.php",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Referer": "https://streambtw.com/iframe/ch3.php",
+        "Origin": "https://streambtw.com",
+        "Accept": "*/*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Connection": "keep-alive",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "cross-site"
       },
-      "all_m3u8_urls": [
-        "https://playlist.streameast247.com/playlist/stream_3.m3u8?md5=JSkDW9L13wF5sATky8FCKg&expires=1760485217",
-        "https://gg.poocloud.in/wc_spain/index.m3u8"
-      ],
-      "all_iframes": [
-        "https://streambtw.com/iframe/ch3.php",
-        "https://embednow.top/embed/wc/2025-10-14/esp-bul"
-      ]
-    }
-  ],
-  "unmatched_streambtw": [
+      "source": "streambtw"
+    },
     {
       "title": "Cleveland Cavaliers vs Detroit Pistons",
       "sport": "NBA",
       "link": "https://streambtw.com/iframe/nba1.php",
       "thumbnail": "https://artwork.espncdn.com/categories/7b3729c9-7f69-308a-bf8a-ee15a6aba154/logo/original_20191002200202.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba1.m3u8?md5=l2Yk4rxCVcbxOq0O1RPWAg&expires=1760485220",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba1.m3u8?md5=_beIIudcQY4l7TwZ2xQHfg&expires=1760488669",
       "iframe_url": "https://streambtw.com/iframe/nba1.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -158,7 +94,7 @@
       "sport": "NBA",
       "link": "https://streambtw.com/iframe/nba2.php",
       "thumbnail": "https://artwork.espncdn.com/categories/7b3729c9-7f69-308a-bf8a-ee15a6aba154/logo/original_20191002200202.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba2.m3u8?md5=xayY-T0ZmngWY_gz4j8_yQ&expires=1760485221",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba2.m3u8?md5=rEAaD4z4Q09vdx27RCy8pw&expires=1760488670",
       "iframe_url": "https://streambtw.com/iframe/nba2.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -178,7 +114,7 @@
       "sport": "NBA",
       "link": "https://streambtw.com/iframe/nba3.php",
       "thumbnail": "https://artwork.espncdn.com/categories/7b3729c9-7f69-308a-bf8a-ee15a6aba154/logo/original_20191002200202.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba3.m3u8?md5=F124okveZ-TIGdsbGpz8hg&expires=1760485223",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba3.m3u8?md5=YZAbGJym0rUdf2q2gMOxyg&expires=1760488672",
       "iframe_url": "https://streambtw.com/iframe/nba3.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -198,7 +134,7 @@
       "sport": "NBA",
       "link": "https://streambtw.com/iframe/nba4.php",
       "thumbnail": "https://artwork.espncdn.com/categories/7b3729c9-7f69-308a-bf8a-ee15a6aba154/logo/original_20191002200202.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba4.m3u8?md5=ejpAbTNrx4vqYq2qCC_j4A&expires=1760485225",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba4.m3u8?md5=6vC908jsTfK3drWiosUgOw&expires=1760488674",
       "iframe_url": "https://streambtw.com/iframe/nba4.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -218,7 +154,7 @@
       "sport": "NBA",
       "link": "https://streambtw.com/iframe/nba5.php",
       "thumbnail": "https://artwork.espncdn.com/categories/7b3729c9-7f69-308a-bf8a-ee15a6aba154/logo/original_20191002200202.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba5.m3u8?md5=g6vKD1ofD75hQrfjZ6YPCA&expires=1760485227",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba5.m3u8?md5=7TSdnHYnRa4PVEvaENShJw&expires=1760488676",
       "iframe_url": "https://streambtw.com/iframe/nba5.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -238,7 +174,7 @@
       "sport": "NBA",
       "link": "https://streambtw.com/iframe/nba6.php",
       "thumbnail": "https://artwork.espncdn.com/categories/7b3729c9-7f69-308a-bf8a-ee15a6aba154/logo/original_20191002200202.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba4.m3u8?md5=tXr3iU_-fhdHA5ZYzImvVA&expires=1760485228",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nba4.m3u8?md5=ZAi-srNQnoxaaTGlRDm3GQ&expires=1760488678",
       "iframe_url": "https://streambtw.com/iframe/nba6.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -255,6 +191,391 @@
     }
   ],
   "unmatched_ptv": [
+    {
+      "title": "Pittsburgh Steelers vs. Cincinnati Bengals",
+      "category": "American Football",
+      "tag": "Prime Video",
+      "thumbnail": "https://ppv.to/assets/thumb/405b9413ae607f8fd2123f9c3a0cbb90-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/cincinnatibengals/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/nfl/2949/2949-cin",
+      "starts_at": 1760660100,
+      "ends_at": 1760672700,
+      "source": "ptv"
+    },
+    {
+      "title": "Louisville Cardinals vs. Miami Hurricanes",
+      "category": "American Football",
+      "tag": "ESPN",
+      "thumbnail": "https://ppv.to/assets/thumb/599eeffc5b6f147ad58821354cb16c5b-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/ESPN/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/cfb/3700-3700",
+      "starts_at": 1760742000,
+      "ends_at": 1760754600,
+      "source": "ptv"
+    },
+    {
+      "title": "Nebraska Cornhuskers vs. Minnesota Golden Gophers",
+      "category": "American Football",
+      "tag": "FOX",
+      "thumbnail": "https://ppv.to/assets/thumb/356fe891553390ebee1b34d1527a9ad5-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/FOX/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/cfb/5833-5833",
+      "starts_at": 1760745600,
+      "ends_at": 1760758200,
+      "source": "ptv"
+    },
+    {
+      "title": "LSU Tigers vs. Vanderbilt Commodores",
+      "category": "American Football",
+      "tag": "ABC",
+      "thumbnail": "https://ppv.to/assets/thumb/2700df029496ffe227519f67f265e58e-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/ABC/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/cfb/1501-1501",
+      "starts_at": 1760803200,
+      "ends_at": 1760815800,
+      "source": "ptv"
+    },
+    {
+      "title": "Georgia Tech Yellow Jackets vs. Duke Blue Devils",
+      "category": "American Football",
+      "tag": "ESPN",
+      "thumbnail": "https://ppv.to/assets/thumb/5a73568212d1596ad5f397d269608410-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/ESPN/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/cfb/3419-3419",
+      "starts_at": 1760803200,
+      "ends_at": 1760815800,
+      "source": "ptv"
+    },
+    {
+      "title": "Oklahoma Sooners vs. South Carolina Gamecocks",
+      "category": "American Football",
+      "tag": "SEC Network",
+      "thumbnail": "https://ppv.to/assets/thumb/508b5f9a364c0635db87bb8124b158f6-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/SEC Network/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/cfb/1867-1867",
+      "starts_at": 1760805900,
+      "ends_at": 1760818500,
+      "source": "ptv"
+    },
+    {
+      "title": "Ohio State Buckeyes vs. Wisconsin Badgers",
+      "category": "American Football",
+      "tag": "CBS",
+      "thumbnail": "https://ppv.to/assets/thumb/943ebb6e49a62bb817fa6f507f0ddc29-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/CBS/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/cfb/8318-8318",
+      "starts_at": 1760815800,
+      "ends_at": 1760828400,
+      "source": "ptv"
+    },
+    {
+      "title": "Michigan State Spartans vs. Indiana Hoosiers",
+      "category": "American Football",
+      "tag": "Peacock",
+      "thumbnail": "https://ppv.to/assets/thumb/11b2bcb191099b093a5d938740920f60-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/Peacock/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/cfb/4791-4791",
+      "starts_at": 1760815800,
+      "ends_at": 1760828400,
+      "source": "ptv"
+    },
+    {
+      "title": "Texas A&M Aggies vs. Arkansas Razorbacks",
+      "category": "American Football",
+      "tag": "ESPN",
+      "thumbnail": "https://ppv.to/assets/thumb/748f0a31a70558daca1f15acf3024181-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/ESPN/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/cfb/2891-2891",
+      "starts_at": 1760815800,
+      "ends_at": 1760828400,
+      "source": "ptv"
+    },
+    {
+      "title": "Ole Miss Rebels vs. Georgia Bulldogs",
+      "category": "American Football",
+      "tag": "ABC",
+      "thumbnail": "https://ppv.to/assets/thumb/9bbc1889d836b57258f9d64d7d254b38-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/ABC/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/cfb/4117-4117",
+      "starts_at": 1760815800,
+      "ends_at": 1760828400,
+      "source": "ptv"
+    },
+    {
+      "title": "Texas Tech Red Raiders vs. Arizona State Sun Devils",
+      "category": "American Football",
+      "tag": "FOX",
+      "thumbnail": "https://ppv.to/assets/thumb/35edc75a014b1c114ee7b271be30ed86-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/FOX/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/cfb/8171-8171",
+      "starts_at": 1760817600,
+      "ends_at": 1760830200,
+      "source": "ptv"
+    },
+    {
+      "title": "Memphis Tigers vs. UAB Blazers",
+      "category": "American Football",
+      "tag": "ESPN2",
+      "thumbnail": "https://ppv.to/assets/thumb/2fc6fdb97cd89e5a6eaafab95aa0d9a2-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/ESPN2/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/cfb/3440-3440",
+      "starts_at": 1760817600,
+      "ends_at": 1760830200,
+      "source": "ptv"
+    },
+    {
+      "title": "Oregon Ducks vs. Rutgers Scarlet Knights",
+      "category": "American Football",
+      "tag": "BTN",
+      "thumbnail": "https://ppv.to/assets/thumb/ac612105f2d135636ae6af42fb396d12-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/BTN/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/cfb/5553-5553",
+      "starts_at": 1760826600,
+      "ends_at": 1760839200,
+      "source": "ptv"
+    },
+    {
+      "title": "Washington State Cougars vs. Virginia Cavaliers",
+      "category": "American Football",
+      "tag": "The CW Network",
+      "thumbnail": "https://ppv.to/assets/thumb/d72f0aca94e53dc921a83132059ecd78-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/The CW Network/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/cfb/2665-2665",
+      "starts_at": 1760826600,
+      "ends_at": 1760839200,
+      "source": "ptv"
+    },
+    {
+      "title": "Texas Longhorns vs. Kentucky Wildcats",
+      "category": "American Football",
+      "tag": "ESPN",
+      "thumbnail": "https://ppv.to/assets/thumb/cb0bb59698150987818f5e8ae62561bc-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/ESPN/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/cfb/4821-4821",
+      "starts_at": 1760828400,
+      "ends_at": 1760841000,
+      "source": "ptv"
+    },
+    {
+      "title": "Tennessee Volunteers vs. Alabama Crimson Tide",
+      "category": "American Football",
+      "tag": "ABC",
+      "thumbnail": "https://ppv.to/assets/thumb/90452ac3da62cfdbb84ef049dd5b99fe-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/ABC/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/cfb/4047-4047",
+      "starts_at": 1760830200,
+      "ends_at": 1760842800,
+      "source": "ptv"
+    },
+    {
+      "title": "USC Trojans vs. Notre Dame Fighting Irish",
+      "category": "American Football",
+      "tag": "NBC",
+      "thumbnail": "https://ppv.to/assets/thumb/3bdd91e9e9e8e9f24990915ef7b176f4-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/NBC/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/cfb/8187-8187",
+      "starts_at": 1760830200,
+      "ends_at": 1760842800,
+      "source": "ptv"
+    },
+    {
+      "title": "Florida Atlantic Owls vs. South Florida Bulls",
+      "category": "American Football",
+      "tag": "ESPNU",
+      "thumbnail": "https://ppv.to/assets/thumb/66cf32c94559a01dab413e190176b9be-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/ESPNU/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/cfb/4568-4568",
+      "starts_at": 1760830200,
+      "ends_at": 1760842800,
+      "source": "ptv"
+    },
+    {
+      "title": "Missouri Tigers vs. Auburn Tigers",
+      "category": "American Football",
+      "tag": "SEC Network",
+      "thumbnail": "https://ppv.to/assets/thumb/6907d7e6c46be229da4ea27d04eb3c94-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/SEC Network/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/cfb/4487-4487",
+      "starts_at": 1760831100,
+      "ends_at": 1760843700,
+      "source": "ptv"
+    },
+    {
+      "title": "Utah Utes vs. BYU Cougars",
+      "category": "American Football",
+      "tag": "FOX",
+      "thumbnail": "https://ppv.to/assets/thumb/7b43f30b3394ed00b05337b37b76a0dd-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/FOX/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/cfb/7028-7028",
+      "starts_at": 1760832000,
+      "ends_at": 1760844600,
+      "source": "ptv"
+    },
+    {
+      "title": "Cincinnati Bearcats vs. Oklahoma State Cowboys",
+      "category": "American Football",
+      "tag": "ESPN2",
+      "thumbnail": "https://ppv.to/assets/thumb/a79683410ea891cc1eaec368f86210ab-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/ESPN2/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/cfb/4835-4835",
+      "starts_at": 1760832000,
+      "ends_at": 1760844600,
+      "source": "ptv"
+    },
+    {
+      "title": "Los Angeles Rams vs. Jacksonville Jaguars",
+      "category": "American Football",
+      "tag": "NFL Net",
+      "thumbnail": "https://ppv.to/assets/thumb/f0c340526630d405d9e7f7a22d77fb3b-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/jacksonvillejaguars/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/nfl/6356/6356-jax",
+      "starts_at": 1760880600,
+      "ends_at": 1760893200,
+      "source": "ptv"
+    },
+    {
+      "title": "New Orleans Saints vs. Chicago Bears",
+      "category": "American Football",
+      "tag": "FOX",
+      "thumbnail": "https://ppv.to/assets/thumb/0b9c8151cec271fe84826437c1002a50-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/chicagobears/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/nfl/2660/2660-chi",
+      "starts_at": 1760893200,
+      "ends_at": 1760905800,
+      "source": "ptv"
+    },
+    {
+      "title": "Miami Dolphins vs. Cleveland Browns",
+      "category": "American Football",
+      "tag": "CBS",
+      "thumbnail": "https://ppv.to/assets/thumb/6bac44b74eaf31f6fba042ffcc894e70-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/clevelandbrowns/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/nfl/1694/1694-cle",
+      "starts_at": 1760893200,
+      "ends_at": 1760905800,
+      "source": "ptv"
+    },
+    {
+      "title": "New England Patriots vs. Tennessee Titans",
+      "category": "American Football",
+      "tag": "CBS",
+      "thumbnail": "https://ppv.to/assets/thumb/14cca0a2646e3a653cc7b25183909b57-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/tennesseetitans/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/nfl/4767/4767-ten",
+      "starts_at": 1760893200,
+      "ends_at": 1760905800,
+      "source": "ptv"
+    },
+    {
+      "title": "Las Vegas Raiders vs. Kansas City Chiefs",
+      "category": "American Football",
+      "tag": "CBS",
+      "thumbnail": "https://ppv.to/assets/thumb/6fa582dc93aac6ea66731ec2dff6cbdd-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/kansascitychiefs/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/nfl/9886/9886-kc",
+      "starts_at": 1760893200,
+      "ends_at": 1760905800,
+      "source": "ptv"
+    },
+    {
+      "title": "Philadelphia Eagles vs. Minnesota Vikings",
+      "category": "American Football",
+      "tag": "FOX",
+      "thumbnail": "https://ppv.to/assets/thumb/847b0cd440680a5ae5872382c4b6c013-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/minnesotavikings/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/nfl/4344/4344-min",
+      "starts_at": 1760893200,
+      "ends_at": 1760905800,
+      "source": "ptv"
+    },
+    {
+      "title": "Carolina Panthers vs. New York Jets",
+      "category": "American Football",
+      "tag": "FOX",
+      "thumbnail": "https://ppv.to/assets/thumb/9526ed15a6be385ba852847d38a5db1a-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/newyorkjets/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/nfl/2443/2443-nyj",
+      "starts_at": 1760893200,
+      "ends_at": 1760905800,
+      "source": "ptv"
+    },
+    {
+      "title": "New York Giants vs. Denver Broncos",
+      "category": "American Football",
+      "tag": "CBS",
+      "thumbnail": "https://ppv.to/assets/thumb/999808ed1205e54637a9f4c79acbeafd-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/denverbroncos/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/nfl/3696/3696-den",
+      "starts_at": 1760904300,
+      "ends_at": 1760916900,
+      "source": "ptv"
+    },
+    {
+      "title": "Indianapolis Colts vs. Los Angeles Chargers",
+      "category": "American Football",
+      "tag": "CBS",
+      "thumbnail": "https://ppv.to/assets/thumb/c9364c95c583558525517aeb10df33e6-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/losangeleschargers/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/nfl/3018/3018-lac",
+      "starts_at": 1760904300,
+      "ends_at": 1760916900,
+      "source": "ptv"
+    },
+    {
+      "title": "Washington Commanders vs. Dallas Cowboys",
+      "category": "American Football",
+      "tag": "FOX",
+      "thumbnail": "https://ppv.to/assets/thumb/62e421a51e8d74fc3c2e79ee0d3c098c-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/dallascowboys/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/nfl/9878/9878-dal",
+      "starts_at": 1760905500,
+      "ends_at": 1760918100,
+      "source": "ptv"
+    },
+    {
+      "title": "Green Bay Packers vs. Arizona Cardinals",
+      "category": "American Football",
+      "tag": "FOX",
+      "thumbnail": "https://ppv.to/assets/thumb/f03740959f89eb8a369cb287dac5a86a-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/arizonacardinals/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/nfl/1881/1881-ari",
+      "starts_at": 1760905500,
+      "ends_at": 1760918100,
+      "source": "ptv"
+    },
+    {
+      "title": "Atlanta Falcons vs. San Francisco 49ers",
+      "category": "American Football",
+      "tag": "NBC",
+      "thumbnail": "https://ppv.to/assets/thumb/8e698ed475b7d815fd5befd653d9a16d-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/sanfrancisco49ers/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/nfl/6776/6776-sf",
+      "starts_at": 1760919600,
+      "ends_at": 1760932200,
+      "source": "ptv"
+    },
+    {
+      "title": "Tampa Bay Buccaneers vs. Detroit Lions",
+      "category": "American Football",
+      "tag": "ABC",
+      "thumbnail": "https://ppv.to/assets/thumb/f9d7ef3f23f6d251ad6f208a283932ac-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/detroitlions/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/nfl/5757/5757-det",
+      "starts_at": 1761001200,
+      "ends_at": 1761013800,
+      "source": "ptv"
+    },
+    {
+      "title": "Houston Texans vs. Seattle Seahawks",
+      "category": "American Football",
+      "tag": "ESPN",
+      "thumbnail": "https://ppv.to/assets/thumb/ae321c5614161e1634dd4f6f541ca914-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/seattleseahawks/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/nfl/7263/7263-sea",
+      "starts_at": 1761012000,
+      "ends_at": 1761024600,
+      "source": "ptv"
+    },
     {
       "title": "Los Angeles Dodgers vs. Milwaukee Brewers",
       "category": "Baseball",
@@ -333,58 +654,14 @@
       "source": "ptv"
     },
     {
-      "title": "Estonia vs. Moldova",
-      "category": "Football",
-      "tag": "WC Qualifying",
-      "thumbnail": "https://ppv.to/assets/thumb/71dffa08ee7579fa10f65cab48fc8e90-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/wc_estonia/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/wc/2025-10-14/est-mda",
-      "starts_at": 1760457600,
-      "ends_at": 1760468400,
-      "source": "ptv"
-    },
-    {
-      "title": "Andorra vs. Serbia",
-      "category": "Football",
-      "tag": "WC Qualifying",
-      "thumbnail": "https://ppv.to/assets/thumb/654885650d98a014af34ec4d0865db6f-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/wc_andorra/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/wc/2025-10-14/and-srb",
-      "starts_at": 1760467500,
-      "ends_at": 1760478300,
-      "source": "ptv"
-    },
-    {
-      "title": "Italy vs. Israel",
-      "category": "Football",
-      "tag": "WC Qualifying",
-      "thumbnail": "https://ppv.to/assets/thumb/dd03e941dc47c01fcfc1eedfb0861161-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/wc_italy/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/wc/2025-10-14/ita-isr",
-      "starts_at": 1760467500,
-      "ends_at": 1760478300,
-      "source": "ptv"
-    },
-    {
-      "title": "Türki̇ye vs. Georgia",
-      "category": "Football",
-      "tag": "WC Qualifying",
-      "thumbnail": "https://ppv.to/assets/thumb/832b10fd84aa8cdbfc9b8956be8347d7-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/wc_turkiye/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/wc/2025-10-14/tur-geo",
-      "starts_at": 1760467500,
-      "ends_at": 1760478300,
-      "source": "ptv"
-    },
-    {
-      "title": "Republic of Ireland vs. Armenia",
-      "category": "Football",
-      "tag": "WC Qualifying",
-      "thumbnail": "https://ppv.to/assets/thumb/e3def6319cedd14dadf2567183483a35-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/wc_republic-of-ireland/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/wc/2025-10-14/irl-arm",
-      "starts_at": 1760467500,
-      "ends_at": 1760478300,
+      "title": "Dana White's Contender Series",
+      "category": "Combat Sports",
+      "tag": "ESPN",
+      "thumbnail": "https://ppv.to/assets/thumb/1b2167370dcb5c094492160de90af755-thumbnail.jpg",
+      "m3u8_url": "https://gg.poocloud.in/dwcs/index.m3u8",
+      "iframe_url": "https://embednow.top/embed/dwcs/wk10",
+      "starts_at": 1760486400,
+      "ends_at": 1760497200,
       "source": "ptv"
     },
     {
@@ -1070,7 +1347,7 @@
       "source": "ptv"
     },
     {
-      "title": "24/7 Family‌​‌​‌‌​​‌​‌​‌‌‌​‌​‌​​‌​‌​​​​​‌​‌ Guy",
+      "title": "24/7 Family​​​‌​‌​​​​‌‌​‌‌‌‌‌​‌​‌​‌​‌‌‌​​‌‌ Guy",
       "category": "24/7 Streams",
       "tag": "24/7 channel",
       "thumbnail": "https://thumbs.poocloud.in/familyguy/preview.jpg",
