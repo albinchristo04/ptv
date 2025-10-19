@@ -1,24 +1,1214 @@
 {
   "metadata": {
-    "generated_at": "2025-10-19T06:23:08.985833",
-    "total_merged": 0,
-    "total_unmatched_streambtw": 30,
-    "total_unmatched_ptv": 43,
+    "generated_at": "2025-10-19T07:14:00.389711",
+    "total_merged": 29,
+    "total_unmatched_streambtw": 3,
+    "total_unmatched_ptv": 14,
     "streambtw_source": "https://raw.githubusercontent.com/albinchristo04/arda/refs/heads/main/streambtw_data.json",
     "ptv_source": "https://raw.githubusercontent.com/albinchristo04/ptv/refs/heads/main/events_with_m3u8.json"
   },
-  "merged_events": [],
+  "merged_events": [
+    {
+      "title": "Los Angeles Rams vs Jacksonville Jaguars",
+      "alternative_title": "Los Angeles Rams vs. Jacksonville Jaguars",
+      "match_confidence": 1.0,
+      "sport": "NFL",
+      "category": "American Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl1.m3u8?md5=zTIkq7syGl6DJmWX6TOnnw&expires=1760860086",
+          "iframe_url": "https://streambtw.com/iframe/nfl1.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/nfl1.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/f0c340526630d405d9e7f7a22d77fb3b-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/jacksonvillejaguars/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/nfl/6356/6356-jax",
+          "tag": "NFL Net",
+          "starts_at": 1760880600,
+          "ends_at": 1760893200
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_nfl1.m3u8?md5=zTIkq7syGl6DJmWX6TOnnw&expires=1760860086",
+        "https://gg.poocloud.in/jacksonvillejaguars/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/nfl1.php",
+        "https://embednow.top/embed/nfl/6356/6356-jax"
+      ]
+    },
+    {
+      "title": "Las Vegas Raiders vs Kansas City Chiefs",
+      "alternative_title": "Las Vegas Raiders vs. Kansas City Chiefs",
+      "match_confidence": 1.0,
+      "sport": "NFL",
+      "category": "American Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl2.m3u8?md5=a9hN7ChBWZoDUxq5edi0lw&expires=1760860089",
+          "iframe_url": "https://streambtw.com/iframe/nfl2.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/nfl2.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/6fa582dc93aac6ea66731ec2dff6cbdd-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/kansascitychiefs/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/nfl/9886/9886-kc",
+          "tag": "CBS",
+          "starts_at": 1760893200,
+          "ends_at": 1760905800
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_nfl2.m3u8?md5=a9hN7ChBWZoDUxq5edi0lw&expires=1760860089",
+        "https://gg.poocloud.in/kansascitychiefs/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/nfl2.php",
+        "https://embednow.top/embed/nfl/9886/9886-kc"
+      ]
+    },
+    {
+      "title": "Carolina Panthers vs New York Jets",
+      "alternative_title": "Carolina Panthers vs. New York Jets",
+      "match_confidence": 1.0,
+      "sport": "NFL",
+      "category": "American Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl3.m3u8?md5=m_2M7Atif-dbSZXy96_Xtw&expires=1760860090",
+          "iframe_url": "https://streambtw.com/iframe/nfl3.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/nfl3.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/9526ed15a6be385ba852847d38a5db1a-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/newyorkjets/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/nfl/2443/2443-nyj",
+          "tag": "FOX",
+          "starts_at": 1760893200,
+          "ends_at": 1760905800
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_nfl3.m3u8?md5=m_2M7Atif-dbSZXy96_Xtw&expires=1760860090",
+        "https://gg.poocloud.in/newyorkjets/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/nfl3.php",
+        "https://embednow.top/embed/nfl/2443/2443-nyj"
+      ]
+    },
+    {
+      "title": "Miami Dolphins vs Cleveland Browns",
+      "alternative_title": "Miami Dolphins vs. Cleveland Browns",
+      "match_confidence": 1.0,
+      "sport": "NFL",
+      "category": "American Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl4.m3u8?md5=BafMIVD3IOwmQMdWAbK4Nw&expires=1760860093",
+          "iframe_url": "https://streambtw.com/iframe/nfl4.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/nfl4.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/6bac44b74eaf31f6fba042ffcc894e70-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/clevelandbrowns/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/nfl/1694/1694-cle",
+          "tag": "CBS",
+          "starts_at": 1760893200,
+          "ends_at": 1760905800
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_nfl4.m3u8?md5=BafMIVD3IOwmQMdWAbK4Nw&expires=1760860093",
+        "https://gg.poocloud.in/clevelandbrowns/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/nfl4.php",
+        "https://embednow.top/embed/nfl/1694/1694-cle"
+      ]
+    },
+    {
+      "title": "New England Patriots vs Tennessee Titans",
+      "alternative_title": "New England Patriots vs. Tennessee Titans",
+      "match_confidence": 1.0,
+      "sport": "NFL",
+      "category": "American Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl5.m3u8?md5=Zl26NVr6AV-FQyIiAfHHqQ&expires=1760860095",
+          "iframe_url": "https://streambtw.com/iframe/nfl5.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/nfl5.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/14cca0a2646e3a653cc7b25183909b57-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/tennesseetitans/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/nfl/4767/4767-ten",
+          "tag": "CBS",
+          "starts_at": 1760893200,
+          "ends_at": 1760905800
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_nfl5.m3u8?md5=Zl26NVr6AV-FQyIiAfHHqQ&expires=1760860095",
+        "https://gg.poocloud.in/tennesseetitans/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/nfl5.php",
+        "https://embednow.top/embed/nfl/4767/4767-ten"
+      ]
+    },
+    {
+      "title": "New Orleans Saints vs Chicago Bears",
+      "alternative_title": "New Orleans Saints vs. Chicago Bears",
+      "match_confidence": 1.0,
+      "sport": "NFL",
+      "category": "American Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl6.m3u8?md5=tnrvSTiqtJ42mxg3gZnHGQ&expires=1760860097",
+          "iframe_url": "https://streambtw.com/iframe/nfl6.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/nfl6.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/0b9c8151cec271fe84826437c1002a50-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/chicagobears/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/nfl/2660/2660-chi",
+          "tag": "FOX",
+          "starts_at": 1760893200,
+          "ends_at": 1760905800
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_nfl6.m3u8?md5=tnrvSTiqtJ42mxg3gZnHGQ&expires=1760860097",
+        "https://gg.poocloud.in/chicagobears/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/nfl6.php",
+        "https://embednow.top/embed/nfl/2660/2660-chi"
+      ]
+    },
+    {
+      "title": "Philadelphia Eagles vs Minnesota Vikings",
+      "alternative_title": "Philadelphia Eagles vs. Minnesota Vikings",
+      "match_confidence": 1.0,
+      "sport": "NFL",
+      "category": "American Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl7.m3u8?md5=AI2_rgJwM0k8BX3kLY1PrQ&expires=1760860098",
+          "iframe_url": "https://streambtw.com/iframe/nfl7.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/nfl7.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/847b0cd440680a5ae5872382c4b6c013-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/minnesotavikings/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/nfl/4344/4344-min",
+          "tag": "FOX",
+          "starts_at": 1760893200,
+          "ends_at": 1760905800
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_nfl7.m3u8?md5=AI2_rgJwM0k8BX3kLY1PrQ&expires=1760860098",
+        "https://gg.poocloud.in/minnesotavikings/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/nfl7.php",
+        "https://embednow.top/embed/nfl/4344/4344-min"
+      ]
+    },
+    {
+      "title": "New York Giants vs Denver Broncos",
+      "alternative_title": "New York Giants vs. Denver Broncos",
+      "match_confidence": 1.0,
+      "sport": "NFL",
+      "category": "American Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl8.m3u8?md5=driwWbPTEatJexFzre35lw&expires=1760860100",
+          "iframe_url": "https://streambtw.com/iframe/nfl8.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/nfl8.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/999808ed1205e54637a9f4c79acbeafd-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/denverbroncos/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/nfl/3696/3696-den",
+          "tag": "CBS",
+          "starts_at": 1760904300,
+          "ends_at": 1760916900
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_nfl8.m3u8?md5=driwWbPTEatJexFzre35lw&expires=1760860100",
+        "https://gg.poocloud.in/denverbroncos/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/nfl8.php",
+        "https://embednow.top/embed/nfl/3696/3696-den"
+      ]
+    },
+    {
+      "title": "Indianapolis Colts vs Los Angeles Chargers",
+      "alternative_title": "Indianapolis Colts vs. Los Angeles Chargers",
+      "match_confidence": 1.0,
+      "sport": "NFL",
+      "category": "American Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl9.m3u8?md5=Oqjh9rS6EaOGwvEoQu2ZUQ&expires=1760860102",
+          "iframe_url": "https://streambtw.com/iframe/nfl9.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/nfl9.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/c9364c95c583558525517aeb10df33e6-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/losangeleschargers/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/nfl/3018/3018-lac",
+          "tag": "CBS",
+          "starts_at": 1760904300,
+          "ends_at": 1760916900
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_nfl9.m3u8?md5=Oqjh9rS6EaOGwvEoQu2ZUQ&expires=1760860102",
+        "https://gg.poocloud.in/losangeleschargers/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/nfl9.php",
+        "https://embednow.top/embed/nfl/3018/3018-lac"
+      ]
+    },
+    {
+      "title": "Green Bay Packers vs Arizona Cardinals",
+      "alternative_title": "Green Bay Packers vs. Arizona Cardinals",
+      "match_confidence": 1.0,
+      "sport": "NFL",
+      "category": "American Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl10.m3u8?md5=6lFddT4BxzXdNaKQxMuFAg&expires=1760860103",
+          "iframe_url": "https://streambtw.com/iframe/nfl10.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/nfl10.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/f03740959f89eb8a369cb287dac5a86a-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/arizonacardinals/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/nfl/1881/1881-ari",
+          "tag": "FOX",
+          "starts_at": 1760905500,
+          "ends_at": 1760918100
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_nfl10.m3u8?md5=6lFddT4BxzXdNaKQxMuFAg&expires=1760860103",
+        "https://gg.poocloud.in/arizonacardinals/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/nfl10.php",
+        "https://embednow.top/embed/nfl/1881/1881-ari"
+      ]
+    },
+    {
+      "title": "Washington Commanders vs Dallas Cowboys",
+      "alternative_title": "Washington Commanders vs. Dallas Cowboys",
+      "match_confidence": 1.0,
+      "sport": "NFL",
+      "category": "American Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl11.m3u8?md5=yZ0fBBeBOwpCARXXKaCf9A&expires=1760860105",
+          "iframe_url": "https://streambtw.com/iframe/nfl11.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/nfl11.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/62e421a51e8d74fc3c2e79ee0d3c098c-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/dallascowboys/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/nfl/9878/9878-dal",
+          "tag": "FOX",
+          "starts_at": 1760905500,
+          "ends_at": 1760918100
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_nfl11.m3u8?md5=yZ0fBBeBOwpCARXXKaCf9A&expires=1760860105",
+        "https://gg.poocloud.in/dallascowboys/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/nfl11.php",
+        "https://embednow.top/embed/nfl/9878/9878-dal"
+      ]
+    },
+    {
+      "title": "Atlanta Falcons vs San Francisco 49ers",
+      "alternative_title": "Atlanta Falcons vs. San Francisco 49ers",
+      "match_confidence": 1.0,
+      "sport": "NFL",
+      "category": "American Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_nfl1.m3u8?md5=iCYXzF32o_mMk-XVZIagOA&expires=1760860107",
+          "iframe_url": "https://streambtw.com/iframe/nfl1.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/nfl1.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/8e698ed475b7d815fd5befd653d9a16d-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/sanfrancisco49ers/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/nfl/6776/6776-sf",
+          "tag": "NBC",
+          "starts_at": 1760919600,
+          "ends_at": 1760932200
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_nfl1.m3u8?md5=iCYXzF32o_mMk-XVZIagOA&expires=1760860107",
+        "https://gg.poocloud.in/sanfrancisco49ers/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/nfl1.php",
+        "https://embednow.top/embed/nfl/6776/6776-sf"
+      ]
+    },
+    {
+      "title": "Tottenham Hotspur vs Aston Villa",
+      "alternative_title": "Tottenham Hotspur vs. Aston Villa",
+      "match_confidence": 1.0,
+      "sport": "PREMIER LEAGUE",
+      "category": "Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=Jq8vUJ10I54a8UOqn3sREA&expires=1760860109",
+          "iframe_url": "https://streambtw.com/iframe/ch1.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/ch1.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/9a23fc985fda18ccdc50d334a6793037-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/epl_spurs/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/epl/2025-10-19/tot-avl",
+          "tag": "Premier League",
+          "starts_at": 1760878800,
+          "ends_at": 1760889600
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=Jq8vUJ10I54a8UOqn3sREA&expires=1760860109",
+        "https://gg.poocloud.in/epl_spurs/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/ch1.php",
+        "https://embednow.top/embed/epl/2025-10-19/tot-avl"
+      ]
+    },
+    {
+      "title": "Liverpool vs Manchester United",
+      "alternative_title": "Liverpool vs. Manchester United",
+      "match_confidence": 1.0,
+      "sport": "PREMIER LEAGUE",
+      "category": "Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=nOBnZugYV5R1NoZx0NCl_w&expires=1760860110",
+          "iframe_url": "https://streambtw.com/iframe/ch1.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/ch1.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/ab9d39c5df38a06bd0595bcf01c3cfca-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/epl_liverpool/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/epl/2025-10-19/liv-mun",
+          "tag": "Premier League",
+          "starts_at": 1760887800,
+          "ends_at": 1760898600
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=nOBnZugYV5R1NoZx0NCl_w&expires=1760860110",
+        "https://gg.poocloud.in/epl_liverpool/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/ch1.php",
+        "https://embednow.top/embed/epl/2025-10-19/liv-mun"
+      ]
+    },
+    {
+      "title": "Elche vs Athletic Club",
+      "alternative_title": "Elche CF vs. Athletic Club",
+      "match_confidence": 0.88,
+      "sport": "LALIGA",
+      "category": "Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://artwork.espncdn.com/categories/cf7b0c51-7c48-3e9a-8abb-0c01b1a973a0/logo/original_20230704130007.svg",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_6.m3u8?md5=uTVdu1ZuUVi_ZAOs5CnbfA&expires=1760860112",
+          "iframe_url": "https://streambtw.com/iframe/ch6.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/ch6.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/e8ea756e915512d8170696b8f4943b4a-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/laliga_elche-c-f/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/laliga/2025-10-19/elc-ath",
+          "tag": "ESPN",
+          "starts_at": 1760875200,
+          "ends_at": 1760886000
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_6.m3u8?md5=uTVdu1ZuUVi_ZAOs5CnbfA&expires=1760860112",
+        "https://gg.poocloud.in/laliga_elche-c-f/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/ch6.php",
+        "https://embednow.top/embed/laliga/2025-10-19/elc-ath"
+      ]
+    },
+    {
+      "title": "Celta de Vigo vs Real Sociedad",
+      "alternative_title": "Celta vs. Real Sociedad",
+      "match_confidence": 0.78,
+      "sport": "LALIGA",
+      "category": "Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://artwork.espncdn.com/categories/cf7b0c51-7c48-3e9a-8abb-0c01b1a973a0/logo/original_20230704130007.svg",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_6.m3u8?md5=Hbit01Yy7vmbve8KWgku9A&expires=1760860113",
+          "iframe_url": "https://streambtw.com/iframe/ch6.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/ch6.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/42c71ddde7b0257e89873c5a3d2dc52a-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/laliga_rc-celta/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/laliga/2025-10-19/cel-rso",
+          "tag": "ESPN",
+          "starts_at": 1760883300,
+          "ends_at": 1760894100
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_6.m3u8?md5=Hbit01Yy7vmbve8KWgku9A&expires=1760860113",
+        "https://gg.poocloud.in/laliga_rc-celta/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/ch6.php",
+        "https://embednow.top/embed/laliga/2025-10-19/cel-rso"
+      ]
+    },
+    {
+      "title": "Levante vs Rayo Vallecano",
+      "alternative_title": "Levante UD vs. Rayo Vallecano",
+      "match_confidence": 0.91,
+      "sport": "LALIGA",
+      "category": "Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://artwork.espncdn.com/categories/cf7b0c51-7c48-3e9a-8abb-0c01b1a973a0/logo/original_20230704130007.svg",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_6.m3u8?md5=4bY_gh5d9FM0c49NxW7ERg&expires=1760860115",
+          "iframe_url": "https://streambtw.com/iframe/ch6.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/ch6.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/f36326335e432903124443747aad593f-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/laliga_levante-ud/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/laliga/2025-10-19/lev-ray",
+          "tag": "ESPN",
+          "starts_at": 1760891400,
+          "ends_at": 1760902200
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_6.m3u8?md5=4bY_gh5d9FM0c49NxW7ERg&expires=1760860115",
+        "https://gg.poocloud.in/laliga_levante-ud/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/ch6.php",
+        "https://embednow.top/embed/laliga/2025-10-19/lev-ray"
+      ]
+    },
+    {
+      "title": "Getafe vs Real Madrid",
+      "alternative_title": "Getafe CF vs. Real Madrid",
+      "match_confidence": 0.9,
+      "sport": "LALIGA",
+      "category": "Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://artwork.espncdn.com/categories/cf7b0c51-7c48-3e9a-8abb-0c01b1a973a0/logo/original_20230704130007.svg",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_6.m3u8?md5=z2tgikS9RnVp-3p1S8rmfg&expires=1760860116",
+          "iframe_url": "https://streambtw.com/iframe/ch6.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/ch6.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/32bc1f8ee6d16ee7c6ed334a81859278-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/laliga_getafe-cf/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/laliga/2025-10-19/get-rma",
+          "tag": "ESPN",
+          "starts_at": 1760900400,
+          "ends_at": 1760911200
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_6.m3u8?md5=z2tgikS9RnVp-3p1S8rmfg&expires=1760860116",
+        "https://gg.poocloud.in/laliga_getafe-cf/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/ch6.php",
+        "https://embednow.top/embed/laliga/2025-10-19/get-rma"
+      ]
+    },
+    {
+      "title": "Como vs Juventus",
+      "alternative_title": "Como vs. Juventus",
+      "match_confidence": 1.0,
+      "sport": "SERIE A",
+      "category": "Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png&transparent=true&w=80&h=80",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_7.m3u8?md5=RYPPTZAzYzqQT1sG9Vu_BQ&expires=1760860118",
+          "iframe_url": "https://streambtw.com/iframe/ch7.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/ch7.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/07f1fe3fea09bde4b1214523afe4393e-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/seriea_como/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/serie-a/2025-10-19/com-juv",
+          "tag": "CBS Sports",
+          "starts_at": 1760869800,
+          "ends_at": 1760880600
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_7.m3u8?md5=RYPPTZAzYzqQT1sG9Vu_BQ&expires=1760860118",
+        "https://gg.poocloud.in/seriea_como/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/ch7.php",
+        "https://embednow.top/embed/serie-a/2025-10-19/com-juv"
+      ]
+    },
+    {
+      "title": "Cagliari vs Bologna",
+      "alternative_title": "Cagliari vs. Bologna",
+      "match_confidence": 1.0,
+      "sport": "SERIE A",
+      "category": "Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png&transparent=true&w=80&h=80",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_5.m3u8?md5=srlS69UDgpQansrazyUuhg&expires=1760860120",
+          "iframe_url": "https://streambtw.com/iframe/ch5.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/ch5.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/670fc5a062c22935ed91f8938edc9bb3-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/seriea_cagliari/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/serie-a/2025-10-19/cag-bol",
+          "tag": "CBS Sports",
+          "starts_at": 1760878800,
+          "ends_at": 1760889600
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_5.m3u8?md5=srlS69UDgpQansrazyUuhg&expires=1760860120",
+        "https://gg.poocloud.in/seriea_cagliari/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/ch5.php",
+        "https://embednow.top/embed/serie-a/2025-10-19/cag-bol"
+      ]
+    },
+    {
+      "title": "Genoa vs Parma",
+      "alternative_title": "Genoa vs. Parma",
+      "match_confidence": 1.0,
+      "sport": "SERIE A",
+      "category": "Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png&transparent=true&w=80&h=80",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_7.m3u8?md5=_mB4zlNgv5gtlHhaHHo2Og&expires=1760860121",
+          "iframe_url": "https://streambtw.com/iframe/ch7.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/ch7.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/d4227bce80f2bfaed64d8a00e50a2b8a-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/seriea_genoa/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/serie-a/2025-10-19/gen-par",
+          "tag": "CBS Sports",
+          "starts_at": 1760878800,
+          "ends_at": 1760889600
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_7.m3u8?md5=_mB4zlNgv5gtlHhaHHo2Og&expires=1760860121",
+        "https://gg.poocloud.in/seriea_genoa/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/ch7.php",
+        "https://embednow.top/embed/serie-a/2025-10-19/gen-par"
+      ]
+    },
+    {
+      "title": "Atalanta vs Lazio",
+      "alternative_title": "Atalanta vs. Lazio",
+      "match_confidence": 1.0,
+      "sport": "SERIE A",
+      "category": "Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png&transparent=true&w=80&h=80",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_7.m3u8?md5=6n4uUkpPfKqWXaYF8FwMrw&expires=1760860123",
+          "iframe_url": "https://streambtw.com/iframe/ch7.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/ch7.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/d1ee4fc7b265aa33bc25bfcfd9cfd298-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/seriea_atalanta/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/serie-a/2025-10-19/ata-laz",
+          "tag": "CBS Sports",
+          "starts_at": 1760889600,
+          "ends_at": 1760900400
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_7.m3u8?md5=6n4uUkpPfKqWXaYF8FwMrw&expires=1760860123",
+        "https://gg.poocloud.in/seriea_atalanta/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/ch7.php",
+        "https://embednow.top/embed/serie-a/2025-10-19/ata-laz"
+      ]
+    },
+    {
+      "title": "Milan vs Fiorentina",
+      "alternative_title": "Milan vs. Fiorentina",
+      "match_confidence": 1.0,
+      "sport": "SERIE A",
+      "category": "Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png&transparent=true&w=80&h=80",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_7.m3u8?md5=w4749ILV_MPioodN0nT9zA&expires=1760860124",
+          "iframe_url": "https://streambtw.com/iframe/ch7.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/ch7.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/50ef7e2198b26f7b1e7b99373c3bd73c-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/seriea_milan/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/serie-a/2025-10-19/mil-fio",
+          "tag": "CBS Sports",
+          "starts_at": 1760899500,
+          "ends_at": 1760910300
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_7.m3u8?md5=w4749ILV_MPioodN0nT9zA&expires=1760860124",
+        "https://gg.poocloud.in/seriea_milan/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/ch7.php",
+        "https://embednow.top/embed/serie-a/2025-10-19/mil-fio"
+      ]
+    },
+    {
+      "title": "Lens vs Paris",
+      "alternative_title": "RC Lens vs. Paris FC",
+      "match_confidence": 0.75,
+      "sport": "LIGUE 1",
+      "category": "Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://ligue1.com/images/Logo_Ligue_1.webp",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_8.m3u8?md5=lnwgIfaCXHvNOaVC1G1RZA&expires=1760860126",
+          "iframe_url": "https://streambtw.com/iframe/ch8.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/ch8.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/49ef3ff2952e387ebafdac621641650b-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/ligue1_rc-lens/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/ligue-1/2025-10-19/len-pfc",
+          "tag": "Ligue 1+",
+          "starts_at": 1760878800,
+          "ends_at": 1760889600
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_8.m3u8?md5=lnwgIfaCXHvNOaVC1G1RZA&expires=1760860126",
+        "https://gg.poocloud.in/ligue1_rc-lens/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/ch8.php",
+        "https://embednow.top/embed/ligue-1/2025-10-19/len-pfc"
+      ]
+    },
+    {
+      "title": "Toulouse vs Metz",
+      "alternative_title": "Toulouse FC vs. FC Metz",
+      "match_confidence": 0.78,
+      "sport": "LIGUE 1",
+      "category": "Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://ligue1.com/images/Logo_Ligue_1.webp",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_4.m3u8?md5=9MKXV5af24nbGriTsWpvyA&expires=1760860127",
+          "iframe_url": "https://streambtw.com/iframe/ch4.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/ch4.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/b160610a37287bf8dd15e0c1412c80a5-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/ligue1_toulouse-fc/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/ligue-1/2025-10-19/tou-met",
+          "tag": "Ligue 1+",
+          "starts_at": 1760886900,
+          "ends_at": 1760897700
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_4.m3u8?md5=9MKXV5af24nbGriTsWpvyA&expires=1760860127",
+        "https://gg.poocloud.in/ligue1_toulouse-fc/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/ch4.php",
+        "https://embednow.top/embed/ligue-1/2025-10-19/tou-met"
+      ]
+    },
+    {
+      "title": "Rennes vs Auxerre",
+      "alternative_title": "Rennes vs. AJ Auxerre",
+      "match_confidence": 0.91,
+      "sport": "LIGUE 1",
+      "category": "Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://ligue1.com/images/Logo_Ligue_1.webp",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_8.m3u8?md5=CFDaSgtWqEBuFXQ24y0m0w&expires=1760860129",
+          "iframe_url": "https://streambtw.com/iframe/ch8.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/ch8.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/8710eabaf8b01909df9247c397f1cc51-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/ligue1_rennes/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/ligue-1/2025-10-19/ren-aux",
+          "tag": "Ligue 1+",
+          "starts_at": 1760886900,
+          "ends_at": 1760897700
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_8.m3u8?md5=CFDaSgtWqEBuFXQ24y0m0w&expires=1760860129",
+        "https://gg.poocloud.in/ligue1_rennes/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/ch8.php",
+        "https://embednow.top/embed/ligue-1/2025-10-19/ren-aux"
+      ]
+    },
+    {
+      "title": "Lorient vs Brest",
+      "alternative_title": "FC Lorient vs. Brest",
+      "match_confidence": 0.91,
+      "sport": "LIGUE 1",
+      "category": "Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://ligue1.com/images/Logo_Ligue_1.webp",
+          "m3u8_url": "https://playlist.streameast247.com/playlist/stream_3.m3u8?md5=RPVhzxYM3Amu1wM0Vb3JTg&expires=1760860130",
+          "iframe_url": "https://streambtw.com/iframe/ch3.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/ch3.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/646489fc64479c977c02955517ce4fb0-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/ligue1_fc-lorient/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/ligue-1/2025-10-19/lor-brs",
+          "tag": "Ligue 1+",
+          "starts_at": 1760886900,
+          "ends_at": 1760897700
+        }
+      },
+      "all_m3u8_urls": [
+        "https://playlist.streameast247.com/playlist/stream_3.m3u8?md5=RPVhzxYM3Amu1wM0Vb3JTg&expires=1760860130",
+        "https://gg.poocloud.in/ligue1_fc-lorient/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/ch3.php",
+        "https://embednow.top/embed/ligue-1/2025-10-19/lor-brs"
+      ]
+    },
+    {
+      "title": "Freiburg vs Eintracht Frankfurt",
+      "alternative_title": "Freiburg vs. Frankfurt",
+      "match_confidence": 0.82,
+      "sport": "BUNDESLIGA",
+      "category": "Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://artwork.espncdn.com/categories/30244926-00c4-3f69-8946-f8421c97ff71/logo/original_20200715202333.svg",
+          "m3u8_url": "https://streameast247.com/playlist/stream_9.m3u8?md5=PLzkdorVRhWqvKZ7DyAZ2g&expires=1760860133",
+          "iframe_url": "https://streambtw.com/iframe/ch9.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/ch9.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/13821464535e7bb5419cecf634ad47ed-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/bundesliga_freiburg/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/bundesliga/2025-10-19/scf-sge",
+          "tag": "ESPN+",
+          "starts_at": 1760880600,
+          "ends_at": 1760891400
+        }
+      },
+      "all_m3u8_urls": [
+        "https://streameast247.com/playlist/stream_9.m3u8?md5=PLzkdorVRhWqvKZ7DyAZ2g&expires=1760860133",
+        "https://gg.poocloud.in/bundesliga_freiburg/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/ch9.php",
+        "https://embednow.top/embed/bundesliga/2025-10-19/scf-sge"
+      ]
+    },
+    {
+      "title": "St. Pauli vs Hoffenheim",
+      "alternative_title": "St. Pauli vs. Hoffenheim",
+      "match_confidence": 1.0,
+      "sport": "BUNDESLIGA",
+      "category": "Football",
+      "sources": {
+        "streambtw": {
+          "thumbnail": "https://artwork.espncdn.com/categories/30244926-00c4-3f69-8946-f8421c97ff71/logo/original_20200715202333.svg",
+          "m3u8_url": "https://streameast247.com/playlist/stream_9.m3u8?md5=Us7CyiwzLQ_pO0XAmLNN_w&expires=1760860138",
+          "iframe_url": "https://streambtw.com/iframe/ch9.php",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Referer": "https://streambtw.com/iframe/ch9.php",
+            "Origin": "https://streambtw.com",
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Connection": "keep-alive",
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site"
+          }
+        },
+        "ptv": {
+          "thumbnail": "https://ppv.to/assets/thumb/37121b2a483035f751949bc48d6987b6-thumbnail.jpg",
+          "m3u8_url": "https://gg.poocloud.in/bundesliga_st-pauli/index.m3u8",
+          "iframe_url": "https://embednow.top/embed/bundesliga/2025-10-19/stp-tsg",
+          "tag": "ESPN+",
+          "starts_at": 1760887800,
+          "ends_at": 1760898600
+        }
+      },
+      "all_m3u8_urls": [
+        "https://streameast247.com/playlist/stream_9.m3u8?md5=Us7CyiwzLQ_pO0XAmLNN_w&expires=1760860138",
+        "https://gg.poocloud.in/bundesliga_st-pauli/index.m3u8"
+      ],
+      "all_iframes": [
+        "https://streambtw.com/iframe/ch9.php",
+        "https://embednow.top/embed/bundesliga/2025-10-19/stp-tsg"
+      ]
+    }
+  ],
   "unmatched_streambtw": [
     {
-      "title": "Formula 1 vs live Stream",
-      "sport": "F1",
-      "link": "https://streambtw.com/iframe/f1.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/23bf83ee-6d7a-3957-8b67-8014ddb9ca47/logo/original_201809071300.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_f1.m3u8?md5=gaY-otIVnel8jAuNNbKLyQ&expires=1760856049",
-      "iframe_url": "https://streambtw.com/iframe/f1.php",
+      "title": "NFL Redzone Live",
+      "sport": "NFL",
+      "link": "https://streambtw.com/iframe/redzone.php",
+      "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
+      "m3u8_url": "https://streameast247.com/playlist/stream_redzone.m3u8?md5=eqwDANWQDHD6K3xtiXglOw&expires=1760860080",
+      "iframe_url": "https://streambtw.com/iframe/redzone.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/f1.php",
+        "Referer": "https://streambtw.com/iframe/redzone.php",
         "Origin": "https://streambtw.com",
         "Accept": "*/*",
         "Accept-Language": "en-US,en;q=0.9",
@@ -30,575 +1220,25 @@
       "source": "streambtw"
     },
     {
-      "title": "MotoGP vs Live Stream",
-      "sport": "MOTOGP",
-      "link": "https://streambtw.com/iframe/moto.php",
-      "thumbnail": "https://static.dorna.com/assets/logos/mgp/brand/mgp-logo-on-dark.svg?v2",
-      "m3u8_url": "https://streameast247.com/playlist/stream_moto.m3u8?md5=E8ECPgIHllbZPyxIx1mwfg&expires=1760856051",
-      "iframe_url": "https://streambtw.com/iframe/moto.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/moto.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
+      "title": "NFL Network Live",
+      "sport": "NFL",
+      "link": "https://streambtw.com/iframe/nflnetwork.php",
+      "thumbnail": "https://artwork.espncdn.com/categories/ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4/logo/original_201807271434.svg",
+      "m3u8_url": "",
+      "iframe_url": "",
+      "headers": {},
       "source": "streambtw"
     },
     {
-      "title": "UFC Fight Night: de Ridder vs Allen",
-      "sport": "UFC",
-      "link": "https://streambtw.com/iframe/ufc.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/394dad60-8a1a-31a8-912c-a207555bc939/logo/original_20211113210745.svg",
-      "m3u8_url": "https://streameast247.com/playlist/stream_ufc.m3u8?md5=_qYISHFhVoOS_36KDeDLqw&expires=1760856055",
-      "iframe_url": "https://streambtw.com/iframe/ufc.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ufc.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "AEW: WrestleDream vs wwe",
-      "sport": "WWE",
-      "link": "https://streambtw.com/iframe/wwe.php",
-      "thumbnail": "https://www.wwe.com/a/i/wwe_logo.svg",
-      "m3u8_url": "https://streameast247.com/playlist/stream_wwe.m3u8?md5=cgB7YcBRrg7gfPaZEShAGg&expires=1760856058",
-      "iframe_url": "https://streambtw.com/iframe/wwe.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/wwe.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Kuroki vs Bormann",
-      "sport": "BOXING",
-      "link": "https://streambtw.com/iframe/box1.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/889c6d08-03c6-31cc-93da-ef344c22a1c4/logo/original_201809051644.svg",
-      "m3u8_url": "https://streameast247.com/playlist/stream_box1.m3u8?md5=RNx2tcyWixCyS902c6IPFA&expires=1760856062",
-      "iframe_url": "https://streambtw.com/iframe/box1.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/box1.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Juarez vs Nery Plata",
-      "sport": "BOXING",
-      "link": "https://streambtw.com/iframe/box2.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/889c6d08-03c6-31cc-93da-ef344c22a1c4/logo/original_201809051644.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_box2.m3u8?md5=QUlVMgABTa08k7hLJ8jAUg&expires=1760856065",
-      "iframe_url": "https://streambtw.com/iframe/box2.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/box2.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Nottingham Forest vs Chelsea",
-      "sport": "PREMIER LEAGUE",
-      "link": "https://streambtw.com/iframe/ch1.php",
-      "thumbnail": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=qFPb3v5jxBuPg10JZfBESQ&expires=1760856067",
-      "iframe_url": "https://streambtw.com/iframe/ch1.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch1.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Manchester City vs Everton",
-      "sport": "PREMIER LEAGUE",
-      "link": "https://streambtw.com/iframe/ch2.php",
-      "thumbnail": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_2.m3u8?md5=dWEfoxs-FphKv1otXiXvDw&expires=1760856069",
-      "iframe_url": "https://streambtw.com/iframe/ch2.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch2.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Burnley vs Leeds United",
-      "sport": "PREMIER LEAGUE",
-      "link": "https://streambtw.com/iframe/ch3.php",
-      "thumbnail": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_3.m3u8?md5=BNVI1NGJ4JfyQF4FUxvwrQ&expires=1760856071",
-      "iframe_url": "https://streambtw.com/iframe/ch3.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch3.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Crystal Palace vs AFC Bournemouth",
-      "sport": "PREMIER LEAGUE",
-      "link": "https://streambtw.com/iframe/ch4.php",
-      "thumbnail": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_4.m3u8?md5=cHtj5S2ikUkIZZtc2CjjJg&expires=1760856073",
-      "iframe_url": "https://streambtw.com/iframe/ch4.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch4.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Sunderland vs Wolverhampton Wanderers",
-      "sport": "PREMIER LEAGUE",
-      "link": "https://streambtw.com/iframe/ch5.php",
-      "thumbnail": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_5.m3u8?md5=6GJeiDuqTALAdGLZvaAHCQ&expires=1760856074",
-      "iframe_url": "https://streambtw.com/iframe/ch5.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch5.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Brighton & Hove Albion vs Newcastle United",
-      "sport": "PREMIER LEAGUE",
-      "link": "https://streambtw.com/iframe/ch1.php",
-      "thumbnail": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=xK_zSDfgFvDQSexRGNHVRQ&expires=1760856076",
-      "iframe_url": "https://streambtw.com/iframe/ch1.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch1.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Fulham vs Arsenal",
-      "sport": "PREMIER LEAGUE",
-      "link": "https://streambtw.com/iframe/ch1.php",
-      "thumbnail": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_1.m3u8?md5=zUto5JHaavSNgamRkCEBZA&expires=1760856078",
-      "iframe_url": "https://streambtw.com/iframe/ch1.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch1.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Sevilla vs Mallorca",
-      "sport": "LALIGA",
-      "link": "https://streambtw.com/iframe/ch6.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/cf7b0c51-7c48-3e9a-8abb-0c01b1a973a0/logo/original_20230704130007.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_6.m3u8?md5=0AP88PhG8P_6mrqTn0qOPw&expires=1760856079",
-      "iframe_url": "https://streambtw.com/iframe/ch6.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch6.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Barcelona vs Girona",
-      "sport": "LALIGA",
-      "link": "https://streambtw.com/iframe/ch6.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/cf7b0c51-7c48-3e9a-8abb-0c01b1a973a0/logo/original_20230704130007.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_6.m3u8?md5=HtD4PTfZqWq-DgkLwU5skA&expires=1760856081",
-      "iframe_url": "https://streambtw.com/iframe/ch6.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch6.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Villarreal vs Real Betis",
-      "sport": "LALIGA",
-      "link": "https://streambtw.com/iframe/ch6.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/cf7b0c51-7c48-3e9a-8abb-0c01b1a973a0/logo/original_20230704130007.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_6.m3u8?md5=PPkhmcsM-AT8vDyEwTOxng&expires=1760856082",
-      "iframe_url": "https://streambtw.com/iframe/ch6.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch6.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Atlético Madrid vs Osasuna",
-      "sport": "LALIGA",
-      "link": "https://streambtw.com/iframe/ch6.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/cf7b0c51-7c48-3e9a-8abb-0c01b1a973a0/logo/original_20230704130007.svg",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_6.m3u8?md5=nbTPeMXU_c6IKosoLuQxlg&expires=1760856084",
-      "iframe_url": "https://streambtw.com/iframe/ch6.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch6.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Lecce vs Sassuolo",
-      "sport": "SERIE A",
-      "link": "https://streambtw.com/iframe/ch14.php",
-      "thumbnail": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png&transparent=true&w=80&h=80",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_14.m3u8?md5=HSs-9tVEOY9G63ZcMMv3Rg&expires=1760856086",
-      "iframe_url": "https://streambtw.com/iframe/ch14.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch14.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Pisa vs Hellas Verona",
-      "sport": "SERIE A",
-      "link": "https://streambtw.com/iframe/ch7.php",
-      "thumbnail": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png&transparent=true&w=80&h=80",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_7.m3u8?md5=1GpyViUVC7PqgV0qNUHLzw&expires=1760856087",
-      "iframe_url": "https://streambtw.com/iframe/ch7.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch7.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Torino vs Napoli",
-      "sport": "SERIE A",
-      "link": "https://streambtw.com/iframe/ch7.php",
-      "thumbnail": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png&transparent=true&w=80&h=80",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_7.m3u8?md5=EofmI8P_eBIRbTEQvrC1rw&expires=1760856089",
-      "iframe_url": "https://streambtw.com/iframe/ch7.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch7.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Roma vs Internazionale",
-      "sport": "SERIE A",
-      "link": "https://streambtw.com/iframe/ch7.php",
-      "thumbnail": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png&transparent=true&w=80&h=80",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_7.m3u8?md5=xKJCKGa6ykZEJsFdCBJu2Q&expires=1760856090",
-      "iframe_url": "https://streambtw.com/iframe/ch7.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch7.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Nice vs Olympique Lyonnais",
+      "title": "Nantes vs Lille",
       "sport": "LIGUE 1",
       "link": "https://streambtw.com/iframe/ch8.php",
       "thumbnail": "https://ligue1.com/images/Logo_Ligue_1.webp",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_8.m3u8?md5=cvzzg5-Kq-u6-M9jFqnCFA&expires=1760856092",
+      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_8.m3u8?md5=awB-yJAn1pZM7AMZGlNjnw&expires=1760860132",
       "iframe_url": "https://streambtw.com/iframe/ch8.php",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         "Referer": "https://streambtw.com/iframe/ch8.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Angers SCO vs Monaco",
-      "sport": "LIGUE 1",
-      "link": "https://streambtw.com/iframe/ch8.php",
-      "thumbnail": "https://ligue1.com/images/Logo_Ligue_1.webp",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_8.m3u8?md5=Rie_C6EQHTZ6Hx8YRlP3qQ&expires=1760856094",
-      "iframe_url": "https://streambtw.com/iframe/ch8.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch8.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Olympique Marseille vs Le Havre",
-      "sport": "LIGUE 1",
-      "link": "https://streambtw.com/iframe/ch8.php",
-      "thumbnail": "https://ligue1.com/images/Logo_Ligue_1.webp",
-      "m3u8_url": "https://playlist.streameast247.com/playlist/stream_8.m3u8?md5=JvDtO1O2JGz2eWRfNh50Ag&expires=1760856095",
-      "iframe_url": "https://streambtw.com/iframe/ch8.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch8.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Köln vs Augsburg",
-      "sport": "BUNDESLIGA",
-      "link": "https://streambtw.com/iframe/ch9.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/30244926-00c4-3f69-8946-f8421c97ff71/logo/original_20200715202333.svg",
-      "m3u8_url": "https://streameast247.com/playlist/stream_9.m3u8?md5=YXEbe-Bgk4beiZZ-uhmoxg&expires=1760856097",
-      "iframe_url": "https://streambtw.com/iframe/ch9.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch9.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Wolfsburg vs Stuttgart",
-      "sport": "BUNDESLIGA",
-      "link": "https://streambtw.com/iframe/ch10.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/30244926-00c4-3f69-8946-f8421c97ff71/logo/original_20200715202333.svg",
-      "m3u8_url": "https://streameast247.com/playlist/stream_10.m3u8?md5=dQpmk1uAa4HTKR6JWTcV3Q&expires=1760856101",
-      "iframe_url": "https://streambtw.com/iframe/ch10.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch10.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Mainz 05 vs Bayer Leverkusen",
-      "sport": "BUNDESLIGA",
-      "link": "https://streambtw.com/iframe/ch11.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/30244926-00c4-3f69-8946-f8421c97ff71/logo/original_20200715202333.svg",
-      "m3u8_url": "https://streameast247.com/playlist/stream_11.m3u8?md5=THIBdPuCeNDKZWMQrND1cw&expires=1760856104",
-      "iframe_url": "https://streambtw.com/iframe/ch11.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch11.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Heidenheim vs Werder Bremen",
-      "sport": "BUNDESLIGA",
-      "link": "https://streambtw.com/iframe/ch12.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/30244926-00c4-3f69-8946-f8421c97ff71/logo/original_20200715202333.svg",
-      "m3u8_url": "https://streameast247.com/playlist/stream_12.m3u8?md5=oervqUU_6HNI0ViAzT182Q&expires=1760856108",
-      "iframe_url": "https://streambtw.com/iframe/ch12.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch12.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "RB Leipzig vs Hamburger SV",
-      "sport": "BUNDESLIGA",
-      "link": "https://streambtw.com/iframe/ch13.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/30244926-00c4-3f69-8946-f8421c97ff71/logo/original_20200715202333.svg",
-      "m3u8_url": "https://streameast247.com/playlist/stream_13.m3u8?md5=IJffk0L5UNGiCxNKETWSKA&expires=1760856111",
-      "iframe_url": "https://streambtw.com/iframe/ch13.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch13.php",
-        "Origin": "https://streambtw.com",
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Connection": "keep-alive",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site"
-      },
-      "source": "streambtw"
-    },
-    {
-      "title": "Bayern München vs Borussia Dortmund",
-      "sport": "BUNDESLIGA",
-      "link": "https://streambtw.com/iframe/ch9.php",
-      "thumbnail": "https://artwork.espncdn.com/categories/30244926-00c4-3f69-8946-f8421c97ff71/logo/original_20200715202333.svg",
-      "m3u8_url": "https://streameast247.com/playlist/stream_9.m3u8?md5=jp2oZV8whRHfawqEa791aQ&expires=1760856115",
-      "iframe_url": "https://streambtw.com/iframe/ch9.php",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Referer": "https://streambtw.com/iframe/ch9.php",
         "Origin": "https://streambtw.com",
         "Accept": "*/*",
         "Accept-Language": "en-US,en;q=0.9",
@@ -611,138 +1251,6 @@
     }
   ],
   "unmatched_ptv": [
-    {
-      "title": "Los Angeles Rams vs. Jacksonville Jaguars",
-      "category": "American Football",
-      "tag": "NFL Net",
-      "thumbnail": "https://ppv.to/assets/thumb/f0c340526630d405d9e7f7a22d77fb3b-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/jacksonvillejaguars/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nfl/6356/6356-jax",
-      "starts_at": 1760880600,
-      "ends_at": 1760893200,
-      "source": "ptv"
-    },
-    {
-      "title": "New Orleans Saints vs. Chicago Bears",
-      "category": "American Football",
-      "tag": "FOX",
-      "thumbnail": "https://ppv.to/assets/thumb/0b9c8151cec271fe84826437c1002a50-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/chicagobears/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nfl/2660/2660-chi",
-      "starts_at": 1760893200,
-      "ends_at": 1760905800,
-      "source": "ptv"
-    },
-    {
-      "title": "Miami Dolphins vs. Cleveland Browns",
-      "category": "American Football",
-      "tag": "CBS",
-      "thumbnail": "https://ppv.to/assets/thumb/6bac44b74eaf31f6fba042ffcc894e70-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/clevelandbrowns/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nfl/1694/1694-cle",
-      "starts_at": 1760893200,
-      "ends_at": 1760905800,
-      "source": "ptv"
-    },
-    {
-      "title": "New England Patriots vs. Tennessee Titans",
-      "category": "American Football",
-      "tag": "CBS",
-      "thumbnail": "https://ppv.to/assets/thumb/14cca0a2646e3a653cc7b25183909b57-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/tennesseetitans/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nfl/4767/4767-ten",
-      "starts_at": 1760893200,
-      "ends_at": 1760905800,
-      "source": "ptv"
-    },
-    {
-      "title": "Las Vegas Raiders vs. Kansas City Chiefs",
-      "category": "American Football",
-      "tag": "CBS",
-      "thumbnail": "https://ppv.to/assets/thumb/6fa582dc93aac6ea66731ec2dff6cbdd-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/kansascitychiefs/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nfl/9886/9886-kc",
-      "starts_at": 1760893200,
-      "ends_at": 1760905800,
-      "source": "ptv"
-    },
-    {
-      "title": "Philadelphia Eagles vs. Minnesota Vikings",
-      "category": "American Football",
-      "tag": "FOX",
-      "thumbnail": "https://ppv.to/assets/thumb/847b0cd440680a5ae5872382c4b6c013-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/minnesotavikings/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nfl/4344/4344-min",
-      "starts_at": 1760893200,
-      "ends_at": 1760905800,
-      "source": "ptv"
-    },
-    {
-      "title": "Carolina Panthers vs. New York Jets",
-      "category": "American Football",
-      "tag": "FOX",
-      "thumbnail": "https://ppv.to/assets/thumb/9526ed15a6be385ba852847d38a5db1a-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/newyorkjets/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nfl/2443/2443-nyj",
-      "starts_at": 1760893200,
-      "ends_at": 1760905800,
-      "source": "ptv"
-    },
-    {
-      "title": "New York Giants vs. Denver Broncos",
-      "category": "American Football",
-      "tag": "CBS",
-      "thumbnail": "https://ppv.to/assets/thumb/999808ed1205e54637a9f4c79acbeafd-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/denverbroncos/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nfl/3696/3696-den",
-      "starts_at": 1760904300,
-      "ends_at": 1760916900,
-      "source": "ptv"
-    },
-    {
-      "title": "Indianapolis Colts vs. Los Angeles Chargers",
-      "category": "American Football",
-      "tag": "CBS",
-      "thumbnail": "https://ppv.to/assets/thumb/c9364c95c583558525517aeb10df33e6-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/losangeleschargers/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nfl/3018/3018-lac",
-      "starts_at": 1760904300,
-      "ends_at": 1760916900,
-      "source": "ptv"
-    },
-    {
-      "title": "Washington Commanders vs. Dallas Cowboys",
-      "category": "American Football",
-      "tag": "FOX",
-      "thumbnail": "https://ppv.to/assets/thumb/62e421a51e8d74fc3c2e79ee0d3c098c-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/dallascowboys/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nfl/9878/9878-dal",
-      "starts_at": 1760905500,
-      "ends_at": 1760918100,
-      "source": "ptv"
-    },
-    {
-      "title": "Green Bay Packers vs. Arizona Cardinals",
-      "category": "American Football",
-      "tag": "FOX",
-      "thumbnail": "https://ppv.to/assets/thumb/f03740959f89eb8a369cb287dac5a86a-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/arizonacardinals/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nfl/1881/1881-ari",
-      "starts_at": 1760905500,
-      "ends_at": 1760918100,
-      "source": "ptv"
-    },
-    {
-      "title": "Atlanta Falcons vs. San Francisco 49ers",
-      "category": "American Football",
-      "tag": "NBC",
-      "thumbnail": "https://ppv.to/assets/thumb/8e698ed475b7d815fd5befd653d9a16d-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/sanfrancisco49ers/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/nfl/6776/6776-sf",
-      "starts_at": 1760919600,
-      "ends_at": 1760932200,
-      "source": "ptv"
-    },
     {
       "title": "Tampa Bay Buccaneers vs. Detroit Lions",
       "category": "American Football",
@@ -799,171 +1307,6 @@
       "source": "ptv"
     },
     {
-      "title": "Como vs. Juventus",
-      "category": "Football",
-      "tag": "CBS Sports",
-      "thumbnail": "https://ppv.to/assets/thumb/07f1fe3fea09bde4b1214523afe4393e-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/seriea_como/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/serie-a/2025-10-19/com-juv",
-      "starts_at": 1760869800,
-      "ends_at": 1760880600,
-      "source": "ptv"
-    },
-    {
-      "title": "Elche CF vs. Athletic Club",
-      "category": "Football",
-      "tag": "ESPN",
-      "thumbnail": "https://ppv.to/assets/thumb/e8ea756e915512d8170696b8f4943b4a-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/laliga_elche-c-f/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/laliga/2025-10-19/elc-ath",
-      "starts_at": 1760875200,
-      "ends_at": 1760886000,
-      "source": "ptv"
-    },
-    {
-      "title": "Tottenham Hotspur vs. Aston Villa",
-      "category": "Football",
-      "tag": "Premier League",
-      "thumbnail": "https://ppv.to/assets/thumb/9a23fc985fda18ccdc50d334a6793037-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/epl_spurs/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/epl/2025-10-19/tot-avl",
-      "starts_at": 1760878800,
-      "ends_at": 1760889600,
-      "source": "ptv"
-    },
-    {
-      "title": "RC Lens vs. Paris FC",
-      "category": "Football",
-      "tag": "Ligue 1+",
-      "thumbnail": "https://ppv.to/assets/thumb/49ef3ff2952e387ebafdac621641650b-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/ligue1_rc-lens/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/ligue-1/2025-10-19/len-pfc",
-      "starts_at": 1760878800,
-      "ends_at": 1760889600,
-      "source": "ptv"
-    },
-    {
-      "title": "Cagliari vs. Bologna",
-      "category": "Football",
-      "tag": "CBS Sports",
-      "thumbnail": "https://ppv.to/assets/thumb/670fc5a062c22935ed91f8938edc9bb3-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/seriea_cagliari/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/serie-a/2025-10-19/cag-bol",
-      "starts_at": 1760878800,
-      "ends_at": 1760889600,
-      "source": "ptv"
-    },
-    {
-      "title": "Genoa vs. Parma",
-      "category": "Football",
-      "tag": "CBS Sports",
-      "thumbnail": "https://ppv.to/assets/thumb/d4227bce80f2bfaed64d8a00e50a2b8a-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/seriea_genoa/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/serie-a/2025-10-19/gen-par",
-      "starts_at": 1760878800,
-      "ends_at": 1760889600,
-      "source": "ptv"
-    },
-    {
-      "title": "Freiburg vs. Frankfurt",
-      "category": "Football",
-      "tag": "ESPN+",
-      "thumbnail": "https://ppv.to/assets/thumb/13821464535e7bb5419cecf634ad47ed-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/bundesliga_freiburg/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/bundesliga/2025-10-19/scf-sge",
-      "starts_at": 1760880600,
-      "ends_at": 1760891400,
-      "source": "ptv"
-    },
-    {
-      "title": "Celta vs. Real Sociedad",
-      "category": "Football",
-      "tag": "ESPN",
-      "thumbnail": "https://ppv.to/assets/thumb/42c71ddde7b0257e89873c5a3d2dc52a-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/laliga_rc-celta/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/laliga/2025-10-19/cel-rso",
-      "starts_at": 1760883300,
-      "ends_at": 1760894100,
-      "source": "ptv"
-    },
-    {
-      "title": "FC Lorient vs. Brest",
-      "category": "Football",
-      "tag": "Ligue 1+",
-      "thumbnail": "https://ppv.to/assets/thumb/646489fc64479c977c02955517ce4fb0-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/ligue1_fc-lorient/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/ligue-1/2025-10-19/lor-brs",
-      "starts_at": 1760886900,
-      "ends_at": 1760897700,
-      "source": "ptv"
-    },
-    {
-      "title": "Rennes vs. AJ Auxerre",
-      "category": "Football",
-      "tag": "Ligue 1+",
-      "thumbnail": "https://ppv.to/assets/thumb/8710eabaf8b01909df9247c397f1cc51-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/ligue1_rennes/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/ligue-1/2025-10-19/ren-aux",
-      "starts_at": 1760886900,
-      "ends_at": 1760897700,
-      "source": "ptv"
-    },
-    {
-      "title": "Toulouse FC vs. FC Metz",
-      "category": "Football",
-      "tag": "Ligue 1+",
-      "thumbnail": "https://ppv.to/assets/thumb/b160610a37287bf8dd15e0c1412c80a5-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/ligue1_toulouse-fc/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/ligue-1/2025-10-19/tou-met",
-      "starts_at": 1760886900,
-      "ends_at": 1760897700,
-      "source": "ptv"
-    },
-    {
-      "title": "Liverpool vs. Manchester United",
-      "category": "Football",
-      "tag": "Premier League",
-      "thumbnail": "https://ppv.to/assets/thumb/ab9d39c5df38a06bd0595bcf01c3cfca-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/epl_liverpool/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/epl/2025-10-19/liv-mun",
-      "starts_at": 1760887800,
-      "ends_at": 1760898600,
-      "source": "ptv"
-    },
-    {
-      "title": "St. Pauli vs. Hoffenheim",
-      "category": "Football",
-      "tag": "ESPN+",
-      "thumbnail": "https://ppv.to/assets/thumb/37121b2a483035f751949bc48d6987b6-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/bundesliga_st-pauli/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/bundesliga/2025-10-19/stp-tsg",
-      "starts_at": 1760887800,
-      "ends_at": 1760898600,
-      "source": "ptv"
-    },
-    {
-      "title": "Atalanta vs. Lazio",
-      "category": "Football",
-      "tag": "CBS Sports",
-      "thumbnail": "https://ppv.to/assets/thumb/d1ee4fc7b265aa33bc25bfcfd9cfd298-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/seriea_atalanta/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/serie-a/2025-10-19/ata-laz",
-      "starts_at": 1760889600,
-      "ends_at": 1760900400,
-      "source": "ptv"
-    },
-    {
-      "title": "Levante UD vs. Rayo Vallecano",
-      "category": "Football",
-      "tag": "ESPN",
-      "thumbnail": "https://ppv.to/assets/thumb/f36326335e432903124443747aad593f-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/laliga_levante-ud/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/laliga/2025-10-19/lev-ray",
-      "starts_at": 1760891400,
-      "ends_at": 1760902200,
-      "source": "ptv"
-    },
-    {
       "title": "FC Nantes vs. LOSC",
       "category": "Football",
       "tag": "Ligue 1+",
@@ -972,28 +1315,6 @@
       "iframe_url": "https://embednow.top/embed/ligue-1/2025-10-19/nan-lil",
       "starts_at": 1760899500,
       "ends_at": 1760910300,
-      "source": "ptv"
-    },
-    {
-      "title": "Milan vs. Fiorentina",
-      "category": "Football",
-      "tag": "CBS Sports",
-      "thumbnail": "https://ppv.to/assets/thumb/50ef7e2198b26f7b1e7b99373c3bd73c-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/seriea_milan/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/serie-a/2025-10-19/mil-fio",
-      "starts_at": 1760899500,
-      "ends_at": 1760910300,
-      "source": "ptv"
-    },
-    {
-      "title": "Getafe CF vs. Real Madrid",
-      "category": "Football",
-      "tag": "ESPN",
-      "thumbnail": "https://ppv.to/assets/thumb/32bc1f8ee6d16ee7c6ed334a81859278-thumbnail.jpg",
-      "m3u8_url": "https://gg.poocloud.in/laliga_getafe-cf/index.m3u8",
-      "iframe_url": "https://embednow.top/embed/laliga/2025-10-19/get-rma",
-      "starts_at": 1760900400,
-      "ends_at": 1760911200,
       "source": "ptv"
     },
     {
