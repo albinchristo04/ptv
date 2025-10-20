@@ -4,6 +4,8 @@ from datetime import datetime
 import requests
 from urllib.parse import unquote, urljoin
 import time
+import subprocess
+import sys
 
 class EventScraper:
     def __init__(self):
@@ -19,7 +21,6 @@ class EventScraper:
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
             'Accept-Language': 'en-US,en;q=0.9',
-            'Referer': self.base_url
         })
         
     def extract_events(self):
@@ -76,15 +77,91 @@ class EventScraper:
             print(f"Error extracting events: {e}")
             return []
     
-    def extract_m3u8_from_url(self, url):
-        """Extract m3u8 URLs from player page"""
+    def extract_m3u8_with_playwright(self, url):
+        """Extract m3u8 using Playwright for JavaScript execution"""
         m3u8_urls = []
         
         try:
-            print(f"    Fetching: {url}")
-            response = self.session.get(url, timeout=15)
+            from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeout
+            
+            with sync_playwright() as p:
+                browser = p.chromium.launch(headless=True)
+                context = browser.new_context(
+                    user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                    viewport={'width': 1920, 'height': 1080}
+                )
+                page = context.new_page()
+                
+                # Track network requests
+                def handle_route(route, request):
+                    url = request.url
+                    if '.m3u8' in url.lower():
+                        m3u8_urls.append(url)
+                    route.continue_()
+                
+                page.route("**/*", handle_route)
+                
+                # Navigate and wait
+                page.goto(url, wait_until="networkidle", timeout=20000)
+                time.sleep(3)
+                
+                # Try to trigger video play
+                try:
+                    page.evaluate("document.querySelectorAll('video').forEach(v => v.play().catch(()=>{}))")
+                    time.sleep(2)
+                except:
+                    pass
+                
+                # Check page content
+                content = page.content()
+                m3u8_patterns = [
+                    r'(https?://[^\s"\'<>]+\.m3u8[^\s"\'<>]*)',
+                ]
+                for pattern in m3u8_patterns:
+                    matches = re.findall(pattern, content, re.IGNORECASE)
+                    m3u8_urls.extend(matches)
+                
+                browser.close()
+                
+        except ImportError:
+            print("    ⚠ Playwright not available, using requests fallback")
+            return self.extract_m3u8_with_requests(url)
+        except Exception as e:
+            print(f"    ⚠ Playwright error: {e}")
+            return []
+        
+        return list(set(m3u8_urls))
+    
+    def extract_m3u8_with_requests(self, url):
+        """Extract m3u8 URLs using requests (faster fallback)"""
+        m3u8_urls = []
+        
+        try:
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+                'Referer': self.base_url,
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            }
+            
+            response = self.session.get(url, headers=headers, timeout=15)
             response.raise_for_status()
             content = response.text
+            
+            # Extract embedded iframe
+            iframe_pattern = r'<iframe[^>]+src=["\']([^"\']+)["\']'
+            iframe_matches = re.findall(iframe_pattern, content, re.IGNORECASE)
+            
+            if iframe_matches:
+                iframe_url = iframe_matches[0]
+                if not iframe_url.startswith('http'):
+                    iframe_url = urljoin(url, iframe_url)
+                print(f"    → Found iframe: {iframe_url[:80]}...")
+                
+                # Fetch iframe with proper referer
+                iframe_headers = headers.copy()
+                iframe_headers['Referer'] = url
+                iframe_response = self.session.get(iframe_url, headers=iframe_headers, timeout=15)
+                content = iframe_response.text
             
             # Multiple patterns to catch m3u8 URLs
             patterns = [
@@ -92,63 +169,48 @@ class EventScraper:
                 r'source["\']?\s*[:=]\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
                 r'file["\']?\s*[:=]\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
                 r'src["\']?\s*[:=]\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
-                r'url["\']?\s*[:=]\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
                 r'(https?://[^\s"\'<>]+\.m3u8[^\s"\'<>]*)',
-                r'atob\(["\']([^"\']+)["\']\)',  # Base64 encoded URLs
             ]
             
             for pattern in patterns:
                 matches = re.findall(pattern, content, re.IGNORECASE)
                 for match in matches:
-                    # Handle base64 encoded URLs
-                    if 'atob' in pattern:
-                        try:
-                            import base64
-                            decoded = base64.b64decode(match).decode('utf-8')
-                            if '.m3u8' in decoded:
-                                match = decoded
-                        except:
-                            continue
-                    
-                    # Clean and validate URL
                     match = unquote(match)
                     if match and '.m3u8' in match.lower():
-                        # Make absolute URL if relative
                         if not match.startswith('http'):
-                            match = urljoin(url, match)
+                            match = urljoin(iframe_url if iframe_matches else url, match)
                         
                         if match not in m3u8_urls:
                             m3u8_urls.append(match)
-                            print(f"    ✓ Found M3U8: {match[:100]}...")
             
-            # Look for embedded iframes that might contain the actual player
-            iframe_patterns = [
-                r'<iframe[^>]+src=["\']([^"\']+)["\']',
-                r'iframe["\']?\s*[:=]\s*["\']([^"\']+)["\']',
-            ]
+            return m3u8_urls
             
-            for pattern in iframe_patterns:
-                iframe_matches = re.findall(pattern, content, re.IGNORECASE)
-                for iframe_url in iframe_matches:
-                    if iframe_url and not iframe_url.startswith('#'):
-                        # Make absolute URL
-                        if not iframe_url.startswith('http'):
-                            iframe_url = urljoin(url, iframe_url)
-                        
-                        # Recursively check iframe
-                        if iframe_url != url:  # Avoid infinite loop
-                            print(f"    → Found iframe: {iframe_url[:80]}...")
-                            nested_m3u8 = self.extract_m3u8_from_url(iframe_url)
-                            m3u8_urls.extend(nested_m3u8)
-            
-            return list(set(m3u8_urls))  # Remove duplicates
-            
-        except requests.Timeout:
-            print(f"    ⚠ Timeout fetching {url}")
-            return []
         except Exception as e:
             print(f"    ✗ Error: {e}")
             return []
+    
+    def extract_m3u8_from_url(self, url):
+        """Main extraction method - tries Playwright first, falls back to requests"""
+        print(f"    Fetching: {url}")
+        
+        # Try with Playwright if available (handles JS)
+        try:
+            import playwright
+            m3u8_urls = self.extract_m3u8_with_playwright(url)
+            if m3u8_urls:
+                for m3u8 in m3u8_urls:
+                    print(f"    ✓ Found M3U8: {m3u8[:100]}...")
+                return m3u8_urls
+        except ImportError:
+            pass
+        
+        # Fallback to requests
+        m3u8_urls = self.extract_m3u8_with_requests(url)
+        if m3u8_urls:
+            for m3u8 in m3u8_urls:
+                print(f"    ✓ Found M3U8: {m3u8[:100]}...")
+        
+        return m3u8_urls
     
     def scrape_all(self):
         """Main scraping function"""
@@ -192,7 +254,7 @@ class EventScraper:
                     print(f"    ⚠ No M3U8 found")
                 
                 # Small delay between requests
-                time.sleep(0.5)
+                time.sleep(1)
             
             result["events"].append(event)
         
@@ -230,15 +292,9 @@ def main():
     print(f"Total M3U8 URLs found: {total_m3u8}")
     
     if total_m3u8 > 0:
-        print(f"\n✓ Successfully extracted M3U8 URLs!")
+        print(f"\n✓ Successfully extracted {total_m3u8} M3U8 URLs!")
     else:
-        print(f"\n⚠ No M3U8 URLs found - checking sample event...")
-        if data['events']:
-            sample = data['events'][0]
-            if 'player_urls' in sample:
-                print(f"\nSample URLs to check manually:")
-                for player, url in sample['player_urls'].items():
-                    print(f"  {player}: {url}")
+        print(f"\n⚠ No M3U8 URLs found")
 
 if __name__ == "__main__":
     main()
