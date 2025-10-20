@@ -1,0 +1,38 @@
+name: Update Events Data
+
+on:
+  schedule:
+    # Run every 15 minutes
+    - cron: '*/15 * * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install playwright
+        playwright install chromium
+        playwright install-deps
+        
+    - name: Run scraper
+      run: |
+        python scraper.py
+        
+    - name: Commit and push if changes
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add events_data.json
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update events data - $(date +'%Y-%m-%d %H:%M:%S')" && git push)
