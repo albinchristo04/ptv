@@ -1,7 +1,8 @@
 import json
 import re
 from datetime import datetime
-from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeout
+import requests
+from urllib.parse import unquote, urljoin
 import time
 
 class EventScraper:
@@ -13,14 +14,21 @@ class EventScraper:
             "Caster": 3,
             "WIGI": 4
         }
+        self.session = requests.Session()
+        self.session.headers.update({
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Referer': self.base_url
+        })
         
-    def extract_events(self, page):
+    def extract_events(self):
         """Extract event details from main page"""
         try:
-            print("Loading main page...")
-            page.goto(self.base_url, wait_until="domcontentloaded", timeout=30000)
-            time.sleep(2)
-            content = page.content()
+            print("Fetching main page...")
+            response = self.session.get(self.base_url, timeout=15)
+            response.raise_for_status()
+            content = response.text
             
             events = []
             lines = content.split('\n')
@@ -62,91 +70,85 @@ class EventScraper:
                     
                     events.append(event)
             
+            print(f"Found {len(events)} events\n")
             return events
         except Exception as e:
             print(f"Error extracting events: {e}")
             return []
     
-    def extract_m3u8_from_iframe(self, page, iframe_url, event_info=""):
-        """Extract m3u8 URL from iframe using network monitoring"""
+    def extract_m3u8_from_url(self, url):
+        """Extract m3u8 URLs from player page"""
         m3u8_urls = []
         
-        def handle_request(request):
-            """Capture m3u8 URLs from network requests"""
-            url = request.url
-            if '.m3u8' in url.lower():
-                if url not in m3u8_urls:
-                    m3u8_urls.append(url)
-                    print(f"    ✓ Found M3U8: {url[:80]}...")
-        
-        def handle_response(response):
-            """Capture m3u8 URLs from network responses"""
-            url = response.url
-            if '.m3u8' in url.lower():
-                if url not in m3u8_urls:
-                    m3u8_urls.append(url)
-                    print(f"    ✓ Found M3U8: {url[:80]}...")
-        
         try:
-            print(f"  Loading: {iframe_url}")
+            print(f"    Fetching: {url}")
+            response = self.session.get(url, timeout=15)
+            response.raise_for_status()
+            content = response.text
             
-            # Listen to both requests and responses
-            page.on("request", handle_request)
-            page.on("response", handle_response)
-            
-            # Navigate to iframe URL
-            page.goto(iframe_url, wait_until="networkidle", timeout=30000)
-            
-            # Wait for video player to load
-            time.sleep(8)
-            
-            # Try to find video element and trigger play
-            try:
-                page.evaluate("""
-                    () => {
-                        const videos = document.querySelectorAll('video');
-                        videos.forEach(v => {
-                            v.play().catch(() => {});
-                        });
-                    }
-                """)
-                time.sleep(2)
-            except:
-                pass
-            
-            # Search in page content and scripts
-            content = page.content()
-            scripts = page.evaluate("() => Array.from(document.scripts).map(s => s.textContent)")
-            all_text = content + "\n" + "\n".join(scripts)
-            
-            # Find m3u8 URLs in content
-            m3u8_patterns = [
+            # Multiple patterns to catch m3u8 URLs
+            patterns = [
+                r'["\'](https?://[^"\']+\.m3u8[^"\']*)["\']',
+                r'source["\']?\s*[:=]\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+                r'file["\']?\s*[:=]\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+                r'src["\']?\s*[:=]\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+                r'url["\']?\s*[:=]\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
                 r'(https?://[^\s"\'<>]+\.m3u8[^\s"\'<>]*)',
-                r'"(https?://[^"]+\.m3u8[^"]*)"',
-                r"'(https?://[^']+\.m3u8[^']*)'",
-                r'src[=:]\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
-                r'source[=:]\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
-                r'file[=:]\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
+                r'atob\(["\']([^"\']+)["\']\)',  # Base64 encoded URLs
             ]
             
-            for pattern in m3u8_patterns:
-                matches = re.findall(pattern, all_text, re.IGNORECASE)
+            for pattern in patterns:
+                matches = re.findall(pattern, content, re.IGNORECASE)
                 for match in matches:
-                    if match and match not in m3u8_urls:
-                        m3u8_urls.append(match)
-                        print(f"    ✓ Found M3U8 in content: {match[:80]}...")
+                    # Handle base64 encoded URLs
+                    if 'atob' in pattern:
+                        try:
+                            import base64
+                            decoded = base64.b64decode(match).decode('utf-8')
+                            if '.m3u8' in decoded:
+                                match = decoded
+                        except:
+                            continue
+                    
+                    # Clean and validate URL
+                    match = unquote(match)
+                    if match and '.m3u8' in match.lower():
+                        # Make absolute URL if relative
+                        if not match.startswith('http'):
+                            match = urljoin(url, match)
+                        
+                        if match not in m3u8_urls:
+                            m3u8_urls.append(match)
+                            print(f"    ✓ Found M3U8: {match[:100]}...")
             
-            # Remove listeners
-            page.remove_listener("request", handle_request)
-            page.remove_listener("response", handle_response)
+            # Look for embedded iframes that might contain the actual player
+            iframe_patterns = [
+                r'<iframe[^>]+src=["\']([^"\']+)["\']',
+                r'iframe["\']?\s*[:=]\s*["\']([^"\']+)["\']',
+            ]
             
-            return m3u8_urls
-        except PlaywrightTimeout:
-            print(f"    ⚠ Timeout loading {iframe_url}")
-            return m3u8_urls
+            for pattern in iframe_patterns:
+                iframe_matches = re.findall(pattern, content, re.IGNORECASE)
+                for iframe_url in iframe_matches:
+                    if iframe_url and not iframe_url.startswith('#'):
+                        # Make absolute URL
+                        if not iframe_url.startswith('http'):
+                            iframe_url = urljoin(url, iframe_url)
+                        
+                        # Recursively check iframe
+                        if iframe_url != url:  # Avoid infinite loop
+                            print(f"    → Found iframe: {iframe_url[:80]}...")
+                            nested_m3u8 = self.extract_m3u8_from_url(iframe_url)
+                            m3u8_urls.extend(nested_m3u8)
+            
+            return list(set(m3u8_urls))  # Remove duplicates
+            
+        except requests.Timeout:
+            print(f"    ⚠ Timeout fetching {url}")
+            return []
         except Exception as e:
             print(f"    ✗ Error: {e}")
-            return m3u8_urls
+            return []
     
     def scrape_all(self):
         """Main scraping function"""
@@ -155,68 +157,44 @@ class EventScraper:
             "events": []
         }
         
-        with sync_playwright() as p:
-            print("Launching browser...")
-            browser = p.chromium.launch(
-                headless=True,
-                args=['--no-sandbox', '--disable-setuid-sandbox']
-            )
+        print("="*60)
+        print("EXTRACTING EVENTS")
+        print("="*60)
+        events = self.extract_events()
+        
+        print("="*60)
+        print("EXTRACTING M3U8 URLs")
+        print("="*60)
+        
+        for idx, event in enumerate(events, 1):
+            print(f"\n[{idx}/{len(events)}] {event['teams']} ({event['time']})")
             
-            context = browser.new_context(
-                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-                viewport={'width': 1920, 'height': 1080},
-                java_script_enabled=True
-            )
+            if not event['channels']:
+                print("  ⚠ No channels found for this event")
+                continue
             
-            page = context.new_page()
+            event["streams"] = {}
             
-            # Extract events
-            print("\n" + "="*60)
-            print("EXTRACTING EVENTS")
-            print("="*60)
-            events = self.extract_events(page)
-            print(f"Found {len(events)} events\n")
-            
-            # Process each event and extract m3u8 for its channels
-            print("="*60)
-            print("EXTRACTING M3U8 URLs")
-            print("="*60)
-            
-            for idx, event in enumerate(events, 1):
-                print(f"\n[{idx}/{len(events)}] {event['teams']} ({event['time']})")
+            # Extract m3u8 for each player type
+            for player_name, player_url in event["player_urls"].items():
+                print(f"\n  {player_name}:")
+                m3u8_urls = self.extract_m3u8_from_url(player_url)
                 
-                if not event['channels']:
-                    print("  ⚠ No channels found for this event")
-                    continue
+                event["streams"][player_name] = {
+                    "iframe_url": player_url,
+                    "m3u8_urls": m3u8_urls,
+                    "extracted_at": datetime.now().isoformat()
+                }
                 
-                event["streams"] = {}
+                if m3u8_urls:
+                    print(f"    → Total M3U8s: {len(m3u8_urls)}")
+                else:
+                    print(f"    ⚠ No M3U8 found")
                 
-                # Extract m3u8 for each player type
-                for player_name, player_url in event["player_urls"].items():
-                    print(f"\n  {player_name}:")
-                    m3u8_urls = self.extract_m3u8_from_iframe(
-                        page, 
-                        player_url,
-                        f"{event['teams']} - {player_name}"
-                    )
-                    
-                    event["streams"][player_name] = {
-                        "iframe_url": player_url,
-                        "m3u8_urls": m3u8_urls,
-                        "extracted_at": datetime.now().isoformat()
-                    }
-                    
-                    if m3u8_urls:
-                        print(f"    → Total M3U8s found: {len(m3u8_urls)}")
-                    else:
-                        print(f"    ⚠ No M3U8 found")
-                    
-                    # Small delay between requests
-                    time.sleep(2)
-                
-                result["events"].append(event)
+                # Small delay between requests
+                time.sleep(0.5)
             
-            browser.close()
+            result["events"].append(event)
         
         return result
     
@@ -254,7 +232,13 @@ def main():
     if total_m3u8 > 0:
         print(f"\n✓ Successfully extracted M3U8 URLs!")
     else:
-        print(f"\n⚠ No M3U8 URLs found - the streams might be protected or unavailable")
+        print(f"\n⚠ No M3U8 URLs found - checking sample event...")
+        if data['events']:
+            sample = data['events'][0]
+            if 'player_urls' in sample:
+                print(f"\nSample URLs to check manually:")
+                for player, url in sample['player_urls'].items():
+                    print(f"  {player}: {url}")
 
 if __name__ == "__main__":
     main()
