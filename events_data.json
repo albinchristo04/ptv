@@ -1,5 +1,5 @@
 {
-  "scrape_time": "2025-10-20T13:15:00.178444",
+  "scrape_time": "2025-10-20T13:33:40.848584",
   "events": [
     {
       "date": "20-10-2025",
@@ -7,19 +7,44 @@
       "competition": "Pro League",
       "teams": "Standard Liège - Antwerp",
       "channels": [
-        "CH153fr"
+        {
+          "code": "CH153fr",
+          "number": "153",
+          "language": "fr"
+        }
       ],
       "timestamp": "20-10-2025 15:00",
-      "extracted_at": "2025-10-20T13:15:02.450437"
-    },
-    {
-      "date": "20-10-2025",
-      "time": "18:00",
-      "competition": "Afc Ligue Des Champions",
-      "teams": "Al Shorta",
-      "channels": [],
-      "timestamp": "20-10-2025 18:00",
-      "extracted_at": "2025-10-20T13:15:02.450448"
+      "extracted_at": "2025-10-20T13:33:41.316058",
+      "player_urls": {
+        "Cartel": "https://rereyano.ru/player/1/153",
+        "hoca": "https://rereyano.ru/player/2/153",
+        "Caster": "https://rereyano.ru/player/3/153",
+        "WIGI": "https://rereyano.ru/player/4/153"
+      },
+      "streams": {
+        "Cartel": {
+          "iframe_url": "https://rereyano.ru/player/1/153",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:33:41.595788"
+        },
+        "hoca": {
+          "iframe_url": "https://rereyano.ru/player/2/153",
+          "m3u8_urls": [
+            "https://hoca6.com/hls/stream.m3u8?ch=spn"
+          ],
+          "extracted_at": "2025-10-20T13:33:42.465252"
+        },
+        "Caster": {
+          "iframe_url": "https://rereyano.ru/player/3/153",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:33:45.272085"
+        },
+        "WIGI": {
+          "iframe_url": "https://rereyano.ru/player/4/153",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:33:48.329771"
+        }
+      }
     },
     {
       "date": "20-10-2025",
@@ -27,10 +52,44 @@
       "competition": "Super Lig",
       "teams": "Eyupspor - Kasimpasa",
       "channels": [
-        "CH151tr"
+        {
+          "code": "CH151tr",
+          "number": "151",
+          "language": "tr"
+        }
       ],
       "timestamp": "20-10-2025 19:00",
-      "extracted_at": "2025-10-20T13:15:02.450453"
+      "extracted_at": "2025-10-20T13:33:41.316080",
+      "player_urls": {
+        "Cartel": "https://rereyano.ru/player/1/151",
+        "hoca": "https://rereyano.ru/player/2/151",
+        "Caster": "https://rereyano.ru/player/3/151",
+        "WIGI": "https://rereyano.ru/player/4/151"
+      },
+      "streams": {
+        "Cartel": {
+          "iframe_url": "https://rereyano.ru/player/1/151",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:33:49.043156"
+        },
+        "hoca": {
+          "iframe_url": "https://rereyano.ru/player/2/151",
+          "m3u8_urls": [
+            "https://hoca6.com/hls/stream.m3u8?ch=spn"
+          ],
+          "extracted_at": "2025-10-20T13:33:49.823800"
+        },
+        "Caster": {
+          "iframe_url": "https://rereyano.ru/player/3/151",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:33:51.576584"
+        },
+        "WIGI": {
+          "iframe_url": "https://rereyano.ru/player/4/151",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:33:53.332796"
+        }
+      }
     },
     {
       "date": "20-10-2025",
@@ -38,10 +97,44 @@
       "competition": "Liga 1 Te Apuesto",
       "teams": "Huancayo - A. Lima",
       "channels": [
-        "CH84es"
+        {
+          "code": "CH84es",
+          "number": "84",
+          "language": "es"
+        }
       ],
       "timestamp": "20-10-2025 20:15",
-      "extracted_at": "2025-10-20T13:15:02.450456"
+      "extracted_at": "2025-10-20T13:33:41.316086",
+      "player_urls": {
+        "Cartel": "https://rereyano.ru/player/1/84",
+        "hoca": "https://rereyano.ru/player/2/84",
+        "Caster": "https://rereyano.ru/player/3/84",
+        "WIGI": "https://rereyano.ru/player/4/84"
+      },
+      "streams": {
+        "Cartel": {
+          "iframe_url": "https://rereyano.ru/player/1/84",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:33:54.041691"
+        },
+        "hoca": {
+          "iframe_url": "https://rereyano.ru/player/2/84",
+          "m3u8_urls": [
+            "https://hoca6.com/hls/stream.m3u8?ch=spn"
+          ],
+          "extracted_at": "2025-10-20T13:33:54.764860"
+        },
+        "Caster": {
+          "iframe_url": "https://rereyano.ru/player/3/84",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:33:56.524161"
+        },
+        "WIGI": {
+          "iframe_url": "https://rereyano.ru/player/4/84",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:33:58.282852"
+        }
+      }
     },
     {
       "date": "20-10-2025",
@@ -49,10 +142,44 @@
       "competition": "Laliga 2",
       "teams": "Cadix CF - Burgos CF",
       "channels": [
-        "CH4fr"
+        {
+          "code": "CH4fr",
+          "number": "4",
+          "language": "fr"
+        }
       ],
       "timestamp": "20-10-2025 20:30",
-      "extracted_at": "2025-10-20T13:15:02.450460"
+      "extracted_at": "2025-10-20T13:33:41.316091",
+      "player_urls": {
+        "Cartel": "https://rereyano.ru/player/1/4",
+        "hoca": "https://rereyano.ru/player/2/4",
+        "Caster": "https://rereyano.ru/player/3/4",
+        "WIGI": "https://rereyano.ru/player/4/4"
+      },
+      "streams": {
+        "Cartel": {
+          "iframe_url": "https://rereyano.ru/player/1/4",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:33:58.993852"
+        },
+        "hoca": {
+          "iframe_url": "https://rereyano.ru/player/2/4",
+          "m3u8_urls": [
+            "https://hoca6.com/hls/stream.m3u8?ch=spn"
+          ],
+          "extracted_at": "2025-10-20T13:33:59.753346"
+        },
+        "Caster": {
+          "iframe_url": "https://rereyano.ru/player/3/4",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:01.772611"
+        },
+        "WIGI": {
+          "iframe_url": "https://rereyano.ru/player/4/4",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:03.540209"
+        }
+      }
     },
     {
       "date": "20-10-2025",
@@ -60,10 +187,44 @@
       "competition": "Ligue 2",
       "teams": "Nancy - Amiens",
       "channels": [
-        "CH1fr"
+        {
+          "code": "CH1fr",
+          "number": "1",
+          "language": "fr"
+        }
       ],
       "timestamp": "20-10-2025 20:45",
-      "extracted_at": "2025-10-20T13:15:02.450466"
+      "extracted_at": "2025-10-20T13:33:41.316096",
+      "player_urls": {
+        "Cartel": "https://rereyano.ru/player/1/1",
+        "hoca": "https://rereyano.ru/player/2/1",
+        "Caster": "https://rereyano.ru/player/3/1",
+        "WIGI": "https://rereyano.ru/player/4/1"
+      },
+      "streams": {
+        "Cartel": {
+          "iframe_url": "https://rereyano.ru/player/1/1",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:04.249800"
+        },
+        "hoca": {
+          "iframe_url": "https://rereyano.ru/player/2/1",
+          "m3u8_urls": [
+            "https://hoca6.com/hls/stream.m3u8?ch=spn"
+          ],
+          "extracted_at": "2025-10-20T13:34:05.014961"
+        },
+        "Caster": {
+          "iframe_url": "https://rereyano.ru/player/3/1",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:06.770106"
+        },
+        "WIGI": {
+          "iframe_url": "https://rereyano.ru/player/4/1",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:08.781937"
+        }
+      }
     },
     {
       "date": "20-10-2025",
@@ -71,10 +232,44 @@
       "competition": "Serie A",
       "teams": "Cremonese - Udinese",
       "channels": [
-        "CH45fr"
+        {
+          "code": "CH45fr",
+          "number": "45",
+          "language": "fr"
+        }
       ],
       "timestamp": "20-10-2025 20:45",
-      "extracted_at": "2025-10-20T13:15:02.450469"
+      "extracted_at": "2025-10-20T13:33:41.316101",
+      "player_urls": {
+        "Cartel": "https://rereyano.ru/player/1/45",
+        "hoca": "https://rereyano.ru/player/2/45",
+        "Caster": "https://rereyano.ru/player/3/45",
+        "WIGI": "https://rereyano.ru/player/4/45"
+      },
+      "streams": {
+        "Cartel": {
+          "iframe_url": "https://rereyano.ru/player/1/45",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:09.493250"
+        },
+        "hoca": {
+          "iframe_url": "https://rereyano.ru/player/2/45",
+          "m3u8_urls": [
+            "https://hoca6.com/hls/stream.m3u8?ch=spn"
+          ],
+          "extracted_at": "2025-10-20T13:34:10.253282"
+        },
+        "Caster": {
+          "iframe_url": "https://rereyano.ru/player/3/45",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:12.020227"
+        },
+        "WIGI": {
+          "iframe_url": "https://rereyano.ru/player/4/45",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:13.781401"
+        }
+      }
     },
     {
       "date": "20-10-2025",
@@ -82,10 +277,44 @@
       "competition": "Laliga",
       "teams": "Alaves - Valence",
       "channels": [
-        "CH51es"
+        {
+          "code": "CH51es",
+          "number": "51",
+          "language": "es"
+        }
       ],
       "timestamp": "20-10-2025 21:00",
-      "extracted_at": "2025-10-20T13:15:02.450473"
+      "extracted_at": "2025-10-20T13:33:41.316107",
+      "player_urls": {
+        "Cartel": "https://rereyano.ru/player/1/51",
+        "hoca": "https://rereyano.ru/player/2/51",
+        "Caster": "https://rereyano.ru/player/3/51",
+        "WIGI": "https://rereyano.ru/player/4/51"
+      },
+      "streams": {
+        "Cartel": {
+          "iframe_url": "https://rereyano.ru/player/1/51",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:14.492168"
+        },
+        "hoca": {
+          "iframe_url": "https://rereyano.ru/player/2/51",
+          "m3u8_urls": [
+            "https://hoca6.com/hls/stream.m3u8?ch=spn"
+          ],
+          "extracted_at": "2025-10-20T13:34:15.259369"
+        },
+        "Caster": {
+          "iframe_url": "https://rereyano.ru/player/3/51",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:17.016695"
+        },
+        "WIGI": {
+          "iframe_url": "https://rereyano.ru/player/4/51",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:18.793612"
+        }
+      }
     },
     {
       "date": "20-10-2025",
@@ -93,10 +322,44 @@
       "competition": "Liga AUF Uruguaya",
       "teams": "Racing Montevideo - Juventud",
       "channels": [
-        "CH109es"
+        {
+          "code": "CH109es",
+          "number": "109",
+          "language": "es"
+        }
       ],
       "timestamp": "20-10-2025 21:00",
-      "extracted_at": "2025-10-20T13:15:02.450476"
+      "extracted_at": "2025-10-20T13:33:41.316116",
+      "player_urls": {
+        "Cartel": "https://rereyano.ru/player/1/109",
+        "hoca": "https://rereyano.ru/player/2/109",
+        "Caster": "https://rereyano.ru/player/3/109",
+        "WIGI": "https://rereyano.ru/player/4/109"
+      },
+      "streams": {
+        "Cartel": {
+          "iframe_url": "https://rereyano.ru/player/1/109",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:19.505018"
+        },
+        "hoca": {
+          "iframe_url": "https://rereyano.ru/player/2/109",
+          "m3u8_urls": [
+            "https://hoca6.com/hls/stream.m3u8?ch=spn"
+          ],
+          "extracted_at": "2025-10-20T13:34:20.271890"
+        },
+        "Caster": {
+          "iframe_url": "https://rereyano.ru/player/3/109",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:22.030742"
+        },
+        "WIGI": {
+          "iframe_url": "https://rereyano.ru/player/4/109",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:23.799159"
+        }
+      }
     },
     {
       "date": "20-10-2025",
@@ -104,10 +367,44 @@
       "competition": "Premier League",
       "teams": "West Ham - Brentford",
       "channels": [
-        "CH12fr"
+        {
+          "code": "CH12fr",
+          "number": "12",
+          "language": "fr"
+        }
       ],
       "timestamp": "20-10-2025 21:00",
-      "extracted_at": "2025-10-20T13:15:02.450479"
+      "extracted_at": "2025-10-20T13:33:41.316122",
+      "player_urls": {
+        "Cartel": "https://rereyano.ru/player/1/12",
+        "hoca": "https://rereyano.ru/player/2/12",
+        "Caster": "https://rereyano.ru/player/3/12",
+        "WIGI": "https://rereyano.ru/player/4/12"
+      },
+      "streams": {
+        "Cartel": {
+          "iframe_url": "https://rereyano.ru/player/1/12",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:24.510245"
+        },
+        "hoca": {
+          "iframe_url": "https://rereyano.ru/player/2/12",
+          "m3u8_urls": [
+            "https://hoca6.com/hls/stream.m3u8?ch=spn"
+          ],
+          "extracted_at": "2025-10-20T13:34:25.279006"
+        },
+        "Caster": {
+          "iframe_url": "https://rereyano.ru/player/3/12",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:27.042036"
+        },
+        "WIGI": {
+          "iframe_url": "https://rereyano.ru/player/4/12",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:28.807681"
+        }
+      }
     },
     {
       "date": "21-10-2025",
@@ -115,10 +412,44 @@
       "competition": "Liga AUF Uruguaya",
       "teams": "Plaza Colonia - Liverpool M.",
       "channels": [
-        "CH109es"
+        {
+          "code": "CH109es",
+          "number": "109",
+          "language": "es"
+        }
       ],
       "timestamp": "21-10-2025 00:00",
-      "extracted_at": "2025-10-20T13:15:02.450484"
+      "extracted_at": "2025-10-20T13:33:41.316126",
+      "player_urls": {
+        "Cartel": "https://rereyano.ru/player/1/109",
+        "hoca": "https://rereyano.ru/player/2/109",
+        "Caster": "https://rereyano.ru/player/3/109",
+        "WIGI": "https://rereyano.ru/player/4/109"
+      },
+      "streams": {
+        "Cartel": {
+          "iframe_url": "https://rereyano.ru/player/1/109",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:29.474638"
+        },
+        "hoca": {
+          "iframe_url": "https://rereyano.ru/player/2/109",
+          "m3u8_urls": [
+            "https://hoca6.com/hls/stream.m3u8?ch=spn"
+          ],
+          "extracted_at": "2025-10-20T13:34:30.192316"
+        },
+        "Caster": {
+          "iframe_url": "https://rereyano.ru/player/3/109",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:31.908390"
+        },
+        "WIGI": {
+          "iframe_url": "https://rereyano.ru/player/4/109",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:33.624759"
+        }
+      }
     },
     {
       "date": "21-10-2025",
@@ -126,10 +457,44 @@
       "competition": "Serie A Bresil",
       "teams": "Juventude - Bragantino",
       "channels": [
-        "CH194pt"
+        {
+          "code": "CH194pt",
+          "number": "194",
+          "language": "pt"
+        }
       ],
       "timestamp": "21-10-2025 00:00",
-      "extracted_at": "2025-10-20T13:15:02.450487"
+      "extracted_at": "2025-10-20T13:33:41.316133",
+      "player_urls": {
+        "Cartel": "https://rereyano.ru/player/1/194",
+        "hoca": "https://rereyano.ru/player/2/194",
+        "Caster": "https://rereyano.ru/player/3/194",
+        "WIGI": "https://rereyano.ru/player/4/194"
+      },
+      "streams": {
+        "Cartel": {
+          "iframe_url": "https://rereyano.ru/player/1/194",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:34.334899"
+        },
+        "hoca": {
+          "iframe_url": "https://rereyano.ru/player/2/194",
+          "m3u8_urls": [
+            "https://hoca6.com/hls/stream.m3u8?ch=spn"
+          ],
+          "extracted_at": "2025-10-20T13:34:35.096575"
+        },
+        "Caster": {
+          "iframe_url": "https://rereyano.ru/player/3/194",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:36.848793"
+        },
+        "WIGI": {
+          "iframe_url": "https://rereyano.ru/player/4/194",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:38.605856"
+        }
+      }
     },
     {
       "date": "21-10-2025",
@@ -137,10 +502,44 @@
       "competition": "Torneo LPF",
       "teams": "Dep. Riestra - Instituto",
       "channels": [
-        "CH75es"
+        {
+          "code": "CH75es",
+          "number": "75",
+          "language": "es"
+        }
       ],
       "timestamp": "21-10-2025 00:00",
-      "extracted_at": "2025-10-20T13:15:02.450490"
+      "extracted_at": "2025-10-20T13:33:41.316138",
+      "player_urls": {
+        "Cartel": "https://rereyano.ru/player/1/75",
+        "hoca": "https://rereyano.ru/player/2/75",
+        "Caster": "https://rereyano.ru/player/3/75",
+        "WIGI": "https://rereyano.ru/player/4/75"
+      },
+      "streams": {
+        "Cartel": {
+          "iframe_url": "https://rereyano.ru/player/1/75",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:39.316065"
+        },
+        "hoca": {
+          "iframe_url": "https://rereyano.ru/player/2/75",
+          "m3u8_urls": [
+            "https://hoca6.com/hls/stream.m3u8?ch=spn"
+          ],
+          "extracted_at": "2025-10-20T13:34:40.085308"
+        },
+        "Caster": {
+          "iframe_url": "https://rereyano.ru/player/3/75",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:41.793954"
+        },
+        "WIGI": {
+          "iframe_url": "https://rereyano.ru/player/4/75",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:43.563260"
+        }
+      }
     },
     {
       "date": "21-10-2025",
@@ -148,10 +547,44 @@
       "competition": "Torneo LPF",
       "teams": "Tigre - Barracas Central",
       "channels": [
-        "CH76es"
+        {
+          "code": "CH76es",
+          "number": "76",
+          "language": "es"
+        }
       ],
       "timestamp": "21-10-2025 00:00",
-      "extracted_at": "2025-10-20T13:15:02.450493"
+      "extracted_at": "2025-10-20T13:33:41.316143",
+      "player_urls": {
+        "Cartel": "https://rereyano.ru/player/1/76",
+        "hoca": "https://rereyano.ru/player/2/76",
+        "Caster": "https://rereyano.ru/player/3/76",
+        "WIGI": "https://rereyano.ru/player/4/76"
+      },
+      "streams": {
+        "Cartel": {
+          "iframe_url": "https://rereyano.ru/player/1/76",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:44.277041"
+        },
+        "hoca": {
+          "iframe_url": "https://rereyano.ru/player/2/76",
+          "m3u8_urls": [
+            "https://hoca6.com/hls/stream.m3u8?ch=spn"
+          ],
+          "extracted_at": "2025-10-20T13:34:45.047360"
+        },
+        "Caster": {
+          "iframe_url": "https://rereyano.ru/player/3/76",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:46.806481"
+        },
+        "WIGI": {
+          "iframe_url": "https://rereyano.ru/player/4/76",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:48.573934"
+        }
+      }
     },
     {
       "date": "21-10-2025",
@@ -159,10 +592,44 @@
       "competition": "Serie A Bresil",
       "teams": "Vasco - Fluminense",
       "channels": [
-        "CH190pt"
+        {
+          "code": "CH190pt",
+          "number": "190",
+          "language": "pt"
+        }
       ],
       "timestamp": "21-10-2025 00:30",
-      "extracted_at": "2025-10-20T13:15:02.450496"
+      "extracted_at": "2025-10-20T13:33:41.316147",
+      "player_urls": {
+        "Cartel": "https://rereyano.ru/player/1/190",
+        "hoca": "https://rereyano.ru/player/2/190",
+        "Caster": "https://rereyano.ru/player/3/190",
+        "WIGI": "https://rereyano.ru/player/4/190"
+      },
+      "streams": {
+        "Cartel": {
+          "iframe_url": "https://rereyano.ru/player/1/190",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:49.283809"
+        },
+        "hoca": {
+          "iframe_url": "https://rereyano.ru/player/2/190",
+          "m3u8_urls": [
+            "https://hoca6.com/hls/stream.m3u8?ch=spn"
+          ],
+          "extracted_at": "2025-10-20T13:34:50.002621"
+        },
+        "Caster": {
+          "iframe_url": "https://rereyano.ru/player/3/190",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:51.755433"
+        },
+        "WIGI": {
+          "iframe_url": "https://rereyano.ru/player/4/190",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:53.510162"
+        }
+      }
     },
     {
       "date": "21-10-2025",
@@ -170,10 +637,44 @@
       "competition": "Liga 1 Te Apuesto",
       "teams": "Sport Boys - Melgar",
       "channels": [
-        "CH85es"
+        {
+          "code": "CH85es",
+          "number": "85",
+          "language": "es"
+        }
       ],
       "timestamp": "21-10-2025 01:00",
-      "extracted_at": "2025-10-20T13:15:02.450498"
+      "extracted_at": "2025-10-20T13:33:41.316154",
+      "player_urls": {
+        "Cartel": "https://rereyano.ru/player/1/85",
+        "hoca": "https://rereyano.ru/player/2/85",
+        "Caster": "https://rereyano.ru/player/3/85",
+        "WIGI": "https://rereyano.ru/player/4/85"
+      },
+      "streams": {
+        "Cartel": {
+          "iframe_url": "https://rereyano.ru/player/1/85",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:54.220423"
+        },
+        "hoca": {
+          "iframe_url": "https://rereyano.ru/player/2/85",
+          "m3u8_urls": [
+            "https://hoca6.com/hls/stream.m3u8?ch=spn"
+          ],
+          "extracted_at": "2025-10-20T13:34:54.987252"
+        },
+        "Caster": {
+          "iframe_url": "https://rereyano.ru/player/3/85",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:56.751953"
+        },
+        "WIGI": {
+          "iframe_url": "https://rereyano.ru/player/4/85",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:58.518575"
+        }
+      }
     },
     {
       "date": "21-10-2025",
@@ -181,10 +682,44 @@
       "competition": "Liga Betplay Dimayor",
       "teams": "La Equidad - Tolima",
       "channels": [
-        "CH81es"
+        {
+          "code": "CH81es",
+          "number": "81",
+          "language": "es"
+        }
       ],
       "timestamp": "21-10-2025 01:00",
-      "extracted_at": "2025-10-20T13:15:02.450501"
+      "extracted_at": "2025-10-20T13:33:41.316161",
+      "player_urls": {
+        "Cartel": "https://rereyano.ru/player/1/81",
+        "hoca": "https://rereyano.ru/player/2/81",
+        "Caster": "https://rereyano.ru/player/3/81",
+        "WIGI": "https://rereyano.ru/player/4/81"
+      },
+      "streams": {
+        "Cartel": {
+          "iframe_url": "https://rereyano.ru/player/1/81",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:34:59.230115"
+        },
+        "hoca": {
+          "iframe_url": "https://rereyano.ru/player/2/81",
+          "m3u8_urls": [
+            "https://hoca6.com/hls/stream.m3u8?ch=spn"
+          ],
+          "extracted_at": "2025-10-20T13:34:59.993639"
+        },
+        "Caster": {
+          "iframe_url": "https://rereyano.ru/player/3/81",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:35:01.764228"
+        },
+        "WIGI": {
+          "iframe_url": "https://rereyano.ru/player/4/81",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:35:03.543037"
+        }
+      }
     },
     {
       "date": "21-10-2025",
@@ -192,10 +727,44 @@
       "competition": "NFL",
       "teams": "Detroit Lions - Tampa Bay Buccaneers",
       "channels": [
-        "CH1fr"
+        {
+          "code": "CH1fr",
+          "number": "1",
+          "language": "fr"
+        }
       ],
       "timestamp": "21-10-2025 01:00",
-      "extracted_at": "2025-10-20T13:15:02.450505"
+      "extracted_at": "2025-10-20T13:33:41.316166",
+      "player_urls": {
+        "Cartel": "https://rereyano.ru/player/1/1",
+        "hoca": "https://rereyano.ru/player/2/1",
+        "Caster": "https://rereyano.ru/player/3/1",
+        "WIGI": "https://rereyano.ru/player/4/1"
+      },
+      "streams": {
+        "Cartel": {
+          "iframe_url": "https://rereyano.ru/player/1/1",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:35:04.252350"
+        },
+        "hoca": {
+          "iframe_url": "https://rereyano.ru/player/2/1",
+          "m3u8_urls": [
+            "https://hoca6.com/hls/stream.m3u8?ch=spn"
+          ],
+          "extracted_at": "2025-10-20T13:35:05.016720"
+        },
+        "Caster": {
+          "iframe_url": "https://rereyano.ru/player/3/1",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:35:06.794927"
+        },
+        "WIGI": {
+          "iframe_url": "https://rereyano.ru/player/4/1",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:35:08.569601"
+        }
+      }
     },
     {
       "date": "21-10-2025",
@@ -203,10 +772,44 @@
       "competition": "Ecuador Ligapro",
       "teams": "El Nacional - Dep. Cuenca",
       "channels": [
-        "CH86es"
+        {
+          "code": "CH86es",
+          "number": "86",
+          "language": "es"
+        }
       ],
       "timestamp": "21-10-2025 02:00",
-      "extracted_at": "2025-10-20T13:15:02.450508"
+      "extracted_at": "2025-10-20T13:33:41.316171",
+      "player_urls": {
+        "Cartel": "https://rereyano.ru/player/1/86",
+        "hoca": "https://rereyano.ru/player/2/86",
+        "Caster": "https://rereyano.ru/player/3/86",
+        "WIGI": "https://rereyano.ru/player/4/86"
+      },
+      "streams": {
+        "Cartel": {
+          "iframe_url": "https://rereyano.ru/player/1/86",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:35:09.281333"
+        },
+        "hoca": {
+          "iframe_url": "https://rereyano.ru/player/2/86",
+          "m3u8_urls": [
+            "https://hoca6.com/hls/stream.m3u8?ch=spn"
+          ],
+          "extracted_at": "2025-10-20T13:35:10.049184"
+        },
+        "Caster": {
+          "iframe_url": "https://rereyano.ru/player/3/86",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:35:11.811872"
+        },
+        "WIGI": {
+          "iframe_url": "https://rereyano.ru/player/4/86",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:35:13.582812"
+        }
+      }
     },
     {
       "date": "21-10-2025",
@@ -214,10 +817,44 @@
       "competition": "Torneo LPF",
       "teams": "Atl. Tucuman - San Lorenzo",
       "channels": [
-        "CH75es"
+        {
+          "code": "CH75es",
+          "number": "75",
+          "language": "es"
+        }
       ],
       "timestamp": "21-10-2025 02:15",
-      "extracted_at": "2025-10-20T13:15:02.450511"
+      "extracted_at": "2025-10-20T13:33:41.316176",
+      "player_urls": {
+        "Cartel": "https://rereyano.ru/player/1/75",
+        "hoca": "https://rereyano.ru/player/2/75",
+        "Caster": "https://rereyano.ru/player/3/75",
+        "WIGI": "https://rereyano.ru/player/4/75"
+      },
+      "streams": {
+        "Cartel": {
+          "iframe_url": "https://rereyano.ru/player/1/75",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:35:14.297079"
+        },
+        "hoca": {
+          "iframe_url": "https://rereyano.ru/player/2/75",
+          "m3u8_urls": [
+            "https://hoca6.com/hls/stream.m3u8?ch=spn"
+          ],
+          "extracted_at": "2025-10-20T13:35:15.063076"
+        },
+        "Caster": {
+          "iframe_url": "https://rereyano.ru/player/3/75",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:35:16.841774"
+        },
+        "WIGI": {
+          "iframe_url": "https://rereyano.ru/player/4/75",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:35:18.609051"
+        }
+      }
     },
     {
       "date": "21-10-2025",
@@ -225,10 +862,44 @@
       "competition": "Serie A Bresil",
       "teams": "Santos - Vitoria",
       "channels": [
-        "CH193pt"
+        {
+          "code": "CH193pt",
+          "number": "193",
+          "language": "pt"
+        }
       ],
       "timestamp": "21-10-2025 02:30",
-      "extracted_at": "2025-10-20T13:15:02.450513"
+      "extracted_at": "2025-10-20T13:33:41.316182",
+      "player_urls": {
+        "Cartel": "https://rereyano.ru/player/1/193",
+        "hoca": "https://rereyano.ru/player/2/193",
+        "Caster": "https://rereyano.ru/player/3/193",
+        "WIGI": "https://rereyano.ru/player/4/193"
+      },
+      "streams": {
+        "Cartel": {
+          "iframe_url": "https://rereyano.ru/player/1/193",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:35:19.321101"
+        },
+        "hoca": {
+          "iframe_url": "https://rereyano.ru/player/2/193",
+          "m3u8_urls": [
+            "https://hoca6.com/hls/stream.m3u8?ch=spn"
+          ],
+          "extracted_at": "2025-10-20T13:35:20.090437"
+        },
+        "Caster": {
+          "iframe_url": "https://rereyano.ru/player/3/193",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:35:21.868322"
+        },
+        "WIGI": {
+          "iframe_url": "https://rereyano.ru/player/4/193",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:35:23.634368"
+        }
+      }
     },
     {
       "date": "21-10-2025",
@@ -236,10 +907,44 @@
       "competition": "Liga Betplay Dimayor",
       "teams": "Ind. Medellin - Santa Fe",
       "channels": [
-        "CH81es"
+        {
+          "code": "CH81es",
+          "number": "81",
+          "language": "es"
+        }
       ],
       "timestamp": "21-10-2025 03:10",
-      "extracted_at": "2025-10-20T13:15:02.450516"
+      "extracted_at": "2025-10-20T13:33:41.316188",
+      "player_urls": {
+        "Cartel": "https://rereyano.ru/player/1/81",
+        "hoca": "https://rereyano.ru/player/2/81",
+        "Caster": "https://rereyano.ru/player/3/81",
+        "WIGI": "https://rereyano.ru/player/4/81"
+      },
+      "streams": {
+        "Cartel": {
+          "iframe_url": "https://rereyano.ru/player/1/81",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:35:24.346016"
+        },
+        "hoca": {
+          "iframe_url": "https://rereyano.ru/player/2/81",
+          "m3u8_urls": [
+            "https://hoca6.com/hls/stream.m3u8?ch=spn"
+          ],
+          "extracted_at": "2025-10-20T13:35:25.112470"
+        },
+        "Caster": {
+          "iframe_url": "https://rereyano.ru/player/3/81",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:35:26.873027"
+        },
+        "WIGI": {
+          "iframe_url": "https://rereyano.ru/player/4/81",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:35:28.637705"
+        }
+      }
     },
     {
       "date": "21-10-2025",
@@ -247,10 +952,44 @@
       "competition": "Liga 1 Te Apuesto",
       "teams": "U. de Deportes - Ayacucho",
       "channels": [
-        "CH85es"
+        {
+          "code": "CH85es",
+          "number": "85",
+          "language": "es"
+        }
       ],
       "timestamp": "21-10-2025 03:15",
-      "extracted_at": "2025-10-20T13:15:02.450519"
+      "extracted_at": "2025-10-20T13:33:41.316193",
+      "player_urls": {
+        "Cartel": "https://rereyano.ru/player/1/85",
+        "hoca": "https://rereyano.ru/player/2/85",
+        "Caster": "https://rereyano.ru/player/3/85",
+        "WIGI": "https://rereyano.ru/player/4/85"
+      },
+      "streams": {
+        "Cartel": {
+          "iframe_url": "https://rereyano.ru/player/1/85",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:35:29.350640"
+        },
+        "hoca": {
+          "iframe_url": "https://rereyano.ru/player/2/85",
+          "m3u8_urls": [
+            "https://hoca6.com/hls/stream.m3u8?ch=spn"
+          ],
+          "extracted_at": "2025-10-20T13:35:30.124773"
+        },
+        "Caster": {
+          "iframe_url": "https://rereyano.ru/player/3/85",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:35:31.899923"
+        },
+        "WIGI": {
+          "iframe_url": "https://rereyano.ru/player/4/85",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:35:33.685684"
+        }
+      }
     },
     {
       "date": "21-10-2025",
@@ -258,32 +997,44 @@
       "competition": "NFL",
       "teams": "Seattle Seahawks - Houston Texans",
       "channels": [
-        "CH161us"
+        {
+          "code": "CH161us",
+          "number": "161",
+          "language": "us"
+        }
       ],
       "timestamp": "21-10-2025 04:00",
-      "extracted_at": "2025-10-20T13:15:02.450524"
+      "extracted_at": "2025-10-20T13:33:41.316205",
+      "player_urls": {
+        "Cartel": "https://rereyano.ru/player/1/161",
+        "hoca": "https://rereyano.ru/player/2/161",
+        "Caster": "https://rereyano.ru/player/3/161",
+        "WIGI": "https://rereyano.ru/player/4/161"
+      },
+      "streams": {
+        "Cartel": {
+          "iframe_url": "https://rereyano.ru/player/1/161",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:35:34.395770"
+        },
+        "hoca": {
+          "iframe_url": "https://rereyano.ru/player/2/161",
+          "m3u8_urls": [
+            "https://hoca6.com/hls/stream.m3u8?ch=spn"
+          ],
+          "extracted_at": "2025-10-20T13:35:35.161649"
+        },
+        "Caster": {
+          "iframe_url": "https://rereyano.ru/player/3/161",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:35:36.930120"
+        },
+        "WIGI": {
+          "iframe_url": "https://rereyano.ru/player/4/161",
+          "m3u8_urls": [],
+          "extracted_at": "2025-10-20T13:35:38.713058"
+        }
+      }
     }
-  ],
-  "player_sources": {
-    "Cartel": {
-      "iframe_url": "https://rereyano.ru/player/1/1",
-      "m3u8_urls": [],
-      "extracted_at": "2025-10-20T13:15:12.336395"
-    },
-    "hoca": {
-      "iframe_url": "https://rereyano.ru/player/2/1",
-      "m3u8_urls": [],
-      "extracted_at": "2025-10-20T13:15:19.898839"
-    },
-    "Caster": {
-      "iframe_url": "https://rereyano.ru/player/3/1",
-      "m3u8_urls": [],
-      "extracted_at": "2025-10-20T13:15:31.305620"
-    },
-    "WIGI": {
-      "iframe_url": "https://rereyano.ru/player/4/1",
-      "m3u8_urls": [],
-      "extracted_at": "2025-10-20T13:15:42.504085"
-    }
-  }
+  ]
 }
