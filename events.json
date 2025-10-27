@@ -1,40 +1,20 @@
 {
   "metadata": {
-    "fetched_at": "2025-10-27T01:13:30.394307",
+    "fetched_at": "2025-10-27T06:24:44.067139",
     "source": "https://ppv.to/api/streams",
     "total_events": null
   },
   "events": {
     "success": true,
-    "timestamp": 1761527610,
+    "timestamp": 1761546290,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.007955074310302734,
+    "performance": 0.007108926773071289,
     "streams": [
       {
         "category": "American Football",
         "id": 26,
         "always_live": false,
         "streams": [
-          {
-            "id": 12769,
-            "name": "Green Bay Packers vs. Pittsburgh Steelers",
-            "tag": "NBC",
-            "poster": "https://ppv.to/assets/thumb/c80eccf1121f7019033234058785e1cb-thumbnail.jpg",
-            "blurhash": "LAEB{605+@J;oeazayj@00~9Xnr:",
-            "colors": [
-              "#203731",
-              "#feb512"
-            ],
-            "uri_name": "nfl/7456/7456-pit",
-            "starts_at": 1761524400,
-            "ends_at": 1761537000,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "American Football",
-            "iframe": "https://embednow.top/embed/nfl/7456/7456-pit",
-            "viewers": "5917",
-            "substreams": []
-          },
           {
             "id": 12770,
             "name": "Washington Commanders vs. Kansas City Chiefs",
@@ -52,7 +32,34 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://embednow.top/embed/nfl/7057/7057-kc",
-            "viewers": "5",
+            "viewers": "0",
+            "substreams": []
+          }
+        ]
+      },
+      {
+        "category": "Baseball",
+        "id": 36,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 12921,
+            "name": "Toronto Blue Jays vs. Los Angeles Dodgers",
+            "tag": "FOX",
+            "poster": "https://ppv.to/assets/thumb/03e78a6ebc7218c0e054460d58d4533a-thumbnail.jpg",
+            "blurhash": "L65~bQ~BX94oj]fkfQa{004:nh^*",
+            "colors": [
+              "#10498c",
+              "#00579a"
+            ],
+            "uri_name": "mlb/2025-10-27/5888-lad",
+            "starts_at": 1761609600,
+            "ends_at": 1761620400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://embednow.top/embed/mlb/2025-10-27/5888-lad",
+            "viewers": "1",
             "substreams": []
           }
         ]
@@ -63,83 +70,223 @@
         "always_live": false,
         "streams": [
           {
-            "id": 12868,
-            "name": "Indiana Pacers vs. Minnesota Timberwolves",
-            "tag": "FDSNNO",
-            "poster": "https://ppv.to/assets/thumb/01575cc9bedebe8e5dc5729772000934-thumbnail.jpg",
-            "blurhash": "L67d,;~BD%0hj[f6j[j[004;%M^$",
+            "id": 12916,
+            "name": "Cleveland Cavaliers vs. Detroit Pistons",
+            "tag": "Peacock",
+            "poster": "https://ppv.to/assets/thumb/0ec75830760640820df4f4633a53e94b-thumbnail.jpg",
+            "blurhash": "L69Z4;ZLIV}ZjufPj[ju00-r%M5k",
             "colors": [
-              "#002458",
-              "#182d4a"
+              "#7d002f",
+              "#254a8e"
             ],
-            "uri_name": "nba/10-26-2025/ind-min",
-            "starts_at": 1761519600,
-            "ends_at": 1761529680,
+            "uri_name": "nba/10-27-2025/cle-det",
+            "starts_at": 1761606000,
+            "ends_at": 1761616080,
             "always_live": 0,
             "locale": "en",
             "category_name": "Basketball",
-            "iframe": "https://embednow.top/embed/nba/10-26-2025/ind-min",
-            "viewers": "977",
+            "iframe": "https://embednow.top/embed/nba/10-27-2025/cle-det",
+            "viewers": "0",
             "substreams": []
           },
           {
-            "id": 12869,
-            "name": "Toronto Raptors vs. Dallas Mavericks",
-            "tag": "KFAA",
-            "poster": "https://ppv.to/assets/thumb/5878e482f20ee0dba47efe5ddef77a72-thumbnail.jpg",
-            "blurhash": "L56[gyQ89fxot7WBj[of00pf-.RR",
+            "id": 12918,
+            "name": "Orlando Magic vs. Philadelphia 76ers",
+            "tag": "NBCSP",
+            "poster": "https://ppv.to/assets/thumb/fa8e5fe647aab279c54dc0a9c1f3fbf0-thumbnail.jpg",
+            "blurhash": "L36uoA0B4o_4kDayoLj[00_1?a4n",
             "colors": [
-              "#111119",
+              "#0045aa",
+              "#274a8e"
+            ],
+            "uri_name": "nba/10-27-2025/orl-phi",
+            "starts_at": 1761606000,
+            "ends_at": 1761616080,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://embednow.top/embed/nba/10-27-2025/orl-phi",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 12919,
+            "name": "Atlanta Hawks vs. Chicago Bulls",
+            "tag": "CHSN",
+            "poster": "https://ppv.to/assets/thumb/92ccfa59bccad528a044352219a1e53b-thumbnail.jpg",
+            "blurhash": "L3G}?i.7H?0dbGsVkCSL004.%#~C",
+            "colors": [
+              "#bd0624",
+              "#cf1b48"
+            ],
+            "uri_name": "nba/10-27-2025/atl-chi",
+            "starts_at": 1761609600,
+            "ends_at": 1761619680,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://embednow.top/embed/nba/10-27-2025/atl-chi",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 12920,
+            "name": "Brooklyn Nets vs. Houston Rockets",
+            "tag": "SCHN",
+            "poster": "https://ppv.to/assets/thumb/8af9024a083cd4c2e510b60bdffc3b44-thumbnail.jpg",
+            "blurhash": "L5Day94QR41HsobHj[fQ00vMx^=z",
+            "colors": [
+              "#676767",
+              "#d01b48"
+            ],
+            "uri_name": "nba/10-27-2025/bkn-hou",
+            "starts_at": 1761609600,
+            "ends_at": 1761619680,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://embednow.top/embed/nba/10-27-2025/bkn-hou",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 12922,
+            "name": "Boston Celtics vs. New Orleans Pelicans",
+            "tag": "GCSEN",
+            "poster": "https://ppv.to/assets/thumb/ba4f8d5db1fde8e9b2ab867da76fa92d-thumbnail.jpg",
+            "blurhash": "L66+Ohy-E0NFofjFj[bH00Mf%Mxu",
+            "colors": [
+              "#02793f",
+              "#142c48"
+            ],
+            "uri_name": "nba/10-27-2025/bos-nop",
+            "starts_at": 1761609600,
+            "ends_at": 1761619680,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://embednow.top/embed/nba/10-27-2025/bos-nop",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 12923,
+            "name": "Toronto Raptors vs. San Antonio Spurs",
+            "tag": "FDSNSW",
+            "poster": "https://ppv.to/assets/thumb/1b4fa3684222bbad7cf1428b60538391-thumbnail.jpg",
+            "blurhash": "L16t,lvh0000aej[ofay005Q~q~C",
+            "colors": [
+              "#0f1219",
+              "#525252"
+            ],
+            "uri_name": "nba/10-27-2025/tor-sas",
+            "starts_at": 1761609600,
+            "ends_at": 1761619680,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://embednow.top/embed/nba/10-27-2025/tor-sas",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 12924,
+            "name": "Oklahoma City Thunder vs. Dallas Mavericks",
+            "tag": "KFAA",
+            "poster": "https://ppv.to/assets/thumb/d2c946acf314f81d2c7d19f09702acbc-thumbnail.jpg",
+            "blurhash": "L26cEa9d02?tozIoj[xu00x?_2IC",
+            "colors": [
+              "#006fb6",
               "#0e6cb6"
             ],
-            "uri_name": "nba/10-26-2025/tor-dal",
-            "starts_at": 1761521400,
-            "ends_at": 1761531480,
+            "uri_name": "nba/10-27-2025/okc-dal",
+            "starts_at": 1761611400,
+            "ends_at": 1761621480,
             "always_live": 0,
             "locale": "en",
             "category_name": "Basketball",
-            "iframe": "https://embednow.top/embed/nba/10-26-2025/tor-dal",
-            "viewers": "1602",
+            "iframe": "https://embednow.top/embed/nba/10-27-2025/okc-dal",
+            "viewers": "0",
             "substreams": []
           },
           {
-            "id": 12870,
-            "name": "Portland Trail Blazers vs. LA Clippers",
-            "tag": "FDSNSC",
-            "poster": "https://ppv.to/assets/thumb/d9f5b741563350cb65e4d8c25e6eec2a-thumbnail.jpg",
-            "blurhash": "LFB-[I{erX-VoLoLj[ay0xO?kqI.",
+            "id": 12925,
+            "name": "Phoenix Suns vs. Utah Jazz",
+            "tag": "KJZZ",
+            "poster": "https://ppv.to/assets/thumb/afc856b225c3a542f556ceb1bb28775a-thumbnail.jpg",
+            "blurhash": "L25h4H~D010qZ~aJbIX9005A_3^Z",
             "colors": [
-              "#d43134",
-              "#1d2146"
+              "#140756",
+              "#0b0b0b"
             ],
-            "uri_name": "nba/10-26-2025/por-lac",
-            "starts_at": 1761526800,
-            "ends_at": 1761536880,
+            "uri_name": "nba/10-27-2025/phx-uta",
+            "starts_at": 1761613200,
+            "ends_at": 1761623280,
             "always_live": 0,
             "locale": "en",
             "category_name": "Basketball",
-            "iframe": "https://embednow.top/embed/nba/10-26-2025/por-lac",
-            "viewers": "309",
+            "iframe": "https://embednow.top/embed/nba/10-27-2025/phx-uta",
+            "viewers": "0",
             "substreams": []
           },
           {
-            "id": 12871,
-            "name": "Los Angeles Lakers vs. Sacramento Kings",
-            "tag": "NBCSCA",
-            "poster": "https://ppv.to/assets/thumb/d34127a4df6b38c603ef13c8ba25b6e5-thumbnail.jpg",
-            "blurhash": "L2A9:LI7006VaQW-ofe:00Fk~q]y",
+            "id": 12917,
+            "name": "Denver Nuggets vs. Minnesota Timberwolves",
+            "tag": "Peacock",
+            "poster": "https://ppv.to/assets/thumb/31a7dd5dd10d39a1fdd1438fd6cc8696-thumbnail.jpg",
+            "blurhash": "L15r3|[j0017j]f5ofkC005]~q]|",
             "colors": [
-              "#260065",
-              "#613685"
+              "#041735",
+              "#182d4a"
             ],
-            "uri_name": "nba/10-26-2025/lal-sac",
-            "starts_at": 1761526800,
-            "ends_at": 1761536880,
+            "uri_name": "nba/10-27-2025/den-min",
+            "starts_at": 1761615000,
+            "ends_at": 1761625080,
             "always_live": 0,
             "locale": "en",
             "category_name": "Basketball",
-            "iframe": "https://embednow.top/embed/nba/10-26-2025/lal-sac",
-            "viewers": "1231",
+            "iframe": "https://embednow.top/embed/nba/10-27-2025/den-min",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 12926,
+            "name": "Memphis Grizzlies vs. Golden State Warriors",
+            "tag": "NBCSBA",
+            "poster": "https://ppv.to/assets/thumb/1c83bdb6eee01ffbc6987927a0329d02-thumbnail.jpg",
+            "blurhash": "L26[g]u502^%WsoeofWE00$J_29c",
+            "colors": [
+              "#526c9f",
+              "#274a8e"
+            ],
+            "uri_name": "nba/10-27-2025/mem-gsw",
+            "starts_at": 1761616800,
+            "ends_at": 1761626880,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://embednow.top/embed/nba/10-27-2025/mem-gsw",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 12927,
+            "name": "Portland Trail Blazers vs. Los Angeles Lakers",
+            "tag": "SPECSN",
+            "poster": "https://ppv.to/assets/thumb/ed3e2d5d93aac3355cd9f4de379522ef-thumbnail.jpg",
+            "blurhash": "LBDHEv{JrX^No2oLj[ay0JpIo}9w",
+            "colors": [
+              "#d43136",
+              "#3a0b75"
+            ],
+            "uri_name": "nba/10-27-2025/por-lal",
+            "starts_at": 1761618600,
+            "ends_at": 1761628680,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://embednow.top/embed/nba/10-27-2025/por-lal",
+            "viewers": "0",
             "substreams": []
           }
         ]
@@ -1006,7 +1153,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://embednow.top/embed/ligue-1/2025-11-02/nan-met",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1112,93 +1259,6 @@
         ]
       },
       {
-        "category": "Ice Hockey",
-        "id": 39,
-        "always_live": false,
-        "streams": [
-          {
-            "id": 12877,
-            "name": "Los Angeles Kings vs. Chicago Blackhawks",
-            "tag": "CHSN",
-            "poster": "https://ppv.to/assets/thumb/148edce0af9f2609b27e69cdc01d79ba-thumbnail.jpg",
-            "blurhash": "L6BBF[2t+JJ4fkj[jsWC0M{{Xls?",
-            "colors": [
-              "#111111",
-              "#ce0a2b"
-            ],
-            "uri_name": "nhl/5092/5092-chi",
-            "starts_at": 1761519600,
-            "ends_at": 1761530400,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://embednow.top/embed/nhl/5092/5092-chi",
-            "viewers": "128",
-            "substreams": []
-          },
-          {
-            "id": 12878,
-            "name": "Dallas Stars vs. Nashville Predators",
-            "tag": "ESPN+",
-            "poster": "https://ppv.to/assets/thumb/e7f993addc85625519f625482c394471-thumbnail.jpg",
-            "blurhash": "LAC$}L0B]iElj[ayjtfR02}pJow[",
-            "colors": [
-              "#006847",
-              "#feb71c"
-            ],
-            "uri_name": "nhl/3710/3710-nsh",
-            "starts_at": 1761519600,
-            "ends_at": 1761530400,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://embednow.top/embed/nhl/3710/3710-nsh",
-            "viewers": "55",
-            "substreams": []
-          },
-          {
-            "id": 12879,
-            "name": "New York Rangers vs. Calgary Flames",
-            "tag": "ESPN+",
-            "poster": "https://ppv.to/assets/thumb/32025cca692cfbcb3a578b89ca1ba09a-thumbnail.jpg",
-            "blurhash": "LGCEhf3ZaOVYjbazjtj[0w+ZxZXn",
-            "colors": [
-              "#0038a8",
-              "#c7102e"
-            ],
-            "uri_name": "nhl/1853/1853-cgy",
-            "starts_at": 1761523200,
-            "ends_at": 1761534000,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://embednow.top/embed/nhl/1853/1853-cgy",
-            "viewers": "141",
-            "substreams": []
-          },
-          {
-            "id": 12880,
-            "name": "Edmonton Oilers vs. Vancouver Canucks",
-            "tag": "ESPN+",
-            "poster": "https://ppv.to/assets/thumb/91aaa92fe37f5810cfb52beef3a76488-thumbnail.jpg",
-            "blurhash": "L45hox_19F00xat7WBNG009F-;~q",
-            "colors": [
-              "#041e42",
-              "#001f5a"
-            ],
-            "uri_name": "nhl/1524/1524-van",
-            "starts_at": 1761530400,
-            "ends_at": 1761541200,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://embednow.top/embed/nhl/1524/1524-van",
-            "viewers": "0",
-            "substreams": []
-          }
-        ]
-      },
-      {
         "category": "Wrestling",
         "id": 38,
         "always_live": false,
@@ -1220,7 +1280,7 @@
             "locale": "en",
             "category_name": "Wrestling",
             "iframe": "https://embednow.top/embed/wwe/raw/25-10-27",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -1280,7 +1340,7 @@
             "locale": "en",
             "category_name": "Wrestling",
             "iframe": "https://embednow.top/embed/tna/impact/25-10-30",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -1347,7 +1407,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embednow.top/embed/247-south-park",
-            "viewers": "25",
+            "viewers": "27",
             "substreams": []
           },
           {
@@ -1367,12 +1427,12 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embednow.top/embed/247-cows",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
             "id": 8008,
-            "name": "24/7 Family​‌​​​​​​‌‌‌​‌‌​​‌​‌​​​​‌​​‌​​​‌‌ Guy",
+            "name": "24/7 Family​​‌‌​‌​​‌​​‌‌‌‌‌‌‌‌‌​‌​​‌​‌‌​‌​‌ Guy",
             "tag": "24/7 channel",
             "poster": "https://thumbs.poocloud.in/familyguy/preview.jpg",
             "blurhash": "",
@@ -1387,7 +1447,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embednow.top/embed/247-family-guy",
-            "viewers": "26",
+            "viewers": "25",
             "substreams": []
           },
           {
@@ -1407,7 +1467,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embednow.top/embed/247-the-simpsons",
-            "viewers": "15",
+            "viewers": "9",
             "substreams": []
           },
           {
