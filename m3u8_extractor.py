@@ -6,6 +6,7 @@ M3U8 URL Extractor - Extract m3u8 URLs from iframe embeds
 import requests
 import json
 import re
+import base64
 from datetime import datetime
 from urllib.parse import urljoin, urlparse
 
@@ -44,6 +45,18 @@ def extract_m3u8_from_iframe(iframe_url):
         response.raise_for_status()
         
         html_content = response.text
+
+        # New pattern: src declared via atob("...") which holds base64 m3u8 URL
+        base64_pattern = r'atob\(\s*["\']([A-Za-z0-9+/=]+)["\']\s*\)'
+        encoded_matches = re.findall(base64_pattern, html_content)
+        for encoded in encoded_matches:
+            try:
+                decoded = base64.b64decode(encoded).decode('utf-8').strip()
+                if decoded.endswith('.m3u8') or '.m3u8' in decoded:
+                    print(f"  ✓ Found base64 m3u8: {decoded[:80]}...")
+                    return decoded
+            except (ValueError, UnicodeDecodeError):
+                continue
         
         # Common patterns for m3u8 URLs in embedded players
         patterns = [
