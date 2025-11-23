@@ -234,7 +234,32 @@ def main():
         with open(INPUT_FILE, 'r', encoding='utf-8') as f:
             data = json.load(f)
         
-        events = data.get('events', [])
+        # Handle different JSON structures
+        if isinstance(data, dict):
+            events = data.get('events', [])
+        elif isinstance(data, list):
+            events = data
+        else:
+            print(f"✗ Unexpected data format in {INPUT_FILE}")
+            exit(1)
+        
+        # Validate events structure
+        if not events:
+            print(f"✗ No events found in {INPUT_FILE}")
+            exit(1)
+        
+        # Check if events are properly formatted
+        if not isinstance(events, list):
+            print(f"✗ Events must be a list, got {type(events).__name__}")
+            exit(1)
+        
+        # Sample check for event structure
+        if events and isinstance(events[0], str):
+            print(f"✗ Events appear to be strings instead of objects")
+            print(f"  First event: {events[0][:100]}...")
+            print(f"  Please check the structure of {INPUT_FILE}")
+            exit(1)
+        
         print(f"✓ Loaded {len(events)} events from {INPUT_FILE}")
         
     except FileNotFoundError:
