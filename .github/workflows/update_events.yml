@@ -34,7 +34,7 @@ jobs:
       - name: Check if reyevents.json changed
         id: check_changes
         run: |
-          if git diff --quiet events.json; then
+          if git diff --quiet reyevents.json; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
@@ -45,7 +45,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add events.json
+          git add reyevents.json
           git commit -m "chore: update events - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
           git push
       
