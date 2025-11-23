@@ -307,13 +307,37 @@ def main():
     # Count successful extractions
     m3u8_count = sum(1 for e in updated_events if 'm3u8_url' in e)
     
-    # Prepare output with metadata
-    output_data = {
-        "metadata": {
+    # Reconstruct the original structure with updated streams
+    # Load original data structure
+    with open(INPUT_FILE, 'r', encoding='utf-8') as f:
+        original_data = json.load(f)
+    
+    # Update streams in the original structure
+    if isinstance(original_data, dict) and 'events' in original_data:
+        events_data = original_data['events']
+        
+        if isinstance(events_data, dict) and 'streams' in events_data:
+            # ppv.to API structure - update each stream
+            stream_index = 0
+            for category in events_data['streams']:
+                if 'streams' in category:
+                    for i, stream in enumerate(category['streams']):
+                        if stream_index < len(updated_events):
+                            # Copy m3u8 data if it exists
+                            updated_stream = updated_events[stream_index]
+                            if 'm3u8_url' in updated_stream:
+                                stream['m3u8_url'] = updated_stream['m3u8_url']
+                                stream['m3u8_extracted_at'] = updated_stream['m3u8_extracted_at']
+                            stream_index += 1
+        
+        # Add extraction metadata
+        if 'metadata' not in original_data:
+            original_data['metadata'] = {}
+        
+        original_data['metadata']['m3u8_extraction'] = {
             "extracted_at": datetime.now().isoformat(),
-            "source_file": INPUT_FILE,
-            "total_events": len(updated_events),
-            "events_with_m3u8": m3u8_count,
+            "total_streams": len(updated_events),
+            "streams_with_m3u8": m3u8_count,
             "success_rate": f"{(m3u8_count / len(updated_events) * 100):.1f}%",
             "extraction_stats": {
                 "total_requests": rate_handler.request_count,
@@ -321,9 +345,27 @@ def main():
                 "failed_requests": rate_handler.failure_count,
                 "elapsed_time_seconds": round(elapsed_time, 2)
             }
-        },
-        "events": updated_events
-    }
+        }
+        
+        output_data = original_data
+    else:
+        # Fallback to flat structure if original structure is different
+        output_data = {
+            "metadata": {
+                "extracted_at": datetime.now().isoformat(),
+                "source_file": INPUT_FILE,
+                "total_events": len(updated_events),
+                "events_with_m3u8": m3u8_count,
+                "success_rate": f"{(m3u8_count / len(updated_events) * 100):.1f}%",
+                "extraction_stats": {
+                    "total_requests": rate_handler.request_count,
+                    "successful_requests": rate_handler.success_count,
+                    "failed_requests": rate_handler.failure_count,
+                    "elapsed_time_seconds": round(elapsed_time, 2)
+                }
+            },
+            "events": updated_events
+        }
     
     # Save to JSON
     try:
