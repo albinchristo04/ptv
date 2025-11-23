@@ -234,57 +234,56 @@ def main():
         with open(INPUT_FILE, 'r', encoding='utf-8') as f:
             data = json.load(f)
         
-        # Debug: Print data structure
-        print(f"📋 Data type: {type(data).__name__}")
+        # Extract events from nested structure
+        events = []
         
-        # Handle different JSON structures
-        events = None
-        if isinstance(data, dict):
-            # Check for 'events' key
-            if 'events' in data:
-                events = data['events']
-                print(f"📋 Found 'events' key, type: {type(events).__name__}")
+        if isinstance(data, dict) and 'events' in data:
+            events_data = data['events']
+            
+            # Check if events_data has 'streams' key (ppv.to API structure)
+            if isinstance(events_data, dict) and 'streams' in events_data:
+                # This is the ppv.to API structure
+                categories = events_data['streams']
+                
+                # Flatten all streams from all categories
+                for category in categories:
+                    if 'streams' in category:
+                        for stream in category['streams']:
+                            # Add category name to each stream
+                            stream['category'] = category.get('category', 'Unknown')
+                            stream['embed'] = stream.get('iframe')  # Use 'iframe' as 'embed'
+                            events.append(stream)
+                
+                print(f"✓ Loaded {len(events)} streams from {len(categories)} categories")
+            
+            elif isinstance(events_data, list):
+                # Direct list of events
+                events = events_data
+                print(f"✓ Loaded {len(events)} events from events list")
+            
             else:
-                # Maybe the dict itself contains the events
-                print(f"📋 Available keys: {list(data.keys())[:10]}")
-                # Check if data has category/name structure (it might be a single event dict)
-                if 'category' in data or 'name' in data:
-                    events = [data]  # Wrap single event in list
-                else:
-                    print(f"✗ No 'events' key found in JSON")
-                    print(f"  Available keys: {', '.join(list(data.keys())[:10])}")
-                    exit(1)
-        elif isinstance(data, list):
-            events = data
-            print(f"📋 Data is a list with {len(data)} items")
-        else:
-            print(f"✗ Unexpected data format: {type(data).__name__}")
-            exit(1)
-        
-        # Validate events structure
-        if not events:
-            print(f"✗ No events found in {INPUT_FILE}")
-            exit(1)
-        
-        # Check if events is a list
-        if not isinstance(events, list):
-            print(f"✗ Events must be a list, got {type(events).__name__}")
-            print(f"  Events value: {str(events)[:200]}...")
-            exit(1)
-        
-        # Sample check for event structure
-        if events:
-            first_item = events[0]
-            print(f"📋 First item type: {type(first_item).__name__}")
-            if isinstance(first_item, str):
-                print(f"✗ Events appear to be strings instead of objects")
-                print(f"  First event: {first_item[:100]}...")
-                print(f"  Please check the structure of {INPUT_FILE}")
+                print(f"✗ Unexpected events structure")
+                print(f"  events type: {type(events_data).__name__}")
+                if isinstance(events_data, dict):
+                    print(f"  Available keys: {', '.join(list(events_data.keys())[:10])}")
                 exit(1)
-            elif isinstance(first_item, dict):
-                print(f"📋 First event keys: {list(first_item.keys())[:5]}")
         
-        print(f"✓ Loaded {len(events)} events from {INPUT_FILE}")
+        elif isinstance(data, list):
+            # Root is a list of events
+            events = data
+            print(f"✓ Loaded {len(events)} events from root list")
+        
+        else:
+            print(f"✗ Unexpected JSON structure")
+            print(f"  Root type: {type(data).__name__}")
+            if isinstance(data, dict):
+                print(f"  Available keys: {', '.join(list(data.keys())[:10])}")
+            exit(1)
+        
+        # Validate we have events
+        if not events:
+            print(f"✗ No events/streams found in {INPUT_FILE}")
+            exit(1)
         
     except FileNotFoundError:
         print(f"✗ Error: {INPUT_FILE} not found!")
