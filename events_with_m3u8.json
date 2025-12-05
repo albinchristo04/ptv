@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2025-12-05T11:11:29.071426",
+    "fetched_at": "2025-12-05T12:31:33.071442",
     "source": "https://old.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2025-12-05T11:14:29.438709",
-      "total_streams": 77,
+      "extracted_at": "2025-12-05T12:34:31.768045",
+      "total_streams": 81,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 77,
+        "total_requests": 81,
         "successful_requests": 0,
-        "failed_requests": 77,
-        "elapsed_time_seconds": 163.41
+        "failed_requests": 81,
+        "elapsed_time_seconds": 163.23
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1764933090,
+    "timestamp": 1764937900,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.018042802810668945,
+    "performance": 0.01720905303955078,
     "streams": [
       {
         "category": "Basketball",
@@ -104,7 +104,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://playembed.top/embed/nba/12-05-2025/sas-cle",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -291,7 +291,7 @@
             "locale": "en",
             "category_name": "Combat Sports",
             "iframe": "https://playembed.top/embed/shabaz-masoud-vs.-peter-mcgrail",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -311,7 +311,7 @@
             "locale": "en",
             "category_name": "Combat Sports",
             "iframe": "https://playembed.top/embed/ufc-323",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -372,13 +372,13 @@
               "#230023"
             ],
             "uri_name": "cricket/2025/en-au/2nd-test",
-            "starts_at": 1764907200,
-            "ends_at": 1764939600,
+            "starts_at": 1764993600,
+            "ends_at": 1765026000,
             "always_live": 0,
             "locale": "en",
             "category_name": "Cricket",
             "iframe": "https://playembed.top/embed/cricket/2025/en-au/2nd-test",
-            "viewers": "364",
+            "viewers": "52",
             "substreams": []
           }
         ]
@@ -485,7 +485,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://playembed.top/embed/epl/2025-12-06/avl-ars",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -645,7 +645,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://playembed.top/embed/epl/2025-12-06/bou-che",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1351,30 +1351,117 @@
         ]
       },
       {
+        "category": "Ice Hockey",
+        "id": 39,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 14534,
+            "name": "Vegas Golden Knights vs. New Jersey Devils",
+            "tag": "MSGSN",
+            "poster": "https://old.ppv.to/assets/thumb/0e6d19a1c11c938c941bc990495a898f-thumbnail.jpg",
+            "blurhash": "LMB_xd|L#Sr=oLjua|a|0yEzXSkD",
+            "colors": [
+              "#e10c2c",
+              "#354044"
+            ],
+            "uri_name": "nhl/20251205/vgk-nj",
+            "starts_at": 1764979200,
+            "ends_at": 1764990000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Ice Hockey",
+            "iframe": "https://playembed.top/embed/nhl/20251205/vgk-nj",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 14535,
+            "name": "Buffalo Sabres vs. Winnipeg Jets",
+            "tag": "ESPN+",
+            "poster": "https://old.ppv.to/assets/thumb/45b9ae6a9e873a00a8da6baeace0f2c7-thumbnail.jpg",
+            "blurhash": "L17Uud=S00IB?bIUWB%M009R~q.6",
+            "colors": [
+              "#002e62",
+              "#02478c"
+            ],
+            "uri_name": "nhl/20251205/buf-wpg",
+            "starts_at": 1764979200,
+            "ends_at": 1764990000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Ice Hockey",
+            "iframe": "https://playembed.top/embed/nhl/20251205/buf-wpg",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 14536,
+            "name": "San Jose Sharks vs. Dallas Stars",
+            "tag": "Victory+",
+            "poster": "https://old.ppv.to/assets/thumb/5bb8131c5ee1b858eabff36665fe119b-thumbnail.jpg",
+            "blurhash": "L24X0e%*DzRhX8j?ayWV00Mp?JtS",
+            "colors": [
+              "#21844d",
+              "#007889"
+            ],
+            "uri_name": "nhl/20251205/sj-dal",
+            "starts_at": 1764982800,
+            "ends_at": 1764993600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Ice Hockey",
+            "iframe": "https://playembed.top/embed/nhl/20251205/sj-dal",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 14537,
+            "name": "Utah Mammoth vs. Vancouver Canucks",
+            "tag": "ESPN+",
+            "poster": "https://old.ppv.to/assets/thumb/e39f0be4d416c2e2524ce24b199ac049-thumbnail.jpg",
+            "blurhash": "L34LtTJ[EBtnj@ayayof00${-.RN",
+            "colors": [
+              "#023f7e",
+              "#000000"
+            ],
+            "uri_name": "nhl/20251205/uta-van",
+            "starts_at": 1764986400,
+            "ends_at": 1764997200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Ice Hockey",
+            "iframe": "https://playembed.top/embed/nhl/20251205/uta-van",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 14538,
+            "name": "Washington Capitals vs. Anaheim Ducks",
+            "tag": "KCOP",
+            "poster": "https://old.ppv.to/assets/thumb/6d2336ee3fcd3ada6627a7b7db22a5c2-thumbnail.jpg",
+            "blurhash": "L6I-NP~8+a:ks:baf6jF00R6TKGF",
+            "colors": [
+              "#fd4d04",
+              "#d71932"
+            ],
+            "uri_name": "nhl/20251205/wsh-ana",
+            "starts_at": 1764990000,
+            "ends_at": 1765000800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Ice Hockey",
+            "iframe": "https://playembed.top/embed/nhl/20251205/wsh-ana",
+            "viewers": "0",
+            "substreams": []
+          }
+        ]
+      },
+      {
         "category": "Motorsports",
         "id": 35,
         "always_live": false,
         "streams": [
-          {
-            "id": 14372,
-            "name": "Abu Dhabi Grand Prix - FP1",
-            "tag": "Formula 1",
-            "poster": "https://old.ppv.to/assets/thumb/872fb7fd7bc18d07bc42ed7eee3290f5-thumbnail.jpg",
-            "blurhash": "L8AmrH00RP~qIAt7xuDiD%?v_39F",
-            "colors": [
-              "#15151d",
-              "#15151d"
-            ],
-            "uri_name": "f1/2025/united-arab-emirates/fp1",
-            "starts_at": 1764927000,
-            "ends_at": 1764934200,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Motorsports",
-            "iframe": "https://playembed.top/embed/f1/2025/united-arab-emirates/fp1",
-            "viewers": "205",
-            "substreams": []
-          },
           {
             "id": 14373,
             "name": "Abu Dhabi Grand Prix - FP2",
@@ -1392,7 +1479,7 @@
             "locale": "en",
             "category_name": "Motorsports",
             "iframe": "https://playembed.top/embed/f1/2025/united-arab-emirates/fp2",
-            "viewers": "1",
+            "viewers": "37",
             "substreams": []
           },
           {
@@ -1526,7 +1613,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://playembed.top/embed/247-south-park",
-            "viewers": "16",
+            "viewers": "13",
             "substreams": []
           },
           {
@@ -1551,7 +1638,7 @@
           },
           {
             "id": 8008,
-            "name": "24/7 Family​​‌‌​‌​​‌​​‌‌‌‌‌‌‌‌​​​​‌‌‌​​​​‌​ Guy",
+            "name": "24/7 Family​​​‌​‌​​‌​‌​​​​‌​‌​​​‌‌​‌​‌‌​‌‌​ Guy",
             "tag": "24/7 channel",
             "poster": "https://thumbs.poocloud.in/familyguy/preview.jpg",
             "blurhash": "",
@@ -1566,7 +1653,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://playembed.top/embed/247-family-guy",
-            "viewers": "19",
+            "viewers": "17",
             "substreams": []
           },
           {
