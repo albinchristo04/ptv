@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2025-12-04T18:24:50.598125",
-    "source": "https://ppv.to/api/streams",
+    "fetched_at": "2025-12-05T11:11:29.071426",
+    "source": "https://old.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2025-12-05T06:49:44.964061",
-      "total_streams": 81,
-      "streams_with_m3u8": 81,
-      "success_rate": "100.0%",
+      "extracted_at": "2025-12-05T11:14:29.438709",
+      "total_streams": 77,
+      "streams_with_m3u8": 0,
+      "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 81,
-        "successful_requests": 81,
-        "failed_requests": 4,
-        "elapsed_time_seconds": 222.45
+        "total_requests": 77,
+        "successful_requests": 0,
+        "failed_requests": 77,
+        "elapsed_time_seconds": 163.41
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1764872690,
+    "timestamp": 1764933090,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.01662898063659668,
+    "performance": 0.018042802810668945,
     "streams": [
       {
         "category": "Basketball",
@@ -28,114 +28,244 @@
         "always_live": false,
         "streams": [
           {
-            "id": 14489,
-            "name": "Golden State Warriors vs. Philadelphia 76ers",
-            "tag": "NBA TV",
-            "poster": "https://ppv.to/assets/thumb/25257e5da7f21ce688176d7de731f317-thumbnail.jpg",
-            "blurhash": "L47L4t8w9G?vWZWCj[oe00.T-;9E",
+            "id": 14507,
+            "name": "Los Angeles Lakers vs. Boston Celtics",
+            "tag": "Prime Video",
+            "poster": "https://old.ppv.to/assets/thumb/56ac56a06b1b37439c73d8ce299b951c-thumbnail.jpg",
+            "blurhash": "L38h8*_c5N9Qj]WCkCn%007v^,=;",
             "colors": [
-              "#143980",
-              "#274a8e"
+              "#250064",
+              "#0d8852"
             ],
-            "uri_name": "nba/12-04-2025/gsw-phi",
-            "starts_at": 1764892800,
-            "ends_at": 1764902880,
+            "uri_name": "nba/12-05-2025/lal-bos",
+            "starts_at": 1764979200,
+            "ends_at": 1764989280,
             "always_live": 0,
             "locale": "en",
             "category_name": "Basketball",
-            "iframe": "https://embednow.top/embed/nba/12-04-2025/gsw-phi",
+            "iframe": "https://playembed.top/embed/nba/12-05-2025/lal-bos",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/nba_philadelphia76ers/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:03.290427"
+            "substreams": []
           },
           {
-            "id": 14490,
-            "name": "Boston Celtics vs. Washington Wizards",
-            "tag": "MNMT",
-            "poster": "https://ppv.to/assets/thumb/09822f0d61d0f969acfe86ce4ee2ebd8-thumbnail.jpg",
-            "blurhash": "L5Crf#4I:j7Iw{Sfj[n%00{5cF=K",
+            "id": 14508,
+            "name": "Miami Heat vs. Orlando Magic",
+            "tag": "FDSNFL",
+            "poster": "https://old.ppv.to/assets/thumb/b4a80f2cfa34c9870cc8104a7214820c-thumbnail.jpg",
+            "blurhash": "L88g2b_}RAs7ofoej[WB0JKlxtWF",
             "colors": [
-              "#01783e",
-              "#e42342"
+              "#8d0025",
+              "#0d57b6"
             ],
-            "uri_name": "nba/12-04-2025/bos-was",
-            "starts_at": 1764892800,
-            "ends_at": 1764902880,
+            "uri_name": "nba/12-05-2025/mia-orl",
+            "starts_at": 1764979200,
+            "ends_at": 1764989280,
             "always_live": 0,
             "locale": "en",
             "category_name": "Basketball",
-            "iframe": "https://embednow.top/embed/nba/12-04-2025/bos-was",
+            "iframe": "https://playembed.top/embed/nba/12-05-2025/mia-orl",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/nba_washingtonwizards/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:05.784405"
+            "substreams": []
           },
           {
-            "id": 14491,
-            "name": "Utah Jazz vs. Brooklyn Nets",
-            "tag": "YES",
-            "poster": "https://ppv.to/assets/thumb/5589c5a1b4d8425498b118b7b838ed8e-thumbnail.jpg",
-            "blurhash": "L47-Ws00IU.6j[axj[j[00~p-;Dk",
+            "id": 14509,
+            "name": "Denver Nuggets vs. Atlanta Hawks",
+            "tag": "FDSNSE-ATL",
+            "poster": "https://old.ppv.to/assets/thumb/2630d8c71b3a1238b1d80374282b55aa-thumbnail.jpg",
+            "blurhash": "L8CEhD1GvgtSo1a{j[fk00}atlM_",
+            "colors": [
+              "#061735",
+              "#c91a37"
+            ],
+            "uri_name": "nba/12-05-2025/den-atl",
+            "starts_at": 1764981000,
+            "ends_at": 1764991080,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://playembed.top/embed/nba/12-05-2025/den-atl",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 14510,
+            "name": "San Antonio Spurs vs. Cleveland Cavaliers",
+            "tag": "FDSNOH",
+            "poster": "https://old.ppv.to/assets/thumb/155d366ff8898fd4cfa5c0fe8aab5839-thumbnail.jpg",
+            "blurhash": "L196B]4300B#jFWVofkB00{g~q#Y",
+            "colors": [
+              "#404040",
+              "#8a0b40"
+            ],
+            "uri_name": "nba/12-05-2025/sas-cle",
+            "starts_at": 1764981000,
+            "ends_at": 1764991080,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://playembed.top/embed/nba/12-05-2025/sas-cle",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 14511,
+            "name": "Portland Trail Blazers vs. Detroit Pistons",
+            "tag": "FDSNDT",
+            "poster": "https://old.ppv.to/assets/thumb/bd26aa5d46620b00b8faed9f69a4d222-thumbnail.jpg",
+            "blurhash": "LDChHf{crY=doLoLj[ay0dXno|Eg",
+            "colors": [
+              "#d43136",
+              "#254b8c"
+            ],
+            "uri_name": "nba/12-05-2025/por-det",
+            "starts_at": 1764981000,
+            "ends_at": 1764991080,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://playembed.top/embed/nba/12-05-2025/por-det",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 14512,
+            "name": "Utah Jazz vs. New York Knicks",
+            "tag": "MSG",
+            "poster": "https://old.ppv.to/assets/thumb/1fdd4b4f45f7f5aae9589e2e28e225fa-thumbnail.jpg",
+            "blurhash": "L56@+=00D,}+s:R*j[of00~B-:5X",
             "colors": [
               "#000000",
-              "#777978"
+              "#274a8c"
             ],
-            "uri_name": "nba/12-04-2025/uta-bkn",
-            "starts_at": 1764894600,
-            "ends_at": 1764904680,
+            "uri_name": "nba/12-05-2025/uta-nyk",
+            "starts_at": 1764981000,
+            "ends_at": 1764991080,
             "always_live": 0,
             "locale": "en",
             "category_name": "Basketball",
-            "iframe": "https://embednow.top/embed/nba/12-04-2025/uta-bkn",
+            "iframe": "https://playembed.top/embed/nba/12-05-2025/uta-nyk",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/nba_brooklynnets/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:08.436854"
+            "substreams": []
           },
           {
-            "id": 14492,
-            "name": "Los Angeles Lakers vs. Toronto Raptors",
-            "tag": "SPECSN",
-            "poster": "https://ppv.to/assets/thumb/d7d745a65870c6a5ccec399dcd6778c0-thumbnail.jpg",
-            "blurhash": "L38WzA~E4n0OWXWWj[j?000L_3~T",
+            "id": 14513,
+            "name": "Charlotte Hornets vs. Toronto Raptors",
+            "tag": "FDSNSE-CHA",
+            "poster": "https://old.ppv.to/assets/thumb/99db37e322f63b249487e13379b8182c-thumbnail.jpg",
+            "blurhash": "L66R[gPqE1t6ofofj[ay00rV%MWr",
             "colors": [
-              "#260065",
+              "#006d81",
               "#23262d"
             ],
-            "uri_name": "nba/12-04-2025/lal-tor",
-            "starts_at": 1764894600,
-            "ends_at": 1764904680,
+            "uri_name": "nba/12-05-2025/cha-tor",
+            "starts_at": 1764981000,
+            "ends_at": 1764991080,
             "always_live": 0,
             "locale": "en",
             "category_name": "Basketball",
-            "iframe": "https://embednow.top/embed/nba/12-04-2025/lal-tor",
+            "iframe": "https://playembed.top/embed/nba/12-05-2025/cha-tor",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/nba_torontoraptors/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:11.513352"
+            "substreams": []
           },
           {
-            "id": 14494,
-            "name": "Minnesota Timberwolves vs. New Orleans Pelicans",
-            "tag": "GCSEN",
-            "poster": "https://ppv.to/assets/thumb/e646c4539db5abf49783f5d9bd1e743c-thumbnail.jpg",
-            "blurhash": "L25hon9a00-6o#aeofkC00-n_3Ej",
+            "id": 14514,
+            "name": "Indiana Pacers vs. Chicago Bulls",
+            "tag": "CHSN",
+            "poster": "https://old.ppv.to/assets/thumb/44ebad0174a8885f7714c8c2311dbfa2-thumbnail.jpg",
+            "blurhash": "L5CEww4Q*|0MWoo1j[W;00qcpc~A",
             "colors": [
-              "#011935",
-              "#142c48"
+              "#022358",
+              "#cf1b4a"
             ],
-            "uri_name": "nba/12-04-2025/min-nop",
-            "starts_at": 1764896400,
-            "ends_at": 1764906480,
+            "uri_name": "nba/12-05-2025/ind-chi",
+            "starts_at": 1764982800,
+            "ends_at": 1764992880,
             "always_live": 0,
             "locale": "en",
             "category_name": "Basketball",
-            "iframe": "https://embednow.top/embed/nba/12-04-2025/min-nop",
+            "iframe": "https://playembed.top/embed/nba/12-05-2025/ind-chi",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/nba_neworleanspelicans/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:13.869715"
+            "substreams": []
+          },
+          {
+            "id": 14515,
+            "name": "Phoenix Suns vs. Houston Rockets",
+            "tag": "SCHN",
+            "poster": "https://old.ppv.to/assets/thumb/aca05a12f638f14dfdb0eb414de15f29-thumbnail.jpg",
+            "blurhash": "L3BUqY1c*f20nNV@fRX900]:yX{{",
+            "colors": [
+              "#140756",
+              "#cf1b4a"
+            ],
+            "uri_name": "nba/12-05-2025/phx-hou",
+            "starts_at": 1764982800,
+            "ends_at": 1764992880,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://playembed.top/embed/nba/12-05-2025/phx-hou",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 14516,
+            "name": "LA Clippers vs. Memphis Grizzlies",
+            "tag": "FDSNSE-MEM",
+            "poster": "https://old.ppv.to/assets/thumb/4a80792d506cba8ef201462317e95eab-thumbnail.jpg",
+            "blurhash": "L27K_KQ84;00kDaxoej]009*_2~q",
+            "colors": [
+              "#080d35",
+              "#647cac"
+            ],
+            "uri_name": "nba/12-05-2025/lac-mem",
+            "starts_at": 1764982800,
+            "ends_at": 1764992880,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://playembed.top/embed/nba/12-05-2025/lac-mem",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 14517,
+            "name": "Philadelphia 76ers vs. Milwaukee Bucks",
+            "tag": "FDSNWI",
+            "poster": "https://old.ppv.to/assets/thumb/25acf6e6e4f0898a888148f6c366d23b-thumbnail.jpg",
+            "blurhash": "L87-{BntIVV?WCofj[WB00W7%Lo#",
+            "colors": [
+              "#143980",
+              "#0c5125"
+            ],
+            "uri_name": "nba/12-05-2025/phi-mil",
+            "starts_at": 1764982800,
+            "ends_at": 1764992880,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://playembed.top/embed/nba/12-05-2025/phi-mil",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 14518,
+            "name": "Dallas Mavericks vs. Oklahoma City Thunder",
+            "tag": "Prime Video",
+            "poster": "https://old.ppv.to/assets/thumb/d042645a68d01af1123a428778f44626-thumbnail.jpg",
+            "blurhash": "L16cEa_}00D5o#-ot6IV00EB~pu3",
+            "colors": [
+              "#015ba7",
+              "#0a7fc2"
+            ],
+            "uri_name": "nba/12-05-2025/dal-okc",
+            "starts_at": 1764988200,
+            "ends_at": 1764998280,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://playembed.top/embed/nba/12-05-2025/dal-okc",
+            "viewers": "0",
+            "substreams": []
           }
         ]
       },
@@ -145,10 +275,30 @@
         "always_live": false,
         "streams": [
           {
+            "id": 14506,
+            "name": "Shabaz Masoud vs. Peter McGrail",
+            "tag": "DAZN",
+            "poster": "https://old.ppv.to/assets/thumb/eec214b8ea4c56c5ca2f6ec182a0def1-thumbnail.jpg",
+            "blurhash": "LIKApGIp-:e._2-pozxt~pRjM{M|",
+            "colors": [
+              "#e2d2c5",
+              "#eadacd"
+            ],
+            "uri_name": "shabaz-masoud-vs.-peter-mcgrail",
+            "starts_at": 1765044000,
+            "ends_at": 1765072800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Combat Sports",
+            "iframe": "https://playembed.top/embed/shabaz-masoud-vs.-peter-mcgrail",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
             "id": 14282,
             "name": "UFC 323: Dvalishvili vs. Yan 2",
             "tag": "PPV",
-            "poster": "https://ppv.to/assets/thumb/6381c559afa78de552235c103e13a74c-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/6381c559afa78de552235c103e13a74c-thumbnail.jpg",
             "blurhash": "LCF$Id-pxun%~Ws:IoRjD%RktQIp",
             "colors": [
               "#dbd5bb",
@@ -160,17 +310,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Combat Sports",
-            "iframe": "https://embednow.top/embed/ufc-323",
-            "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/ufc/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:15.550334"
+            "iframe": "https://playembed.top/embed/ufc-323",
+            "viewers": "1",
+            "substreams": []
           },
           {
             "id": 14283,
             "name": "UFC Fight Night: Royval vs. Kape",
             "tag": "ESPN",
-            "poster": "https://ppv.to/assets/thumb/07e548c632b6de966682703f5478c806-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/07e548c632b6de966682703f5478c806-thumbnail.jpg",
             "blurhash": "LGRKi*-jqZIt*7RoRWouQdNJeUxV",
             "colors": [
               "#e78d00",
@@ -182,17 +330,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Combat Sports",
-            "iframe": "https://embednow.top/embed/ufc-fight-night-royval-vs-kape",
+            "iframe": "https://playembed.top/embed/ufc-fight-night-royval-vs-kape",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/ufc/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:17.367010"
+            "substreams": []
           },
           {
             "id": 14284,
             "name": "UFC 324: Gaethje vs. Pimblett",
             "tag": "Paramount+",
-            "poster": "https://ppv.to/assets/thumb/dfe08bb48f4502d771b895d499d8ca10-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/dfe08bb48f4502d771b895d499d8ca10-thumbnail.jpg",
             "blurhash": "L5BfIR0g01E5XSjHRjS100%K}@s*",
             "colors": [
               "#040404",
@@ -204,11 +350,9 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Combat Sports",
-            "iframe": "https://embednow.top/embed/ufc-324",
+            "iframe": "https://playembed.top/embed/ufc-324",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/ufc/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:19.180014"
+            "substreams": []
           }
         ]
       },
@@ -221,7 +365,7 @@
             "id": 14306,
             "name": "Australia vs. England",
             "tag": "TNT Sports",
-            "poster": "https://ppv.to/assets/thumb/4de443b4bf25d8cd895f9892ed00451d-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/4de443b4bf25d8cd895f9892ed00451d-thumbnail.jpg",
             "blurhash": "L9A+,Y0*E1}.s.bDjZjc00^Kx[5X",
             "colors": [
               "#230023",
@@ -233,11 +377,9 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Cricket",
-            "iframe": "https://embednow.top/embed/cricket/2025/en-au/2nd-test",
-            "viewers": "14",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/cricket/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:21.228226"
+            "iframe": "https://playembed.top/embed/cricket/2025/en-au/2nd-test",
+            "viewers": "364",
+            "substreams": []
           }
         ]
       },
@@ -247,32 +389,10 @@
         "always_live": false,
         "streams": [
           {
-            "id": 14390,
-            "name": "Manchester United vs. West Ham United",
-            "tag": "Premier League",
-            "poster": "https://ppv.to/assets/thumb/6a0b314c42279f6bf01a5262247901e5-thumbnail.jpg",
-            "blurhash": "LIFWFO|YR5j^oLayj[j[0fF2tloI",
-            "colors": [
-              "#d72a1c",
-              "#79263a"
-            ],
-            "uri_name": "epl/2025-12-04/mun-whu",
-            "starts_at": 1764878400,
-            "ends_at": 1764887400,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://embednow.top/embed/epl/2025-12-04/mun-whu",
-            "viewers": "17",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/epl_mun/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:23.080129"
-          },
-          {
             "id": 14431,
             "name": "Brest vs. AS Monaco",
             "tag": "Ligue 1",
-            "poster": "https://ppv.to/assets/thumb/da3a18d1270ec1926f28fe1b64a64a5f-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/da3a18d1270ec1926f28fe1b64a64a5f-thumbnail.jpg",
             "blurhash": "L1IKxb008w?^,GjsofkC00?w?^D4",
             "colors": [
               "#cf0a11",
@@ -284,17 +404,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/ligue-1/2025-12-05/brs-mco",
+            "iframe": "https://playembed.top/embed/ligue-1/2025-12-05/brs-mco",
             "viewers": "1",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/ligue1_brs/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:25.848315"
+            "substreams": []
           },
           {
             "id": 14412,
             "name": "Mainz vs. Gladbach",
             "tag": "ESPN+",
-            "poster": "https://ppv.to/assets/thumb/f6a585129153f4125a428a81af52b456-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/f6a585129153f4125a428a81af52b456-thumbnail.jpg",
             "blurhash": "L7Grb_+b00Kis:jtWBbH00GE~q#8",
             "colors": [
               "#7f030d",
@@ -306,17 +424,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/bundesliga/2025-12-05/m05-bmg",
+            "iframe": "https://playembed.top/embed/bundesliga/2025-12-05/m05-bmg",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/bundesliga_m05/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:27.474192"
+            "substreams": []
           },
           {
             "id": 14432,
             "name": "LOSC vs. OM",
             "tag": "Ligue 1",
-            "poster": "https://ppv.to/assets/thumb/1413d2759f17d798cc6e8026acb33d5d-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/1413d2759f17d798cc6e8026acb33d5d-thumbnail.jpg",
             "blurhash": "LMD+Pt_~wOwIWBjZj[fk00KQf*Sh",
             "colors": [
               "#e41b14",
@@ -328,17 +444,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/ligue-1/2025-12-05/lil-mar",
+            "iframe": "https://playembed.top/embed/ligue-1/2025-12-05/lil-mar",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/ligue1_lil/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:29.457780"
+            "substreams": []
           },
           {
             "id": 14446,
             "name": "Real Oviedo vs. RCD Mallorca",
             "tag": "LaLiga",
-            "poster": "https://ppv.to/assets/thumb/caa8d416a236a3dcb3059952bd5d9b0d-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/caa8d416a236a3dcb3059952bd5d9b0d-thumbnail.jpg",
             "blurhash": "L6JqsP%g0KMdrrnhWBX900R4~CpJ",
             "colors": [
               "#992d2a",
@@ -350,17 +464,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/laliga/2025-12-05/ovi-mll",
-            "viewers": "1",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/ll_ovi/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:31.289401"
+            "iframe": "https://playembed.top/embed/laliga/2025-12-05/ovi-mll",
+            "viewers": "0",
+            "substreams": []
           },
           {
             "id": 14394,
             "name": "Aston Villa vs. Arsenal",
             "tag": "Premier League",
-            "poster": "https://ppv.to/assets/thumb/5669eb4d695b129543260e546460c3d9-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/5669eb4d695b129543260e546460c3d9-thumbnail.jpg",
             "blurhash": "LOG@AbC,S5Sioej@j[a#0Kvgt7s+",
             "colors": [
               "#94c0e3",
@@ -372,17 +484,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/epl/2025-12-06/avl-ars",
+            "iframe": "https://playembed.top/embed/epl/2025-12-06/avl-ars",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/epl_avl/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:33.584548"
+            "substreams": []
           },
           {
             "id": 14447,
             "name": "Villarreal CF vs. Getafe CF",
             "tag": "LaLiga",
-            "poster": "https://ppv.to/assets/thumb/fd0b0ffd7a390b687758d2f9228f3c0d-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/fd0b0ffd7a390b687758d2f9228f3c0d-thumbnail.jpg",
             "blurhash": "L5J5Ds#600O[xYocWBWX00Te~Wn2",
             "colors": [
               "#992d2a",
@@ -394,17 +504,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/laliga/2025-12-06/vil-get",
+            "iframe": "https://playembed.top/embed/laliga/2025-12-06/vil-get",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/ll_vil/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:35.411115"
+            "substreams": []
           },
           {
             "id": 14421,
             "name": "Sassuolo vs. Fiorentina",
             "tag": "Serie A",
-            "poster": "https://ppv.to/assets/thumb/635bd397f6e7f9fa0fa857712ffbd014-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/635bd397f6e7f9fa0fa857712ffbd014-thumbnail.jpg",
             "blurhash": "L57eloE[00,|t8fkjYju00,{~qEb",
             "colors": [
               "#00379b",
@@ -416,17 +524,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/serie-a/2025-12-06/sas-fio",
+            "iframe": "https://playembed.top/embed/serie-a/2025-12-06/sas-fio",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/seriea_sas/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:38.519431"
+            "substreams": []
           },
           {
             "id": 14413,
             "name": "Heidenheim vs. Freiburg",
             "tag": "ESPN+",
-            "poster": "https://ppv.to/assets/thumb/d865ea3b1e8ded2aab9d592e39802363-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/d865ea3b1e8ded2aab9d592e39802363-thumbnail.jpg",
             "blurhash": "L8GY=^w200XlkWS3WBso00Op~qrY",
             "colors": [
               "#7f030d",
@@ -438,17 +544,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/bundesliga/2025-12-06/hdh-scf",
+            "iframe": "https://playembed.top/embed/bundesliga/2025-12-06/hdh-scf",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/bundesliga_hdh/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:41.004218"
+            "substreams": []
           },
           {
             "id": 14414,
             "name": "Augsburg vs. Leverkusen",
             "tag": "ESPN+",
-            "poster": "https://ppv.to/assets/thumb/ebd6330a9e707f1c1b11f6b8e7a39a4b-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/ebd6330a9e707f1c1b11f6b8e7a39a4b-thumbnail.jpg",
             "blurhash": "L8H9arxH00M{xbofWBWC00W:_Nt7",
             "colors": [
               "#7f030d",
@@ -460,17 +564,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/bundesliga/2025-12-06/fca-b04",
+            "iframe": "https://playembed.top/embed/bundesliga/2025-12-06/fca-b04",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/bundesliga_fca/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:44.047608"
+            "substreams": []
           },
           {
             "id": 14415,
             "name": "Cologne vs. St. Pauli",
             "tag": "ESPN+",
-            "poster": "https://ppv.to/assets/thumb/ed0ef226b271fca14eeea02729239dc0-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/ed0ef226b271fca14eeea02729239dc0-thumbnail.jpg",
             "blurhash": "L7HI~VDj00-;oLWVWBj[00-;_NE1",
             "colors": [
               "#7f030d",
@@ -482,17 +584,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/bundesliga/2025-12-06/koe-stp",
+            "iframe": "https://playembed.top/embed/bundesliga/2025-12-06/koe-stp",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/bundesliga_koe/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:46.284604"
+            "substreams": []
           },
           {
             "id": 14416,
             "name": "Stuttgart vs. Bayern",
             "tag": "ESPN+",
-            "poster": "https://ppv.to/assets/thumb/0556df90068e70e28351bd888c3c9dec-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/0556df90068e70e28351bd888c3c9dec-thumbnail.jpg",
             "blurhash": "L7HSc?xA00Sk%3t7WBR%00S7~qr:",
             "colors": [
               "#7f030d",
@@ -504,17 +604,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/bundesliga/2025-12-06/vfb-mun",
+            "iframe": "https://playembed.top/embed/bundesliga/2025-12-06/vfb-mun",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/bundesliga_vfb/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:48.188940"
+            "substreams": []
           },
           {
             "id": 14417,
             "name": "Wolfsburg vs. Union Berlin",
             "tag": "ESPN+",
-            "poster": "https://ppv.to/assets/thumb/87dd44a5b56faf653a95e0de19a68cf8-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/87dd44a5b56faf653a95e0de19a68cf8-thumbnail.jpg",
             "blurhash": "L7G?eouh00Z3xuofWBWB00h#~qYP",
             "colors": [
               "#7f030d",
@@ -526,17 +624,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/bundesliga/2025-12-06/wob-fcu",
+            "iframe": "https://playembed.top/embed/bundesliga/2025-12-06/wob-fcu",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/bundesliga_wob/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:51.305231"
+            "substreams": []
           },
           {
             "id": 14393,
             "name": "Bournemouth vs. Chelsea",
             "tag": "Premier League",
-            "poster": "https://ppv.to/assets/thumb/1078d5df2053b30575f47be015e1d96d-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/1078d5df2053b30575f47be015e1d96d-thumbnail.jpg",
             "blurhash": "LHC=V-{crE-AjZf6j[j[00OttkI;",
             "colors": [
               "#da281c",
@@ -548,17 +644,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/epl/2025-12-06/bou-che",
-            "viewers": "1",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/epl_bou/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:54.036792"
+            "iframe": "https://playembed.top/embed/epl/2025-12-06/bou-che",
+            "viewers": "0",
+            "substreams": []
           },
           {
             "id": 14396,
             "name": "Everton vs. Nottingham Forest",
             "tag": "Premier League",
-            "poster": "https://ppv.to/assets/thumb/5021abcd9df1a881c5df4f02b7aaf4ec-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/5021abcd9df1a881c5df4f02b7aaf4ec-thumbnail.jpg",
             "blurhash": "L9ChdL1-v3OYWBkCofWB00|qyDjG",
             "colors": [
               "#003197",
@@ -570,17 +664,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/epl/2025-12-06/eve-nfo",
+            "iframe": "https://playembed.top/embed/epl/2025-12-06/eve-nfo",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/epl_eve/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:56.283068"
+            "substreams": []
           },
           {
             "id": 14399,
             "name": "Manchester City vs. Sunderland",
             "tag": "Premier League",
-            "poster": "https://ppv.to/assets/thumb/95d441ba573d712a2fbb3c6e4055ecbf-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/95d441ba573d712a2fbb3c6e4055ecbf-thumbnail.jpg",
             "blurhash": "LPFz~qCmV]I=jZfkj[az0JrCt7xZ",
             "colors": [
               "#6caadb",
@@ -592,17 +684,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/epl/2025-12-06/mci-sun",
+            "iframe": "https://playembed.top/embed/epl/2025-12-06/mci-sun",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/epl_mci/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:46:59.015574"
+            "substreams": []
           },
           {
             "id": 14400,
             "name": "Newcastle United vs. Burnley",
             "tag": "Premier League",
-            "poster": "https://ppv.to/assets/thumb/4e437abd9a4efbdba0aaae051fbb1556-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/4e437abd9a4efbdba0aaae051fbb1556-thumbnail.jpg",
             "blurhash": "L49P~G2l00wynNV?ofo#00,I~qOA",
             "colors": [
               "#251f21",
@@ -614,17 +704,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/epl/2025-12-06/new-bur",
+            "iframe": "https://playembed.top/embed/epl/2025-12-06/new-bur",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/epl_new/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:47:01.073708"
+            "substreams": []
           },
           {
             "id": 14401,
             "name": "Tottenham Hotspur vs. Brentford",
             "tag": "Premier League",
-            "poster": "https://ppv.to/assets/thumb/7868227a5e29bd941fc4411c798e9712-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/7868227a5e29bd941fc4411c798e9712-thumbnail.jpg",
             "blurhash": "L9EK7s1izWF{aeWVofj[00}EyDv~",
             "colors": [
               "#152256",
@@ -636,17 +724,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/epl/2025-12-06/tot-bre",
+            "iframe": "https://playembed.top/embed/epl/2025-12-06/tot-bre",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/epl_tot/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:47:03.018476"
+            "substreams": []
           },
           {
             "id": 14448,
             "name": "Deportivo Alavés vs. Real Sociedad",
             "tag": "LaLiga",
-            "poster": "https://ppv.to/assets/thumb/294edd06aa0e9953d5b0405f45284851-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/294edd06aa0e9953d5b0405f45284851-thumbnail.jpg",
             "blurhash": "L5I.5XOv00v{v}bvWBjE00vx~WTL",
             "colors": [
               "#992d2a",
@@ -658,17 +744,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/laliga/2025-12-06/ala-rso",
+            "iframe": "https://playembed.top/embed/laliga/2025-12-06/ala-rso",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/ll_ala/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:47:06.061857"
+            "substreams": []
           },
           {
             "id": 14433,
             "name": "FC Nantes vs. RC Lens",
             "tag": "Ligue 1",
-            "poster": "https://ppv.to/assets/thumb/48732dc1b32893bece97876dd10c899a-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/48732dc1b32893bece97876dd10c899a-thumbnail.jpg",
             "blurhash": "LJJig=?*b:x@oLj[fkay01M+oNRQ",
             "colors": [
               "#ffdb01",
@@ -680,17 +764,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/ligue-1/2025-12-06/nan-len",
+            "iframe": "https://playembed.top/embed/ligue-1/2025-12-06/nan-len",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/ligue1_nan/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:47:08.431228"
+            "substreams": []
           },
           {
             "id": 14422,
             "name": "Inter vs. Como",
             "tag": "Serie A",
-            "poster": "https://ppv.to/assets/thumb/3dfc043e7e5f4e097520a98c631071ce-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/3dfc043e7e5f4e097520a98c631071ce-thumbnail.jpg",
             "blurhash": "L585N^en00o#t8afaej[00bb~qaK",
             "colors": [
               "#00379b",
@@ -702,17 +784,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/serie-a/2025-12-06/int-com",
+            "iframe": "https://playembed.top/embed/serie-a/2025-12-06/int-com",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/seriea_int/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:47:11.570525"
+            "substreams": []
           },
           {
             "id": 14398,
             "name": "Leeds United vs. Liverpool",
             "tag": "Premier League",
-            "poster": "https://ppv.to/assets/thumb/29b31ab38297ee24816f570595f73271-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/29b31ab38297ee24816f570595f73271-thumbnail.jpg",
             "blurhash": "LIJFoD?*WR$~j@bGj[js02RCtSNb",
             "colors": [
               "#ffcc03",
@@ -724,17 +804,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/epl/2025-12-06/lee-liv",
+            "iframe": "https://playembed.top/embed/epl/2025-12-06/lee-liv",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/epl_lee/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:47:14.522329"
+            "substreams": []
           },
           {
             "id": 14418,
             "name": "RB Leipzig vs. Frankfurt",
             "tag": "ESPN+",
-            "poster": "https://ppv.to/assets/thumb/ac4357174c8f739bea6359d82e8e2e86-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/ac4357174c8f739bea6359d82e8e2e86-thumbnail.jpg",
             "blurhash": "L7HSQfEM00-Ut7j[WBa|00-A~qI;",
             "colors": [
               "#7f030d",
@@ -746,17 +824,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/bundesliga/2025-12-06/rbl-sge",
+            "iframe": "https://playembed.top/embed/bundesliga/2025-12-06/rbl-sge",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/bundesliga_rbl/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:47:17.955864"
+            "substreams": []
           },
           {
             "id": 14449,
             "name": "Real Betis vs. FC Barcelona",
             "tag": "LaLiga",
-            "poster": "https://ppv.to/assets/thumb/06a62ae2e0572f19807e7d8b9bf90295-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/06a62ae2e0572f19807e7d8b9bf90295-thumbnail.jpg",
             "blurhash": "L5JEh+tl00VY$gRkWBoz00VY~DpI",
             "colors": [
               "#992d2a",
@@ -768,17 +844,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/laliga/2025-12-06/bet-bar",
+            "iframe": "https://playembed.top/embed/laliga/2025-12-06/bet-bar",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/ll_bet/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:47:19.646502"
+            "substreams": []
           },
           {
             "id": 14434,
             "name": "Toulouse FC vs. Strasbourg",
             "tag": "Ligue 1",
-            "poster": "https://ppv.to/assets/thumb/3c71d4bcc20a3443d471d2cbe82ec70c-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/3c71d4bcc20a3443d471d2cbe82ec70c-thumbnail.jpg",
             "blurhash": "L685pKY+I]$ckCaej[j[00u6%1NM",
             "colors": [
               "#3e2d59",
@@ -790,17 +864,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/ligue-1/2025-12-06/tou-sbg",
+            "iframe": "https://playembed.top/embed/ligue-1/2025-12-06/tou-sbg",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/ligue1_tou/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:47:21.107293"
+            "substreams": []
           },
           {
             "id": 14423,
             "name": "Hellas Verona vs. Atalanta",
             "tag": "Serie A",
-            "poster": "https://ppv.to/assets/thumb/577c8321d773adeb49313409f28490d1-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/577c8321d773adeb49313409f28490d1-thumbnail.jpg",
             "blurhash": "L58X*n#h00Owo#oHaeWZ00J?~qv_",
             "colors": [
               "#00379b",
@@ -812,17 +884,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/serie-a/2025-12-06/ver-ata",
+            "iframe": "https://playembed.top/embed/serie-a/2025-12-06/ver-ata",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/seriea_ver/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:47:23.094285"
+            "substreams": []
           },
           {
             "id": 14450,
             "name": "Athletic Club vs. Atlético de Madrid",
             "tag": "LaLiga",
-            "poster": "https://ppv.to/assets/thumb/6207097a5fed441ce86325220f11d371-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/6207097a5fed441ce86325220f11d371-thumbnail.jpg",
             "blurhash": "L5JXzl%f00IBtlt7aeRk00My~C%L",
             "colors": [
               "#992d2a",
@@ -834,17 +904,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/laliga/2025-12-06/ath-atm",
+            "iframe": "https://playembed.top/embed/laliga/2025-12-06/ath-atm",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/ll_ath/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:47:25.233212"
+            "substreams": []
           },
           {
             "id": 14435,
             "name": "PSG vs. Rennes",
             "tag": "Ligue 1",
-            "poster": "https://ppv.to/assets/thumb/57910f21e35c5297c74118d13f835c74-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/57910f21e35c5297c74118d13f835c74-thumbnail.jpg",
             "blurhash": "L6C5MN3Y*}E%t7WVj[j[00{xcExF",
             "colors": [
               "#013f6e",
@@ -856,17 +924,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/ligue-1/2025-12-06/psg-ren",
+            "iframe": "https://playembed.top/embed/ligue-1/2025-12-06/psg-ren",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/ligue1_psg/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:47:28.408566"
+            "substreams": []
           },
           {
             "id": 14424,
             "name": "Cremonese vs. Lecce",
             "tag": "Serie A",
-            "poster": "https://ppv.to/assets/thumb/d2ceab95f93fb99dee613dd2cc79b72c-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/d2ceab95f93fb99dee613dd2cc79b72c-thumbnail.jpg",
             "blurhash": "L57-]]~B0057offAe.j;0058~q^i",
             "colors": [
               "#00379b",
@@ -878,17 +944,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/serie-a/2025-12-07/cre-lec",
+            "iframe": "https://playembed.top/embed/serie-a/2025-12-07/cre-lec",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/seriea_cre/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:47:30.728775"
+            "substreams": []
           },
           {
             "id": 14451,
             "name": "Elche CF vs. Girona FC",
             "tag": "LaLiga",
-            "poster": "https://ppv.to/assets/thumb/f9cec717117b53c26bd33b56c573859b-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/f9cec717117b53c26bd33b56c573859b-thumbnail.jpg",
             "blurhash": "L5JqpPP700z@%Lt7WBV[00v*~CO;",
             "colors": [
               "#992d2a",
@@ -900,17 +964,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/laliga/2025-12-07/elc-gir",
+            "iframe": "https://playembed.top/embed/laliga/2025-12-07/elc-gir",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/ll_elc/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:47:32.238568"
+            "substreams": []
           },
           {
             "id": 14395,
             "name": "Brighton and Hove Albion vs. West Ham United",
             "tag": "Premier League",
-            "poster": "https://ppv.to/assets/thumb/f937c2f0a5397752dcbe10b47d3f2592-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/f937c2f0a5397752dcbe10b47d3f2592-thumbnail.jpg",
             "blurhash": "LIAAOVT#MzM|j]WVj[j[00VXx[tR",
             "colors": [
               "#0158b7",
@@ -922,17 +984,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/epl/2025-12-07/bha-whu",
+            "iframe": "https://playembed.top/embed/epl/2025-12-07/bha-whu",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/epl_bha/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:47:33.868908"
+            "substreams": []
           },
           {
             "id": 14425,
             "name": "Cagliari vs. Roma",
             "tag": "Serie A",
-            "poster": "https://ppv.to/assets/thumb/d3b12f0eba7712364e946cd36cd411dd-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/d3b12f0eba7712364e946cd36cd411dd-thumbnail.jpg",
             "blurhash": "L58#F0.900Mc%1f6jFoL00I9~qyE",
             "colors": [
               "#00379b",
@@ -944,17 +1004,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/serie-a/2025-12-07/cag-rom",
+            "iframe": "https://playembed.top/embed/serie-a/2025-12-07/cag-rom",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/seriea_cag/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:47:35.363077"
+            "substreams": []
           },
           {
             "id": 14436,
             "name": "OGC Nice vs. Angers SCO",
             "tag": "Ligue 1",
-            "poster": "https://ppv.to/assets/thumb/3610909c3db9fc013e364de921e0a18c-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/3610909c3db9fc013e364de921e0a18c-thumbnail.jpg",
             "blurhash": "LNCq[P}Fv~r?oLayjuj[0eI:bvbb",
             "colors": [
               "#d72229",
@@ -966,17 +1024,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/ligue-1/2025-12-07/nic-anr",
+            "iframe": "https://playembed.top/embed/ligue-1/2025-12-07/nic-anr",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/ligue1_nic/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:47:36.565153"
+            "substreams": []
           },
           {
             "id": 14419,
             "name": "Hamburg vs. Bremen",
             "tag": "ESPN+",
-            "poster": "https://ppv.to/assets/thumb/44829ee3ffe2fedce3c5a6c46f5ceaa1-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/44829ee3ffe2fedce3c5a6c46f5ceaa1-thumbnail.jpg",
             "blurhash": "L7GG6RgQ00r.t7fRWBfj00nL~qS*",
             "colors": [
               "#7f030d",
@@ -988,17 +1044,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/bundesliga/2025-12-07/hsv-svw",
+            "iframe": "https://playembed.top/embed/bundesliga/2025-12-07/hsv-svw",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/bundesliga_hsv/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:47:47.500665"
+            "substreams": []
           },
           {
             "id": 14452,
             "name": "Valencia CF vs. Sevilla FC",
             "tag": "LaLiga",
-            "poster": "https://ppv.to/assets/thumb/fd1ca053224a859216a214a98e1e04a9-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/fd1ca053224a859216a214a98e1e04a9-thumbnail.jpg",
             "blurhash": "L5JhE=R$01whkqR.WBs+00s=~CSc",
             "colors": [
               "#992d2a",
@@ -1010,17 +1064,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/laliga/2025-12-07/val-sev",
+            "iframe": "https://playembed.top/embed/laliga/2025-12-07/val-sev",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/ll_val/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:47:49.998003"
+            "substreams": []
           },
           {
             "id": 14437,
             "name": "AJ Auxerre vs. FC Metz",
             "tag": "Ligue 1",
-            "poster": "https://ppv.to/assets/thumb/f511cee16b9340132f3e08723c4c7ca0-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/f511cee16b9340132f3e08723c4c7ca0-thumbnail.jpg",
             "blurhash": "L79Gn377M#tmt7t7j[Rj00-4x[M_",
             "colors": [
               "#164092",
@@ -1032,17 +1084,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/ligue-1/2025-12-07/aux-met",
+            "iframe": "https://playembed.top/embed/ligue-1/2025-12-07/aux-met",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/ligue1_aux/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:47:52.732650"
+            "substreams": []
           },
           {
             "id": 14438,
             "name": "Havre AC vs. Paris FC",
             "tag": "Ligue 1",
-            "poster": "https://ppv.to/assets/thumb/45ada1247817a1946668df63de739768-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/45ada1247817a1946668df63de739768-thumbnail.jpg",
             "blurhash": "LN98Mi%%X9o#ofayj[j[8^ROodae",
             "colors": [
               "#7abde7",
@@ -1054,17 +1104,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/ligue-1/2025-12-07/lhv-pfc",
+            "iframe": "https://playembed.top/embed/ligue-1/2025-12-07/lhv-pfc",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/ligue1_lhv/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:47:55.053047"
+            "substreams": []
           },
           {
             "id": 14397,
             "name": "Fulham vs. Crystal Palace",
             "tag": "Premier League",
-            "poster": "https://ppv.to/assets/thumb/d2fd18098a2cd0b50e2ededc0ef1c66a-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/d2fd18098a2cd0b50e2ededc0ef1c66a-thumbnail.jpg",
             "blurhash": "LTEMh5~os+xuazj@j[a}00IVofV@",
             "colors": [
               "#ffffff",
@@ -1076,17 +1124,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/epl/2025-12-07/ful-cry",
+            "iframe": "https://playembed.top/embed/epl/2025-12-07/ful-cry",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/epl_ful/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:47:58.128897"
+            "substreams": []
           },
           {
             "id": 14420,
             "name": "Dortmund vs. Hoffenheim",
             "tag": "ESPN+",
-            "poster": "https://ppv.to/assets/thumb/959087cd7e92edfadfc2b55e30c9426b-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/959087cd7e92edfadfc2b55e30c9426b-thumbnail.jpg",
             "blurhash": "L7G$@,$F00Eqa$s:WBR+00OK_N$a",
             "colors": [
               "#7f030d",
@@ -1098,17 +1144,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/bundesliga/2025-12-07/dor-tsg",
+            "iframe": "https://playembed.top/embed/bundesliga/2025-12-07/dor-tsg",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/bundesliga_dor/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:47:59.999462"
+            "substreams": []
           },
           {
             "id": 14426,
             "name": "Lazio vs. Bologna",
             "tag": "Serie A",
-            "poster": "https://ppv.to/assets/thumb/81402c0c3fe75b55bde6faff246b5c9e-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/81402c0c3fe75b55bde6faff246b5c9e-thumbnail.jpg",
             "blurhash": "L57U}=b{00Vqt7s+adWY00Z~~qp0",
             "colors": [
               "#00379b",
@@ -1120,17 +1164,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/serie-a/2025-12-07/laz-bol",
+            "iframe": "https://playembed.top/embed/serie-a/2025-12-07/laz-bol",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/seriea_laz/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:48:01.514909"
+            "substreams": []
           },
           {
             "id": 14453,
             "name": "RCD Espanyol de Barcelona vs. Rayo Vallecano",
             "tag": "LaLiga",
-            "poster": "https://ppv.to/assets/thumb/965746d397d42931b18a85b53975179f-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/965746d397d42931b18a85b53975179f-thumbnail.jpg",
             "blurhash": "L5JhI0vN00Y3xWi_WBbc00cX~Cid",
             "colors": [
               "#992d2a",
@@ -1142,17 +1184,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/laliga/2025-12-07/esp-ray",
+            "iframe": "https://playembed.top/embed/laliga/2025-12-07/esp-ray",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/ll_esp/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:48:02.903607"
+            "substreams": []
           },
           {
             "id": 14427,
             "name": "Napoli vs. Juventus",
             "tag": "Serie A",
-            "poster": "https://ppv.to/assets/thumb/1ec6366647755f299eef3bf02abba79e-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/1ec6366647755f299eef3bf02abba79e-thumbnail.jpg",
             "blurhash": "L57y3]Gt00zrtSWBe.oe00z;_NP9",
             "colors": [
               "#00379b",
@@ -1164,17 +1204,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/serie-a/2025-12-07/nap-juv",
+            "iframe": "https://playembed.top/embed/serie-a/2025-12-07/nap-juv",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/seriea_nap/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:48:05.558257"
+            "substreams": []
           },
           {
             "id": 14439,
             "name": "FC Lorient vs. OL",
             "tag": "Ligue 1",
-            "poster": "https://ppv.to/assets/thumb/3af6418d01a026864cc8517c3cbe9f15-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/3af6418d01a026864cc8517c3cbe9f15-thumbnail.jpg",
             "blurhash": "LJEUv5|nw3-Ut7ayjtj[00OtbuIp",
             "colors": [
               "#ea750e",
@@ -1186,17 +1224,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/ligue-1/2025-12-07/lor-lyn",
+            "iframe": "https://playembed.top/embed/ligue-1/2025-12-07/lor-lyn",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/ligue1_lor/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:48:07.926280"
+            "substreams": []
           },
           {
             "id": 14454,
             "name": "Real Madrid vs. Celta",
             "tag": "LaLiga",
-            "poster": "https://ppv.to/assets/thumb/7474a99937f923382d44be84c63d9f57-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/7474a99937f923382d44be84c63d9f57-thumbnail.jpg",
             "blurhash": "L6JN|Ll60Kq{xaaKWBf,00ie~CX+",
             "colors": [
               "#992d2a",
@@ -1208,17 +1244,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/laliga/2025-12-07/rma-cel",
+            "iframe": "https://playembed.top/embed/laliga/2025-12-07/rma-cel",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/ll_rma/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:48:09.526870"
+            "substreams": []
           },
           {
             "id": 14428,
             "name": "Pisa vs. Parma",
             "tag": "Serie A",
-            "poster": "https://ppv.to/assets/thumb/a13c4b1d8e7ee5c155e89f1bbb3d0c39-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/a13c4b1d8e7ee5c155e89f1bbb3d0c39-thumbnail.jpg",
             "blurhash": "L67.9UD,00-.oyWFaeob00-n_NE2",
             "colors": [
               "#00379b",
@@ -1230,17 +1264,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/serie-a/2025-12-08/pis-par",
+            "iframe": "https://playembed.top/embed/serie-a/2025-12-08/pis-par",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/seriea_pis/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:48:20.827224"
+            "substreams": []
           },
           {
             "id": 14429,
             "name": "Udinese vs. Genoa",
             "tag": "Serie A",
-            "poster": "https://ppv.to/assets/thumb/09b85654a26095331c96fa40460bbaa2-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/09b85654a26095331c96fa40460bbaa2-thumbnail.jpg",
             "blurhash": "L58#RSTf00#6x]Rje-t700VX~qTe",
             "colors": [
               "#00379b",
@@ -1252,17 +1284,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/serie-a/2025-12-08/udi-gen",
+            "iframe": "https://playembed.top/embed/serie-a/2025-12-08/udi-gen",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/seriea_udi/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:48:22.652788"
+            "substreams": []
           },
           {
             "id": 14430,
             "name": "Torino vs. Milan",
             "tag": "Serie A",
-            "poster": "https://ppv.to/assets/thumb/3b54cae89856104933a92072d50fd292-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/3b54cae89856104933a92072d50fd292-thumbnail.jpg",
             "blurhash": "L58qqQ$_00IvxuxXe.Rn00N3~qxo",
             "colors": [
               "#00379b",
@@ -1274,17 +1304,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/serie-a/2025-12-08/tor-mil",
+            "iframe": "https://playembed.top/embed/serie-a/2025-12-08/tor-mil",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/seriea_tor/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:48:23.914565"
+            "substreams": []
           },
           {
             "id": 14402,
             "name": "Wolverhampton Wanderers vs. Manchester United",
             "tag": "Premier League",
-            "poster": "https://ppv.to/assets/thumb/a8ea9ec9d74a54fef1834fddfec25473-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/a8ea9ec9d74a54fef1834fddfec25473-thumbnail.jpg",
             "blurhash": "LCJh]M*CRN-On%fjj[jt03rGtmI[",
             "colors": [
               "#fcb913",
@@ -1296,17 +1324,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/epl/2025-12-08/wol-mun",
+            "iframe": "https://playembed.top/embed/epl/2025-12-08/wol-mun",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/epl_wol/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:48:25.884062"
+            "substreams": []
           },
           {
             "id": 14455,
             "name": "CA Osasuna vs. Levante UD",
             "tag": "LaLiga",
-            "poster": "https://ppv.to/assets/thumb/b42268396da7f5d1a63ebe28b41385ee-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/b42268396da7f5d1a63ebe28b41385ee-thumbnail.jpg",
             "blurhash": "L5I-yY=x00ELs:n%WBSg00EM~C%2",
             "colors": [
               "#992d2a",
@@ -1318,238 +1344,9 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://embednow.top/embed/laliga/2025-12-08/osa-lev",
+            "iframe": "https://playembed.top/embed/laliga/2025-12-08/osa-lev",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/ll_osa/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:48:28.311376"
-          }
-        ]
-      },
-      {
-        "category": "Ice Hockey",
-        "id": 39,
-        "always_live": false,
-        "streams": [
-          {
-            "id": 14495,
-            "name": "Blues vs. Bruins",
-            "tag": "NHL",
-            "poster": "https://ppv.to/assets/thumb/4a6bfbf08c09305d88dbc1edd00e86a6-thumbnail.jpg",
-            "blurhash": "L57BQC1AI_~Uofj]j[ax00~8xt4:",
-            "colors": [
-              "#00436e",
-              "#151314"
-            ],
-            "uri_name": "nhl/2025-12-05/stl-bos",
-            "starts_at": 1764892800,
-            "ends_at": 1764903600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://embednow.top/embed/nhl/2025-12-05/stl-bos",
-            "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/nhl_stl/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:48:30.078334"
-          },
-          {
-            "id": 14496,
-            "name": "Rangers vs. Senators",
-            "tag": "NHL",
-            "poster": "https://ppv.to/assets/thumb/40dd24bf57c0113f9a7a99ba7321453b-thumbnail.jpg",
-            "blurhash": "LCEc^f3s2az:jaWXa|j?0Jib$PtS",
-            "colors": [
-              "#013368",
-              "#85111e"
-            ],
-            "uri_name": "nhl/2025-12-05/nyr-ott",
-            "starts_at": 1764892800,
-            "ends_at": 1764903600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://embednow.top/embed/nhl/2025-12-05/nyr-ott",
-            "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/nhl_nyr/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:48:32.119686"
-          },
-          {
-            "id": 14497,
-            "name": "Penguins vs. Lightning",
-            "tag": "NHL",
-            "poster": "https://ppv.to/assets/thumb/d9031379e00d10761829a2536b091d2e-thumbnail.jpg",
-            "blurhash": "L44{3*}#Ma4@ogofj[WB004=x^?Z",
-            "colors": [
-              "#000100",
-              "#00254a"
-            ],
-            "uri_name": "nhl/2025-12-05/pit-tb",
-            "starts_at": 1764892800,
-            "ends_at": 1764903600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://embednow.top/embed/nhl/2025-12-05/pit-tb",
-            "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/nhl_pit/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:48:34.020514"
-          },
-          {
-            "id": 14498,
-            "name": "Predators vs. Panthers",
-            "tag": "NHL",
-            "poster": "https://ppv.to/assets/thumb/50aa367c422ad8867c6aca25302a78d0-thumbnail.jpg",
-            "blurhash": "L6H+90?:31O9xFWpbHo000M|=fxH",
-            "colors": [
-              "#986f1d",
-              "#8a0f21"
-            ],
-            "uri_name": "nhl/2025-12-05/nsh-fla",
-            "starts_at": 1764892800,
-            "ends_at": 1764903600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://embednow.top/embed/nhl/2025-12-05/nsh-fla",
-            "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/nhl_nsh/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:48:36.445097"
-          },
-          {
-            "id": 14499,
-            "name": "Avalanche vs. Islanders",
-            "tag": "NHL",
-            "poster": "https://ppv.to/assets/thumb/a864deab2f7445b9817e5c4878feaa14-thumbnail.jpg",
-            "blurhash": "L48qHtQRUu}tkDV?fPoz00-U%hAb",
-            "colors": [
-              "#500023",
-              "#00315c"
-            ],
-            "uri_name": "nhl/2025-12-05/col-nyi",
-            "starts_at": 1764892800,
-            "ends_at": 1764903600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://embednow.top/embed/nhl/2025-12-05/col-nyi",
-            "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/nhl_col/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:48:51.524036"
-          },
-          {
-            "id": 14500,
-            "name": "Maple Leafs vs. Hurricanes",
-            "tag": "NHL",
-            "poster": "https://ppv.to/assets/thumb/954638ca2b72d2889b564e4386a9e11c-thumbnail.jpg",
-            "blurhash": "L8ES#D1i1b}Yn%aybHjt0d=x-BIp",
-            "colors": [
-              "#01244a",
-              "#890117"
-            ],
-            "uri_name": "nhl/2025-12-05/tor-car",
-            "starts_at": 1764892800,
-            "ends_at": 1764903600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://embednow.top/embed/nhl/2025-12-05/tor-car",
-            "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/nhl_tor/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:48:53.603350"
-          },
-          {
-            "id": 14501,
-            "name": "Red Wings vs. Blue Jackets",
-            "tag": "NHL",
-            "poster": "https://ppv.to/assets/thumb/7b60559e15ab9043f053b1113da3a74f-thumbnail.jpg",
-            "blurhash": "LD9PW+|G#QoMfkfPa|ay0xJ8kWn%",
-            "colors": [
-              "#870318",
-              "#011b3c"
-            ],
-            "uri_name": "nhl/2025-12-05/det-cbj",
-            "starts_at": 1764894600,
-            "ends_at": 1764905400,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://embednow.top/embed/nhl/2025-12-05/det-cbj",
-            "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/nhl_det/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:48:55.000050"
-          },
-          {
-            "id": 14502,
-            "name": "Wild vs. Flames",
-            "tag": "NHL",
-            "poster": "https://ppv.to/assets/thumb/64d7e3ee61963086e58cfd3c060d3ec4-thumbnail.jpg",
-            "blurhash": "LAE+y92?1a|uo0a|fkay0};h-BF0",
-            "colors": [
-              "#0b2b20",
-              "#85111e"
-            ],
-            "uri_name": "nhl/2025-12-05/min-cgy",
-            "starts_at": 1764900000,
-            "ends_at": 1764910800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://embednow.top/embed/nhl/2025-12-05/min-cgy",
-            "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/nhl_min/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:48:57.994278"
-          },
-          {
-            "id": 14503,
-            "name": "Kraken vs. Oilers",
-            "tag": "NHL",
-            "poster": "https://ppv.to/assets/thumb/7f94e26bb07da557ad7fdbd9496ff45d-thumbnail.jpg",
-            "blurhash": "L45#@i0JIR~CxaRjj[t700^+x^56",
-            "colors": [
-              "#00081f",
-              "#001236"
-            ],
-            "uri_name": "nhl/2025-12-05/sea-edm",
-            "starts_at": 1764900000,
-            "ends_at": 1764910800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://embednow.top/embed/nhl/2025-12-05/sea-edm",
-            "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/nhl_sea/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:49:00.932699"
-          },
-          {
-            "id": 14504,
-            "name": "Blackhawks vs. Kings",
-            "tag": "NHL",
-            "poster": "https://ppv.to/assets/thumb/6a7d04416231c99d68c7dd7494061c24-thumbnail.jpg",
-            "blurhash": "LC8yr4|G#SoNa#ayj[j[57OFkWjX",
-            "colors": [
-              "#880f22",
-              "#0b0b0b"
-            ],
-            "uri_name": "nhl/2025-12-05/chi-la",
-            "starts_at": 1764903600,
-            "ends_at": 1764914400,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://embednow.top/embed/nhl/2025-12-05/chi-la",
-            "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/nhl_chi/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:49:03.176330"
+            "substreams": []
           }
         ]
       },
@@ -1562,7 +1359,7 @@
             "id": 14372,
             "name": "Abu Dhabi Grand Prix - FP1",
             "tag": "Formula 1",
-            "poster": "https://ppv.to/assets/thumb/872fb7fd7bc18d07bc42ed7eee3290f5-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/872fb7fd7bc18d07bc42ed7eee3290f5-thumbnail.jpg",
             "blurhash": "L8AmrH00RP~qIAt7xuDiD%?v_39F",
             "colors": [
               "#15151d",
@@ -1574,17 +1371,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Motorsports",
-            "iframe": "https://embednow.top/embed/f1/2025/united-arab-emirates/fp1",
-            "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/f1/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:49:04.515495"
+            "iframe": "https://playembed.top/embed/f1/2025/united-arab-emirates/fp1",
+            "viewers": "205",
+            "substreams": []
           },
           {
             "id": 14373,
             "name": "Abu Dhabi Grand Prix - FP2",
             "tag": "Formula 1",
-            "poster": "https://ppv.to/assets/thumb/dcba7ff5908d374016964a7369ce3168-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/dcba7ff5908d374016964a7369ce3168-thumbnail.jpg",
             "blurhash": "L8AwC+00RP~qIAxaxuDiD%?v_39F",
             "colors": [
               "#15151d",
@@ -1596,17 +1391,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Motorsports",
-            "iframe": "https://embednow.top/embed/f1/2025/united-arab-emirates/fp2",
-            "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/f1/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:49:07.087865"
+            "iframe": "https://playembed.top/embed/f1/2025/united-arab-emirates/fp2",
+            "viewers": "1",
+            "substreams": []
           },
           {
             "id": 14374,
             "name": "Abu Dhabi Grand Prix - FP3",
             "tag": "Formula 1",
-            "poster": "https://ppv.to/assets/thumb/e691fdcd52c74ad7a1f499ce87247c61-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/e691fdcd52c74ad7a1f499ce87247c61-thumbnail.jpg",
             "blurhash": "L8AwC+00RP~qIAxaxuDiD%?v_39F",
             "colors": [
               "#15151d",
@@ -1618,17 +1411,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Motorsports",
-            "iframe": "https://embednow.top/embed/f1/2025/united-arab-emirates/fp3",
+            "iframe": "https://playembed.top/embed/f1/2025/united-arab-emirates/fp3",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/f1/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:49:09.976191"
+            "substreams": []
           },
           {
             "id": 14375,
             "name": "Abu Dhabi Grand Prix - Qualifying",
             "tag": "Formula 1",
-            "poster": "https://ppv.to/assets/thumb/e53715e90a78c2d744d6ebad3cac4082-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/e53715e90a78c2d744d6ebad3cac4082-thumbnail.jpg",
             "blurhash": "L8AwC+00RP~qIAxaxuDiD%?v_39F",
             "colors": [
               "#15151d",
@@ -1640,17 +1431,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Motorsports",
-            "iframe": "https://embednow.top/embed/f1/2025/united-arab-emirates/qualifying",
+            "iframe": "https://playembed.top/embed/f1/2025/united-arab-emirates/qualifying",
             "viewers": "1",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/f1/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:49:12.219891"
+            "substreams": []
           },
           {
             "id": 14376,
             "name": "Abu Dhabi Grand Prix - Race",
             "tag": "Formula 1",
-            "poster": "https://ppv.to/assets/thumb/d890eca4149c3753348ba502a664b75c-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/d890eca4149c3753348ba502a664b75c-thumbnail.jpg",
             "blurhash": "L9AmrH00RP~qIUt7xuD%D%?b?b9F",
             "colors": [
               "#15151d",
@@ -1662,11 +1451,9 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Motorsports",
-            "iframe": "https://embednow.top/embed/f1/2025/united-arab-emirates/race",
+            "iframe": "https://playembed.top/embed/f1/2025/united-arab-emirates/race",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/f1/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:49:15.174716"
+            "substreams": []
           }
         ]
       },
@@ -1676,32 +1463,10 @@
         "always_live": false,
         "streams": [
           {
-            "id": 14380,
-            "name": "TNA: Impact",
-            "tag": "AXS TV",
-            "poster": "https://ppv.to/assets/thumb/78f581ee61589a76f6bcdeb095f95c12-thumbnail.jpg",
-            "blurhash": "L6GFdr].0|t700EfGZR*3;J-{gt6",
-            "colors": [
-              "#030303",
-              "#050505"
-            ],
-            "uri_name": "tna/impact/25-12-04",
-            "starts_at": 1764896400,
-            "ends_at": 1764907200,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Wrestling",
-            "iframe": "https://embednow.top/embed/tna/impact/25-12-04",
-            "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/wrestling/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:49:17.104757"
-          },
-          {
             "id": 14381,
             "name": "WWE: Friday Night Smackdown",
             "tag": "USA Network",
-            "poster": "https://ppv.to/assets/thumb/ec7810b68fc39115ce3510bcf9687a63-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/ec7810b68fc39115ce3510bcf9687a63-thumbnail.jpg",
             "blurhash": "LF4ezej]M?s{kFkDf2fKIUWGxsfT",
             "colors": [
               "#001b65",
@@ -1713,17 +1478,15 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Wrestling",
-            "iframe": "https://embednow.top/embed/wwe/smackdown/25-12-05",
+            "iframe": "https://playembed.top/embed/wwe/smackdown/25-12-05",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/wrestling/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:49:19.714595"
+            "substreams": []
           },
           {
             "id": 14382,
             "name": "AEW: Saturday Night Collision",
             "tag": "TNT",
-            "poster": "https://ppv.to/assets/thumb/6e29b1bb679dd5133c85bbaadc2c4b13-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/6e29b1bb679dd5133c85bbaadc2c4b13-thumbnail.jpg",
             "blurhash": "LDDk_9Na01of}mNwNMbF0TS#^cae",
             "colors": [
               "#210e10",
@@ -1735,11 +1498,9 @@
             "always_live": 0,
             "locale": "en",
             "category_name": "Wrestling",
-            "iframe": "https://embednow.top/embed/aew/collision/25-12-06",
+            "iframe": "https://playembed.top/embed/aew/collision/25-12-06",
             "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/wrestling/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:49:22.511037"
+            "substreams": []
           }
         ]
       },
@@ -1764,17 +1525,15 @@
             "always_live": 1,
             "locale": "en",
             "category_name": "24/7 Streams",
-            "iframe": "https://embednow.top/embed/247-south-park",
-            "viewers": "24",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/southpark/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:49:24.592286"
+            "iframe": "https://playembed.top/embed/247-south-park",
+            "viewers": "16",
+            "substreams": []
           },
           {
             "id": 3663,
             "name": "24/7 COWS",
             "tag": "24/7 channel",
-            "poster": "https://ppv.to/assets/thumb/213d77252211e1926309f43b38263a4f-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/213d77252211e1926309f43b38263a4f-thumbnail.jpg",
             "blurhash": "LLHBJBIU.SIV~WD%.7n#%#nOoJi{",
             "colors": [
               "#8c797d",
@@ -1786,15 +1545,13 @@
             "always_live": 1,
             "locale": "en",
             "category_name": "24/7 Streams",
-            "iframe": "https://embednow.top/embed/247-cows",
-            "viewers": "2",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/cows/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:49:26.756863"
+            "iframe": "https://playembed.top/embed/247-cows",
+            "viewers": "1",
+            "substreams": []
           },
           {
             "id": 8008,
-            "name": "24/7 Family​​​​​‌​​‌‌‌​​​‌‌‌​‌​‌‌‌​‌​‌‌​​‌‌ Guy",
+            "name": "24/7 Family​​‌‌​‌​​‌​​‌‌‌‌‌‌‌‌​​​​‌‌‌​​​​‌​ Guy",
             "tag": "24/7 channel",
             "poster": "https://thumbs.poocloud.in/familyguy/preview.jpg",
             "blurhash": "",
@@ -1808,11 +1565,9 @@
             "always_live": 1,
             "locale": "en",
             "category_name": "24/7 Streams",
-            "iframe": "https://embednow.top/embed/247-family-guy",
-            "viewers": "28",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/familyguy/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:49:29.151645"
+            "iframe": "https://playembed.top/embed/247-family-guy",
+            "viewers": "19",
+            "substreams": []
           },
           {
             "id": 5191,
@@ -1830,17 +1585,15 @@
             "always_live": 1,
             "locale": "en",
             "category_name": "24/7 Streams",
-            "iframe": "https://embednow.top/embed/247-the-simpsons",
-            "viewers": "14",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/thesimpsons/index.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:49:31.236807"
+            "iframe": "https://playembed.top/embed/247-the-simpsons",
+            "viewers": "10",
+            "substreams": []
           },
           {
             "id": 10681,
             "name": "Master stream test",
             "tag": "South Park/PPV",
-            "poster": "https://ppv.to/assets/thumb/c7caf570cf3494e7f9ad1ae3f3122242-thumbnail.jpg",
+            "poster": "https://old.ppv.to/assets/thumb/c7caf570cf3494e7f9ad1ae3f3122242-thumbnail.jpg",
             "blurhash": "L-K_5zRj~qt7?bj[xuofD%j[M{WB",
             "colors": [
               "#fffafe",
@@ -1852,7 +1605,7 @@
             "always_live": 1,
             "locale": "en",
             "category_name": "24/7 Streams",
-            "iframe": "https://embednow.top/embed/master-stream-test-delete-12568",
+            "iframe": "https://playembed.top/embed/master-stream-test-delete-12568",
             "viewers": "0",
             "substreams": [
               {
@@ -1862,9 +1615,7 @@
                 "locale": "en",
                 "iframe": null
               }
-            ],
-            "m3u8_url": "https://5nhp186eg31fofnc.chinese-restaurant-api.site/v3/director/VE1ZGEyNDNkZWMyNzFjLWU2OWItNzFlNC00NWU5LTUyODY0MWIz/master.m3u8",
-            "m3u8_extracted_at": "2025-12-05T06:49:44.963463"
+            ]
           }
         ]
       }
