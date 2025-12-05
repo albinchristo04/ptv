@@ -9,7 +9,7 @@ import os
 from datetime import datetime
 
 # Configuration
-API_URL = "https://ppv.to/api/streams"
+API_URL = "https://old.ppv.to/api/streams"
 OUTPUT_FILE = "events.json"
 TIMEOUT = 10
 
