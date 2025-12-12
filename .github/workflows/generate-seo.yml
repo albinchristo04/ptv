@@ -239,7 +239,9 @@ jobs:
           const urls = JSON.parse(fs.readFileSync('sitemap-urls.json', 'utf8'));
           
           let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
-          xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
+          xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n';
+          xml += '        xmlns:xhtml="http://www.w3.org/1999/xhtml"\n';
+          xml += '        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">\n';
           
           urls.forEach(url => {
             xml += '  <url>\n';
@@ -247,13 +249,54 @@ jobs:
             xml += `    <lastmod>${url.lastmod}</lastmod>\n`;
             xml += `    <changefreq>${url.changefreq}</changefreq>\n`;
             xml += `    <priority>${url.priority}</priority>\n`;
+            
+            // Add hreflang alternate links if present
+            if (url['xhtml:link']) {
+              url['xhtml:link'].forEach(link => {
+                xml += `    <xhtml:link rel="${link.rel}" hreflang="${link.hreflang}" href="${link.href}"/>\n`;
+              });
+            }
+            
             xml += '  </url>\n';
           });
           
           xml += '</urlset>';
           
           fs.writeFileSync('sitemap.xml', xml);
-          console.log('✅ Generated sitemap.xml');
+          console.log('✅ Generated sitemap.xml with', urls.length, 'URLs');
+          
+          // Generate news sitemap for recent events
+          const seoData = JSON.parse(fs.readFileSync('seo-metadata.json', 'utf8'));
+          const recentEvents = seoData.events.filter(e => {
+            const eventTime = new Date(e.event.start_time);
+            const now = new Date();
+            const twoDaysAgo = new Date(now - 2 * 24 * 60 * 60 * 1000);
+            return eventTime > twoDaysAgo;
+          });
+          
+          let newsXml = '<?xml version="1.0" encoding="UTF-8"?>\n';
+          newsXml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n';
+          newsXml += '        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">\n';
+          
+          recentEvents.forEach(event => {
+            newsXml += '  <url>\n';
+            newsXml += `    <loc>${event.canonical_url}</loc>\n`;
+            newsXml += '    <news:news>\n';
+            newsXml += '      <news:publication>\n';
+            newsXml += '        <news:name>Tarjeta Roja En Vivo</news:name>\n';
+            newsXml += '        <news:language>es</news:language>\n';
+            newsXml += '      </news:publication>\n';
+            newsXml += `      <news:publication_date>${event.event.start_time}</news:publication_date>\n`;
+            newsXml += `      <news:title>${event.meta.title}</news:title>\n`;
+            newsXml += `      <news:keywords>${event.bing.news_keywords}</news:keywords>\n`;
+            newsXml += '    </news:news>\n';
+            newsXml += '  </url>\n';
+          });
+          
+          newsXml += '</urlset>';
+          
+          fs.writeFileSync('sitemap-news.xml', newsXml);
+          console.log('✅ Generated sitemap-news.xml with', recentEvents.length, 'recent events');
           EOF
           
           node generate-sitemap.js
@@ -264,7 +307,20 @@ jobs:
           User-agent: *
           Allow: /
           
-          Sitemap: https://yourdomain.com/sitemap.xml
+          # Bing Bot
+          User-agent: bingbot
+          Allow: /
+          Crawl-delay: 0
+          
+          # Google Bot
+          User-agent: Googlebot
+          Allow: /
+          
+          Sitemap: https://tarjetarojaenvivo.live/sitemap.xml
+          Sitemap: https://tarjetarojaenvivo.live/sitemap-news.xml
+          
+          # Host
+          Host: https://tarjetarojaenvivo.live
           EOF
           
           echo "✅ Generated robots.txt"
@@ -274,7 +330,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          git add seo-metadata.json sitemap-urls.json sitemap.xml robots.txt
+          git add seo-metadata.json sitemap-urls.json sitemap.xml sitemap-news.xml robots.txt keywords.json
           
           if git diff --staged --quiet; then
             echo "No changes to commit"
