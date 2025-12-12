@@ -1,0 +1,302 @@
+name: Generate SEO Metadata
+
+on:
+  # Run on push to main branch
+  push:
+    branches:
+      - main
+    paths:
+      - 'events.json'
+  
+  # Run on schedule (every 6 hours)
+  schedule:
+    - cron: '0 */6 * * *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  generate-seo:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      
+      - name: Create script directory
+        run: mkdir -p scripts
+      
+      - name: Create SEO generator script
+        run: |
+          cat > scripts/generate-seo.js << 'EOF'
+          const fs = require('fs');
+          const https = require('https');
+
+          const SOURCE_URL = 'https://raw.githubusercontent.com/${{ github.repository }}/main/events.json';
+          const OUTPUT_FILE = 'seo-metadata.json';
+
+          function fetchJSON(url) {
+            return new Promise((resolve, reject) => {
+              https.get(url, (res) => {
+                let data = '';
+                res.on('data', chunk => data += chunk);
+                res.on('end', () => {
+                  try {
+                    resolve(JSON.parse(data));
+                  } catch (e) {
+                    reject(e);
+                  }
+                });
+              }).on('error', reject);
+            });
+          }
+
+          function generateSlug(text) {
+            return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+          }
+
+          function formatDate(timestamp) {
+            return new Date(timestamp * 1000).toISOString();
+          }
+
+          function generateMetadata(stream, category) {
+            const { id, name, tag, poster, uri_name, starts_at, ends_at, category_name, viewers } = stream;
+            const eventDate = new Date(starts_at * 1000);
+            const endDate = new Date(ends_at * 1000);
+            const slug = generateSlug(name);
+            const teams = name.split(' vs. ').map(t => t.trim());
+            const isVersusMatch = teams.length === 2;
+
+            return {
+              id,
+              slug,
+              uri_name,
+              canonical_url: `https://yourdomain.com/events/${uri_name}`,
+              meta: {
+                title: `${name} - Live Stream | ${category_name}`,
+                description: `Watch ${name} live stream. ${isVersusMatch ? `${teams[0]} takes on ${teams[1]}` : name} on ${eventDate.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}. Free live streaming of ${category_name}.`,
+                keywords: [name, ...teams, category_name, 'live stream', 'watch online', 'free streaming', tag, 'live coverage', eventDate.getFullYear().toString()].join(', '),
+                robots: 'index, follow'
+              },
+              og: {
+                type: 'website',
+                url: `https://yourdomain.com/events/${uri_name}`,
+                title: `${name} - Live Stream`,
+                description: `Watch ${name} live. ${isVersusMatch ? `${teams[0]} vs ${teams[1]}` : name} streaming live on ${eventDate.toLocaleDateString()}.`,
+                image: poster,
+                site_name: 'Your Sports Streaming Site',
+                locale: stream.locale === 'en' ? 'en_US' : stream.locale === 'fr' ? 'fr_FR' : 'en_US'
+              },
+              twitter: {
+                card: 'summary_large_image',
+                site: '@yourhandle',
+                title: `${name} - Live Stream`,
+                description: `Watch ${name} live stream online. ${category_name} coverage.`,
+                image: poster
+              },
+              schema: {
+                '@context': 'https://schema.org',
+                '@type': 'SportsEvent',
+                name: name,
+                description: `Live streaming of ${name}`,
+                startDate: formatDate(starts_at),
+                endDate: formatDate(ends_at),
+                eventStatus: 'https://schema.org/EventScheduled',
+                eventAttendanceMode: 'https://schema.org/OnlineEventAttendanceMode',
+                location: {
+                  '@type': 'VirtualLocation',
+                  url: `https://yourdomain.com/events/${uri_name}`
+                },
+                image: poster,
+                organizer: {
+                  '@type': 'Organization',
+                  name: 'Your Site Name',
+                  url: 'https://yourdomain.com'
+                },
+                ...(isVersusMatch && {
+                  competitor: teams.map(team => ({ '@type': 'SportsTeam', name: team })),
+                  homeTeam: { '@type': 'SportsTeam', name: teams[0] },
+                  awayTeam: { '@type': 'SportsTeam', name: teams[1] }
+                }),
+                sport: category_name
+              },
+              seo: {
+                breadcrumbs: [
+                  { name: 'Home', url: 'https://yourdomain.com' },
+                  { name: category_name, url: `https://yourdomain.com/category/${generateSlug(category_name)}` },
+                  { name: name, url: `https://yourdomain.com/events/${uri_name}` }
+                ],
+                h1: name,
+                h2: `Watch ${name} Live Stream Online`,
+                faq: [
+                  {
+                    question: `How to watch ${name} live?`,
+                    answer: `You can watch ${name} live stream on our platform. The event starts on ${eventDate.toLocaleDateString()} at ${eventDate.toLocaleTimeString()}.`
+                  },
+                  {
+                    question: `What time does ${name} start?`,
+                    answer: `${name} starts at ${eventDate.toLocaleTimeString()} on ${eventDate.toLocaleDateString()}.`
+                  }
+                ]
+              },
+              event: {
+                name,
+                category: category_name,
+                broadcaster: tag,
+                start_time: formatDate(starts_at),
+                end_time: formatDate(ends_at),
+                duration_minutes: Math.round((ends_at - starts_at) / 60),
+                status: starts_at < Date.now() / 1000 ? (ends_at > Date.now() / 1000 ? 'live' : 'completed') : 'upcoming',
+                viewers: viewers || '0',
+                language: stream.locale,
+                ...(isVersusMatch && {
+                  home_team: teams[0],
+                  away_team: teams[1]
+                })
+              },
+              technical: {
+                last_modified: new Date().toISOString(),
+                priority: stream.always_live ? 0.9 : 0.8,
+                changefreq: stream.always_live ? 'always' : 'daily',
+                hreflang: stream.locale === 'en' ? 'en' : stream.locale === 'fr' ? 'fr' : 'en'
+              }
+            };
+          }
+
+          async function generateSEOData() {
+            try {
+              console.log('Fetching events data...');
+              const data = await fetchJSON(SOURCE_URL);
+
+              const seoData = {
+                generated_at: new Date().toISOString(),
+                total_events: 0,
+                categories: [],
+                events: []
+              };
+
+              for (const category of data.events.streams) {
+                const categoryMeta = {
+                  id: category.id,
+                  name: category.category,
+                  slug: generateSlug(category.category),
+                  event_count: category.streams.length,
+                  always_live: category.always_live,
+                  meta: {
+                    title: `${category.category} Live Streams - Watch Online`,
+                    description: `Watch ${category.category} live streams online. Free streaming of all ${category.category} events, matches, and games.`,
+                    keywords: `${category.category}, live stream, watch online, free streaming`
+                  }
+                };
+
+                seoData.categories.push(categoryMeta);
+
+                for (const stream of category.streams) {
+                  const eventMeta = generateMetadata(stream, category.category);
+                  seoData.events.push(eventMeta);
+                  seoData.total_events++;
+                }
+              }
+
+              fs.writeFileSync(OUTPUT_FILE, JSON.stringify(seoData, null, 2));
+              console.log(`✅ Generated SEO metadata for ${seoData.total_events} events`);
+
+              const sitemapUrls = seoData.events.map(e => ({
+                loc: e.canonical_url,
+                lastmod: e.technical.last_modified,
+                changefreq: e.technical.changefreq,
+                priority: e.technical.priority
+              }));
+
+              fs.writeFileSync('sitemap-urls.json', JSON.stringify(sitemapUrls, null, 2));
+              console.log('🗺️  Generated sitemap URLs');
+
+              return seoData;
+            } catch (error) {
+              console.error('❌ Error:', error.message);
+              process.exit(1);
+            }
+          }
+
+          generateSEOData();
+          EOF
+      
+      - name: Generate SEO Metadata
+        run: node scripts/generate-seo.js
+      
+      - name: Generate XML Sitemap
+        run: |
+          cat > generate-sitemap.js << 'EOF'
+          const fs = require('fs');
+          
+          const urls = JSON.parse(fs.readFileSync('sitemap-urls.json', 'utf8'));
+          
+          let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
+          xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
+          
+          urls.forEach(url => {
+            xml += '  <url>\n';
+            xml += `    <loc>${url.loc}</loc>\n`;
+            xml += `    <lastmod>${url.lastmod}</lastmod>\n`;
+            xml += `    <changefreq>${url.changefreq}</changefreq>\n`;
+            xml += `    <priority>${url.priority}</priority>\n`;
+            xml += '  </url>\n';
+          });
+          
+          xml += '</urlset>';
+          
+          fs.writeFileSync('sitemap.xml', xml);
+          console.log('✅ Generated sitemap.xml');
+          EOF
+          
+          node generate-sitemap.js
+      
+      - name: Generate robots.txt
+        run: |
+          cat > robots.txt << 'EOF'
+          User-agent: *
+          Allow: /
+          
+          Sitemap: https://yourdomain.com/sitemap.xml
+          EOF
+          
+          echo "✅ Generated robots.txt"
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          git add seo-metadata.json sitemap-urls.json sitemap.xml robots.txt
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🤖 Auto-generate SEO metadata and sitemap [skip ci]"
+            git push
+          fi
+      
+      - name: Create summary
+        run: |
+          echo "## 📊 SEO Generation Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          TOTAL=$(jq '.total_events' seo-metadata.json)
+          CATEGORIES=$(jq '.categories | length' seo-metadata.json)
+          
+          echo "- **Total Events:** $TOTAL" >> $GITHUB_STEP_SUMMARY
+          echo "- **Categories:** $CATEGORIES" >> $GITHUB_STEP_SUMMARY
+          echo "- **Generated At:** $(date)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📁 Generated Files:" >> $GITHUB_STEP_SUMMARY
+          echo "- \`seo-metadata.json\` - Complete SEO metadata" >> $GITHUB_STEP_SUMMARY
+          echo "- \`sitemap-urls.json\` - Sitemap URLs data" >> $GITHUB_STEP_SUMMARY
+          echo "- \`sitemap.xml\` - XML Sitemap" >> $GITHUB_STEP_SUMMARY
+          echo "- \`robots.txt\` - Robots configuration" >> $GITHUB_STEP_SUMMARY
