@@ -1,0 +1,23 @@
+{
+  "name": "seo-metadata-generator",
+  "version": "1.0.0",
+  "description": "Generate comprehensive SEO metadata for sports streaming events",
+  "main": "generate-seo.js",
+  "scripts": {
+    "generate": "node generate-seo.js",
+    "test": "node test-seo.js"
+  },
+  "keywords": [
+    "seo",
+    "metadata",
+    "sports",
+    "streaming",
+    "schema",
+    "sitemap"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
