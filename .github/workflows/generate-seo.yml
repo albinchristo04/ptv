@@ -1,18 +1,13 @@
 name: Generate SEO Metadata
 
 on:
-  # Run on push to main branch
   push:
     branches:
       - main
     paths:
       - 'events.json'
-  
-  # Run on schedule (every 6 hours)
   schedule:
     - cron: '0 */6 * * *'
-  
-  # Allow manual trigger
   workflow_dispatch:
 
 jobs:
@@ -41,6 +36,21 @@ jobs:
 
           const SOURCE_URL = 'https://raw.githubusercontent.com/${{ github.repository }}/main/events.json';
           const OUTPUT_FILE = 'seo-metadata.json';
+          const DOMAIN = 'https://tarjetarojaenvivo.live';
+
+          // Primary Spanish keywords for Bing optimization
+          const PRIMARY_KEYWORDS = [
+            'rojadirecta',
+            'tarjeta roja',
+            'rojadirecta tv',
+            'pirlotv',
+            'tarjeta roja tv',
+            'rojadirecta en vivo',
+            'tarjeta roja directa',
+            'tarjeta roja en vivo',
+            'pirlo tv rojadirecta',
+            'roja directa pirlo'
+          ];
 
           function fetchJSON(url) {
             return new Promise((resolve, reject) => {
@@ -59,7 +69,11 @@ jobs:
           }
 
           function generateSlug(text) {
-            return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+            return text.toLowerCase()
+              .normalize('NFD')
+              .replace(/[\u0300-\u036f]/g, '')
+              .replace(/[^a-z0-9]+/g, '-')
+              .replace(/^-+|-+$/g, '');
           }
 
           function formatDate(timestamp) {
@@ -74,51 +88,61 @@ jobs:
             const teams = name.split(' vs. ').map(t => t.trim());
             const isVersusMatch = teams.length === 2;
 
+            const eventKeywords = [
+              ...PRIMARY_KEYWORDS.slice(0, 8),
+              name,
+              ...teams,
+              category_name,
+              'ver online gratis',
+              'en vivo gratis',
+              tag
+            ];
+
             return {
               id,
               slug,
               uri_name,
-              canonical_url: `https://yourdomain.com/events/${uri_name}`,
+              canonical_url: `${DOMAIN}/eventos/${uri_name}`,
               meta: {
-                title: `${name} - Live Stream | ${category_name}`,
-                description: `Watch ${name} live stream. ${isVersusMatch ? `${teams[0]} takes on ${teams[1]}` : name} on ${eventDate.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}. Free live streaming of ${category_name}.`,
-                keywords: [name, ...teams, category_name, 'live stream', 'watch online', 'free streaming', tag, 'live coverage', eventDate.getFullYear().toString()].join(', '),
+                title: `${name} EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis`,
+                description: `⚽ Ver ${name} en vivo gratis por Tarjeta Roja TV. ${isVersusMatch ? `${teams[0]} vs ${teams[1]}` : name} transmisión en directo.`,
+                keywords: eventKeywords.join(', '),
                 robots: 'index, follow'
               },
               og: {
                 type: 'website',
-                url: `https://yourdomain.com/events/${uri_name}`,
-                title: `${name} - Live Stream`,
-                description: `Watch ${name} live. ${isVersusMatch ? `${teams[0]} vs ${teams[1]}` : name} streaming live on ${eventDate.toLocaleDateString()}.`,
+                url: `${DOMAIN}/eventos/${uri_name}`,
+                title: `${name} EN VIVO ⚽ Tarjeta Roja TV`,
+                description: `Ver ${name} en vivo gratis.`,
                 image: poster,
-                site_name: 'Your Sports Streaming Site',
-                locale: stream.locale === 'en' ? 'en_US' : stream.locale === 'fr' ? 'fr_FR' : 'en_US'
+                site_name: 'Tarjeta Roja En Vivo',
+                locale: 'es_ES'
               },
               twitter: {
                 card: 'summary_large_image',
-                site: '@yourhandle',
-                title: `${name} - Live Stream`,
-                description: `Watch ${name} live stream online. ${category_name} coverage.`,
+                site: '@tarjetarojatvs',
+                title: `${name} EN VIVO`,
+                description: `Ver ${name} en vivo gratis.`,
                 image: poster
               },
               schema: {
                 '@context': 'https://schema.org',
                 '@type': 'SportsEvent',
                 name: name,
-                description: `Live streaming of ${name}`,
+                description: `Transmisión en vivo de ${name}`,
                 startDate: formatDate(starts_at),
                 endDate: formatDate(ends_at),
                 eventStatus: 'https://schema.org/EventScheduled',
                 eventAttendanceMode: 'https://schema.org/OnlineEventAttendanceMode',
                 location: {
                   '@type': 'VirtualLocation',
-                  url: `https://yourdomain.com/events/${uri_name}`
+                  url: `${DOMAIN}/eventos/${uri_name}`
                 },
                 image: poster,
                 organizer: {
                   '@type': 'Organization',
-                  name: 'Your Site Name',
-                  url: 'https://yourdomain.com'
+                  name: 'Tarjeta Roja En Vivo',
+                  url: DOMAIN
                 },
                 ...(isVersusMatch && {
                   competitor: teams.map(team => ({ '@type': 'SportsTeam', name: team })),
@@ -129,22 +153,12 @@ jobs:
               },
               seo: {
                 breadcrumbs: [
-                  { name: 'Home', url: 'https://yourdomain.com' },
-                  { name: category_name, url: `https://yourdomain.com/category/${generateSlug(category_name)}` },
-                  { name: name, url: `https://yourdomain.com/events/${uri_name}` }
+                  { name: 'Inicio', url: DOMAIN },
+                  { name: category_name, url: `${DOMAIN}/categoria/${generateSlug(category_name)}` },
+                  { name: name, url: `${DOMAIN}/eventos/${uri_name}` }
                 ],
-                h1: name,
-                h2: `Watch ${name} Live Stream Online`,
-                faq: [
-                  {
-                    question: `How to watch ${name} live?`,
-                    answer: `You can watch ${name} live stream on our platform. The event starts on ${eventDate.toLocaleDateString()} at ${eventDate.toLocaleTimeString()}.`
-                  },
-                  {
-                    question: `What time does ${name} start?`,
-                    answer: `${name} starts at ${eventDate.toLocaleTimeString()} on ${eventDate.toLocaleDateString()}.`
-                  }
-                ]
+                h1: `${name} EN VIVO`,
+                h2: `Ver ${name} Online Gratis`
               },
               event: {
                 name,
@@ -155,7 +169,6 @@ jobs:
                 duration_minutes: Math.round((ends_at - starts_at) / 60),
                 status: starts_at < Date.now() / 1000 ? (ends_at > Date.now() / 1000 ? 'live' : 'completed') : 'upcoming',
                 viewers: viewers || '0',
-                language: stream.locale,
                 ...(isVersusMatch && {
                   home_team: teams[0],
                   away_team: teams[1]
@@ -164,8 +177,11 @@ jobs:
               technical: {
                 last_modified: new Date().toISOString(),
                 priority: stream.always_live ? 0.9 : 0.8,
-                changefreq: stream.always_live ? 'always' : 'daily',
-                hreflang: stream.locale === 'en' ? 'en' : stream.locale === 'fr' ? 'fr' : 'en'
+                changefreq: stream.always_live ? 'always' : 'hourly',
+                hreflang: 'es'
+              },
+              bing: {
+                news_keywords: eventKeywords.slice(0, 10).join(', ')
               }
             };
           }
@@ -190,9 +206,9 @@ jobs:
                   event_count: category.streams.length,
                   always_live: category.always_live,
                   meta: {
-                    title: `${category.category} Live Streams - Watch Online`,
-                    description: `Watch ${category.category} live streams online. Free streaming of all ${category.category} events, matches, and games.`,
-                    keywords: `${category.category}, live stream, watch online, free streaming`
+                    title: `${category.category} EN VIVO - Tarjeta Roja TV`,
+                    description: `Ver ${category.category} en vivo gratis.`,
+                    keywords: `${category.category}, tarjeta roja, rojadirecta`
                   }
                 };
 
@@ -249,14 +265,6 @@ jobs:
             xml += `    <lastmod>${url.lastmod}</lastmod>\n`;
             xml += `    <changefreq>${url.changefreq}</changefreq>\n`;
             xml += `    <priority>${url.priority}</priority>\n`;
-            
-            // Add hreflang alternate links if present
-            if (url['xhtml:link']) {
-              url['xhtml:link'].forEach(link => {
-                xml += `    <xhtml:link rel="${link.rel}" hreflang="${link.hreflang}" href="${link.href}"/>\n`;
-              });
-            }
-            
             xml += '  </url>\n';
           });
           
@@ -288,7 +296,11 @@ jobs:
             newsXml += '      </news:publication>\n';
             newsXml += `      <news:publication_date>${event.event.start_time}</news:publication_date>\n`;
             newsXml += `      <news:title>${event.meta.title}</news:title>\n`;
-            newsXml += `      <news:keywords>${event.bing.news_keywords}</news:keywords>\n`;
+            
+            // Safely access bing.news_keywords with fallback
+            const keywords = event.bing?.news_keywords || event.meta.keywords || '';
+            newsXml += `      <news:keywords>${keywords}</news:keywords>\n`;
+            
             newsXml += '    </news:news>\n';
             newsXml += '  </url>\n';
           });
@@ -307,19 +319,16 @@ jobs:
           User-agent: *
           Allow: /
           
-          # Bing Bot
           User-agent: bingbot
           Allow: /
           Crawl-delay: 0
           
-          # Google Bot
           User-agent: Googlebot
           Allow: /
           
           Sitemap: https://tarjetarojaenvivo.live/sitemap.xml
           Sitemap: https://tarjetarojaenvivo.live/sitemap-news.xml
           
-          # Host
           Host: https://tarjetarojaenvivo.live
           EOF
           
@@ -330,7 +339,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          git add seo-metadata.json sitemap-urls.json sitemap.xml sitemap-news.xml robots.txt keywords.json
+          git add seo-metadata.json sitemap-urls.json sitemap.xml sitemap-news.xml robots.txt
           
           if git diff --staged --quiet; then
             echo "No changes to commit"
@@ -355,4 +364,5 @@ jobs:
           echo "- \`seo-metadata.json\` - Complete SEO metadata" >> $GITHUB_STEP_SUMMARY
           echo "- \`sitemap-urls.json\` - Sitemap URLs data" >> $GITHUB_STEP_SUMMARY
           echo "- \`sitemap.xml\` - XML Sitemap" >> $GITHUB_STEP_SUMMARY
+          echo "- \`sitemap-news.xml\` - News Sitemap" >> $GITHUB_STEP_SUMMARY
           echo "- \`robots.txt\` - Robots configuration" >> $GITHUB_STEP_SUMMARY
