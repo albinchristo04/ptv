@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2025-12-16T01:14:49.188236",
+    "fetched_at": "2025-12-16T06:25:55.718406",
     "source": "https://old.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2025-12-16T02:24:22.990093",
-      "total_streams": 63,
-      "streams_with_m3u8": 63,
+      "extracted_at": "2025-12-16T06:29:25.515292",
+      "total_streams": 73,
+      "streams_with_m3u8": 73,
       "success_rate": "100.0%",
       "extraction_stats": {
-        "total_requests": 63,
-        "successful_requests": 63,
-        "failed_requests": 1,
-        "elapsed_time_seconds": 157.17
+        "total_requests": 73,
+        "successful_requests": 73,
+        "failed_requests": 3,
+        "elapsed_time_seconds": 195.28
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1765847690,
+    "timestamp": 1765866360,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.01923513412475586,
+    "performance": 0.018527984619140625,
     "streams": [
       {
         "category": "American Football",
@@ -28,26 +28,356 @@
         "always_live": false,
         "streams": [
           {
-            "id": 14869,
-            "name": "Miami Dolphins vs. Pittsburgh Steelers",
-            "tag": "ESPN",
-            "poster": "https://old.ppv.to/assets/thumb/fe25ffce3016f007f0c72f24acf143ca-thumbnail.jpg",
-            "blurhash": "L78Eb#72PB?^oea#j[oJ00?Gw_9F",
+            "id": 15064,
+            "name": "Los Angeles Rams vs. Seattle Seahawks",
+            "tag": "Prime Video",
+            "poster": "https://old.ppv.to/assets/thumb/8cba672a633c05c2058d1dd5187ac272-thumbnail.jpg",
+            "blurhash": "L55YKq%7N4I]j]j[fQay00NExtxV",
             "colors": [
-              "#008e97",
-              "#000000"
+              "#003594",
+              "#002a5c"
             ],
-            "uri_name": "nfl/2025-12-15/mia-pit",
-            "starts_at": 1765847700,
-            "ends_at": 1765860300,
+            "uri_name": "nfl/2025-12-18/lar-sea",
+            "starts_at": 1766106900,
+            "ends_at": 1766119500,
             "always_live": 0,
             "locale": "en",
             "category_name": "American Football",
-            "iframe": "https://pooembed.top/embed/nfl/2025-12-15/mia-pit",
-            "viewers": "1364",
+            "iframe": "https://pooembed.top/embed/nfl/2025-12-18/lar-sea",
+            "viewers": "0",
             "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/pittsburghsteelers/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:21:46.457891"
+            "m3u8_url": "https://gg.poocloud.in/seattleseahawks/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:26:11.083460"
+          },
+          {
+            "id": 15066,
+            "name": "Philadelphia Eagles vs. Washington Commanders",
+            "tag": "FOX",
+            "poster": "https://old.ppv.to/assets/thumb/27102a3353cda6be24a8a237c866a29d-thumbnail.jpg",
+            "blurhash": "L483#13?Ehvzs:bHayae00z.%2TL",
+            "colors": [
+              "#06424d",
+              "#5a1414"
+            ],
+            "uri_name": "nfl/2025-12-20/phi-wsh",
+            "starts_at": 1766268000,
+            "ends_at": 1766280600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.top/embed/nfl/2025-12-20/phi-wsh",
+            "viewers": "0",
+            "substreams": [],
+            "m3u8_url": "https://gg.poocloud.in/washingtoncommanders/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:26:13.843121"
+          },
+          {
+            "id": 15070,
+            "name": "Green Bay Packers vs. Chicago Bears",
+            "tag": "FOX",
+            "poster": "https://old.ppv.to/assets/thumb/7a7d7c2b86841db3a491508aae5a628b-thumbnail.jpg",
+            "blurhash": "L47U0XY$NXv2w{S2fkso00h#xuYP",
+            "colors": [
+              "#204e32",
+              "#0b1c3a"
+            ],
+            "uri_name": "nfl/2025-12-20/gb-chi",
+            "starts_at": 1766280000,
+            "ends_at": 1766292600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.top/embed/nfl/2025-12-20/gb-chi",
+            "viewers": "0",
+            "substreams": [],
+            "m3u8_url": "https://gg.poocloud.in/chicagobears/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:26:16.343325"
+          },
+          {
+            "id": 15072,
+            "name": "Buffalo Bills vs. Cleveland Browns",
+            "tag": "CBS",
+            "poster": "https://old.ppv.to/assets/thumb/4f6f9b2fcef428719b4dc1ec89a0da50-thumbnail.jpg",
+            "blurhash": "L68f~21AEo}aaeofWVae00]}$y5+",
+            "colors": [
+              "#00338d",
+              "#472a08"
+            ],
+            "uri_name": "nfl/2025-12-21/buf-cle",
+            "starts_at": 1766340000,
+            "ends_at": 1766352600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.top/embed/nfl/2025-12-21/buf-cle",
+            "viewers": "0",
+            "substreams": [],
+            "m3u8_url": "https://gg.poocloud.in/clevelandbrowns/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:26:19.552009"
+          },
+          {
+            "id": 15074,
+            "name": "Los Angeles Chargers vs. Dallas Cowboys",
+            "tag": "FOX",
+            "poster": "https://old.ppv.to/assets/thumb/fb8711c589b503ad2c7d1790e1b177e9-thumbnail.jpg",
+            "blurhash": "LD3]+kpfT2bdj[j[fRazH;Vrskn#",
+            "colors": [
+              "#0080c6",
+              "#002a5c"
+            ],
+            "uri_name": "nfl/2025-12-21/lac-dal",
+            "starts_at": 1766340000,
+            "ends_at": 1766352600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.top/embed/nfl/2025-12-21/lac-dal",
+            "viewers": "0",
+            "substreams": [],
+            "m3u8_url": "https://gg.poocloud.in/dallascowboys/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:26:21.064088"
+          },
+          {
+            "id": 15075,
+            "name": "Kansas City Chiefs vs. Tennessee Titans",
+            "tag": "CBS",
+            "poster": "https://old.ppv.to/assets/thumb/ad20d8d02f58f69c34189626149475e0-thumbnail.jpg",
+            "blurhash": "LLB{~H{H+Zr?j[jZfQjt0JFfT0g3",
+            "colors": [
+              "#e31837",
+              "#4b92db"
+            ],
+            "uri_name": "nfl/2025-12-21/kc-ten",
+            "starts_at": 1766340000,
+            "ends_at": 1766352600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.top/embed/nfl/2025-12-21/kc-ten",
+            "viewers": "0",
+            "substreams": [],
+            "m3u8_url": "https://gg.poocloud.in/tennesseetitans/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:26:24.076190"
+          },
+          {
+            "id": 15078,
+            "name": "Cincinnati Bengals vs. Miami Dolphins",
+            "tag": "CBS",
+            "poster": "https://old.ppv.to/assets/thumb/ab5e194f199cc0f784a759449bf04bb8-thumbnail.jpg",
+            "blurhash": "LOBg0k{K;2w|bHayjtjt4.KPOrWV",
+            "colors": [
+              "#fb4f14",
+              "#008e97"
+            ],
+            "uri_name": "nfl/2025-12-21/cin-mia",
+            "starts_at": 1766340000,
+            "ends_at": 1766352600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.top/embed/nfl/2025-12-21/cin-mia",
+            "viewers": "0",
+            "substreams": [],
+            "m3u8_url": "https://gg.poocloud.in/miamidolphins/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:26:26.174185"
+          },
+          {
+            "id": 15080,
+            "name": "New York Jets vs. New Orleans Saints",
+            "tag": "CBS",
+            "poster": "https://old.ppv.to/assets/thumb/f30797f5aaef342277c2aa8f2f062ae5-thumbnail.jpg",
+            "blurhash": "L8ECgs000Mwfofaya|j@00~A-oX7",
+            "colors": [
+              "#115740",
+              "#d3bc8d"
+            ],
+            "uri_name": "nfl/2025-12-21/nyj-no",
+            "starts_at": 1766340000,
+            "ends_at": 1766352600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.top/embed/nfl/2025-12-21/nyj-no",
+            "viewers": "0",
+            "substreams": [],
+            "m3u8_url": "https://gg.poocloud.in/neworleanssaints/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:26:29.769622"
+          },
+          {
+            "id": 15081,
+            "name": "Minnesota Vikings vs. New York Giants",
+            "tag": "FOX",
+            "poster": "https://old.ppv.to/assets/thumb/fbd95960958ce6620baacdf436e1997a-thumbnail.jpg",
+            "blurhash": "L45F38}tVZ9cogofj[ay009bx[?E",
+            "colors": [
+              "#4f2683",
+              "#003c7f"
+            ],
+            "uri_name": "nfl/2025-12-21/min-nyg",
+            "starts_at": 1766340000,
+            "ends_at": 1766352600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.top/embed/nfl/2025-12-21/min-nyg",
+            "viewers": "0",
+            "substreams": [],
+            "m3u8_url": "https://gg.poocloud.in/newyorkgiants/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:26:31.851171"
+          },
+          {
+            "id": 15082,
+            "name": "Tampa Bay Buccaneers vs. Carolina Panthers",
+            "tag": "FOX",
+            "poster": "https://old.ppv.to/assets/thumb/0cb28b14ef6c9f5c864635115201ddd5-thumbnail.jpg",
+            "blurhash": "LE7_a2_#+Fr[oMjsfPa|9DF}TJof",
+            "colors": [
+              "#bd1c36",
+              "#0085ca"
+            ],
+            "uri_name": "nfl/2025-12-21/tb-car",
+            "starts_at": 1766340000,
+            "ends_at": 1766352600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.top/embed/nfl/2025-12-21/tb-car",
+            "viewers": "0",
+            "substreams": [],
+            "m3u8_url": "https://gg.poocloud.in/carolinapanthers/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:26:34.876444"
+          },
+          {
+            "id": 15083,
+            "name": "Jacksonville Jaguars vs. Denver Broncos",
+            "tag": "FOX",
+            "poster": "https://old.ppv.to/assets/thumb/bba0afadffddc0def3cfbe54fa09e5f1-thumbnail.jpg",
+            "blurhash": "L35rfBdBK*X.xDoJfkfl00n5$%Z~",
+            "colors": [
+              "#007487",
+              "#0a2343"
+            ],
+            "uri_name": "nfl/2025-12-21/jax-den",
+            "starts_at": 1766351100,
+            "ends_at": 1766363700,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.top/embed/nfl/2025-12-21/jax-den",
+            "viewers": "0",
+            "substreams": [],
+            "m3u8_url": "https://gg.poocloud.in/denverbroncos/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:26:37.730327"
+          },
+          {
+            "id": 15084,
+            "name": "Atlanta Falcons vs. Arizona Cardinals",
+            "tag": "FOX",
+            "poster": "https://old.ppv.to/assets/thumb/33f9727af3dbfe9f7d9d2fd584033970-thumbnail.jpg",
+            "blurhash": "L1E0B7%~D%+b%2g3aenj00Zg-=Ki",
+            "colors": [
+              "#a71930",
+              "#a40227"
+            ],
+            "uri_name": "nfl/2025-12-21/atl-ari",
+            "starts_at": 1766351100,
+            "ends_at": 1766363700,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.top/embed/nfl/2025-12-21/atl-ari",
+            "viewers": "0",
+            "substreams": [],
+            "m3u8_url": "https://gg.poocloud.in/arizonacardinals/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:26:41.096928"
+          },
+          {
+            "id": 15085,
+            "name": "Pittsburgh Steelers vs. Detroit Lions",
+            "tag": "CBS",
+            "poster": "https://old.ppv.to/assets/thumb/0423fd7e2a61c7e6725b31ec73174b30-thumbnail.jpg",
+            "blurhash": "L87e*m{@R30fofj?j@WW005FtS^*",
+            "colors": [
+              "#000000",
+              "#0076b6"
+            ],
+            "uri_name": "nfl/2025-12-21/pit-det",
+            "starts_at": 1766352300,
+            "ends_at": 1766364900,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.top/embed/nfl/2025-12-21/pit-det",
+            "viewers": "0",
+            "substreams": [],
+            "m3u8_url": "https://gg.poocloud.in/detroitlions/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:26:43.046203"
+          },
+          {
+            "id": 15086,
+            "name": "Las Vegas Raiders vs. Houston Texans",
+            "tag": "CBS",
+            "poster": "https://old.ppv.to/assets/thumb/ddd5ef09f581a863334fd20534c0a965-thumbnail.jpg",
+            "blurhash": "L1682CK=HqQ-t7t7jZR*00*~%$pI",
+            "colors": [
+              "#000000",
+              "#00143f"
+            ],
+            "uri_name": "nfl/2025-12-21/lv-hou",
+            "starts_at": 1766352300,
+            "ends_at": 1766364900,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.top/embed/nfl/2025-12-21/lv-hou",
+            "viewers": "0",
+            "substreams": [],
+            "m3u8_url": "https://gg.poocloud.in/houstontexans/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:26:45.689448"
+          },
+          {
+            "id": 15087,
+            "name": "New England Patriots vs. Baltimore Ravens",
+            "tag": "NBC",
+            "poster": "https://old.ppv.to/assets/thumb/83b095f8d210cbe091657a71b43ead52-thumbnail.jpg",
+            "blurhash": "L05Ej:7*00Rf%3s:oLWU00x0~qtU",
+            "colors": [
+              "#002a5c",
+              "#29126f"
+            ],
+            "uri_name": "nfl/2025-12-21/ne-bal",
+            "starts_at": 1766366400,
+            "ends_at": 1766379000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.top/embed/nfl/2025-12-21/ne-bal",
+            "viewers": "0",
+            "substreams": [],
+            "m3u8_url": "https://gg.poocloud.in/baltimoreravens/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:26:47.435327"
+          },
+          {
+            "id": 15088,
+            "name": "San Francisco 49ers vs. Indianapolis Colts",
+            "tag": "ESPN",
+            "poster": "https://old.ppv.to/assets/thumb/8c3f7f38e44f0944457f2e4c0c948e14-thumbnail.jpg",
+            "blurhash": "LB83@z{v+asEj[jsjtfQ0cFfT0oc",
+            "colors": [
+              "#aa0000",
+              "#003b75"
+            ],
+            "uri_name": "nfl/2025-12-22/sf-ind",
+            "starts_at": 1766452500,
+            "ends_at": 1766465100,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.top/embed/nfl/2025-12-22/sf-ind",
+            "viewers": "0",
+            "substreams": [],
+            "m3u8_url": "https://gg.poocloud.in/indianapoliscolts/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:26:49.343041"
           }
         ]
       },
@@ -57,114 +387,26 @@
         "always_live": false,
         "streams": [
           {
-            "id": 15040,
-            "name": "Detroit Pistons vs. Boston Celtics",
-            "tag": "Peacock",
-            "poster": "https://old.ppv.to/assets/thumb/502ee288d8c5f7ab355bcf1d839ea1c1-thumbnail.jpg",
-            "blurhash": "L58Y9Y_fDX7{W.oMj[WV0087%e:k",
+            "id": 15063,
+            "name": "San Antonio Spurs vs. New York Knicks",
+            "tag": "Prime Video",
+            "poster": "https://old.ppv.to/assets/thumb/6e8b99e4f194ef58c43c2b5714d704ba-thumbnail.jpg",
+            "blurhash": "L26H.y0000}st7WBj@oK00}__41O",
             "colors": [
-              "#1d428a",
-              "#008348"
+              "#000000",
+              "#1d428a"
             ],
-            "uri_name": "nba/2025-12-15/det-bos",
-            "starts_at": 1765843200,
-            "ends_at": 1765853280,
+            "uri_name": "nba/2025-12-16/sa-ny",
+            "starts_at": 1765935000,
+            "ends_at": 1765945080,
             "always_live": 0,
             "locale": "en",
             "category_name": "Basketball",
-            "iframe": "https://pooembed.top/embed/nba/2025-12-15/det-bos",
-            "viewers": "1576",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/bostonceltics/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:21:49.315334"
-          },
-          {
-            "id": 15042,
-            "name": "Toronto Raptors vs. Miami Heat",
-            "tag": "FanDuel SN Sun",
-            "poster": "https://old.ppv.to/assets/thumb/ea6d45875018e9d859df36e19c94c50c-thumbnail.jpg",
-            "blurhash": "LFFLd^|0v$S#oLf6j[fk0|FwkWr?",
-            "colors": [
-              "#d91244",
-              "#98002e"
-            ],
-            "uri_name": "nba/2025-12-15/tor-mia",
-            "starts_at": 1765845000,
-            "ends_at": 1765855080,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Basketball",
-            "iframe": "https://pooembed.top/embed/nba/2025-12-15/tor-mia",
-            "viewers": "655",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/miamiheat/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:21:50.851484"
-          },
-          {
-            "id": 15046,
-            "name": "Dallas Mavericks vs. Utah Jazz",
-            "tag": "KJZZ-TV",
-            "poster": "https://old.ppv.to/assets/thumb/53e7b6d857c4ed0ed5991d6487cf7aeb-thumbnail.jpg",
-            "blurhash": "L671K%Y%K5NMa$azj[j[00MLxatL",
-            "colors": [
-              "#0064b1",
-              "#4e008e"
-            ],
-            "uri_name": "nba/2025-12-15/dal-utah",
-            "starts_at": 1765850400,
-            "ends_at": 1765860480,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Basketball",
-            "iframe": "https://pooembed.top/embed/nba/2025-12-15/dal-utah",
-            "viewers": "2",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/utahjazz/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:21:53.141956"
-          },
-          {
-            "id": 15047,
-            "name": "Houston Rockets vs. Denver Nuggets",
-            "tag": "Peacock",
-            "poster": "https://old.ppv.to/assets/thumb/87c0047c26fb2eca97ac9d4831568807-thumbnail.jpg",
-            "blurhash": "LBAIZE{P:+=woKjaj[j[0fO:TJIq",
-            "colors": [
-              "#ce1141",
-              "#0e2240"
-            ],
-            "uri_name": "nba/2025-12-15/hou-den",
-            "starts_at": 1765852200,
-            "ends_at": 1765862280,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Basketball",
-            "iframe": "https://pooembed.top/embed/nba/2025-12-15/hou-den",
-            "viewers": "4",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/denvernuggets/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:21:55.987600"
-          },
-          {
-            "id": 15049,
-            "name": "Memphis Grizzlies vs. LA Clippers",
-            "tag": "FanDuel SN SoCal",
-            "poster": "https://old.ppv.to/assets/thumb/188d77d66826cf6207bbf1804c7e2d95-thumbnail.jpg",
-            "blurhash": "L67e0cEWS+_Nj]a}j[j@00?FxW9E",
-            "colors": [
-              "#5d76a9",
-              "#12173f"
-            ],
-            "uri_name": "nba/2025-12-15/mem-lac",
-            "starts_at": 1765855800,
-            "ends_at": 1765865880,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Basketball",
-            "iframe": "https://pooembed.top/embed/nba/2025-12-15/mem-lac",
+            "iframe": "https://pooembed.top/embed/nba/2025-12-16/sa-ny",
             "viewers": "1",
             "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/laclippers/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:21:57.659890"
+            "m3u8_url": "https://gg.poocloud.in/newyorkknicks/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:26:51.632348"
           }
         ]
       },
@@ -193,7 +435,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/ufc/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:00.866076"
+            "m3u8_extracted_at": "2025-12-16T06:26:54.658315"
           }
         ]
       },
@@ -222,7 +464,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/bl_dor/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:03.667833"
+            "m3u8_extracted_at": "2025-12-16T06:26:56.662690"
           },
           {
             "id": 15004,
@@ -244,7 +486,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/ll_val/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:06.914045"
+            "m3u8_extracted_at": "2025-12-16T06:26:59.802439"
           },
           {
             "id": 15023,
@@ -266,7 +508,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/pl_new/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:09.532983"
+            "m3u8_extracted_at": "2025-12-16T06:27:01.565071"
           },
           {
             "id": 15005,
@@ -288,7 +530,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/ll_ovi/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:11.912274"
+            "m3u8_extracted_at": "2025-12-16T06:27:03.478584"
           },
           {
             "id": 15015,
@@ -310,7 +552,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/bl_fca/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:14.510430"
+            "m3u8_extracted_at": "2025-12-16T06:27:06.873580"
           },
           {
             "id": 15016,
@@ -332,7 +574,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/bl_koe/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:17.295433"
+            "m3u8_extracted_at": "2025-12-16T06:27:08.399873"
           },
           {
             "id": 15017,
@@ -354,7 +596,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/bl_hsv/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:19.579587"
+            "m3u8_extracted_at": "2025-12-16T06:27:11.449468"
           },
           {
             "id": 15018,
@@ -376,7 +618,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/bl_vfb/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:21.759356"
+            "m3u8_extracted_at": "2025-12-16T06:27:14.084582"
           },
           {
             "id": 15019,
@@ -398,7 +640,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/bl_wob/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:23.939744"
+            "m3u8_extracted_at": "2025-12-16T06:27:15.736133"
           },
           {
             "id": 15024,
@@ -420,7 +662,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/pl_bou/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:26.878315"
+            "m3u8_extracted_at": "2025-12-16T06:27:17.343831"
           },
           {
             "id": 15025,
@@ -442,7 +684,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/pl_bha/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:29.064221"
+            "m3u8_extracted_at": "2025-12-16T06:27:19.932757"
           },
           {
             "id": 15026,
@@ -464,7 +706,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/pl_mnc/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:31.593239"
+            "m3u8_extracted_at": "2025-12-16T06:27:22.956470"
           },
           {
             "id": 15027,
@@ -486,7 +728,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/pl_wol/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:34.179124"
+            "m3u8_extracted_at": "2025-12-16T06:27:25.073799"
           },
           {
             "id": 15006,
@@ -508,7 +750,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/ll_lev/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:36.541320"
+            "m3u8_extracted_at": "2025-12-16T06:27:28.003302"
           },
           {
             "id": 15034,
@@ -530,7 +772,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/sa_laz/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:39.125429"
+            "m3u8_extracted_at": "2025-12-16T06:27:30.807531"
           },
           {
             "id": 15007,
@@ -552,7 +794,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/ll_osa/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:40.632965"
+            "m3u8_extracted_at": "2025-12-16T06:27:34.016472"
           },
           {
             "id": 15020,
@@ -574,7 +816,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/bl_rbl/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:43.618153"
+            "m3u8_extracted_at": "2025-12-16T06:27:36.839504"
           },
           {
             "id": 15028,
@@ -596,7 +838,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/pl_tot/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:44.989095"
+            "m3u8_extracted_at": "2025-12-16T06:27:39.489234"
           },
           {
             "id": 15035,
@@ -618,7 +860,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/sa_juv/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:46.338265"
+            "m3u8_extracted_at": "2025-12-16T06:27:41.007330"
           },
           {
             "id": 15008,
@@ -640,7 +882,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/ll_rma/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:47.714164"
+            "m3u8_extracted_at": "2025-12-16T06:27:42.742515"
           },
           {
             "id": 15029,
@@ -662,7 +904,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/pl_eve/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:50.011751"
+            "m3u8_extracted_at": "2025-12-16T06:27:44.353362"
           },
           {
             "id": 15030,
@@ -684,7 +926,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/pl_lee/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:52.812326"
+            "m3u8_extracted_at": "2025-12-16T06:27:46.542335"
           },
           {
             "id": 15036,
@@ -706,7 +948,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/sa_cag/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:54.441799"
+            "m3u8_extracted_at": "2025-12-16T06:27:48.294782"
           },
           {
             "id": 15009,
@@ -728,7 +970,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/ll_gir/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:56.507877"
+            "m3u8_extracted_at": "2025-12-16T06:27:50.834326"
           },
           {
             "id": 15037,
@@ -750,7 +992,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/sa_sas/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:22:59.534443"
+            "m3u8_extracted_at": "2025-12-16T06:27:53.305027"
           },
           {
             "id": 15021,
@@ -772,7 +1014,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/bl_m05/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:23:02.488402"
+            "m3u8_extracted_at": "2025-12-16T06:27:54.909569"
           },
           {
             "id": 15010,
@@ -794,7 +1036,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/ll_vil/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:23:05.346339"
+            "m3u8_extracted_at": "2025-12-16T06:27:56.631935"
           },
           {
             "id": 15022,
@@ -816,7 +1058,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/bl_hdh/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:23:07.355645"
+            "m3u8_extracted_at": "2025-12-16T06:28:00.062698"
           },
           {
             "id": 15031,
@@ -838,7 +1080,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/pl_avl/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:23:09.751588"
+            "m3u8_extracted_at": "2025-12-16T06:28:01.818971"
           },
           {
             "id": 15038,
@@ -860,7 +1102,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/sa_fio/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:23:11.630240"
+            "m3u8_extracted_at": "2025-12-16T06:28:03.732516"
           },
           {
             "id": 15011,
@@ -882,7 +1124,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/ll_elc/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:23:13.317918"
+            "m3u8_extracted_at": "2025-12-16T06:28:05.332802"
           },
           {
             "id": 15039,
@@ -904,7 +1146,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/sa_gen/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:23:14.768209"
+            "m3u8_extracted_at": "2025-12-16T06:28:15.484339"
           },
           {
             "id": 15012,
@@ -926,7 +1168,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/ll_bet/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:23:16.647181"
+            "m3u8_extracted_at": "2025-12-16T06:28:17.815550"
           },
           {
             "id": 15013,
@@ -948,7 +1190,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/ll_ath/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:23:19.821891"
+            "m3u8_extracted_at": "2025-12-16T06:28:20.456763"
           },
           {
             "id": 15032,
@@ -970,7 +1212,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/pl_ful/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:23:21.824981"
+            "m3u8_extracted_at": "2025-12-16T06:28:22.228116"
           }
         ]
       },
@@ -980,224 +1222,224 @@
         "always_live": false,
         "streams": [
           {
-            "id": 15041,
-            "name": "Florida Panthers vs. Tampa Bay Lightning",
-            "tag": "The Spot - MTN",
-            "poster": "https://old.ppv.to/assets/thumb/ebf178cbed21ba243bd01e0f9a2cc62c-thumbnail.jpg",
-            "blurhash": "LL9sAD|=+ursoLoKfPa|9sE*S~g2",
+            "id": 15062,
+            "name": "Utah Mammoth vs. Boston Bruins",
+            "tag": "NESN",
+            "poster": "https://old.ppv.to/assets/thumb/be4d839fca28d8cfe53d8479d4fd036c-thumbnail.jpg",
+            "blurhash": "L47nE[039F~9offkfRj[00~A-=59",
             "colors": [
-              "#e51937",
+              "#000000",
+              "#231f20"
+            ],
+            "uri_name": "nhl/2025-12-16/uta-bos",
+            "starts_at": 1765929600,
+            "ends_at": 1765940400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Ice Hockey",
+            "iframe": "https://pooembed.top/embed/nhl/2025-12-16/uta-bos",
+            "viewers": "0",
+            "substreams": [],
+            "m3u8_url": "https://gg.poocloud.in/bostonbruins/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:28:24.100029"
+          },
+          {
+            "id": 15065,
+            "name": "Chicago Blackhawks vs. Toronto Maple Leafs",
+            "tag": "ESPN+",
+            "poster": "https://old.ppv.to/assets/thumb/435000dbcd07f24b1b76ce19a27184cc-thumbnail.jpg",
+            "blurhash": "LK9sAB|E+uwNa#fQf6fQ9sE+S~X4",
+            "colors": [
+              "#e31937",
               "#003e7e"
             ],
-            "uri_name": "nhl/2025-12-15/fla-tb",
-            "starts_at": 1765843200,
-            "ends_at": 1765854000,
+            "uri_name": "nhl/2025-12-16/chi-tor",
+            "starts_at": 1765929600,
+            "ends_at": 1765940400,
             "always_live": 0,
             "locale": "en",
             "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.top/embed/nhl/2025-12-15/fla-tb",
-            "viewers": "93",
+            "iframe": "https://pooembed.top/embed/nhl/2025-12-16/chi-tor",
+            "viewers": "0",
             "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/tampabaylightning/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:23:23.453041"
+            "m3u8_url": "https://gg.poocloud.in/torontomapleleafs/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:28:26.088239"
           },
           {
-            "id": 15043,
-            "name": "Anaheim Ducks vs. New York Rangers",
-            "tag": "MSG",
-            "poster": "https://old.ppv.to/assets/thumb/ac238de826f1edb9dc13121861fbf658-thumbnail.jpg",
-            "blurhash": "LJBo|6{t:*=fj[j[jtay0JK7T0I;",
+            "id": 15067,
+            "name": "Philadelphia Flyers vs. Montreal Canadiens",
+            "tag": "ESPN+",
+            "poster": "https://old.ppv.to/assets/thumb/cbb3e15e84d4152d1a7f7bfdec39a02b-thumbnail.jpg",
+            "blurhash": "L8Hkt_}R+t=yoLbGf6jt00XAXnEe",
             "colors": [
-              "#fc4c02",
+              "#fe5823",
+              "#c41230"
+            ],
+            "uri_name": "nhl/2025-12-16/phi-mtl",
+            "starts_at": 1765929600,
+            "ends_at": 1765940400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Ice Hockey",
+            "iframe": "https://pooembed.top/embed/nhl/2025-12-16/phi-mtl",
+            "viewers": "0",
+            "substreams": [],
+            "m3u8_url": "https://gg.poocloud.in/montrealcanadiens/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:28:28.498848"
+          },
+          {
+            "id": 15068,
+            "name": "New York Islanders vs. Detroit Red Wings",
+            "tag": "FanDuel SN DET",
+            "poster": "https://old.ppv.to/assets/thumb/f240361debbfbc96351d77d167026d5b-thumbnail.jpg",
+            "blurhash": "LAGYyw3s5?rws;bbj[ae00@@%0t5",
+            "colors": [
+              "#00529b",
+              "#e30526"
+            ],
+            "uri_name": "nhl/2025-12-16/nyi-det",
+            "starts_at": 1765929600,
+            "ends_at": 1765940400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Ice Hockey",
+            "iframe": "https://pooembed.top/embed/nhl/2025-12-16/nyi-det",
+            "viewers": "0",
+            "substreams": [],
+            "m3u8_url": "https://gg.poocloud.in/detroitredwings/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:28:30.625592"
+          },
+          {
+            "id": 15069,
+            "name": "Vancouver Canucks vs. New York Rangers",
+            "tag": "MSG",
+            "poster": "https://old.ppv.to/assets/thumb/10f4a9e59503c4bd2551a11420123c98-thumbnail.jpg",
+            "blurhash": "L56S8b4TDg_3WYj@j@WC00^--=9F",
+            "colors": [
+              "#003e7e",
               "#0056ae"
             ],
-            "uri_name": "nhl/2025-12-15/ana-nyr",
-            "starts_at": 1765843200,
-            "ends_at": 1765854000,
+            "uri_name": "nhl/2025-12-16/van-nyr",
+            "starts_at": 1765929600,
+            "ends_at": 1765940400,
             "always_live": 0,
             "locale": "en",
             "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.top/embed/nhl/2025-12-15/ana-nyr",
-            "viewers": "90",
+            "iframe": "https://pooembed.top/embed/nhl/2025-12-16/van-nyr",
+            "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/newyorkrangers/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:23:26.760332"
+            "m3u8_extracted_at": "2025-12-16T06:28:33.365905"
           },
           {
-            "id": 15057,
-            "name": "Florida Panthers vs. Tampa Bay Lightning",
-            "tag": "The Spot - MTN",
-            "poster": "https://old.ppv.to/assets/thumb/a6b01a2f457085166b9da096ce199722-thumbnail.jpg",
-            "blurhash": "L44xcH^GEM0gxGsnWWNu0c9#%0}?",
-            "colors": [
-              "#041e42",
-              "#002767"
-            ],
-            "uri_name": "nhl/6149/6149-tb",
-            "starts_at": 1765843200,
-            "ends_at": 1765854000,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.top/embed/nhl/6149/6149-tb",
-            "viewers": "12",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/tampabaylightning/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:23:29.164147"
-          },
-          {
-            "id": 15058,
-            "name": "Anaheim Ducks vs. New York Rangers",
-            "tag": "MSG",
-            "poster": "https://old.ppv.to/assets/thumb/d5a00691c931769c263c8155593f25d5-thumbnail.jpg",
-            "blurhash": "LQDRKz|Cv%$*fRj@j@ay0xJ:XSNa",
+            "id": 15071,
+            "name": "Anaheim Ducks vs. Columbus Blue Jackets",
+            "tag": "FanDuel SN OH",
+            "poster": "https://old.ppv.to/assets/thumb/a9c43b788919c2a5f11cf655773c8a46-thumbnail.jpg",
+            "blurhash": "LNB2r|}9+[#mj[j[jtay56I=S~OX",
             "colors": [
               "#fc4c02",
-              "#0038a7"
-            ],
-            "uri_name": "nhl/5372/5372-nyr",
-            "starts_at": 1765843200,
-            "ends_at": 1765854000,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.top/embed/nhl/5372/5372-nyr",
-            "viewers": "16",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/newyorkrangers/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:23:41.786774"
-          },
-          {
-            "id": 15045,
-            "name": "Ottawa Senators vs. Winnipeg Jets",
-            "tag": "ESPN+",
-            "poster": "https://old.ppv.to/assets/thumb/2902270c4fcc8958c53774e4b07a2c42-thumbnail.jpg",
-            "blurhash": "LEAb|-{K:*=yoLjZfPj[0KO@TJIo",
-            "colors": [
-              "#dd1a32",
               "#002d62"
             ],
-            "uri_name": "nhl/2025-12-15/ott-wpg",
-            "starts_at": 1765845000,
-            "ends_at": 1765855800,
+            "uri_name": "nhl/2025-12-16/ana-cbj",
+            "starts_at": 1765929600,
+            "ends_at": 1765940400,
             "always_live": 0,
             "locale": "en",
             "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.top/embed/nhl/2025-12-15/ott-wpg",
-            "viewers": "42",
+            "iframe": "https://pooembed.top/embed/nhl/2025-12-16/ana-cbj",
+            "viewers": "0",
             "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/winnipegjets/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:23:43.571245"
+            "m3u8_url": "https://gg.poocloud.in/columbusbluejackets/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:28:36.520921"
           },
           {
-            "id": 15059,
-            "name": "Ottawa Senators vs. Winnipeg Jets",
-            "tag": "ESPN+",
-            "poster": "https://old.ppv.to/assets/thumb/71bd07863d204d3414f9dee8239f050c-thumbnail.jpg",
-            "blurhash": "LEBB#e{erX-qoLjZa|fk0eKio}IU",
+            "id": 15073,
+            "name": "Edmonton Oilers vs. Pittsburgh Penguins",
+            "tag": "TNT",
+            "poster": "https://old.ppv.to/assets/thumb/b8421eaa2e0ece4ab7d3bc937ea752aa-thumbnail.jpg",
+            "blurhash": "L57nLGyGE3Vr%2oeazWC00R3-pkY",
             "colors": [
-              "#c52032",
-              "#041e41"
+              "#00205b",
+              "#000000"
             ],
-            "uri_name": "nhl/9047/9047-wpg",
-            "starts_at": 1765845000,
-            "ends_at": 1765855800,
+            "uri_name": "nhl/2025-12-16/edm-pit",
+            "starts_at": 1765931400,
+            "ends_at": 1765942200,
             "always_live": 0,
             "locale": "en",
             "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.top/embed/nhl/9047/9047-wpg",
-            "viewers": "15",
+            "iframe": "https://pooembed.top/embed/nhl/2025-12-16/edm-pit",
+            "viewers": "0",
             "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/winnipegjets/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:23:45.125725"
+            "m3u8_url": "https://gg.poocloud.in/pittsburghpenguins/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:28:39.218862"
           },
           {
-            "id": 15048,
-            "name": "Nashville Predators vs. St. Louis Blues",
-            "tag": "FanDuel SN MW",
-            "poster": "https://old.ppv.to/assets/thumb/3d285228e188869b65975366360e8aeb-thumbnail.jpg",
-            "blurhash": "LOAdl@}#-3$gj[fQfPjt8_IwSjSh",
+            "id": 15076,
+            "name": "Washington Capitals vs. Minnesota Wild",
+            "tag": "FanDuel SN North",
+            "poster": "https://old.ppv.to/assets/thumb/788facd09262edf036ba90437595caba-thumbnail.jpg",
+            "blurhash": "LF9F~E{i:,,?oLf7jtjt5QK3S~Nu",
             "colors": [
-              "#fdba31",
-              "#0070b9"
+              "#d71830",
+              "#124734"
             ],
-            "uri_name": "nhl/2025-12-15/nsh-stl",
-            "starts_at": 1765846800,
-            "ends_at": 1765857600,
+            "uri_name": "nhl/2025-12-16/wsh-min",
+            "starts_at": 1765933200,
+            "ends_at": 1765944000,
             "always_live": 0,
             "locale": "en",
             "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.top/embed/nhl/2025-12-15/nsh-stl",
-            "viewers": "9",
+            "iframe": "https://pooembed.top/embed/nhl/2025-12-16/wsh-min",
+            "viewers": "0",
             "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/stlouisblues/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:23:46.934307"
+            "m3u8_url": "https://gg.poocloud.in/minnesotawild/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:28:41.767769"
           },
           {
-            "id": 15050,
-            "name": "Los Angeles Kings vs. Dallas Stars",
-            "tag": "Victory+",
-            "poster": "https://old.ppv.to/assets/thumb/8ca795455de161bdc2e51e4221cb006d-thumbnail.jpg",
-            "blurhash": "L25ZT.qI4TW,oyo3ayWU00P%_Moz",
+            "id": 15077,
+            "name": "Calgary Flames vs. San Jose Sharks",
+            "tag": "NBC Sports BA",
+            "poster": "https://old.ppv.to/assets/thumb/da7bf5c302a2007bfd0d739efa1948d3-thumbnail.jpg",
+            "blurhash": "LNAm9_{K+bjuj[jtfQaz56F_S~sm",
             "colors": [
-              "#121212",
-              "#20864c"
+              "#dd1a32",
+              "#00788a"
             ],
-            "uri_name": "nhl/2025-12-15/la-dal",
-            "starts_at": 1765846800,
-            "ends_at": 1765857600,
+            "uri_name": "nhl/2025-12-16/cgy-sj",
+            "starts_at": 1765940400,
+            "ends_at": 1765951200,
             "always_live": 0,
             "locale": "en",
             "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.top/embed/nhl/2025-12-15/la-dal",
-            "viewers": "20",
+            "iframe": "https://pooembed.top/embed/nhl/2025-12-16/cgy-sj",
+            "viewers": "0",
             "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/dallasstars/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:23:49.697282"
+            "m3u8_url": "https://gg.poocloud.in/sanjosesharks/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:28:53.427038"
           },
           {
-            "id": 15060,
-            "name": "Nashville Predators vs. St. Louis Blues",
-            "tag": "FanDuel SN MW",
-            "poster": "https://old.ppv.to/assets/thumb/91837b7a4bd4150d538bfbcc74084003-thumbnail.jpg",
-            "blurhash": "LUC$ZL}*$fs+j[fPfQj[9aIuShWY",
+            "id": 15079,
+            "name": "Colorado Avalanche vs. Seattle Kraken",
+            "tag": "TNT",
+            "poster": "https://old.ppv.to/assets/thumb/5cb3a54a9b33ba49f4f0e277d9ff4cc6-thumbnail.jpg",
+            "blurhash": "L871QW}GrDRPaxaeayj]009[tlxu",
             "colors": [
-              "#ffb81c",
-              "#002f86"
+              "#860038",
+              "#000d33"
             ],
-            "uri_name": "nhl/2130/2130-stl",
-            "starts_at": 1765846800,
-            "ends_at": 1765857600,
+            "uri_name": "nhl/2025-12-16/col-sea",
+            "starts_at": 1765940400,
+            "ends_at": 1765951200,
             "always_live": 0,
             "locale": "en",
             "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.top/embed/nhl/2130/2130-stl",
-            "viewers": "3",
+            "iframe": "https://pooembed.top/embed/nhl/2025-12-16/col-sea",
+            "viewers": "0",
             "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/stlouisblues/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:23:52.989906"
-          },
-          {
-            "id": 15061,
-            "name": "Los Angeles Kings vs. Dallas Stars",
-            "tag": "Victory+",
-            "poster": "https://old.ppv.to/assets/thumb/450d63341486682374ecee6ffca937d1-thumbnail.jpg",
-            "blurhash": "L13]oj*M54MKofofa{Rj00K^^,x]",
-            "colors": [
-              "#111111",
-              "#006746"
-            ],
-            "uri_name": "nhl/7920/7920-dal",
-            "starts_at": 1765846800,
-            "ends_at": 1765857600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.top/embed/nhl/7920/7920-dal",
-            "viewers": "4",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/dallasstars/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:23:56.150697"
+            "m3u8_url": "https://gg.poocloud.in/seattlekraken/index.m3u8",
+            "m3u8_extracted_at": "2025-12-16T06:28:55.884304"
           }
         ]
       },
@@ -1206,28 +1448,6 @@
         "id": 38,
         "always_live": false,
         "streams": [
-          {
-            "id": 15051,
-            "name": "WWE: Monday Night RAW",
-            "tag": "Netflix",
-            "poster": "https://old.ppv.to/assets/thumb/56336f9d22c51c416e1a56afbd18f314-thumbnail.jpg",
-            "blurhash": "L68M:aW;00n%EL;h%2s:4TW;~qsA",
-            "colors": [
-              "#040001",
-              "#020001"
-            ],
-            "uri_name": "wwe/raw/2025-12-16",
-            "starts_at": 1765846800,
-            "ends_at": 1765857600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Wrestling",
-            "iframe": "https://pooembed.top/embed/wwe/raw/2025-12-16",
-            "viewers": "409",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/wrestling/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:23:58.902179"
-          },
           {
             "id": 15052,
             "name": "WWE: NXT",
@@ -1245,10 +1465,10 @@
             "locale": "en",
             "category_name": "Wrestling",
             "iframe": "https://pooembed.top/embed/wwe/nxt/2025-12-17",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/wrestling/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:24:01.291950"
+            "m3u8_extracted_at": "2025-12-16T06:28:57.975590"
           },
           {
             "id": 15053,
@@ -1270,7 +1490,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/wrestling/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:24:03.084348"
+            "m3u8_extracted_at": "2025-12-16T06:28:59.555637"
           },
           {
             "id": 15054,
@@ -1292,7 +1512,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/wrestling/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:24:06.275569"
+            "m3u8_extracted_at": "2025-12-16T06:29:01.547959"
           },
           {
             "id": 15055,
@@ -1314,7 +1534,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/wrestling/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:24:09.281174"
+            "m3u8_extracted_at": "2025-12-16T06:29:03.139137"
           },
           {
             "id": 15056,
@@ -1336,7 +1556,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/wrestling/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:24:11.249623"
+            "m3u8_extracted_at": "2025-12-16T06:29:06.255214"
           }
         ]
       },
@@ -1365,7 +1585,7 @@
             "viewers": "28",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/southpark/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:24:13.959974"
+            "m3u8_extracted_at": "2025-12-16T06:29:07.899201"
           },
           {
             "id": 3663,
@@ -1384,10 +1604,10 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.top/embed/247-cows",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/cows/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:24:15.811829"
+            "m3u8_extracted_at": "2025-12-16T06:29:09.917664"
           },
           {
             "id": 8008,
@@ -1406,10 +1626,10 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.top/embed/247-family-guy",
-            "viewers": "33",
+            "viewers": "43",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/familyguy/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:24:17.728712"
+            "m3u8_extracted_at": "2025-12-16T06:29:11.889743"
           },
           {
             "id": 5191,
@@ -1428,10 +1648,10 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.top/embed/247-the-simpsons",
-            "viewers": "21",
+            "viewers": "13",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/thesimpsons/index.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:24:20.403111"
+            "m3u8_extracted_at": "2025-12-16T06:29:22.346173"
           },
           {
             "id": 10681,
@@ -1461,7 +1681,7 @@
               }
             ],
             "m3u8_url": "https://5nhp186eg31fofnc.chinese-restaurant-api.site/v3/director/VE1ZGEyNDNkZWMyNzFjLWU2OWItNzFlNC00NWU5LTUyODY0MWIz/master.m3u8",
-            "m3u8_extracted_at": "2025-12-16T02:24:22.989618"
+            "m3u8_extracted_at": "2025-12-16T06:29:25.514741"
           }
         ]
       }
