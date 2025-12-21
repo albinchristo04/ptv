@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-12-21T12:39:55.494Z",
-  "total_events": 72,
+  "generated_at": "2025-12-21T18:28:35.115Z",
+  "total_events": 68,
   "categories": [
     {
       "id": 26,
       "name": "American Football",
       "slug": "american-football",
-      "event_count": 13,
+      "event_count": 14,
       "always_live": false,
       "meta": {
         "title": "American Football EN VIVO - Tarjeta Roja TV",
@@ -54,7 +54,7 @@
       "id": 34,
       "name": "Football",
       "slug": "football",
-      "event_count": 37,
+      "event_count": 32,
       "always_live": false,
       "meta": {
         "title": "Football EN VIVO - Tarjeta Roja TV",
@@ -88,6 +88,92 @@
     }
   ],
   "events": [
+    {
+      "id": 11090,
+      "slug": "nfl-redzone",
+      "uri_name": "nfl-redzone-wk16",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/nfl-redzone-wk16",
+      "meta": {
+        "title": "NFL RedZone EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver NFL RedZone en vivo gratis por Tarjeta Roja TV. NFL RedZone transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, NFL RedZone, NFL RedZone, American Football, ver online gratis, en vivo gratis, NFL RedZone",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/nfl-redzone-wk16",
+        "title": "NFL RedZone EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver NFL RedZone en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/b81de749344645209b90492c795620e1-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "NFL RedZone EN VIVO",
+        "description": "Ver NFL RedZone en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/b81de749344645209b90492c795620e1-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "NFL RedZone",
+        "description": "Transmisión en vivo de NFL RedZone",
+        "startDate": "2025-12-21T18:00:00.000Z",
+        "endDate": "2025-12-22T01:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/nfl-redzone-wk16"
+        },
+        "image": "https://old.ppv.to/assets/thumb/b81de749344645209b90492c795620e1-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "sport": "American Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "American Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/american-football"
+          },
+          {
+            "name": "NFL RedZone",
+            "url": "https://tarjetarojaenvivo.live/eventos/nfl-redzone-wk16"
+          }
+        ],
+        "h1": "NFL RedZone EN VIVO",
+        "h2": "Ver NFL RedZone Online Gratis"
+      },
+      "event": {
+        "name": "NFL RedZone",
+        "category": "American Football",
+        "broadcaster": "NFL RedZone",
+        "start_time": "2025-12-21T18:00:00.000Z",
+        "end_time": "2025-12-22T01:00:00.000Z",
+        "duration_minutes": 420,
+        "status": "live",
+        "viewers": "3843"
+      },
+      "technical": {
+        "last_modified": "2025-12-21T18:28:35.116Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, NFL RedZone, NFL RedZone"
+      }
+    },
     {
       "id": 15072,
       "slug": "buffalo-bills-vs-cleveland-browns",
@@ -179,13 +265,13 @@
         "start_time": "2025-12-21T18:00:00.000Z",
         "end_time": "2025-12-21T21:30:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "1",
+        "status": "live",
+        "viewers": "1594",
         "home_team": "Buffalo Bills",
         "away_team": "Cleveland Browns"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.494Z",
+        "last_modified": "2025-12-21T18:28:35.116Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -285,13 +371,13 @@
         "start_time": "2025-12-21T18:00:00.000Z",
         "end_time": "2025-12-21T21:30:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "1",
+        "status": "live",
+        "viewers": "1408",
         "home_team": "Los Angeles Chargers",
         "away_team": "Dallas Cowboys"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.494Z",
+        "last_modified": "2025-12-21T18:28:35.116Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -391,13 +477,13 @@
         "start_time": "2025-12-21T18:00:00.000Z",
         "end_time": "2025-12-21T21:30:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "295",
         "home_team": "Kansas City Chiefs",
         "away_team": "Tennessee Titans"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.494Z",
+        "last_modified": "2025-12-21T18:28:35.116Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -497,13 +583,13 @@
         "start_time": "2025-12-21T18:00:00.000Z",
         "end_time": "2025-12-21T21:30:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "729",
         "home_team": "Cincinnati Bengals",
         "away_team": "Miami Dolphins"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.494Z",
+        "last_modified": "2025-12-21T18:28:35.116Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -603,13 +689,13 @@
         "start_time": "2025-12-21T18:00:00.000Z",
         "end_time": "2025-12-21T21:30:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "336",
         "home_team": "New York Jets",
         "away_team": "New Orleans Saints"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.494Z",
+        "last_modified": "2025-12-21T18:28:35.116Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -709,13 +795,13 @@
         "start_time": "2025-12-21T18:00:00.000Z",
         "end_time": "2025-12-21T21:30:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "1",
+        "status": "live",
+        "viewers": "864",
         "home_team": "Minnesota Vikings",
         "away_team": "New York Giants"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.494Z",
+        "last_modified": "2025-12-21T18:28:35.116Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -815,13 +901,13 @@
         "start_time": "2025-12-21T18:00:00.000Z",
         "end_time": "2025-12-21T21:30:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "1155",
         "home_team": "Tampa Bay Buccaneers",
         "away_team": "Carolina Panthers"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.494Z",
+        "last_modified": "2025-12-21T18:28:35.116Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -922,12 +1008,12 @@
         "end_time": "2025-12-22T00:35:00.000Z",
         "duration_minutes": 210,
         "status": "upcoming",
-        "viewers": "0",
+        "viewers": "2",
         "home_team": "Jacksonville Jaguars",
         "away_team": "Denver Broncos"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1028,12 +1114,12 @@
         "end_time": "2025-12-22T00:35:00.000Z",
         "duration_minutes": 210,
         "status": "upcoming",
-        "viewers": "0",
+        "viewers": "2",
         "home_team": "Atlanta Falcons",
         "away_team": "Arizona Cardinals"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1134,12 +1220,12 @@
         "end_time": "2025-12-22T00:55:00.000Z",
         "duration_minutes": 210,
         "status": "upcoming",
-        "viewers": "0",
+        "viewers": "3",
         "home_team": "Pittsburgh Steelers",
         "away_team": "Detroit Lions"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1240,12 +1326,12 @@
         "end_time": "2025-12-22T00:55:00.000Z",
         "duration_minutes": 210,
         "status": "upcoming",
-        "viewers": "0",
+        "viewers": "3",
         "home_team": "Las Vegas Raiders",
         "away_team": "Houston Texans"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1351,7 +1437,7 @@
         "away_team": "Baltimore Ravens"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1452,12 +1538,12 @@
         "end_time": "2025-12-23T04:45:00.000Z",
         "duration_minutes": 210,
         "status": "upcoming",
-        "viewers": "1",
+        "viewers": "0",
         "home_team": "San Francisco 49ers",
         "away_team": "Indianapolis Colts"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1558,12 +1644,12 @@
         "end_time": "2025-12-21T23:18:00.000Z",
         "duration_minutes": 168,
         "status": "upcoming",
-        "viewers": "0",
+        "viewers": "1",
         "home_team": "Chicago Bulls",
         "away_team": "Atlanta Hawks"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1669,7 +1755,7 @@
         "away_team": "Brooklyn Nets"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1775,7 +1861,7 @@
         "away_team": "New York Knicks"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1881,7 +1967,7 @@
         "away_team": "Washington Wizards"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1987,7 +2073,7 @@
         "away_team": "Minnesota Timberwolves"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2088,12 +2174,12 @@
         "end_time": "2025-12-22T05:48:00.000Z",
         "duration_minutes": 168,
         "status": "upcoming",
-        "viewers": "0",
+        "viewers": "1",
         "home_team": "Houston Rockets",
         "away_team": "Sacramento Kings"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2199,7 +2285,7 @@
         "away_team": "Pimblett"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2282,546 +2368,16 @@
         "end_time": "2025-12-21T23:30:00.000Z",
         "duration_minutes": 660,
         "status": "live",
-        "viewers": "83"
+        "viewers": "193"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
         "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, World Darts Championship, World Darts Championship"
-      }
-    },
-    {
-      "id": 15036,
-      "slug": "cagliari-vs-pisa",
-      "uri_name": "seriea/2025-12-21/cag-pis",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/seriea/2025-12-21/cag-pis",
-      "meta": {
-        "title": "Cagliari vs. Pisa EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Cagliari vs. Pisa en vivo gratis por Tarjeta Roja TV. Cagliari vs Pisa transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Cagliari vs. Pisa, Cagliari, Pisa, Football, ver online gratis, en vivo gratis, Serie A",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/seriea/2025-12-21/cag-pis",
-        "title": "Cagliari vs. Pisa EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Cagliari vs. Pisa en vivo gratis.",
-        "image": "https://old.ppv.to/assets/thumb/e1f0ac73e9dab5f42178e5d5b3239c46-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Cagliari vs. Pisa EN VIVO",
-        "description": "Ver Cagliari vs. Pisa en vivo gratis.",
-        "image": "https://old.ppv.to/assets/thumb/e1f0ac73e9dab5f42178e5d5b3239c46-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Cagliari vs. Pisa",
-        "description": "Transmisión en vivo de Cagliari vs. Pisa",
-        "startDate": "2025-12-21T11:30:00.000Z",
-        "endDate": "2025-12-21T14:00:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/seriea/2025-12-21/cag-pis"
-        },
-        "image": "https://old.ppv.to/assets/thumb/e1f0ac73e9dab5f42178e5d5b3239c46-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Cagliari"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Pisa"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Cagliari"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Pisa"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Cagliari vs. Pisa",
-            "url": "https://tarjetarojaenvivo.live/eventos/seriea/2025-12-21/cag-pis"
-          }
-        ],
-        "h1": "Cagliari vs. Pisa EN VIVO",
-        "h2": "Ver Cagliari vs. Pisa Online Gratis"
-      },
-      "event": {
-        "name": "Cagliari vs. Pisa",
-        "category": "Football",
-        "broadcaster": "Serie A",
-        "start_time": "2025-12-21T11:30:00.000Z",
-        "end_time": "2025-12-21T14:00:00.000Z",
-        "duration_minutes": 150,
-        "status": "live",
-        "viewers": "35",
-        "home_team": "Cagliari",
-        "away_team": "Pisa"
-      },
-      "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Cagliari vs. Pisa, Cagliari"
-      }
-    },
-    {
-      "id": 15009,
-      "slug": "girona-vs-atletico-madrid",
-      "uri_name": "laliga/2025-12-21/gir-atm",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/laliga/2025-12-21/gir-atm",
-      "meta": {
-        "title": "Girona vs. Atlético Madrid EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Girona vs. Atlético Madrid en vivo gratis por Tarjeta Roja TV. Girona vs Atlético Madrid transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Girona vs. Atlético Madrid, Girona, Atlético Madrid, Football, ver online gratis, en vivo gratis, LaLiga",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/laliga/2025-12-21/gir-atm",
-        "title": "Girona vs. Atlético Madrid EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Girona vs. Atlético Madrid en vivo gratis.",
-        "image": "https://old.ppv.to/assets/thumb/ab496b2290be2a6eeff252d4b0bc0126-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Girona vs. Atlético Madrid EN VIVO",
-        "description": "Ver Girona vs. Atlético Madrid en vivo gratis.",
-        "image": "https://old.ppv.to/assets/thumb/ab496b2290be2a6eeff252d4b0bc0126-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Girona vs. Atlético Madrid",
-        "description": "Transmisión en vivo de Girona vs. Atlético Madrid",
-        "startDate": "2025-12-21T13:00:00.000Z",
-        "endDate": "2025-12-21T15:30:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/laliga/2025-12-21/gir-atm"
-        },
-        "image": "https://old.ppv.to/assets/thumb/ab496b2290be2a6eeff252d4b0bc0126-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Girona"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Atlético Madrid"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Girona"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Atlético Madrid"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Girona vs. Atlético Madrid",
-            "url": "https://tarjetarojaenvivo.live/eventos/laliga/2025-12-21/gir-atm"
-          }
-        ],
-        "h1": "Girona vs. Atlético Madrid EN VIVO",
-        "h2": "Ver Girona vs. Atlético Madrid Online Gratis"
-      },
-      "event": {
-        "name": "Girona vs. Atlético Madrid",
-        "category": "Football",
-        "broadcaster": "LaLiga",
-        "start_time": "2025-12-21T13:00:00.000Z",
-        "end_time": "2025-12-21T15:30:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "0",
-        "home_team": "Girona",
-        "away_team": "Atlético Madrid"
-      },
-      "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Girona vs. Atlético Madrid, Girona"
-      }
-    },
-    {
-      "id": 15037,
-      "slug": "sassuolo-vs-torino",
-      "uri_name": "seriea/2025-12-21/sas-tor",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/seriea/2025-12-21/sas-tor",
-      "meta": {
-        "title": "Sassuolo vs. Torino EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Sassuolo vs. Torino en vivo gratis por Tarjeta Roja TV. Sassuolo vs Torino transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Sassuolo vs. Torino, Sassuolo, Torino, Football, ver online gratis, en vivo gratis, Serie A",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/seriea/2025-12-21/sas-tor",
-        "title": "Sassuolo vs. Torino EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Sassuolo vs. Torino en vivo gratis.",
-        "image": "https://old.ppv.to/assets/thumb/98c7c3e5888484f687c10a1ca9776d90-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Sassuolo vs. Torino EN VIVO",
-        "description": "Ver Sassuolo vs. Torino en vivo gratis.",
-        "image": "https://old.ppv.to/assets/thumb/98c7c3e5888484f687c10a1ca9776d90-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Sassuolo vs. Torino",
-        "description": "Transmisión en vivo de Sassuolo vs. Torino",
-        "startDate": "2025-12-21T14:00:00.000Z",
-        "endDate": "2025-12-21T16:30:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/seriea/2025-12-21/sas-tor"
-        },
-        "image": "https://old.ppv.to/assets/thumb/98c7c3e5888484f687c10a1ca9776d90-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Sassuolo"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Torino"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Sassuolo"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Torino"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Sassuolo vs. Torino",
-            "url": "https://tarjetarojaenvivo.live/eventos/seriea/2025-12-21/sas-tor"
-          }
-        ],
-        "h1": "Sassuolo vs. Torino EN VIVO",
-        "h2": "Ver Sassuolo vs. Torino Online Gratis"
-      },
-      "event": {
-        "name": "Sassuolo vs. Torino",
-        "category": "Football",
-        "broadcaster": "Serie A",
-        "start_time": "2025-12-21T14:00:00.000Z",
-        "end_time": "2025-12-21T16:30:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "0",
-        "home_team": "Sassuolo",
-        "away_team": "Torino"
-      },
-      "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Sassuolo vs. Torino, Sassuolo"
-      }
-    },
-    {
-      "id": 15021,
-      "slug": "mainz-vs-st-pauli",
-      "uri_name": "bundesliga/2025-12-21/m05-stp",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/bundesliga/2025-12-21/m05-stp",
-      "meta": {
-        "title": "Mainz vs. St. Pauli EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Mainz vs. St. Pauli en vivo gratis por Tarjeta Roja TV. Mainz vs St. Pauli transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Mainz vs. St. Pauli, Mainz, St. Pauli, Football, ver online gratis, en vivo gratis, Bundesliga",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/bundesliga/2025-12-21/m05-stp",
-        "title": "Mainz vs. St. Pauli EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Mainz vs. St. Pauli en vivo gratis.",
-        "image": "https://old.ppv.to/assets/thumb/57ca2f0ea99cc01cbaf4c2906fe43998-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Mainz vs. St. Pauli EN VIVO",
-        "description": "Ver Mainz vs. St. Pauli en vivo gratis.",
-        "image": "https://old.ppv.to/assets/thumb/57ca2f0ea99cc01cbaf4c2906fe43998-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Mainz vs. St. Pauli",
-        "description": "Transmisión en vivo de Mainz vs. St. Pauli",
-        "startDate": "2025-12-21T14:30:00.000Z",
-        "endDate": "2025-12-21T17:00:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/bundesliga/2025-12-21/m05-stp"
-        },
-        "image": "https://old.ppv.to/assets/thumb/57ca2f0ea99cc01cbaf4c2906fe43998-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Mainz"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "St. Pauli"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Mainz"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "St. Pauli"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Mainz vs. St. Pauli",
-            "url": "https://tarjetarojaenvivo.live/eventos/bundesliga/2025-12-21/m05-stp"
-          }
-        ],
-        "h1": "Mainz vs. St. Pauli EN VIVO",
-        "h2": "Ver Mainz vs. St. Pauli Online Gratis"
-      },
-      "event": {
-        "name": "Mainz vs. St. Pauli",
-        "category": "Football",
-        "broadcaster": "Bundesliga",
-        "start_time": "2025-12-21T14:30:00.000Z",
-        "end_time": "2025-12-21T17:00:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "0",
-        "home_team": "Mainz",
-        "away_team": "St. Pauli"
-      },
-      "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Mainz vs. St. Pauli, Mainz"
-      }
-    },
-    {
-      "id": 15010,
-      "slug": "villarreal-vs-barcelona",
-      "uri_name": "laliga/2025-12-21/vil-bar",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/laliga/2025-12-21/vil-bar",
-      "meta": {
-        "title": "Villarreal vs. Barcelona EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Villarreal vs. Barcelona en vivo gratis por Tarjeta Roja TV. Villarreal vs Barcelona transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Villarreal vs. Barcelona, Villarreal, Barcelona, Football, ver online gratis, en vivo gratis, LaLiga",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/laliga/2025-12-21/vil-bar",
-        "title": "Villarreal vs. Barcelona EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Villarreal vs. Barcelona en vivo gratis.",
-        "image": "https://old.ppv.to/assets/thumb/55d075300221429ae090c1c3ae1e0d4c-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Villarreal vs. Barcelona EN VIVO",
-        "description": "Ver Villarreal vs. Barcelona en vivo gratis.",
-        "image": "https://old.ppv.to/assets/thumb/55d075300221429ae090c1c3ae1e0d4c-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Villarreal vs. Barcelona",
-        "description": "Transmisión en vivo de Villarreal vs. Barcelona",
-        "startDate": "2025-12-21T15:15:00.000Z",
-        "endDate": "2025-12-21T17:45:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/laliga/2025-12-21/vil-bar"
-        },
-        "image": "https://old.ppv.to/assets/thumb/55d075300221429ae090c1c3ae1e0d4c-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Villarreal"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Barcelona"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Villarreal"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Barcelona"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Villarreal vs. Barcelona",
-            "url": "https://tarjetarojaenvivo.live/eventos/laliga/2025-12-21/vil-bar"
-          }
-        ],
-        "h1": "Villarreal vs. Barcelona EN VIVO",
-        "h2": "Ver Villarreal vs. Barcelona Online Gratis"
-      },
-      "event": {
-        "name": "Villarreal vs. Barcelona",
-        "category": "Football",
-        "broadcaster": "LaLiga",
-        "start_time": "2025-12-21T15:15:00.000Z",
-        "end_time": "2025-12-21T17:45:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "0",
-        "home_team": "Villarreal",
-        "away_team": "Barcelona"
-      },
-      "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Villarreal vs. Barcelona, Villarreal"
       }
     },
     {
@@ -2915,13 +2471,13 @@
         "start_time": "2025-12-21T16:30:00.000Z",
         "end_time": "2025-12-21T19:00:00.000Z",
         "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "344",
         "home_team": "1. FC Heidenheim 1846",
         "away_team": "Bayern Munich"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3021,13 +2577,13 @@
         "start_time": "2025-12-21T16:30:00.000Z",
         "end_time": "2025-12-21T19:00:00.000Z",
         "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "2",
+        "status": "live",
+        "viewers": "8344",
         "home_team": "Aston Villa",
         "away_team": "Manchester United"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3127,13 +2683,13 @@
         "start_time": "2025-12-21T17:00:00.000Z",
         "end_time": "2025-12-21T19:30:00.000Z",
         "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "20",
         "home_team": "Fiorentina",
         "away_team": "Udinese"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3233,13 +2789,13 @@
         "start_time": "2025-12-21T17:30:00.000Z",
         "end_time": "2025-12-21T20:00:00.000Z",
         "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "10",
         "home_team": "Elche",
         "away_team": "Rayo Vallecano"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3340,12 +2896,12 @@
         "end_time": "2025-12-21T21:00:00.000Z",
         "duration_minutes": 120,
         "status": "upcoming",
-        "viewers": "0",
+        "viewers": "206",
         "home_team": "Morocco",
         "away_team": "Comoros"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3446,12 +3002,12 @@
         "end_time": "2025-12-21T22:15:00.000Z",
         "duration_minutes": 150,
         "status": "upcoming",
-        "viewers": "0",
+        "viewers": "1",
         "home_team": "Genoa",
         "away_team": "Atalanta"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3557,7 +3113,7 @@
         "away_team": "Getafe"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3663,7 +3219,7 @@
         "away_team": "Zambia"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3769,7 +3325,7 @@
         "away_team": "Angola"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3875,7 +3431,7 @@
         "away_team": "Espanyol"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3981,7 +3537,7 @@
         "away_team": "Nottingham Forest"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4087,7 +3643,7 @@
         "away_team": "Zimbabwe"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4193,7 +3749,7 @@
         "away_team": "Benin"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.495Z",
+        "last_modified": "2025-12-21T18:28:35.117Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4299,7 +3855,7 @@
         "away_team": "Botswana"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4405,7 +3961,7 @@
         "away_team": "Tanzania"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4511,7 +4067,7 @@
         "away_team": "Uganda"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4617,7 +4173,7 @@
         "away_team": "Equatorial Guinea"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4723,7 +4279,7 @@
         "away_team": "Sudan"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4829,7 +4385,7 @@
         "away_team": "Mozambique"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4935,7 +4491,7 @@
         "away_team": "Gabon"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5041,7 +4597,7 @@
         "away_team": "Zimbabwe"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5147,7 +4703,7 @@
         "away_team": "South Africa"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5248,12 +4804,12 @@
         "end_time": "2025-12-26T19:30:00.000Z",
         "duration_minutes": 120,
         "status": "upcoming",
-        "viewers": "1",
+        "viewers": "0",
         "home_team": "Zambia",
         "away_team": "Comoros"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5359,7 +4915,7 @@
         "away_team": "Mali"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5465,7 +5021,7 @@
         "away_team": "Botswana"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5571,7 +5127,7 @@
         "away_team": "Congo DR"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5677,7 +5233,7 @@
         "away_team": "Tanzania"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5783,7 +5339,7 @@
         "away_team": "Tunisia"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5889,7 +5445,7 @@
         "away_team": "Mozambique"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5995,7 +5551,7 @@
         "away_team": "Sudan"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -6101,7 +5657,7 @@
         "away_team": "Burkina Faso"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -6207,7 +5763,7 @@
         "away_team": "Cameroon"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -6307,13 +5863,13 @@
         "start_time": "2025-12-21T18:00:00.000Z",
         "end_time": "2025-12-21T21:00:00.000Z",
         "duration_minutes": 180,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "52",
         "home_team": "Washington Capitals",
         "away_team": "Detroit Red Wings"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -6419,7 +5975,7 @@
         "away_team": "Minnesota Wild"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -6525,7 +6081,7 @@
         "away_team": "Boston Bruins"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -6626,12 +6182,12 @@
         "end_time": "2025-12-22T03:00:00.000Z",
         "duration_minutes": 180,
         "status": "upcoming",
-        "viewers": "1",
+        "viewers": "0",
         "home_team": "Buffalo Sabres",
         "away_team": "New Jersey Devils"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -6737,7 +6293,7 @@
         "away_team": "Pittsburgh Penguins"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -6843,7 +6399,7 @@
         "away_team": "Nashville Predators"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -6949,7 +6505,7 @@
         "away_team": "Dallas Stars"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -7055,7 +6611,7 @@
         "away_team": "Utah Mammoth"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -7161,7 +6717,7 @@
         "away_team": "Edmonton Oilers"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -7244,10 +6800,10 @@
         "end_time": "1970-01-01T00:00:00.000Z",
         "duration_minutes": 0,
         "status": "completed",
-        "viewers": "24"
+        "viewers": "23"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -7333,7 +6889,7 @@
         "viewers": "0"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -7416,10 +6972,10 @@
         "end_time": "2025-01-18T09:00:00.000Z",
         "duration_minutes": 60,
         "status": "completed",
-        "viewers": "27"
+        "viewers": "20"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -7505,7 +7061,7 @@
         "viewers": "20"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -7591,7 +7147,7 @@
         "viewers": "0"
       },
       "technical": {
-        "last_modified": "2025-12-21T12:39:55.496Z",
+        "last_modified": "2025-12-21T18:28:35.118Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
