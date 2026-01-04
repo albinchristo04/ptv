@@ -1,32 +1,54 @@
 {
   "metadata": {
-    "fetched_at": "2026-01-04T12:29:57.767854",
+    "fetched_at": "2026-01-04T18:21:25.186204",
     "source": "https://old.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-01-04T13:00:43.187320",
-      "total_streams": 60,
-      "streams_with_m3u8": 60,
+      "extracted_at": "2026-01-04T18:23:45.061170",
+      "total_streams": 49,
+      "streams_with_m3u8": 49,
       "success_rate": "100.0%",
       "extraction_stats": {
-        "total_requests": 60,
-        "successful_requests": 60,
+        "total_requests": 49,
+        "successful_requests": 49,
         "failed_requests": 0,
-        "elapsed_time_seconds": 154.53
+        "elapsed_time_seconds": 125.47
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1767529800,
+    "timestamp": 1767550890,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.018192052841186523,
+    "performance": 0.025065183639526367,
     "streams": [
       {
         "category": "American Football",
         "id": 26,
         "always_live": false,
         "streams": [
+          {
+            "id": 11090,
+            "name": "NFL RedZone",
+            "tag": "NFL RedZone",
+            "poster": "https://old.ppv.to/assets/thumb/b81de749344645209b90492c795620e1-thumbnail.jpg",
+            "blurhash": "L9AvwsrX4.%#~XRQNwtl0Kkp%2Mx",
+            "colors": [
+              "#1c080a",
+              "#160606"
+            ],
+            "uri_name": "nfl-redzone-wk18",
+            "starts_at": 1767549600,
+            "ends_at": 1767574800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://modistreams.org/embed/nfl-redzone-wk18",
+            "viewers": "2289",
+            "substreams": [],
+            "m3u8_url": "https://gg.poocloud.in/redzone/index.m3u8",
+            "m3u8_extracted_at": "2026-01-04T18:21:40.275673"
+          },
           {
             "id": 15608,
             "name": "New Orleans Saints vs. Atlanta Falcons",
@@ -44,10 +66,10 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://modistreams.org/embed/nfl/2026-01-04/no-atl",
-            "viewers": "1",
+            "viewers": "1421",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/atlantafalcons/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:58:09.471777"
+            "m3u8_extracted_at": "2026-01-04T18:21:43.340408"
           },
           {
             "id": 15611,
@@ -66,10 +88,10 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://modistreams.org/embed/nfl/2026-01-04/cle-cin",
-            "viewers": "0",
+            "viewers": "1098",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/cincinnatibengals/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:58:12.843624"
+            "m3u8_extracted_at": "2026-01-04T18:21:45.954388"
           },
           {
             "id": 15614,
@@ -88,10 +110,10 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://modistreams.org/embed/nfl/2026-01-04/gb-min",
-            "viewers": "0",
+            "viewers": "1105",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/minnesotavikings/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:58:15.834178"
+            "m3u8_extracted_at": "2026-01-04T18:21:48.754829"
           },
           {
             "id": 15615,
@@ -110,10 +132,10 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://modistreams.org/embed/nfl/2026-01-04/dal-nyg",
-            "viewers": "0",
+            "viewers": "769",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/newyorkgiants/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:58:18.092030"
+            "m3u8_extracted_at": "2026-01-04T18:21:51.082603"
           },
           {
             "id": 15616,
@@ -132,10 +154,10 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://modistreams.org/embed/nfl/2026-01-04/ten-jax",
-            "viewers": "0",
+            "viewers": "180",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/jacksonvillejaguars/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:58:20.501326"
+            "m3u8_extracted_at": "2026-01-04T18:21:54.465037"
           },
           {
             "id": 15617,
@@ -154,10 +176,10 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://modistreams.org/embed/nfl/2026-01-04/ind-hou",
-            "viewers": "0",
+            "viewers": "560",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/houstontexans/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:58:23.588181"
+            "m3u8_extracted_at": "2026-01-04T18:21:57.557644"
           },
           {
             "id": 15618,
@@ -176,10 +198,10 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://modistreams.org/embed/nfl/2026-01-04/nyj-buf",
-            "viewers": "0",
+            "viewers": "7",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/buffalobills/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:58:26.657251"
+            "m3u8_extracted_at": "2026-01-04T18:22:00.133280"
           },
           {
             "id": 15619,
@@ -198,10 +220,10 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://modistreams.org/embed/nfl/2026-01-04/det-chi",
-            "viewers": "0",
+            "viewers": "4",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/chicagobears/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:58:30.089806"
+            "m3u8_extracted_at": "2026-01-04T18:22:03.231159"
           },
           {
             "id": 15620,
@@ -223,7 +245,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/denverbroncos/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:58:32.613672"
+            "m3u8_extracted_at": "2026-01-04T18:22:05.454376"
           },
           {
             "id": 15621,
@@ -245,7 +267,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/lasvegasraiders/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:58:35.897423"
+            "m3u8_extracted_at": "2026-01-04T18:22:07.511627"
           },
           {
             "id": 15622,
@@ -267,7 +289,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/losangelesrams/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:58:38.409229"
+            "m3u8_extracted_at": "2026-01-04T18:22:10.907719"
           },
           {
             "id": 15623,
@@ -286,10 +308,10 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://modistreams.org/embed/nfl/2026-01-04/mia-ne",
-            "viewers": "0",
+            "viewers": "6",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/newenglandpatriots/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:58:41.005043"
+            "m3u8_extracted_at": "2026-01-04T18:22:13.766154"
           },
           {
             "id": 15624,
@@ -308,10 +330,10 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://modistreams.org/embed/nfl/2026-01-04/wsh-phi",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/philadelphiaeagles/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:58:43.239080"
+            "m3u8_extracted_at": "2026-01-04T18:22:16.149514"
           },
           {
             "id": 15625,
@@ -330,10 +352,10 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://modistreams.org/embed/nfl/2026-01-04/bal-pit",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/pittsburghsteelers/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:58:46.319534"
+            "m3u8_extracted_at": "2026-01-04T18:22:17.849238"
           },
           {
             "id": 15443,
@@ -352,10 +374,10 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://modistreams.org/embed/cfb/9993-9993",
-            "viewers": "2",
+            "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/ESPN/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:58:48.249133"
+            "m3u8_extracted_at": "2026-01-04T18:22:19.795233"
           }
         ]
       },
@@ -381,10 +403,10 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://modistreams.org/embed/nba/2026-01-04/det-cle",
-            "viewers": "1",
+            "viewers": "6",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/clevelandcavaliers/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:58:50.835808"
+            "m3u8_extracted_at": "2026-01-04T18:22:23.048662"
           },
           {
             "id": 15742,
@@ -406,7 +428,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/orlandomagic/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:58:54.024143"
+            "m3u8_extracted_at": "2026-01-04T18:22:26.203719"
           },
           {
             "id": 15746,
@@ -428,7 +450,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/brooklynnets/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:58:56.994744"
+            "m3u8_extracted_at": "2026-01-04T18:22:29.266786"
           },
           {
             "id": 15748,
@@ -450,7 +472,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/miamiheat/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:59:00.254380"
+            "m3u8_extracted_at": "2026-01-04T18:22:31.527479"
           },
           {
             "id": 15750,
@@ -472,7 +494,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/washingtonwizards/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:59:03.744684"
+            "m3u8_extracted_at": "2026-01-04T18:22:34.755218"
           },
           {
             "id": 15751,
@@ -494,7 +516,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/phoenixsuns/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:59:07.164127"
+            "m3u8_extracted_at": "2026-01-04T18:22:38.417380"
           },
           {
             "id": 15752,
@@ -516,7 +538,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/sacramentokings/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:59:09.663454"
+            "m3u8_extracted_at": "2026-01-04T18:22:40.396755"
           },
           {
             "id": 15753,
@@ -538,7 +560,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/losangeleslakers/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:59:12.168912"
+            "m3u8_extracted_at": "2026-01-04T18:22:43.666610"
           }
         ]
       },
@@ -567,7 +589,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/ufc/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:59:14.240787"
+            "m3u8_extracted_at": "2026-01-04T18:22:46.166961"
           }
         ]
       },
@@ -593,7 +615,7 @@
             "locale": "en",
             "category_name": "Cricket",
             "iframe": "https://modistreams.org/embed/cricket/2026/au-en/5th-test",
-            "viewers": "21",
+            "viewers": "14",
             "substreams": [
               {
                 "id": 15736,
@@ -604,7 +626,7 @@
               }
             ],
             "m3u8_url": "https://gg.poocloud.in/ashes/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:59:16.521251"
+            "m3u8_extracted_at": "2026-01-04T18:22:48.750357"
           }
         ]
       },
@@ -613,270 +635,6 @@
         "id": 34,
         "always_live": false,
         "streams": [
-          {
-            "id": 15570,
-            "name": "Lazio vs. Napoli",
-            "tag": "Serie A",
-            "poster": "https://old.ppv.to/assets/thumb/70ca9127f9a79f2463f170f66c77a535-thumbnail.jpg",
-            "blurhash": "L56u}hrd00TEt7oIaeWY00TH_Nn7",
-            "colors": [
-              "#003799",
-              "#003799"
-            ],
-            "uri_name": "seriea/2026-01-04/laz-nap",
-            "starts_at": 1767526200,
-            "ends_at": 1767535200,
-            "always_live": 0,
-            "locale": "fr",
-            "category_name": "Football",
-            "iframe": "https://modistreams.org/embed/seriea/2026-01-04/laz-nap",
-            "viewers": "179",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/sa_laz/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:59:19.666037"
-          },
-          {
-            "id": 15558,
-            "name": "Leeds United vs. Manchester United",
-            "tag": "Premier League",
-            "poster": "https://old.ppv.to/assets/thumb/e54cbd8888ada20db1205420dc782a89-thumbnail.jpg",
-            "blurhash": "L39GB$3X4,{KoMWEayoc00@@?I7z",
-            "colors": [
-              "#250f37",
-              "#250f37"
-            ],
-            "uri_name": "premierleague/2026-01-04/lee-man",
-            "starts_at": 1767529800,
-            "ends_at": 1767538800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://modistreams.org/embed/premierleague/2026-01-04/lee-man",
-            "viewers": "2242",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/pl_lee/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:59:23.168562"
-          },
-          {
-            "id": 15536,
-            "name": "Sevilla vs. Levante",
-            "tag": "LaLiga",
-            "poster": "https://old.ppv.to/assets/thumb/ef9b2498fd10e0b2ba179f9b659bc469-thumbnail.jpg",
-            "blurhash": "L5JN@4^k0K56t7ofaeWB009a}[?H",
-            "colors": [
-              "#992d29",
-              "#992d29"
-            ],
-            "uri_name": "laliga/2026-01-04/sev-lev",
-            "starts_at": 1767531600,
-            "ends_at": 1767540600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://modistreams.org/embed/laliga/2026-01-04/sev-lev",
-            "viewers": "1",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/ll_sev/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:59:26.030892"
-          },
-          {
-            "id": 15571,
-            "name": "Fiorentina vs. Cremonese",
-            "tag": "Serie A",
-            "poster": "https://old.ppv.to/assets/thumb/5c759575b428dc5adea5c69acda16048-thumbnail.jpg",
-            "blurhash": "L58qtbXC00nfxut6axRk00s6_NXB",
-            "colors": [
-              "#003799",
-              "#003799"
-            ],
-            "uri_name": "seriea/2026-01-04/fio-cre",
-            "starts_at": 1767535200,
-            "ends_at": 1767544200,
-            "always_live": 0,
-            "locale": "fr",
-            "category_name": "Football",
-            "iframe": "https://modistreams.org/embed/seriea/2026-01-04/fio-cre",
-            "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/sa_fio/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:59:29.651070"
-          },
-          {
-            "id": 15578,
-            "name": "Marseille vs. Nantes",
-            "tag": "Ligue 1",
-            "poster": "https://old.ppv.to/assets/thumb/d7829d33a2ab0af4557f905d56f99514-thumbnail.jpg",
-            "blurhash": "L77Lmg0uHq}|s.Roj?t200^W%P5K",
-            "colors": [
-              "#053999",
-              "#053999"
-            ],
-            "uri_name": "ligue1/2026-01-04/olm-nan",
-            "starts_at": 1767535200,
-            "ends_at": 1767544200,
-            "always_live": 0,
-            "locale": "fr",
-            "category_name": "Football",
-            "iframe": "https://modistreams.org/embed/ligue1/2026-01-04/olm-nan",
-            "viewers": "1",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/l1_olm/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:59:31.322226"
-          },
-          {
-            "id": 5193,
-            "name": "Goal Rush",
-            "tag": "Peacock",
-            "poster": "https://old.ppv.to/assets/thumb/e94e4857435183cbcfa868d0dc8981d7-thumbnail.jpg",
-            "blurhash": "L25z@9ju00j[offQWBj[0Jfj_4ay",
-            "colors": [
-              "#250f37",
-              "#250f37"
-            ],
-            "uri_name": "premierleague/goal-rush",
-            "starts_at": 1767538800,
-            "ends_at": 1767547800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://modistreams.org/embed/premierleague/goal-rush",
-            "viewers": "2",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/pl_goalrush/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:59:34.254751"
-          },
-          {
-            "id": 15559,
-            "name": "Everton vs. Brentford",
-            "tag": "Premier League",
-            "poster": "https://old.ppv.to/assets/thumb/569fb0013ec39b8d35ab77e5d95f18b6-thumbnail.jpg",
-            "blurhash": "L68y_L17D~}kj]azayfj00}k%M5Z",
-            "colors": [
-              "#250f37",
-              "#250f37"
-            ],
-            "uri_name": "premierleague/2026-01-04/eve-bre",
-            "starts_at": 1767538800,
-            "ends_at": 1767547800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://modistreams.org/embed/premierleague/2026-01-04/eve-bre",
-            "viewers": "0",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/pl_eve/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:59:35.775725"
-          },
-          {
-            "id": 15560,
-            "name": "Fulham vs. Liverpool",
-            "tag": "Premier League",
-            "poster": "https://old.ppv.to/assets/thumb/3483afe1c342727b57ac4ef3ecaebab2-thumbnail.jpg",
-            "blurhash": "L18:^_~X004nog%2WUIp009F~X-;",
-            "colors": [
-              "#250f37",
-              "#250f37"
-            ],
-            "uri_name": "premierleague/2026-01-04/ful-liv",
-            "starts_at": 1767538800,
-            "ends_at": 1767547800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://modistreams.org/embed/premierleague/2026-01-04/ful-liv",
-            "viewers": "1",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/pl_ful/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:59:37.727869"
-          },
-          {
-            "id": 15561,
-            "name": "Newcastle United vs. Crystal Palace",
-            "tag": "Premier League",
-            "poster": "https://old.ppv.to/assets/thumb/eaa7fbde039ea3f5b9db93c50666249c-thumbnail.jpg",
-            "blurhash": "L16@slI+00-ZMdwHWBOZ00xd~XM]",
-            "colors": [
-              "#250f37",
-              "#250f37"
-            ],
-            "uri_name": "premierleague/2026-01-04/new-cry",
-            "starts_at": 1767538800,
-            "ends_at": 1767547800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://modistreams.org/embed/premierleague/2026-01-04/new-cry",
-            "viewers": "3",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/pl_new/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:59:39.256527"
-          },
-          {
-            "id": 15562,
-            "name": "Tottenham Hotspur vs. Sunderland",
-            "tag": "Premier League",
-            "poster": "https://old.ppv.to/assets/thumb/c26cf49438aa869e01d4ad873dd169ad-thumbnail.jpg",
-            "blurhash": "L17d692_00{wJAxFWBNa00|E~X2v",
-            "colors": [
-              "#250f37",
-              "#250f37"
-            ],
-            "uri_name": "premierleague/2026-01-04/tot-sun",
-            "starts_at": 1767538800,
-            "ends_at": 1767547800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://modistreams.org/embed/premierleague/2026-01-04/tot-sun",
-            "viewers": "1",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/pl_tot/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:59:41.243540"
-          },
-          {
-            "id": 15539,
-            "name": "Real Madrid vs. Real Betis",
-            "tag": "LaLiga",
-            "poster": "https://old.ppv.to/assets/thumb/7bfb1ba1fbe6ea2a1a57e2b05357f711-thumbnail.jpg",
-            "blurhash": "L5JEbp%20eNFrrf5WVbH00NG}[xa",
-            "colors": [
-              "#992d29",
-              "#992d29"
-            ],
-            "uri_name": "laliga/2026-01-04/rma-bet",
-            "starts_at": 1767539700,
-            "ends_at": 1767548700,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://modistreams.org/embed/laliga/2026-01-04/rma-bet",
-            "viewers": "1",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/ll_rma/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:59:44.207401"
-          },
-          {
-            "id": 15754,
-            "name": "Morocco vs. Tanzania",
-            "tag": "AFCON",
-            "poster": "https://old.ppv.to/assets/thumb/95729bb36aa0f66aab38d8f09d233de9-thumbnail.jpg",
-            "blurhash": "L66[p]}yXn8Qk8jvjZbX003Enf@i",
-            "colors": [
-              "#009060",
-              "#0033a0"
-            ],
-            "uri_name": "afcon/2026-01-04/mar-tan",
-            "starts_at": 1767542400,
-            "ends_at": 1767549600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://modistreams.org/embed/afcon/2026-01-04/mar-tan",
-            "viewers": "1",
-            "substreams": [],
-            "m3u8_url": "https://gg.poocloud.in/afcon/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:59:46.968700"
-          },
           {
             "id": 15579,
             "name": "Brest vs. AJ Auxerre",
@@ -894,10 +652,10 @@
             "locale": "fr",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/ligue1/2026-01-04/bre-aux",
-            "viewers": "0",
+            "viewers": "15",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/l1_bre/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:59:49.210516"
+            "m3u8_extracted_at": "2026-01-04T18:22:50.675191"
           },
           {
             "id": 15580,
@@ -916,10 +674,10 @@
             "locale": "fr",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/ligue1/2026-01-04/hac-ang",
-            "viewers": "0",
+            "viewers": "5",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/l1_hac/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:59:52.189201"
+            "m3u8_extracted_at": "2026-01-04T18:22:52.420113"
           },
           {
             "id": 15581,
@@ -938,10 +696,10 @@
             "locale": "fr",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/ligue1/2026-01-04/lor-metz",
-            "viewers": "0",
+            "viewers": "9",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/l1_lor/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:59:54.262660"
+            "m3u8_extracted_at": "2026-01-04T18:22:54.935253"
           },
           {
             "id": 15572,
@@ -960,10 +718,10 @@
             "locale": "fr",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/seriea/2026-01-04/ver-tor",
-            "viewers": "0",
+            "viewers": "28",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/sa_ver/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T12:59:57.473053"
+            "m3u8_extracted_at": "2026-01-04T18:22:57.134735"
           },
           {
             "id": 15541,
@@ -982,10 +740,10 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/laliga/2026-01-04/ala-ovi",
-            "viewers": "0",
+            "viewers": "6",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/ll_ala/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T13:00:00.046707"
+            "m3u8_extracted_at": "2026-01-04T18:23:00.239321"
           },
           {
             "id": 15542,
@@ -1004,10 +762,10 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/laliga/2026-01-04/mll-gir",
-            "viewers": "0",
+            "viewers": "10",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/ll_mll/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T13:00:03.320136"
+            "m3u8_extracted_at": "2026-01-04T18:23:03.249809"
           },
           {
             "id": 15563,
@@ -1026,10 +784,10 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/premierleague/2026-01-04/mnc-che",
-            "viewers": "3",
+            "viewers": "9420",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/pl_mnc/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T13:00:06.154101"
+            "m3u8_extracted_at": "2026-01-04T18:23:04.946863"
           },
           {
             "id": 15755,
@@ -1048,10 +806,10 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/afcon/2026-01-04/rsa-cmr",
-            "viewers": "0",
+            "viewers": "19",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/afcon/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T13:00:08.778992"
+            "m3u8_extracted_at": "2026-01-04T18:23:06.960571"
           },
           {
             "id": 15573,
@@ -1070,10 +828,10 @@
             "locale": "fr",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/seriea/2026-01-04/int-bol",
-            "viewers": "1",
+            "viewers": "2",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/sa_int/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T13:00:10.302879"
+            "m3u8_extracted_at": "2026-01-04T18:23:08.513955"
           },
           {
             "id": 15582,
@@ -1092,10 +850,10 @@
             "locale": "fr",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/ligue1/2026-01-04/psg-par",
-            "viewers": "1",
+            "viewers": "4",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/l1_psg/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T13:00:12.914744"
+            "m3u8_extracted_at": "2026-01-04T18:23:10.788846"
           },
           {
             "id": 15543,
@@ -1117,7 +875,7 @@
             "viewers": "1",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/ll_rso/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T13:00:15.952812"
+            "m3u8_extracted_at": "2026-01-04T18:23:13.641393"
           }
         ]
       },
@@ -1143,10 +901,10 @@
             "locale": "en",
             "category_name": "Ice Hockey",
             "iframe": "https://modistreams.org/embed/nhl/2026-01-04/mtl-dal",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/dallasstars/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T13:00:18.871963"
+            "m3u8_extracted_at": "2026-01-04T18:23:17.102269"
           },
           {
             "id": 15743,
@@ -1168,7 +926,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/columbusbluejackets/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T13:00:21.643010"
+            "m3u8_extracted_at": "2026-01-04T18:23:19.777518"
           },
           {
             "id": 15737,
@@ -1190,7 +948,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/iihf/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T13:00:23.536860"
+            "m3u8_extracted_at": "2026-01-04T18:23:22.296326"
           },
           {
             "id": 15745,
@@ -1212,7 +970,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/floridapanthers/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T13:00:25.692625"
+            "m3u8_extracted_at": "2026-01-04T18:23:24.496913"
           },
           {
             "id": 15747,
@@ -1234,7 +992,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/newjerseydevils/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T13:00:27.908997"
+            "m3u8_extracted_at": "2026-01-04T18:23:27.295927"
           },
           {
             "id": 15749,
@@ -1256,7 +1014,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/chicagoblackhawks/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T13:00:31.180248"
+            "m3u8_extracted_at": "2026-01-04T18:23:29.274543"
           },
           {
             "id": 15738,
@@ -1278,7 +1036,7 @@
             "viewers": "0",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/iihf/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T13:00:32.696963"
+            "m3u8_extracted_at": "2026-01-04T18:23:32.254215"
           }
         ]
       },
@@ -1304,10 +1062,10 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://modistreams.org/embed/247-south-park",
-            "viewers": "20",
+            "viewers": "23",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/southpark/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T13:00:34.204769"
+            "m3u8_extracted_at": "2026-01-04T18:23:35.684913"
           },
           {
             "id": 3663,
@@ -1326,10 +1084,10 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://modistreams.org/embed/247-cows",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/cows/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T13:00:35.936160"
+            "m3u8_extracted_at": "2026-01-04T18:23:38.632979"
           },
           {
             "id": 8008,
@@ -1348,10 +1106,10 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://modistreams.org/embed/247-family-guy",
-            "viewers": "49",
+            "viewers": "36",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/familyguy/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T13:00:39.301419"
+            "m3u8_extracted_at": "2026-01-04T18:23:40.815480"
           },
           {
             "id": 5191,
@@ -1370,10 +1128,10 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://modistreams.org/embed/247-the-simpsons",
-            "viewers": "16",
+            "viewers": "13",
             "substreams": [],
             "m3u8_url": "https://gg.poocloud.in/thesimpsons/index.m3u8",
-            "m3u8_extracted_at": "2026-01-04T13:00:41.551531"
+            "m3u8_extracted_at": "2026-01-04T18:23:42.359759"
           },
           {
             "id": 10681,
@@ -1403,7 +1161,7 @@
               }
             ],
             "m3u8_url": "https://5nhp186eg31fofnc.chinese-restaurant-api.site/v3/director/VE1ZGEyNDNkZWMyNzFjLWU2OWItNzFlNC00NWU5LTUyODY0MWIz/master.m3u8",
-            "m3u8_extracted_at": "2026-01-04T13:00:43.186888"
+            "m3u8_extracted_at": "2026-01-04T18:23:45.060752"
           }
         ]
       }
