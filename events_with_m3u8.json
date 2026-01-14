@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2026-01-14T06:26:09.134852",
+    "fetched_at": "2026-01-14T12:34:56.727437",
     "source": "https://old.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-01-14T06:53:00.626471",
-      "total_streams": 86,
+      "extracted_at": "2026-01-14T12:38:39.854919",
+      "total_streams": 89,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 86,
-        "successful_requests": 86,
+        "total_requests": 89,
+        "successful_requests": 89,
         "failed_requests": 0,
-        "elapsed_time_seconds": 205.27
+        "elapsed_time_seconds": 207.74
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1768371970,
+    "timestamp": 1768394100,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.019719839096069336,
+    "performance": 0.0196530818939209,
     "streams": [
       {
         "category": "American Football",
@@ -114,26 +114,6 @@
         "id": 37,
         "always_live": false,
         "streams": [
-          {
-            "id": 16138,
-            "name": "Portland Trail Blazers vs. Golden State Warriors",
-            "tag": "NBC",
-            "poster": "https://old.ppv.to/assets/thumb/74ab6a28f17d3ba4e795b350af1d3292-thumbnail.jpg",
-            "blurhash": "L3JPSL4f024@v~nOoLX900G..k^}",
-            "colors": [
-              "#e03a3e",
-              "#fdb927"
-            ],
-            "uri_name": "nba/2026-01-13/por-gs",
-            "starts_at": 1768363200,
-            "ends_at": 1768373280,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Basketball",
-            "iframe": "https://modistreams.org/embed/nba/2026-01-13/por-gs",
-            "viewers": "1026",
-            "substreams": []
-          },
           {
             "id": 16148,
             "name": "Toronto Raptors vs. Indiana Pacers",
@@ -231,7 +211,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://modistreams.org/embed/nba/2026-01-14/den-dal",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -320,12 +300,12 @@
             ],
             "uri_name": "afcon/2026-01-14/sen-egy",
             "starts_at": 1768410000,
-            "ends_at": 1768417200,
+            "ends_at": 1768420800,
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/afcon/2026-01-14/sen-egy",
-            "viewers": "1",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -430,7 +410,7 @@
           },
           {
             "id": 16081,
-            "name": "Internazionale vs. Lecce",
+            "name": "Inter Milan vs. Lecce",
             "tag": "Serie A",
             "poster": "https://old.ppv.to/assets/thumb/013c427391a9dbe9e49df0c175a9b943-thumbnail.jpg",
             "blurhash": "L785H#_44T8_ofbIf5jY009E?c.8",
@@ -465,7 +445,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/carabao-cup/2026-01-14/che-ars",
-            "viewers": "1",
+            "viewers": "4",
             "substreams": []
           },
           {
@@ -480,11 +460,71 @@
             ],
             "uri_name": "afcon/2026-01-14/nga-mar",
             "starts_at": 1768420800,
-            "ends_at": 1768428000,
+            "ends_at": 1768431600,
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/afcon/2026-01-14/nga-mar",
+            "viewers": "1",
+            "substreams": []
+          },
+          {
+            "id": 16162,
+            "name": "Alavés vs. Rayo Vallecano",
+            "tag": "Copa del Rey",
+            "poster": "https://old.ppv.to/assets/thumb/f0a623e772f5018ed1abd27164bfadf1-thumbnail.jpg",
+            "blurhash": "LTHxwA0C4m~ft6IS%Gt9IaV[ofbb",
+            "colors": [
+              "#01008c",
+              "#8b8b8b"
+            ],
+            "uri_name": "copa-del-rey/2026-01-14/ala-ray",
+            "starts_at": 1768420800,
+            "ends_at": 1768429800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://modistreams.org/embed/copa-del-rey/2026-01-14/ala-ray",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 16163,
+            "name": "Albacete vs. Real Madrid",
+            "tag": "Copa del Rey",
+            "poster": "https://old.ppv.to/assets/thumb/c9bd84be97bcc7917959ccee6f47da59-thumbnail.jpg",
+            "blurhash": "LTKJ#|4T0K?^ozE1x]xaa$adofa#",
+            "colors": [
+              "#67030b",
+              "#8b8b8b"
+            ],
+            "uri_name": "copa-del-rey/2026-01-14/alb-rma",
+            "starts_at": 1768420800,
+            "ends_at": 1768429800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://modistreams.org/embed/copa-del-rey/2026-01-14/alb-rma",
+            "viewers": "1",
+            "substreams": []
+          },
+          {
+            "id": 16164,
+            "name": "Real Betis vs. Elche",
+            "tag": "Copa del Rey",
+            "poster": "https://old.ppv.to/assets/thumb/d591929d7935a2283960c69a3d7b8998-thumbnail.jpg",
+            "blurhash": "LTHM0{004U~Es:IB%MxuS5V?ofX8",
+            "colors": [
+              "#164c00",
+              "#8b8b8b"
+            ],
+            "uri_name": "copa-del-rey/2026-01-14/bet-elc",
+            "starts_at": 1768420800,
+            "ends_at": 1768429800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://modistreams.org/embed/copa-del-rey/2026-01-14/bet-elc",
             "viewers": "0",
             "substreams": []
           },
@@ -690,7 +730,7 @@
           },
           {
             "id": 16085,
-            "name": "Udinese vs. Internazionale",
+            "name": "Udinese vs. Inter Milan",
             "tag": "Serie A",
             "poster": "https://old.ppv.to/assets/thumb/def27987121f6e8e0b349ca3a72eac55-thumbnail.jpg",
             "blurhash": "L78OQ79D4T?dkDayf5j[00-??vD#",
@@ -1365,7 +1405,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/laliga/2026-01-18/cel-ray",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1625,6 +1665,33 @@
         ]
       },
       {
+        "category": "Snooker",
+        "id": 59,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 15987,
+            "name": "The Masters",
+            "tag": "TNT Sports",
+            "poster": "https://old.ppv.to/assets/thumb/9281e0642d8407f9155de473b9dccd88-thumbnail.jpg",
+            "blurhash": "L5BCS?@t00UGFcx[}Zzq01t7-oni",
+            "colors": [
+              "#141413",
+              "#141413"
+            ],
+            "uri_name": "snooker/masters",
+            "starts_at": 1768395600,
+            "ends_at": 1768431600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Snooker",
+            "iframe": "https://modistreams.org/embed/snooker/masters",
+            "viewers": "9",
+            "substreams": []
+          }
+        ]
+      },
+      {
         "category": "Wrestling",
         "id": 38,
         "always_live": false,
@@ -1733,7 +1800,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://modistreams.org/embed/247-south-park",
-            "viewers": "37",
+            "viewers": "22",
             "substreams": []
           },
           {
@@ -1773,7 +1840,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://modistreams.org/embed/247-family-guy",
-            "viewers": "43",
+            "viewers": "25",
             "substreams": []
           },
           {
@@ -1793,7 +1860,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://modistreams.org/embed/247-the-simpsons",
-            "viewers": "13",
+            "viewers": "11",
             "substreams": []
           }
         ]
