@@ -1,72 +1,32 @@
 {
   "metadata": {
-    "fetched_at": "2026-01-18T01:22:15.384808",
+    "fetched_at": "2026-01-18T06:23:28.674198",
     "source": "https://old.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-01-18T02:36:48.071196",
-      "total_streams": 50,
+      "extracted_at": "2026-01-18T06:25:06.633744",
+      "total_streams": 38,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 50,
-        "successful_requests": 50,
+        "total_requests": 38,
+        "successful_requests": 38,
         "failed_requests": 0,
-        "elapsed_time_seconds": 111.81
+        "elapsed_time_seconds": 84.85
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1768699340,
+    "timestamp": 1768717410,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.012775897979736328,
+    "performance": 0.017576932907104492,
     "streams": [
       {
         "category": "American Football",
         "id": 26,
         "always_live": false,
         "streams": [
-          {
-            "id": 16122,
-            "name": "Buffalo Bills vs. Denver Broncos",
-            "tag": "CBS",
-            "poster": "https://old.ppv.to/assets/thumb/53b58d0a3dd209ebdfc361e325b5b2d6-thumbnail.jpg",
-            "blurhash": "L568O0Rv9Jxue:a#ofoJ00tJ?aM|",
-            "colors": [
-              "#00338d",
-              "#0a2343"
-            ],
-            "uri_name": "nfl/2026-01-17/buf-den",
-            "starts_at": 1768685400,
-            "ends_at": 1768701600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "American Football",
-            "iframe": "https://modistreams.org/embed/nfl/2026-01-17/buf-den",
-            "viewers": "4167",
-            "substreams": []
-          },
-          {
-            "id": 16127,
-            "name": "San Francisco 49ers vs. Seattle Seahawks",
-            "tag": "FOX",
-            "poster": "https://old.ppv.to/assets/thumb/69fbeae314fa7ce3d1eefcc5436ef9e9-thumbnail.jpg",
-            "blurhash": "LA8z7b{wvMwzayjtofj[00Fxtla{",
-            "colors": [
-              "#aa0000",
-              "#002a5c"
-            ],
-            "uri_name": "nfl/2026-01-17/sf-sea",
-            "starts_at": 1768698000,
-            "ends_at": 1768710600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "American Football",
-            "iframe": "https://modistreams.org/embed/nfl/2026-01-17/sf-sea",
-            "viewers": "7764",
-            "substreams": []
-          },
           {
             "id": 16128,
             "name": "Houston Texans vs. New England Patriots",
@@ -84,7 +44,7 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://modistreams.org/embed/nfl/2026-01-18/hou-ne",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -104,7 +64,7 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://modistreams.org/embed/nfl/2026-01-18/lar-chi",
-            "viewers": "0",
+            "viewers": "2",
             "substreams": []
           }
         ]
@@ -115,162 +75,122 @@
         "always_live": false,
         "streams": [
           {
-            "id": 16203,
-            "name": "Boston Celtics vs. Atlanta Hawks",
-            "tag": "FanDuel SN SE",
-            "poster": "https://old.ppv.to/assets/thumb/eea125abfc6eff09c1506e96a9a8d8f1-thumbnail.jpg",
-            "blurhash": "LBE^[|3g6w=|oKWVfkj[00|4%2Io",
+            "id": 16232,
+            "name": "Orlando Magic vs. Memphis Grizzlies",
+            "tag": "Prime Video",
+            "poster": "https://old.ppv.to/assets/thumb/45197485740fe441f4eb72d59edf7ea5-thumbnail.jpg",
+            "blurhash": "L47Lc+EY4pD*bJazj[j[00RM?a-:",
             "colors": [
-              "#008348",
-              "#c8102e"
+              "#0150b5",
+              "#5d76a9"
             ],
-            "uri_name": "nba/2026-01-17/bos-atl",
-            "starts_at": 1768696200,
-            "ends_at": 1768706280,
+            "uri_name": "nba/2026-01-18/orl-mem",
+            "starts_at": 1768755600,
+            "ends_at": 1768765680,
             "always_live": 0,
             "locale": "en",
             "category_name": "Basketball",
-            "iframe": "https://modistreams.org/embed/nba/2026-01-17/bos-atl",
-            "viewers": "357",
+            "iframe": "https://modistreams.org/embed/nba/2026-01-18/orl-mem",
+            "viewers": "0",
             "substreams": []
           },
           {
-            "id": 16205,
-            "name": "Indiana Pacers vs. Detroit Pistons",
-            "tag": "FanDuel SN DET",
-            "poster": "https://old.ppv.to/assets/thumb/09fd99ec708e9603ef94fd8c1a93e93c-thumbnail.jpg",
-            "blurhash": "L48gaU0]8^|6t6obfRR-00}K?b6]",
+            "id": 16235,
+            "name": "Brooklyn Nets vs. Chicago Bulls",
+            "tag": "CHSN",
+            "poster": "https://old.ppv.to/assets/thumb/b39f75015720bee071b6f54aeb68abfb-thumbnail.jpg",
+            "blurhash": "L6E^B94R0{L~s:ayfkbG00..-p.S",
             "colors": [
-              "#0c2340",
-              "#1d428a"
+              "#000000",
+              "#ce1141"
             ],
-            "uri_name": "nba/2026-01-17/ind-det",
-            "starts_at": 1768696200,
-            "ends_at": 1768706280,
+            "uri_name": "nba/2026-01-18/bkn-chi",
+            "starts_at": 1768780800,
+            "ends_at": 1768790880,
             "always_live": 0,
             "locale": "en",
             "category_name": "Basketball",
-            "iframe": "https://modistreams.org/embed/nba/2026-01-17/ind-det",
-            "viewers": "212",
+            "iframe": "https://modistreams.org/embed/nba/2026-01-18/bkn-chi",
+            "viewers": "0",
             "substreams": []
           },
           {
-            "id": 16207,
-            "name": "Phoenix Suns vs. New York Knicks",
-            "tag": "NBA TV",
-            "poster": "https://old.ppv.to/assets/thumb/fde94a318b7f5886295cb9825c91d4a6-thumbnail.jpg",
-            "blurhash": "L27^l,zA00GIxHWBbIbb00L2~W+s",
+            "id": 16237,
+            "name": "New Orleans Pelicans vs. Houston Rockets",
+            "tag": "Space City Home Network",
+            "poster": "https://old.ppv.to/assets/thumb/bc4fd9c3166fb455fa54f1c079381276-thumbnail.jpg",
+            "blurhash": "L8E9WC2?0|#mo2W;fkja0x{#-VS#",
             "colors": [
-              "#29127a",
-              "#1d428a"
+              "#0a2240",
+              "#ce1141"
             ],
-            "uri_name": "nba/2026-01-17/phx-ny",
-            "starts_at": 1768696200,
-            "ends_at": 1768706280,
+            "uri_name": "nba/2026-01-18/no-hou",
+            "starts_at": 1768780800,
+            "ends_at": 1768790880,
             "always_live": 0,
             "locale": "en",
             "category_name": "Basketball",
-            "iframe": "https://modistreams.org/embed/nba/2026-01-17/phx-ny",
-            "viewers": "561",
+            "iframe": "https://modistreams.org/embed/nba/2026-01-18/no-hou",
+            "viewers": "0",
             "substreams": []
           },
           {
-            "id": 16209,
-            "name": "Oklahoma City Thunder vs. Miami Heat",
-            "tag": "FanDuel SN OK",
-            "poster": "https://old.ppv.to/assets/thumb/d3fc7dff9c9e6244433fe2a5a78bbd7d-thumbnail.jpg",
-            "blurhash": "LDBB[680F#o#ofayj[fk0cv|xCn$",
-            "colors": [
-              "#007ac1",
-              "#98002e"
-            ],
-            "uri_name": "nba/2026-01-17/okc-mia",
-            "starts_at": 1768698000,
-            "ends_at": 1768708080,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Basketball",
-            "iframe": "https://modistreams.org/embed/nba/2026-01-17/okc-mia",
-            "viewers": "305",
-            "substreams": []
-          },
-          {
-            "id": 16211,
-            "name": "Minnesota Timberwolves vs. San Antonio Spurs",
-            "tag": "FanDuel SN SW",
-            "poster": "https://old.ppv.to/assets/thumb/ffb997d9743617247058c971180485d9-thumbnail.jpg",
-            "blurhash": "L74oWmt:I^bdj]a}j]f68^V=%1jY",
-            "colors": [
-              "#266092",
-              "#000000"
-            ],
-            "uri_name": "nba/2026-01-17/min-sa",
-            "starts_at": 1768698000,
-            "ends_at": 1768708080,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Basketball",
-            "iframe": "https://modistreams.org/embed/nba/2026-01-17/min-sa",
-            "viewers": "803",
-            "substreams": []
-          },
-          {
-            "id": 16213,
-            "name": "Charlotte Hornets vs. Golden State Warriors",
-            "tag": "NBC Sports BA",
-            "poster": "https://old.ppv.to/assets/thumb/b0fcf61f1eadb1609d96ca4b99ab01d3-thumbnail.jpg",
-            "blurhash": "L9G8V@0[0;N5ofj[j[WV00;^-l-O",
+            "id": 16238,
+            "name": "Charlotte Hornets vs. Denver Nuggets",
+            "tag": "Altitude Sports",
+            "poster": "https://old.ppv.to/assets/thumb/cc7c8e8dc5f3a25f0faf464071a9ac32-thumbnail.jpg",
+            "blurhash": "LB6*]+L4Os%0ofj[j[f600v{xZNK",
             "colors": [
               "#008ca8",
-              "#fdb927"
-            ],
-            "uri_name": "nba/2026-01-17/cha-gs",
-            "starts_at": 1768699800,
-            "ends_at": 1768709880,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Basketball",
-            "iframe": "https://modistreams.org/embed/nba/2026-01-17/cha-gs",
-            "viewers": "35",
-            "substreams": []
-          },
-          {
-            "id": 16216,
-            "name": "Washington Wizards vs. Denver Nuggets",
-            "tag": "Altitude Sports",
-            "poster": "https://old.ppv.to/assets/thumb/9572d81ff56c0fb1afb9290ad4e36e08-thumbnail.jpg",
-            "blurhash": "LGBCGn}H:++toLo2j[a|0LI.S~OZ",
-            "colors": [
-              "#e31837",
               "#0e2240"
             ],
-            "uri_name": "nba/2026-01-17/wsh-den",
-            "starts_at": 1768701600,
-            "ends_at": 1768711680,
+            "uri_name": "nba/2026-01-18/cha-den",
+            "starts_at": 1768784400,
+            "ends_at": 1768794480,
             "always_live": 0,
             "locale": "en",
             "category_name": "Basketball",
-            "iframe": "https://modistreams.org/embed/nba/2026-01-17/wsh-den",
-            "viewers": "6",
+            "iframe": "https://modistreams.org/embed/nba/2026-01-18/cha-den",
+            "viewers": "0",
             "substreams": []
           },
           {
-            "id": 16218,
-            "name": "Los Angeles Lakers vs. Portland Trail Blazers",
-            "tag": "NBA TV",
-            "poster": "https://old.ppv.to/assets/thumb/a192d60ff2b04601b3fbb8cdb77fe0c9-thumbnail.jpg",
-            "blurhash": "L4G6F=2z0n5ZrrX9bInh00[B^i^K",
+            "id": 16239,
+            "name": "Portland Trail Blazers vs. Sacramento Kings",
+            "tag": "NBC Sports CA",
+            "poster": "https://old.ppv.to/assets/thumb/f17129de47fc89f6ec9c9b299a96b7f8-thumbnail.jpg",
+            "blurhash": "LEC#cS{c+a-VjGjYj[bH0JO@TJI:",
             "colors": [
-              "#552583",
-              "#e03a3e"
+              "#e03a3e",
+              "#5a2d81"
             ],
-            "uri_name": "nba/2026-01-17/lal-por",
-            "starts_at": 1768705200,
-            "ends_at": 1768715280,
+            "uri_name": "nba/2026-01-18/por-sac",
+            "starts_at": 1768788000,
+            "ends_at": 1768798080,
             "always_live": 0,
             "locale": "en",
             "category_name": "Basketball",
-            "iframe": "https://modistreams.org/embed/nba/2026-01-17/lal-por",
+            "iframe": "https://modistreams.org/embed/nba/2026-01-18/por-sac",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 16240,
+            "name": "Toronto Raptors vs. Los Angeles Lakers",
+            "tag": "Spectrum Sports Net",
+            "poster": "https://old.ppv.to/assets/thumb/731fe91d62e23e80950913e2bdbc4d01-thumbnail.jpg",
+            "blurhash": "LHC|,[{d#RtPjbjsj[a|0xKiXSV[",
+            "colors": [
+              "#d91244",
+              "#552583"
+            ],
+            "uri_name": "nba/2026-01-18/tor-lal",
+            "starts_at": 1768789800,
+            "ends_at": 1768799880,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://modistreams.org/embed/nba/2026-01-18/tor-lal",
             "viewers": "2",
             "substreams": []
           }
@@ -298,7 +218,7 @@
             "locale": "en",
             "category_name": "Combat Sports",
             "iframe": "https://modistreams.org/embed/ufc-324",
-            "viewers": "5",
+            "viewers": "6",
             "substreams": []
           }
         ]
@@ -525,7 +445,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/premierleague/2026-01-18/avl-eve",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -565,6 +485,26 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/laliga/2026-01-18/cel-ray",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 16231,
+            "name": "Senegal vs. Morocco",
+            "tag": "AFCON",
+            "poster": "https://old.ppv.to/assets/thumb/04680063d5f3e3dedeecd9ffca34e0ef-thumbnail.jpg",
+            "blurhash": "L28hpp8f7^QDoybFbGf700@6@xuc",
+            "colors": [
+              "#00853f",
+              "#009060"
+            ],
+            "uri_name": "afcon/2026-01-18/sen-mar",
+            "starts_at": 1768762800,
+            "ends_at": 1768770000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://modistreams.org/embed/afcon/2026-01-18/sen-mar",
             "viewers": "0",
             "substreams": []
           },
@@ -685,7 +625,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/laliga/2026-01-19/elc-sev",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -716,182 +656,62 @@
         "always_live": false,
         "streams": [
           {
-            "id": 16210,
-            "name": "Montreal Canadiens vs. Ottawa Senators",
-            "tag": "ESPN+",
-            "poster": "https://old.ppv.to/assets/thumb/be29440dfdd39c13ef179fa12b15c137-thumbnail.jpg",
-            "blurhash": "L2Ht:#3?0dH;,tW;ayjZ00iG^+%$",
-            "colors": [
-              "#c41230",
-              "#dd1a32"
-            ],
-            "uri_name": "nhl/2026-01-17/mtl-ott",
-            "starts_at": 1768694400,
-            "ends_at": 1768705200,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://modistreams.org/embed/nhl/2026-01-17/mtl-ott",
-            "viewers": "292",
-            "substreams": []
-          },
-          {
-            "id": 16212,
-            "name": "Carolina Hurricanes vs. New Jersey Devils",
-            "tag": "MSGSN",
-            "poster": "https://old.ppv.to/assets/thumb/eeb9bc88aa150cbe10a1a4155839dba3-thumbnail.jpg",
-            "blurhash": "L1I^uwIB4T-o=yRjens:00-U_NI=",
-            "colors": [
-              "#e30426",
-              "#e30b2b"
-            ],
-            "uri_name": "nhl/2026-01-17/car-nj",
-            "starts_at": 1768694400,
-            "ends_at": 1768705200,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://modistreams.org/embed/nhl/2026-01-17/car-nj",
-            "viewers": "33",
-            "substreams": []
-          },
-          {
-            "id": 16214,
-            "name": "Columbus Blue Jackets vs. Pittsburgh Penguins",
-            "tag": "ESPN+",
-            "poster": "https://old.ppv.to/assets/thumb/a0bf646bfb3c5e9be7da069c430e6687-thumbnail.jpg",
-            "blurhash": "L26kFyEE9K_3xuRjays:00%X?a4:",
-            "colors": [
-              "#002d62",
-              "#000000"
-            ],
-            "uri_name": "nhl/2026-01-17/cbj-pit",
-            "starts_at": 1768694400,
-            "ends_at": 1768705200,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://modistreams.org/embed/nhl/2026-01-17/cbj-pit",
-            "viewers": "49",
-            "substreams": []
-          },
-          {
-            "id": 16215,
-            "name": "Florida Panthers vs. Washington Capitals",
-            "tag": "MNMT",
-            "poster": "https://old.ppv.to/assets/thumb/8ef8936e201cb610144686d883b8a062-thumbnail.jpg",
-            "blurhash": "L2H@sS~Wm7*g,@s:ayWV00H@yqLK",
-            "colors": [
-              "#e51937",
-              "#d71830"
-            ],
-            "uri_name": "nhl/2026-01-17/fla-wsh",
-            "starts_at": 1768694400,
-            "ends_at": 1768705200,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://modistreams.org/embed/nhl/2026-01-17/fla-wsh",
-            "viewers": "30",
-            "substreams": []
-          },
-          {
-            "id": 16217,
-            "name": "Toronto Maple Leafs vs. Winnipeg Jets",
-            "tag": "NHL Net",
-            "poster": "https://old.ppv.to/assets/thumb/6e21b7d671357781f7a49b982e59f7c2-thumbnail.jpg",
-            "blurhash": "L45~380OD+~Wj]WBayof00_1-:4o",
+            "id": 16233,
+            "name": "Tampa Bay Lightning vs. Dallas Stars",
+            "tag": "Victory+",
+            "poster": "https://old.ppv.to/assets/thumb/106664a5914e3c9271ed4cfd43a4ae71-thumbnail.jpg",
+            "blurhash": "L24NJ58]05-=kVjbaybF00.a_LE0",
             "colors": [
               "#003e7e",
-              "#002d62"
+              "#20864c"
             ],
-            "uri_name": "nhl/2026-01-17/tor-wpg",
-            "starts_at": 1768694400,
-            "ends_at": 1768705200,
+            "uri_name": "nhl/2026-01-18/tb-dal",
+            "starts_at": 1768762800,
+            "ends_at": 1768773600,
             "always_live": 0,
             "locale": "en",
             "category_name": "Ice Hockey",
-            "iframe": "https://modistreams.org/embed/nhl/2026-01-17/tor-wpg",
-            "viewers": "159",
-            "substreams": []
-          },
-          {
-            "id": 16219,
-            "name": "Boston Bruins vs. Chicago Blackhawks",
-            "tag": "CHSN",
-            "poster": "https://old.ppv.to/assets/thumb/ae2a01e9414f619491bd77613a61adcd-thumbnail.jpg",
-            "blurhash": "L4F{q~4R0y4nspfkayWV00@G^k~C",
-            "colors": [
-              "#231f20",
-              "#e31937"
-            ],
-            "uri_name": "nhl/2026-01-17/bos-chi",
-            "starts_at": 1768698000,
-            "ends_at": 1768708800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://modistreams.org/embed/nhl/2026-01-17/bos-chi",
-            "viewers": "52",
-            "substreams": []
-          },
-          {
-            "id": 16221,
-            "name": "Edmonton Oilers vs. Vancouver Canucks",
-            "tag": "ESPN+",
-            "poster": "https://old.ppv.to/assets/thumb/38e098dfba7c04cdcaaedc1eefb00f6f-thumbnail.jpg",
-            "blurhash": "L46IEp~TDi0JxuxaayRj004o-;^,",
-            "colors": [
-              "#00205b",
-              "#003e7e"
-            ],
-            "uri_name": "nhl/2026-01-17/edm-van",
-            "starts_at": 1768705200,
-            "ends_at": 1768716000,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://modistreams.org/embed/nhl/2026-01-17/edm-van",
-            "viewers": "1",
-            "substreams": []
-          },
-          {
-            "id": 16222,
-            "name": "Nashville Predators vs. Vegas Golden Knights",
-            "tag": "Scripps Sports",
-            "poster": "https://old.ppv.to/assets/thumb/78fede552d4d01f3b3adc503cbb706c3-thumbnail.jpg",
-            "blurhash": "LNB{rk~6-O$yoLfQfQj@4;IqSiS5",
-            "colors": [
-              "#fdba31",
-              "#344043"
-            ],
-            "uri_name": "nhl/2026-01-17/nsh-vgk",
-            "starts_at": 1768705200,
-            "ends_at": 1768716000,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://modistreams.org/embed/nhl/2026-01-17/nsh-vgk",
+            "iframe": "https://modistreams.org/embed/nhl/2026-01-18/tb-dal",
             "viewers": "0",
             "substreams": []
           },
           {
-            "id": 16223,
-            "name": "Los Angeles Kings vs. Anaheim Ducks",
-            "tag": "Victory+",
-            "poster": "https://old.ppv.to/assets/thumb/98ae10b181507ee808cf217adb88b0d9-thumbnail.jpg",
-            "blurhash": "LAG$Yc0~0}t7ofayayfk01}Y-Vrr",
+            "id": 16234,
+            "name": "Ottawa Senators vs. Detroit Red Wings",
+            "tag": "FanDuel SN DET",
+            "poster": "https://old.ppv.to/assets/thumb/4f782f9ad94bcb846031e182c9967a3a-thumbnail.jpg",
+            "blurhash": "L3I,+D1GH?}b$QjFfkW:00^7%#1F",
             "colors": [
-              "#121212",
-              "#fc4c02"
+              "#dd1a32",
+              "#e30526"
             ],
-            "uri_name": "nhl/2026-01-17/la-ana",
-            "starts_at": 1768705200,
-            "ends_at": 1768716000,
+            "uri_name": "nhl/2026-01-18/ott-det",
+            "starts_at": 1768773600,
+            "ends_at": 1768784400,
             "always_live": 0,
             "locale": "en",
             "category_name": "Ice Hockey",
-            "iframe": "https://modistreams.org/embed/nhl/2026-01-17/la-ana",
+            "iframe": "https://modistreams.org/embed/nhl/2026-01-18/ott-det",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 16236,
+            "name": "St. Louis Blues vs. Edmonton Oilers",
+            "tag": "ESPN+",
+            "poster": "https://old.ppv.to/assets/thumb/3448e9434a7b83b2db10f8deb8ec0d7a-thumbnail.jpg",
+            "blurhash": "L66R=vBaJ=?cxuR*ayof00=?$~D$",
+            "colors": [
+              "#0070b9",
+              "#00205b"
+            ],
+            "uri_name": "nhl/2026-01-18/stl-edm",
+            "starts_at": 1768784400,
+            "ends_at": 1768795200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Ice Hockey",
+            "iframe": "https://modistreams.org/embed/nhl/2026-01-18/stl-edm",
             "viewers": "0",
             "substreams": []
           }
@@ -925,80 +745,6 @@
         ]
       },
       {
-        "category": "Motorsports",
-        "id": 35,
-        "always_live": false,
-        "streams": [
-          {
-            "id": 15856,
-            "name": "Supercross: San Diego",
-            "tag": "Peacock",
-            "poster": "https://old.ppv.to/assets/thumb/987906340148eb24238a7ba4ceb6cb9f-thumbnail.jpg",
-            "blurhash": "L3559Pof00NDx^fhMzWT00R%~oxc",
-            "colors": [
-              "#0e0727",
-              "#120931"
-            ],
-            "uri_name": "smx-wk2",
-            "starts_at": 1768672800,
-            "ends_at": 1768708800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Motorsports",
-            "iframe": "https://modistreams.org/embed/smx-wk2",
-            "viewers": "705",
-            "substreams": []
-          }
-        ]
-      },
-      {
-        "category": "Wrestling",
-        "id": 38,
-        "always_live": false,
-        "streams": [
-          {
-            "id": 16108,
-            "name": "AEW: Saturday Night Collision",
-            "tag": "TNT",
-            "poster": "https://old.ppv.to/assets/thumb/6e29b1bb679dd5133c85bbaadc2c4b13-thumbnail.jpg",
-            "blurhash": "LDDk_9Na01of}mNwNMbF0TS#^cae",
-            "colors": [
-              "#210e10",
-              "#160c0a"
-            ],
-            "uri_name": "aew/collision/2026-01-17",
-            "starts_at": 1768698000,
-            "ends_at": 1768708800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Wrestling",
-            "iframe": "https://modistreams.org/embed/aew/collision/2026-01-17",
-            "viewers": "48",
-            "substreams": []
-          },
-          {
-            "id": 16229,
-            "name": "TNA Genesis",
-            "tag": "PPV",
-            "poster": "https://old.ppv.to/assets/thumb/94ed254e67d24318d9d38c0be155a4d5-thumbnail.jpg",
-            "blurhash": "LCA^XwS#00$Rb~WAV;WB0gnis+S$",
-            "colors": [
-              "#15162b",
-              "#181a31"
-            ],
-            "uri_name": "tna-genesis-2026",
-            "starts_at": 1768698000,
-            "ends_at": 1768712400,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Wrestling",
-            "iframe": "https://modistreams.org/embed/tna-genesis-2026",
-            "viewers": "127",
-            "substreams": []
-          }
-        ]
-      },
-      {
         "category": "24/7 Streams",
         "id": 14,
         "always_live": true,
@@ -1020,7 +766,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://modistreams.org/embed/247-south-park",
-            "viewers": "25",
+            "viewers": "26",
             "substreams": []
           },
           {
@@ -1040,7 +786,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://modistreams.org/embed/247-cows",
-            "viewers": "2",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1060,7 +806,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://modistreams.org/embed/247-family-guy",
-            "viewers": "19",
+            "viewers": "36",
             "substreams": []
           },
           {
@@ -1080,7 +826,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://modistreams.org/embed/247-the-simpsons",
-            "viewers": "6",
+            "viewers": "13",
             "substreams": []
           }
         ]
