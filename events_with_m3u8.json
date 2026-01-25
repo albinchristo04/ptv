@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2026-01-25T12:31:42.923723",
+    "fetched_at": "2026-01-25T18:22:27.542163",
     "source": "https://old.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-01-25T13:03:12.092120",
-      "total_streams": 51,
+      "extracted_at": "2026-01-25T18:24:17.623992",
+      "total_streams": 42,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 51,
-        "successful_requests": 51,
+        "total_requests": 42,
+        "successful_requests": 42,
         "failed_requests": 0,
-        "elapsed_time_seconds": 112.48
+        "elapsed_time_seconds": 95.94
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1769344310,
+    "timestamp": 1769365350,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.019096851348876953,
+    "performance": 0.02170109748840332,
     "streams": [
       {
         "category": "American Football",
@@ -44,7 +44,7 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://modistreams.org/embed/nfl/2026-01-25/ne-den",
-            "viewers": "2",
+            "viewers": "81",
             "substreams": []
           },
           {
@@ -64,7 +64,7 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://modistreams.org/embed/nfl/2026-01-25/lar-sea",
-            "viewers": "1",
+            "viewers": "3",
             "substreams": []
           }
         ]
@@ -237,210 +237,37 @@
         ]
       },
       {
+        "category": "Combat Sports",
+        "id": 33,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 16484,
+            "name": "UFC 325: Volkanovski vs. Lopes 2",
+            "tag": "Paramount+",
+            "poster": "https://old.ppv.to/assets/thumb/49ff6d9c50f12a66e31590661fa2ff8a-thumbnail.jpg",
+            "blurhash": "L7CQCrM,00-$00te%gRC*8sDwNI;",
+            "colors": [
+              "#050608",
+              "#040807"
+            ],
+            "uri_name": "ufc-325-volkanovski-vs.-lopes-2",
+            "starts_at": 1769896800,
+            "ends_at": 1769932800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Combat Sports",
+            "iframe": "https://modistreams.org/embed/ufc-325-volkanovski-vs.-lopes-2",
+            "viewers": "0",
+            "substreams": []
+          }
+        ]
+      },
+      {
         "category": "Football",
         "id": 34,
         "always_live": false,
         "streams": [
-          {
-            "id": 16294,
-            "name": "Sassuolo vs. Cremonese",
-            "tag": "Serie A",
-            "poster": "https://old.ppv.to/assets/thumb/d02e9f485c277128a8be31462d6de6f3-thumbnail.jpg",
-            "blurhash": "L57xhoAn00=NohkBjYf600=M_NAU",
-            "colors": [
-              "#003799",
-              "#003799"
-            ],
-            "uri_name": "seriea/2026-01-25/sas-cre",
-            "starts_at": 1769340600,
-            "ends_at": 1769349600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://modistreams.org/embed/seriea/2026-01-25/sas-cre",
-            "viewers": "50",
-            "substreams": []
-          },
-          {
-            "id": 16266,
-            "name": "Atlético Madrid vs. Mallorca",
-            "tag": "LaLiga",
-            "poster": "https://old.ppv.to/assets/thumb/34bc325967aadbf1ca6d2e851df6745f-thumbnail.jpg",
-            "blurhash": "L6JN,;tn0eMvbcW=WVn%00RN}@xw",
-            "colors": [
-              "#992d29",
-              "#992d29"
-            ],
-            "uri_name": "laliga/2026-01-25/atm-mll",
-            "starts_at": 1769346000,
-            "ends_at": 1769355000,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://modistreams.org/embed/laliga/2026-01-25/atm-mll",
-            "viewers": "4",
-            "substreams": []
-          },
-          {
-            "id": 16285,
-            "name": "Brentford vs. Nottingham Forest",
-            "tag": "Premier League",
-            "poster": "https://old.ppv.to/assets/thumb/c5e49fda051a2572659ce17a057b669f-thumbnail.jpg",
-            "blurhash": "L69GB@}YD~5-afofayWB005l%3=d",
-            "colors": [
-              "#250f37",
-              "#250f37"
-            ],
-            "uri_name": "premierleague/2026-01-25/bre-nfo",
-            "starts_at": 1769349600,
-            "ends_at": 1769358600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://modistreams.org/embed/premierleague/2026-01-25/bre-nfo",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 16286,
-            "name": "Crystal Palace vs. Chelsea",
-            "tag": "Premier League",
-            "poster": "https://old.ppv.to/assets/thumb/e91a336c1419775ae5bce4534abd97f2-thumbnail.jpg",
-            "blurhash": "L38NO;014,_MWWRkayt600_3-=4n",
-            "colors": [
-              "#250f37",
-              "#250f37"
-            ],
-            "uri_name": "premierleague/2026-01-25/cry-che",
-            "starts_at": 1769349600,
-            "ends_at": 1769358600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://modistreams.org/embed/premierleague/2026-01-25/cry-che",
-            "viewers": "3",
-            "substreams": []
-          },
-          {
-            "id": 16287,
-            "name": "Newcastle United vs. Aston Villa",
-            "tag": "Premier League",
-            "poster": "https://old.ppv.to/assets/thumb/353bf8b9e4e30321e7c15867f8e22de4-thumbnail.jpg",
-            "blurhash": "L27wpl010J~p$dMyWBtR00_L?c4U",
-            "colors": [
-              "#250f37",
-              "#250f37"
-            ],
-            "uri_name": "premierleague/2026-01-25/new-avl",
-            "starts_at": 1769349600,
-            "ends_at": 1769358600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://modistreams.org/embed/premierleague/2026-01-25/new-avl",
-            "viewers": "2",
-            "substreams": []
-          },
-          {
-            "id": 16295,
-            "name": "Atalanta vs. Parma",
-            "tag": "Serie A",
-            "poster": "https://old.ppv.to/assets/thumb/7e7b8eb96e639a5468afcfff45cac34d-thumbnail.jpg",
-            "blurhash": "L67_wDEo4T$^t7WZaxoH00$c_4I^",
-            "colors": [
-              "#003799",
-              "#003799"
-            ],
-            "uri_name": "seriea/2026-01-25/ata-par",
-            "starts_at": 1769349600,
-            "ends_at": 1769358600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://modistreams.org/embed/seriea/2026-01-25/ata-par",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 16296,
-            "name": "Genoa vs. Bologna",
-            "tag": "Serie A",
-            "poster": "https://old.ppv.to/assets/thumb/f185dfae6be1d8b150d812aa589288c5-thumbnail.jpg",
-            "blurhash": "L58Xl5]|4TEUx]xtaxNG00AK?w$w",
-            "colors": [
-              "#003799",
-              "#003799"
-            ],
-            "uri_name": "seriea/2026-01-25/gen-bol",
-            "starts_at": 1769349600,
-            "ends_at": 1769358600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://modistreams.org/embed/seriea/2026-01-25/gen-bol",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 16304,
-            "name": "Nantes vs. Nice",
-            "tag": "Ligue 1",
-            "poster": "https://old.ppv.to/assets/thumb/e5ffc6351a36b50c240acc775a1c30ef-thumbnail.jpg",
-            "blurhash": "L58OG$~cD44#t4t2j?Ro004#%j?j",
-            "colors": [
-              "#053999",
-              "#053999"
-            ],
-            "uri_name": "ligue1/2026-01-25/nan-nice",
-            "starts_at": 1769349600,
-            "ends_at": 1769358600,
-            "always_live": 0,
-            "locale": "fr",
-            "category_name": "Football",
-            "iframe": "https://modistreams.org/embed/ligue1/2026-01-25/nan-nice",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 16278,
-            "name": "Borussia Mönchengladbach vs. VfB Stuttgart",
-            "tag": "Bundesliga",
-            "poster": "https://old.ppv.to/assets/thumb/8ec41c1003e9c99a06c80edd49e90247-thumbnail.jpg",
-            "blurhash": "L5G$MM0L0K^*%2NFayt700^*~W9Z",
-            "colors": [
-              "#7e030d",
-              "#7e030d"
-            ],
-            "uri_name": "bundesliga/2026-01-25/bmg-vfb",
-            "starts_at": 1769351400,
-            "ends_at": 1769360400,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://modistreams.org/embed/bundesliga/2026-01-25/bmg-vfb",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 16267,
-            "name": "Barcelona vs. Real Oviedo",
-            "tag": "LaLiga",
-            "poster": "https://old.ppv.to/assets/thumb/4985f86be23cc7e0898ef1d32a823efd-thumbnail.jpg",
-            "blurhash": "L5JXauNG0e-V$et7WVRj00xH}[I.",
-            "colors": [
-              "#992d29",
-              "#992d29"
-            ],
-            "uri_name": "laliga/2026-01-25/bar-ovi",
-            "starts_at": 1769354100,
-            "ends_at": 1769363100,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://modistreams.org/embed/laliga/2026-01-25/bar-ovi",
-            "viewers": "0",
-            "substreams": []
-          },
           {
             "id": 16305,
             "name": "Brest vs. Toulouse",
@@ -458,7 +285,7 @@
             "locale": "fr",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/ligue1/2026-01-25/bre-tou",
-            "viewers": "0",
+            "viewers": "13",
             "substreams": []
           },
           {
@@ -478,7 +305,7 @@
             "locale": "fr",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/ligue1/2026-01-25/metz-lyon",
-            "viewers": "0",
+            "viewers": "137",
             "substreams": []
           },
           {
@@ -498,7 +325,7 @@
             "locale": "fr",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/ligue1/2026-01-25/par-ang",
-            "viewers": "0",
+            "viewers": "12",
             "substreams": []
           },
           {
@@ -518,7 +345,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/bundesliga/2026-01-25/scf-koe",
-            "viewers": "0",
+            "viewers": "73",
             "substreams": []
           },
           {
@@ -538,7 +365,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/premierleague/2026-01-25/ars-man",
-            "viewers": "4",
+            "viewers": "21184",
             "substreams": []
           },
           {
@@ -558,7 +385,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/seriea/2026-01-25/juv-nap",
-            "viewers": "0",
+            "viewers": "559",
             "substreams": []
           },
           {
@@ -578,7 +405,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/laliga/2026-01-25/rso-cel",
-            "viewers": "0",
+            "viewers": "47",
             "substreams": []
           },
           {
@@ -598,7 +425,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/seriea/2026-01-25/roma-mil",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -618,7 +445,7 @@
             "locale": "fr",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/ligue1/2026-01-25/lill-str",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -638,7 +465,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://modistreams.org/embed/laliga/2026-01-25/ala-bet",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -725,7 +552,7 @@
             "locale": "en",
             "category_name": "Ice Hockey",
             "iframe": "https://modistreams.org/embed/nhl/2026-01-25/col-tor",
-            "viewers": "0",
+            "viewers": "30",
             "substreams": []
           },
           {
@@ -892,7 +719,7 @@
             "locale": "en",
             "category_name": "Miscellaneous",
             "iframe": "https://modistreams.org/embed/puppy-bowl-xxii",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           }
         ]
@@ -919,7 +746,7 @@
             "locale": "en",
             "category_name": "Motorsports",
             "iframe": "https://modistreams.org/embed/rolex-24-at-daytona-2026",
-            "viewers": "103",
+            "viewers": "261",
             "substreams": []
           },
           {
@@ -1033,7 +860,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://modistreams.org/embed/247-south-park",
-            "viewers": "23",
+            "viewers": "31",
             "substreams": []
           },
           {
@@ -1093,7 +920,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://modistreams.org/embed/247-the-simpsons",
-            "viewers": "17",
+            "viewers": "9",
             "substreams": []
           }
         ]
