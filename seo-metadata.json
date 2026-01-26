@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-01-26T06:38:23.756Z",
-  "total_events": 82,
+  "generated_at": "2026-01-26T12:50:50.650Z",
+  "total_events": 119,
   "categories": [
+    {
+      "id": 26,
+      "name": "American Football",
+      "slug": "american-football",
+      "event_count": 1,
+      "always_live": false,
+      "meta": {
+        "title": "American Football EN VIVO - Tarjeta Roja TV",
+        "description": "Ver American Football en vivo gratis.",
+        "keywords": "American Football, tarjeta roja, rojadirecta"
+      }
+    },
     {
       "id": 37,
       "name": "Basketball",
@@ -30,7 +42,7 @@
       "id": 34,
       "name": "Football",
       "slug": "football",
-      "event_count": 52,
+      "event_count": 88,
       "always_live": false,
       "meta": {
         "title": "Football EN VIVO - Tarjeta Roja TV",
@@ -100,6 +112,112 @@
     }
   ],
   "events": [
+    {
+      "id": 16554,
+      "slug": "seattle-seahawks-vs-new-england-patriots",
+      "uri_name": "nfl/2026-02-08/sea-ne",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/nfl/2026-02-08/sea-ne",
+      "meta": {
+        "title": "Seattle Seahawks vs. New England Patriots EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Seattle Seahawks vs. New England Patriots en vivo gratis por Tarjeta Roja TV. Seattle Seahawks vs New England Patriots transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Seattle Seahawks vs. New England Patriots, Seattle Seahawks, New England Patriots, American Football, ver online gratis, en vivo gratis, NBC",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/nfl/2026-02-08/sea-ne",
+        "title": "Seattle Seahawks vs. New England Patriots EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Seattle Seahawks vs. New England Patriots en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/0e57b3eaaf22c1c4e8739517193665cb-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Seattle Seahawks vs. New England Patriots EN VIVO",
+        "description": "Ver Seattle Seahawks vs. New England Patriots en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/0e57b3eaaf22c1c4e8739517193665cb-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Seattle Seahawks vs. New England Patriots",
+        "description": "Transmisión en vivo de Seattle Seahawks vs. New England Patriots",
+        "startDate": "2026-02-08T23:30:00.000Z",
+        "endDate": "2026-02-09T03:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/nfl/2026-02-08/sea-ne"
+        },
+        "image": "https://old.ppv.to/assets/thumb/0e57b3eaaf22c1c4e8739517193665cb-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Seattle Seahawks"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "New England Patriots"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Seattle Seahawks"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "New England Patriots"
+        },
+        "sport": "American Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "American Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/american-football"
+          },
+          {
+            "name": "Seattle Seahawks vs. New England Patriots",
+            "url": "https://tarjetarojaenvivo.live/eventos/nfl/2026-02-08/sea-ne"
+          }
+        ],
+        "h1": "Seattle Seahawks vs. New England Patriots EN VIVO",
+        "h2": "Ver Seattle Seahawks vs. New England Patriots Online Gratis"
+      },
+      "event": {
+        "name": "Seattle Seahawks vs. New England Patriots",
+        "category": "American Football",
+        "broadcaster": "NBC",
+        "start_time": "2026-02-08T23:30:00.000Z",
+        "end_time": "2026-02-09T03:00:00.000Z",
+        "duration_minutes": 210,
+        "status": "upcoming",
+        "viewers": "1",
+        "home_team": "Seattle Seahawks",
+        "away_team": "New England Patriots"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.651Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Seattle Seahawks vs. New England Patriots, Seattle Seahawks"
+      }
+    },
     {
       "id": 16486,
       "slug": "indiana-pacers-vs-atlanta-hawks",
@@ -197,7 +315,7 @@
         "away_team": "Atlanta Hawks"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.757Z",
+        "last_modified": "2026-01-26T12:50:50.651Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -303,7 +421,7 @@
         "away_team": "Charlotte Hornets"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.757Z",
+        "last_modified": "2026-01-26T12:50:50.651Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -409,7 +527,7 @@
         "away_team": "Cleveland Cavaliers"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.757Z",
+        "last_modified": "2026-01-26T12:50:50.651Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -515,7 +633,7 @@
         "away_team": "Boston Celtics"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.757Z",
+        "last_modified": "2026-01-26T12:50:50.651Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -621,7 +739,7 @@
         "away_team": "Chicago Bulls"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.757Z",
+        "last_modified": "2026-01-26T12:50:50.651Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -727,7 +845,7 @@
         "away_team": "Houston Rockets"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.757Z",
+        "last_modified": "2026-01-26T12:50:50.651Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -833,7 +951,7 @@
         "away_team": "Minnesota Timberwolves"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.757Z",
+        "last_modified": "2026-01-26T12:50:50.651Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -934,12 +1052,12 @@
         "end_time": "2026-02-01T08:00:00.000Z",
         "duration_minutes": 600,
         "status": "upcoming",
-        "viewers": "0",
+        "viewers": "1",
         "home_team": "UFC 325: Volkanovski",
         "away_team": "Lopes 2"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.757Z",
+        "last_modified": "2026-01-26T12:50:50.651Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1045,7 +1163,7 @@
         "away_team": "Udinese"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.757Z",
+        "last_modified": "2026-01-26T12:50:50.652Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1151,7 +1269,7 @@
         "away_team": "Getafe"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.757Z",
+        "last_modified": "2026-01-26T12:50:50.652Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1257,7 +1375,7 @@
         "away_team": "Leeds United"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.757Z",
+        "last_modified": "2026-01-26T12:50:50.652Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1363,7 +1481,7 @@
         "away_team": "RB Leipzig"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.757Z",
+        "last_modified": "2026-01-26T12:50:50.652Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1469,13 +1587,3829 @@
         "away_team": "TSG Hoffenheim"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.757Z",
+        "last_modified": "2026-01-26T12:50:50.652Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
         "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Werder Bremen vs. TSG Hoffenheim, Werder Bremen"
+      }
+    },
+    {
+      "id": 16555,
+      "slug": "paris-vs-newcastle",
+      "uri_name": "ucl/2026-01-28/psg-new",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/psg-new",
+      "meta": {
+        "title": "Paris vs. Newcastle EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Paris vs. Newcastle en vivo gratis por Tarjeta Roja TV. Paris vs Newcastle transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Paris vs. Newcastle, Paris, Newcastle, Football, ver online gratis, en vivo gratis, Champions League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/psg-new",
+        "title": "Paris vs. Newcastle EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Paris vs. Newcastle en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/77ce234fc941455c6145fa83893a0920-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Paris vs. Newcastle EN VIVO",
+        "description": "Ver Paris vs. Newcastle en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/77ce234fc941455c6145fa83893a0920-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Paris vs. Newcastle",
+        "description": "Transmisión en vivo de Paris vs. Newcastle",
+        "startDate": "2026-01-28T20:00:00.000Z",
+        "endDate": "2026-01-28T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/psg-new"
+        },
+        "image": "https://old.ppv.to/assets/thumb/77ce234fc941455c6145fa83893a0920-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Paris"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Newcastle"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Paris"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Newcastle"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Paris vs. Newcastle",
+            "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/psg-new"
+          }
+        ],
+        "h1": "Paris vs. Newcastle EN VIVO",
+        "h2": "Ver Paris vs. Newcastle Online Gratis"
+      },
+      "event": {
+        "name": "Paris vs. Newcastle",
+        "category": "Football",
+        "broadcaster": "Champions League",
+        "start_time": "2026-01-28T20:00:00.000Z",
+        "end_time": "2026-01-28T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Paris",
+        "away_team": "Newcastle"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Paris vs. Newcastle, Paris"
+      }
+    },
+    {
+      "id": 16556,
+      "slug": "man-city-vs-galatasaray",
+      "uri_name": "ucl/2026-01-28/mci-gal",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/mci-gal",
+      "meta": {
+        "title": "Man City vs. Galatasaray EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Man City vs. Galatasaray en vivo gratis por Tarjeta Roja TV. Man City vs Galatasaray transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Man City vs. Galatasaray, Man City, Galatasaray, Football, ver online gratis, en vivo gratis, Champions League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/mci-gal",
+        "title": "Man City vs. Galatasaray EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Man City vs. Galatasaray en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/2eb715f5fcf3f371ed22a13985b2a01c-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Man City vs. Galatasaray EN VIVO",
+        "description": "Ver Man City vs. Galatasaray en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/2eb715f5fcf3f371ed22a13985b2a01c-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Man City vs. Galatasaray",
+        "description": "Transmisión en vivo de Man City vs. Galatasaray",
+        "startDate": "2026-01-28T20:00:00.000Z",
+        "endDate": "2026-01-28T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/mci-gal"
+        },
+        "image": "https://old.ppv.to/assets/thumb/2eb715f5fcf3f371ed22a13985b2a01c-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Man City"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Galatasaray"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Man City"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Galatasaray"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Man City vs. Galatasaray",
+            "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/mci-gal"
+          }
+        ],
+        "h1": "Man City vs. Galatasaray EN VIVO",
+        "h2": "Ver Man City vs. Galatasaray Online Gratis"
+      },
+      "event": {
+        "name": "Man City vs. Galatasaray",
+        "category": "Football",
+        "broadcaster": "Champions League",
+        "start_time": "2026-01-28T20:00:00.000Z",
+        "end_time": "2026-01-28T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Man City",
+        "away_team": "Galatasaray"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Man City vs. Galatasaray, Man City"
+      }
+    },
+    {
+      "id": 16557,
+      "slug": "liverpool-vs-qarabag",
+      "uri_name": "ucl/2026-01-28/liv-qar",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/liv-qar",
+      "meta": {
+        "title": "Liverpool vs. Qarabağ EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Liverpool vs. Qarabağ en vivo gratis por Tarjeta Roja TV. Liverpool vs Qarabağ transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Liverpool vs. Qarabağ, Liverpool, Qarabağ, Football, ver online gratis, en vivo gratis, Champions League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/liv-qar",
+        "title": "Liverpool vs. Qarabağ EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Liverpool vs. Qarabağ en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/5c1483da414ba9696d63ab2e87c20d9e-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Liverpool vs. Qarabağ EN VIVO",
+        "description": "Ver Liverpool vs. Qarabağ en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/5c1483da414ba9696d63ab2e87c20d9e-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Liverpool vs. Qarabağ",
+        "description": "Transmisión en vivo de Liverpool vs. Qarabağ",
+        "startDate": "2026-01-28T20:00:00.000Z",
+        "endDate": "2026-01-28T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/liv-qar"
+        },
+        "image": "https://old.ppv.to/assets/thumb/5c1483da414ba9696d63ab2e87c20d9e-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Liverpool"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Qarabağ"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Liverpool"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Qarabağ"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Liverpool vs. Qarabağ",
+            "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/liv-qar"
+          }
+        ],
+        "h1": "Liverpool vs. Qarabağ EN VIVO",
+        "h2": "Ver Liverpool vs. Qarabağ Online Gratis"
+      },
+      "event": {
+        "name": "Liverpool vs. Qarabağ",
+        "category": "Football",
+        "broadcaster": "Champions League",
+        "start_time": "2026-01-28T20:00:00.000Z",
+        "end_time": "2026-01-28T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Liverpool",
+        "away_team": "Qarabağ"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Liverpool vs. Qarabağ, Liverpool"
+      }
+    },
+    {
+      "id": 16558,
+      "slug": "b-dortmund-vs-inter",
+      "uri_name": "ucl/2026-01-28/bvb-int",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/bvb-int",
+      "meta": {
+        "title": "B. Dortmund vs. Inter EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver B. Dortmund vs. Inter en vivo gratis por Tarjeta Roja TV. B. Dortmund vs Inter transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, B. Dortmund vs. Inter, B. Dortmund, Inter, Football, ver online gratis, en vivo gratis, Champions League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/bvb-int",
+        "title": "B. Dortmund vs. Inter EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver B. Dortmund vs. Inter en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/88e7a7cba670d8d0a2ff3d8a0ed03917-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "B. Dortmund vs. Inter EN VIVO",
+        "description": "Ver B. Dortmund vs. Inter en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/88e7a7cba670d8d0a2ff3d8a0ed03917-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "B. Dortmund vs. Inter",
+        "description": "Transmisión en vivo de B. Dortmund vs. Inter",
+        "startDate": "2026-01-28T20:00:00.000Z",
+        "endDate": "2026-01-28T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/bvb-int"
+        },
+        "image": "https://old.ppv.to/assets/thumb/88e7a7cba670d8d0a2ff3d8a0ed03917-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "B. Dortmund"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Inter"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "B. Dortmund"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Inter"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "B. Dortmund vs. Inter",
+            "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/bvb-int"
+          }
+        ],
+        "h1": "B. Dortmund vs. Inter EN VIVO",
+        "h2": "Ver B. Dortmund vs. Inter Online Gratis"
+      },
+      "event": {
+        "name": "B. Dortmund vs. Inter",
+        "category": "Football",
+        "broadcaster": "Champions League",
+        "start_time": "2026-01-28T20:00:00.000Z",
+        "end_time": "2026-01-28T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "B. Dortmund",
+        "away_team": "Inter"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, B. Dortmund vs. Inter, B. Dortmund"
+      }
+    },
+    {
+      "id": 16559,
+      "slug": "barcelona-vs-copenhagen",
+      "uri_name": "ucl/2026-01-28/bar-cph",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/bar-cph",
+      "meta": {
+        "title": "Barcelona vs. Copenhagen EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Barcelona vs. Copenhagen en vivo gratis por Tarjeta Roja TV. Barcelona vs Copenhagen transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Barcelona vs. Copenhagen, Barcelona, Copenhagen, Football, ver online gratis, en vivo gratis, Champions League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/bar-cph",
+        "title": "Barcelona vs. Copenhagen EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Barcelona vs. Copenhagen en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/1c187b08b7cfb3677d5df991162b554f-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Barcelona vs. Copenhagen EN VIVO",
+        "description": "Ver Barcelona vs. Copenhagen en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/1c187b08b7cfb3677d5df991162b554f-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Barcelona vs. Copenhagen",
+        "description": "Transmisión en vivo de Barcelona vs. Copenhagen",
+        "startDate": "2026-01-28T20:00:00.000Z",
+        "endDate": "2026-01-28T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/bar-cph"
+        },
+        "image": "https://old.ppv.to/assets/thumb/1c187b08b7cfb3677d5df991162b554f-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Barcelona"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Copenhagen"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Barcelona"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Copenhagen"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Barcelona vs. Copenhagen",
+            "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/bar-cph"
+          }
+        ],
+        "h1": "Barcelona vs. Copenhagen EN VIVO",
+        "h2": "Ver Barcelona vs. Copenhagen Online Gratis"
+      },
+      "event": {
+        "name": "Barcelona vs. Copenhagen",
+        "category": "Football",
+        "broadcaster": "Champions League",
+        "start_time": "2026-01-28T20:00:00.000Z",
+        "end_time": "2026-01-28T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Barcelona",
+        "away_team": "Copenhagen"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Barcelona vs. Copenhagen, Barcelona"
+      }
+    },
+    {
+      "id": 16560,
+      "slug": "arsenal-vs-kairat-almaty",
+      "uri_name": "ucl/2026-01-28/ars-kai",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/ars-kai",
+      "meta": {
+        "title": "Arsenal vs. Kairat Almaty EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Arsenal vs. Kairat Almaty en vivo gratis por Tarjeta Roja TV. Arsenal vs Kairat Almaty transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Arsenal vs. Kairat Almaty, Arsenal, Kairat Almaty, Football, ver online gratis, en vivo gratis, Champions League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/ars-kai",
+        "title": "Arsenal vs. Kairat Almaty EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Arsenal vs. Kairat Almaty en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/5910ddf6166e7ac128d9cec14584e0f9-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Arsenal vs. Kairat Almaty EN VIVO",
+        "description": "Ver Arsenal vs. Kairat Almaty en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/5910ddf6166e7ac128d9cec14584e0f9-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Arsenal vs. Kairat Almaty",
+        "description": "Transmisión en vivo de Arsenal vs. Kairat Almaty",
+        "startDate": "2026-01-28T20:00:00.000Z",
+        "endDate": "2026-01-28T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/ars-kai"
+        },
+        "image": "https://old.ppv.to/assets/thumb/5910ddf6166e7ac128d9cec14584e0f9-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Arsenal"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Kairat Almaty"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Arsenal"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Kairat Almaty"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Arsenal vs. Kairat Almaty",
+            "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/ars-kai"
+          }
+        ],
+        "h1": "Arsenal vs. Kairat Almaty EN VIVO",
+        "h2": "Ver Arsenal vs. Kairat Almaty Online Gratis"
+      },
+      "event": {
+        "name": "Arsenal vs. Kairat Almaty",
+        "category": "Football",
+        "broadcaster": "Champions League",
+        "start_time": "2026-01-28T20:00:00.000Z",
+        "end_time": "2026-01-28T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Arsenal",
+        "away_team": "Kairat Almaty"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Arsenal vs. Kairat Almaty, Arsenal"
+      }
+    },
+    {
+      "id": 16561,
+      "slug": "leverkusen-vs-villarreal",
+      "uri_name": "ucl/2026-01-28/lev-vil",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/lev-vil",
+      "meta": {
+        "title": "Leverkusen vs. Villarreal EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Leverkusen vs. Villarreal en vivo gratis por Tarjeta Roja TV. Leverkusen vs Villarreal transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Leverkusen vs. Villarreal, Leverkusen, Villarreal, Football, ver online gratis, en vivo gratis, Champions League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/lev-vil",
+        "title": "Leverkusen vs. Villarreal EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Leverkusen vs. Villarreal en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/0433eedf87c7714d13ae3faa51d692d3-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Leverkusen vs. Villarreal EN VIVO",
+        "description": "Ver Leverkusen vs. Villarreal en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/0433eedf87c7714d13ae3faa51d692d3-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Leverkusen vs. Villarreal",
+        "description": "Transmisión en vivo de Leverkusen vs. Villarreal",
+        "startDate": "2026-01-28T20:00:00.000Z",
+        "endDate": "2026-01-28T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/lev-vil"
+        },
+        "image": "https://old.ppv.to/assets/thumb/0433eedf87c7714d13ae3faa51d692d3-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Leverkusen"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Villarreal"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Leverkusen"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Villarreal"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Leverkusen vs. Villarreal",
+            "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/lev-vil"
+          }
+        ],
+        "h1": "Leverkusen vs. Villarreal EN VIVO",
+        "h2": "Ver Leverkusen vs. Villarreal Online Gratis"
+      },
+      "event": {
+        "name": "Leverkusen vs. Villarreal",
+        "category": "Football",
+        "broadcaster": "Champions League",
+        "start_time": "2026-01-28T20:00:00.000Z",
+        "end_time": "2026-01-28T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Leverkusen",
+        "away_team": "Villarreal"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Leverkusen vs. Villarreal, Leverkusen"
+      }
+    },
+    {
+      "id": 16562,
+      "slug": "atleti-vs-bod-glimt",
+      "uri_name": "ucl/2026-01-28/atm-bod",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/atm-bod",
+      "meta": {
+        "title": "Atleti vs. Bodø/Glimt EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Atleti vs. Bodø/Glimt en vivo gratis por Tarjeta Roja TV. Atleti vs Bodø/Glimt transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Atleti vs. Bodø/Glimt, Atleti, Bodø/Glimt, Football, ver online gratis, en vivo gratis, Champions League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/atm-bod",
+        "title": "Atleti vs. Bodø/Glimt EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Atleti vs. Bodø/Glimt en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/d0e65d92cd63d3f5c7e89c11ead3ffbe-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Atleti vs. Bodø/Glimt EN VIVO",
+        "description": "Ver Atleti vs. Bodø/Glimt en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/d0e65d92cd63d3f5c7e89c11ead3ffbe-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Atleti vs. Bodø/Glimt",
+        "description": "Transmisión en vivo de Atleti vs. Bodø/Glimt",
+        "startDate": "2026-01-28T20:00:00.000Z",
+        "endDate": "2026-01-28T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/atm-bod"
+        },
+        "image": "https://old.ppv.to/assets/thumb/d0e65d92cd63d3f5c7e89c11ead3ffbe-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Atleti"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Bodø/Glimt"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Atleti"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Bodø/Glimt"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Atleti vs. Bodø/Glimt",
+            "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/atm-bod"
+          }
+        ],
+        "h1": "Atleti vs. Bodø/Glimt EN VIVO",
+        "h2": "Ver Atleti vs. Bodø/Glimt Online Gratis"
+      },
+      "event": {
+        "name": "Atleti vs. Bodø/Glimt",
+        "category": "Football",
+        "broadcaster": "Champions League",
+        "start_time": "2026-01-28T20:00:00.000Z",
+        "end_time": "2026-01-28T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Atleti",
+        "away_team": "Bodø/Glimt"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Atleti vs. Bodø/Glimt, Atleti"
+      }
+    },
+    {
+      "id": 16563,
+      "slug": "benfica-vs-real-madrid",
+      "uri_name": "ucl/2026-01-28/ben-rma",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/ben-rma",
+      "meta": {
+        "title": "Benfica vs. Real Madrid EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Benfica vs. Real Madrid en vivo gratis por Tarjeta Roja TV. Benfica vs Real Madrid transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Benfica vs. Real Madrid, Benfica, Real Madrid, Football, ver online gratis, en vivo gratis, Champions League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/ben-rma",
+        "title": "Benfica vs. Real Madrid EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Benfica vs. Real Madrid en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/2b1324d86527129d588b9cd56a4c7117-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Benfica vs. Real Madrid EN VIVO",
+        "description": "Ver Benfica vs. Real Madrid en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/2b1324d86527129d588b9cd56a4c7117-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Benfica vs. Real Madrid",
+        "description": "Transmisión en vivo de Benfica vs. Real Madrid",
+        "startDate": "2026-01-28T20:00:00.000Z",
+        "endDate": "2026-01-28T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/ben-rma"
+        },
+        "image": "https://old.ppv.to/assets/thumb/2b1324d86527129d588b9cd56a4c7117-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Benfica"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Real Madrid"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Benfica"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Real Madrid"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Benfica vs. Real Madrid",
+            "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/ben-rma"
+          }
+        ],
+        "h1": "Benfica vs. Real Madrid EN VIVO",
+        "h2": "Ver Benfica vs. Real Madrid Online Gratis"
+      },
+      "event": {
+        "name": "Benfica vs. Real Madrid",
+        "category": "Football",
+        "broadcaster": "Champions League",
+        "start_time": "2026-01-28T20:00:00.000Z",
+        "end_time": "2026-01-28T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Benfica",
+        "away_team": "Real Madrid"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Benfica vs. Real Madrid, Benfica"
+      }
+    },
+    {
+      "id": 16564,
+      "slug": "frankfurt-vs-tottenham",
+      "uri_name": "ucl/2026-01-28/fra-tot",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/fra-tot",
+      "meta": {
+        "title": "Frankfurt vs. Tottenham EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Frankfurt vs. Tottenham en vivo gratis por Tarjeta Roja TV. Frankfurt vs Tottenham transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Frankfurt vs. Tottenham, Frankfurt, Tottenham, Football, ver online gratis, en vivo gratis, Champions League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/fra-tot",
+        "title": "Frankfurt vs. Tottenham EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Frankfurt vs. Tottenham en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/ad4b7de87a175d38463c558acb491f16-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Frankfurt vs. Tottenham EN VIVO",
+        "description": "Ver Frankfurt vs. Tottenham en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/ad4b7de87a175d38463c558acb491f16-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Frankfurt vs. Tottenham",
+        "description": "Transmisión en vivo de Frankfurt vs. Tottenham",
+        "startDate": "2026-01-28T20:00:00.000Z",
+        "endDate": "2026-01-28T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/fra-tot"
+        },
+        "image": "https://old.ppv.to/assets/thumb/ad4b7de87a175d38463c558acb491f16-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Frankfurt"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Tottenham"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Frankfurt"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Tottenham"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Frankfurt vs. Tottenham",
+            "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/fra-tot"
+          }
+        ],
+        "h1": "Frankfurt vs. Tottenham EN VIVO",
+        "h2": "Ver Frankfurt vs. Tottenham Online Gratis"
+      },
+      "event": {
+        "name": "Frankfurt vs. Tottenham",
+        "category": "Football",
+        "broadcaster": "Champions League",
+        "start_time": "2026-01-28T20:00:00.000Z",
+        "end_time": "2026-01-28T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Frankfurt",
+        "away_team": "Tottenham"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Frankfurt vs. Tottenham, Frankfurt"
+      }
+    },
+    {
+      "id": 16565,
+      "slug": "club-brugge-vs-marseille",
+      "uri_name": "ucl/2026-01-28/bru-mar",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/bru-mar",
+      "meta": {
+        "title": "Club Brugge vs. Marseille EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Club Brugge vs. Marseille en vivo gratis por Tarjeta Roja TV. Club Brugge vs Marseille transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Club Brugge vs. Marseille, Club Brugge, Marseille, Football, ver online gratis, en vivo gratis, Champions League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/bru-mar",
+        "title": "Club Brugge vs. Marseille EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Club Brugge vs. Marseille en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/23c579e12e16c43973e4b64439a12f61-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Club Brugge vs. Marseille EN VIVO",
+        "description": "Ver Club Brugge vs. Marseille en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/23c579e12e16c43973e4b64439a12f61-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Club Brugge vs. Marseille",
+        "description": "Transmisión en vivo de Club Brugge vs. Marseille",
+        "startDate": "2026-01-28T20:00:00.000Z",
+        "endDate": "2026-01-28T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/bru-mar"
+        },
+        "image": "https://old.ppv.to/assets/thumb/23c579e12e16c43973e4b64439a12f61-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Club Brugge"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Marseille"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Club Brugge"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Marseille"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Club Brugge vs. Marseille",
+            "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/bru-mar"
+          }
+        ],
+        "h1": "Club Brugge vs. Marseille EN VIVO",
+        "h2": "Ver Club Brugge vs. Marseille Online Gratis"
+      },
+      "event": {
+        "name": "Club Brugge vs. Marseille",
+        "category": "Football",
+        "broadcaster": "Champions League",
+        "start_time": "2026-01-28T20:00:00.000Z",
+        "end_time": "2026-01-28T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Club Brugge",
+        "away_team": "Marseille"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Club Brugge vs. Marseille, Club Brugge"
+      }
+    },
+    {
+      "id": 16566,
+      "slug": "psv-vs-bayern-munchen",
+      "uri_name": "ucl/2026-01-28/psv-bay",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/psv-bay",
+      "meta": {
+        "title": "PSV vs. Bayern München EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver PSV vs. Bayern München en vivo gratis por Tarjeta Roja TV. PSV vs Bayern München transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, PSV vs. Bayern München, PSV, Bayern München, Football, ver online gratis, en vivo gratis, Champions League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/psv-bay",
+        "title": "PSV vs. Bayern München EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver PSV vs. Bayern München en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/ec139d344f4e2152264111fe7c58103d-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "PSV vs. Bayern München EN VIVO",
+        "description": "Ver PSV vs. Bayern München en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/ec139d344f4e2152264111fe7c58103d-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "PSV vs. Bayern München",
+        "description": "Transmisión en vivo de PSV vs. Bayern München",
+        "startDate": "2026-01-28T20:00:00.000Z",
+        "endDate": "2026-01-28T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/psv-bay"
+        },
+        "image": "https://old.ppv.to/assets/thumb/ec139d344f4e2152264111fe7c58103d-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "PSV"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Bayern München"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "PSV"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Bayern München"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "PSV vs. Bayern München",
+            "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/psv-bay"
+          }
+        ],
+        "h1": "PSV vs. Bayern München EN VIVO",
+        "h2": "Ver PSV vs. Bayern München Online Gratis"
+      },
+      "event": {
+        "name": "PSV vs. Bayern München",
+        "category": "Football",
+        "broadcaster": "Champions League",
+        "start_time": "2026-01-28T20:00:00.000Z",
+        "end_time": "2026-01-28T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "PSV",
+        "away_team": "Bayern München"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, PSV vs. Bayern München, PSV"
+      }
+    },
+    {
+      "id": 16567,
+      "slug": "ajax-vs-olympiacos",
+      "uri_name": "ucl/2026-01-28/ajx-oly",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/ajx-oly",
+      "meta": {
+        "title": "Ajax vs. Olympiacos EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Ajax vs. Olympiacos en vivo gratis por Tarjeta Roja TV. Ajax vs Olympiacos transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Ajax vs. Olympiacos, Ajax, Olympiacos, Football, ver online gratis, en vivo gratis, Champions League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/ajx-oly",
+        "title": "Ajax vs. Olympiacos EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Ajax vs. Olympiacos en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/b98782e0c448241006b9a15495201122-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Ajax vs. Olympiacos EN VIVO",
+        "description": "Ver Ajax vs. Olympiacos en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/b98782e0c448241006b9a15495201122-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Ajax vs. Olympiacos",
+        "description": "Transmisión en vivo de Ajax vs. Olympiacos",
+        "startDate": "2026-01-28T20:00:00.000Z",
+        "endDate": "2026-01-28T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/ajx-oly"
+        },
+        "image": "https://old.ppv.to/assets/thumb/b98782e0c448241006b9a15495201122-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Ajax"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Olympiacos"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Ajax"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Olympiacos"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Ajax vs. Olympiacos",
+            "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/ajx-oly"
+          }
+        ],
+        "h1": "Ajax vs. Olympiacos EN VIVO",
+        "h2": "Ver Ajax vs. Olympiacos Online Gratis"
+      },
+      "event": {
+        "name": "Ajax vs. Olympiacos",
+        "category": "Football",
+        "broadcaster": "Champions League",
+        "start_time": "2026-01-28T20:00:00.000Z",
+        "end_time": "2026-01-28T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Ajax",
+        "away_team": "Olympiacos"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Ajax vs. Olympiacos, Ajax"
+      }
+    },
+    {
+      "id": 16568,
+      "slug": "napoli-vs-chelsea",
+      "uri_name": "ucl/2026-01-28/nap-che",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/nap-che",
+      "meta": {
+        "title": "Napoli vs. Chelsea EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Napoli vs. Chelsea en vivo gratis por Tarjeta Roja TV. Napoli vs Chelsea transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Napoli vs. Chelsea, Napoli, Chelsea, Football, ver online gratis, en vivo gratis, Champions League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/nap-che",
+        "title": "Napoli vs. Chelsea EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Napoli vs. Chelsea en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/f0ce280eafc3bb671e7467b38fc25332-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Napoli vs. Chelsea EN VIVO",
+        "description": "Ver Napoli vs. Chelsea en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/f0ce280eafc3bb671e7467b38fc25332-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Napoli vs. Chelsea",
+        "description": "Transmisión en vivo de Napoli vs. Chelsea",
+        "startDate": "2026-01-28T20:00:00.000Z",
+        "endDate": "2026-01-28T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/nap-che"
+        },
+        "image": "https://old.ppv.to/assets/thumb/f0ce280eafc3bb671e7467b38fc25332-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Napoli"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Chelsea"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Napoli"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Chelsea"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Napoli vs. Chelsea",
+            "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/nap-che"
+          }
+        ],
+        "h1": "Napoli vs. Chelsea EN VIVO",
+        "h2": "Ver Napoli vs. Chelsea Online Gratis"
+      },
+      "event": {
+        "name": "Napoli vs. Chelsea",
+        "category": "Football",
+        "broadcaster": "Champions League",
+        "start_time": "2026-01-28T20:00:00.000Z",
+        "end_time": "2026-01-28T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Napoli",
+        "away_team": "Chelsea"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Napoli vs. Chelsea, Napoli"
+      }
+    },
+    {
+      "id": 16569,
+      "slug": "monaco-vs-juventus",
+      "uri_name": "ucl/2026-01-28/mon-juv",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/mon-juv",
+      "meta": {
+        "title": "Monaco vs. Juventus EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Monaco vs. Juventus en vivo gratis por Tarjeta Roja TV. Monaco vs Juventus transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Monaco vs. Juventus, Monaco, Juventus, Football, ver online gratis, en vivo gratis, Champions League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/mon-juv",
+        "title": "Monaco vs. Juventus EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Monaco vs. Juventus en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/ecd3b051aa678bbae9a08652f4e48601-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Monaco vs. Juventus EN VIVO",
+        "description": "Ver Monaco vs. Juventus en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/ecd3b051aa678bbae9a08652f4e48601-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Monaco vs. Juventus",
+        "description": "Transmisión en vivo de Monaco vs. Juventus",
+        "startDate": "2026-01-28T20:00:00.000Z",
+        "endDate": "2026-01-28T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/mon-juv"
+        },
+        "image": "https://old.ppv.to/assets/thumb/ecd3b051aa678bbae9a08652f4e48601-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Monaco"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Juventus"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Monaco"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Juventus"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Monaco vs. Juventus",
+            "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/mon-juv"
+          }
+        ],
+        "h1": "Monaco vs. Juventus EN VIVO",
+        "h2": "Ver Monaco vs. Juventus Online Gratis"
+      },
+      "event": {
+        "name": "Monaco vs. Juventus",
+        "category": "Football",
+        "broadcaster": "Champions League",
+        "start_time": "2026-01-28T20:00:00.000Z",
+        "end_time": "2026-01-28T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Monaco",
+        "away_team": "Juventus"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Monaco vs. Juventus, Monaco"
+      }
+    },
+    {
+      "id": 16570,
+      "slug": "union-sg-vs-atalanta",
+      "uri_name": "ucl/2026-01-28/usg-ata",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/usg-ata",
+      "meta": {
+        "title": "Union SG vs. Atalanta EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Union SG vs. Atalanta en vivo gratis por Tarjeta Roja TV. Union SG vs Atalanta transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Union SG vs. Atalanta, Union SG, Atalanta, Football, ver online gratis, en vivo gratis, Champions League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/usg-ata",
+        "title": "Union SG vs. Atalanta EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Union SG vs. Atalanta en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/2953d856036379cc53c81ed36f3b7fb1-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Union SG vs. Atalanta EN VIVO",
+        "description": "Ver Union SG vs. Atalanta en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/2953d856036379cc53c81ed36f3b7fb1-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Union SG vs. Atalanta",
+        "description": "Transmisión en vivo de Union SG vs. Atalanta",
+        "startDate": "2026-01-28T20:00:00.000Z",
+        "endDate": "2026-01-28T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/usg-ata"
+        },
+        "image": "https://old.ppv.to/assets/thumb/2953d856036379cc53c81ed36f3b7fb1-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Union SG"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Atalanta"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Union SG"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Atalanta"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Union SG vs. Atalanta",
+            "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/usg-ata"
+          }
+        ],
+        "h1": "Union SG vs. Atalanta EN VIVO",
+        "h2": "Ver Union SG vs. Atalanta Online Gratis"
+      },
+      "event": {
+        "name": "Union SG vs. Atalanta",
+        "category": "Football",
+        "broadcaster": "Champions League",
+        "start_time": "2026-01-28T20:00:00.000Z",
+        "end_time": "2026-01-28T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Union SG",
+        "away_team": "Atalanta"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Union SG vs. Atalanta, Union SG"
+      }
+    },
+    {
+      "id": 16571,
+      "slug": "athletic-club-vs-sporting-cp",
+      "uri_name": "ucl/2026-01-28/ath-spo",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/ath-spo",
+      "meta": {
+        "title": "Athletic Club vs. Sporting CP EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Athletic Club vs. Sporting CP en vivo gratis por Tarjeta Roja TV. Athletic Club vs Sporting CP transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Athletic Club vs. Sporting CP, Athletic Club, Sporting CP, Football, ver online gratis, en vivo gratis, Champions League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/ath-spo",
+        "title": "Athletic Club vs. Sporting CP EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Athletic Club vs. Sporting CP en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/7a7ed413f0b0464637af617b5fdccec8-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Athletic Club vs. Sporting CP EN VIVO",
+        "description": "Ver Athletic Club vs. Sporting CP en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/7a7ed413f0b0464637af617b5fdccec8-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Athletic Club vs. Sporting CP",
+        "description": "Transmisión en vivo de Athletic Club vs. Sporting CP",
+        "startDate": "2026-01-28T20:00:00.000Z",
+        "endDate": "2026-01-28T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/ath-spo"
+        },
+        "image": "https://old.ppv.to/assets/thumb/7a7ed413f0b0464637af617b5fdccec8-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Athletic Club"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Sporting CP"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Athletic Club"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Sporting CP"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Athletic Club vs. Sporting CP",
+            "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/ath-spo"
+          }
+        ],
+        "h1": "Athletic Club vs. Sporting CP EN VIVO",
+        "h2": "Ver Athletic Club vs. Sporting CP Online Gratis"
+      },
+      "event": {
+        "name": "Athletic Club vs. Sporting CP",
+        "category": "Football",
+        "broadcaster": "Champions League",
+        "start_time": "2026-01-28T20:00:00.000Z",
+        "end_time": "2026-01-28T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Athletic Club",
+        "away_team": "Sporting CP"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Athletic Club vs. Sporting CP, Athletic Club"
+      }
+    },
+    {
+      "id": 16572,
+      "slug": "pafos-vs-slavia-praha",
+      "uri_name": "ucl/2026-01-28/paf-sla",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/paf-sla",
+      "meta": {
+        "title": "Pafos vs. Slavia Praha EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Pafos vs. Slavia Praha en vivo gratis por Tarjeta Roja TV. Pafos vs Slavia Praha transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Pafos vs. Slavia Praha, Pafos, Slavia Praha, Football, ver online gratis, en vivo gratis, Champions League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/paf-sla",
+        "title": "Pafos vs. Slavia Praha EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Pafos vs. Slavia Praha en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/eb7d34a965b4cfeb85a49d044793c397-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Pafos vs. Slavia Praha EN VIVO",
+        "description": "Ver Pafos vs. Slavia Praha en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/eb7d34a965b4cfeb85a49d044793c397-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Pafos vs. Slavia Praha",
+        "description": "Transmisión en vivo de Pafos vs. Slavia Praha",
+        "startDate": "2026-01-28T20:00:00.000Z",
+        "endDate": "2026-01-28T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/paf-sla"
+        },
+        "image": "https://old.ppv.to/assets/thumb/eb7d34a965b4cfeb85a49d044793c397-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Pafos"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Slavia Praha"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Pafos"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Slavia Praha"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Pafos vs. Slavia Praha",
+            "url": "https://tarjetarojaenvivo.live/eventos/ucl/2026-01-28/paf-sla"
+          }
+        ],
+        "h1": "Pafos vs. Slavia Praha EN VIVO",
+        "h2": "Ver Pafos vs. Slavia Praha Online Gratis"
+      },
+      "event": {
+        "name": "Pafos vs. Slavia Praha",
+        "category": "Football",
+        "broadcaster": "Champions League",
+        "start_time": "2026-01-28T20:00:00.000Z",
+        "end_time": "2026-01-28T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Pafos",
+        "away_team": "Slavia Praha"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Pafos vs. Slavia Praha, Pafos"
+      }
+    },
+    {
+      "id": 16573,
+      "slug": "porto-vs-rangers",
+      "uri_name": "uel/2026-01-29/por-ran",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/por-ran",
+      "meta": {
+        "title": "Porto vs. Rangers EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Porto vs. Rangers en vivo gratis por Tarjeta Roja TV. Porto vs Rangers transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Porto vs. Rangers, Porto, Rangers, Football, ver online gratis, en vivo gratis, Europa League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/por-ran",
+        "title": "Porto vs. Rangers EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Porto vs. Rangers en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/f2ad893d31b974320060176c1681dc3e-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Porto vs. Rangers EN VIVO",
+        "description": "Ver Porto vs. Rangers en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/f2ad893d31b974320060176c1681dc3e-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Porto vs. Rangers",
+        "description": "Transmisión en vivo de Porto vs. Rangers",
+        "startDate": "2026-01-29T20:00:00.000Z",
+        "endDate": "2026-01-29T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/por-ran"
+        },
+        "image": "https://old.ppv.to/assets/thumb/f2ad893d31b974320060176c1681dc3e-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Porto"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Rangers"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Porto"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Rangers"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Porto vs. Rangers",
+            "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/por-ran"
+          }
+        ],
+        "h1": "Porto vs. Rangers EN VIVO",
+        "h2": "Ver Porto vs. Rangers Online Gratis"
+      },
+      "event": {
+        "name": "Porto vs. Rangers",
+        "category": "Football",
+        "broadcaster": "Europa League",
+        "start_time": "2026-01-29T20:00:00.000Z",
+        "end_time": "2026-01-29T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Porto",
+        "away_team": "Rangers"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Porto vs. Rangers, Porto"
+      }
+    },
+    {
+      "id": 16574,
+      "slug": "lille-vs-freiburg",
+      "uri_name": "uel/2026-01-29/lil-fre",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/lil-fre",
+      "meta": {
+        "title": "Lille vs. Freiburg EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Lille vs. Freiburg en vivo gratis por Tarjeta Roja TV. Lille vs Freiburg transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Lille vs. Freiburg, Lille, Freiburg, Football, ver online gratis, en vivo gratis, Europa League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/lil-fre",
+        "title": "Lille vs. Freiburg EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Lille vs. Freiburg en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/712e3459182bdbacfd77c8866d6736bf-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Lille vs. Freiburg EN VIVO",
+        "description": "Ver Lille vs. Freiburg en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/712e3459182bdbacfd77c8866d6736bf-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Lille vs. Freiburg",
+        "description": "Transmisión en vivo de Lille vs. Freiburg",
+        "startDate": "2026-01-29T20:00:00.000Z",
+        "endDate": "2026-01-29T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/lil-fre"
+        },
+        "image": "https://old.ppv.to/assets/thumb/712e3459182bdbacfd77c8866d6736bf-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Lille"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Freiburg"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Lille"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Freiburg"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Lille vs. Freiburg",
+            "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/lil-fre"
+          }
+        ],
+        "h1": "Lille vs. Freiburg EN VIVO",
+        "h2": "Ver Lille vs. Freiburg Online Gratis"
+      },
+      "event": {
+        "name": "Lille vs. Freiburg",
+        "category": "Football",
+        "broadcaster": "Europa League",
+        "start_time": "2026-01-29T20:00:00.000Z",
+        "end_time": "2026-01-29T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Lille",
+        "away_team": "Freiburg"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Lille vs. Freiburg, Lille"
+      }
+    },
+    {
+      "id": 16575,
+      "slug": "real-betis-vs-feyenoord",
+      "uri_name": "uel/2026-01-29/bet-fey",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/bet-fey",
+      "meta": {
+        "title": "Real Betis vs. Feyenoord EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Real Betis vs. Feyenoord en vivo gratis por Tarjeta Roja TV. Real Betis vs Feyenoord transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Real Betis vs. Feyenoord, Real Betis, Feyenoord, Football, ver online gratis, en vivo gratis, Europa League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/bet-fey",
+        "title": "Real Betis vs. Feyenoord EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Real Betis vs. Feyenoord en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/25c2c283e4241582abcef09b1e5f1a7d-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Real Betis vs. Feyenoord EN VIVO",
+        "description": "Ver Real Betis vs. Feyenoord en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/25c2c283e4241582abcef09b1e5f1a7d-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Real Betis vs. Feyenoord",
+        "description": "Transmisión en vivo de Real Betis vs. Feyenoord",
+        "startDate": "2026-01-29T20:00:00.000Z",
+        "endDate": "2026-01-29T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/bet-fey"
+        },
+        "image": "https://old.ppv.to/assets/thumb/25c2c283e4241582abcef09b1e5f1a7d-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Real Betis"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Feyenoord"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Real Betis"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Feyenoord"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Real Betis vs. Feyenoord",
+            "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/bet-fey"
+          }
+        ],
+        "h1": "Real Betis vs. Feyenoord EN VIVO",
+        "h2": "Ver Real Betis vs. Feyenoord Online Gratis"
+      },
+      "event": {
+        "name": "Real Betis vs. Feyenoord",
+        "category": "Football",
+        "broadcaster": "Europa League",
+        "start_time": "2026-01-29T20:00:00.000Z",
+        "end_time": "2026-01-29T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Real Betis",
+        "away_team": "Feyenoord"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Real Betis vs. Feyenoord, Real Betis"
+      }
+    },
+    {
+      "id": 16576,
+      "slug": "aston-villa-vs-salzburg",
+      "uri_name": "uel/2026-01-29/avl-sal",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/avl-sal",
+      "meta": {
+        "title": "Aston Villa vs. Salzburg EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Aston Villa vs. Salzburg en vivo gratis por Tarjeta Roja TV. Aston Villa vs Salzburg transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Aston Villa vs. Salzburg, Aston Villa, Salzburg, Football, ver online gratis, en vivo gratis, Europa League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/avl-sal",
+        "title": "Aston Villa vs. Salzburg EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Aston Villa vs. Salzburg en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/aec7544c3bcf608d5264fa851df253d0-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Aston Villa vs. Salzburg EN VIVO",
+        "description": "Ver Aston Villa vs. Salzburg en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/aec7544c3bcf608d5264fa851df253d0-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Aston Villa vs. Salzburg",
+        "description": "Transmisión en vivo de Aston Villa vs. Salzburg",
+        "startDate": "2026-01-29T20:00:00.000Z",
+        "endDate": "2026-01-29T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/avl-sal"
+        },
+        "image": "https://old.ppv.to/assets/thumb/aec7544c3bcf608d5264fa851df253d0-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Aston Villa"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Salzburg"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Aston Villa"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Salzburg"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Aston Villa vs. Salzburg",
+            "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/avl-sal"
+          }
+        ],
+        "h1": "Aston Villa vs. Salzburg EN VIVO",
+        "h2": "Ver Aston Villa vs. Salzburg Online Gratis"
+      },
+      "event": {
+        "name": "Aston Villa vs. Salzburg",
+        "category": "Football",
+        "broadcaster": "Europa League",
+        "start_time": "2026-01-29T20:00:00.000Z",
+        "end_time": "2026-01-29T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Aston Villa",
+        "away_team": "Salzburg"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Aston Villa vs. Salzburg, Aston Villa"
+      }
+    },
+    {
+      "id": 16577,
+      "slug": "crvena-zvezda-vs-celta",
+      "uri_name": "uel/2026-01-29/zve-clt",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/zve-clt",
+      "meta": {
+        "title": "Crvena Zvezda vs. Celta EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Crvena Zvezda vs. Celta en vivo gratis por Tarjeta Roja TV. Crvena Zvezda vs Celta transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Crvena Zvezda vs. Celta, Crvena Zvezda, Celta, Football, ver online gratis, en vivo gratis, Europa League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/zve-clt",
+        "title": "Crvena Zvezda vs. Celta EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Crvena Zvezda vs. Celta en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/25b9cad3badbaac0c2fe4f45c33a31c3-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Crvena Zvezda vs. Celta EN VIVO",
+        "description": "Ver Crvena Zvezda vs. Celta en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/25b9cad3badbaac0c2fe4f45c33a31c3-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Crvena Zvezda vs. Celta",
+        "description": "Transmisión en vivo de Crvena Zvezda vs. Celta",
+        "startDate": "2026-01-29T20:00:00.000Z",
+        "endDate": "2026-01-29T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/zve-clt"
+        },
+        "image": "https://old.ppv.to/assets/thumb/25b9cad3badbaac0c2fe4f45c33a31c3-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Crvena Zvezda"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Celta"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Crvena Zvezda"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Celta"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Crvena Zvezda vs. Celta",
+            "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/zve-clt"
+          }
+        ],
+        "h1": "Crvena Zvezda vs. Celta EN VIVO",
+        "h2": "Ver Crvena Zvezda vs. Celta Online Gratis"
+      },
+      "event": {
+        "name": "Crvena Zvezda vs. Celta",
+        "category": "Football",
+        "broadcaster": "Europa League",
+        "start_time": "2026-01-29T20:00:00.000Z",
+        "end_time": "2026-01-29T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Crvena Zvezda",
+        "away_team": "Celta"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Crvena Zvezda vs. Celta, Crvena Zvezda"
+      }
+    },
+    {
+      "id": 16578,
+      "slug": "lyon-vs-paok",
+      "uri_name": "uel/2026-01-29/lyo-paok",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/lyo-paok",
+      "meta": {
+        "title": "Lyon vs. PAOK EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Lyon vs. PAOK en vivo gratis por Tarjeta Roja TV. Lyon vs PAOK transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Lyon vs. PAOK, Lyon, PAOK, Football, ver online gratis, en vivo gratis, Europa League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/lyo-paok",
+        "title": "Lyon vs. PAOK EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Lyon vs. PAOK en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/9058ea5dbf3a8f2a3153b4570644808b-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Lyon vs. PAOK EN VIVO",
+        "description": "Ver Lyon vs. PAOK en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/9058ea5dbf3a8f2a3153b4570644808b-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Lyon vs. PAOK",
+        "description": "Transmisión en vivo de Lyon vs. PAOK",
+        "startDate": "2026-01-29T20:00:00.000Z",
+        "endDate": "2026-01-29T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/lyo-paok"
+        },
+        "image": "https://old.ppv.to/assets/thumb/9058ea5dbf3a8f2a3153b4570644808b-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Lyon"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "PAOK"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Lyon"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "PAOK"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Lyon vs. PAOK",
+            "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/lyo-paok"
+          }
+        ],
+        "h1": "Lyon vs. PAOK EN VIVO",
+        "h2": "Ver Lyon vs. PAOK Online Gratis"
+      },
+      "event": {
+        "name": "Lyon vs. PAOK",
+        "category": "Football",
+        "broadcaster": "Europa League",
+        "start_time": "2026-01-29T20:00:00.000Z",
+        "end_time": "2026-01-29T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Lyon",
+        "away_team": "PAOK"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Lyon vs. PAOK, Lyon"
+      }
+    },
+    {
+      "id": 16579,
+      "slug": "celtic-vs-utrecht",
+      "uri_name": "uel/2026-01-29/cel-utr",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/cel-utr",
+      "meta": {
+        "title": "Celtic vs. Utrecht EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Celtic vs. Utrecht en vivo gratis por Tarjeta Roja TV. Celtic vs Utrecht transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Celtic vs. Utrecht, Celtic, Utrecht, Football, ver online gratis, en vivo gratis, Europa League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/cel-utr",
+        "title": "Celtic vs. Utrecht EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Celtic vs. Utrecht en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/3ada99605efe0b078d7bac878a80eac4-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Celtic vs. Utrecht EN VIVO",
+        "description": "Ver Celtic vs. Utrecht en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/3ada99605efe0b078d7bac878a80eac4-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Celtic vs. Utrecht",
+        "description": "Transmisión en vivo de Celtic vs. Utrecht",
+        "startDate": "2026-01-29T20:00:00.000Z",
+        "endDate": "2026-01-29T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/cel-utr"
+        },
+        "image": "https://old.ppv.to/assets/thumb/3ada99605efe0b078d7bac878a80eac4-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Celtic"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Utrecht"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Celtic"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Utrecht"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Celtic vs. Utrecht",
+            "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/cel-utr"
+          }
+        ],
+        "h1": "Celtic vs. Utrecht EN VIVO",
+        "h2": "Ver Celtic vs. Utrecht Online Gratis"
+      },
+      "event": {
+        "name": "Celtic vs. Utrecht",
+        "category": "Football",
+        "broadcaster": "Europa League",
+        "start_time": "2026-01-29T20:00:00.000Z",
+        "end_time": "2026-01-29T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Celtic",
+        "away_team": "Utrecht"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Celtic vs. Utrecht, Celtic"
+      }
+    },
+    {
+      "id": 16580,
+      "slug": "m-tel-aviv-vs-bologna",
+      "uri_name": "uel/2026-01-29/mta-bol",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/mta-bol",
+      "meta": {
+        "title": "M. Tel-Aviv vs. Bologna EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver M. Tel-Aviv vs. Bologna en vivo gratis por Tarjeta Roja TV. M. Tel-Aviv vs Bologna transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, M. Tel-Aviv vs. Bologna, M. Tel-Aviv, Bologna, Football, ver online gratis, en vivo gratis, Europa League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/mta-bol",
+        "title": "M. Tel-Aviv vs. Bologna EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver M. Tel-Aviv vs. Bologna en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/34d8f59a95a058f4a5f8c0fcc236e1b5-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "M. Tel-Aviv vs. Bologna EN VIVO",
+        "description": "Ver M. Tel-Aviv vs. Bologna en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/34d8f59a95a058f4a5f8c0fcc236e1b5-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "M. Tel-Aviv vs. Bologna",
+        "description": "Transmisión en vivo de M. Tel-Aviv vs. Bologna",
+        "startDate": "2026-01-29T20:00:00.000Z",
+        "endDate": "2026-01-29T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/mta-bol"
+        },
+        "image": "https://old.ppv.to/assets/thumb/34d8f59a95a058f4a5f8c0fcc236e1b5-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "M. Tel-Aviv"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Bologna"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "M. Tel-Aviv"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Bologna"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "M. Tel-Aviv vs. Bologna",
+            "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/mta-bol"
+          }
+        ],
+        "h1": "M. Tel-Aviv vs. Bologna EN VIVO",
+        "h2": "Ver M. Tel-Aviv vs. Bologna Online Gratis"
+      },
+      "event": {
+        "name": "M. Tel-Aviv vs. Bologna",
+        "category": "Football",
+        "broadcaster": "Europa League",
+        "start_time": "2026-01-29T20:00:00.000Z",
+        "end_time": "2026-01-29T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "M. Tel-Aviv",
+        "away_team": "Bologna"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.652Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, M. Tel-Aviv vs. Bologna, M. Tel-Aviv"
+      }
+    },
+    {
+      "id": 16581,
+      "slug": "basel-vs-viktoria-plzen",
+      "uri_name": "uel/2026-01-29/bsl-plz",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/bsl-plz",
+      "meta": {
+        "title": "Basel vs. Viktoria Plzeň EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Basel vs. Viktoria Plzeň en vivo gratis por Tarjeta Roja TV. Basel vs Viktoria Plzeň transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Basel vs. Viktoria Plzeň, Basel, Viktoria Plzeň, Football, ver online gratis, en vivo gratis, Europa League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/bsl-plz",
+        "title": "Basel vs. Viktoria Plzeň EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Basel vs. Viktoria Plzeň en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/a30af368b6c45f1366190ef40401b707-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Basel vs. Viktoria Plzeň EN VIVO",
+        "description": "Ver Basel vs. Viktoria Plzeň en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/a30af368b6c45f1366190ef40401b707-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Basel vs. Viktoria Plzeň",
+        "description": "Transmisión en vivo de Basel vs. Viktoria Plzeň",
+        "startDate": "2026-01-29T20:00:00.000Z",
+        "endDate": "2026-01-29T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/bsl-plz"
+        },
+        "image": "https://old.ppv.to/assets/thumb/a30af368b6c45f1366190ef40401b707-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Basel"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Viktoria Plzeň"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Basel"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Viktoria Plzeň"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Basel vs. Viktoria Plzeň",
+            "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/bsl-plz"
+          }
+        ],
+        "h1": "Basel vs. Viktoria Plzeň EN VIVO",
+        "h2": "Ver Basel vs. Viktoria Plzeň Online Gratis"
+      },
+      "event": {
+        "name": "Basel vs. Viktoria Plzeň",
+        "category": "Football",
+        "broadcaster": "Europa League",
+        "start_time": "2026-01-29T20:00:00.000Z",
+        "end_time": "2026-01-29T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Basel",
+        "away_team": "Viktoria Plzeň"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.653Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Basel vs. Viktoria Plzeň, Basel"
+      }
+    },
+    {
+      "id": 16582,
+      "slug": "midtjylland-vs-gnk-dinamo",
+      "uri_name": "uel/2026-01-29/mid-din",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/mid-din",
+      "meta": {
+        "title": "Midtjylland vs. GNK Dinamo EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Midtjylland vs. GNK Dinamo en vivo gratis por Tarjeta Roja TV. Midtjylland vs GNK Dinamo transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Midtjylland vs. GNK Dinamo, Midtjylland, GNK Dinamo, Football, ver online gratis, en vivo gratis, Europa League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/mid-din",
+        "title": "Midtjylland vs. GNK Dinamo EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Midtjylland vs. GNK Dinamo en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/243ff66b8a3040fbb97b9db131e8f2a9-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Midtjylland vs. GNK Dinamo EN VIVO",
+        "description": "Ver Midtjylland vs. GNK Dinamo en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/243ff66b8a3040fbb97b9db131e8f2a9-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Midtjylland vs. GNK Dinamo",
+        "description": "Transmisión en vivo de Midtjylland vs. GNK Dinamo",
+        "startDate": "2026-01-29T20:00:00.000Z",
+        "endDate": "2026-01-29T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/mid-din"
+        },
+        "image": "https://old.ppv.to/assets/thumb/243ff66b8a3040fbb97b9db131e8f2a9-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Midtjylland"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "GNK Dinamo"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Midtjylland"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "GNK Dinamo"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Midtjylland vs. GNK Dinamo",
+            "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/mid-din"
+          }
+        ],
+        "h1": "Midtjylland vs. GNK Dinamo EN VIVO",
+        "h2": "Ver Midtjylland vs. GNK Dinamo Online Gratis"
+      },
+      "event": {
+        "name": "Midtjylland vs. GNK Dinamo",
+        "category": "Football",
+        "broadcaster": "Europa League",
+        "start_time": "2026-01-29T20:00:00.000Z",
+        "end_time": "2026-01-29T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Midtjylland",
+        "away_team": "GNK Dinamo"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.653Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Midtjylland vs. GNK Dinamo, Midtjylland"
+      }
+    },
+    {
+      "id": 16583,
+      "slug": "ludogorets-vs-nice",
+      "uri_name": "uel/2026-01-29/lud-nic",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/lud-nic",
+      "meta": {
+        "title": "Ludogorets vs. Nice EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Ludogorets vs. Nice en vivo gratis por Tarjeta Roja TV. Ludogorets vs Nice transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Ludogorets vs. Nice, Ludogorets, Nice, Football, ver online gratis, en vivo gratis, Europa League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/lud-nic",
+        "title": "Ludogorets vs. Nice EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Ludogorets vs. Nice en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/92dae154baef0a922309c76d2595f0ef-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Ludogorets vs. Nice EN VIVO",
+        "description": "Ver Ludogorets vs. Nice en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/92dae154baef0a922309c76d2595f0ef-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Ludogorets vs. Nice",
+        "description": "Transmisión en vivo de Ludogorets vs. Nice",
+        "startDate": "2026-01-29T20:00:00.000Z",
+        "endDate": "2026-01-29T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/lud-nic"
+        },
+        "image": "https://old.ppv.to/assets/thumb/92dae154baef0a922309c76d2595f0ef-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Ludogorets"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Nice"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Ludogorets"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Nice"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Ludogorets vs. Nice",
+            "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/lud-nic"
+          }
+        ],
+        "h1": "Ludogorets vs. Nice EN VIVO",
+        "h2": "Ver Ludogorets vs. Nice Online Gratis"
+      },
+      "event": {
+        "name": "Ludogorets vs. Nice",
+        "category": "Football",
+        "broadcaster": "Europa League",
+        "start_time": "2026-01-29T20:00:00.000Z",
+        "end_time": "2026-01-29T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Ludogorets",
+        "away_team": "Nice"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.653Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Ludogorets vs. Nice, Ludogorets"
+      }
+    },
+    {
+      "id": 16584,
+      "slug": "nott-m-forest-vs-ferencvaros",
+      "uri_name": "uel/2026-01-29/nfo-fer",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/nfo-fer",
+      "meta": {
+        "title": "Nott'm Forest vs. Ferencváros EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Nott'm Forest vs. Ferencváros en vivo gratis por Tarjeta Roja TV. Nott'm Forest vs Ferencváros transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Nott'm Forest vs. Ferencváros, Nott'm Forest, Ferencváros, Football, ver online gratis, en vivo gratis, Europa League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/nfo-fer",
+        "title": "Nott'm Forest vs. Ferencváros EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Nott'm Forest vs. Ferencváros en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/8471129e6fa8665fd360d21ec74a9156-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Nott'm Forest vs. Ferencváros EN VIVO",
+        "description": "Ver Nott'm Forest vs. Ferencváros en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/8471129e6fa8665fd360d21ec74a9156-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Nott'm Forest vs. Ferencváros",
+        "description": "Transmisión en vivo de Nott'm Forest vs. Ferencváros",
+        "startDate": "2026-01-29T20:00:00.000Z",
+        "endDate": "2026-01-29T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/nfo-fer"
+        },
+        "image": "https://old.ppv.to/assets/thumb/8471129e6fa8665fd360d21ec74a9156-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Nott'm Forest"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Ferencváros"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Nott'm Forest"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Ferencváros"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Nott'm Forest vs. Ferencváros",
+            "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/nfo-fer"
+          }
+        ],
+        "h1": "Nott'm Forest vs. Ferencváros EN VIVO",
+        "h2": "Ver Nott'm Forest vs. Ferencváros Online Gratis"
+      },
+      "event": {
+        "name": "Nott'm Forest vs. Ferencváros",
+        "category": "Football",
+        "broadcaster": "Europa League",
+        "start_time": "2026-01-29T20:00:00.000Z",
+        "end_time": "2026-01-29T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Nott'm Forest",
+        "away_team": "Ferencváros"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.653Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Nott'm Forest vs. Ferencváros, Nott'm Forest"
+      }
+    },
+    {
+      "id": 16585,
+      "slug": "sturm-graz-vs-brann",
+      "uri_name": "uel/2026-01-29/sgr-brn",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/sgr-brn",
+      "meta": {
+        "title": "Sturm Graz vs. Brann EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Sturm Graz vs. Brann en vivo gratis por Tarjeta Roja TV. Sturm Graz vs Brann transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Sturm Graz vs. Brann, Sturm Graz, Brann, Football, ver online gratis, en vivo gratis, Europa League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/sgr-brn",
+        "title": "Sturm Graz vs. Brann EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Sturm Graz vs. Brann en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/d4b4a5f54e1e293c7bdc9dce98edc1f1-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Sturm Graz vs. Brann EN VIVO",
+        "description": "Ver Sturm Graz vs. Brann en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/d4b4a5f54e1e293c7bdc9dce98edc1f1-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Sturm Graz vs. Brann",
+        "description": "Transmisión en vivo de Sturm Graz vs. Brann",
+        "startDate": "2026-01-29T20:00:00.000Z",
+        "endDate": "2026-01-29T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/sgr-brn"
+        },
+        "image": "https://old.ppv.to/assets/thumb/d4b4a5f54e1e293c7bdc9dce98edc1f1-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Sturm Graz"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Brann"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Sturm Graz"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Brann"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Sturm Graz vs. Brann",
+            "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/sgr-brn"
+          }
+        ],
+        "h1": "Sturm Graz vs. Brann EN VIVO",
+        "h2": "Ver Sturm Graz vs. Brann Online Gratis"
+      },
+      "event": {
+        "name": "Sturm Graz vs. Brann",
+        "category": "Football",
+        "broadcaster": "Europa League",
+        "start_time": "2026-01-29T20:00:00.000Z",
+        "end_time": "2026-01-29T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Sturm Graz",
+        "away_team": "Brann"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.653Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Sturm Graz vs. Brann, Sturm Graz"
+      }
+    },
+    {
+      "id": 16586,
+      "slug": "fcsb-vs-fenerbahce",
+      "uri_name": "uel/2026-01-29/fcsb-fen",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/fcsb-fen",
+      "meta": {
+        "title": "FCSB vs. Fenerbahçe EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver FCSB vs. Fenerbahçe en vivo gratis por Tarjeta Roja TV. FCSB vs Fenerbahçe transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, FCSB vs. Fenerbahçe, FCSB, Fenerbahçe, Football, ver online gratis, en vivo gratis, Europa League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/fcsb-fen",
+        "title": "FCSB vs. Fenerbahçe EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver FCSB vs. Fenerbahçe en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/5f2b96541328076f479ef2f60f545036-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "FCSB vs. Fenerbahçe EN VIVO",
+        "description": "Ver FCSB vs. Fenerbahçe en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/5f2b96541328076f479ef2f60f545036-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "FCSB vs. Fenerbahçe",
+        "description": "Transmisión en vivo de FCSB vs. Fenerbahçe",
+        "startDate": "2026-01-29T20:00:00.000Z",
+        "endDate": "2026-01-29T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/fcsb-fen"
+        },
+        "image": "https://old.ppv.to/assets/thumb/5f2b96541328076f479ef2f60f545036-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "FCSB"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Fenerbahçe"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "FCSB"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Fenerbahçe"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "FCSB vs. Fenerbahçe",
+            "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/fcsb-fen"
+          }
+        ],
+        "h1": "FCSB vs. Fenerbahçe EN VIVO",
+        "h2": "Ver FCSB vs. Fenerbahçe Online Gratis"
+      },
+      "event": {
+        "name": "FCSB vs. Fenerbahçe",
+        "category": "Football",
+        "broadcaster": "Europa League",
+        "start_time": "2026-01-29T20:00:00.000Z",
+        "end_time": "2026-01-29T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "FCSB",
+        "away_team": "Fenerbahçe"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.653Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, FCSB vs. Fenerbahçe, FCSB"
+      }
+    },
+    {
+      "id": 16587,
+      "slug": "stuttgart-vs-young-boys",
+      "uri_name": "uel/2026-01-29/stu-yb",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/stu-yb",
+      "meta": {
+        "title": "Stuttgart vs. Young Boys EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Stuttgart vs. Young Boys en vivo gratis por Tarjeta Roja TV. Stuttgart vs Young Boys transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Stuttgart vs. Young Boys, Stuttgart, Young Boys, Football, ver online gratis, en vivo gratis, Europa League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/stu-yb",
+        "title": "Stuttgart vs. Young Boys EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Stuttgart vs. Young Boys en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/7b7e12954b826700abb66160ea6586a0-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Stuttgart vs. Young Boys EN VIVO",
+        "description": "Ver Stuttgart vs. Young Boys en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/7b7e12954b826700abb66160ea6586a0-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Stuttgart vs. Young Boys",
+        "description": "Transmisión en vivo de Stuttgart vs. Young Boys",
+        "startDate": "2026-01-29T20:00:00.000Z",
+        "endDate": "2026-01-29T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/stu-yb"
+        },
+        "image": "https://old.ppv.to/assets/thumb/7b7e12954b826700abb66160ea6586a0-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Stuttgart"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Young Boys"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Stuttgart"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Young Boys"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Stuttgart vs. Young Boys",
+            "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/stu-yb"
+          }
+        ],
+        "h1": "Stuttgart vs. Young Boys EN VIVO",
+        "h2": "Ver Stuttgart vs. Young Boys Online Gratis"
+      },
+      "event": {
+        "name": "Stuttgart vs. Young Boys",
+        "category": "Football",
+        "broadcaster": "Europa League",
+        "start_time": "2026-01-29T20:00:00.000Z",
+        "end_time": "2026-01-29T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Stuttgart",
+        "away_team": "Young Boys"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.653Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Stuttgart vs. Young Boys, Stuttgart"
+      }
+    },
+    {
+      "id": 16588,
+      "slug": "panathinaikos-vs-roma",
+      "uri_name": "uel/2026-01-29/pan-rom",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/pan-rom",
+      "meta": {
+        "title": "Panathinaikos vs. Roma EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Panathinaikos vs. Roma en vivo gratis por Tarjeta Roja TV. Panathinaikos vs Roma transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Panathinaikos vs. Roma, Panathinaikos, Roma, Football, ver online gratis, en vivo gratis, Europa League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/pan-rom",
+        "title": "Panathinaikos vs. Roma EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Panathinaikos vs. Roma en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/ea92bab3229012e1ad79e0ad740d896f-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Panathinaikos vs. Roma EN VIVO",
+        "description": "Ver Panathinaikos vs. Roma en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/ea92bab3229012e1ad79e0ad740d896f-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Panathinaikos vs. Roma",
+        "description": "Transmisión en vivo de Panathinaikos vs. Roma",
+        "startDate": "2026-01-29T20:00:00.000Z",
+        "endDate": "2026-01-29T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/pan-rom"
+        },
+        "image": "https://old.ppv.to/assets/thumb/ea92bab3229012e1ad79e0ad740d896f-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Panathinaikos"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Roma"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Panathinaikos"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Roma"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Panathinaikos vs. Roma",
+            "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/pan-rom"
+          }
+        ],
+        "h1": "Panathinaikos vs. Roma EN VIVO",
+        "h2": "Ver Panathinaikos vs. Roma Online Gratis"
+      },
+      "event": {
+        "name": "Panathinaikos vs. Roma",
+        "category": "Football",
+        "broadcaster": "Europa League",
+        "start_time": "2026-01-29T20:00:00.000Z",
+        "end_time": "2026-01-29T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Panathinaikos",
+        "away_team": "Roma"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.653Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Panathinaikos vs. Roma, Panathinaikos"
+      }
+    },
+    {
+      "id": 16589,
+      "slug": "go-ahead-eagles-vs-braga",
+      "uri_name": "uel/2026-01-29/gae-bra",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/gae-bra",
+      "meta": {
+        "title": "Go Ahead Eagles vs. Braga EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Go Ahead Eagles vs. Braga en vivo gratis por Tarjeta Roja TV. Go Ahead Eagles vs Braga transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Go Ahead Eagles vs. Braga, Go Ahead Eagles, Braga, Football, ver online gratis, en vivo gratis, Europa League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/gae-bra",
+        "title": "Go Ahead Eagles vs. Braga EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Go Ahead Eagles vs. Braga en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/6b6ee9d3e9ca4d6751eb2b7838061e4c-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Go Ahead Eagles vs. Braga EN VIVO",
+        "description": "Ver Go Ahead Eagles vs. Braga en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/6b6ee9d3e9ca4d6751eb2b7838061e4c-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Go Ahead Eagles vs. Braga",
+        "description": "Transmisión en vivo de Go Ahead Eagles vs. Braga",
+        "startDate": "2026-01-29T20:00:00.000Z",
+        "endDate": "2026-01-29T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/gae-bra"
+        },
+        "image": "https://old.ppv.to/assets/thumb/6b6ee9d3e9ca4d6751eb2b7838061e4c-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Go Ahead Eagles"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Braga"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Go Ahead Eagles"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Braga"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Go Ahead Eagles vs. Braga",
+            "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/gae-bra"
+          }
+        ],
+        "h1": "Go Ahead Eagles vs. Braga EN VIVO",
+        "h2": "Ver Go Ahead Eagles vs. Braga Online Gratis"
+      },
+      "event": {
+        "name": "Go Ahead Eagles vs. Braga",
+        "category": "Football",
+        "broadcaster": "Europa League",
+        "start_time": "2026-01-29T20:00:00.000Z",
+        "end_time": "2026-01-29T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Go Ahead Eagles",
+        "away_team": "Braga"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.653Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Go Ahead Eagles vs. Braga, Go Ahead Eagles"
+      }
+    },
+    {
+      "id": 16590,
+      "slug": "genk-vs-malmo",
+      "uri_name": "uel/2026-01-29/gen-mal",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/gen-mal",
+      "meta": {
+        "title": "Genk vs. Malmö EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Genk vs. Malmö en vivo gratis por Tarjeta Roja TV. Genk vs Malmö transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Genk vs. Malmö, Genk, Malmö, Football, ver online gratis, en vivo gratis, Europa League",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/gen-mal",
+        "title": "Genk vs. Malmö EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Genk vs. Malmö en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/93c565ab0b5686d8d9bcf5c8d250ea9f-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Genk vs. Malmö EN VIVO",
+        "description": "Ver Genk vs. Malmö en vivo gratis.",
+        "image": "https://old.ppv.to/assets/thumb/93c565ab0b5686d8d9bcf5c8d250ea9f-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Genk vs. Malmö",
+        "description": "Transmisión en vivo de Genk vs. Malmö",
+        "startDate": "2026-01-29T20:00:00.000Z",
+        "endDate": "2026-01-29T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/gen-mal"
+        },
+        "image": "https://old.ppv.to/assets/thumb/93c565ab0b5686d8d9bcf5c8d250ea9f-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Genk"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Malmö"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Genk"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Malmö"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Genk vs. Malmö",
+            "url": "https://tarjetarojaenvivo.live/eventos/uel/2026-01-29/gen-mal"
+          }
+        ],
+        "h1": "Genk vs. Malmö EN VIVO",
+        "h2": "Ver Genk vs. Malmö Online Gratis"
+      },
+      "event": {
+        "name": "Genk vs. Malmö",
+        "category": "Football",
+        "broadcaster": "Europa League",
+        "start_time": "2026-01-29T20:00:00.000Z",
+        "end_time": "2026-01-29T22:00:00.000Z",
+        "duration_minutes": 120,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Genk",
+        "away_team": "Malmö"
+      },
+      "technical": {
+        "last_modified": "2026-01-26T12:50:50.653Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Genk vs. Malmö, Genk"
       }
     },
     {
@@ -1575,7 +5509,7 @@
         "away_team": "VfL Wolfsburg"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.757Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1681,7 +5615,7 @@
         "away_team": "Genoa"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.757Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1787,7 +5721,7 @@
         "away_team": "Le Havre AC"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.757Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1893,7 +5827,7 @@
         "away_team": "Alavés"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.757Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1999,7 +5933,7 @@
         "away_team": "Girona"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.757Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2105,7 +6039,7 @@
         "away_team": "Sassuolo"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.757Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2211,7 +6145,7 @@
         "away_team": "Bayer Leverkusen"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.758Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2312,12 +6246,12 @@
         "end_time": "2026-01-31T17:00:00.000Z",
         "duration_minutes": 150,
         "status": "upcoming",
-        "viewers": "1",
+        "viewers": "0",
         "home_team": "FC Augsburg",
         "away_team": "St. Pauli"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.758Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2423,7 +6357,7 @@
         "away_team": "Mainz"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.758Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2529,7 +6463,7 @@
         "away_team": "1. FC Union Berlin"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.758Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2635,7 +6569,7 @@
         "away_team": "Borussia Mönchengladbach"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.758Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2741,7 +6675,7 @@
         "away_team": "Everton"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.758Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2847,7 +6781,7 @@
         "away_team": "Arsenal"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.758Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2953,7 +6887,7 @@
         "away_team": "AFC Bournemouth"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.758Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3059,7 +6993,7 @@
         "away_team": "Villarreal"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.758Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3165,7 +7099,7 @@
         "away_team": "Marseille"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.758Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3271,7 +7205,7 @@
         "away_team": "Fiorentina"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.758Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3377,7 +7311,7 @@
         "away_team": "Atlético Madrid"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.758Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3483,7 +7417,7 @@
         "away_team": "Bayern Munich"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3589,7 +7523,7 @@
         "away_team": "West Ham United"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3695,7 +7629,7 @@
         "away_team": "Nantes"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3801,7 +7735,7 @@
         "away_team": "Hellas Verona"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3907,7 +7841,7 @@
         "away_team": "Barcelona"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4013,7 +7947,7 @@
         "away_team": "Newcastle United"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4119,7 +8053,7 @@
         "away_team": "Stade Rennais"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4225,7 +8159,7 @@
         "away_team": "Lecce"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4331,7 +8265,7 @@
         "away_team": "Rayo Vallecano"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4437,7 +8371,7 @@
         "away_team": "Brentford"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4543,7 +8477,7 @@
         "away_team": "Fulham"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4649,7 +8583,7 @@
         "away_team": "Crystal Palace"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4755,7 +8689,7 @@
         "away_team": "Atalanta"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4861,7 +8795,7 @@
         "away_team": "Lille"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4967,7 +8901,7 @@
         "away_team": "SC Freiburg"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5073,7 +9007,7 @@
         "away_team": "Valencia"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5179,7 +9113,7 @@
         "away_team": "Metz"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5285,7 +9219,7 @@
         "away_team": "Brest"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5391,7 +9325,7 @@
         "away_team": "AJ Auxerre"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5497,7 +9431,7 @@
         "away_team": "1. FC Heidenheim 1846"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5603,7 +9537,7 @@
         "away_team": "Manchester City"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5709,7 +9643,7 @@
         "away_team": "Inter Milan"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5815,7 +9749,7 @@
         "away_team": "Celta Vigo"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5921,7 +9855,7 @@
         "away_team": "Juventus"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -6027,7 +9961,7 @@
         "away_team": "Paris Saint-Germain"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -6133,7 +10067,7 @@
         "away_team": "Real Sociedad"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -6239,7 +10173,7 @@
         "away_team": "AS Roma"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -6345,7 +10279,7 @@
         "away_team": "Sevilla"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -6451,7 +10385,7 @@
         "away_team": "Burnley"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -6557,7 +10491,7 @@
         "away_team": "Tampa Bay Lightning"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -6663,7 +10597,7 @@
         "away_team": "New York Rangers"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -6769,7 +10703,7 @@
         "away_team": "Philadelphia Flyers"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -6875,7 +10809,7 @@
         "away_team": "Columbus Blue Jackets"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -6981,7 +10915,7 @@
         "away_team": "Edmonton Oilers"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -7067,7 +11001,7 @@
         "viewers": "0"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -7153,7 +11087,7 @@
         "viewers": "0"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -7239,7 +11173,7 @@
         "viewers": "0"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -7322,10 +11256,10 @@
         "end_time": "2026-02-11T17:00:00.000Z",
         "duration_minutes": 600,
         "status": "upcoming",
-        "viewers": "1"
+        "viewers": "3"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -7411,7 +11345,7 @@
         "viewers": "0"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -7497,7 +11431,7 @@
         "viewers": "0"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -7538,8 +11472,8 @@
         "@type": "SportsEvent",
         "name": "WWE: Monday Night RAW",
         "description": "Transmisión en vivo de WWE: Monday Night RAW",
-        "startDate": "2026-01-26T20:00:00.000Z",
-        "endDate": "2026-01-26T23:00:00.000Z",
+        "startDate": "2026-01-27T01:00:00.000Z",
+        "endDate": "2026-01-27T04:00:00.000Z",
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
         "location": {
@@ -7576,14 +11510,14 @@
         "name": "WWE: Monday Night RAW",
         "category": "Wrestling",
         "broadcaster": "Netflix",
-        "start_time": "2026-01-26T20:00:00.000Z",
-        "end_time": "2026-01-26T23:00:00.000Z",
+        "start_time": "2026-01-27T01:00:00.000Z",
+        "end_time": "2026-01-27T04:00:00.000Z",
         "duration_minutes": 180,
         "status": "upcoming",
         "viewers": "0"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.653Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -7669,7 +11603,7 @@
         "viewers": "0"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.654Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -7755,7 +11689,7 @@
         "viewers": "0"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.654Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -7841,7 +11775,7 @@
         "viewers": "0"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.654Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -7927,7 +11861,7 @@
         "viewers": "0"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.654Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -8013,7 +11947,7 @@
         "viewers": "0"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.654Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -8099,7 +12033,7 @@
         "viewers": "0"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.654Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -8182,10 +12116,10 @@
         "end_time": "1970-01-01T00:00:00.000Z",
         "duration_minutes": 0,
         "status": "completed",
-        "viewers": "36"
+        "viewers": "32"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.654Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -8268,10 +12202,10 @@
         "end_time": "2025-02-28T20:00:00.000Z",
         "duration_minutes": 59940,
         "status": "completed",
-        "viewers": "1"
+        "viewers": "0"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.654Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -8354,10 +12288,10 @@
         "end_time": "2025-01-18T09:00:00.000Z",
         "duration_minutes": 60,
         "status": "completed",
-        "viewers": "58"
+        "viewers": "39"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.654Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -8440,10 +12374,10 @@
         "end_time": "2025-01-18T10:28:00.000Z",
         "duration_minutes": 0,
         "status": "completed",
-        "viewers": "9"
+        "viewers": "10"
       },
       "technical": {
-        "last_modified": "2026-01-26T06:38:23.759Z",
+        "last_modified": "2026-01-26T12:50:50.654Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
