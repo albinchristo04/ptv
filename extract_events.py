@@ -14,27 +14,34 @@ OUTPUT_FILE = "events.json"
 TIMEOUT = 10
 
 def fetch_events(api_url):
-    """
-    Fetch events from the API
-    
-    Args:
-        api_url (str): The API endpoint URL
-        
-    Returns:
-        dict/list: The API response data or None if failed
-    """
     try:
         print(f"Fetching data from {api_url}...")
-        response = requests.get(api_url, timeout=TIMEOUT)
+
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36",
+            "Accept": "application/json, text/plain, */*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Referer": "https://ppv.to/",
+            "Origin": "https://ppv.to",
+            "Connection": "keep-alive",
+        }
+
+        session = requests.Session()
+        response = session.get(api_url, headers=headers, timeout=TIMEOUT)
+
         response.raise_for_status()
-        
+
         data = response.json()
-        print(f"✓ Successfully fetched data (Status: {response.status_code})")
+
+        print(f"✓ Successfully fetched data")
         return data
-        
-    except requests.exceptions.RequestException as e:
+
+    except Exception as e:
         print(f"✗ Error fetching data: {e}")
         return None
+        
+        
+
     except json.JSONDecodeError as e:
         print(f"✗ Error parsing JSON: {e}")
         return None
