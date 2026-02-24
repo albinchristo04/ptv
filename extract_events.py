@@ -13,7 +13,7 @@ from datetime import datetime
 import cloudscraper
 
 # Configuration
-API_URL = "https://old.ppv.to/api/streams"
+API_URL = "https://api.ppv.to/api/streams"
 OUTPUT_FILE = "events.json"
 
 TIMEOUT = 30
