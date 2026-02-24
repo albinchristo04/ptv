@@ -1,108 +1,172 @@
 #!/usr/bin/env python3
+
 """
-Events Extractor - Fetch and store events from ppv.to API
+EVaultHub Events Extractor
+Cloudflare-bypass version using cloudscraper
 """
 
-import requests
 import json
+import time
 import os
 from datetime import datetime
+
+import cloudscraper
 
 # Configuration
 API_URL = "https://old.ppv.to/api/streams"
 OUTPUT_FILE = "events.json"
-TIMEOUT = 10
+
+TIMEOUT = 30
+MAX_RETRIES = 5
+RETRY_DELAY = 5
+
+
+def create_scraper():
+    """Create Cloudflare-bypass scraper"""
+
+    scraper = cloudscraper.create_scraper(
+        browser={
+            "browser": "chrome",
+            "platform": "windows",
+            "mobile": False,
+        }
+    )
+
+    scraper.headers.update({
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://ppv.to/",
+        "Origin": "https://ppv.to",
+        "Connection": "keep-alive",
+    })
+
+    return scraper
+
 
 def fetch_events(api_url):
-    try:
-        print(f"Fetching data from {api_url}...")
+    """Fetch events with retry + Cloudflare bypass"""
 
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36",
-            "Accept": "application/json, text/plain, */*",
-            "Accept-Language": "en-US,en;q=0.9",
-            "Referer": "https://ppv.to/",
-            "Origin": "https://ppv.to",
-            "Connection": "keep-alive",
-        }
+    scraper = create_scraper()
 
-        session = requests.Session()
-        response = session.get(api_url, headers=headers, timeout=TIMEOUT)
+    for attempt in range(1, MAX_RETRIES + 1):
 
-        response.raise_for_status()
+        try:
 
-        data = response.json()
+            print(f"\nAttempt {attempt}/{MAX_RETRIES}")
+            print(f"Fetching: {api_url}")
 
-        print(f"✓ Successfully fetched data")
-        return data
+            response = scraper.get(
+                api_url,
+                timeout=TIMEOUT
+            )
 
-    except Exception as e:
-        print(f"✗ Error fetching data: {e}")
-        return None
-        
-        
+            print(f"Status Code: {response.status_code}")
 
-    except json.JSONDecodeError as e:
-        print(f"✗ Error parsing JSON: {e}")
-        return None
+            if response.status_code != 200:
+                raise Exception(f"Bad status code: {response.status_code}")
+
+            data = response.json()
+
+            print("✓ Successfully fetched events")
+            return data
+
+        except Exception as e:
+
+            print(f"✗ Attempt {attempt} failed: {e}")
+
+            if attempt < MAX_RETRIES:
+                print(f"Retrying in {RETRY_DELAY} seconds...")
+                time.sleep(RETRY_DELAY)
+            else:
+                print("✗ All retries failed")
+                return None
+
 
 def save_to_json(data, filename=OUTPUT_FILE):
-    """
-    Save the events data to a JSON file
-    
-    Args:
-        data (dict): The data to save
-        filename (str): Output filename
-        
-    Returns:
-        bool: True if successful, False otherwise
-    """
+    """Save JSON safely"""
+
     try:
-        with open(filename, 'w', encoding='utf-8') as f:
+
+        temp_file = filename + ".tmp"
+
+        with open(temp_file, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
-        print(f"✓ Data saved to {filename}")
+
+        os.replace(temp_file, filename)
+
+        print(f"✓ Saved to {filename}")
         return True
+
     except Exception as e:
-        print(f"✗ Error saving to file: {e}")
+
+        print(f"✗ Save failed: {e}")
         return False
 
+
+def prepare_output(events_data):
+    """Prepare structured output"""
+
+    return {
+        "metadata": {
+            "fetched_at": datetime.utcnow().isoformat() + "Z",
+            "source": API_URL,
+            "total_events": len(events_data) if isinstance(events_data, list) else None,
+        },
+        "events": events_data
+    }
+
+
+def print_summary(events_data):
+    """Print summary info"""
+
+    print("\n========== SUMMARY ==========")
+
+    if isinstance(events_data, list):
+
+        print(f"Total events: {len(events_data)}")
+
+        if len(events_data) > 0:
+
+            first = events_data[0]
+
+            if isinstance(first, dict):
+
+                name = first.get("title") or first.get("name")
+
+                if name:
+                    print(f"First event: {name}")
+
+    elif isinstance(events_data, dict):
+
+        print(f"Keys: {', '.join(events_data.keys())}")
+
+    print("=============================\n")
+
+
 def main():
-    """Main execution function"""
+
     print("=" * 50)
-    print("Events Extractor - Starting...")
+    print("EVaultHub Events Extractor")
     print("=" * 50)
-    
-    # Fetch events from API
+
     events_data = fetch_events(API_URL)
-    
-    if events_data:
-        # Prepare output with metadata
-        output_data = {
-            "metadata": {
-                "fetched_at": datetime.now().isoformat(),
-                "source": API_URL,
-                "total_events": len(events_data) if isinstance(events_data, list) else None
-            },
-            "events": events_data
-        }
-        
-        # Save to JSON file
-        if save_to_json(output_data):
-            # Print summary
-            if isinstance(events_data, list):
-                print(f"\n📊 Summary: {len(events_data)} events extracted")
-            elif isinstance(events_data, dict):
-                print(f"\n📊 Data keys: {', '.join(events_data.keys())}")
-            print("=" * 50)
-            print("✓ Process completed successfully!")
-        else:
-            print("=" * 50)
-            print("✗ Failed to save data")
-            exit(1)
-    else:
-        print("=" * 50)
+
+    if not events_data:
         print("✗ Failed to fetch events")
         exit(1)
+
+    output_data = prepare_output(events_data)
+
+    success = save_to_json(output_data)
+
+    if not success:
+        exit(1)
+
+    print_summary(events_data)
+
+    print("✓ Completed successfully")
+    print("=" * 50)
+
 
 if __name__ == "__main__":
     main()
