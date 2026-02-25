@@ -1,174 +1,27 @@
 {
   "metadata": {
-    "fetched_at": "2026-02-24T18:54:13.562032Z",
+    "fetched_at": "2026-02-25T01:44:54.022593Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-02-24T19:20:03.545845",
-      "total_streams": 106,
+      "extracted_at": "2026-02-25T01:49:30.239499",
+      "total_streams": 91,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 106,
-        "successful_requests": 106,
+        "total_requests": 91,
+        "successful_requests": 91,
         "failed_requests": 0,
-        "elapsed_time_seconds": 271.64
+        "elapsed_time_seconds": 258.18
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1771959260,
+    "timestamp": 1771983900,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.023016929626464844,
+    "performance": 0.02195000648498535,
     "streams": [
-      {
-        "category": "Baseball",
-        "id": 36,
-        "always_live": false,
-        "streams": [
-          {
-            "id": 18072,
-            "name": "Detroit Tigers vs. Atlanta Braves",
-            "tag": "MLB",
-            "poster": "https://api.ppv.to/assets/thumb/d5fba1d9b9943059a481e89fd5c627dd-thumbnail.jpg",
-            "blurhash": "L14LIO7^9[_iOXsosANu00:R=y8H",
-            "colors": [
-              "#0c2340",
-              "#12264e"
-            ],
-            "uri_name": "mlb/20260223/det-atl-6404",
-            "starts_at": 1771956300,
-            "ends_at": 1771968900,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Baseball",
-            "iframe": "https://pooembed.eu/embed/mlb/20260223/det-atl-6404",
-            "viewers": "24",
-            "substreams": []
-          },
-          {
-            "id": 18073,
-            "name": "Pittsburgh Pirates vs. Boston Red Sox",
-            "tag": "MLB",
-            "poster": "https://api.ppv.to/assets/thumb/a8e342662a9c081deb710ed5d748bad2-thumbnail.jpg",
-            "blurhash": "L3Bd]53era0VxYocR,NK04@%xr~2",
-            "colors": [
-              "#27251f",
-              "#bc2f38"
-            ],
-            "uri_name": "mlb/20260223/pit-bos-1864",
-            "starts_at": 1771956300,
-            "ends_at": 1771968900,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Baseball",
-            "iframe": "https://pooembed.eu/embed/mlb/20260223/pit-bos-1864",
-            "viewers": "46",
-            "substreams": []
-          },
-          {
-            "id": 18076,
-            "name": "New York Yankees vs. Toronto Blue Jays",
-            "tag": "MLB",
-            "poster": "https://api.ppv.to/assets/thumb/f23bcba686ac7e8d6a7c1a5d93cbc3eb-thumbnail.jpg",
-            "blurhash": "L36[a#.80100jcWBj[of00H?_2?]",
-            "colors": [
-              "#003087",
-              "#12498d"
-            ],
-            "uri_name": "mlb/20260223/nyy-tor-2001",
-            "starts_at": 1771956420,
-            "ends_at": 1771969020,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Baseball",
-            "iframe": "https://pooembed.eu/embed/mlb/20260223/nyy-tor-2001",
-            "viewers": "79",
-            "substreams": []
-          },
-          {
-            "id": 18078,
-            "name": "Houston Astros vs. New York Mets",
-            "tag": "MLB",
-            "poster": "https://api.ppv.to/assets/thumb/a5d533249fe29a22f6c96ce2da90d982-thumbnail.jpg",
-            "blurhash": "L37KDNu10$QRw{WpWXsm00MK}ryr",
-            "colors": [
-              "#002d62",
-              "#002d71"
-            ],
-            "uri_name": "mlb/20260223/hou-nym-8029",
-            "starts_at": 1771956600,
-            "ends_at": 1771969200,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Baseball",
-            "iframe": "https://pooembed.eu/embed/mlb/20260223/hou-nym-8029",
-            "viewers": "33",
-            "substreams": []
-          },
-          {
-            "id": 18082,
-            "name": "Cleveland Guardians vs. Los Angeles Dodgers",
-            "tag": "MLB",
-            "poster": "https://api.ppv.to/assets/thumb/31211692068ecc2385a256352d690681-thumbnail.jpg",
-            "blurhash": "L34e~o_#Fd2]oLjua}WV007i#:{x",
-            "colors": [
-              "#00385d",
-              "#00599b"
-            ],
-            "uri_name": "mlb/20260223/cle-lad-7954",
-            "starts_at": 1771963500,
-            "ends_at": 1771976100,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Baseball",
-            "iframe": "https://pooembed.eu/embed/mlb/20260223/cle-lad-7954",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 18084,
-            "name": "Los Angeles Angels vs. Colorado Rockies",
-            "tag": "MLB",
-            "poster": "https://api.ppv.to/assets/thumb/4b4e98024a5f27c97a94159c3ca4008c-thumbnail.jpg",
-            "blurhash": "LEA*HZ|qrtn#ayfjjtjt5iFebba$",
-            "colors": [
-              "#ba0021",
-              "#33006e"
-            ],
-            "uri_name": "mlb/20260223/laa-col-5820",
-            "starts_at": 1771963800,
-            "ends_at": 1771976400,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Baseball",
-            "iframe": "https://pooembed.eu/embed/mlb/20260223/laa-col-5820",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 18086,
-            "name": "Chicago White Sox vs. Seattle Mariners",
-            "tag": "MLB",
-            "poster": "https://api.ppv.to/assets/thumb/cf4cc4ed5fcea8832f4eaf51d8b97b99-thumbnail.jpg",
-            "blurhash": "L15F2v;?00Eeofofj[fj00JY_N$j",
-            "colors": [
-              "#27251f",
-              "#0c2b55"
-            ],
-            "uri_name": "mlb/20260223/chw-sea-6392",
-            "starts_at": 1771963800,
-            "ends_at": 1771976400,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Baseball",
-            "iframe": "https://pooembed.eu/embed/mlb/20260223/chw-sea-6392",
-            "viewers": "1",
-            "substreams": []
-          }
-        ]
-      },
       {
         "category": "Basketball",
         "id": 37,
@@ -191,7 +44,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-02-24/phi-ind",
-            "viewers": "0",
+            "viewers": "429",
             "substreams": []
           },
           {
@@ -211,7 +64,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-02-24/wsh-atl",
-            "viewers": "0",
+            "viewers": "135",
             "substreams": []
           },
           {
@@ -231,7 +84,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-02-24/dal-bkn",
-            "viewers": "0",
+            "viewers": "119",
             "substreams": []
           },
           {
@@ -251,7 +104,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-02-24/okc-tor",
-            "viewers": "0",
+            "viewers": "603",
             "substreams": []
           },
           {
@@ -271,7 +124,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-02-24/ny-cle",
-            "viewers": "0",
+            "viewers": "1518",
             "substreams": []
           },
           {
@@ -291,7 +144,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-02-24/cha-chi",
-            "viewers": "0",
+            "viewers": "404",
             "substreams": []
           },
           {
@@ -311,7 +164,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-02-24/mia-mil",
-            "viewers": "0",
+            "viewers": "263",
             "substreams": []
           },
           {
@@ -331,7 +184,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-02-24/gs-no",
-            "viewers": "0",
+            "viewers": "517",
             "substreams": []
           },
           {
@@ -351,7 +204,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-02-24/bos-phx",
-            "viewers": "0",
+            "viewers": "8",
             "substreams": []
           },
           {
@@ -371,7 +224,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-02-24/min-por",
-            "viewers": "0",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -418,7 +271,7 @@
             "locale": "en",
             "category_name": "Cricket",
             "iframe": "https://pooembed.eu/embed/willow-cricket",
-            "viewers": "11",
+            "viewers": "9",
             "substreams": []
           }
         ]
@@ -428,86 +281,6 @@
         "id": 32,
         "always_live": false,
         "streams": [
-          {
-            "id": 17271,
-            "name": "Players Championship - Board 1",
-            "tag": "PDC.TV",
-            "poster": "https://api.ppv.to/assets/thumb/7d4dd33867452558399f05dd8de0efd5-thumbnail.jpg",
-            "blurhash": "LSKvm#}[I:v~0e9t?HNbM{I:NG%2",
-            "colors": [
-              "#d41a0b",
-              "#000000"
-            ],
-            "uri_name": "players-championship-board-1",
-            "starts_at": 1771938000,
-            "ends_at": 1771966800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Darts",
-            "iframe": "https://pooembed.eu/embed/players-championship-board-1",
-            "viewers": "70",
-            "substreams": []
-          },
-          {
-            "id": 17272,
-            "name": "Players Championship - Board 2",
-            "tag": "PDC.TV",
-            "poster": "https://api.ppv.to/assets/thumb/7d4dd33867452558399f05dd8de0efd5-thumbnail.jpg",
-            "blurhash": "LSKvm#}[I:v~0e9t?HNbM{I:NG%2",
-            "colors": [
-              "#d41a0b",
-              "#000000"
-            ],
-            "uri_name": "players-championship-board-2",
-            "starts_at": 1771938000,
-            "ends_at": 1771966800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Darts",
-            "iframe": "https://pooembed.eu/embed/players-championship-board-2",
-            "viewers": "5",
-            "substreams": []
-          },
-          {
-            "id": 17273,
-            "name": "Players Championship - Board 3",
-            "tag": "PDC.TV",
-            "poster": "https://api.ppv.to/assets/thumb/7d4dd33867452558399f05dd8de0efd5-thumbnail.jpg",
-            "blurhash": "LSKvm#}[I:v~0e9t?HNbM{I:NG%2",
-            "colors": [
-              "#d41a0b",
-              "#000000"
-            ],
-            "uri_name": "players-championship-board-3",
-            "starts_at": 1771938000,
-            "ends_at": 1771966800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Darts",
-            "iframe": "https://pooembed.eu/embed/players-championship-board-3",
-            "viewers": "4",
-            "substreams": []
-          },
-          {
-            "id": 17274,
-            "name": "Players Championship - Board 4",
-            "tag": "PDC.TV",
-            "poster": "https://api.ppv.to/assets/thumb/7d4dd33867452558399f05dd8de0efd5-thumbnail.jpg",
-            "blurhash": "LSKvm#}[I:v~0e9t?HNbM{I:NG%2",
-            "colors": [
-              "#d41a0b",
-              "#000000"
-            ],
-            "uri_name": "players-championship-board-4",
-            "starts_at": 1771938000,
-            "ends_at": 1771966800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Darts",
-            "iframe": "https://pooembed.eu/embed/players-championship-board-4",
-            "viewers": "3",
-            "substreams": []
-          },
           {
             "id": 17269,
             "name": "Premier League Darts: Night 4",
@@ -535,86 +308,6 @@
         "id": 34,
         "always_live": false,
         "streams": [
-          {
-            "id": 18048,
-            "name": "Atleti vs. Club Brugge",
-            "tag": "Champions League",
-            "poster": "https://api.ppv.to/assets/thumb/4b18ed053584349b2015bcb193f0f205-thumbnail.jpg",
-            "blurhash": "L37w?K}u4T0|R-o#WoV@001G^-}Z",
-            "colors": [
-              "#011b36",
-              "#011b36"
-            ],
-            "uri_name": "ucl/2026-02-24/atm-bru",
-            "starts_at": 1771955100,
-            "ends_at": 1771965900,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/ucl/2026-02-24/atm-bru",
-            "viewers": "2420",
-            "substreams": []
-          },
-          {
-            "id": 18049,
-            "name": "Leverkusen vs. Olympiacos",
-            "tag": "Champions League",
-            "poster": "https://api.ppv.to/assets/thumb/8e9907b9b24f1d744172c2bcd085ed00-thumbnail.jpg",
-            "blurhash": "L39QUIcB8wv.M|%2ayIo00Vb.ATD",
-            "colors": [
-              "#011b36",
-              "#011b36"
-            ],
-            "uri_name": "ucl/2026-02-24/lev-oly",
-            "starts_at": 1771963200,
-            "ends_at": 1771974000,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/ucl/2026-02-24/lev-oly",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 18050,
-            "name": "Inter vs. Bodø/Glimt",
-            "tag": "Champions League",
-            "poster": "https://api.ppv.to/assets/thumb/f7e5b71d9bf48b7a984e1e3edb0b5b4d-thumbnail.jpg",
-            "blurhash": "L77_D|OxI7wDbIoLayay00rm%NT4",
-            "colors": [
-              "#011b36",
-              "#011b36"
-            ],
-            "uri_name": "ucl/2026-02-24/int-bod",
-            "starts_at": 1771963200,
-            "ends_at": 1771974000,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/ucl/2026-02-24/int-bod",
-            "viewers": "10",
-            "substreams": []
-          },
-          {
-            "id": 18051,
-            "name": "Newcastle vs. Qarabağ",
-            "tag": "Champions League",
-            "poster": "https://api.ppv.to/assets/thumb/3543b50aa11e218a282f859fd2f37564-thumbnail.jpg",
-            "blurhash": "L36[UO588w^jVsi^ayX900?G?d9Z",
-            "colors": [
-              "#011b36",
-              "#011b36"
-            ],
-            "uri_name": "ucl/2026-02-24/new-qar",
-            "starts_at": 1771963200,
-            "ends_at": 1771974000,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/ucl/2026-02-24/new-qar",
-            "viewers": "2",
-            "substreams": []
-          },
           {
             "id": 18052,
             "name": "Atalanta vs. B. Dortmund",
@@ -692,7 +385,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/ucl/2026-02-25/rma-ben",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1979,7 +1672,7 @@
             "locale": "en",
             "category_name": "Wrestling",
             "iframe": "https://pooembed.eu/embed/wwe/nxt/2026-02-24",
-            "viewers": "1",
+            "viewers": "149",
             "substreams": []
           },
           {
@@ -2039,7 +1732,7 @@
             "locale": "en",
             "category_name": "Wrestling",
             "iframe": "https://pooembed.eu/embed/wwe/smackdown/2026-02-27",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -2086,7 +1779,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-south-park",
-            "viewers": "27",
+            "viewers": "30",
             "substreams": []
           },
           {
@@ -2106,7 +1799,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-cows",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -2126,7 +1819,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-family-guy",
-            "viewers": "28",
+            "viewers": "41",
             "substreams": []
           },
           {
@@ -2146,7 +1839,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-the-simpsons",
-            "viewers": "7",
+            "viewers": "11",
             "substreams": []
           },
           {
@@ -2166,7 +1859,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-spongebob-squarepants",
-            "viewers": "4",
+            "viewers": "5",
             "substreams": []
           },
           {
@@ -2186,7 +1879,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/rally-tv",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           }
         ]
