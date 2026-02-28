@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2026-02-28T06:30:15.744429Z",
+    "fetched_at": "2026-02-28T12:33:39.713595Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-02-28T06:57:42.002463",
-      "total_streams": 75,
+      "extracted_at": "2026-02-28T12:38:16.812937",
+      "total_streams": 86,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 75,
-        "successful_requests": 75,
+        "total_requests": 86,
+        "successful_requests": 86,
         "failed_requests": 0,
-        "elapsed_time_seconds": 212.28
+        "elapsed_time_seconds": 260.92
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1772260220,
+    "timestamp": 1772282020,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.028149127960205078,
+    "performance": 0.028894901275634766,
     "streams": [
       {
         "category": "American Football",
@@ -44,7 +44,214 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://pooembed.eu/embed/nfl-network",
-            "viewers": "21",
+            "viewers": "20",
+            "substreams": []
+          }
+        ]
+      },
+      {
+        "category": "Baseball",
+        "id": 36,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 18204,
+            "name": "Atlanta Braves vs. Baltimore Orioles",
+            "tag": "MLB",
+            "poster": "https://api.ppv.to/assets/thumb/45072fbcc7427686b7f681e4b456a42b-thumbnail.jpg",
+            "blurhash": "L8FCU]1P68ofbHa|a|a}0~}B$Nwc",
+            "colors": [
+              "#0c2340",
+              "#df4601"
+            ],
+            "uri_name": "mlb/2026-02-28/atl-bal",
+            "starts_at": 1772301900,
+            "ends_at": 1772314500,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-02-28/atl-bal",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18205,
+            "name": "Minnesota Twins vs. Boston Red Sox",
+            "tag": "MLB",
+            "poster": "https://api.ppv.to/assets/thumb/290b2ffe9b8c7019b53d4ed2c591d111-thumbnail.jpg",
+            "blurhash": "L05;LKzmitS}J.Nujswx007hS%+x",
+            "colors": [
+              "#031f40",
+              "#0d2b56"
+            ],
+            "uri_name": "mlb/2026-02-28/min-bos",
+            "starts_at": 1772301900,
+            "ends_at": 1772314500,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-02-28/min-bos",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18206,
+            "name": "Toronto Blue Jays vs. New York Yankees",
+            "tag": "MLB",
+            "poster": "https://api.ppv.to/assets/thumb/53b2766def1eaac098a6f035802e5e23-thumbnail.jpg",
+            "blurhash": "L84VFA%jXUEMj]j[a|ay9WITnh-V",
+            "colors": [
+              "#134a8e",
+              "#132448"
+            ],
+            "uri_name": "mlb/2026-02-28/tor-nyy",
+            "starts_at": 1772301900,
+            "ends_at": 1772314500,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-02-28/tor-nyy",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18207,
+            "name": "Philadelphia Phillies vs. Toronto Blue Jays",
+            "tag": "MLB",
+            "poster": "https://api.ppv.to/assets/thumb/f6c24ce8c0616d294af0988555496717-thumbnail.jpg",
+            "blurhash": "LLA[yp{c;LxaoLn%jta}5hKPOEV@",
+            "colors": [
+              "#e81828",
+              "#134a8e"
+            ],
+            "uri_name": "mlb/2026-02-28/phi-tor",
+            "starts_at": 1772302020,
+            "ends_at": 1772314620,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-02-28/phi-tor",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18208,
+            "name": "Washington Nationals vs. New York Mets",
+            "tag": "MLB",
+            "poster": "https://api.ppv.to/assets/thumb/02a2949508571b356c1758e12cdce396-thumbnail.jpg",
+            "blurhash": "L68y3~{a[n]ksoWWa|oJ1ET0J.E*",
+            "colors": [
+              "#ab0003",
+              "#002d72"
+            ],
+            "uri_name": "mlb/2026-02-28/wsh-nym",
+            "starts_at": 1772302200,
+            "ends_at": 1772314800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-02-28/wsh-nym",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18209,
+            "name": "Chicago White Sox vs. Cleveland Guardians",
+            "tag": "MLB",
+            "poster": "https://api.ppv.to/assets/thumb/76343a71269b6bb137b9906b9a7759ac-thumbnail.jpg",
+            "blurhash": "L15#Cq8KM]_Os;f+s:of00.rxI8v",
+            "colors": [
+              "#000000",
+              "#002b5c"
+            ],
+            "uri_name": "mlb/2026-02-28/chw-cle",
+            "starts_at": 1772309100,
+            "ends_at": 1772321700,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-02-28/chw-cle",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18210,
+            "name": "Chicago Cubs vs. Los Angeles Dodgers",
+            "tag": "MLB",
+            "poster": "https://api.ppv.to/assets/thumb/6df3e681b8877a3463f4d1a8c64431b6-thumbnail.jpg",
+            "blurhash": "L768,k}Ti^0zj]jtfQa{005Sbb^i",
+            "colors": [
+              "#0e3386",
+              "#005a9c"
+            ],
+            "uri_name": "mlb/2026-02-28/chc-lad",
+            "starts_at": 1772309100,
+            "ends_at": 1772321700,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-02-28/chc-lad",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18211,
+            "name": "Kansas City Royals vs. Colorado Rockies",
+            "tag": "MLB",
+            "poster": "https://api.ppv.to/assets/thumb/8edebb2c367ea4572688ff0cb8534291-thumbnail.jpg",
+            "blurhash": "L23[ls7%PB%dWFofazay8^-3nOM#",
+            "colors": [
+              "#004687",
+              "#33006f"
+            ],
+            "uri_name": "mlb/2026-02-28/kc-col",
+            "starts_at": 1772309400,
+            "ends_at": 1772322000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-02-28/kc-col",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18212,
+            "name": "Cincinnati Reds vs. Milwaukee Brewers",
+            "tag": "MLB",
+            "poster": "https://api.ppv.to/assets/thumb/533cf66e41b7e2e762cf4c73081867cf-thumbnail.jpg",
+            "blurhash": "LC9rnj{M[;-TjZj[fQf60}KhJTM}",
+            "colors": [
+              "#c6011f",
+              "#13294b"
+            ],
+            "uri_name": "mlb/2026-02-28/cin-mil",
+            "starts_at": 1772309400,
+            "ends_at": 1772322000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-02-28/cin-mil",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18213,
+            "name": "Seattle Mariners vs. San Diego Padres",
+            "tag": "MLB",
+            "poster": "https://api.ppv.to/assets/thumb/63b60414a9654bd8ce39f26e7cb13f0f-thumbnail.jpg",
+            "blurhash": "L44VRCuiX-IUj[j[j[fQ8wMJi_%M",
+            "colors": [
+              "#005c5c",
+              "#2f241d"
+            ],
+            "uri_name": "mlb/2026-02-28/sea-sd",
+            "starts_at": 1772309400,
+            "ends_at": 1772322000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-02-28/sea-sd",
+            "viewers": "0",
             "substreams": []
           }
         ]
@@ -131,7 +338,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-02-28/lal-gs",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -178,7 +385,7 @@
             "locale": "en",
             "category_name": "Combat Sports",
             "iframe": "https://pooembed.eu/embed/raf-06-cejudo-vs.-faber",
-            "viewers": "2",
+            "viewers": "1",
             "substreams": []
           }
         ]
@@ -205,7 +412,7 @@
             "locale": "en",
             "category_name": "Cricket",
             "iframe": "https://pooembed.eu/embed/willow-cricket",
-            "viewers": "7",
+            "viewers": "5",
             "substreams": []
           }
         ]
@@ -232,7 +439,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/premierleague/2026-02-28/bou-sun",
-            "viewers": "1",
+            "viewers": "684",
             "substreams": []
           },
           {
@@ -252,7 +459,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/laliga/2026-02-28/ray-ath",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -372,7 +579,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/premierleague/2026-02-28/bur-bre",
-            "viewers": "1",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -392,7 +599,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/premierleague/2026-02-28/liv-whu",
-            "viewers": "1",
+            "viewers": "5",
             "substreams": []
           },
           {
@@ -432,7 +639,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/laliga/2026-02-28/bar-vil",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -512,7 +719,27 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/bundesliga/2026-02-28/dor-mun",
-            "viewers": "1",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18214,
+            "name": "Leeds United vs. Manchester City",
+            "tag": "Premier League",
+            "poster": "https://api.ppv.to/assets/thumb/7e199dcd58047cbca1111ec9a7ff9afc-thumbnail.jpg",
+            "blurhash": "LPJIU|~8009xWCDiIpx]R:xuozRj",
+            "colors": [
+              "#8b8b8b",
+              "#526b7f"
+            ],
+            "uri_name": "premierleague/2026-02-28/lee-mnc",
+            "starts_at": 1772299800,
+            "ends_at": 1772308800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/premierleague/2026-02-28/lee-mnc",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -872,7 +1099,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/premierleague/2026-03-01/ars-che",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1480,7 +1707,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-south-park",
-            "viewers": "38",
+            "viewers": "28",
             "substreams": []
           },
           {
@@ -1500,7 +1727,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-cows",
-            "viewers": "2",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -1520,7 +1747,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-family-guy",
-            "viewers": "36",
+            "viewers": "43",
             "substreams": []
           },
           {
@@ -1540,7 +1767,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-the-simpsons",
-            "viewers": "17",
+            "viewers": "16",
             "substreams": []
           },
           {
@@ -1560,7 +1787,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-spongebob-squarepants",
-            "viewers": "8",
+            "viewers": "9",
             "substreams": []
           },
           {
