@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-02-28T19:22:50.125657Z",
+    "last_updated": "2026-02-28T20:28:36.754961Z",
     "source": "https://pltvhd.com/diaries.json",
-    "total_events": 59
+    "total_events": 56
   },
   "data": [
     {
@@ -377,74 +377,6 @@
                     "provider_metadata": null,
                     "createdAt": "2025-08-09T13:06:16.926Z",
                     "updatedAt": "2025-08-09T13:06:16.926Z"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 32164,
-      "attributes": {
-        "diary_description": "LaLiga SmartBank: \nCD Castellon vs Racing Santander",
-        "diary_hour": "15:00:00",
-        "date_diary": "2026-02-28",
-        "createdAt": "2026-02-27T22:00:57.176Z",
-        "updatedAt": "2026-02-28T17:16:12.872Z",
-        "publishedAt": "2026-02-28T05:08:12.063Z",
-        "channels": {
-          "data": []
-        },
-        "embeds": {
-          "data": [
-            {
-              "id": 522,
-              "attributes": {
-                "embed_name": "LaLiga TV Hypermotion ",
-                "embed_iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1oeXBlcm1vdGlvbjE=",
-                "decoded_iframe_url": "https://tvtvhd.com/canales.php?stream=hypermotion1"
-              }
-            },
-            {
-              "id": 936,
-              "attributes": {
-                "embed_name": "Disney+",
-                "embed_iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXkxMQ==",
-                "decoded_iframe_url": "https://tvtvhd.com/canales.php?stream=disney11"
-              }
-            }
-          ]
-        },
-        "country": {
-          "data": {
-            "id": 7,
-            "attributes": {
-              "name": "España",
-              "createdAt": "2023-11-22T15:34:02.037Z",
-              "updatedAt": "2025-08-15T18:33:39.904Z",
-              "publishedAt": "2023-11-22T15:34:03.379Z",
-              "image": {
-                "data": {
-                  "id": 375,
-                  "attributes": {
-                    "name": "espana_a8510f9b5f.png",
-                    "alternativeText": null,
-                    "caption": null,
-                    "width": 64,
-                    "height": 64,
-                    "formats": null,
-                    "hash": "espana_a8510f9b5f_9213b1e460",
-                    "ext": ".png",
-                    "mime": "image/png",
-                    "size": 0.46,
-                    "url": "/uploads/espana_a8510f9b5f_9213b1e460.png",
-                    "previewUrl": null,
-                    "provider": "local",
-                    "provider_metadata": null,
-                    "createdAt": "2025-08-15T18:33:34.734Z",
-                    "updatedAt": "2025-08-15T18:33:34.734Z"
                   }
                 }
               }
@@ -1224,6 +1156,82 @@
       }
     },
     {
+      "id": 32164,
+      "attributes": {
+        "diary_description": "LaLiga SmartBank: \nCD Castellon vs Racing Santander",
+        "diary_hour": "15:00:00",
+        "date_diary": "2026-02-28",
+        "createdAt": "2026-02-27T22:00:57.176Z",
+        "updatedAt": "2026-02-28T19:54:17.602Z",
+        "publishedAt": "2026-02-28T05:08:12.063Z",
+        "channels": {
+          "data": []
+        },
+        "embeds": {
+          "data": [
+            {
+              "id": 235,
+              "attributes": {
+                "embed_name": "LaLiga Hypermotion TV España",
+                "embed_iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3R2L2NhbmFsLnBocD9zdHJlYW09ZXZlbjM=",
+                "decoded_iframe_url": "https://tvtvhd.com/tv/canal.php?stream=even3"
+              }
+            },
+            {
+              "id": 936,
+              "attributes": {
+                "embed_name": "Disney+",
+                "embed_iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXkxMQ==",
+                "decoded_iframe_url": "https://tvtvhd.com/canales.php?stream=disney11"
+              }
+            },
+            {
+              "id": 522,
+              "attributes": {
+                "embed_name": "LaLiga TV Hypermotion ",
+                "embed_iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1oeXBlcm1vdGlvbjE=",
+                "decoded_iframe_url": "https://tvtvhd.com/canales.php?stream=hypermotion1"
+              }
+            }
+          ]
+        },
+        "country": {
+          "data": {
+            "id": 7,
+            "attributes": {
+              "name": "España",
+              "createdAt": "2023-11-22T15:34:02.037Z",
+              "updatedAt": "2025-08-15T18:33:39.904Z",
+              "publishedAt": "2023-11-22T15:34:03.379Z",
+              "image": {
+                "data": {
+                  "id": 375,
+                  "attributes": {
+                    "name": "espana_a8510f9b5f.png",
+                    "alternativeText": null,
+                    "caption": null,
+                    "width": 64,
+                    "height": 64,
+                    "formats": null,
+                    "hash": "espana_a8510f9b5f_9213b1e460",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "size": 0.46,
+                    "url": "/uploads/espana_a8510f9b5f_9213b1e460.png",
+                    "previewUrl": null,
+                    "provider": "local",
+                    "provider_metadata": null,
+                    "createdAt": "2025-08-15T18:33:34.734Z",
+                    "updatedAt": "2025-08-15T18:33:34.734Z"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
       "id": 32121,
       "attributes": {
         "diary_description": "Ligue 1: Monaco vs Angers SCO",
@@ -1311,6 +1319,66 @@
                     "provider_metadata": null,
                     "createdAt": "2025-09-12T04:04:02.803Z",
                     "updatedAt": "2025-09-12T04:04:02.803Z"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 32180,
+      "attributes": {
+        "diary_description": "NBA: Miami Heat vs Houston Rockets",
+        "diary_hour": "15:30:00",
+        "date_diary": "2026-02-28",
+        "createdAt": "2026-02-28T05:18:20.976Z",
+        "updatedAt": "2026-02-28T20:00:40.005Z",
+        "publishedAt": "2026-02-28T05:18:23.304Z",
+        "channels": {
+          "data": []
+        },
+        "embeds": {
+          "data": [
+            {
+              "id": 296,
+              "attributes": {
+                "embed_name": "NBA",
+                "embed_iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3R2L2NhbmFsLnBocD9zdHJlYW09ZXZlbjI=",
+                "decoded_iframe_url": "https://tvtvhd.com/tv/canal.php?stream=even2"
+              }
+            }
+          ]
+        },
+        "country": {
+          "data": {
+            "id": 4,
+            "attributes": {
+              "name": "NBA",
+              "createdAt": "2023-11-22T15:09:03.810Z",
+              "updatedAt": "2025-10-13T00:43:15.646Z",
+              "publishedAt": "2023-11-22T15:10:22.869Z",
+              "image": {
+                "data": {
+                  "id": 406,
+                  "attributes": {
+                    "name": "nba_b6210b97b6.png",
+                    "alternativeText": null,
+                    "caption": null,
+                    "width": 64,
+                    "height": 64,
+                    "formats": null,
+                    "hash": "nba_b6210b97b6_06c9c65d5f",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "size": 1.37,
+                    "url": "/uploads/nba_b6210b97b6_06c9c65d5f.png",
+                    "previewUrl": null,
+                    "provider": "local",
+                    "provider_metadata": null,
+                    "createdAt": "2025-10-13T00:43:11.108Z",
+                    "updatedAt": "2025-10-13T00:43:11.108Z"
                   }
                 }
               }
@@ -1633,171 +1701,6 @@
                     "provider_metadata": null,
                     "createdAt": "2025-10-13T00:43:11.108Z",
                     "updatedAt": "2025-10-13T00:43:11.108Z"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 32180,
-      "attributes": {
-        "diary_description": "NBA: Miami Heat vs Houston Rockets",
-        "diary_hour": "15:30:00",
-        "date_diary": "2026-02-28",
-        "createdAt": "2026-02-28T05:18:20.976Z",
-        "updatedAt": "2026-02-28T05:18:23.307Z",
-        "publishedAt": "2026-02-28T05:18:23.304Z",
-        "channels": {
-          "data": []
-        },
-        "embeds": {
-          "data": [
-            {
-              "id": 526,
-              "attributes": {
-                "embed_name": "NBA",
-                "embed_iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3R2L2NhbmFsLnBocD9zdHJlYW09ZXZlbjI=",
-                "decoded_iframe_url": "https://tvtvhd.com/tv/canal.php?stream=even2"
-              }
-            }
-          ]
-        },
-        "country": {
-          "data": {
-            "id": 4,
-            "attributes": {
-              "name": "NBA",
-              "createdAt": "2023-11-22T15:09:03.810Z",
-              "updatedAt": "2025-10-13T00:43:15.646Z",
-              "publishedAt": "2023-11-22T15:10:22.869Z",
-              "image": {
-                "data": {
-                  "id": 406,
-                  "attributes": {
-                    "name": "nba_b6210b97b6.png",
-                    "alternativeText": null,
-                    "caption": null,
-                    "width": 64,
-                    "height": 64,
-                    "formats": null,
-                    "hash": "nba_b6210b97b6_06c9c65d5f",
-                    "ext": ".png",
-                    "mime": "image/png",
-                    "size": 1.37,
-                    "url": "/uploads/nba_b6210b97b6_06c9c65d5f.png",
-                    "previewUrl": null,
-                    "provider": "local",
-                    "provider_metadata": null,
-                    "createdAt": "2025-10-13T00:43:11.108Z",
-                    "updatedAt": "2025-10-13T00:43:11.108Z"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 32184,
-      "attributes": {
-        "diary_description": "Campeonato Sub-20 de la CONCACAF: \nBermudas  vs Sint Maarten",
-        "diary_hour": "12:00:00",
-        "date_diary": "2026-02-28",
-        "createdAt": "2026-02-28T12:34:13.033Z",
-        "updatedAt": "2026-02-28T12:34:15.245Z",
-        "publishedAt": "2026-02-28T12:34:15.241Z",
-        "channels": {
-          "data": []
-        },
-        "embeds": {
-          "data": [
-            {
-              "id": 1067,
-              "attributes": {
-                "embed_name": "Disney+",
-                "embed_iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXkyMA==",
-                "decoded_iframe_url": "https://tvtvhd.com/canales.php?stream=disney20"
-              }
-            }
-          ]
-        },
-        "country": {
-          "data": {
-            "id": 74,
-            "attributes": {
-              "name": "CONCACAF Sub-20",
-              "createdAt": "2024-02-26T04:53:31.879Z",
-              "updatedAt": "2026-02-27T05:32:55.888Z",
-              "publishedAt": "2024-02-26T04:53:32.952Z",
-              "image": {
-                "data": {
-                  "id": 426,
-                  "attributes": {
-                    "name": "concacf.png",
-                    "alternativeText": null,
-                    "caption": null,
-                    "width": 1113,
-                    "height": 1114,
-                    "formats": {
-                      "large": {
-                        "ext": ".png",
-                        "url": "/uploads/large_concacf_320ae9a5d8.png",
-                        "hash": "large_concacf_320ae9a5d8",
-                        "mime": "image/png",
-                        "name": "large_concacf.png",
-                        "path": null,
-                        "size": 500.63,
-                        "width": 999,
-                        "height": 1000
-                      },
-                      "small": {
-                        "ext": ".png",
-                        "url": "/uploads/small_concacf_320ae9a5d8.png",
-                        "hash": "small_concacf_320ae9a5d8",
-                        "mime": "image/png",
-                        "name": "small_concacf.png",
-                        "path": null,
-                        "size": 165.16,
-                        "width": 500,
-                        "height": 500
-                      },
-                      "medium": {
-                        "ext": ".png",
-                        "url": "/uploads/medium_concacf_320ae9a5d8.png",
-                        "hash": "medium_concacf_320ae9a5d8",
-                        "mime": "image/png",
-                        "name": "medium_concacf.png",
-                        "path": null,
-                        "size": 313.47,
-                        "width": 749,
-                        "height": 750
-                      },
-                      "thumbnail": {
-                        "ext": ".png",
-                        "url": "/uploads/thumbnail_concacf_320ae9a5d8.png",
-                        "hash": "thumbnail_concacf_320ae9a5d8",
-                        "mime": "image/png",
-                        "name": "thumbnail_concacf.png",
-                        "path": null,
-                        "size": 30.96,
-                        "width": 156,
-                        "height": 156
-                      }
-                    },
-                    "hash": "concacf_320ae9a5d8",
-                    "ext": ".png",
-                    "mime": "image/png",
-                    "size": 100.39,
-                    "url": "/uploads/concacf_320ae9a5d8.png",
-                    "previewUrl": null,
-                    "provider": "local",
-                    "provider_metadata": null,
-                    "createdAt": "2026-02-27T05:31:14.260Z",
-                    "updatedAt": "2026-02-27T05:32:39.951Z"
                   }
                 }
               }
@@ -3477,114 +3380,6 @@
       }
     },
     {
-      "id": 32113,
-      "attributes": {
-        "diary_description": "Serie A:  \nVerona vs Napoli",
-        "diary_hour": "12:00:00",
-        "date_diary": "2026-02-28",
-        "createdAt": "2026-02-27T21:14:51.708Z",
-        "updatedAt": "2026-02-28T12:35:34.397Z",
-        "publishedAt": "2026-02-28T05:07:34.826Z",
-        "channels": {
-          "data": []
-        },
-        "embeds": {
-          "data": [
-            {
-              "id": 520,
-              "attributes": {
-                "embed_name": "ESPN 4",
-                "embed_iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BuNA==",
-                "decoded_iframe_url": "https://tvtvhd.com/canales.php?stream=espn4"
-              }
-            },
-            {
-              "id": 1398,
-              "attributes": {
-                "embed_name": "ESPN 4 | OP2",
-                "embed_iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BuNA==",
-                "decoded_iframe_url": "https://tvtvhd.com/vivo/canal.php?stream=espn4"
-              }
-            },
-            {
-              "id": 1399,
-              "attributes": {
-                "embed_name": "ESPN 4 | OP3",
-                "embed_iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG40",
-                "decoded_iframe_url": "https://tvtvhd.com/vivo/canales.php?stream=espn4"
-              }
-            },
-            {
-              "id": 1079,
-              "attributes": {
-                "embed_name": "Disney+",
-                "embed_iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXkxOQ==",
-                "decoded_iframe_url": "https://tvtvhd.com/canales.php?stream=disney19"
-              }
-            },
-            {
-              "id": 308,
-              "attributes": {
-                "embed_name": "ESPN MX",
-                "embed_iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1lc3BubXg=",
-                "decoded_iframe_url": "https://tvtvhd.com/canales.php?stream=espnmx"
-              }
-            },
-            {
-              "id": 945,
-              "attributes": {
-                "embed_name": "ESPN MX | OP2",
-                "embed_iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWwucGhwP3N0cmVhbT1lc3BubXg=",
-                "decoded_iframe_url": "https://tvtvhd.com/vivo/canal.php?stream=espnmx"
-              }
-            },
-            {
-              "id": 1008,
-              "attributes": {
-                "embed_name": "ESPN MX | OP3",
-                "embed_iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG5teA==",
-                "decoded_iframe_url": "https://tvtvhd.com/vivo/canales.php?stream=espnmx"
-              }
-            }
-          ]
-        },
-        "country": {
-          "data": {
-            "id": 9,
-            "attributes": {
-              "name": "Italia",
-              "createdAt": "2023-11-22T15:35:39.269Z",
-              "updatedAt": "2025-08-15T18:34:10.012Z",
-              "publishedAt": "2023-11-22T15:35:40.668Z",
-              "image": {
-                "data": {
-                  "id": 376,
-                  "attributes": {
-                    "name": "italia_cb19445d70.png",
-                    "alternativeText": null,
-                    "caption": null,
-                    "width": 64,
-                    "height": 64,
-                    "formats": null,
-                    "hash": "italia_cb19445d70_41852551f1",
-                    "ext": ".png",
-                    "mime": "image/png",
-                    "size": 0.57,
-                    "url": "/uploads/italia_cb19445d70_41852551f1.png",
-                    "previewUrl": null,
-                    "provider": "local",
-                    "provider_metadata": null,
-                    "createdAt": "2025-08-15T18:34:05.150Z",
-                    "updatedAt": "2025-08-15T18:34:05.150Z"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    {
       "id": 32168,
       "attributes": {
         "diary_description": "Primera División: Herediano vs Pérez Zeledón",
@@ -4030,74 +3825,6 @@
                     "provider_metadata": null,
                     "createdAt": "2025-10-13T00:43:11.108Z",
                     "updatedAt": "2025-10-13T00:43:11.108Z"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 32166,
-      "attributes": {
-        "diary_description": "Super Lig: \nGalatasaray vs Alanyaspor",
-        "diary_hour": "12:00:00",
-        "date_diary": "2026-02-28",
-        "createdAt": "2026-02-27T22:03:23.999Z",
-        "updatedAt": "2026-02-28T17:00:37.098Z",
-        "publishedAt": "2026-02-28T05:08:20.622Z",
-        "channels": {
-          "data": []
-        },
-        "embeds": {
-          "data": [
-            {
-              "id": 503,
-              "attributes": {
-                "embed_name": "Disney+",
-                "embed_iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL3R2L2NhbmFsLnBocD9zdHJlYW09ZXZlbjEw",
-                "decoded_iframe_url": "https://tvtvhd.com/tv/canal.php?stream=even10"
-              }
-            },
-            {
-              "id": 833,
-              "attributes": {
-                "embed_name": "Disney+",
-                "embed_iframe": "/embed/eventos.html?r=aHR0cHM6Ly90dnR2aGQuY29tL2NhbmFsZXMucGhwP3N0cmVhbT1kaXNuZXkx",
-                "decoded_iframe_url": "https://tvtvhd.com/canales.php?stream=disney1"
-              }
-            }
-          ]
-        },
-        "country": {
-          "data": {
-            "id": 28,
-            "attributes": {
-              "name": "Turquía",
-              "createdAt": "2023-11-25T14:17:47.734Z",
-              "updatedAt": "2025-08-08T17:09:06.346Z",
-              "publishedAt": "2023-11-25T14:17:48.907Z",
-              "image": {
-                "data": {
-                  "id": 369,
-                  "attributes": {
-                    "name": "pavo_980d87b7ad.png",
-                    "alternativeText": null,
-                    "caption": null,
-                    "width": 128,
-                    "height": 128,
-                    "formats": null,
-                    "hash": "pavo_980d87b7ad_8827bbb7ba",
-                    "ext": ".png",
-                    "mime": "image/png",
-                    "size": 0.97,
-                    "url": "/uploads/pavo_980d87b7ad_8827bbb7ba.png",
-                    "previewUrl": null,
-                    "provider": "local",
-                    "provider_metadata": null,
-                    "createdAt": "2025-08-08T17:09:01.764Z",
-                    "updatedAt": "2025-08-08T17:09:01.764Z"
                   }
                 }
               }
