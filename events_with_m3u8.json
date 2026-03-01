@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2026-03-01T01:50:14.839744Z",
+    "fetched_at": "2026-03-01T06:38:30.926718Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-03-01T03:23:43.520100",
-      "total_streams": 66,
+      "extracted_at": "2026-03-01T06:42:05.626642",
+      "total_streams": 67,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 66,
-        "successful_requests": 66,
+        "total_requests": 67,
+        "successful_requests": 67,
         "failed_requests": 0,
-        "elapsed_time_seconds": 184.7
+        "elapsed_time_seconds": 199.82
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1772329820,
+    "timestamp": 1772347110,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.03570890426635742,
+    "performance": 0.027530908584594727,
     "streams": [
       {
         "category": "American Football",
@@ -44,7 +44,7 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://pooembed.eu/embed/nfl-network",
-            "viewers": "57",
+            "viewers": "25",
             "substreams": []
           }
         ]
@@ -282,63 +282,223 @@
         "always_live": false,
         "streams": [
           {
-            "id": 18189,
-            "name": "Toronto Raptors vs. Washington Wizards",
-            "tag": "MNMT",
-            "poster": "https://api.ppv.to/assets/thumb/e443a628347107874b5298fa6840f4d0-thumbnail.jpg",
-            "blurhash": "L4InC1*KDj8v$PS2j[so008byD@F",
-            "colors": [
-              "#d91244",
-              "#e31837"
-            ],
-            "uri_name": "nba/2026-02-28/tor-wsh",
-            "starts_at": 1772323200,
-            "ends_at": 1772333280,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Basketball",
-            "iframe": "https://pooembed.eu/embed/nba/2026-02-28/tor-wsh",
-            "viewers": "547",
-            "substreams": []
-          },
-          {
-            "id": 18193,
-            "name": "Los Angeles Lakers vs. Golden State Warriors",
+            "id": 18239,
+            "name": "San Antonio Spurs vs. New York Knicks",
             "tag": "ABC",
-            "poster": "https://api.ppv.to/assets/thumb/6530088e069286fd09b2f511da1d9b75-thumbnail.jpg",
-            "blurhash": "L7HTpT0G0B0:juj?a}WX00$^?F},",
+            "poster": "https://api.ppv.to/assets/thumb/df866b3c76ec88432b7f48f21c28555b-thumbnail.jpg",
+            "blurhash": "L26H.y0000}rt7WBj@oK00}__41O",
             "colors": [
-              "#552583",
-              "#fdb927"
+              "#000000",
+              "#1d428a"
             ],
-            "uri_name": "nba/2026-02-28/lal-gs",
-            "starts_at": 1772328600,
-            "ends_at": 1772338680,
+            "uri_name": "nba/2026-03-01/sa-ny",
+            "starts_at": 1772388000,
+            "ends_at": 1772398080,
             "always_live": 0,
             "locale": "en",
             "category_name": "Basketball",
-            "iframe": "https://pooembed.eu/embed/nba/2026-02-28/lal-gs",
-            "viewers": "1900",
+            "iframe": "https://pooembed.eu/embed/nba/2026-03-01/sa-ny",
+            "viewers": "0",
             "substreams": []
           },
           {
-            "id": 18195,
-            "name": "New Orleans Pelicans vs. Utah Jazz",
-            "tag": "KJZZ-TV",
-            "poster": "https://api.ppv.to/assets/thumb/7021dad2298faf21d44ca52b0a23fe81-thumbnail.jpg",
-            "blurhash": "L26QWG7*0JN1jcj?oea#00rk_4xs",
+            "id": 18242,
+            "name": "Cleveland Cavaliers vs. Brooklyn Nets",
+            "tag": "YES",
+            "poster": "https://api.ppv.to/assets/thumb/7319c0e4e1c161cb775aacffe4599d20-thumbnail.jpg",
+            "blurhash": "L79P[[u*q^_4j[afbHbH00%~tl8_",
+            "colors": [
+              "#860038",
+              "#000000"
+            ],
+            "uri_name": "nba/2026-03-01/cle-bkn",
+            "starts_at": 1772397000,
+            "ends_at": 1772407080,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://pooembed.eu/embed/nba/2026-03-01/cle-bkn",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18244,
+            "name": "Milwaukee Bucks vs. Chicago Bulls",
+            "tag": "CHSN",
+            "poster": "https://api.ppv.to/assets/thumb/9eb68ca3dd8d6586bfb68e66cb529b0d-thumbnail.jpg",
+            "blurhash": "L8E9_Y3M1G#nofayj[j[0K{+-WSz",
+            "colors": [
+              "#00471b",
+              "#ce1141"
+            ],
+            "uri_name": "nba/2026-03-01/mil-chi",
+            "starts_at": 1772397000,
+            "ends_at": 1772407080,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://pooembed.eu/embed/nba/2026-03-01/mil-chi",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18246,
+            "name": "Minnesota Timberwolves vs. Denver Nuggets",
+            "tag": "ABC",
+            "poster": "https://api.ppv.to/assets/thumb/867ad99c2b40be2ac2b4c54acf46d9e9-thumbnail.jpg",
+            "blurhash": "L76u3NGKIv-ToLa#j[j@00,,%1It",
+            "colors": [
+              "#266092",
+              "#0e2240"
+            ],
+            "uri_name": "nba/2026-03-01/min-den",
+            "starts_at": 1772397000,
+            "ends_at": 1772407080,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://pooembed.eu/embed/nba/2026-03-01/min-den",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18248,
+            "name": "Memphis Grizzlies vs. Indiana Pacers",
+            "tag": "FanDuel SN IN",
+            "poster": "https://api.ppv.to/assets/thumb/4bf22d1b012595004c8d3fc37da90639-thumbnail.jpg",
+            "blurhash": "LA6RlzXrbe%LoeWXj[oJ4mx9t5M}",
+            "colors": [
+              "#5d76a9",
+              "#0c2340"
+            ],
+            "uri_name": "nba/2026-03-01/mem-ind",
+            "starts_at": 1772402400,
+            "ends_at": 1772412480,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://pooembed.eu/embed/nba/2026-03-01/mem-ind",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18250,
+            "name": "Portland Trail Blazers vs. Atlanta Hawks",
+            "tag": "FanDuel SN SE",
+            "poster": "https://api.ppv.to/assets/thumb/f59f69db23f73cd41da6a887c0fa08aa-thumbnail.jpg",
+            "blurhash": "L8H+9IIAm+~Cr?e.jtkC00?HpI56",
+            "colors": [
+              "#e03a3e",
+              "#c8102e"
+            ],
+            "uri_name": "nba/2026-03-01/por-atl",
+            "starts_at": 1772406000,
+            "ends_at": 1772416080,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://pooembed.eu/embed/nba/2026-03-01/por-atl",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18251,
+            "name": "Detroit Pistons vs. Orlando Magic",
+            "tag": "FanDuel SN FL",
+            "poster": "https://api.ppv.to/assets/thumb/e2f25dd220d6fed9d1668fa7cff95e3c-thumbnail.jpg",
+            "blurhash": "L67_BY{@IS1ca$j@j[ay006-x]],",
+            "colors": [
+              "#1d428a",
+              "#0150b5"
+            ],
+            "uri_name": "nba/2026-03-01/det-orl",
+            "starts_at": 1772406000,
+            "ends_at": 1772416080,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://pooembed.eu/embed/nba/2026-03-01/det-orl",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18252,
+            "name": "Philadelphia 76ers vs. Boston Celtics",
+            "tag": "NBC",
+            "poster": "https://api.ppv.to/assets/thumb/d6c4c66a921647d492064b8ef66785b6-thumbnail.jpg",
+            "blurhash": "L569t9L]Hy?uSdW;bIf800*F%fDi",
+            "colors": [
+              "#1d428a",
+              "#008348"
+            ],
+            "uri_name": "nba/2026-03-01/phi-bos",
+            "starts_at": 1772413200,
+            "ends_at": 1772423280,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://pooembed.eu/embed/nba/2026-03-01/phi-bos",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18253,
+            "name": "Oklahoma City Thunder vs. Dallas Mavericks",
+            "tag": "KFAA-TV",
+            "poster": "https://api.ppv.to/assets/thumb/41ee90deed3eb8a23a6ca0f5b1961dd3-thumbnail.jpg",
+            "blurhash": "L35$[blC4=%cogoej[WW00V;^%IY",
+            "colors": [
+              "#007ac1",
+              "#0064b1"
+            ],
+            "uri_name": "nba/2026-03-01/okc-dal",
+            "starts_at": 1772413200,
+            "ends_at": 1772423280,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://pooembed.eu/embed/nba/2026-03-01/okc-dal",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18254,
+            "name": "New Orleans Pelicans vs. LA Clippers",
+            "tag": "FanDuel SN SoCal",
+            "poster": "https://api.ppv.to/assets/thumb/2c0ba7a93872a2e27240715c92922640-thumbnail.jpg",
+            "blurhash": "L46*j:00D%~qj]ayj[j[00~q-;4n",
             "colors": [
               "#0a2240",
-              "#4e008e"
+              "#12173f"
             ],
-            "uri_name": "nba/2026-02-28/no-utah",
-            "starts_at": 1772332200,
-            "ends_at": 1772342280,
+            "uri_name": "nba/2026-03-01/no-lac",
+            "starts_at": 1772416800,
+            "ends_at": 1772426880,
             "always_live": 0,
             "locale": "en",
             "category_name": "Basketball",
-            "iframe": "https://pooembed.eu/embed/nba/2026-02-28/no-utah",
-            "viewers": "1",
+            "iframe": "https://pooembed.eu/embed/nba/2026-03-01/no-lac",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18255,
+            "name": "Sacramento Kings vs. Los Angeles Lakers",
+            "tag": "Spectrum Sports Net",
+            "poster": "https://api.ppv.to/assets/thumb/c0d252c5f4e74aa750d9796c426a4ffc-thumbnail.jpg",
+            "blurhash": "L2A9v|.T4oMHaQjIoebY00Q*?bk]",
+            "colors": [
+              "#5a2d81",
+              "#552583"
+            ],
+            "uri_name": "nba/2026-03-01/sac-lal",
+            "starts_at": 1772418600,
+            "ends_at": 1772428680,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://pooembed.eu/embed/nba/2026-03-01/sac-lal",
+            "viewers": "0",
             "substreams": []
           }
         ]
@@ -365,7 +525,7 @@
             "locale": "en",
             "category_name": "Combat Sports",
             "iframe": "https://pooembed.eu/embed/ufc-fight-night-moreno-vs.-kavanagh",
-            "viewers": "4716",
+            "viewers": "451",
             "substreams": []
           },
           {
@@ -385,27 +545,7 @@
             "locale": "en",
             "category_name": "Combat Sports",
             "iframe": "https://pooembed.eu/embed/navarrete-vs.-nunez",
-            "viewers": "428",
-            "substreams": []
-          },
-          {
-            "id": 18184,
-            "name": "RAF 06: Cejudo vs. Faber",
-            "tag": "FOX Nation",
-            "poster": "https://api.ppv.to/assets/thumb/da65cf846c8ba3a3c919c4c6a7ab87a4-thumbnail.jpg",
-            "blurhash": "L8D]SUxtNtt8~qkC?ba|0KR*t7n$",
-            "colors": [
-              "#808078",
-              "#8c8c84"
-            ],
-            "uri_name": "raf-06-cejudo-vs.-faber",
-            "starts_at": 1772330400,
-            "ends_at": 1772344800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Combat Sports",
-            "iframe": "https://pooembed.eu/embed/raf-06-cejudo-vs.-faber",
-            "viewers": "568",
+            "viewers": "86",
             "substreams": []
           }
         ]
@@ -432,7 +572,7 @@
             "locale": "en",
             "category_name": "Cricket",
             "iframe": "https://pooembed.eu/embed/willow-cricket",
-            "viewers": "11",
+            "viewers": "6",
             "substreams": []
           }
         ]
@@ -539,7 +679,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/premierleague/2026-03-01/man-cry",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -910,182 +1050,122 @@
         "always_live": false,
         "streams": [
           {
-            "id": 18194,
-            "name": "New York Islanders vs. Columbus Blue Jackets",
-            "tag": "FanDuel SN OH",
-            "poster": "https://api.ppv.to/assets/thumb/8b089594b1962750f6944763b52ff283-thumbnail.jpg",
-            "blurhash": "L87-a2?dIuEMozkCfkae00E0xt%1",
+            "id": 18240,
+            "name": "Vegas Golden Knights vs. Pittsburgh Penguins",
+            "tag": "TNT",
+            "poster": "https://api.ppv.to/assets/thumb/314a80b980d8db2908e352071f1c81c5-thumbnail.jpg",
+            "blurhash": "L16@.sNZ0L~q-pV@ayoz00?b~p01",
             "colors": [
-              "#00529b",
-              "#002d62"
+              "#344043",
+              "#000000"
             ],
-            "uri_name": "nhl/2026-02-28/nyi-cbj",
-            "starts_at": 1772319600,
-            "ends_at": 1772330400,
+            "uri_name": "nhl/2026-03-01/vgk-pit",
+            "starts_at": 1772388000,
+            "ends_at": 1772398800,
             "always_live": 0,
             "locale": "en",
             "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.eu/embed/nhl/2026-02-28/nyi-cbj",
-            "viewers": "17",
+            "iframe": "https://pooembed.eu/embed/nhl/2026-03-01/vgk-pit",
+            "viewers": "0",
             "substreams": []
           },
           {
-            "id": 18196,
-            "name": "Chicago Blackhawks vs. Colorado Avalanche",
-            "tag": "Altitude Sports",
-            "poster": "https://api.ppv.to/assets/thumb/d3ecd7d98041ae5427267f10b6e61568-thumbnail.jpg",
-            "blurhash": "LDEA4#{x+v$+jZbHfQjZ0dKQXSNF",
+            "id": 18241,
+            "name": "Chicago Blackhawks vs. Utah Mammoth",
+            "tag": "Utah 16",
+            "poster": "https://api.ppv.to/assets/thumb/f231292c8f931420e21c94e9d3c37e13-thumbnail.jpg",
+            "blurhash": "LI9$Of|G;4$RfRazayj[57J.S~S0",
             "colors": [
               "#e31937",
-              "#860038"
+              "#000000"
             ],
-            "uri_name": "nhl/2026-02-28/chi-col",
-            "starts_at": 1772319600,
-            "ends_at": 1772330400,
+            "uri_name": "nhl/2026-03-01/chi-uta",
+            "starts_at": 1772398800,
+            "ends_at": 1772409600,
             "always_live": 0,
             "locale": "en",
             "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.eu/embed/nhl/2026-02-28/chi-col",
-            "viewers": "28",
+            "iframe": "https://pooembed.eu/embed/nhl/2026-03-01/chi-uta",
+            "viewers": "0",
             "substreams": []
           },
           {
-            "id": 18197,
-            "name": "Ottawa Senators vs. Toronto Maple Leafs",
-            "tag": "ESPN+",
-            "poster": "https://api.ppv.to/assets/thumb/3171562a3c3026afacc9a8b506ebc2ee-thumbnail.jpg",
-            "blurhash": "LI9PgG{_+bwMjujtfQa|9rFLT0X6",
+            "id": 18243,
+            "name": "Winnipeg Jets vs. San Jose Sharks",
+            "tag": "NBC Sports BA",
+            "poster": "https://api.ppv.to/assets/thumb/789149346a455327ea3844a42f36a2f0-thumbnail.jpg",
+            "blurhash": "L469a:{NDO4nkCoLayWV005P%g_2",
             "colors": [
-              "#dd1a32",
-              "#003e7e"
+              "#002d62",
+              "#00788a"
             ],
-            "uri_name": "nhl/2026-02-28/ott-tor",
-            "starts_at": 1772323200,
-            "ends_at": 1772334000,
+            "uri_name": "nhl/2026-03-01/wpg-sj",
+            "starts_at": 1772398800,
+            "ends_at": 1772409600,
             "always_live": 0,
             "locale": "en",
             "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.eu/embed/nhl/2026-02-28/ott-tor",
-            "viewers": "147",
+            "iframe": "https://pooembed.eu/embed/nhl/2026-03-01/wpg-sj",
+            "viewers": "0",
             "substreams": []
           },
           {
-            "id": 18198,
-            "name": "Washington Capitals vs. Montreal Canadiens",
-            "tag": "ESPN+",
-            "poster": "https://api.ppv.to/assets/thumb/70bfd64161b7a95b01bbb33755a7f7ea-thumbnail.jpg",
-            "blurhash": "L2G#km?_qa_N$jjZf6bH00uiyr4m",
+            "id": 18245,
+            "name": "St. Louis Blues vs. Minnesota Wild",
+            "tag": "FanDuel SN MW",
+            "poster": "https://api.ppv.to/assets/thumb/b4f312e8811dd83aab87ee4aabefff12-thumbnail.jpg",
+            "blurhash": "LD4yo~X=Nhn-offkf7ayDhnMt2W-",
             "colors": [
-              "#d71830",
-              "#c41230"
+              "#0070b9",
+              "#124734"
             ],
-            "uri_name": "nhl/2026-02-28/wsh-mtl",
-            "starts_at": 1772323200,
-            "ends_at": 1772334000,
+            "uri_name": "nhl/2026-03-01/stl-min",
+            "starts_at": 1772402400,
+            "ends_at": 1772413200,
             "always_live": 0,
             "locale": "en",
             "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.eu/embed/nhl/2026-02-28/wsh-mtl",
-            "viewers": "305",
+            "iframe": "https://pooembed.eu/embed/nhl/2026-03-01/stl-min",
+            "viewers": "0",
             "substreams": []
           },
           {
-            "id": 18199,
-            "name": "Buffalo Sabres vs. Tampa Bay Lightning",
-            "tag": "The Spot - MTN",
-            "poster": "https://api.ppv.to/assets/thumb/3351be789cded7d9cfaef4ecc1e27410-thumbnail.jpg",
-            "blurhash": "L45O{u~XD*4.xut7f6Rj004--:?b",
+            "id": 18247,
+            "name": "Florida Panthers vs. New York Islanders",
+            "tag": "ESPN",
+            "poster": "https://api.ppv.to/assets/thumb/505ad6c163789e984ed51f2f5580d381-thumbnail.jpg",
+            "blurhash": "LDBVk^{I:j^5s:n$f6bb00TKTJEf",
             "colors": [
-              "#00468b",
-              "#003e7e"
+              "#e51937",
+              "#00529b"
             ],
-            "uri_name": "nhl/2026-02-28/buf-tb",
-            "starts_at": 1772323200,
-            "ends_at": 1772334000,
+            "uri_name": "nhl/2026-03-01/fla-nyi",
+            "starts_at": 1772407800,
+            "ends_at": 1772418600,
             "always_live": 0,
             "locale": "en",
             "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.eu/embed/nhl/2026-02-28/buf-tb",
-            "viewers": "69",
+            "iframe": "https://pooembed.eu/embed/nhl/2026-03-01/fla-nyi",
+            "viewers": "0",
             "substreams": []
           },
           {
-            "id": 18200,
-            "name": "Detroit Red Wings vs. Carolina Hurricanes",
-            "tag": "FanDuel SN South",
-            "poster": "https://api.ppv.to/assets/thumb/bb2f838df0b23a590837e52a2fec1293-thumbnail.jpg",
-            "blurhash": "L2J40.[WU^7x$jf6WVV@007JlT@]",
-            "colors": [
-              "#e30526",
-              "#e30426"
-            ],
-            "uri_name": "nhl/2026-02-28/det-car",
-            "starts_at": 1772323200,
-            "ends_at": 1772334000,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.eu/embed/nhl/2026-02-28/det-car",
-            "viewers": "49",
-            "substreams": []
-          },
-          {
-            "id": 18201,
-            "name": "Calgary Flames vs. Los Angeles Kings",
-            "tag": "FanDuel SN West",
-            "poster": "https://api.ppv.to/assets/thumb/406ceab77b17e68b55bcfe8ca7e8c901-thumbnail.jpg",
-            "blurhash": "LMA[WQ{}+vogj[jZa|a}5RFwS~ni",
-            "colors": [
-              "#dd1a32",
-              "#121212"
-            ],
-            "uri_name": "nhl/2026-02-28/cgy-la",
-            "starts_at": 1772323200,
-            "ends_at": 1772334000,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.eu/embed/nhl/2026-02-28/cgy-la",
-            "viewers": "17",
-            "substreams": []
-          },
-          {
-            "id": 18202,
-            "name": "Nashville Predators vs. Dallas Stars",
+            "id": 18249,
+            "name": "Calgary Flames vs. Anaheim Ducks",
             "tag": "Victory+",
-            "poster": "https://api.ppv.to/assets/thumb/fedc6cc89b08b671a0e12281a42452ed-thumbnail.jpg",
-            "blurhash": "LOBD_f}n,.$Mj[jtfQfP8|I=S$SO",
+            "poster": "https://api.ppv.to/assets/thumb/69d80ce9dee5bf330f66b8d7fe655004-thumbnail.jpg",
+            "blurhash": "L3K7IU8y0M3=xaniayX800HB%z_$",
             "colors": [
-              "#fdba31",
-              "#20864c"
+              "#dd1a32",
+              "#fc4c02"
             ],
-            "uri_name": "nhl/2026-02-28/nsh-dal",
-            "starts_at": 1772326800,
-            "ends_at": 1772337600,
+            "uri_name": "nhl/2026-03-01/cgy-ana",
+            "starts_at": 1772413200,
+            "ends_at": 1772424000,
             "always_live": 0,
             "locale": "en",
             "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.eu/embed/nhl/2026-02-28/nsh-dal",
-            "viewers": "4",
-            "substreams": []
-          },
-          {
-            "id": 18203,
-            "name": "Vancouver Canucks vs. Seattle Kraken",
-            "tag": "KONG",
-            "poster": "https://api.ppv.to/assets/thumb/0ae7b6a5316c8f3b4e7c3f6a83fb733f-thumbnail.jpg",
-            "blurhash": "L33cCgsK9hTyj[ayayj]00TD?GrC",
-            "colors": [
-              "#003e7e",
-              "#000d33"
-            ],
-            "uri_name": "nhl/2026-02-28/van-sea",
-            "starts_at": 1772334000,
-            "ends_at": 1772344800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.eu/embed/nhl/2026-02-28/van-sea",
+            "iframe": "https://pooembed.eu/embed/nhl/2026-03-01/cgy-ana",
             "viewers": "0",
             "substreams": []
           }
@@ -1096,26 +1176,6 @@
         "id": 35,
         "always_live": false,
         "streams": [
-          {
-            "id": 15856,
-            "name": "Supercross: Daytona",
-            "tag": "Peacock",
-            "poster": "https://api.ppv.to/assets/thumb/987906340148eb24238a7ba4ceb6cb9f-thumbnail.jpg",
-            "blurhash": "L3559Pof00NDx^fhMzWT00R%~oxc",
-            "colors": [
-              "#0e0727",
-              "#120931"
-            ],
-            "uri_name": "smx-wk8",
-            "starts_at": 1772301600,
-            "ends_at": 1772344800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Motorsports",
-            "iframe": "https://pooembed.eu/embed/smx-wk8",
-            "viewers": "647",
-            "substreams": []
-          },
           {
             "id": 18238,
             "name": "MotoGP of Thailand",
@@ -1133,7 +1193,7 @@
             "locale": "en",
             "category_name": "Motorsports",
             "iframe": "https://pooembed.eu/embed/motogp-of-thailand",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1239,53 +1299,6 @@
         ]
       },
       {
-        "category": "Wrestling",
-        "id": 38,
-        "always_live": false,
-        "streams": [
-          {
-            "id": 18219,
-            "name": "WWE: Elimination Chamber",
-            "tag": "ESPN app",
-            "poster": "https://api.ppv.to/assets/thumb/5cb98abe50033eef9697459d7319a2b7-thumbnail.jpg",
-            "blurhash": "L4BpX?}[D%OX%gV@Rioz00tS%MIU",
-            "colors": [
-              "#0f0f0f",
-              "#1d1d1f"
-            ],
-            "uri_name": "wwe/2026/elimination-chamber",
-            "starts_at": 1772323200,
-            "ends_at": 1772337600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Wrestling",
-            "iframe": "https://pooembed.eu/embed/wwe/2026/elimination-chamber",
-            "viewers": "4315",
-            "substreams": []
-          },
-          {
-            "id": 18047,
-            "name": "AEW: Saturday Night Collision",
-            "tag": "TNT",
-            "poster": "https://api.ppv.to/assets/thumb/6e29b1bb679dd5133c85bbaadc2c4b13-thumbnail.jpg",
-            "blurhash": "LDDk_9Na01of}mNwNMbF0TS#^cae",
-            "colors": [
-              "#210e10",
-              "#160c0a"
-            ],
-            "uri_name": "aew/collision/2026-02-28",
-            "starts_at": 1772326800,
-            "ends_at": 1772337600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Wrestling",
-            "iframe": "https://pooembed.eu/embed/aew/collision/2026-02-28",
-            "viewers": "44",
-            "substreams": []
-          }
-        ]
-      },
-      {
         "category": "24/7 Streams",
         "id": 14,
         "always_live": true,
@@ -1307,7 +1320,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-south-park",
-            "viewers": "21",
+            "viewers": "26",
             "substreams": []
           },
           {
@@ -1327,7 +1340,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-cows",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -1347,7 +1360,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-family-guy",
-            "viewers": "32",
+            "viewers": "51",
             "substreams": []
           },
           {
@@ -1367,7 +1380,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-the-simpsons",
-            "viewers": "5",
+            "viewers": "12",
             "substreams": []
           },
           {
@@ -1407,7 +1420,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/rally-tv",
-            "viewers": "3",
+            "viewers": "2",
             "substreams": []
           }
         ]
