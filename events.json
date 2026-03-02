@@ -1,42 +1,15 @@
 {
   "metadata": {
-    "fetched_at": "2026-03-02T06:50:23.527020Z",
+    "fetched_at": "2026-03-02T12:42:57.327320Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null
   },
   "events": {
     "success": true,
-    "timestamp": 1772434230,
+    "timestamp": 1772455380,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.029103994369506836,
+    "performance": 0.028378009796142578,
     "streams": [
-      {
-        "category": "American Football",
-        "id": 26,
-        "always_live": false,
-        "streams": [
-          {
-            "id": 18172,
-            "name": "NFL Network",
-            "tag": "temporary channel",
-            "poster": "https://api.ppv.to/assets/thumb/5ed7ea60fe8e3842203b0741187f0fd7-thumbnail.jpg",
-            "blurhash": "L6AA,*of00t700ayxuRk00WB~Vf6",
-            "colors": [
-              "#01326a",
-              "#01326a"
-            ],
-            "uri_name": "nfl-network",
-            "starts_at": 0,
-            "ends_at": 0,
-            "always_live": 1,
-            "locale": "en",
-            "category_name": "American Football",
-            "iframe": "https://pooembed.eu/embed/nfl-network",
-            "viewers": "4",
-            "substreams": []
-          }
-        ]
-      },
       {
         "category": "Arm Wrestling",
         "id": 40,
@@ -59,7 +32,7 @@
             "locale": "en",
             "category_name": "Arm Wrestling",
             "iframe": "https://pooembed.eu/embed/east-vs-west-23",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           }
         ]
@@ -293,7 +266,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-03-02/lac-gs",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           }
         ]
@@ -320,7 +293,7 @@
             "locale": "en",
             "category_name": "Cricket",
             "iframe": "https://pooembed.eu/embed/willow-cricket",
-            "viewers": "4",
+            "viewers": "5",
             "substreams": []
           }
         ]
@@ -387,7 +360,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/laliga/2026-03-02/rma-get",
-            "viewers": "2",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -447,6 +420,66 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/premierleague/2026-03-03/lee-sun",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18336,
+            "name": "Como vs. Internazionale",
+            "tag": "Coppa Italia",
+            "poster": "https://api.ppv.to/assets/thumb/6e3fc2e9275e9cec281af2d0de21efe5-thumbnail.jpg",
+            "blurhash": "LS7x0ftDaXRyj?fKaua*D+WGfSob",
+            "colors": [
+              "#1f1d8b",
+              "#001357"
+            ],
+            "uri_name": "coppa-italia/2026-03-03/como-int",
+            "starts_at": 1772568000,
+            "ends_at": 1772577000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/coppa-italia/2026-03-03/como-int",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18338,
+            "name": "Barcelona vs. Atlético Madrid",
+            "tag": "Copa del Rey",
+            "poster": "https://api.ppv.to/assets/thumb/b517c6f130e83fbec169aa2e040e8e64-thumbnail.jpg",
+            "blurhash": "LDEdSq2{5i{_s.J5+@sq4;OajuwG",
+            "colors": [
+              "#002d57",
+              "#6d1d14"
+            ],
+            "uri_name": "copa-del-rey/2026-03-03/bar-atm",
+            "starts_at": 1772568000,
+            "ends_at": 1772577000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/copa-del-rey/2026-03-03/bar-atm",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18346,
+            "name": "Strasbourg vs. Stade de Reims",
+            "tag": "Coupe de France",
+            "poster": "https://api.ppv.to/assets/thumb/2b71645a7a5f5890612465ac91121e42-thumbnail.jpg",
+            "blurhash": "LVGiK%3GAm:$oKN?$KsDIVM{oLtR",
+            "colors": [
+              "#00006a",
+              "#811812"
+            ],
+            "uri_name": "coupe-de-france/2026-03-03/str-reim",
+            "starts_at": 1772568000,
+            "ends_at": 1772577000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/coupe-de-france/2026-03-03/str-reim",
             "viewers": "0",
             "substreams": []
           },
@@ -527,7 +560,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/premierleague/2026-03-04/avl-che",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -547,7 +580,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/premierleague/2026-03-04/bha-ars",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -591,6 +624,86 @@
             "substreams": []
           },
           {
+            "id": 18347,
+            "name": "Lorient vs. Nice",
+            "tag": "Coupe de France",
+            "poster": "https://api.ppv.to/assets/thumb/35cff9058fb1d8dc436cd5c47d862c31-thumbnail.jpg",
+            "blurhash": "L6Lcn?.L0%IEs:1#Ro|GzVNs$NxH",
+            "colors": [
+              "#863500",
+              "#811812"
+            ],
+            "uri_name": "coupe-de-france/2026-03-04/lor-nice",
+            "starts_at": 1772652600,
+            "ends_at": 1772661600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/coupe-de-france/2026-03-04/lor-nice",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18337,
+            "name": "Lazio vs. Atalanta",
+            "tag": "Coppa Italia",
+            "poster": "https://api.ppv.to/assets/thumb/caebed04c8154e08f237d492de38c12c-thumbnail.jpg",
+            "blurhash": "LI8~mU.kMHMLjbVWRPkYIVoykDWB",
+            "colors": [
+              "#3f687e",
+              "#082f68"
+            ],
+            "uri_name": "coppa-italia/2026-03-04/laz-ata",
+            "starts_at": 1772654400,
+            "ends_at": 1772663400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/coppa-italia/2026-03-04/laz-ata",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18339,
+            "name": "Real Sociedad vs. Athletic Club",
+            "tag": "Copa del Rey",
+            "poster": "https://api.ppv.to/assets/thumb/9f2f9d4adb9b106e6c7fba924c39caa7-thumbnail.jpg",
+            "blurhash": "LKEnGQ2|A8]LoeI-#js=D*gOjvV?",
+            "colors": [
+              "#1d386f",
+              "#6d0b1a"
+            ],
+            "uri_name": "copa-del-rey/2026-03-04/rso-ath",
+            "starts_at": 1772654400,
+            "ends_at": 1772663400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/copa-del-rey/2026-03-04/rso-ath",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18348,
+            "name": "Marseille vs. Toulouse",
+            "tag": "Coupe de France",
+            "poster": "https://api.ppv.to/assets/thumb/e99cecadf9bca16d2a7d0a1d086aab35-thumbnail.jpg",
+            "blurhash": "LiHU^X_MD$DjayM{M{s;jYt5ofS4",
+            "colors": [
+              "#8b8b8b",
+              "#2f0046"
+            ],
+            "uri_name": "coupe-de-france/2026-03-04/olm-tou",
+            "starts_at": 1772654400,
+            "ends_at": 1772663400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/coupe-de-france/2026-03-04/olm-tou",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
             "id": 18309,
             "name": "Newcastle United vs. Manchester United",
             "tag": "Premier League",
@@ -627,6 +740,26 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/premierleague/2026-03-05/tot-cry",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18349,
+            "name": "Lyon vs. Lens",
+            "tag": "Coupe de France",
+            "poster": "https://api.ppv.to/assets/thumb/4fd05d31fe4e7da3e8092b6e73a8f555-thumbnail.jpg",
+            "blurhash": "LgMFkEy?0yU^n%IoVYxaR.ozoLWB",
+            "colors": [
+              "#8b8b8b",
+              "#810b0b"
+            ],
+            "uri_name": "coupe-de-france/2026-03-05/lyon-rcl",
+            "starts_at": 1772741400,
+            "ends_at": 1772750400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/coupe-de-france/2026-03-05/lyon-rcl",
             "viewers": "0",
             "substreams": []
           },
@@ -707,6 +840,46 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/laliga/2026-03-06/cel-rma",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18340,
+            "name": "Wolverhampton Wanderers vs. Liverpool",
+            "tag": "English FA Cup",
+            "poster": "https://api.ppv.to/assets/thumb/b3768ab5c6b496f501a41a27b3e46902-thumbnail.jpg",
+            "blurhash": "LMKuMX?.0*H{ja9_N0$hoIoJsnX7",
+            "colors": [
+              "#8a650a",
+              "#71090a"
+            ],
+            "uri_name": "english-fa-cup/2026-03-06/wol-liv",
+            "starts_at": 1772827200,
+            "ends_at": 1772836200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/english-fa-cup/2026-03-06/wol-liv",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18341,
+            "name": "Mansfield Town vs. Arsenal",
+            "tag": "English FA Cup",
+            "poster": "https://api.ppv.to/assets/thumb/310e268e9cb7b33759cb448da45440e5-thumbnail.jpg",
+            "blurhash": "LTLxhn.g0%QqoMEPRSxDVrfhf8S6",
+            "colors": [
+              "#8a701b",
+              "#7c0211"
+            ],
+            "uri_name": "english-fa-cup/2026-03-07/mnf-ars",
+            "starts_at": 1772885700,
+            "ends_at": 1772894700,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/english-fa-cup/2026-03-07/mnf-ars",
             "viewers": "0",
             "substreams": []
           },
@@ -951,6 +1124,26 @@
             "substreams": []
           },
           {
+            "id": 18342,
+            "name": "Wrexham vs. Chelsea",
+            "tag": "English FA Cup",
+            "poster": "https://api.ppv.to/assets/thumb/da687002a557725b439c1bdd474fd6b6-thumbnail.jpg",
+            "blurhash": "LMEAvp{JATB;WXNZK5spD*xaoLRj",
+            "colors": [
+              "#6d0b1a",
+              "#0b2850"
+            ],
+            "uri_name": "english-fa-cup/2026-03-07/wxm-che",
+            "starts_at": 1772905500,
+            "ends_at": 1772914500,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/english-fa-cup/2026-03-07/wxm-che",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
             "id": 18323,
             "name": "AJ Auxerre vs. Strasbourg",
             "tag": "Ligue 1",
@@ -1011,6 +1204,26 @@
             "substreams": []
           },
           {
+            "id": 18343,
+            "name": "Newcastle United vs. Manchester City",
+            "tag": "English FA Cup",
+            "poster": "https://api.ppv.to/assets/thumb/98be120a442c14609c6d6b6ab45fdb78-thumbnail.jpg",
+            "blurhash": "LOBNyk4TI8.Tj]ROtSo#IVs,kCRk",
+            "colors": [
+              "#000000",
+              "#526b7f"
+            ],
+            "uri_name": "english-fa-cup/2026-03-07/new-mnc",
+            "starts_at": 1772913600,
+            "ends_at": 1772922600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/english-fa-cup/2026-03-07/new-mnc",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
             "id": 18324,
             "name": "Toulouse vs. Marseille",
             "tag": "Ligue 1",
@@ -1047,6 +1260,26 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/seriea/2026-03-08/lec-cre",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18344,
+            "name": "Fulham vs. Southampton",
+            "tag": "English FA Cup",
+            "poster": "https://api.ppv.to/assets/thumb/ab72e60069bfef25211e757dab95f929-thumbnail.jpg",
+            "blurhash": "LiM63ry?0yQmjFIoVsxajFbboLjZ",
+            "colors": [
+              "#8b8b8b",
+              "#810c1f"
+            ],
+            "uri_name": "english-fa-cup/2026-03-08/ful-sou",
+            "starts_at": 1772971200,
+            "ends_at": 1772980200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/english-fa-cup/2026-03-08/ful-sou",
             "viewers": "0",
             "substreams": []
           },
@@ -1247,6 +1480,26 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/bundesliga/2026-03-08/fcu-svw",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18345,
+            "name": "Leeds United vs. Norwich City",
+            "tag": "English FA Cup",
+            "poster": "https://api.ppv.to/assets/thumb/f31472f198322e9b5a8a81b9819311e1-thumbnail.jpg",
+            "blurhash": "LhMQ,voT03WPaxD+auxtxaWZofoJ",
+            "colors": [
+              "#8b8b8b",
+              "#898a00"
+            ],
+            "uri_name": "english-fa-cup/2026-03-08/lee-nor",
+            "starts_at": 1772987400,
+            "ends_at": 1772996400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/english-fa-cup/2026-03-08/lee-nor",
             "viewers": "0",
             "substreams": []
           },
@@ -1621,7 +1874,7 @@
             "locale": "en",
             "category_name": "Motorsports",
             "iframe": "https://pooembed.eu/embed/f1/2026/australia/race",
-            "viewers": "1",
+            "viewers": "2",
             "substreams": []
           }
         ]
@@ -1748,7 +2001,7 @@
             "locale": "en",
             "category_name": "Wrestling",
             "iframe": "https://pooembed.eu/embed/aew/collision/2026-03-07",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           }
         ]
@@ -1775,7 +2028,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-south-park",
-            "viewers": "26",
+            "viewers": "19",
             "substreams": []
           },
           {
@@ -1815,7 +2068,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-family-guy",
-            "viewers": "50",
+            "viewers": "39",
             "substreams": []
           },
           {
@@ -1835,7 +2088,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-the-simpsons",
-            "viewers": "12",
+            "viewers": "8",
             "substreams": []
           },
           {
@@ -1855,7 +2108,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-spongebob-squarepants",
-            "viewers": "4",
+            "viewers": "6",
             "substreams": []
           },
           {
@@ -1875,7 +2128,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/rally-tv",
-            "viewers": "3",
+            "viewers": "0",
             "substreams": []
           }
         ]
