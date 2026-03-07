@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2026-03-07T12:35:02.105859Z",
+    "fetched_at": "2026-03-07T18:25:50.056668Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-03-07T13:09:56.552064",
-      "total_streams": 76,
+      "extracted_at": "2026-03-07T18:30:28.177742",
+      "total_streams": 91,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 76,
-        "successful_requests": 76,
+        "total_requests": 91,
+        "successful_requests": 91,
         "failed_requests": 0,
-        "elapsed_time_seconds": 213.77
+        "elapsed_time_seconds": 265.83
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1772886910,
+    "timestamp": 1772907950,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.028165102005004883,
+    "performance": 0.038494110107421875,
     "streams": [
       {
         "category": "Arm Wrestling",
@@ -50,6 +50,353 @@
         ]
       },
       {
+        "category": "Baseball",
+        "id": 36,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 18565,
+            "name": "Colombia vs. Canada",
+            "tag": "FS2 / FOX DEPORTES",
+            "poster": "https://api.ppv.to/assets/thumb/489d7a9e60025fa5343dd268ff8f9b92-thumbnail.jpg",
+            "blurhash": "LHJiUn.ZNE-pt2ova$V_01ikt9EL",
+            "colors": [
+              "#fcd116",
+              "#c41e39"
+            ],
+            "uri_name": "mlb/2026-03-07/col-can-6037",
+            "starts_at": 1772899200,
+            "ends_at": 1772911800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-03-07/col-can-6037",
+            "viewers": "223",
+            "substreams": []
+          },
+          {
+            "id": 18566,
+            "name": "Nicaragua vs. Kingdom of the Netherlands",
+            "tag": "TUBI",
+            "poster": "https://api.ppv.to/assets/thumb/3182c18f397b4c17dc0caf98338ba43e-thumbnail.jpg",
+            "blurhash": "L7A,^P1m0L=h,COFSh#l00=Y~CEd",
+            "colors": [
+              "#0067b1",
+              "#6d6d6e"
+            ],
+            "uri_name": "mlb/2026-03-07/nca-ned-2904",
+            "starts_at": 1772902800,
+            "ends_at": 1772915400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-03-07/nca-ned-2904",
+            "viewers": "71",
+            "substreams": []
+          },
+          {
+            "id": 18567,
+            "name": "Brazil vs. Italy",
+            "tag": "FOX APP",
+            "poster": "https://api.ppv.to/assets/thumb/da0ff9bb8165fd00fe81fe5d9c3704c6-thumbnail.jpg",
+            "blurhash": "L89HOw1V8%~Cj@a{j[j[00^9.N4:",
+            "colors": [
+              "#115740",
+              "#0047aa"
+            ],
+            "uri_name": "mlb/2026-03-07/bra-ita-1156",
+            "starts_at": 1772906400,
+            "ends_at": 1772919000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-03-07/bra-ita-1156",
+            "viewers": "7",
+            "substreams": []
+          },
+          {
+            "id": 18574,
+            "name": "Pittsburgh Pirates vs. Detroit Tigers",
+            "tag": "MLBN / DETROIT SPORTSNET",
+            "poster": "https://api.ppv.to/assets/thumb/d505ac846bfd750830dbd9292de3349f-thumbnail.jpg",
+            "blurhash": "L8DZxE1z;35nWBa|ofaz11{~JQ-9",
+            "colors": [
+              "#27251f",
+              "#f94516"
+            ],
+            "uri_name": "mlb/2026-03-07/pit-det-6211",
+            "starts_at": 1772906700,
+            "ends_at": 1772919300,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-03-07/pit-det-6211",
+            "viewers": "2",
+            "substreams": []
+          },
+          {
+            "id": 18575,
+            "name": "New York Mets vs. St. Louis Cardinals",
+            "tag": "CARDINALS.TV / MATRIX MIDWEST",
+            "poster": "https://api.ppv.to/assets/thumb/36fba40e886f0bc400328123fae87419-thumbnail.jpg",
+            "blurhash": "L4ARSh2{+z68RjfRt7WW1W{_NF,:",
+            "colors": [
+              "#002d72",
+              "#c31e3a"
+            ],
+            "uri_name": "mlb/2026-03-07/nym-stl-7823",
+            "starts_at": 1772906700,
+            "ends_at": 1772919300,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-03-07/nym-stl-7823",
+            "viewers": "6",
+            "substreams": []
+          },
+          {
+            "id": 18576,
+            "name": "Tampa Bay Rays vs. Boston Red Sox",
+            "tag": "NESN 360 / RAYS.TV / WHDH CHANNEL 7",
+            "poster": "https://api.ppv.to/assets/thumb/019f4a77d3bf8032eb6424bb8706a454-thumbnail.jpg",
+            "blurhash": "L59$6F1%+bOXM{ayt7fk1E|?J8ae",
+            "colors": [
+              "#092c5c",
+              "#bc2f39"
+            ],
+            "uri_name": "mlb/2026-03-07/tb-bos-9414",
+            "starts_at": 1772906700,
+            "ends_at": 1772919300,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-03-07/tb-bos-9414",
+            "viewers": "8",
+            "substreams": []
+          },
+          {
+            "id": 18578,
+            "name": "Toronto Blue Jays vs. Philadelphia Phillies",
+            "tag": "PHI VIDEO",
+            "poster": "https://api.ppv.to/assets/thumb/bd8e623b21551ebb640e000d96404548-thumbnail.jpg",
+            "blurhash": "L8CNj%3Z+#EhjZa}oLjt0v{wSyxa",
+            "colors": [
+              "#134a8e",
+              "#e71828"
+            ],
+            "uri_name": "mlb/2026-03-07/tor-phi-9133",
+            "starts_at": 1772906700,
+            "ends_at": 1772919300,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-03-07/tor-phi-9133",
+            "viewers": "19",
+            "substreams": []
+          },
+          {
+            "id": 18579,
+            "name": "Baltimore Orioles vs. Atlanta Braves",
+            "tag": "GRAY TV",
+            "poster": "https://api.ppv.to/assets/thumb/07d1f2af7a37cce886a2033b8e8be85d-thumbnail.jpg",
+            "blurhash": "LMBnQY|?wfsTf6jtj[fQADJUS2W;",
+            "colors": [
+              "#df4601",
+              "#13274e"
+            ],
+            "uri_name": "mlb/2026-03-07/bal-atl-1102",
+            "starts_at": 1772906700,
+            "ends_at": 1772919300,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-03-07/bal-atl-1102",
+            "viewers": "6",
+            "substreams": []
+          },
+          {
+            "id": 18582,
+            "name": "San Diego Padres vs. Cleveland Guardians",
+            "tag": "PADRES.TV PRESENTED BY UC SAN DIEGO HEALTH / MLBN (OUT-OF-MARKET ONLY) / GUARDIANS.TV PRESENTED BY PROGRESSIVE",
+            "poster": "https://api.ppv.to/assets/thumb/2f91ed4d76f865aeb21a2c7246169c50-thumbnail.jpg",
+            "blurhash": "LTC$lT~2$$xWWBfQjtjt9wIuR+R,",
+            "colors": [
+              "#ffc425",
+              "#00385c"
+            ],
+            "uri_name": "mlb/2026-03-07/sd-cle-2481",
+            "starts_at": 1772913900,
+            "ends_at": 1772926500,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-03-07/sd-cle-2481",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18583,
+            "name": "Texas Rangers vs. San Francisco Giants",
+            "tag": "MLBN / NBCS BA / MLBN (OUT-OF-MARKET ONLY)",
+            "poster": "https://api.ppv.to/assets/thumb/4e27daf1e5f36b70b9a7c25ed2f0ab9d-thumbnail.jpg",
+            "blurhash": "LAC|~~1S;RN_V@ayofbH1G}8NZn$",
+            "colors": [
+              "#003278",
+              "#fc591e"
+            ],
+            "uri_name": "mlb/2026-03-07/tex-sf-5396",
+            "starts_at": 1772913900,
+            "ends_at": 1772926500,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-03-07/tex-sf-5396",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18585,
+            "name": "Chicago White Sox vs. Seattle Mariners",
+            "tag": "SEA VIDEO / MARINERS.TV / CHICAGO SPORTS NETWORK",
+            "poster": "https://api.ppv.to/assets/thumb/6acd983de41cbdc56bfb13301184e34c-thumbnail.jpg",
+            "blurhash": "L13b:piFD*?u9FfkxuaxMHx{bYDi",
+            "colors": [
+              "#27251f",
+              "#0c2b55"
+            ],
+            "uri_name": "mlb/2026-03-07/cws-sea-5225",
+            "starts_at": 1772914200,
+            "ends_at": 1772926800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-03-07/cws-sea-5225",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18587,
+            "name": "Los Angeles Angels vs. Athletics",
+            "tag": "KVVU FOX 5",
+            "poster": "https://api.ppv.to/assets/thumb/d70b05f2558348d59f4fd67753e448a7-thumbnail.jpg",
+            "blurhash": "LACXHe{2s.nOayjZofju0{F_R+kW",
+            "colors": [
+              "#ba0021",
+              "#6e6d6d"
+            ],
+            "uri_name": "mlb/2026-03-07/laa-ath-8659",
+            "starts_at": 1772917500,
+            "ends_at": 1772930100,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-03-07/laa-ath-8659",
+            "viewers": "1",
+            "substreams": []
+          },
+          {
+            "id": 18568,
+            "name": "Panama vs. Puerto Rico",
+            "tag": "FOX DEPORTES / FS1",
+            "poster": "https://api.ppv.to/assets/thumb/57401717292bd228060c527581b3389b-thumbnail.jpg",
+            "blurhash": "LCE^]P3GDk9|s9s.ozX800;1-:-8",
+            "colors": [
+              "#0039a6",
+              "#e71828"
+            ],
+            "uri_name": "mlb/2026-03-07/pan-pur-8395",
+            "starts_at": 1772924400,
+            "ends_at": 1772937000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-03-07/pan-pur-8395",
+            "viewers": "1",
+            "substreams": []
+          },
+          {
+            "id": 18569,
+            "name": "Israel vs. Venezuela",
+            "tag": "FS2",
+            "poster": "https://api.ppv.to/assets/thumb/61bac61544fbea473897e19277c6629e-thumbnail.jpg",
+            "blurhash": "LLCFxVPED+R5oxahe;kS00iu-otl",
+            "colors": [
+              "#0038b8",
+              "#7f0020"
+            ],
+            "uri_name": "mlb/2026-03-07/isr-ven-9242",
+            "starts_at": 1772928000,
+            "ends_at": 1772940600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-03-07/isr-ven-9242",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18570,
+            "name": "Great Britain vs. United States",
+            "tag": "FOX",
+            "poster": "https://api.ppv.to/assets/thumb/f2801ab69294b8428b4ebb2d1d2a2131-thumbnail.jpg",
+            "blurhash": "L9BfSCa*0LNfR+oLs:R+00bF~Bw[",
+            "colors": [
+              "#00247d",
+              "#002768"
+            ],
+            "uri_name": "mlb/2026-03-07/gbr-usa-4722",
+            "starts_at": 1772931600,
+            "ends_at": 1772944200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-03-07/gbr-usa-4722",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18589,
+            "name": "Colorado Rockies vs. Los Angeles Dodgers",
+            "tag": "MLBN / MLBN (OUT-OF-MARKET ONLY) / SPORTSNET LA",
+            "poster": "https://api.ppv.to/assets/thumb/435a9b7561596c99e8cc2b66658617af-thumbnail.jpg",
+            "blurhash": "L39s_N00%?9JIUWBt8j[00_MIC%I",
+            "colors": [
+              "#33006f",
+              "#a4abae"
+            ],
+            "uri_name": "mlb/2026-03-07/col-lad-2617",
+            "starts_at": 1772931900,
+            "ends_at": 1772944500,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-03-07/col-lad-2617",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18571,
+            "name": "Chinese Taipei vs. Korea",
+            "tag": "FS2",
+            "poster": "https://api.ppv.to/assets/thumb/a504c89475974339c9ba5d89f0f1a577-thumbnail.jpg",
+            "blurhash": "LED9;+s$00Rhofa}azjZ00V^~pt8",
+            "colors": [
+              "#002d62",
+              "#00469f"
+            ],
+            "uri_name": "mlb/2026-03-07/tpe-kor-5380",
+            "starts_at": 1772938800,
+            "ends_at": 1772951400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-03-07/tpe-kor-5380",
+            "viewers": "0",
+            "substreams": []
+          }
+        ]
+      },
+      {
         "category": "Basketball",
         "id": 37,
         "always_live": false,
@@ -71,7 +418,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-03-07/orl-min",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -171,7 +518,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-03-07/gs-okc",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -282,26 +629,6 @@
         "always_live": false,
         "streams": [
           {
-            "id": 18541,
-            "name": "RIZIN 52: Kyoma Akimoto vs. Patchy Mix",
-            "tag": "RIZIN.TV",
-            "poster": "https://api.ppv.to/assets/thumb/5a0559e26a92a47791d52e70aeadc256-thumbnail.jpg",
-            "blurhash": "L7FEs1~C4V=|?Gi_4Tx]6QNwI=Io",
-            "colors": [
-              "#9b0008",
-              "#291413"
-            ],
-            "uri_name": "rizin-52-kyoma-akimoto-vs.-patchy-mix",
-            "starts_at": 1772859600,
-            "ends_at": 1772895600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Combat Sports",
-            "iframe": "https://pooembed.eu/embed/rizin-52-kyoma-akimoto-vs.-patchy-mix",
-            "viewers": "68",
-            "substreams": []
-          },
-          {
             "id": 18562,
             "name": "OKTAGON 85 (English)",
             "tag": "OKTAGON.TV",
@@ -318,7 +645,7 @@
             "locale": "en",
             "category_name": "Combat Sports",
             "iframe": "https://pooembed.eu/embed/oktagon-85-english",
-            "viewers": "0",
+            "viewers": "191",
             "substreams": []
           },
           {
@@ -338,7 +665,7 @@
             "locale": "de",
             "category_name": "Combat Sports",
             "iframe": "https://pooembed.eu/embed/oktagon-85-german",
-            "viewers": "0",
+            "viewers": "262",
             "substreams": []
           },
           {
@@ -358,7 +685,27 @@
             "locale": "cs",
             "category_name": "Combat Sports",
             "iframe": "https://pooembed.eu/embed/oktagon-85-czech",
-            "viewers": "0",
+            "viewers": "78",
+            "substreams": []
+          },
+          {
+            "id": 18590,
+            "name": "MF Duel 2: Ty Mitchell vs. Gabe Rosado",
+            "tag": "DAZN",
+            "poster": "https://api.ppv.to/assets/thumb/88c597ae4e1cb21c34fe2f082b7c385f-thumbnail.jpg",
+            "blurhash": "LDCGocrr4Tjs_Ns9Riae00jZ?bWB",
+            "colors": [
+              "#0f2c32",
+              "#22404a"
+            ],
+            "uri_name": "mf-duel-2-ty-mitchell-vs.-gabe-rosado",
+            "starts_at": 1772908200,
+            "ends_at": 1772929800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Combat Sports",
+            "iframe": "https://pooembed.eu/embed/mf-duel-2-ty-mitchell-vs.-gabe-rosado",
+            "viewers": "32",
             "substreams": []
           },
           {
@@ -378,7 +725,7 @@
             "locale": "en",
             "category_name": "Combat Sports",
             "iframe": "https://pooembed.eu/embed/ufc-326",
-            "viewers": "5",
+            "viewers": "9",
             "substreams": []
           }
         ]
@@ -405,7 +752,94 @@
             "locale": "en",
             "category_name": "Cricket",
             "iframe": "https://pooembed.eu/embed/willow-cricket",
-            "viewers": "4",
+            "viewers": "5",
+            "substreams": []
+          }
+        ]
+      },
+      {
+        "category": "Darts",
+        "id": 32,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 18593,
+            "name": "UK Open (Board 1)",
+            "tag": "PDC.TV",
+            "poster": "https://api.ppv.to/assets/thumb/d51c83ae16642c54cb671a093b90fca5-thumbnail.jpg",
+            "blurhash": "LGMEvu@8U70z0p}%RBPA8|zoRRcY",
+            "colors": [
+              "#3a0d14",
+              "#fef200"
+            ],
+            "uri_name": "uk-open-board-1",
+            "starts_at": 1772888400,
+            "ends_at": 1772924400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Darts",
+            "iframe": "https://pooembed.eu/embed/uk-open-board-1",
+            "viewers": "7",
+            "substreams": []
+          },
+          {
+            "id": 18594,
+            "name": "UK Open (Board 2)",
+            "tag": "PDC.TV",
+            "poster": "https://api.ppv.to/assets/thumb/d51c83ae16642c54cb671a093b90fca5-thumbnail.jpg",
+            "blurhash": "LGMEvu@8U70z0p}%RBPA8|zoRRcY",
+            "colors": [
+              "#3a0d14",
+              "#fef200"
+            ],
+            "uri_name": "uk-open-board-2",
+            "starts_at": 1772888400,
+            "ends_at": 1772924400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Darts",
+            "iframe": "https://pooembed.eu/embed/uk-open-board-2",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18595,
+            "name": "UK Open (Board 3)",
+            "tag": "PDC.TV",
+            "poster": "https://api.ppv.to/assets/thumb/d51c83ae16642c54cb671a093b90fca5-thumbnail.jpg",
+            "blurhash": "LGMEvu@8U70z0p}%RBPA8|zoRRcY",
+            "colors": [
+              "#3a0d14",
+              "#fef200"
+            ],
+            "uri_name": "uk-open-board-3",
+            "starts_at": 1772888400,
+            "ends_at": 1772924400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Darts",
+            "iframe": "https://pooembed.eu/embed/uk-open-board-3",
+            "viewers": "2",
+            "substreams": []
+          },
+          {
+            "id": 18596,
+            "name": "UK Open (Board 4)",
+            "tag": "PDC.TV",
+            "poster": "https://api.ppv.to/assets/thumb/d51c83ae16642c54cb671a093b90fca5-thumbnail.jpg",
+            "blurhash": "LGMEvu@8U70z0p}%RBPA8|zoRRcY",
+            "colors": [
+              "#3a0d14",
+              "#fef200"
+            ],
+            "uri_name": "uk-open-board-4",
+            "starts_at": 1772888400,
+            "ends_at": 1772924400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Darts",
+            "iframe": "https://pooembed.eu/embed/uk-open-board-4",
+            "viewers": "0",
             "substreams": []
           }
         ]
@@ -415,186 +849,6 @@
         "id": 34,
         "always_live": false,
         "streams": [
-          {
-            "id": 18341,
-            "name": "Mansfield Town vs. Arsenal",
-            "tag": "English FA Cup",
-            "poster": "https://api.ppv.to/assets/thumb/310e268e9cb7b33759cb448da45440e5-thumbnail.jpg",
-            "blurhash": "LTLxhn.g0%QqoMEPRSxDVrfhf8S6",
-            "colors": [
-              "#8a701b",
-              "#7c0211"
-            ],
-            "uri_name": "english-fa-cup/2026-03-07/mnf-ars",
-            "starts_at": 1772885700,
-            "ends_at": 1772894700,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/english-fa-cup/2026-03-07/mnf-ars",
-            "viewers": "3285",
-            "substreams": []
-          },
-          {
-            "id": 18278,
-            "name": "Osasuna vs. Mallorca",
-            "tag": "LaLiga",
-            "poster": "https://api.ppv.to/assets/thumb/803a7f74369d3b41cfe3f7ecde55c6a1-thumbnail.jpg",
-            "blurhash": "L5JNwgxb0LV=s:j?WVWX00Ri}[kY",
-            "colors": [
-              "#992d29",
-              "#992d29"
-            ],
-            "uri_name": "laliga/2026-03-07/osa-mll",
-            "starts_at": 1772888400,
-            "ends_at": 1772897400,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/laliga/2026-03-07/osa-mll",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 18312,
-            "name": "Cagliari vs. Como",
-            "tag": "Serie A",
-            "poster": "https://api.ppv.to/assets/thumb/eafa3754ea18e83e8f613eb4872e8523-thumbnail.jpg",
-            "blurhash": "L58#arrE00pHxujFjFkC00Xm_NVs",
-            "colors": [
-              "#003799",
-              "#003799"
-            ],
-            "uri_name": "seriea/2026-03-07/cag-como",
-            "starts_at": 1772892000,
-            "ends_at": 1772901000,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/seriea/2026-03-07/cag-como",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 18293,
-            "name": "1. FC Heidenheim 1846 vs. TSG Hoffenheim",
-            "tag": "Bundesliga",
-            "poster": "https://api.ppv.to/assets/thumb/8f248e0940097cc0495372050eb36191-thumbnail.jpg",
-            "blurhash": "L4GY$xqZ0JL3I@kWayaK00T|~Wzo",
-            "colors": [
-              "#7e030d",
-              "#7e030d"
-            ],
-            "uri_name": "bundesliga/2026-03-07/hdh-tsg",
-            "starts_at": 1772893800,
-            "ends_at": 1772902800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/bundesliga/2026-03-07/hdh-tsg",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 18294,
-            "name": "Mainz vs. VfB Stuttgart",
-            "tag": "Bundesliga",
-            "poster": "https://api.ppv.to/assets/thumb/1b2759c0bac960429f27404353562dac-thumbnail.jpg",
-            "blurhash": "L5H8ssHY0K%~-VRiayt700yq~WHs",
-            "colors": [
-              "#7e030d",
-              "#7e030d"
-            ],
-            "uri_name": "bundesliga/2026-03-07/m05-vfb",
-            "starts_at": 1772893800,
-            "ends_at": 1772902800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/bundesliga/2026-03-07/m05-vfb",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 18295,
-            "name": "RB Leipzig vs. FC Augsburg",
-            "tag": "Bundesliga",
-            "poster": "https://api.ppv.to/assets/thumb/56a4e8464d49f5e501a0e73a50199de4-thumbnail.jpg",
-            "blurhash": "L4G~nID+0Kxo%2WBWVoz00x?~WW@",
-            "colors": [
-              "#7e030d",
-              "#7e030d"
-            ],
-            "uri_name": "bundesliga/2026-03-07/rbl-fca",
-            "starts_at": 1772893800,
-            "ends_at": 1772902800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/bundesliga/2026-03-07/rbl-fca",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 18296,
-            "name": "SC Freiburg vs. Bayer Leverkusen",
-            "tag": "Bundesliga",
-            "poster": "https://api.ppv.to/assets/thumb/e9a0e6377b4f092b69739cefc8068180-thumbnail.jpg",
-            "blurhash": "L4GY==9v00?FxHkBa|af00-n~W9a",
-            "colors": [
-              "#7e030d",
-              "#7e030d"
-            ],
-            "uri_name": "bundesliga/2026-03-07/scf-b04",
-            "starts_at": 1772893800,
-            "ends_at": 1772902800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/bundesliga/2026-03-07/scf-b04",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 18297,
-            "name": "VfL Wolfsburg vs. Hamburg SV",
-            "tag": "Bundesliga",
-            "poster": "https://api.ppv.to/assets/thumb/b3cb65eca4bc23fc8fb5e8fbf2e05918-thumbnail.jpg",
-            "blurhash": "L5GZaS?;0J8~xbs;ayR%00DU~W.4",
-            "colors": [
-              "#7e030d",
-              "#7e030d"
-            ],
-            "uri_name": "bundesliga/2026-03-07/wob-hsv",
-            "starts_at": 1772893800,
-            "ends_at": 1772902800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/bundesliga/2026-03-07/wob-hsv",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 18280,
-            "name": "Levante vs. Girona",
-            "tag": "LaLiga",
-            "poster": "https://api.ppv.to/assets/thumb/059248aba4dabd2a8b2b1bf4bdc19dfb-thumbnail.jpg",
-            "blurhash": "L5JXLO1G0L^7s:WVWVoL00^6}[5k",
-            "colors": [
-              "#992d29",
-              "#992d29"
-            ],
-            "uri_name": "laliga/2026-03-07/lev-gir",
-            "starts_at": 1772896500,
-            "ends_at": 1772905500,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/laliga/2026-03-07/lev-gir",
-            "viewers": "0",
-            "substreams": []
-          },
           {
             "id": 18322,
             "name": "Nantes vs. Angers",
@@ -612,7 +866,7 @@
             "locale": "fr",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/ligue1/2026-03-07/nan-ang",
-            "viewers": "0",
+            "viewers": "13",
             "substreams": []
           },
           {
@@ -632,7 +886,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/seriea/2026-03-07/ata-udi",
-            "viewers": "0",
+            "viewers": "91",
             "substreams": []
           },
           {
@@ -652,7 +906,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/laliga/2026-03-07/atm-rso",
-            "viewers": "1",
+            "viewers": "245",
             "substreams": []
           },
           {
@@ -672,7 +926,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/bundesliga/2026-03-07/koe-dor",
-            "viewers": "0",
+            "viewers": "227",
             "substreams": []
           },
           {
@@ -692,7 +946,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/english-fa-cup/2026-03-07/wxm-che",
-            "viewers": "1",
+            "viewers": "3357",
             "substreams": []
           },
           {
@@ -712,7 +966,7 @@
             "locale": "fr",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/ligue1/2026-03-07/aux-str",
-            "viewers": "0",
+            "viewers": "84",
             "substreams": []
           },
           {
@@ -752,7 +1006,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/laliga/2026-03-07/ath-bar",
-            "viewers": "1",
+            "viewers": "4",
             "substreams": []
           },
           {
@@ -772,7 +1026,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/english-fa-cup/2026-03-07/new-mnc",
-            "viewers": "0",
+            "viewers": "4",
             "substreams": []
           },
           {
@@ -792,6 +1046,26 @@
             "locale": "fr",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/ligue1/2026-03-07/tou-olm",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18592,
+            "name": "D.C. United vs. Inter Miami CF",
+            "tag": "MLS",
+            "poster": "https://api.ppv.to/assets/thumb/af3cc3b60ee43c9e81a9724ec872f1b1-thumbnail.jpg",
+            "blurhash": "L16R4Hx[009G.8x]WBM{00IU_3-:",
+            "colors": [
+              "#000000",
+              "#231f20"
+            ],
+            "uri_name": "mls/2026-03-07/mia-dc",
+            "starts_at": 1772919000,
+            "ends_at": 1772928000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/mls/2026-03-07/mia-dc",
             "viewers": "0",
             "substreams": []
           },
@@ -1219,7 +1493,7 @@
             "locale": "en",
             "category_name": "Ice Hockey",
             "iframe": "https://pooembed.eu/embed/nhl/2026-03-07/wsh-bos",
-            "viewers": "0",
+            "viewers": "68",
             "substreams": []
           },
           {
@@ -1430,6 +1704,46 @@
         "always_live": false,
         "streams": [
           {
+            "id": 18591,
+            "name": "YPF MXGP of Argentina",
+            "tag": "MXGP-TV",
+            "poster": "https://api.ppv.to/assets/thumb/ed94a73bc7464c265b131ce0d368a6d1-thumbnail.jpg",
+            "blurhash": "LgD0ZaMvt8ogcIaHb0t8tnjDoMWr",
+            "colors": [
+              "#979694",
+              "#a1957f"
+            ],
+            "uri_name": "ypf-mxgp-of-argentina",
+            "starts_at": 1772895600,
+            "ends_at": 1772917200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Motorsports",
+            "iframe": "https://pooembed.eu/embed/ypf-mxgp-of-argentina",
+            "viewers": "137",
+            "substreams": []
+          },
+          {
+            "id": 15856,
+            "name": "Supercross: Indianapolis",
+            "tag": "Peacock",
+            "poster": "https://api.ppv.to/assets/thumb/987906340148eb24238a7ba4ceb6cb9f-thumbnail.jpg",
+            "blurhash": "L3559Pof00NDx^fhMzWT00R%~oxc",
+            "colors": [
+              "#0e0727",
+              "#120931"
+            ],
+            "uri_name": "smx-wk9",
+            "starts_at": 1772906400,
+            "ends_at": 1772949600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Motorsports",
+            "iframe": "https://pooembed.eu/embed/smx-wk9",
+            "viewers": "106",
+            "substreams": []
+          },
+          {
             "id": 18132,
             "name": "Australian Grand Prix - Race",
             "tag": "Formula 1",
@@ -1446,7 +1760,7 @@
             "locale": "en",
             "category_name": "Motorsports",
             "iframe": "https://pooembed.eu/embed/f1/2026/australia/race",
-            "viewers": "21",
+            "viewers": "30",
             "substreams": []
           }
         ]
@@ -1500,7 +1814,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-south-park",
-            "viewers": "27",
+            "viewers": "24",
             "substreams": []
           },
           {
@@ -1520,7 +1834,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-cows",
-            "viewers": "1",
+            "viewers": "3",
             "substreams": []
           },
           {
@@ -1540,7 +1854,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-family-guy",
-            "viewers": "23",
+            "viewers": "21",
             "substreams": []
           },
           {
@@ -1560,7 +1874,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-the-simpsons",
-            "viewers": "12",
+            "viewers": "10",
             "substreams": []
           },
           {
@@ -1600,7 +1914,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/rally-tv",
-            "viewers": "2",
+            "viewers": "4",
             "substreams": []
           }
         ]
