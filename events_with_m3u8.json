@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2026-03-07T06:32:22.340607Z",
+    "fetched_at": "2026-03-07T12:35:02.105859Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-03-07T06:59:51.514540",
-      "total_streams": 73,
+      "extracted_at": "2026-03-07T12:38:47.694615",
+      "total_streams": 76,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 73,
-        "successful_requests": 73,
+        "total_requests": 76,
+        "successful_requests": 76,
         "failed_requests": 0,
-        "elapsed_time_seconds": 206.16
+        "elapsed_time_seconds": 212.04
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1772865150,
+    "timestamp": 1772886910,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.03061389923095703,
+    "performance": 0.028165102005004883,
     "streams": [
       {
         "category": "Arm Wrestling",
@@ -298,7 +298,87 @@
             "locale": "en",
             "category_name": "Combat Sports",
             "iframe": "https://pooembed.eu/embed/rizin-52-kyoma-akimoto-vs.-patchy-mix",
-            "viewers": "329",
+            "viewers": "68",
+            "substreams": []
+          },
+          {
+            "id": 18562,
+            "name": "OKTAGON 85 (English)",
+            "tag": "OKTAGON.TV",
+            "poster": "https://api.ppv.to/assets/thumb/0580da0e61591ceacb136ce4325ba4b6-thumbnail.jpg",
+            "blurhash": "LKD9ewRQ0Kxv~qM{IoxuITM{ohoe",
+            "colors": [
+              "#35364a",
+              "#0b0416"
+            ],
+            "uri_name": "oktagon-85-english",
+            "starts_at": 1772902800,
+            "ends_at": 1772924400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Combat Sports",
+            "iframe": "https://pooembed.eu/embed/oktagon-85-english",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18563,
+            "name": "OKTAGON 85 (German)",
+            "tag": "OKTAGON.TV",
+            "poster": "https://api.ppv.to/assets/thumb/0580da0e61591ceacb136ce4325ba4b6-thumbnail.jpg",
+            "blurhash": "LKD9ewRQ0Kxv~qM{IoxuITM{ohoe",
+            "colors": [
+              "#35364a",
+              "#0b0416"
+            ],
+            "uri_name": "oktagon-85-german",
+            "starts_at": 1772902800,
+            "ends_at": 1772924400,
+            "always_live": 0,
+            "locale": "de",
+            "category_name": "Combat Sports",
+            "iframe": "https://pooembed.eu/embed/oktagon-85-german",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18564,
+            "name": "OKTAGON 85 (Czech)",
+            "tag": "OKTAGON.TV",
+            "poster": "https://api.ppv.to/assets/thumb/0580da0e61591ceacb136ce4325ba4b6-thumbnail.jpg",
+            "blurhash": "LKD9ewRQ0Kxv~qM{IoxuITM{ohoe",
+            "colors": [
+              "#35364a",
+              "#0b0416"
+            ],
+            "uri_name": "oktagon-85-czech",
+            "starts_at": 1772902800,
+            "ends_at": 1772924400,
+            "always_live": 0,
+            "locale": "cs",
+            "category_name": "Combat Sports",
+            "iframe": "https://pooembed.eu/embed/oktagon-85-czech",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 18561,
+            "name": "UFC 326: Holloway vs. Oliveira 2",
+            "tag": "Paramount+",
+            "poster": "https://api.ppv.to/assets/thumb/db95bc03bdb55c00cb25ff602c9304ca-thumbnail.jpg",
+            "blurhash": "LhNKFzM{~qxuIUayxuj[%MfPIUof",
+            "colors": [
+              "#f2f2f2",
+              "#f0f0f0"
+            ],
+            "uri_name": "ufc-326",
+            "starts_at": 1772922600,
+            "ends_at": 1772958600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Combat Sports",
+            "iframe": "https://pooembed.eu/embed/ufc-326",
+            "viewers": "5",
             "substreams": []
           }
         ]
@@ -352,7 +432,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/english-fa-cup/2026-03-07/mnf-ars",
-            "viewers": "0",
+            "viewers": "3285",
             "substreams": []
           },
           {
@@ -572,7 +652,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/laliga/2026-03-07/atm-rso",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -612,7 +692,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/english-fa-cup/2026-03-07/wxm-che",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1350,26 +1430,6 @@
         "always_live": false,
         "streams": [
           {
-            "id": 18131,
-            "name": "Australian Grand Prix - Qualifying",
-            "tag": "Formula 1",
-            "poster": "https://api.ppv.to/assets/thumb/d72b1274e0df94b08fd451342b472a44-thumbnail.jpg",
-            "blurhash": "L697U~IV?bE2_Nt5%MV@XlV@x[aK",
-            "colors": [
-              "#02050a",
-              "#3f4249"
-            ],
-            "uri_name": "f1/2026/australia/qualifying",
-            "starts_at": 1772859600,
-            "ends_at": 1772866800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Motorsports",
-            "iframe": "https://pooembed.eu/embed/f1/2026/australia/qualifying",
-            "viewers": "2335",
-            "substreams": []
-          },
-          {
             "id": 18132,
             "name": "Australian Grand Prix - Race",
             "tag": "Formula 1",
@@ -1386,7 +1446,7 @@
             "locale": "en",
             "category_name": "Motorsports",
             "iframe": "https://pooembed.eu/embed/f1/2026/australia/race",
-            "viewers": "2",
+            "viewers": "21",
             "substreams": []
           }
         ]
@@ -1440,7 +1500,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-south-park",
-            "viewers": "28",
+            "viewers": "27",
             "substreams": []
           },
           {
@@ -1480,7 +1540,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-family-guy",
-            "viewers": "26",
+            "viewers": "23",
             "substreams": []
           },
           {
@@ -1500,7 +1560,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-the-simpsons",
-            "viewers": "17",
+            "viewers": "12",
             "substreams": []
           },
           {
@@ -1520,7 +1580,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-spongebob-squarepants",
-            "viewers": "2",
+            "viewers": "3",
             "substreams": []
           },
           {
@@ -1540,7 +1600,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/rally-tv",
-            "viewers": "1",
+            "viewers": "2",
             "substreams": []
           }
         ]
