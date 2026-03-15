@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-15T12:54:35.986Z",
-  "total_events": 48,
+  "generated_at": "2026-03-15T18:39:59.563Z",
+  "total_events": 43,
   "categories": [
     {
       "id": 40,
@@ -18,7 +18,7 @@
       "id": 37,
       "name": "Basketball",
       "slug": "basketball",
-      "event_count": 8,
+      "event_count": 12,
       "always_live": false,
       "meta": {
         "title": "Basketball EN VIVO - Tarjeta Roja TV",
@@ -42,7 +42,7 @@
       "id": 34,
       "name": "Football",
       "slug": "football",
-      "event_count": 26,
+      "event_count": 16,
       "always_live": false,
       "meta": {
         "title": "Football EN VIVO - Tarjeta Roja TV",
@@ -60,6 +60,18 @@
         "title": "Ice Hockey EN VIVO - Tarjeta Roja TV",
         "description": "Ver Ice Hockey en vivo gratis.",
         "keywords": "Ice Hockey, tarjeta roja, rojadirecta"
+      }
+    },
+    {
+      "id": 38,
+      "name": "Wrestling",
+      "slug": "wrestling",
+      "event_count": 1,
+      "always_live": false,
+      "meta": {
+        "title": "Wrestling EN VIVO - Tarjeta Roja TV",
+        "description": "Ver Wrestling en vivo gratis.",
+        "keywords": "Wrestling, tarjeta roja, rojadirecta"
       }
     },
     {
@@ -153,7 +165,7 @@
         "viewers": "1"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.987Z",
+        "last_modified": "2026-03-15T18:39:59.564Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -253,19 +265,337 @@
         "start_time": "2026-03-15T17:00:00.000Z",
         "end_time": "2026-03-15T19:48:00.000Z",
         "duration_minutes": 168,
-        "status": "upcoming",
-        "viewers": "1",
+        "status": "live",
+        "viewers": "2075",
         "home_team": "Minnesota Timberwolves",
         "away_team": "Oklahoma City Thunder"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.987Z",
+        "last_modified": "2026-03-15T18:39:59.564Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
         "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Minnesota Timberwolves vs. Oklahoma City Thunder, Minnesota Timberwolves"
+      }
+    },
+    {
+      "id": 19104,
+      "slug": "vanderbilt-commodores-vs-arkansas-razorbacks-basketball",
+      "uri_name": "cbb/5793/5793-van",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/cbb/5793/5793-van",
+      "meta": {
+        "title": "Vanderbilt Commodores vs. Arkansas Razorbacks (Basketball) EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Vanderbilt Commodores vs. Arkansas Razorbacks (Basketball) en vivo gratis por Tarjeta Roja TV. Vanderbilt Commodores vs Arkansas Razorbacks (Basketball) transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Vanderbilt Commodores vs. Arkansas Razorbacks (Basketball), Vanderbilt Commodores, Arkansas Razorbacks (Basketball), Basketball, ver online gratis, en vivo gratis, ESPN",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/cbb/5793/5793-van",
+        "title": "Vanderbilt Commodores vs. Arkansas Razorbacks (Basketball) EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Vanderbilt Commodores vs. Arkansas Razorbacks (Basketball) en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/555582b82dc6a17dc827561942b6ddba-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Vanderbilt Commodores vs. Arkansas Razorbacks (Basketball) EN VIVO",
+        "description": "Ver Vanderbilt Commodores vs. Arkansas Razorbacks (Basketball) en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/555582b82dc6a17dc827561942b6ddba-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Vanderbilt Commodores vs. Arkansas Razorbacks (Basketball)",
+        "description": "Transmisión en vivo de Vanderbilt Commodores vs. Arkansas Razorbacks (Basketball)",
+        "startDate": "2026-03-15T17:00:00.000Z",
+        "endDate": "2026-03-15T20:30:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/cbb/5793/5793-van"
+        },
+        "image": "https://api.ppv.to/assets/thumb/555582b82dc6a17dc827561942b6ddba-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Vanderbilt Commodores"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Arkansas Razorbacks (Basketball)"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Vanderbilt Commodores"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Arkansas Razorbacks (Basketball)"
+        },
+        "sport": "Basketball"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Basketball",
+            "url": "https://tarjetarojaenvivo.live/categoria/basketball"
+          },
+          {
+            "name": "Vanderbilt Commodores vs. Arkansas Razorbacks (Basketball)",
+            "url": "https://tarjetarojaenvivo.live/eventos/cbb/5793/5793-van"
+          }
+        ],
+        "h1": "Vanderbilt Commodores vs. Arkansas Razorbacks (Basketball) EN VIVO",
+        "h2": "Ver Vanderbilt Commodores vs. Arkansas Razorbacks (Basketball) Online Gratis"
+      },
+      "event": {
+        "name": "Vanderbilt Commodores vs. Arkansas Razorbacks (Basketball)",
+        "category": "Basketball",
+        "broadcaster": "ESPN",
+        "start_time": "2026-03-15T17:00:00.000Z",
+        "end_time": "2026-03-15T20:30:00.000Z",
+        "duration_minutes": 210,
+        "status": "live",
+        "viewers": "40",
+        "home_team": "Vanderbilt Commodores",
+        "away_team": "Arkansas Razorbacks (Basketball)"
+      },
+      "technical": {
+        "last_modified": "2026-03-15T18:39:59.564Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Vanderbilt Commodores vs. Arkansas Razorbacks (Basketball), Vanderbilt Commodores"
+      }
+    },
+    {
+      "id": 19106,
+      "slug": "dayton-flyers-vs-vcu-rams-basketball",
+      "uri_name": "cbb/8407/8407-day",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/cbb/8407/8407-day",
+      "meta": {
+        "title": "Dayton Flyers vs. VCU Rams (Basketball) EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Dayton Flyers vs. VCU Rams (Basketball) en vivo gratis por Tarjeta Roja TV. Dayton Flyers vs VCU Rams (Basketball) transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Dayton Flyers vs. VCU Rams (Basketball), Dayton Flyers, VCU Rams (Basketball), Basketball, ver online gratis, en vivo gratis, CBS",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/cbb/8407/8407-day",
+        "title": "Dayton Flyers vs. VCU Rams (Basketball) EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Dayton Flyers vs. VCU Rams (Basketball) en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/a86c5b3e11fa0e0ec00ce88eb4fc7357-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Dayton Flyers vs. VCU Rams (Basketball) EN VIVO",
+        "description": "Ver Dayton Flyers vs. VCU Rams (Basketball) en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/a86c5b3e11fa0e0ec00ce88eb4fc7357-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Dayton Flyers vs. VCU Rams (Basketball)",
+        "description": "Transmisión en vivo de Dayton Flyers vs. VCU Rams (Basketball)",
+        "startDate": "2026-03-15T17:00:00.000Z",
+        "endDate": "2026-03-15T20:30:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/cbb/8407/8407-day"
+        },
+        "image": "https://api.ppv.to/assets/thumb/a86c5b3e11fa0e0ec00ce88eb4fc7357-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Dayton Flyers"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "VCU Rams (Basketball)"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Dayton Flyers"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "VCU Rams (Basketball)"
+        },
+        "sport": "Basketball"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Basketball",
+            "url": "https://tarjetarojaenvivo.live/categoria/basketball"
+          },
+          {
+            "name": "Dayton Flyers vs. VCU Rams (Basketball)",
+            "url": "https://tarjetarojaenvivo.live/eventos/cbb/8407/8407-day"
+          }
+        ],
+        "h1": "Dayton Flyers vs. VCU Rams (Basketball) EN VIVO",
+        "h2": "Ver Dayton Flyers vs. VCU Rams (Basketball) Online Gratis"
+      },
+      "event": {
+        "name": "Dayton Flyers vs. VCU Rams (Basketball)",
+        "category": "Basketball",
+        "broadcaster": "CBS",
+        "start_time": "2026-03-15T17:00:00.000Z",
+        "end_time": "2026-03-15T20:30:00.000Z",
+        "duration_minutes": 210,
+        "status": "live",
+        "viewers": "1",
+        "home_team": "Dayton Flyers",
+        "away_team": "VCU Rams (Basketball)"
+      },
+      "technical": {
+        "last_modified": "2026-03-15T18:39:59.564Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Dayton Flyers vs. VCU Rams (Basketball), Dayton Flyers"
+      }
+    },
+    {
+      "id": 19107,
+      "slug": "wichita-state-shockers-vs-south-florida-bulls-basketball",
+      "uri_name": "cbb/7145/7145-wich",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/cbb/7145/7145-wich",
+      "meta": {
+        "title": "Wichita State Shockers vs. South Florida Bulls (Basketball) EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Wichita State Shockers vs. South Florida Bulls (Basketball) en vivo gratis por Tarjeta Roja TV. Wichita State Shockers vs South Florida Bulls (Basketball) transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Wichita State Shockers vs. South Florida Bulls (Basketball), Wichita State Shockers, South Florida Bulls (Basketball), Basketball, ver online gratis, en vivo gratis, ESPN",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/cbb/7145/7145-wich",
+        "title": "Wichita State Shockers vs. South Florida Bulls (Basketball) EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Wichita State Shockers vs. South Florida Bulls (Basketball) en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/aef96a00e7452c9be52a50583fbb0d65-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Wichita State Shockers vs. South Florida Bulls (Basketball) EN VIVO",
+        "description": "Ver Wichita State Shockers vs. South Florida Bulls (Basketball) en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/aef96a00e7452c9be52a50583fbb0d65-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Wichita State Shockers vs. South Florida Bulls (Basketball)",
+        "description": "Transmisión en vivo de Wichita State Shockers vs. South Florida Bulls (Basketball)",
+        "startDate": "2026-03-15T19:15:00.000Z",
+        "endDate": "2026-03-15T22:45:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/cbb/7145/7145-wich"
+        },
+        "image": "https://api.ppv.to/assets/thumb/aef96a00e7452c9be52a50583fbb0d65-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Wichita State Shockers"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "South Florida Bulls (Basketball)"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Wichita State Shockers"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "South Florida Bulls (Basketball)"
+        },
+        "sport": "Basketball"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Basketball",
+            "url": "https://tarjetarojaenvivo.live/categoria/basketball"
+          },
+          {
+            "name": "Wichita State Shockers vs. South Florida Bulls (Basketball)",
+            "url": "https://tarjetarojaenvivo.live/eventos/cbb/7145/7145-wich"
+          }
+        ],
+        "h1": "Wichita State Shockers vs. South Florida Bulls (Basketball) EN VIVO",
+        "h2": "Ver Wichita State Shockers vs. South Florida Bulls (Basketball) Online Gratis"
+      },
+      "event": {
+        "name": "Wichita State Shockers vs. South Florida Bulls (Basketball)",
+        "category": "Basketball",
+        "broadcaster": "ESPN",
+        "start_time": "2026-03-15T19:15:00.000Z",
+        "end_time": "2026-03-15T22:45:00.000Z",
+        "duration_minutes": 210,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Wichita State Shockers",
+        "away_team": "South Florida Bulls (Basketball)"
+      },
+      "technical": {
+        "last_modified": "2026-03-15T18:39:59.564Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Wichita State Shockers vs. South Florida Bulls (Basketball), Wichita State Shockers"
       }
     },
     {
@@ -360,12 +690,12 @@
         "end_time": "2026-03-15T22:18:00.000Z",
         "duration_minutes": 168,
         "status": "upcoming",
-        "viewers": "0",
+        "viewers": "1",
         "home_team": "Dallas Mavericks",
         "away_team": "Cleveland Cavaliers"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.987Z",
+        "last_modified": "2026-03-15T18:39:59.564Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -471,7 +801,7 @@
         "away_team": "Toronto Raptors"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.987Z",
+        "last_modified": "2026-03-15T18:39:59.564Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -577,7 +907,7 @@
         "away_team": "Milwaukee Bucks"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.987Z",
+        "last_modified": "2026-03-15T18:39:59.564Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -587,37 +917,143 @@
       }
     },
     {
-      "id": 18525,
-      "slug": "march-madness-selection-sunday",
-      "uri_name": "march-madness",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/march-madness",
+      "id": 19108,
+      "slug": "purdue-boilermakers-vs-michigan-wolverines-basketball",
+      "uri_name": "cbb/9254/9254-pur",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/cbb/9254/9254-pur",
       "meta": {
-        "title": "March Madness Selection Sunday EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver March Madness Selection Sunday en vivo gratis por Tarjeta Roja TV. March Madness Selection Sunday transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, March Madness Selection Sunday, March Madness Selection Sunday, Basketball, ver online gratis, en vivo gratis, CBS",
+        "title": "Purdue Boilermakers vs. Michigan Wolverines (Basketball) EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Purdue Boilermakers vs. Michigan Wolverines (Basketball) en vivo gratis por Tarjeta Roja TV. Purdue Boilermakers vs Michigan Wolverines (Basketball) transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Purdue Boilermakers vs. Michigan Wolverines (Basketball), Purdue Boilermakers, Michigan Wolverines (Basketball), Basketball, ver online gratis, en vivo gratis, CBS",
         "robots": "index, follow"
       },
       "og": {
         "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/march-madness",
-        "title": "March Madness Selection Sunday EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver March Madness Selection Sunday en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/b68878be2422ef5b4c8a76952ecaff3c-thumbnail.jpg",
+        "url": "https://tarjetarojaenvivo.live/eventos/cbb/9254/9254-pur",
+        "title": "Purdue Boilermakers vs. Michigan Wolverines (Basketball) EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Purdue Boilermakers vs. Michigan Wolverines (Basketball) en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/45298a865672aa54decb696614d0af12-thumbnail.jpg",
         "site_name": "Tarjeta Roja En Vivo",
         "locale": "es_ES"
       },
       "twitter": {
         "card": "summary_large_image",
         "site": "@tarjetarojatvs",
-        "title": "March Madness Selection Sunday EN VIVO",
-        "description": "Ver March Madness Selection Sunday en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/b68878be2422ef5b4c8a76952ecaff3c-thumbnail.jpg"
+        "title": "Purdue Boilermakers vs. Michigan Wolverines (Basketball) EN VIVO",
+        "description": "Ver Purdue Boilermakers vs. Michigan Wolverines (Basketball) en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/45298a865672aa54decb696614d0af12-thumbnail.jpg"
       },
       "schema": {
         "@context": "https://schema.org",
         "@type": "SportsEvent",
-        "name": "March Madness Selection Sunday",
-        "description": "Transmisión en vivo de March Madness Selection Sunday",
+        "name": "Purdue Boilermakers vs. Michigan Wolverines (Basketball)",
+        "description": "Transmisión en vivo de Purdue Boilermakers vs. Michigan Wolverines (Basketball)",
+        "startDate": "2026-03-15T19:30:00.000Z",
+        "endDate": "2026-03-15T23:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/cbb/9254/9254-pur"
+        },
+        "image": "https://api.ppv.to/assets/thumb/45298a865672aa54decb696614d0af12-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Purdue Boilermakers"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Michigan Wolverines (Basketball)"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Purdue Boilermakers"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Michigan Wolverines (Basketball)"
+        },
+        "sport": "Basketball"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Basketball",
+            "url": "https://tarjetarojaenvivo.live/categoria/basketball"
+          },
+          {
+            "name": "Purdue Boilermakers vs. Michigan Wolverines (Basketball)",
+            "url": "https://tarjetarojaenvivo.live/eventos/cbb/9254/9254-pur"
+          }
+        ],
+        "h1": "Purdue Boilermakers vs. Michigan Wolverines (Basketball) EN VIVO",
+        "h2": "Ver Purdue Boilermakers vs. Michigan Wolverines (Basketball) Online Gratis"
+      },
+      "event": {
+        "name": "Purdue Boilermakers vs. Michigan Wolverines (Basketball)",
+        "category": "Basketball",
+        "broadcaster": "CBS",
+        "start_time": "2026-03-15T19:30:00.000Z",
+        "end_time": "2026-03-15T23:00:00.000Z",
+        "duration_minutes": 210,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Purdue Boilermakers",
+        "away_team": "Michigan Wolverines (Basketball)"
+      },
+      "technical": {
+        "last_modified": "2026-03-15T18:39:59.564Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Purdue Boilermakers vs. Michigan Wolverines (Basketball), Purdue Boilermakers"
+      }
+    },
+    {
+      "id": 18525,
+      "slug": "ncaa-men-s-basketball-championship-selection-show",
+      "uri_name": "march-madness",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/march-madness",
+      "meta": {
+        "title": "NCAA Men's Basketball Championship Selection Show EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver NCAA Men's Basketball Championship Selection Show en vivo gratis por Tarjeta Roja TV. NCAA Men's Basketball Championship Selection Show transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, NCAA Men's Basketball Championship Selection Show, NCAA Men's Basketball Championship Selection Show, Basketball, ver online gratis, en vivo gratis, CBS",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/march-madness",
+        "title": "NCAA Men's Basketball Championship Selection Show EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver NCAA Men's Basketball Championship Selection Show en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/1076e87d0a525b4635a46082824c06d8-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "NCAA Men's Basketball Championship Selection Show EN VIVO",
+        "description": "Ver NCAA Men's Basketball Championship Selection Show en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/1076e87d0a525b4635a46082824c06d8-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "NCAA Men's Basketball Championship Selection Show",
+        "description": "Transmisión en vivo de NCAA Men's Basketball Championship Selection Show",
         "startDate": "2026-03-15T22:00:00.000Z",
         "endDate": "2026-03-16T02:00:00.000Z",
         "eventStatus": "https://schema.org/EventScheduled",
@@ -626,7 +1062,7 @@
           "@type": "VirtualLocation",
           "url": "https://tarjetarojaenvivo.live/eventos/march-madness"
         },
-        "image": "https://api.ppv.to/assets/thumb/b68878be2422ef5b4c8a76952ecaff3c-thumbnail.jpg",
+        "image": "https://api.ppv.to/assets/thumb/1076e87d0a525b4635a46082824c06d8-thumbnail.jpg",
         "organizer": {
           "@type": "Organization",
           "name": "Tarjeta Roja En Vivo",
@@ -645,31 +1081,31 @@
             "url": "https://tarjetarojaenvivo.live/categoria/basketball"
           },
           {
-            "name": "March Madness Selection Sunday",
+            "name": "NCAA Men's Basketball Championship Selection Show",
             "url": "https://tarjetarojaenvivo.live/eventos/march-madness"
           }
         ],
-        "h1": "March Madness Selection Sunday EN VIVO",
-        "h2": "Ver March Madness Selection Sunday Online Gratis"
+        "h1": "NCAA Men's Basketball Championship Selection Show EN VIVO",
+        "h2": "Ver NCAA Men's Basketball Championship Selection Show Online Gratis"
       },
       "event": {
-        "name": "March Madness Selection Sunday",
+        "name": "NCAA Men's Basketball Championship Selection Show",
         "category": "Basketball",
         "broadcaster": "CBS",
         "start_time": "2026-03-15T22:00:00.000Z",
         "end_time": "2026-03-16T02:00:00.000Z",
         "duration_minutes": 240,
         "status": "upcoming",
-        "viewers": "0"
+        "viewers": "7"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.987Z",
+        "last_modified": "2026-03-15T18:39:59.564Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, March Madness Selection Sunday, March Madness Selection Sunday"
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, NCAA Men's Basketball Championship Selection Show, NCAA Men's Basketball Championship Selection Show"
       }
     },
     {
@@ -769,7 +1205,7 @@
         "away_team": "Philadelphia 76ers"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.987Z",
+        "last_modified": "2026-03-15T18:39:59.564Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -875,7 +1311,7 @@
         "away_team": "New York Knicks"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.987Z",
+        "last_modified": "2026-03-15T18:39:59.564Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -981,7 +1417,7 @@
         "away_team": "Sacramento Kings"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.564Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1064,1076 +1500,16 @@
         "end_time": "2026-03-15T22:00:00.000Z",
         "duration_minutes": 660,
         "status": "live",
-        "viewers": "156"
+        "viewers": "204"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.564Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
         "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, European Darts Trophy - Day 3, European Darts Trophy - Day 3"
-      }
-    },
-    {
-      "id": 18772,
-      "slug": "hellas-verona-vs-genoa",
-      "uri_name": "seriea/2026-03-15/ver-gen",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/seriea/2026-03-15/ver-gen",
-      "meta": {
-        "title": "Hellas Verona vs. Genoa EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Hellas Verona vs. Genoa en vivo gratis por Tarjeta Roja TV. Hellas Verona vs Genoa transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Hellas Verona vs. Genoa, Hellas Verona, Genoa, Football, ver online gratis, en vivo gratis, Serie A",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/seriea/2026-03-15/ver-gen",
-        "title": "Hellas Verona vs. Genoa EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Hellas Verona vs. Genoa en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/81b1fd562937cbf22b26a96f415a3fa3-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Hellas Verona vs. Genoa EN VIVO",
-        "description": "Ver Hellas Verona vs. Genoa en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/81b1fd562937cbf22b26a96f415a3fa3-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Hellas Verona vs. Genoa",
-        "description": "Transmisión en vivo de Hellas Verona vs. Genoa",
-        "startDate": "2026-03-15T11:30:00.000Z",
-        "endDate": "2026-03-15T14:00:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/seriea/2026-03-15/ver-gen"
-        },
-        "image": "https://api.ppv.to/assets/thumb/81b1fd562937cbf22b26a96f415a3fa3-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Hellas Verona"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Genoa"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Hellas Verona"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Genoa"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Hellas Verona vs. Genoa",
-            "url": "https://tarjetarojaenvivo.live/eventos/seriea/2026-03-15/ver-gen"
-          }
-        ],
-        "h1": "Hellas Verona vs. Genoa EN VIVO",
-        "h2": "Ver Hellas Verona vs. Genoa Online Gratis"
-      },
-      "event": {
-        "name": "Hellas Verona vs. Genoa",
-        "category": "Football",
-        "broadcaster": "Serie A",
-        "start_time": "2026-03-15T11:30:00.000Z",
-        "end_time": "2026-03-15T14:00:00.000Z",
-        "duration_minutes": 150,
-        "status": "live",
-        "viewers": "52",
-        "home_team": "Hellas Verona",
-        "away_team": "Genoa"
-      },
-      "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Hellas Verona vs. Genoa, Hellas Verona"
-      }
-    },
-    {
-      "id": 18744,
-      "slug": "mallorca-vs-espanyol",
-      "uri_name": "laliga/2026-03-15/mll-esp",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/laliga/2026-03-15/mll-esp",
-      "meta": {
-        "title": "Mallorca vs. Espanyol EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Mallorca vs. Espanyol en vivo gratis por Tarjeta Roja TV. Mallorca vs Espanyol transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Mallorca vs. Espanyol, Mallorca, Espanyol, Football, ver online gratis, en vivo gratis, LaLiga",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/laliga/2026-03-15/mll-esp",
-        "title": "Mallorca vs. Espanyol EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Mallorca vs. Espanyol en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/54734c6a6056782a5b5505ef747d0741-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Mallorca vs. Espanyol EN VIVO",
-        "description": "Ver Mallorca vs. Espanyol en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/54734c6a6056782a5b5505ef747d0741-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Mallorca vs. Espanyol",
-        "description": "Transmisión en vivo de Mallorca vs. Espanyol",
-        "startDate": "2026-03-15T13:00:00.000Z",
-        "endDate": "2026-03-15T15:30:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/laliga/2026-03-15/mll-esp"
-        },
-        "image": "https://api.ppv.to/assets/thumb/54734c6a6056782a5b5505ef747d0741-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Mallorca"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Espanyol"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Mallorca"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Espanyol"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Mallorca vs. Espanyol",
-            "url": "https://tarjetarojaenvivo.live/eventos/laliga/2026-03-15/mll-esp"
-          }
-        ],
-        "h1": "Mallorca vs. Espanyol EN VIVO",
-        "h2": "Ver Mallorca vs. Espanyol Online Gratis"
-      },
-      "event": {
-        "name": "Mallorca vs. Espanyol",
-        "category": "Football",
-        "broadcaster": "LaLiga",
-        "start_time": "2026-03-15T13:00:00.000Z",
-        "end_time": "2026-03-15T15:30:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "0",
-        "home_team": "Mallorca",
-        "away_team": "Espanyol"
-      },
-      "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Mallorca vs. Espanyol, Mallorca"
-      }
-    },
-    {
-      "id": 18763,
-      "slug": "crystal-palace-vs-leeds-united",
-      "uri_name": "premierleague/2026-03-15/cry-lee",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/premierleague/2026-03-15/cry-lee",
-      "meta": {
-        "title": "Crystal Palace vs. Leeds United EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Crystal Palace vs. Leeds United en vivo gratis por Tarjeta Roja TV. Crystal Palace vs Leeds United transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Crystal Palace vs. Leeds United, Crystal Palace, Leeds United, Football, ver online gratis, en vivo gratis, Premier League",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/premierleague/2026-03-15/cry-lee",
-        "title": "Crystal Palace vs. Leeds United EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Crystal Palace vs. Leeds United en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/53dba00e4a11cce3f2dc3c29a785fd1c-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Crystal Palace vs. Leeds United EN VIVO",
-        "description": "Ver Crystal Palace vs. Leeds United en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/53dba00e4a11cce3f2dc3c29a785fd1c-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Crystal Palace vs. Leeds United",
-        "description": "Transmisión en vivo de Crystal Palace vs. Leeds United",
-        "startDate": "2026-03-15T14:00:00.000Z",
-        "endDate": "2026-03-15T16:30:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/premierleague/2026-03-15/cry-lee"
-        },
-        "image": "https://api.ppv.to/assets/thumb/53dba00e4a11cce3f2dc3c29a785fd1c-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Crystal Palace"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Leeds United"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Crystal Palace"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Leeds United"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Crystal Palace vs. Leeds United",
-            "url": "https://tarjetarojaenvivo.live/eventos/premierleague/2026-03-15/cry-lee"
-          }
-        ],
-        "h1": "Crystal Palace vs. Leeds United EN VIVO",
-        "h2": "Ver Crystal Palace vs. Leeds United Online Gratis"
-      },
-      "event": {
-        "name": "Crystal Palace vs. Leeds United",
-        "category": "Football",
-        "broadcaster": "Premier League",
-        "start_time": "2026-03-15T14:00:00.000Z",
-        "end_time": "2026-03-15T16:30:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "1",
-        "home_team": "Crystal Palace",
-        "away_team": "Leeds United"
-      },
-      "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Crystal Palace vs. Leeds United, Crystal Palace"
-      }
-    },
-    {
-      "id": 18764,
-      "slug": "manchester-united-vs-aston-villa",
-      "uri_name": "premierleague/2026-03-15/man-avl",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/premierleague/2026-03-15/man-avl",
-      "meta": {
-        "title": "Manchester United vs. Aston Villa EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Manchester United vs. Aston Villa en vivo gratis por Tarjeta Roja TV. Manchester United vs Aston Villa transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Manchester United vs. Aston Villa, Manchester United, Aston Villa, Football, ver online gratis, en vivo gratis, Premier League",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/premierleague/2026-03-15/man-avl",
-        "title": "Manchester United vs. Aston Villa EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Manchester United vs. Aston Villa en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/a8c6d81d821ac62c4d63ab4dfa1ed67b-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Manchester United vs. Aston Villa EN VIVO",
-        "description": "Ver Manchester United vs. Aston Villa en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/a8c6d81d821ac62c4d63ab4dfa1ed67b-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Manchester United vs. Aston Villa",
-        "description": "Transmisión en vivo de Manchester United vs. Aston Villa",
-        "startDate": "2026-03-15T14:00:00.000Z",
-        "endDate": "2026-03-15T16:30:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/premierleague/2026-03-15/man-avl"
-        },
-        "image": "https://api.ppv.to/assets/thumb/a8c6d81d821ac62c4d63ab4dfa1ed67b-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Manchester United"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Aston Villa"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Manchester United"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Aston Villa"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Manchester United vs. Aston Villa",
-            "url": "https://tarjetarojaenvivo.live/eventos/premierleague/2026-03-15/man-avl"
-          }
-        ],
-        "h1": "Manchester United vs. Aston Villa EN VIVO",
-        "h2": "Ver Manchester United vs. Aston Villa Online Gratis"
-      },
-      "event": {
-        "name": "Manchester United vs. Aston Villa",
-        "category": "Football",
-        "broadcaster": "Premier League",
-        "start_time": "2026-03-15T14:00:00.000Z",
-        "end_time": "2026-03-15T16:30:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "15",
-        "home_team": "Manchester United",
-        "away_team": "Aston Villa"
-      },
-      "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Manchester United vs. Aston Villa, Manchester United"
-      }
-    },
-    {
-      "id": 18765,
-      "slug": "nottingham-forest-vs-fulham",
-      "uri_name": "premierleague/2026-03-15/nfo-ful",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/premierleague/2026-03-15/nfo-ful",
-      "meta": {
-        "title": "Nottingham Forest vs. Fulham EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Nottingham Forest vs. Fulham en vivo gratis por Tarjeta Roja TV. Nottingham Forest vs Fulham transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Nottingham Forest vs. Fulham, Nottingham Forest, Fulham, Football, ver online gratis, en vivo gratis, Premier League",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/premierleague/2026-03-15/nfo-ful",
-        "title": "Nottingham Forest vs. Fulham EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Nottingham Forest vs. Fulham en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/e0989ea8ac43e83435fb7d8ed98414db-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Nottingham Forest vs. Fulham EN VIVO",
-        "description": "Ver Nottingham Forest vs. Fulham en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/e0989ea8ac43e83435fb7d8ed98414db-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Nottingham Forest vs. Fulham",
-        "description": "Transmisión en vivo de Nottingham Forest vs. Fulham",
-        "startDate": "2026-03-15T14:00:00.000Z",
-        "endDate": "2026-03-15T16:30:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/premierleague/2026-03-15/nfo-ful"
-        },
-        "image": "https://api.ppv.to/assets/thumb/e0989ea8ac43e83435fb7d8ed98414db-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Nottingham Forest"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Fulham"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Nottingham Forest"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Fulham"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Nottingham Forest vs. Fulham",
-            "url": "https://tarjetarojaenvivo.live/eventos/premierleague/2026-03-15/nfo-ful"
-          }
-        ],
-        "h1": "Nottingham Forest vs. Fulham EN VIVO",
-        "h2": "Ver Nottingham Forest vs. Fulham Online Gratis"
-      },
-      "event": {
-        "name": "Nottingham Forest vs. Fulham",
-        "category": "Football",
-        "broadcaster": "Premier League",
-        "start_time": "2026-03-15T14:00:00.000Z",
-        "end_time": "2026-03-15T16:30:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "2",
-        "home_team": "Nottingham Forest",
-        "away_team": "Fulham"
-      },
-      "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Nottingham Forest vs. Fulham, Nottingham Forest"
-      }
-    },
-    {
-      "id": 18773,
-      "slug": "pisa-vs-cagliari",
-      "uri_name": "seriea/2026-03-15/pis-cag",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/seriea/2026-03-15/pis-cag",
-      "meta": {
-        "title": "Pisa vs. Cagliari EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Pisa vs. Cagliari en vivo gratis por Tarjeta Roja TV. Pisa vs Cagliari transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Pisa vs. Cagliari, Pisa, Cagliari, Football, ver online gratis, en vivo gratis, Serie A",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/seriea/2026-03-15/pis-cag",
-        "title": "Pisa vs. Cagliari EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Pisa vs. Cagliari en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/f92179e4151395e582ce4d77349859d7-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Pisa vs. Cagliari EN VIVO",
-        "description": "Ver Pisa vs. Cagliari en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/f92179e4151395e582ce4d77349859d7-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Pisa vs. Cagliari",
-        "description": "Transmisión en vivo de Pisa vs. Cagliari",
-        "startDate": "2026-03-15T14:00:00.000Z",
-        "endDate": "2026-03-15T16:30:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/seriea/2026-03-15/pis-cag"
-        },
-        "image": "https://api.ppv.to/assets/thumb/f92179e4151395e582ce4d77349859d7-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Pisa"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Cagliari"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Pisa"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Cagliari"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Pisa vs. Cagliari",
-            "url": "https://tarjetarojaenvivo.live/eventos/seriea/2026-03-15/pis-cag"
-          }
-        ],
-        "h1": "Pisa vs. Cagliari EN VIVO",
-        "h2": "Ver Pisa vs. Cagliari Online Gratis"
-      },
-      "event": {
-        "name": "Pisa vs. Cagliari",
-        "category": "Football",
-        "broadcaster": "Serie A",
-        "start_time": "2026-03-15T14:00:00.000Z",
-        "end_time": "2026-03-15T16:30:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "0",
-        "home_team": "Pisa",
-        "away_team": "Cagliari"
-      },
-      "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Pisa vs. Cagliari, Pisa"
-      }
-    },
-    {
-      "id": 18774,
-      "slug": "sassuolo-vs-bologna",
-      "uri_name": "seriea/2026-03-15/sas-bol",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/seriea/2026-03-15/sas-bol",
-      "meta": {
-        "title": "Sassuolo vs. Bologna EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Sassuolo vs. Bologna en vivo gratis por Tarjeta Roja TV. Sassuolo vs Bologna transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Sassuolo vs. Bologna, Sassuolo, Bologna, Football, ver online gratis, en vivo gratis, Serie A",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/seriea/2026-03-15/sas-bol",
-        "title": "Sassuolo vs. Bologna EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Sassuolo vs. Bologna en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/fe3df6a6dbc6e810e945ee1cd792ae55-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Sassuolo vs. Bologna EN VIVO",
-        "description": "Ver Sassuolo vs. Bologna en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/fe3df6a6dbc6e810e945ee1cd792ae55-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Sassuolo vs. Bologna",
-        "description": "Transmisión en vivo de Sassuolo vs. Bologna",
-        "startDate": "2026-03-15T14:00:00.000Z",
-        "endDate": "2026-03-15T16:30:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/seriea/2026-03-15/sas-bol"
-        },
-        "image": "https://api.ppv.to/assets/thumb/fe3df6a6dbc6e810e945ee1cd792ae55-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Sassuolo"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Bologna"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Sassuolo"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Bologna"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Sassuolo vs. Bologna",
-            "url": "https://tarjetarojaenvivo.live/eventos/seriea/2026-03-15/sas-bol"
-          }
-        ],
-        "h1": "Sassuolo vs. Bologna EN VIVO",
-        "h2": "Ver Sassuolo vs. Bologna Online Gratis"
-      },
-      "event": {
-        "name": "Sassuolo vs. Bologna",
-        "category": "Football",
-        "broadcaster": "Serie A",
-        "start_time": "2026-03-15T14:00:00.000Z",
-        "end_time": "2026-03-15T16:30:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "0",
-        "home_team": "Sassuolo",
-        "away_team": "Bologna"
-      },
-      "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Sassuolo vs. Bologna, Sassuolo"
-      }
-    },
-    {
-      "id": 18782,
-      "slug": "strasbourg-vs-paris-fc",
-      "uri_name": "ligue1/2026-03-15/str-par",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ligue1/2026-03-15/str-par",
-      "meta": {
-        "title": "Strasbourg vs. Paris FC EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Strasbourg vs. Paris FC en vivo gratis por Tarjeta Roja TV. Strasbourg vs Paris FC transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Strasbourg vs. Paris FC, Strasbourg, Paris FC, Football, ver online gratis, en vivo gratis, Ligue 1",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/ligue1/2026-03-15/str-par",
-        "title": "Strasbourg vs. Paris FC EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Strasbourg vs. Paris FC en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/92f739ab6a8a8db9115b160fcf17ae50-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Strasbourg vs. Paris FC EN VIVO",
-        "description": "Ver Strasbourg vs. Paris FC en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/92f739ab6a8a8db9115b160fcf17ae50-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Strasbourg vs. Paris FC",
-        "description": "Transmisión en vivo de Strasbourg vs. Paris FC",
-        "startDate": "2026-03-15T14:00:00.000Z",
-        "endDate": "2026-03-15T16:30:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/ligue1/2026-03-15/str-par"
-        },
-        "image": "https://api.ppv.to/assets/thumb/92f739ab6a8a8db9115b160fcf17ae50-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Strasbourg"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Paris FC"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Strasbourg"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Paris FC"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Strasbourg vs. Paris FC",
-            "url": "https://tarjetarojaenvivo.live/eventos/ligue1/2026-03-15/str-par"
-          }
-        ],
-        "h1": "Strasbourg vs. Paris FC EN VIVO",
-        "h2": "Ver Strasbourg vs. Paris FC Online Gratis"
-      },
-      "event": {
-        "name": "Strasbourg vs. Paris FC",
-        "category": "Football",
-        "broadcaster": "Ligue 1",
-        "start_time": "2026-03-15T14:00:00.000Z",
-        "end_time": "2026-03-15T16:30:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "0",
-        "home_team": "Strasbourg",
-        "away_team": "Paris FC"
-      },
-      "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Strasbourg vs. Paris FC, Strasbourg"
-      }
-    },
-    {
-      "id": 18755,
-      "slug": "werder-bremen-vs-mainz",
-      "uri_name": "bundesliga/2026-03-15/svw-m05",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/bundesliga/2026-03-15/svw-m05",
-      "meta": {
-        "title": "Werder Bremen vs. Mainz EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Werder Bremen vs. Mainz en vivo gratis por Tarjeta Roja TV. Werder Bremen vs Mainz transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Werder Bremen vs. Mainz, Werder Bremen, Mainz, Football, ver online gratis, en vivo gratis, Bundesliga",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/bundesliga/2026-03-15/svw-m05",
-        "title": "Werder Bremen vs. Mainz EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Werder Bremen vs. Mainz en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/f28adea9ca9ac3f790ebbc61026dd1d4-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Werder Bremen vs. Mainz EN VIVO",
-        "description": "Ver Werder Bremen vs. Mainz en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/f28adea9ca9ac3f790ebbc61026dd1d4-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Werder Bremen vs. Mainz",
-        "description": "Transmisión en vivo de Werder Bremen vs. Mainz",
-        "startDate": "2026-03-15T14:30:00.000Z",
-        "endDate": "2026-03-15T17:00:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/bundesliga/2026-03-15/svw-m05"
-        },
-        "image": "https://api.ppv.to/assets/thumb/f28adea9ca9ac3f790ebbc61026dd1d4-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Werder Bremen"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Mainz"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Werder Bremen"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Mainz"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Werder Bremen vs. Mainz",
-            "url": "https://tarjetarojaenvivo.live/eventos/bundesliga/2026-03-15/svw-m05"
-          }
-        ],
-        "h1": "Werder Bremen vs. Mainz EN VIVO",
-        "h2": "Ver Werder Bremen vs. Mainz Online Gratis"
-      },
-      "event": {
-        "name": "Werder Bremen vs. Mainz",
-        "category": "Football",
-        "broadcaster": "Bundesliga",
-        "start_time": "2026-03-15T14:30:00.000Z",
-        "end_time": "2026-03-15T17:00:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "0",
-        "home_team": "Werder Bremen",
-        "away_team": "Mainz"
-      },
-      "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Werder Bremen vs. Mainz, Werder Bremen"
-      }
-    },
-    {
-      "id": 18745,
-      "slug": "barcelona-vs-sevilla",
-      "uri_name": "laliga/2026-03-15/bar-sev",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/laliga/2026-03-15/bar-sev",
-      "meta": {
-        "title": "Barcelona vs. Sevilla EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Barcelona vs. Sevilla en vivo gratis por Tarjeta Roja TV. Barcelona vs Sevilla transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Barcelona vs. Sevilla, Barcelona, Sevilla, Football, ver online gratis, en vivo gratis, LaLiga",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/laliga/2026-03-15/bar-sev",
-        "title": "Barcelona vs. Sevilla EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Barcelona vs. Sevilla en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/9314d1c50ed6d961ee80f986afb66857-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Barcelona vs. Sevilla EN VIVO",
-        "description": "Ver Barcelona vs. Sevilla en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/9314d1c50ed6d961ee80f986afb66857-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Barcelona vs. Sevilla",
-        "description": "Transmisión en vivo de Barcelona vs. Sevilla",
-        "startDate": "2026-03-15T15:15:00.000Z",
-        "endDate": "2026-03-15T17:45:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/laliga/2026-03-15/bar-sev"
-        },
-        "image": "https://api.ppv.to/assets/thumb/9314d1c50ed6d961ee80f986afb66857-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Barcelona"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Sevilla"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Barcelona"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Sevilla"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Barcelona vs. Sevilla",
-            "url": "https://tarjetarojaenvivo.live/eventos/laliga/2026-03-15/bar-sev"
-          }
-        ],
-        "h1": "Barcelona vs. Sevilla EN VIVO",
-        "h2": "Ver Barcelona vs. Sevilla Online Gratis"
-      },
-      "event": {
-        "name": "Barcelona vs. Sevilla",
-        "category": "Football",
-        "broadcaster": "LaLiga",
-        "start_time": "2026-03-15T15:15:00.000Z",
-        "end_time": "2026-03-15T17:45:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "2",
-        "home_team": "Barcelona",
-        "away_team": "Sevilla"
-      },
-      "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Barcelona vs. Sevilla, Barcelona"
       }
     },
     {
@@ -2227,13 +1603,13 @@
         "start_time": "2026-03-15T16:15:00.000Z",
         "end_time": "2026-03-15T18:45:00.000Z",
         "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "1",
+        "status": "live",
+        "viewers": "62",
         "home_team": "Le Havre AC",
         "away_team": "Lyon"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.564Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2333,13 +1709,13 @@
         "start_time": "2026-03-15T16:15:00.000Z",
         "end_time": "2026-03-15T18:45:00.000Z",
         "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "8",
         "home_team": "Metz",
         "away_team": "Toulouse"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.564Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2439,13 +1815,13 @@
         "start_time": "2026-03-15T16:30:00.000Z",
         "end_time": "2026-03-15T19:00:00.000Z",
         "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "10",
         "home_team": "SC Freiburg",
         "away_team": "1. FC Union Berlin"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.564Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2545,13 +1921,13 @@
         "start_time": "2026-03-15T16:30:00.000Z",
         "end_time": "2026-03-15T19:00:00.000Z",
         "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "3",
+        "status": "live",
+        "viewers": "3289",
         "home_team": "Liverpool",
         "away_team": "Tottenham Hotspur"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.564Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2651,13 +2027,13 @@
         "start_time": "2026-03-15T17:00:00.000Z",
         "end_time": "2026-03-15T19:30:00.000Z",
         "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "262",
         "home_team": "Como",
         "away_team": "AS Roma"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.564Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2757,13 +2133,13 @@
         "start_time": "2026-03-15T17:30:00.000Z",
         "end_time": "2026-03-15T20:00:00.000Z",
         "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "34",
         "home_team": "Real Betis",
         "away_team": "Celta Vigo"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.564Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2863,13 +2239,13 @@
         "start_time": "2026-03-15T18:30:00.000Z",
         "end_time": "2026-03-15T21:00:00.000Z",
         "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "67",
         "home_team": "VfB Stuttgart",
         "away_team": "RB Leipzig"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.564Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2969,13 +2345,13 @@
         "start_time": "2026-03-15T18:30:00.000Z",
         "end_time": "2026-03-15T21:30:00.000Z",
         "duration_minutes": 180,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "2",
         "home_team": "New England Revolution",
         "away_team": "FC Cincinnati"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.564Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3076,12 +2452,12 @@
         "end_time": "2026-03-15T22:15:00.000Z",
         "duration_minutes": 150,
         "status": "upcoming",
-        "viewers": "0",
+        "viewers": "1",
         "home_team": "Lazio",
         "away_team": "AC Milan"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.564Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3187,7 +2563,7 @@
         "away_team": "Lille"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.564Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3293,7 +2669,7 @@
         "away_team": "Osasuna"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.564Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3399,7 +2775,7 @@
         "away_team": "Minnesota United FC"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.565Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3505,7 +2881,7 @@
         "away_team": "Seattle Sounders FC"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.565Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3611,7 +2987,7 @@
         "away_team": "Fiorentina"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.565Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3717,7 +3093,7 @@
         "away_team": "Levante"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.565Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3823,7 +3199,7 @@
         "away_team": "Wolverhampton Wanderers"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.565Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3929,7 +3305,7 @@
         "away_team": "Winnipeg Jets"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.565Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4030,12 +3406,12 @@
         "end_time": "2026-03-16T00:00:00.000Z",
         "duration_minutes": 180,
         "status": "upcoming",
-        "viewers": "0",
+        "viewers": "1",
         "home_team": "San Jose Sharks",
         "away_team": "Ottawa Senators"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.565Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4141,7 +3517,7 @@
         "away_team": "Montreal Canadiens"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.565Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4247,7 +3623,7 @@
         "away_team": "Minnesota Wild"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.565Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4353,7 +3729,7 @@
         "away_team": "Edmonton Oilers"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.565Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4459,13 +3835,99 @@
         "away_team": "Seattle Kraken"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.565Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
         "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Florida Panthers vs. Seattle Kraken, Florida Panthers"
+      }
+    },
+    {
+      "id": 19102,
+      "slug": "aew-revolution",
+      "uri_name": "aew-revolution-2026",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/aew-revolution-2026",
+      "meta": {
+        "title": "AEW Revolution EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver AEW Revolution en vivo gratis por Tarjeta Roja TV. AEW Revolution transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, AEW Revolution, AEW Revolution, Wrestling, ver online gratis, en vivo gratis, PPV",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/aew-revolution-2026",
+        "title": "AEW Revolution EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver AEW Revolution en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/2d2d326fa978439e56abb034a5a5e9db-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "AEW Revolution EN VIVO",
+        "description": "Ver AEW Revolution en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/2d2d326fa978439e56abb034a5a5e9db-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "AEW Revolution",
+        "description": "Transmisión en vivo de AEW Revolution",
+        "startDate": "2026-03-15T23:00:00.000Z",
+        "endDate": "2026-03-16T05:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/aew-revolution-2026"
+        },
+        "image": "https://api.ppv.to/assets/thumb/2d2d326fa978439e56abb034a5a5e9db-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "sport": "Wrestling"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Wrestling",
+            "url": "https://tarjetarojaenvivo.live/categoria/wrestling"
+          },
+          {
+            "name": "AEW Revolution",
+            "url": "https://tarjetarojaenvivo.live/eventos/aew-revolution-2026"
+          }
+        ],
+        "h1": "AEW Revolution EN VIVO",
+        "h2": "Ver AEW Revolution Online Gratis"
+      },
+      "event": {
+        "name": "AEW Revolution",
+        "category": "Wrestling",
+        "broadcaster": "PPV",
+        "start_time": "2026-03-15T23:00:00.000Z",
+        "end_time": "2026-03-16T05:00:00.000Z",
+        "duration_minutes": 360,
+        "status": "upcoming",
+        "viewers": "5"
+      },
+      "technical": {
+        "last_modified": "2026-03-15T18:39:59.565Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, AEW Revolution, AEW Revolution"
       }
     },
     {
@@ -4542,10 +4004,10 @@
         "end_time": "1970-01-01T00:00:00.000Z",
         "duration_minutes": 0,
         "status": "completed",
-        "viewers": "20"
+        "viewers": "13"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.565Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -4628,10 +4090,10 @@
         "end_time": "2025-02-28T20:00:00.000Z",
         "duration_minutes": 59940,
         "status": "completed",
-        "viewers": "4"
+        "viewers": "2"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.565Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -4714,10 +4176,10 @@
         "end_time": "2025-01-18T09:00:00.000Z",
         "duration_minutes": 60,
         "status": "completed",
-        "viewers": "28"
+        "viewers": "13"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.565Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -4800,10 +4262,10 @@
         "end_time": "2025-01-18T10:28:00.000Z",
         "duration_minutes": 0,
         "status": "completed",
-        "viewers": "4"
+        "viewers": "5"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.565Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -4886,10 +4348,10 @@
         "end_time": "2026-01-28T03:00:00.000Z",
         "duration_minutes": 180,
         "status": "completed",
-        "viewers": "7"
+        "viewers": "2"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.988Z",
+        "last_modified": "2026-03-15T18:39:59.565Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -4972,10 +4434,10 @@
         "end_time": "2026-02-12T03:00:00.000Z",
         "duration_minutes": 180,
         "status": "completed",
-        "viewers": "12"
+        "viewers": "3"
       },
       "technical": {
-        "last_modified": "2026-03-15T12:54:35.989Z",
+        "last_modified": "2026-03-15T18:39:59.565Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
