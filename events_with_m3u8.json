@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2026-03-15T18:31:15.125154Z",
+    "fetched_at": "2026-03-16T01:55:06.882081Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-03-15T18:58:13.343287",
-      "total_streams": 43,
+      "extracted_at": "2026-03-16T01:56:16.434578",
+      "total_streams": 20,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 43,
-        "successful_requests": 43,
+        "total_requests": 20,
+        "successful_requests": 20,
         "failed_requests": 0,
-        "elapsed_time_seconds": 137.94
+        "elapsed_time_seconds": 53.02
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1773599480,
+    "timestamp": 1773626110,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.021952152252197266,
+    "performance": 0.02254486083984375,
     "streams": [
       {
         "category": "Arm Wrestling",
@@ -31,20 +31,47 @@
             "id": 18256,
             "name": "East vs West 23",
             "tag": "EVW Sports",
-            "poster": "https://api.ppv.to/assets/thumb/7037bdd14c5fbc6d7cae3e68b07c2673-thumbnail.jpg",
-            "blurhash": "L98y^?f6h}ozxa]TR*=K4Tj[~CV@",
+            "poster": "https://api.ppv.to/assets/thumb/0bf72a1ff8abaa358cd411fbb76442c7-thumbnail.jpg",
+            "blurhash": "L1Ac9^^*00]j_3E2DOE$00Rj1iEg",
             "colors": [
-              "#6a0a0b",
-              "#6a0a0b"
+              "#6a3c2d",
+              "#975a3b"
             ],
             "uri_name": "east-vs-west-23",
-            "starts_at": 1776535200,
-            "ends_at": 1776556800,
+            "starts_at": 1776531600,
+            "ends_at": 1776553200,
             "always_live": 0,
             "locale": "en",
             "category_name": "Arm Wrestling",
             "iframe": "https://pooembed.eu/embed/east-vs-west-23",
-            "viewers": "1",
+            "viewers": "0",
+            "substreams": []
+          }
+        ]
+      },
+      {
+        "category": "Baseball",
+        "id": 36,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 19110,
+            "name": "United States vs. Dominican Republic",
+            "tag": "WBBC",
+            "poster": "https://api.ppv.to/assets/thumb/39c0b123b63b4d29d39cfd25634e51f8-thumbnail.jpg",
+            "blurhash": "LJG69q2u1u{|n%Ez,Dw{D%JTsow{",
+            "colors": [
+              "#001c2a",
+              "#801300"
+            ],
+            "uri_name": "wbbc/2026-03-16/usa-dom",
+            "starts_at": 1773619200,
+            "ends_at": 1773631800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/wbbc/2026-03-16/usa-dom",
+            "viewers": "4594",
             "substreams": []
           }
         ]
@@ -54,206 +81,6 @@
         "id": 37,
         "always_live": false,
         "streams": [
-          {
-            "id": 19089,
-            "name": "Minnesota Timberwolves vs. Oklahoma City Thunder",
-            "tag": "ABC",
-            "poster": "https://api.ppv.to/assets/thumb/870e77e9a7bf06b7a6bc140f8c1ee34e-thumbnail.jpg",
-            "blurhash": "L35P^JQ88w-WogWXj[oJ00%j?bEK",
-            "colors": [
-              "#266092",
-              "#007ac1"
-            ],
-            "uri_name": "nba/2026-03-15/min-okc",
-            "starts_at": 1773594000,
-            "ends_at": 1773604080,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Basketball",
-            "iframe": "https://pooembed.eu/embed/nba/2026-03-15/min-okc",
-            "viewers": "2075",
-            "substreams": []
-          },
-          {
-            "id": 19104,
-            "name": "Vanderbilt Commodores vs. Arkansas Razorbacks (Basketball)",
-            "tag": "ESPN",
-            "poster": "https://api.ppv.to/assets/thumb/555582b82dc6a17dc827561942b6ddba-thumbnail.jpg",
-            "blurhash": "L5BU|58uX8EQoLbGfQf701q^s+$~",
-            "colors": [
-              "#6e6e6e",
-              "#9c2235"
-            ],
-            "uri_name": "cbb/5793/5793-van",
-            "starts_at": 1773594000,
-            "ends_at": 1773606600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Basketball",
-            "iframe": "https://pooembed.eu/embed/cbb/5793/5793-van",
-            "viewers": "40",
-            "substreams": []
-          },
-          {
-            "id": 19106,
-            "name": "Dayton Flyers vs. VCU Rams (Basketball)",
-            "tag": "CBS",
-            "poster": "https://api.ppv.to/assets/thumb/a86c5b3e11fa0e0ec00ce88eb4fc7357-thumbnail.jpg",
-            "blurhash": "L3Av%,v31ILyspn%fQW;00T_}Yy[",
-            "colors": [
-              "#6e6e6e",
-              "#6e6e6e"
-            ],
-            "uri_name": "cbb/8407/8407-day",
-            "starts_at": 1773594000,
-            "ends_at": 1773606600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Basketball",
-            "iframe": "https://pooembed.eu/embed/cbb/8407/8407-day",
-            "viewers": "1",
-            "substreams": []
-          },
-          {
-            "id": 19107,
-            "name": "Wichita State Shockers vs. South Florida Bulls (Basketball)",
-            "tag": "ESPN",
-            "poster": "https://api.ppv.to/assets/thumb/aef96a00e7452c9be52a50583fbb0d65-thumbnail.jpg",
-            "blurhash": "L19tJrZf9Kp{s:aykBaf00lA?WmP",
-            "colors": [
-              "#6e6e6e",
-              "#6e6e6e"
-            ],
-            "uri_name": "cbb/7145/7145-wich",
-            "starts_at": 1773602100,
-            "ends_at": 1773614700,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Basketball",
-            "iframe": "https://pooembed.eu/embed/cbb/7145/7145-wich",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 19091,
-            "name": "Dallas Mavericks vs. Cleveland Cavaliers",
-            "tag": "NBA TV",
-            "poster": "https://api.ppv.to/assets/thumb/222a9234540db0bbabc1055aef15ce34-thumbnail.jpg",
-            "blurhash": "LDASM:80J;w|f7a}j[a|0dvyxDSh",
-            "colors": [
-              "#0064b1",
-              "#860038"
-            ],
-            "uri_name": "nba/2026-03-15/dal-cle",
-            "starts_at": 1773603000,
-            "ends_at": 1773613080,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Basketball",
-            "iframe": "https://pooembed.eu/embed/nba/2026-03-15/dal-cle",
-            "viewers": "1",
-            "substreams": []
-          },
-          {
-            "id": 19093,
-            "name": "Detroit Pistons vs. Toronto Raptors",
-            "tag": "Sportsnet",
-            "poster": "https://api.ppv.to/assets/thumb/b39543887e67a32e58bc40960ab00aff-thumbnail.jpg",
-            "blurhash": "L8G5tx3s1NMyn+bHfkfQ0J:j-U%L",
-            "colors": [
-              "#1d428a",
-              "#d91244"
-            ],
-            "uri_name": "nba/2026-03-15/det-tor",
-            "starts_at": 1773603000,
-            "ends_at": 1773613080,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Basketball",
-            "iframe": "https://pooembed.eu/embed/nba/2026-03-15/det-tor",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 19095,
-            "name": "Indiana Pacers vs. Milwaukee Bucks",
-            "tag": "FanDuel SN WI",
-            "poster": "https://api.ppv.to/assets/thumb/0a6073ea5f4fe126ced8ae65f53711f0-thumbnail.jpg",
-            "blurhash": "L25rh?[2025Hxqs,a}NJ00AF~o^a",
-            "colors": [
-              "#0c2340",
-              "#00471b"
-            ],
-            "uri_name": "nba/2026-03-15/ind-mil",
-            "starts_at": 1773603000,
-            "ends_at": 1773613080,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Basketball",
-            "iframe": "https://pooembed.eu/embed/nba/2026-03-15/ind-mil",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 19108,
-            "name": "Purdue Boilermakers vs. Michigan Wolverines (Basketball)",
-            "tag": "CBS",
-            "poster": "https://api.ppv.to/assets/thumb/45298a865672aa54decb696614d0af12-thumbnail.jpg",
-            "blurhash": "L9EVQN~UR:}+oej[a|j@00V?xV5F",
-            "colors": [
-              "#ceb888",
-              "#6e6e6e"
-            ],
-            "uri_name": "cbb/9254/9254-pur",
-            "starts_at": 1773603000,
-            "ends_at": 1773615600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Basketball",
-            "iframe": "https://pooembed.eu/embed/cbb/9254/9254-pur",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 18525,
-            "name": "NCAA Men's Basketball Championship Selection Show",
-            "tag": "CBS",
-            "poster": "https://api.ppv.to/assets/thumb/1076e87d0a525b4635a46082824c06d8-thumbnail.jpg",
-            "blurhash": "LD9[T5S601s*b{j@WAWC02t7~SRj",
-            "colors": [
-              "#004475",
-              "#066aad"
-            ],
-            "uri_name": "march-madness",
-            "starts_at": 1773612000,
-            "ends_at": 1773626400,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Basketball",
-            "iframe": "https://pooembed.eu/embed/march-madness",
-            "viewers": "7",
-            "substreams": []
-          },
-          {
-            "id": 19097,
-            "name": "Portland Trail Blazers vs. Philadelphia 76ers",
-            "tag": "NBC Sports Phil",
-            "poster": "https://api.ppv.to/assets/thumb/a26cedee2ae9d858514fe2d076476002-thumbnail.jpg",
-            "blurhash": "LJASWH|;+a#SayjZjtbH5OJBXTS~",
-            "colors": [
-              "#e03a3e",
-              "#1d428a"
-            ],
-            "uri_name": "nba/2026-03-15/por-phi",
-            "starts_at": 1773612000,
-            "ends_at": 1773622080,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Basketball",
-            "iframe": "https://pooembed.eu/embed/nba/2026-03-15/por-phi",
-            "viewers": "0",
-            "substreams": []
-          },
           {
             "id": 19099,
             "name": "Golden State Warriors vs. New York Knicks",
@@ -271,7 +98,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-03-15/gs-ny",
-            "viewers": "0",
+            "viewers": "1546",
             "substreams": []
           },
           {
@@ -291,34 +118,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-03-15/utah-sac",
-            "viewers": "0",
-            "substreams": []
-          }
-        ]
-      },
-      {
-        "category": "Darts",
-        "id": 32,
-        "always_live": false,
-        "streams": [
-          {
-            "id": 19024,
-            "name": "European Darts Trophy - Day 3",
-            "tag": "DAZN",
-            "poster": "https://api.ppv.to/assets/thumb/fc95a728710d04a9889239cfbc7ec835-thumbnail.jpg",
-            "blurhash": "LFD-EFzY}^B|+PP7t7Dj004nD%%M",
-            "colors": [
-              "#03151f",
-              "#050b17"
-            ],
-            "uri_name": "darts/2026/european-darts-trophy/day-3",
-            "starts_at": 1773572400,
-            "ends_at": 1773612000,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Darts",
-            "iframe": "https://pooembed.eu/embed/darts/2026/european-darts-trophy/day-3",
-            "viewers": "204",
+            "viewers": "8",
             "substreams": []
           }
         ]
@@ -328,246 +128,6 @@
         "id": 34,
         "always_live": false,
         "streams": [
-          {
-            "id": 18783,
-            "name": "Le Havre AC vs. Lyon",
-            "tag": "Ligue 1",
-            "poster": "https://api.ppv.to/assets/thumb/b2e0184e5f8937de73b1301cf921572a-thumbnail.jpg",
-            "blurhash": "L57xbb1QDN}l#,Nvj?w^00=q-@5Y",
-            "colors": [
-              "#053999",
-              "#053999"
-            ],
-            "uri_name": "ligue1/2026-03-15/hac-lyon",
-            "starts_at": 1773591300,
-            "ends_at": 1773600300,
-            "always_live": 0,
-            "locale": "fr",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/ligue1/2026-03-15/hac-lyon",
-            "viewers": "62",
-            "substreams": []
-          },
-          {
-            "id": 18784,
-            "name": "Metz vs. Toulouse",
-            "tag": "Ligue 1",
-            "poster": "https://api.ppv.to/assets/thumb/202eb55dbfcfdbf09695a57d8ab8c1f6-thumbnail.jpg",
-            "blurhash": "L55r+=9*D4=:WZjuj?bF00-f%jEU",
-            "colors": [
-              "#053999",
-              "#053999"
-            ],
-            "uri_name": "ligue1/2026-03-15/metz-tou",
-            "starts_at": 1773591300,
-            "ends_at": 1773600300,
-            "always_live": 0,
-            "locale": "fr",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/ligue1/2026-03-15/metz-tou",
-            "viewers": "8",
-            "substreams": []
-          },
-          {
-            "id": 18756,
-            "name": "SC Freiburg vs. 1. FC Union Berlin",
-            "tag": "Bundesliga",
-            "poster": "https://api.ppv.to/assets/thumb/0e69ec4c2aecf286610715a44a70ffd7-thumbnail.jpg",
-            "blurhash": "L5GYi~K*0K;1s:ofWVax00+a~VFy",
-            "colors": [
-              "#7e030d",
-              "#7e030d"
-            ],
-            "uri_name": "bundesliga/2026-03-15/scf-fcu",
-            "starts_at": 1773592200,
-            "ends_at": 1773601200,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/bundesliga/2026-03-15/scf-fcu",
-            "viewers": "10",
-            "substreams": []
-          },
-          {
-            "id": 18766,
-            "name": "Liverpool vs. Tottenham Hotspur",
-            "tag": "Premier League",
-            "poster": "https://api.ppv.to/assets/thumb/fe9d71f8e19bc4e5c36b1966c3bd07e2-thumbnail.jpg",
-            "blurhash": "L171B4%N00M{t7ofWBWA00IU~Xxu",
-            "colors": [
-              "#250f37",
-              "#250f37"
-            ],
-            "uri_name": "premierleague/2026-03-15/liv-tot",
-            "starts_at": 1773592200,
-            "ends_at": 1773601200,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/premierleague/2026-03-15/liv-tot",
-            "viewers": "3289",
-            "substreams": []
-          },
-          {
-            "id": 18775,
-            "name": "Como vs. AS Roma",
-            "tag": "Serie A",
-            "poster": "https://api.ppv.to/assets/thumb/7dff25945e44197480b86cb942e637fc-thumbnail.jpg",
-            "blurhash": "L58XxYys00Qlxuj]f5ax00MI_Nu4",
-            "colors": [
-              "#003799",
-              "#003799"
-            ],
-            "uri_name": "seriea/2026-03-15/como-roma",
-            "starts_at": 1773594000,
-            "ends_at": 1773603000,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/seriea/2026-03-15/como-roma",
-            "viewers": "262",
-            "substreams": []
-          },
-          {
-            "id": 18746,
-            "name": "Real Betis vs. Celta Vigo",
-            "tag": "LaLiga",
-            "poster": "https://api.ppv.to/assets/thumb/3dd6dd9cbe9d5d546e9eb84bb989a5ea-thumbnail.jpg",
-            "blurhash": "L6JEJ6O:0e#BspaeWVkC00v%}tO:",
-            "colors": [
-              "#992d29",
-              "#992d29"
-            ],
-            "uri_name": "laliga/2026-03-15/bet-cel",
-            "starts_at": 1773595800,
-            "ends_at": 1773604800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/laliga/2026-03-15/bet-cel",
-            "viewers": "34",
-            "substreams": []
-          },
-          {
-            "id": 18757,
-            "name": "VfB Stuttgart vs. RB Leipzig",
-            "tag": "Bundesliga",
-            "poster": "https://api.ppv.to/assets/thumb/86ba2237dac95409555b95d92d0cf9f5-thumbnail.jpg",
-            "blurhash": "L5H95x=_0KIt-Wt7a|R%00It~WxU",
-            "colors": [
-              "#7e030d",
-              "#7e030d"
-            ],
-            "uri_name": "bundesliga/2026-03-15/vfb-rbl",
-            "starts_at": 1773599400,
-            "ends_at": 1773608400,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/bundesliga/2026-03-15/vfb-rbl",
-            "viewers": "67",
-            "substreams": []
-          },
-          {
-            "id": 18798,
-            "name": "New England Revolution vs. FC Cincinnati",
-            "tag": "MLS",
-            "poster": "https://api.ppv.to/assets/thumb/2dd42df2917cf2fd89dd8adfb34b2d2d-thumbnail.jpg",
-            "blurhash": "L197Ya7+DN*{k@n4aeOs00@w*0B;",
-            "colors": [
-              "#022166",
-              "#003087"
-            ],
-            "uri_name": "mls/2026-03-15/ne-cin",
-            "starts_at": 1773599400,
-            "ends_at": 1773610200,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/mls/2026-03-15/ne-cin",
-            "viewers": "2",
-            "substreams": []
-          },
-          {
-            "id": 18776,
-            "name": "Lazio vs. AC Milan",
-            "tag": "Serie A",
-            "poster": "https://api.ppv.to/assets/thumb/ac0d7317286d10913f05aeee5c663dbd-thumbnail.jpg",
-            "blurhash": "L57LU2O[00vyt7ocaxWE00vy_NTL",
-            "colors": [
-              "#003799",
-              "#003799"
-            ],
-            "uri_name": "seriea/2026-03-15/laz-mil",
-            "starts_at": 1773603900,
-            "ends_at": 1773612900,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/seriea/2026-03-15/laz-mil",
-            "viewers": "1",
-            "substreams": []
-          },
-          {
-            "id": 18785,
-            "name": "Stade Rennais vs. Lille",
-            "tag": "Ligue 1",
-            "poster": "https://api.ppv.to/assets/thumb/f7adb052701ed191bc509f244617bee5-thumbnail.jpg",
-            "blurhash": "L58g|XDi4T%#bdxCj?R.00.8?KH?",
-            "colors": [
-              "#053999",
-              "#053999"
-            ],
-            "uri_name": "ligue1/2026-03-15/ren-lill",
-            "starts_at": 1773603900,
-            "ends_at": 1773612900,
-            "always_live": 0,
-            "locale": "fr",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/ligue1/2026-03-15/ren-lill",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 18747,
-            "name": "Real Sociedad vs. Osasuna",
-            "tag": "LaLiga",
-            "poster": "https://api.ppv.to/assets/thumb/e6f9438b0454348e2b57c3ee68e055fe-thumbnail.jpg",
-            "blurhash": "L6JN,:T00f#lwbe.WVbc00rr}tOE",
-            "colors": [
-              "#992d29",
-              "#992d29"
-            ],
-            "uri_name": "laliga/2026-03-15/rso-osa",
-            "starts_at": 1773604800,
-            "ends_at": 1773613800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/laliga/2026-03-15/rso-osa",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 18799,
-            "name": "Vancouver Whitecaps vs. Minnesota United FC",
-            "tag": "MLS",
-            "poster": "https://api.ppv.to/assets/thumb/a92b2d5344e4fba539d4874a97fa229a-thumbnail.jpg",
-            "blurhash": "LLAmxW~q?b-;jsoLfQay4nIUM{IV",
-            "colors": [
-              "#ffffff",
-              "#000000"
-            ],
-            "uri_name": "mls/2026-03-15/van-min",
-            "starts_at": 1773606600,
-            "ends_at": 1773617400,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/mls/2026-03-15/van-min",
-            "viewers": "0",
-            "substreams": []
-          },
           {
             "id": 18800,
             "name": "San Jose Earthquakes vs. Seattle Sounders FC",
@@ -585,7 +145,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/mls/2026-03-15/sj-sea",
-            "viewers": "0",
+            "viewers": "7",
             "substreams": []
           },
           {
@@ -656,46 +216,6 @@
         "always_live": false,
         "streams": [
           {
-            "id": 19090,
-            "name": "St. Louis Blues vs. Winnipeg Jets",
-            "tag": "FanDuel SN MW",
-            "poster": "https://api.ppv.to/assets/thumb/ad1e24fc4bd0f782d9bf9593fe999c19-thumbnail.jpg",
-            "blurhash": "L76IXGBaJF?bofj[ayaz00-O%0D%",
-            "colors": [
-              "#0070b9",
-              "#002d62"
-            ],
-            "uri_name": "nhl/2026-03-15/stl-wpg",
-            "starts_at": 1773601200,
-            "ends_at": 1773612000,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.eu/embed/nhl/2026-03-15/stl-wpg",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 19092,
-            "name": "San Jose Sharks vs. Ottawa Senators",
-            "tag": "ESPN+",
-            "poster": "https://api.ppv.to/assets/thumb/ab14baa7bb57d5ac16e3ab8621867831-thumbnail.jpg",
-            "blurhash": "L8Ev,F3r2t$*n+Wpayj[0K{y-BjZ",
-            "colors": [
-              "#00788a",
-              "#dd1a32"
-            ],
-            "uri_name": "nhl/2026-03-15/sj-ott",
-            "starts_at": 1773608400,
-            "ends_at": 1773619200,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.eu/embed/nhl/2026-03-15/sj-ott",
-            "viewers": "1",
-            "substreams": []
-          },
-          {
             "id": 19094,
             "name": "Anaheim Ducks vs. Montreal Canadiens",
             "tag": "ESPN+",
@@ -712,7 +232,7 @@
             "locale": "en",
             "category_name": "Ice Hockey",
             "iframe": "https://pooembed.eu/embed/nhl/2026-03-15/ana-mtl",
-            "viewers": "0",
+            "viewers": "77",
             "substreams": []
           },
           {
@@ -732,7 +252,7 @@
             "locale": "en",
             "category_name": "Ice Hockey",
             "iframe": "https://pooembed.eu/embed/nhl/2026-03-15/tor-min",
-            "viewers": "0",
+            "viewers": "183",
             "substreams": []
           },
           {
@@ -752,7 +272,7 @@
             "locale": "en",
             "category_name": "Ice Hockey",
             "iframe": "https://pooembed.eu/embed/nhl/2026-03-15/nsh-edm",
-            "viewers": "0",
+            "viewers": "127",
             "substreams": []
           },
           {
@@ -772,7 +292,34 @@
             "locale": "en",
             "category_name": "Ice Hockey",
             "iframe": "https://pooembed.eu/embed/nhl/2026-03-15/fla-sea",
-            "viewers": "0",
+            "viewers": "17",
+            "substreams": []
+          }
+        ]
+      },
+      {
+        "category": "Miscellaneous",
+        "id": 44,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 19109,
+            "name": "The 98th Academy Awards",
+            "tag": "ABC",
+            "poster": "https://api.ppv.to/assets/thumb/8e6089a88263ce50b8d564b1474f13f3-thumbnail.jpg",
+            "blurhash": "LkGk5XD*en~A%LM|WBxuNIoJoKWE",
+            "colors": [
+              "#b16511",
+              "#120a07"
+            ],
+            "uri_name": "the-98th-academy-awards",
+            "starts_at": 1773615600,
+            "ends_at": 1773630000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Miscellaneous",
+            "iframe": "https://pooembed.eu/embed/the-98th-academy-awards",
+            "viewers": "2423",
             "substreams": []
           }
         ]
@@ -799,7 +346,7 @@
             "locale": "en",
             "category_name": "Wrestling",
             "iframe": "https://pooembed.eu/embed/aew-revolution-2026",
-            "viewers": "5",
+            "viewers": "1390",
             "substreams": []
           }
         ]
@@ -826,7 +373,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-south-park",
-            "viewers": "13",
+            "viewers": "21",
             "substreams": []
           },
           {
@@ -866,7 +413,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-family-guy",
-            "viewers": "13",
+            "viewers": "10",
             "substreams": []
           },
           {
@@ -906,7 +453,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-spongebob-squarepants",
-            "viewers": "2",
+            "viewers": "4",
             "substreams": []
           },
           {
