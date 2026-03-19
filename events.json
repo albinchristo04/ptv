@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "fetched_at": "2026-03-19T06:51:25.454720Z",
+    "fetched_at": "2026-03-19T12:52:11.947847Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null
   },
   "events": {
     "success": true,
-    "timestamp": 1773903090,
+    "timestamp": 1773924740,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.02603006362915039,
+    "performance": 0.02598285675048828,
     "streams": [
       {
         "category": "Arm Wrestling",
@@ -32,7 +32,7 @@
             "locale": "en",
             "category_name": "Arm Wrestling",
             "iframe": "https://pooembed.eu/embed/east-vs-west-23",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           }
         ]
@@ -59,7 +59,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/march-madness/3928/3928-tcu",
-            "viewers": "0",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -139,7 +139,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/march-madness/8120/8120-sie",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -525,10 +525,57 @@
         ]
       },
       {
+        "category": "Darts",
+        "id": 32,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 17269,
+            "name": "Premier League Darts: Night 7",
+            "tag": "Sky Sports",
+            "poster": "https://api.ppv.to/assets/thumb/36c0f6728c35319de67e24f64142acc7-thumbnail.jpg",
+            "blurhash": "LJBp|0pE4.Nt*FkoR%bE5*X5$%s:",
+            "colors": [
+              "#065803",
+              "#001800"
+            ],
+            "uri_name": "premier-league-darts-night-7",
+            "starts_at": 1773946800,
+            "ends_at": 1773961200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Darts",
+            "iframe": "https://pooembed.eu/embed/premier-league-darts-night-7",
+            "viewers": "0",
+            "substreams": []
+          }
+        ]
+      },
+      {
         "category": "Football",
         "id": 34,
         "always_live": false,
         "streams": [
+          {
+            "id": 12737,
+            "name": "The Golazo Show",
+            "tag": "Europa League",
+            "poster": "https://api.ppv.to/assets/thumb/9495bb8da4657a7abea8bacb2a43b50b-thumbnail.jpg",
+            "blurhash": "L54{7fj]00WEt5ayRoj[00ay~ooc",
+            "colors": [
+              "#001a67",
+              "#001a67"
+            ],
+            "uri_name": "golazo",
+            "starts_at": 1773939600,
+            "ends_at": 1773959400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/golazo",
+            "viewers": "15",
+            "substreams": []
+          },
           {
             "id": 19210,
             "name": "Freiburg vs. Genk",
@@ -2534,7 +2581,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-south-park",
-            "viewers": "13",
+            "viewers": "9",
             "substreams": []
           },
           {
@@ -2574,7 +2621,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-family-guy",
-            "viewers": "12",
+            "viewers": "7",
             "substreams": []
           },
           {
@@ -2594,7 +2641,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-the-simpsons",
-            "viewers": "4",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -2634,7 +2681,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/rally-tv",
-            "viewers": "4",
+            "viewers": "2",
             "substreams": []
           }
         ]
