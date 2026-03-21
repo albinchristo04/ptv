@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2026-03-21T06:35:46.841569Z",
+    "fetched_at": "2026-03-21T12:36:08.865413Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-03-21T07:03:43.726611",
-      "total_streams": 90,
+      "extracted_at": "2026-03-21T12:40:41.878734",
+      "total_streams": 93,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 90,
-        "successful_requests": 90,
+        "total_requests": 93,
+        "successful_requests": 93,
         "failed_requests": 0,
-        "elapsed_time_seconds": 257.88
+        "elapsed_time_seconds": 256.68
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1774074950,
+    "timestamp": 1774096570,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.02388596534729004,
+    "performance": 0.02411198616027832,
     "streams": [
       {
         "category": "Arm Wrestling",
@@ -111,7 +111,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-03-21/lal-orl",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -257,6 +257,53 @@
         ]
       },
       {
+        "category": "Darts",
+        "id": 32,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 19378,
+            "name": "Belgian Darts Open: Day 2",
+            "tag": "DAZN",
+            "poster": "https://api.ppv.to/assets/thumb/fc95a728710d04a9889239cfbc7ec835-thumbnail.jpg",
+            "blurhash": "LFD-EFzY}^B|+PP7t7Dj004nD%%M",
+            "colors": [
+              "#03151f",
+              "#050b17"
+            ],
+            "uri_name": "belgian-darts-open-day-2",
+            "starts_at": 1774094400,
+            "ends_at": 1774137600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Darts",
+            "iframe": "https://pooembed.eu/embed/belgian-darts-open-day-2",
+            "viewers": "66",
+            "substreams": []
+          },
+          {
+            "id": 19379,
+            "name": "Belgian Darts Open: Day 3",
+            "tag": "DAZN",
+            "poster": "https://api.ppv.to/assets/thumb/fc95a728710d04a9889239cfbc7ec835-thumbnail.jpg",
+            "blurhash": "LFD-EFzY}^B|+PP7t7Dj004nD%%M",
+            "colors": [
+              "#03151f",
+              "#050b17"
+            ],
+            "uri_name": "belgian-darts-open-day-3",
+            "starts_at": 1774180800,
+            "ends_at": 1774224000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Darts",
+            "iframe": "https://pooembed.eu/embed/belgian-darts-open-day-3",
+            "viewers": "0",
+            "substreams": []
+          }
+        ]
+      },
+      {
         "category": "Football",
         "id": 34,
         "always_live": false,
@@ -272,13 +319,13 @@
               "#250f37"
             ],
             "uri_name": "premierleague/2026-03-21/bha-liv",
-            "starts_at": 1774096200,
-            "ends_at": 1774105200,
+            "starts_at": 1774097100,
+            "ends_at": 1774106100,
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/premierleague/2026-03-21/bha-liv",
-            "viewers": "1",
+            "viewers": "1613",
             "substreams": []
           },
           {
@@ -298,7 +345,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/laliga/2026-03-21/elc-mll",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -318,7 +365,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/seriea/2026-03-21/par-cre",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -678,7 +725,7 @@
             "locale": "fr",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/ligue1/2026-03-21/nice-psg",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -918,7 +965,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/laliga/2026-03-22/bar-ray",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -938,7 +985,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/seriea/2026-03-22/ata-ver",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1616,6 +1663,26 @@
         "always_live": false,
         "streams": [
           {
+            "id": 15856,
+            "name": "Supercross: Birmingham",
+            "tag": "Peacock",
+            "poster": "https://api.ppv.to/assets/thumb/987906340148eb24238a7ba4ceb6cb9f-thumbnail.jpg",
+            "blurhash": "L3559Pof00NDx^fhMzWT00R%~oxc",
+            "colors": [
+              "#0e0727",
+              "#120931"
+            ],
+            "uri_name": "smx-wk10",
+            "starts_at": 1774112400,
+            "ends_at": 1774155600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Motorsports",
+            "iframe": "https://pooembed.eu/embed/smx-wk10",
+            "viewers": "2",
+            "substreams": []
+          },
+          {
             "id": 19226,
             "name": "Japanese Grand Prix - Practice 1",
             "tag": "Formula 1",
@@ -1632,7 +1699,7 @@
             "locale": "en",
             "category_name": "Motorsports",
             "iframe": "https://pooembed.eu/embed/f1/2026/japan/fp1",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": [
               {
                 "id": 19227,
@@ -1806,7 +1873,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-south-park",
-            "viewers": "20",
+            "viewers": "9",
             "substreams": []
           },
           {
@@ -1826,7 +1893,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-cows",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1846,7 +1913,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-family-guy",
-            "viewers": "12",
+            "viewers": "7",
             "substreams": []
           },
           {
@@ -1906,7 +1973,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/rally-tv",
-            "viewers": "5",
+            "viewers": "8",
             "substreams": []
           }
         ]
