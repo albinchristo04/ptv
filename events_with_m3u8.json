@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2026-03-28T06:51:44.188065Z",
+    "fetched_at": "2026-03-28T12:40:52.888634Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-03-28T07:13:12.525369",
-      "total_streams": 52,
+      "extracted_at": "2026-03-28T12:43:54.794601",
+      "total_streams": 57,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 52,
-        "successful_requests": 52,
+        "total_requests": 57,
+        "successful_requests": 57,
         "failed_requests": 0,
-        "elapsed_time_seconds": 145.73
+        "elapsed_time_seconds": 167.67
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1774680710,
+    "timestamp": 1774701660,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.030611038208007812,
+    "performance": 0.02945399284362793,
     "streams": [
       {
         "category": "Arm Wrestling",
@@ -71,7 +71,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://pooembed.eu/embed/mlb/2026-03-28/tb-stl",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -518,7 +518,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-03-28/utah-phx",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           }
         ]
@@ -528,6 +528,26 @@
         "id": 33,
         "always_live": false,
         "streams": [
+          {
+            "id": 19557,
+            "name": "UFC Fight Night: Adesanya vs. Pyfer",
+            "tag": "Paramount+",
+            "poster": "https://api.ppv.to/assets/thumb/21c0ced5cc3c975f85040148adfa33a1-thumbnail.jpg",
+            "blurhash": "LLD8|H0e}sE1-UEMxZR-R*jYogjY",
+            "colors": [
+              "#591f09",
+              "#e4c3ca"
+            ],
+            "uri_name": "ufc-fight-night-adesanya-vs.-pyfer",
+            "starts_at": 1774731600,
+            "ends_at": 1774767600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Combat Sports",
+            "iframe": "https://pooembed.eu/embed/ufc-fight-night-adesanya-vs.-pyfer",
+            "viewers": "10",
+            "substreams": []
+          },
           {
             "id": 19556,
             "name": "RAF 07: Tsarukyan vs. Poullas",
@@ -547,25 +567,132 @@
             "iframe": "https://pooembed.eu/embed/raf-07-tsarukyan-vs.-poullas",
             "viewers": "4",
             "substreams": []
-          },
+          }
+        ]
+      },
+      {
+        "category": "Football",
+        "id": 34,
+        "always_live": false,
+        "streams": [
           {
-            "id": 19557,
-            "name": "UFC Fight Night: Adesanya vs. Pyfer",
-            "tag": "Paramount+",
-            "poster": "https://api.ppv.to/assets/thumb/21c0ced5cc3c975f85040148adfa33a1-thumbnail.jpg",
-            "blurhash": "LLD8|H0e}sE1-UEMxZR-R*jYogjY",
+            "id": 19597,
+            "name": "San Marino vs. Faroe Islands",
+            "tag": "Men's International Friendly",
+            "poster": "https://api.ppv.to/assets/thumb/4c316a32efab6c67d85c822d14a78093-thumbnail.jpg",
+            "blurhash": "LRHpF:0U4T}-t6I9-QtSIpRkofof",
             "colors": [
-              "#591f09",
-              "#e4c3ca"
+              "#00688b",
+              "#8b8b8b"
             ],
-            "uri_name": "ufc-fight-night-adesanya-vs.-pyfer",
-            "starts_at": 1774742400,
-            "ends_at": 1774778400,
+            "uri_name": "mens-international-friendly/2026-03-28/smr-fro",
+            "starts_at": 1774706400,
+            "ends_at": 1774715400,
             "always_live": 0,
             "locale": "en",
-            "category_name": "Combat Sports",
-            "iframe": "https://pooembed.eu/embed/ufc-fight-night-adesanya-vs.-pyfer",
-            "viewers": "2",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/mens-international-friendly/2026-03-28/smr-fro",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 19598,
+            "name": "Canada vs. Iceland",
+            "tag": "Men's International Friendly",
+            "poster": "https://api.ppv.to/assets/thumb/15bd8c79afefc72a9a1417ef7b30c5dc-thumbnail.jpg",
+            "blurhash": "LgGYk8|,E]Afa~NrN|oNM}adjuog",
+            "colors": [
+              "#811314",
+              "#061a8b"
+            ],
+            "uri_name": "mens-international-friendly/2026-03-28/can-isl",
+            "starts_at": 1774717200,
+            "ends_at": 1774726200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/mens-international-friendly/2026-03-28/can-isl",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 19599,
+            "name": "Hungary vs. Slovenia",
+            "tag": "Men's International Friendly",
+            "poster": "https://api.ppv.to/assets/thumb/d6b412260538ddcddde2f565f8906957-thumbnail.jpg",
+            "blurhash": "LPK][z8w0K*Jt79Zt,xuWAR6oftQ",
+            "colors": [
+              "#701115",
+              "#8b8b8b"
+            ],
+            "uri_name": "mens-international-friendly/2026-03-28/hun-svn",
+            "starts_at": 1774717200,
+            "ends_at": 1774726200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/mens-international-friendly/2026-03-28/hun-svn",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 19600,
+            "name": "Scotland vs. Japan",
+            "tag": "Men's International Friendly",
+            "poster": "https://api.ppv.to/assets/thumb/b9efa99508671d5b1ba3f1afc97c2a72-thumbnail.jpg",
+            "blurhash": "LQG?PY1hAo}BoLJQ#,soDhkWo2V@",
+            "colors": [
+              "#0e1939",
+              "#830e14"
+            ],
+            "uri_name": "mens-international-friendly/2026-03-28/sco-jpn",
+            "starts_at": 1774717200,
+            "ends_at": 1774726200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/mens-international-friendly/2026-03-28/sco-jpn",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 19601,
+            "name": "United States vs. Belgium",
+            "tag": "Men's International Friendly",
+            "poster": "https://api.ppv.to/assets/thumb/9f1f1c217a5add3cdd3c5ded0ce78a16-thumbnail.jpg",
+            "blurhash": "LJGr#-2c1t|EsAEz,Ww|D+NYbHxI",
+            "colors": [
+              "#131a37",
+              "#821a21"
+            ],
+            "uri_name": "mens-international-friendly/2026-03-28/usa-bel",
+            "starts_at": 1774726200,
+            "ends_at": 1774735200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/mens-international-friendly/2026-03-28/usa-bel",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 19602,
+            "name": "Mexico vs. Portugal",
+            "tag": "Men's International Friendly",
+            "poster": "https://api.ppv.to/assets/thumb/684682e938e37b2ad8c26a3244677ac3-thumbnail.jpg",
+            "blurhash": "LEE^TV3o1I{LsUEg+wxFE2NGj?$k",
+            "colors": [
+              "#003928",
+              "#76150e"
+            ],
+            "uri_name": "mens-international-friendly/2026-03-29/mex-por",
+            "starts_at": 1774746000,
+            "ends_at": 1774755000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/mens-international-friendly/2026-03-29/mex-por",
+            "viewers": "0",
             "substreams": []
           }
         ]
@@ -883,34 +1010,6 @@
         "always_live": false,
         "streams": [
           {
-            "id": 19235,
-            "name": "Japanese Grand Prix - Qualifying",
-            "tag": "Formula 1",
-            "poster": "https://api.ppv.to/assets/thumb/c8abd289650be9aa540c2845b709c527-thumbnail.jpg",
-            "blurhash": "L5FPHIwF~nIU00xJ?J%N}F5PX2M_",
-            "colors": [
-              "#4d4143",
-              "#50525e"
-            ],
-            "uri_name": "f1/2026/japan/qualifying",
-            "starts_at": 1774677600,
-            "ends_at": 1774684800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Motorsports",
-            "iframe": "https://pooembed.eu/embed/f1/2026/japan/qualifying",
-            "viewers": "4585",
-            "substreams": [
-              {
-                "id": 19236,
-                "name": "Japanese Grand Prix - Qualifying",
-                "tag": "F1TV Broadcast",
-                "locale": "en",
-                "iframe": "https://pooembed.eu/embed/f1/2026/japan/qualifying-f1tv"
-              }
-            ]
-          },
-          {
             "id": 19487,
             "name": "MXGP of Switzerland: Day 1",
             "tag": "MXGP-TV",
@@ -927,7 +1026,7 @@
             "locale": "en",
             "category_name": "Motorsports",
             "iframe": "https://pooembed.eu/embed/mxgp-of-switzerland-day-1",
-            "viewers": "0",
+            "viewers": "17",
             "substreams": []
           },
           {
@@ -947,7 +1046,7 @@
             "locale": "en",
             "category_name": "Motorsports",
             "iframe": "https://pooembed.eu/embed/f1/2026/japan/race",
-            "viewers": "0",
+            "viewers": "4",
             "substreams": [
               {
                 "id": 19239,
@@ -1029,7 +1128,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-south-park",
-            "viewers": "20",
+            "viewers": "17",
             "substreams": []
           },
           {
@@ -1069,7 +1168,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-family-guy",
-            "viewers": "27",
+            "viewers": "17",
             "substreams": []
           },
           {
@@ -1109,7 +1208,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-spongebob-squarepants",
-            "viewers": "4",
+            "viewers": "6",
             "substreams": []
           },
           {
@@ -1129,7 +1228,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/rally-tv",
-            "viewers": "4",
+            "viewers": "2",
             "substreams": []
           }
         ]
