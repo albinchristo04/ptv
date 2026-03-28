@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "fetched_at": "2026-03-28T12:40:52.888634Z",
+    "fetched_at": "2026-03-28T18:31:55.337239Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-03-28T13:19:10.312913",
+      "extracted_at": "2026-03-28T18:34:49.687256",
       "total_streams": 57,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
@@ -12,15 +12,15 @@
         "total_requests": 57,
         "successful_requests": 57,
         "failed_requests": 0,
-        "elapsed_time_seconds": 165.56
+        "elapsed_time_seconds": 157.36
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1774701660,
+    "timestamp": 1774722720,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.02945399284362793,
+    "performance": 0.03997492790222168,
     "streams": [
       {
         "category": "Arm Wrestling",
@@ -44,7 +44,7 @@
             "locale": "en",
             "category_name": "Arm Wrestling",
             "iframe": "https://pooembed.eu/embed/east-vs-west-23",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           }
         ]
@@ -71,7 +71,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://pooembed.eu/embed/mlb/2026-03-28/tb-stl",
-            "viewers": "0",
+            "viewers": "214",
             "substreams": []
           },
           {
@@ -91,7 +91,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://pooembed.eu/embed/mlb/2026-03-28/wsh-chc",
-            "viewers": "0",
+            "viewers": "250",
             "substreams": []
           },
           {
@@ -111,7 +111,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://pooembed.eu/embed/mlb/2026-03-28/ath-tor",
-            "viewers": "0",
+            "viewers": "7",
             "substreams": []
           },
           {
@@ -231,7 +231,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://pooembed.eu/embed/mlb/2026-03-28/laa-hou",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -378,7 +378,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-03-28/sa-mil",
-            "viewers": "0",
+            "viewers": "19",
             "substreams": []
           },
           {
@@ -438,7 +438,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/march-madness/2026-03-28/iowa-ill",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -478,7 +478,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-03-28/chi-mem",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -498,7 +498,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/march-madness/2026-03-28/pur-ariz",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -518,7 +518,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-03-28/utah-phx",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           }
         ]
@@ -528,6 +528,26 @@
         "id": 33,
         "always_live": false,
         "streams": [
+          {
+            "id": 19603,
+            "name": "Itauma vs. Franklin",
+            "tag": "DAZN",
+            "poster": "https://api.ppv.to/assets/thumb/089055dccb581dfe1f4fbc752a02849f-thumbnail.jpg",
+            "blurhash": "LCExni}?01E3E#I;M|aK02R+_2od",
+            "colors": [
+              "#6c5853",
+              "#0c1738"
+            ],
+            "uri_name": "itauma-vs.-franklin",
+            "starts_at": 1774717200,
+            "ends_at": 1774746000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Combat Sports",
+            "iframe": "https://pooembed.eu/embed/itauma-vs.-franklin",
+            "viewers": "461",
+            "substreams": []
+          },
           {
             "id": 19557,
             "name": "UFC Fight Night: Adesanya vs. Pyfer",
@@ -545,7 +565,7 @@
             "locale": "en",
             "category_name": "Combat Sports",
             "iframe": "https://pooembed.eu/embed/ufc-fight-night-adesanya-vs.-pyfer",
-            "viewers": "10",
+            "viewers": "13",
             "substreams": []
           },
           {
@@ -565,7 +585,7 @@
             "locale": "en",
             "category_name": "Combat Sports",
             "iframe": "https://pooembed.eu/embed/raf-07-tsarukyan-vs.-poullas",
-            "viewers": "4",
+            "viewers": "9",
             "substreams": []
           }
         ]
@@ -575,26 +595,6 @@
         "id": 34,
         "always_live": false,
         "streams": [
-          {
-            "id": 19597,
-            "name": "San Marino vs. Faroe Islands",
-            "tag": "Men's International Friendly",
-            "poster": "https://api.ppv.to/assets/thumb/4c316a32efab6c67d85c822d14a78093-thumbnail.jpg",
-            "blurhash": "LRHpF:0U4T}-t6I9-QtSIpRkofof",
-            "colors": [
-              "#00688b",
-              "#8b8b8b"
-            ],
-            "uri_name": "mens-international-friendly/2026-03-28/smr-fro",
-            "starts_at": 1774706400,
-            "ends_at": 1774715400,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/mens-international-friendly/2026-03-28/smr-fro",
-            "viewers": "0",
-            "substreams": []
-          },
           {
             "id": 19598,
             "name": "Canada vs. Iceland",
@@ -612,7 +612,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/mens-international-friendly/2026-03-28/can-isl",
-            "viewers": "0",
+            "viewers": "288",
             "substreams": []
           },
           {
@@ -632,7 +632,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/mens-international-friendly/2026-03-28/hun-svn",
-            "viewers": "0",
+            "viewers": "153",
             "substreams": []
           },
           {
@@ -652,7 +652,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/mens-international-friendly/2026-03-28/sco-jpn",
-            "viewers": "0",
+            "viewers": "46",
             "substreams": []
           },
           {
@@ -672,7 +672,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/mens-international-friendly/2026-03-28/usa-bel",
-            "viewers": "0",
+            "viewers": "3",
             "substreams": []
           },
           {
@@ -692,7 +692,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/mens-international-friendly/2026-03-29/mex-por",
-            "viewers": "0",
+            "viewers": "2",
             "substreams": []
           }
         ]
@@ -719,7 +719,7 @@
             "locale": "en",
             "category_name": "Ice Hockey",
             "iframe": "https://pooembed.eu/embed/nhl/2026-03-28/ott-tb",
-            "viewers": "0",
+            "viewers": "84",
             "substreams": []
           },
           {
@@ -739,7 +739,7 @@
             "locale": "en",
             "category_name": "Ice Hockey",
             "iframe": "https://pooembed.eu/embed/nhl/2026-03-28/fla-nyi",
-            "viewers": "0",
+            "viewers": "50",
             "substreams": []
           },
           {
@@ -779,7 +779,7 @@
             "locale": "en",
             "category_name": "Ice Hockey",
             "iframe": "https://pooembed.eu/embed/nhl/2026-03-28/min-bos",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1010,23 +1010,23 @@
         "always_live": false,
         "streams": [
           {
-            "id": 19487,
-            "name": "MXGP of Switzerland: Day 1",
-            "tag": "MXGP-TV",
-            "poster": "https://api.ppv.to/assets/thumb/835931b60665d56f024a91625d29e713-thumbnail.jpg",
-            "blurhash": "LABf%{?wS5RPlB-:RjRj8_I9V?Rj",
+            "id": 15856,
+            "name": "Supercross: Detroit",
+            "tag": "Peacock",
+            "poster": "https://api.ppv.to/assets/thumb/987906340148eb24238a7ba4ceb6cb9f-thumbnail.jpg",
+            "blurhash": "L3559Pof00NDx^fhMzWT00R%~oxc",
             "colors": [
-              "#a5b5cf",
-              "#655b16"
+              "#0e0727",
+              "#120931"
             ],
-            "uri_name": "mxgp-of-switzerland-day-1",
-            "starts_at": 1774695600,
-            "ends_at": 1774720800,
+            "uri_name": "smx-wk11",
+            "starts_at": 1774717200,
+            "ends_at": 1774760400,
             "always_live": 0,
             "locale": "en",
             "category_name": "Motorsports",
-            "iframe": "https://pooembed.eu/embed/mxgp-of-switzerland-day-1",
-            "viewers": "17",
+            "iframe": "https://pooembed.eu/embed/smx-wk11",
+            "viewers": "81",
             "substreams": []
           },
           {
@@ -1046,7 +1046,7 @@
             "locale": "en",
             "category_name": "Motorsports",
             "iframe": "https://pooembed.eu/embed/f1/2026/japan/race",
-            "viewers": "4",
+            "viewers": "6",
             "substreams": [
               {
                 "id": 19239,
@@ -1074,7 +1074,7 @@
             "locale": "en",
             "category_name": "Motorsports",
             "iframe": "https://pooembed.eu/embed/mxgp-of-switzerland-day-2",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           }
         ]
@@ -1128,7 +1128,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-south-park",
-            "viewers": "17",
+            "viewers": "16",
             "substreams": []
           },
           {
@@ -1148,7 +1148,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-cows",
-            "viewers": "1",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -1168,7 +1168,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-family-guy",
-            "viewers": "17",
+            "viewers": "25",
             "substreams": []
           },
           {
@@ -1208,7 +1208,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-spongebob-squarepants",
-            "viewers": "6",
+            "viewers": "8",
             "substreams": []
           },
           {
@@ -1228,7 +1228,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/rally-tv",
-            "viewers": "2",
+            "viewers": "3",
             "substreams": []
           }
         ]
