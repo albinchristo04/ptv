@@ -1,27 +1,94 @@
 {
   "metadata": {
-    "fetched_at": "2026-04-16T07:23:27.931636Z",
+    "fetched_at": "2026-04-16T13:18:43.938338Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-04-16T08:05:37.564400",
-      "total_streams": 89,
+      "extracted_at": "2026-04-16T13:23:46.185779",
+      "total_streams": 102,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 89,
-        "successful_requests": 89,
+        "total_requests": 102,
+        "successful_requests": 102,
         "failed_requests": 0,
-        "elapsed_time_seconds": 240.95
+        "elapsed_time_seconds": 286.62
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1776324210,
+    "timestamp": 1776345530,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.0325009822845459,
+    "performance": 0.032675981521606445,
     "streams": [
+      {
+        "category": "American Football",
+        "id": 26,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 20527,
+            "name": "2026 NFL Draft - Day 1",
+            "tag": "NFL Network",
+            "poster": "https://api.ppv.to/assets/thumb/cba89efff75e0e466a2fdf56a1044a11-thumbnail.jpg",
+            "blurhash": "LJHoY9{b1+3GbakBf8WY1AGH]N+Z",
+            "colors": [
+              "#fdffff",
+              "#60a0de"
+            ],
+            "uri_name": "2026-nfl-draft---day-1",
+            "starts_at": 1776988800,
+            "ends_at": 1777006800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.eu/embed/2026-nfl-draft---day-1",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 20528,
+            "name": "2026 NFL Draft - Day 2",
+            "tag": "NFL Network",
+            "poster": "https://api.ppv.to/assets/thumb/cba89efff75e0e466a2fdf56a1044a11-thumbnail.jpg",
+            "blurhash": "LJHoY9{b1+3GbakBf8WY1AGH]N+Z",
+            "colors": [
+              "#fdffff",
+              "#60a0de"
+            ],
+            "uri_name": "2026-nfl-draft---day-2",
+            "starts_at": 1777071600,
+            "ends_at": 1777089600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.eu/embed/2026-nfl-draft---day-2",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 20529,
+            "name": "2026 NFL Draft - Day 3",
+            "tag": "NFL Network",
+            "poster": "https://api.ppv.to/assets/thumb/cba89efff75e0e466a2fdf56a1044a11-thumbnail.jpg",
+            "blurhash": "LJHoY9{b1+3GbakBf8WY1AGH]N+Z",
+            "colors": [
+              "#fdffff",
+              "#60a0de"
+            ],
+            "uri_name": "2026-nfl-draft---day-3",
+            "starts_at": 1777132800,
+            "ends_at": 1777161600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.eu/embed/2026-nfl-draft---day-3",
+            "viewers": "0",
+            "substreams": []
+          }
+        ]
+      },
       {
         "category": "Arm Wrestling",
         "id": 40,
@@ -44,7 +111,7 @@
             "locale": "en",
             "category_name": "Arm Wrestling",
             "iframe": "https://pooembed.eu/embed/east-vs-west-23",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           }
         ]
@@ -71,7 +138,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://pooembed.eu/embed/mlb/2026-04-16/wsh-pit",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -278,7 +345,7 @@
             "locale": "en",
             "category_name": "Cricket",
             "iframe": "https://pooembed.eu/embed/ipl/2026-04-16/mi-pbks",
-            "viewers": "0",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -298,6 +365,33 @@
             "locale": "en",
             "category_name": "Cricket",
             "iframe": "https://pooembed.eu/embed/ipl/2026-04-17/gt-kkr",
+            "viewers": "0",
+            "substreams": []
+          }
+        ]
+      },
+      {
+        "category": "Darts",
+        "id": 32,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 20526,
+            "name": "Premier League Darts: Rotterdam",
+            "tag": "PDC.TV",
+            "poster": "https://api.ppv.to/assets/thumb/209eab7d4a09da5eaf9ac5c946243d16-thumbnail.jpg",
+            "blurhash": "LRJk47~p%K02-:E2%0NHR3DioetR",
+            "colors": [
+              "#483c2c",
+              "#363530"
+            ],
+            "uri_name": "premier-league-darts-rotterdam",
+            "starts_at": 1776358800,
+            "ends_at": 1776373200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Darts",
+            "iframe": "https://pooembed.eu/embed/premier-league-darts-rotterdam",
             "viewers": "0",
             "substreams": []
           }
@@ -465,6 +559,186 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/uecl/2026-04-16/str-m05",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 20517,
+            "name": "Lanús vs. Always Ready",
+            "tag": "CONMEBOL Libertadores",
+            "poster": "https://api.ppv.to/assets/thumb/f71ec42999e826000c530f0265e6befe-thumbnail.jpg",
+            "blurhash": "LKJzDf2G2E|[,@Aqay$jIANtjtsC",
+            "colors": [
+              "#580000",
+              "#8c0000"
+            ],
+            "uri_name": "conmebol-libertadores/2026-04-17/lan-car",
+            "starts_at": 1776376800,
+            "ends_at": 1776385800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/conmebol-libertadores/2026-04-17/lan-car",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 20518,
+            "name": "Palmeiras vs. Sporting Cristal",
+            "tag": "CONMEBOL Libertadores",
+            "poster": "https://api.ppv.to/assets/thumb/8218fa5343108983870d230fb916d024-thumbnail.jpg",
+            "blurhash": "LN8$]sZLQlpfb{VsaykWD*ngj?X9",
+            "colors": [
+              "#224002",
+              "#20647b"
+            ],
+            "uri_name": "conmebol-libertadores/2026-04-17/pal-scr",
+            "starts_at": 1776376800,
+            "ends_at": 1776385800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/conmebol-libertadores/2026-04-17/pal-scr",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 20521,
+            "name": "Atlético-MG vs. Juventud",
+            "tag": "CONMEBOL Sudamericana",
+            "poster": "https://api.ppv.to/assets/thumb/680f56d79a1a581f34468d27529ea1e2-thumbnail.jpg",
+            "blurhash": "LD5rP}I7aax|o$W9fQog9FxufPM{",
+            "colors": [
+              "#000000",
+              "#011c53"
+            ],
+            "uri_name": "conmebol-sudamericana/2026-04-17/cam-juv",
+            "starts_at": 1776376800,
+            "ends_at": 1776385800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/conmebol-sudamericana/2026-04-17/cam-juv",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 20522,
+            "name": "Tigre vs. Macará",
+            "tag": "CONMEBOL Sudamericana",
+            "poster": "https://api.ppv.to/assets/thumb/d7c401446d7bdf6e14a478fed1de03b9-thumbnail.jpg",
+            "blurhash": "LQDk_[_#EICTOtNFa{ogIpocn%WD",
+            "colors": [
+              "#6c0000",
+              "#005278"
+            ],
+            "uri_name": "conmebol-sudamericana/2026-04-17/tig-mac",
+            "starts_at": 1776376800,
+            "ends_at": 1776385800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/conmebol-sudamericana/2026-04-17/tig-mac",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 20519,
+            "name": "Flamengo vs. Independiente Medellín",
+            "tag": "CONMEBOL Libertadores",
+            "poster": "https://api.ppv.to/assets/thumb/5cc2493cd63efa79dab13698f16f268f-thumbnail.jpg",
+            "blurhash": "L4ITU%0x2s}]=K2sW;|Iu%Tx#mVE",
+            "colors": [
+              "#6c0000",
+              "#760000"
+            ],
+            "uri_name": "conmebol-libertadores/2026-04-17/fla-dim",
+            "starts_at": 1776385800,
+            "ends_at": 1776394800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/conmebol-libertadores/2026-04-17/fla-dim",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 20520,
+            "name": "Peñarol vs. Platense",
+            "tag": "CONMEBOL Libertadores",
+            "poster": "https://api.ppv.to/assets/thumb/f211564727298f5e68f680ebe0bdcac2-thumbnail.jpg",
+            "blurhash": "L36k9SH;ax%%R-R-WBt600%jj[I7",
+            "colors": [
+              "#000000",
+              "#000000"
+            ],
+            "uri_name": "conmebol-libertadores/2026-04-17/pen-pla",
+            "starts_at": 1776385800,
+            "ends_at": 1776394800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/conmebol-libertadores/2026-04-17/pen-pla",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 20523,
+            "name": "Red Bull Bragantino vs. Blooming",
+            "tag": "CONMEBOL Sudamericana",
+            "poster": "https://api.ppv.to/assets/thumb/ebfdc5eb464fe7ff98dbac1b80677530-thumbnail.jpg",
+            "blurhash": "L36*K}}SWB5rxan,fQWn000%az}n",
+            "colors": [
+              "#000000",
+              "#121212"
+            ],
+            "uri_name": "conmebol-sudamericana/2026-04-17/bra-blo",
+            "starts_at": 1776385800,
+            "ends_at": 1776394800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/conmebol-sudamericana/2026-04-17/bra-blo",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 20524,
+            "name": "San Lorenzo vs. Deportivo Cuenca",
+            "tag": "CONMEBOL Sudamericana",
+            "poster": "https://api.ppv.to/assets/thumb/dc35a7a7f2ce60341cf8b69d82ed6095-thumbnail.jpg",
+            "blurhash": "LeG$G_2|AS[l#jNra{sqaPSibIs9",
+            "colors": [
+              "#003382",
+              "#890000"
+            ],
+            "uri_name": "conmebol-sudamericana/2026-04-17/slo-clu",
+            "starts_at": 1776385800,
+            "ends_at": 1776394800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/conmebol-sudamericana/2026-04-17/slo-clu",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 20525,
+            "name": "Cienciano del Cusco vs. Academia Puerto Cabello",
+            "tag": "CONMEBOL Sudamericana",
+            "poster": "https://api.ppv.to/assets/thumb/955e3b157b2d509c9dc90f487210864c-thumbnail.jpg",
+            "blurhash": "LODsnL|_E}AWJ,N[a|sVM{rsn%S#",
+            "colors": [
+              "#6c0000",
+              "#121212"
+            ],
+            "uri_name": "conmebol-sudamericana/2026-04-17/cie-cab",
+            "starts_at": 1776391200,
+            "ends_at": 1776400200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/conmebol-sudamericana/2026-04-17/cie-cab",
             "viewers": "0",
             "substreams": []
           },
@@ -1746,7 +2020,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-south-park",
-            "viewers": "7",
+            "viewers": "10",
             "substreams": []
           },
           {
@@ -1806,7 +2080,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-the-simpsons",
-            "viewers": "3",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1826,7 +2100,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-spongebob-squarepants",
-            "viewers": "0",
+            "viewers": "3",
             "substreams": []
           },
           {
@@ -1846,7 +2120,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/rally-tv",
-            "viewers": "3",
+            "viewers": "4",
             "substreams": []
           }
         ]
