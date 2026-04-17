@@ -1,32 +1,92 @@
 {
   "metadata": {
-    "fetched_at": "2026-04-17T07:24:35.728668Z",
+    "fetched_at": "2026-04-17T13:05:56.985462Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-04-17T08:06:12.749057",
-      "total_streams": 88,
+      "extracted_at": "2026-04-17T13:10:30.555179",
+      "total_streams": 97,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 88,
-        "successful_requests": 88,
+        "total_requests": 97,
+        "successful_requests": 97,
         "failed_requests": 0,
-        "elapsed_time_seconds": 248.2
+        "elapsed_time_seconds": 257.01
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1776410680,
+    "timestamp": 1776431160,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.032173871994018555,
+    "performance": 0.03346109390258789,
     "streams": [
       {
         "category": "American Football",
         "id": 26,
         "always_live": false,
         "streams": [
+          {
+            "id": 20553,
+            "name": "Dallas Renegades vs. Columbus Aviators",
+            "tag": "FOX",
+            "poster": "https://api.ppv.to/assets/thumb/1eb8283ca792a3f70833f46b42371076-thumbnail.jpg",
+            "blurhash": "LS7y3Spyj@ngfQfkfQfQI8r;bHRj",
+            "colors": [
+              "#69b3e7",
+              "#0c2340"
+            ],
+            "uri_name": "ufl/2026-04-17/dal-clb",
+            "starts_at": 1776470400,
+            "ends_at": 1776483000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.eu/embed/ufl/2026-04-17/dal-clb",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 20554,
+            "name": "St. Louis Battlehawks vs. DC Defenders",
+            "tag": "ABC",
+            "poster": "https://api.ppv.to/assets/thumb/9ff792b7129c940649e23b7ee00ce4f5-thumbnail.jpg",
+            "blurhash": "LBCqJ^1Ray}XoLayfQj[0c}WW;EL",
+            "colors": [
+              "#002677",
+              "#c8102e"
+            ],
+            "uri_name": "ufl/2026-04-18/stl-dc",
+            "starts_at": 1776529800,
+            "ends_at": 1776542400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.eu/embed/ufl/2026-04-18/stl-dc",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 20555,
+            "name": "Orlando Storm vs. Birmingham Stallions",
+            "tag": "FOX",
+            "poster": "https://api.ppv.to/assets/thumb/1118c8acbb1aab801a18448cef5246ea-thumbnail.jpg",
+            "blurhash": "LMHRfJ|?j[Sho1j@jtjZ0}OXjZR+",
+            "colors": [
+              "#fe5000",
+              "#a32035"
+            ],
+            "uri_name": "ufl/2026-04-18/orl-bham",
+            "starts_at": 1776542400,
+            "ends_at": 1776555000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.eu/embed/ufl/2026-04-18/orl-bham",
+            "viewers": "0",
+            "substreams": []
+          },
           {
             "id": 20527,
             "name": "2026 NFL Draft - Day 1",
@@ -445,7 +505,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-04-17/cha-orl",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -465,7 +525,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-04-17/gs-phx",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           }
         ]
@@ -475,6 +535,26 @@
         "id": 33,
         "always_live": false,
         "streams": [
+          {
+            "id": 20562,
+            "name": "KSW 117: Pawlak vs. Chalidow",
+            "tag": "PPV",
+            "poster": "https://api.ppv.to/assets/thumb/61846e33d54954cc285e2916e42e5832-thumbnail.jpg",
+            "blurhash": "LHGud%WA4mWV00%2%Mn%.ms:R5R*",
+            "colors": [
+              "#745a5b",
+              "#7a6a6b"
+            ],
+            "uri_name": "ksw-117-pawlak-vs.-chalidow",
+            "starts_at": 1776529800,
+            "ends_at": 1776551400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Combat Sports",
+            "iframe": "https://pooembed.eu/embed/ksw-117-pawlak-vs.-chalidow",
+            "viewers": "0",
+            "substreams": []
+          },
           {
             "id": 20530,
             "name": "Whittaker vs. Suarez",
@@ -492,7 +572,7 @@
             "locale": "en",
             "category_name": "Combat Sports",
             "iframe": "https://pooembed.eu/embed/whittaker-vs.-suarez",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           }
         ]
@@ -519,7 +599,7 @@
             "locale": "en",
             "category_name": "Cricket",
             "iframe": "https://pooembed.eu/embed/ipl/2026-04-17/gt-kkr",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -559,6 +639,133 @@
             "locale": "en",
             "category_name": "Cricket",
             "iframe": "https://pooembed.eu/embed/ipl/2026-04-18/srh-csk",
+            "viewers": "1",
+            "substreams": []
+          }
+        ]
+      },
+      {
+        "category": "Darts",
+        "id": 32,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 20556,
+            "name": "European Darts Grand Prix | Day 1 - Afternoon Session",
+            "tag": "PDC.TV",
+            "poster": "https://api.ppv.to/assets/thumb/fc95a728710d04a9889239cfbc7ec835-thumbnail.jpg",
+            "blurhash": "LFD-EFzY}^B|+PP7t7Dj004nD%%M",
+            "colors": [
+              "#03151f",
+              "#050b17"
+            ],
+            "uri_name": "european-darts-grand-prix-|-day-1---afternoon-session",
+            "starts_at": 1776423600,
+            "ends_at": 1776438000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Darts",
+            "iframe": "https://pooembed.eu/embed/european-darts-grand-prix-|-day-1---afternoon-session",
+            "viewers": "73",
+            "substreams": []
+          },
+          {
+            "id": 20557,
+            "name": "European Darts Grand Prix | Day 1 - Evening Session",
+            "tag": "PDC.TV",
+            "poster": "https://api.ppv.to/assets/thumb/fc95a728710d04a9889239cfbc7ec835-thumbnail.jpg",
+            "blurhash": "LFD-EFzY}^B|+PP7t7Dj004nD%%M",
+            "colors": [
+              "#03151f",
+              "#050b17"
+            ],
+            "uri_name": "european-darts-grand-prix-|-day-1---evening-session",
+            "starts_at": 1776445200,
+            "ends_at": 1776459600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Darts",
+            "iframe": "https://pooembed.eu/embed/european-darts-grand-prix-|-day-1---evening-session",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 20558,
+            "name": "European Darts Grand Prix | Day 2 - Afternoon Session",
+            "tag": "PDC.TV",
+            "poster": "https://api.ppv.to/assets/thumb/fc95a728710d04a9889239cfbc7ec835-thumbnail.jpg",
+            "blurhash": "LFD-EFzY}^B|+PP7t7Dj004nD%%M",
+            "colors": [
+              "#03151f",
+              "#050b17"
+            ],
+            "uri_name": "european-darts-grand-prix-|-day-2---afternoon-session",
+            "starts_at": 1776510000,
+            "ends_at": 1776524400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Darts",
+            "iframe": "https://pooembed.eu/embed/european-darts-grand-prix-|-day-2---afternoon-session",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 20559,
+            "name": "European Darts Grand Prix | Day 2 - Evening Session",
+            "tag": "PDC.TV",
+            "poster": "https://api.ppv.to/assets/thumb/fc95a728710d04a9889239cfbc7ec835-thumbnail.jpg",
+            "blurhash": "LFD-EFzY}^B|+PP7t7Dj004nD%%M",
+            "colors": [
+              "#03151f",
+              "#050b17"
+            ],
+            "uri_name": "european-darts-grand-prix-|-day-2---evening-session",
+            "starts_at": 1776531600,
+            "ends_at": 1776546000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Darts",
+            "iframe": "https://pooembed.eu/embed/european-darts-grand-prix-|-day-2---evening-session",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 20560,
+            "name": "European Darts Grand Prix | Day 3 - Afternoon Session",
+            "tag": "PDC.TV",
+            "poster": "https://api.ppv.to/assets/thumb/fc95a728710d04a9889239cfbc7ec835-thumbnail.jpg",
+            "blurhash": "LFD-EFzY}^B|+PP7t7Dj004nD%%M",
+            "colors": [
+              "#03151f",
+              "#050b17"
+            ],
+            "uri_name": "european-darts-grand-prix-|-day-3---afternoon-session",
+            "starts_at": 1776592800,
+            "ends_at": 1776607200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Darts",
+            "iframe": "https://pooembed.eu/embed/european-darts-grand-prix-|-day-3---afternoon-session",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 20561,
+            "name": "European Darts Grand Prix | Day 3 - Evening Session",
+            "tag": "PDC.TV",
+            "poster": "https://api.ppv.to/assets/thumb/fc95a728710d04a9889239cfbc7ec835-thumbnail.jpg",
+            "blurhash": "LFD-EFzY}^B|+PP7t7Dj004nD%%M",
+            "colors": [
+              "#03151f",
+              "#050b17"
+            ],
+            "uri_name": "european-darts-grand-prix-|-day-3---evening-session",
+            "starts_at": 1776614400,
+            "ends_at": 1776628800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Darts",
+            "iframe": "https://pooembed.eu/embed/european-darts-grand-prix-|-day-3---evening-session",
             "viewers": "0",
             "substreams": []
           }
@@ -606,7 +813,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/bundesliga/2026-04-17/stp-koe",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1677,26 +1884,6 @@
             "substreams": []
           },
           {
-            "id": 20411,
-            "name": "AEW: Saturday Night Collision",
-            "tag": "TNT",
-            "poster": "https://api.ppv.to/assets/thumb/6e29b1bb679dd5133c85bbaadc2c4b13-thumbnail.jpg",
-            "blurhash": "LDDk_9Na01of}mNwNMbF0TS#^cae",
-            "colors": [
-              "#210e10",
-              "#160c0a"
-            ],
-            "uri_name": "aew/collision/2026-04-18",
-            "starts_at": 1776556800,
-            "ends_at": 1776567600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Wrestling",
-            "iframe": "https://pooembed.eu/embed/aew/collision/2026-04-18",
-            "viewers": "1",
-            "substreams": []
-          },
-          {
             "id": 20533,
             "name": "WrestleMania 42 (Night 2)",
             "tag": "ESPN Unlimited",
@@ -1760,7 +1947,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-cows",
-            "viewers": "0",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -1780,7 +1967,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-family-guy",
-            "viewers": "35",
+            "viewers": "33",
             "substreams": []
           },
           {
@@ -1820,7 +2007,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-spongebob-squarepants",
-            "viewers": "9",
+            "viewers": "10",
             "substreams": []
           },
           {
