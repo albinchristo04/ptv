@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2026-04-23T13:13:58.212702Z",
+    "fetched_at": "2026-04-23T19:00:09.053839Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-04-23T14:11:59.665609",
-      "total_streams": 101,
+      "extracted_at": "2026-04-23T19:05:39.640608",
+      "total_streams": 104,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 101,
-        "successful_requests": 101,
+        "total_requests": 104,
+        "successful_requests": 104,
         "failed_requests": 0,
-        "elapsed_time_seconds": 300.79
+        "elapsed_time_seconds": 312.72
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1776950040,
+    "timestamp": 1776970810,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.03342103958129883,
+    "performance": 0.034481048583984375,
     "streams": [
       {
         "category": "American Football",
@@ -44,7 +44,7 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://pooembed.eu/embed/2026-nfl-draft---day-1",
-            "viewers": "2",
+            "viewers": "5",
             "substreams": []
           },
           {
@@ -64,7 +64,7 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://pooembed.eu/embed/2026-nfl-draft---day-2",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -84,7 +84,7 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://pooembed.eu/embed/ufl/2026-04-24/dc-bham",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -191,7 +191,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://pooembed.eu/embed/mlb/2026-04-23/atl-wsh",
-            "viewers": "0",
+            "viewers": "265",
             "substreams": []
           },
           {
@@ -211,7 +211,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://pooembed.eu/embed/mlb/2026-04-23/mil-det",
-            "viewers": "0",
+            "viewers": "208",
             "substreams": []
           },
           {
@@ -231,7 +231,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://pooembed.eu/embed/mlb/2026-04-23/phi-chc",
-            "viewers": "0",
+            "viewers": "241",
             "substreams": []
           },
           {
@@ -291,7 +291,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://pooembed.eu/embed/mlb/2026-04-23/lad-sf",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -378,7 +378,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-04-23/ny-atl",
-            "viewers": "0",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -429,26 +429,6 @@
         "always_live": false,
         "streams": [
           {
-            "id": 20801,
-            "name": "Mumbai Indians vs. Chennai Super Kings",
-            "tag": "Indian Premier League",
-            "poster": "https://api.ppv.to/assets/thumb/5e52049cea45c6250b9d7150cda86604-thumbnail.jpg",
-            "blurhash": "LDEB?90u,@RioIWXjZjs00wFSh%1",
-            "colors": [
-              "#004b8d",
-              "#f5ae0c"
-            ],
-            "uri_name": "ipl/2026-04-23/mi-csk",
-            "starts_at": 1776952800,
-            "ends_at": 1776967200,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Cricket",
-            "iframe": "https://pooembed.eu/embed/ipl/2026-04-23/mi-csk",
-            "viewers": "4",
-            "substreams": []
-          },
-          {
             "id": 20833,
             "name": "Royal Challengers Bengaluru vs. Gujarat Titans",
             "tag": "Indian Premier League",
@@ -492,7 +472,7 @@
             "locale": "en",
             "category_name": "Darts",
             "iframe": "https://pooembed.eu/embed/darts/2026/premier-league/night-12",
-            "viewers": "2",
+            "viewers": "614",
             "substreams": []
           },
           {
@@ -512,7 +492,7 @@
             "locale": "en",
             "category_name": "Darts",
             "iframe": "https://pooembed.eu/embed/darts/2026/players-championship-12",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": [
               {
                 "id": 20821,
@@ -561,7 +541,27 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/laliga/2026-04-23/lev-sev",
-            "viewers": "1",
+            "viewers": "108",
+            "substreams": []
+          },
+          {
+            "id": 20844,
+            "name": "GAIS vs. Mjällby AIF",
+            "tag": "Swedish Allsvenskan",
+            "poster": "https://api.ppv.to/assets/thumb/b7ba3b90f6867940b7f737841ce24a84-thumbnail.jpg",
+            "blurhash": "LD7ekDy-o{Nbsnn*fQW;0PM}WCr@",
+            "colors": [
+              "#029d59",
+              "#231f20"
+            ],
+            "uri_name": "swedish-allsvenskan/2026-04-23/gais-mja",
+            "starts_at": 1776963600,
+            "ends_at": 1776972600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/swedish-allsvenskan/2026-04-23/gais-mja",
+            "viewers": "17",
             "substreams": []
           },
           {
@@ -581,7 +581,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/laliga/2026-04-23/ray-esp",
-            "viewers": "0",
+            "viewers": "24",
             "substreams": []
           },
           {
@@ -601,7 +601,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/german-cup/2026-04-23/vfb-scf",
-            "viewers": "0",
+            "viewers": "177",
             "substreams": []
           },
           {
@@ -681,7 +681,7 @@
             "locale": "fr",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/ligue1/2026-04-24/bre-rcl",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -701,7 +701,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/laliga/2026-04-24/bet-rma",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -1852,6 +1852,26 @@
         "always_live": false,
         "streams": [
           {
+            "id": 20841,
+            "name": "Ilves vs Tappara | Game 4",
+            "tag": "Finnish Liiga",
+            "poster": "https://api.ppv.to/assets/thumb/d3c2a676a20b0c31642eacda93f558fd-thumbnail.jpg",
+            "blurhash": "LGPi-ft6-qV]Q7ozyCRiquf64nj]",
+            "colors": [
+              "#bdbdbd",
+              "#bebebe"
+            ],
+            "uri_name": "liiga/2026-04-23/ilv-tap",
+            "starts_at": 1776958200,
+            "ends_at": 1776972600,
+            "always_live": 0,
+            "locale": "fi",
+            "category_name": "Ice Hockey",
+            "iframe": "https://pooembed.eu/embed/liiga/2026-04-23/ilv-tap",
+            "viewers": "2",
+            "substreams": []
+          },
+          {
             "id": 20826,
             "name": "Buffalo Sabres vs. Boston Bruins",
             "tag": "NESN",
@@ -1868,7 +1888,7 @@
             "locale": "en",
             "category_name": "Ice Hockey",
             "iframe": "https://pooembed.eu/embed/nhl/2026-04-23/buf-bos",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1935,7 +1955,54 @@
             "locale": "en",
             "category_name": "Motorsports",
             "iframe": "https://pooembed.eu/embed/smx-wk15",
-            "viewers": "1",
+            "viewers": "2",
+            "substreams": []
+          }
+        ]
+      },
+      {
+        "category": "Rugby",
+        "id": 42,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 20842,
+            "name": "Stormers vs. Glasgow Warriors",
+            "tag": "United Rugby Championship",
+            "poster": "https://api.ppv.to/assets/thumb/9e73ff533b6ff7579ed7caf95b63a88d-thumbnail.jpg",
+            "blurhash": "L54U~n-@kCELS6WYjtoI4,Imf6$*",
+            "colors": [
+              "#013567",
+              "#000032"
+            ],
+            "uri_name": "united-rugby-championship/2026-04-25/sto-gla",
+            "starts_at": 1777117500,
+            "ends_at": 1777131900,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Rugby",
+            "iframe": "https://pooembed.eu/embed/united-rugby-championship/2026-04-25/sto-gla",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 20843,
+            "name": "Lions vs. Connacht",
+            "tag": "United Rugby Championship",
+            "poster": "https://api.ppv.to/assets/thumb/8d83b0442e11e3c773173f99e86062d8-thumbnail.jpg",
+            "blurhash": "LTB-_1{ixFN[oLoLfQay9]J*S2oL",
+            "colors": [
+              "#cc0001",
+              "#036735"
+            ],
+            "uri_name": "united-rugby-championship/2026-04-25/lio-con",
+            "starts_at": 1777125600,
+            "ends_at": 1777140000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Rugby",
+            "iframe": "https://pooembed.eu/embed/united-rugby-championship/2026-04-25/lio-con",
+            "viewers": "0",
             "substreams": []
           }
         ]
@@ -2029,7 +2096,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-south-park",
-            "viewers": "11",
+            "viewers": "9",
             "substreams": []
           },
           {
@@ -2069,7 +2136,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-family-guy",
-            "viewers": "32",
+            "viewers": "38",
             "substreams": []
           },
           {
@@ -2089,7 +2156,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-the-simpsons",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -2109,7 +2176,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-spongebob-squarepants",
-            "viewers": "1",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -2129,7 +2196,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/rally-tv",
-            "viewers": "3",
+            "viewers": "12",
             "substreams": []
           }
         ]
