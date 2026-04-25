@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2026-04-25T07:06:06.061793Z",
+    "fetched_at": "2026-04-25T12:52:35.853166Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-04-25T07:47:32.634821",
-      "total_streams": 97,
+      "extracted_at": "2026-04-25T12:58:10.847497",
+      "total_streams": 104,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 97,
-        "successful_requests": 97,
+        "total_requests": 104,
+        "successful_requests": 104,
         "failed_requests": 0,
-        "elapsed_time_seconds": 296.49
+        "elapsed_time_seconds": 318.44
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1777100770,
+    "timestamp": 1777121560,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.038478851318359375,
+    "performance": 0.03496503829956055,
     "streams": [
       {
         "category": "American Football",
@@ -44,7 +44,7 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://pooembed.eu/embed/2026-nfl-draft---day-3",
-            "viewers": "1",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -438,7 +438,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-04-25/det-orl",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -458,7 +458,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-04-25/okc-phx",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -504,6 +504,88 @@
         ]
       },
       {
+        "category": "Combat Sports",
+        "id": 33,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 20897,
+            "name": "OKTAGON 87",
+            "tag": "OKTAGON.TV",
+            "poster": "https://api.ppv.to/assets/thumb/a2ac5553ad3556097975bb4694bc189b-thumbnail.jpg",
+            "blurhash": "L5N8]c01vMDi000,029s00_M1Ro_",
+            "colors": [
+              "#de9079",
+              "#b29da4"
+            ],
+            "uri_name": "oktagon-87",
+            "starts_at": 1777132800,
+            "ends_at": 1777154400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Combat Sports",
+            "iframe": "https://pooembed.eu/embed/oktagon-87",
+            "viewers": "1",
+            "substreams": [
+              {
+                "id": 20898,
+                "name": "OKTAGON 87",
+                "tag": "Deutsch",
+                "locale": "de",
+                "iframe": "https://pooembed.eu/embed/oktagon-87/de"
+              },
+              {
+                "id": 20899,
+                "name": "OKTAGON 87",
+                "tag": "Čeština",
+                "locale": "cs-CZ",
+                "iframe": "https://pooembed.eu/embed/oktagon-87/cs"
+              }
+            ]
+          },
+          {
+            "id": 20900,
+            "name": "GLORY 107: Wisse vs. Kwasi",
+            "tag": "PPV",
+            "poster": "https://api.ppv.to/assets/thumb/3fcbac02bb167b34f42175bdfe5e0e0f-thumbnail.jpg",
+            "blurhash": "L6CimwD+L}SM?GM|D*Ri00xt_Ns:",
+            "colors": [
+              "#03080e",
+              "#050e17"
+            ],
+            "uri_name": "glory-107",
+            "starts_at": 1777140000,
+            "ends_at": 1777161600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Combat Sports",
+            "iframe": "https://pooembed.eu/embed/glory-107",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 20896,
+            "name": "UFC Fight Night: Sterling vs. Zalal",
+            "tag": "Paramount+",
+            "poster": "https://api.ppv.to/assets/thumb/61b473e48d4f520777df5621e025abc8-thumbnail.jpg",
+            "blurhash": "L4CY:i028wnM0f-TD*tR00^*~qM}",
+            "colors": [
+              "#010101",
+              "#141414"
+            ],
+            "uri_name": "ufc-fight-night-sterling-vs.-zalal",
+            "starts_at": 1777150800,
+            "ends_at": 1777186800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Combat Sports",
+            "iframe": "https://pooembed.eu/embed/ufc-fight-night-sterling-vs.-zalal",
+            "viewers": "0",
+            "substreams": []
+          }
+        ]
+      },
+      {
         "category": "Cricket",
         "id": 47,
         "always_live": false,
@@ -525,7 +607,7 @@
             "locale": "en",
             "category_name": "Cricket",
             "iframe": "https://pooembed.eu/embed/ipl/2026-04-25/dc-pbks",
-            "viewers": "0",
+            "viewers": "373",
             "substreams": []
           },
           {
@@ -661,7 +743,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/national-league/2026-04-25/rch-york",
-            "viewers": "1",
+            "viewers": "581",
             "substreams": []
           },
           {
@@ -681,7 +763,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/pl/2026-04-25/ful-avl",
-            "viewers": "1",
+            "viewers": "2197",
             "substreams": []
           },
           {
@@ -701,7 +783,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/laliga/2026-04-25/ala-mll",
-            "viewers": "0",
+            "viewers": "10",
             "substreams": []
           },
           {
@@ -721,7 +803,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/seriea/2026-04-25/par-pis",
-            "viewers": "0",
+            "viewers": "3",
             "substreams": []
           },
           {
@@ -741,7 +823,7 @@
             "locale": "fr",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/ligue1/2026-04-25/lyon-aux",
-            "viewers": "1",
+            "viewers": "33",
             "substreams": []
           },
           {
@@ -821,7 +903,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/bundesliga/2026-04-25/m05-mun",
-            "viewers": "1",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -845,6 +927,26 @@
             "substreams": []
           },
           {
+            "id": 5193,
+            "name": "Goal Rush",
+            "tag": "Premier League",
+            "poster": "https://api.ppv.to/assets/thumb/e94e4857435183cbcfa868d0dc8981d7-thumbnail.jpg",
+            "blurhash": "L25z@9ju00j[offQWBj[0Jfj_4ay",
+            "colors": [
+              "#250f37",
+              "#250f37"
+            ],
+            "uri_name": "pl/goal-rush",
+            "starts_at": 1777125600,
+            "ends_at": 1777134600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/pl/goal-rush",
+            "viewers": "1",
+            "substreams": []
+          },
+          {
             "id": 20696,
             "name": "Liverpool vs. Crystal Palace",
             "tag": "Premier League",
@@ -861,7 +963,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/pl/2026-04-25/liv-cry",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -881,7 +983,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/pl/2026-04-25/whu-eve",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -901,7 +1003,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/pl/2026-04-25/wol-tot",
-            "viewers": "1",
+            "viewers": "4",
             "substreams": []
           },
           {
@@ -921,7 +1023,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/laliga/2026-04-25/get-bar",
-            "viewers": "1",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -941,7 +1043,27 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/seriea/2026-04-25/bol-roma",
-            "viewers": "1",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 20901,
+            "name": "Manchester City vs. Southampton",
+            "tag": "English FA Cup",
+            "poster": "https://api.ppv.to/assets/thumb/4a328fe7138ccd53c8a1a2bbf131983e-thumbnail.jpg",
+            "blurhash": "LWGtU2C,o#WAj[a|jtj[0drWWBsS",
+            "colors": [
+              "#98c4e7",
+              "#ed1c3c"
+            ],
+            "uri_name": "english-fa-cup/2026-04-25/mnc-sou",
+            "starts_at": 1777133700,
+            "ends_at": 1777142700,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/english-fa-cup/2026-04-25/mnc-sou",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -1021,7 +1143,7 @@
             "locale": "fr",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/ligue1/2026-04-25/ang-psg",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -1121,7 +1243,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/laliga/2026-04-25/atm-ath",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -1141,7 +1263,7 @@
             "locale": "fr",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/ligue1/2026-04-25/tou-mon",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -1385,6 +1507,26 @@
             "substreams": []
           },
           {
+            "id": 20895,
+            "name": "Coventry City vs. Wrexham",
+            "tag": "EFL Championship",
+            "poster": "https://api.ppv.to/assets/thumb/bb89e3abad2405d40b901fbf54953e5f-thumbnail.jpg",
+            "blurhash": "LWE.L-LgS$ayf7j[fQay4.rWs.nh",
+            "colors": [
+              "#87cced",
+              "#c8142f"
+            ],
+            "uri_name": "efl-championship/2026-04-26/cov-wxm",
+            "starts_at": 1777201200,
+            "ends_at": 1777210200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/efl-championship/2026-04-26/cov-wxm",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
             "id": 20677,
             "name": "Rayo Vallecano vs. Real Sociedad",
             "tag": "LaLiga",
@@ -1401,7 +1543,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/laliga/2026-04-26/ray-rso",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -1441,7 +1583,7 @@
             "locale": "fr",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/ligue1/2026-04-26/lor-str",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -1461,6 +1603,26 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/bundesliga/2026-04-26/vfb-svw",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 20902,
+            "name": "Chelsea vs. Leeds United",
+            "tag": "English FA Cup",
+            "poster": "https://api.ppv.to/assets/thumb/b9ac80f1dddc5507b2e8462317a2e598-thumbnail.jpg",
+            "blurhash": "L7E:DA00~oITWEofo0Rk00_0D%_3",
+            "colors": [
+              "#144891",
+              "#ffffff"
+            ],
+            "uri_name": "english-fa-cup/2026-04-26/che-lee",
+            "starts_at": 1777212000,
+            "ends_at": 1777221000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/english-fa-cup/2026-04-26/che-lee",
             "viewers": "0",
             "substreams": []
           },
@@ -1521,7 +1683,7 @@
             "locale": "fr",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/ligue1/2026-04-26/par-lill",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -1561,7 +1723,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/bundesliga/2026-04-26/dor-scf",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -1581,7 +1743,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/seriea/2026-04-26/tor-int",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -1621,7 +1783,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/seriea/2026-04-26/mil-juv",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -1641,7 +1803,7 @@
             "locale": "fr",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/ligue1/2026-04-26/olm-nice",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -1661,7 +1823,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/laliga/2026-04-26/vil-cel",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -1701,7 +1863,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/seriea/2026-04-27/cag-ata",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -1721,7 +1883,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/seriea/2026-04-27/laz-udi",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -1761,7 +1923,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/pl/2026-04-27/man-bre",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           }
         ]
@@ -1882,7 +2044,7 @@
             "locale": "en",
             "category_name": "Rugby",
             "iframe": "https://pooembed.eu/embed/united-rugby-championship/2026-04-25/sto-gla",
-            "viewers": "0",
+            "viewers": "4",
             "substreams": []
           },
           {
@@ -1956,7 +2118,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-south-park",
-            "viewers": "21",
+            "viewers": "24",
             "substreams": []
           },
           {
@@ -1976,7 +2138,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-cows",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1996,7 +2158,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-family-guy",
-            "viewers": "29",
+            "viewers": "21",
             "substreams": []
           },
           {
@@ -2036,7 +2198,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-spongebob-squarepants",
-            "viewers": "6",
+            "viewers": "3",
             "substreams": []
           },
           {
@@ -2056,7 +2218,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/rally-tv",
-            "viewers": "12",
+            "viewers": "22",
             "substreams": []
           }
         ]
