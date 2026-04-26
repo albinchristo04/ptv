@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-26T13:07:20.571Z",
-  "total_events": 63,
+  "generated_at": "2026-04-26T18:55:43.925Z",
+  "total_events": 56,
   "categories": [
     {
       "id": 26,
@@ -12,6 +12,18 @@
         "title": "American Football EN VIVO - Tarjeta Roja TV",
         "description": "Ver American Football en vivo gratis.",
         "keywords": "American Football, tarjeta roja, rojadirecta"
+      }
+    },
+    {
+      "id": 66,
+      "name": "Australian Football",
+      "slug": "australian-football",
+      "event_count": 9,
+      "always_live": false,
+      "meta": {
+        "title": "Australian Football EN VIVO - Tarjeta Roja TV",
+        "description": "Ver Australian Football en vivo gratis.",
+        "keywords": "Australian Football, tarjeta roja, rojadirecta"
       }
     },
     {
@@ -42,7 +54,7 @@
       "id": 47,
       "name": "Cricket",
       "slug": "cricket",
-      "event_count": 3,
+      "event_count": 1,
       "always_live": false,
       "meta": {
         "title": "Cricket EN VIVO - Tarjeta Roja TV",
@@ -66,7 +78,7 @@
       "id": 34,
       "name": "Football",
       "slug": "football",
-      "event_count": 27,
+      "event_count": 12,
       "always_live": false,
       "meta": {
         "title": "Football EN VIVO - Tarjeta Roja TV",
@@ -84,6 +96,18 @@
         "title": "Ice Hockey EN VIVO - Tarjeta Roja TV",
         "description": "Ver Ice Hockey en vivo gratis.",
         "keywords": "Ice Hockey, tarjeta roja, rojadirecta"
+      }
+    },
+    {
+      "id": 35,
+      "name": "Motorsports",
+      "slug": "motorsports",
+      "event_count": 1,
+      "always_live": false,
+      "meta": {
+        "title": "Motorsports EN VIVO - Tarjeta Roja TV",
+        "description": "Ver Motorsports en vivo gratis.",
+        "keywords": "Motorsports, tarjeta roja, rojadirecta"
       }
     },
     {
@@ -191,13 +215,13 @@
         "start_time": "2026-04-26T16:00:00.000Z",
         "end_time": "2026-04-26T19:30:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "35",
         "home_team": "Columbus Aviators",
         "away_team": "Houston Gamblers"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.572Z",
+        "last_modified": "2026-04-26T18:55:43.926Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -303,13 +327,967 @@
         "away_team": "Dallas Renegades"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.572Z",
+        "last_modified": "2026-04-26T18:55:43.926Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
         "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Louisville Kings vs. Dallas Renegades, Louisville Kings"
+      }
+    },
+    {
+      "id": 20938,
+      "slug": "hawthorn-vs-collingwood",
+      "uri_name": "afl/2026-04-30/coll-haw",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/afl/2026-04-30/coll-haw",
+      "meta": {
+        "title": "Hawthorn vs. Collingwood EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Hawthorn vs. Collingwood en vivo gratis por Tarjeta Roja TV. Hawthorn vs Collingwood transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Hawthorn vs. Collingwood, Hawthorn, Collingwood, Australian Football, ver online gratis, en vivo gratis, Fox Footy",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-04-30/coll-haw",
+        "title": "Hawthorn vs. Collingwood EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Hawthorn vs. Collingwood en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/6a57202784f7739362fc4a1b42df82fb-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Hawthorn vs. Collingwood EN VIVO",
+        "description": "Ver Hawthorn vs. Collingwood en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/6a57202784f7739362fc4a1b42df82fb-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Hawthorn vs. Collingwood",
+        "description": "Transmisión en vivo de Hawthorn vs. Collingwood",
+        "startDate": "2026-04-30T09:30:00.000Z",
+        "endDate": "2026-04-30T12:30:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-04-30/coll-haw"
+        },
+        "image": "https://api.ppv.to/assets/thumb/6a57202784f7739362fc4a1b42df82fb-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Hawthorn"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Collingwood"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Hawthorn"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Collingwood"
+        },
+        "sport": "Australian Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Australian Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/australian-football"
+          },
+          {
+            "name": "Hawthorn vs. Collingwood",
+            "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-04-30/coll-haw"
+          }
+        ],
+        "h1": "Hawthorn vs. Collingwood EN VIVO",
+        "h2": "Ver Hawthorn vs. Collingwood Online Gratis"
+      },
+      "event": {
+        "name": "Hawthorn vs. Collingwood",
+        "category": "Australian Football",
+        "broadcaster": "Fox Footy",
+        "start_time": "2026-04-30T09:30:00.000Z",
+        "end_time": "2026-04-30T12:30:00.000Z",
+        "duration_minutes": 180,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Hawthorn",
+        "away_team": "Collingwood"
+      },
+      "technical": {
+        "last_modified": "2026-04-26T18:55:43.926Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Hawthorn vs. Collingwood, Hawthorn"
+      }
+    },
+    {
+      "id": 20939,
+      "slug": "fremantle-vs-western-bulldogs",
+      "uri_name": "afl/2026-05-01/wb-fre",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-01/wb-fre",
+      "meta": {
+        "title": "Fremantle vs. Western Bulldogs EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Fremantle vs. Western Bulldogs en vivo gratis por Tarjeta Roja TV. Fremantle vs Western Bulldogs transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Fremantle vs. Western Bulldogs, Fremantle, Western Bulldogs, Australian Football, ver online gratis, en vivo gratis, Fox Footy",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-01/wb-fre",
+        "title": "Fremantle vs. Western Bulldogs EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Fremantle vs. Western Bulldogs en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/e3dafbdd7e33e2d928c0a87edbae925a-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Fremantle vs. Western Bulldogs EN VIVO",
+        "description": "Ver Fremantle vs. Western Bulldogs en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/e3dafbdd7e33e2d928c0a87edbae925a-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Fremantle vs. Western Bulldogs",
+        "description": "Transmisión en vivo de Fremantle vs. Western Bulldogs",
+        "startDate": "2026-05-01T09:30:00.000Z",
+        "endDate": "2026-05-01T12:30:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-01/wb-fre"
+        },
+        "image": "https://api.ppv.to/assets/thumb/e3dafbdd7e33e2d928c0a87edbae925a-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Fremantle"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Western Bulldogs"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Fremantle"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Western Bulldogs"
+        },
+        "sport": "Australian Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Australian Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/australian-football"
+          },
+          {
+            "name": "Fremantle vs. Western Bulldogs",
+            "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-01/wb-fre"
+          }
+        ],
+        "h1": "Fremantle vs. Western Bulldogs EN VIVO",
+        "h2": "Ver Fremantle vs. Western Bulldogs Online Gratis"
+      },
+      "event": {
+        "name": "Fremantle vs. Western Bulldogs",
+        "category": "Australian Football",
+        "broadcaster": "Fox Footy",
+        "start_time": "2026-05-01T09:30:00.000Z",
+        "end_time": "2026-05-01T12:30:00.000Z",
+        "duration_minutes": 180,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Fremantle",
+        "away_team": "Western Bulldogs"
+      },
+      "technical": {
+        "last_modified": "2026-04-26T18:55:43.926Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Fremantle vs. Western Bulldogs, Fremantle"
+      }
+    },
+    {
+      "id": 20940,
+      "slug": "port-adelaide-vs-adelaide-crows",
+      "uri_name": "afl/2026-05-01/adel-port",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-01/adel-port",
+      "meta": {
+        "title": "Port Adelaide vs. Adelaide Crows EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Port Adelaide vs. Adelaide Crows en vivo gratis por Tarjeta Roja TV. Port Adelaide vs Adelaide Crows transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Port Adelaide vs. Adelaide Crows, Port Adelaide, Adelaide Crows, Australian Football, ver online gratis, en vivo gratis, Fox Sports 503",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-01/adel-port",
+        "title": "Port Adelaide vs. Adelaide Crows EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Port Adelaide vs. Adelaide Crows en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/308d7e4ecad55794fa2ae8dd88b8dfd8-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Port Adelaide vs. Adelaide Crows EN VIVO",
+        "description": "Ver Port Adelaide vs. Adelaide Crows en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/308d7e4ecad55794fa2ae8dd88b8dfd8-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Port Adelaide vs. Adelaide Crows",
+        "description": "Transmisión en vivo de Port Adelaide vs. Adelaide Crows",
+        "startDate": "2026-05-01T10:10:00.000Z",
+        "endDate": "2026-05-01T13:10:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-01/adel-port"
+        },
+        "image": "https://api.ppv.to/assets/thumb/308d7e4ecad55794fa2ae8dd88b8dfd8-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Port Adelaide"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Adelaide Crows"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Port Adelaide"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Adelaide Crows"
+        },
+        "sport": "Australian Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Australian Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/australian-football"
+          },
+          {
+            "name": "Port Adelaide vs. Adelaide Crows",
+            "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-01/adel-port"
+          }
+        ],
+        "h1": "Port Adelaide vs. Adelaide Crows EN VIVO",
+        "h2": "Ver Port Adelaide vs. Adelaide Crows Online Gratis"
+      },
+      "event": {
+        "name": "Port Adelaide vs. Adelaide Crows",
+        "category": "Australian Football",
+        "broadcaster": "Fox Sports 503",
+        "start_time": "2026-05-01T10:10:00.000Z",
+        "end_time": "2026-05-01T13:10:00.000Z",
+        "duration_minutes": 180,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Port Adelaide",
+        "away_team": "Adelaide Crows"
+      },
+      "technical": {
+        "last_modified": "2026-04-26T18:55:43.926Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Port Adelaide vs. Adelaide Crows, Port Adelaide"
+      }
+    },
+    {
+      "id": 20941,
+      "slug": "brisbane-lions-vs-essendon",
+      "uri_name": "afl/2026-05-02/ess-bl",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-02/ess-bl",
+      "meta": {
+        "title": "Brisbane Lions vs. Essendon EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Brisbane Lions vs. Essendon en vivo gratis por Tarjeta Roja TV. Brisbane Lions vs Essendon transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Brisbane Lions vs. Essendon, Brisbane Lions, Essendon, Australian Football, ver online gratis, en vivo gratis, Fox Footy",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-02/ess-bl",
+        "title": "Brisbane Lions vs. Essendon EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Brisbane Lions vs. Essendon en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/1cbdf1e006cd3793f82529533f05d618-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Brisbane Lions vs. Essendon EN VIVO",
+        "description": "Ver Brisbane Lions vs. Essendon en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/1cbdf1e006cd3793f82529533f05d618-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Brisbane Lions vs. Essendon",
+        "description": "Transmisión en vivo de Brisbane Lions vs. Essendon",
+        "startDate": "2026-05-02T02:35:00.000Z",
+        "endDate": "2026-05-02T05:35:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-02/ess-bl"
+        },
+        "image": "https://api.ppv.to/assets/thumb/1cbdf1e006cd3793f82529533f05d618-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Brisbane Lions"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Essendon"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Brisbane Lions"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Essendon"
+        },
+        "sport": "Australian Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Australian Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/australian-football"
+          },
+          {
+            "name": "Brisbane Lions vs. Essendon",
+            "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-02/ess-bl"
+          }
+        ],
+        "h1": "Brisbane Lions vs. Essendon EN VIVO",
+        "h2": "Ver Brisbane Lions vs. Essendon Online Gratis"
+      },
+      "event": {
+        "name": "Brisbane Lions vs. Essendon",
+        "category": "Australian Football",
+        "broadcaster": "Fox Footy",
+        "start_time": "2026-05-02T02:35:00.000Z",
+        "end_time": "2026-05-02T05:35:00.000Z",
+        "duration_minutes": 180,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Brisbane Lions",
+        "away_team": "Essendon"
+      },
+      "technical": {
+        "last_modified": "2026-04-26T18:55:43.926Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Brisbane Lions vs. Essendon, Brisbane Lions"
+      }
+    },
+    {
+      "id": 20942,
+      "slug": "richmond-vs-west-coast-eagles",
+      "uri_name": "afl/2026-05-02/wce-rich",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-02/wce-rich",
+      "meta": {
+        "title": "Richmond vs. West Coast Eagles EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Richmond vs. West Coast Eagles en vivo gratis por Tarjeta Roja TV. Richmond vs West Coast Eagles transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Richmond vs. West Coast Eagles, Richmond, West Coast Eagles, Australian Football, ver online gratis, en vivo gratis, Fox Sports 503",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-02/wce-rich",
+        "title": "Richmond vs. West Coast Eagles EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Richmond vs. West Coast Eagles en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/3843dad25d91f69dbd96bbc98f7a0aab-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Richmond vs. West Coast Eagles EN VIVO",
+        "description": "Ver Richmond vs. West Coast Eagles en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/3843dad25d91f69dbd96bbc98f7a0aab-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Richmond vs. West Coast Eagles",
+        "description": "Transmisión en vivo de Richmond vs. West Coast Eagles",
+        "startDate": "2026-05-02T06:15:00.000Z",
+        "endDate": "2026-05-02T09:15:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-02/wce-rich"
+        },
+        "image": "https://api.ppv.to/assets/thumb/3843dad25d91f69dbd96bbc98f7a0aab-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Richmond"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "West Coast Eagles"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Richmond"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "West Coast Eagles"
+        },
+        "sport": "Australian Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Australian Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/australian-football"
+          },
+          {
+            "name": "Richmond vs. West Coast Eagles",
+            "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-02/wce-rich"
+          }
+        ],
+        "h1": "Richmond vs. West Coast Eagles EN VIVO",
+        "h2": "Ver Richmond vs. West Coast Eagles Online Gratis"
+      },
+      "event": {
+        "name": "Richmond vs. West Coast Eagles",
+        "category": "Australian Football",
+        "broadcaster": "Fox Sports 503",
+        "start_time": "2026-05-02T06:15:00.000Z",
+        "end_time": "2026-05-02T09:15:00.000Z",
+        "duration_minutes": 180,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Richmond",
+        "away_team": "West Coast Eagles"
+      },
+      "technical": {
+        "last_modified": "2026-04-26T18:55:43.926Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Richmond vs. West Coast Eagles, Richmond"
+      }
+    },
+    {
+      "id": 20943,
+      "slug": "north-melbourne-vs-geelong-cats",
+      "uri_name": "afl/2026-05-02/geel-nmfc",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-02/geel-nmfc",
+      "meta": {
+        "title": "North Melbourne vs. Geelong Cats EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver North Melbourne vs. Geelong Cats en vivo gratis por Tarjeta Roja TV. North Melbourne vs Geelong Cats transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, North Melbourne vs. Geelong Cats, North Melbourne, Geelong Cats, Australian Football, ver online gratis, en vivo gratis, Fox Footy",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-02/geel-nmfc",
+        "title": "North Melbourne vs. Geelong Cats EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver North Melbourne vs. Geelong Cats en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/be72617c750394fe2666f38c30120f60-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "North Melbourne vs. Geelong Cats EN VIVO",
+        "description": "Ver North Melbourne vs. Geelong Cats en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/be72617c750394fe2666f38c30120f60-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "North Melbourne vs. Geelong Cats",
+        "description": "Transmisión en vivo de North Melbourne vs. Geelong Cats",
+        "startDate": "2026-05-02T06:35:00.000Z",
+        "endDate": "2026-05-02T09:35:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-02/geel-nmfc"
+        },
+        "image": "https://api.ppv.to/assets/thumb/be72617c750394fe2666f38c30120f60-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "North Melbourne"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Geelong Cats"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "North Melbourne"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Geelong Cats"
+        },
+        "sport": "Australian Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Australian Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/australian-football"
+          },
+          {
+            "name": "North Melbourne vs. Geelong Cats",
+            "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-02/geel-nmfc"
+          }
+        ],
+        "h1": "North Melbourne vs. Geelong Cats EN VIVO",
+        "h2": "Ver North Melbourne vs. Geelong Cats Online Gratis"
+      },
+      "event": {
+        "name": "North Melbourne vs. Geelong Cats",
+        "category": "Australian Football",
+        "broadcaster": "Fox Footy",
+        "start_time": "2026-05-02T06:35:00.000Z",
+        "end_time": "2026-05-02T09:35:00.000Z",
+        "duration_minutes": 180,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "North Melbourne",
+        "away_team": "Geelong Cats"
+      },
+      "technical": {
+        "last_modified": "2026-04-26T18:55:43.926Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, North Melbourne vs. Geelong Cats, North Melbourne"
+      }
+    },
+    {
+      "id": 20944,
+      "slug": "st-kilda-vs-carlton",
+      "uri_name": "afl/2026-05-02/carl-stk",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-02/carl-stk",
+      "meta": {
+        "title": "St Kilda vs. Carlton EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver St Kilda vs. Carlton en vivo gratis por Tarjeta Roja TV. St Kilda vs Carlton transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, St Kilda vs. Carlton, St Kilda, Carlton, Australian Football, ver online gratis, en vivo gratis, Fox Footy",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-02/carl-stk",
+        "title": "St Kilda vs. Carlton EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver St Kilda vs. Carlton en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/a37278e03df77ac2d222879a7fc1b543-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "St Kilda vs. Carlton EN VIVO",
+        "description": "Ver St Kilda vs. Carlton en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/a37278e03df77ac2d222879a7fc1b543-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "St Kilda vs. Carlton",
+        "description": "Transmisión en vivo de St Kilda vs. Carlton",
+        "startDate": "2026-05-02T09:35:00.000Z",
+        "endDate": "2026-05-02T12:35:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-02/carl-stk"
+        },
+        "image": "https://api.ppv.to/assets/thumb/a37278e03df77ac2d222879a7fc1b543-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "St Kilda"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Carlton"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "St Kilda"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Carlton"
+        },
+        "sport": "Australian Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Australian Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/australian-football"
+          },
+          {
+            "name": "St Kilda vs. Carlton",
+            "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-02/carl-stk"
+          }
+        ],
+        "h1": "St Kilda vs. Carlton EN VIVO",
+        "h2": "Ver St Kilda vs. Carlton Online Gratis"
+      },
+      "event": {
+        "name": "St Kilda vs. Carlton",
+        "category": "Australian Football",
+        "broadcaster": "Fox Footy",
+        "start_time": "2026-05-02T09:35:00.000Z",
+        "end_time": "2026-05-02T12:35:00.000Z",
+        "duration_minutes": 180,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "St Kilda",
+        "away_team": "Carlton"
+      },
+      "technical": {
+        "last_modified": "2026-04-26T18:55:43.926Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, St Kilda vs. Carlton, St Kilda"
+      }
+    },
+    {
+      "id": 20945,
+      "slug": "melbourne-vs-sydney-swans",
+      "uri_name": "afl/2026-05-03/syd-melb",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-03/syd-melb",
+      "meta": {
+        "title": "Melbourne vs. Sydney Swans EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Melbourne vs. Sydney Swans en vivo gratis por Tarjeta Roja TV. Melbourne vs Sydney Swans transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Melbourne vs. Sydney Swans, Melbourne, Sydney Swans, Australian Football, ver online gratis, en vivo gratis, Fox Footy",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-03/syd-melb",
+        "title": "Melbourne vs. Sydney Swans EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Melbourne vs. Sydney Swans en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/43dddce7b6c11be047a2bd90ac9c3ccd-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Melbourne vs. Sydney Swans EN VIVO",
+        "description": "Ver Melbourne vs. Sydney Swans en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/43dddce7b6c11be047a2bd90ac9c3ccd-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Melbourne vs. Sydney Swans",
+        "description": "Transmisión en vivo de Melbourne vs. Sydney Swans",
+        "startDate": "2026-05-03T05:15:00.000Z",
+        "endDate": "2026-05-03T08:15:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-03/syd-melb"
+        },
+        "image": "https://api.ppv.to/assets/thumb/43dddce7b6c11be047a2bd90ac9c3ccd-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Melbourne"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Sydney Swans"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Melbourne"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Sydney Swans"
+        },
+        "sport": "Australian Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Australian Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/australian-football"
+          },
+          {
+            "name": "Melbourne vs. Sydney Swans",
+            "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-03/syd-melb"
+          }
+        ],
+        "h1": "Melbourne vs. Sydney Swans EN VIVO",
+        "h2": "Ver Melbourne vs. Sydney Swans Online Gratis"
+      },
+      "event": {
+        "name": "Melbourne vs. Sydney Swans",
+        "category": "Australian Football",
+        "broadcaster": "Fox Footy",
+        "start_time": "2026-05-03T05:15:00.000Z",
+        "end_time": "2026-05-03T08:15:00.000Z",
+        "duration_minutes": 180,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Melbourne",
+        "away_team": "Sydney Swans"
+      },
+      "technical": {
+        "last_modified": "2026-04-26T18:55:43.926Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Melbourne vs. Sydney Swans, Melbourne"
+      }
+    },
+    {
+      "id": 20946,
+      "slug": "gws-giants-vs-gold-coast-suns",
+      "uri_name": "afl/2026-05-03/gcfc-gws",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-03/gcfc-gws",
+      "meta": {
+        "title": "GWS GIANTS vs. Gold Coast SUNS EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver GWS GIANTS vs. Gold Coast SUNS en vivo gratis por Tarjeta Roja TV. GWS GIANTS vs Gold Coast SUNS transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, GWS GIANTS vs. Gold Coast SUNS, GWS GIANTS, Gold Coast SUNS, Australian Football, ver online gratis, en vivo gratis, Fox Footy",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-03/gcfc-gws",
+        "title": "GWS GIANTS vs. Gold Coast SUNS EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver GWS GIANTS vs. Gold Coast SUNS en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/9dc79fcac0f89494ab6d92a0e37c637f-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "GWS GIANTS vs. Gold Coast SUNS EN VIVO",
+        "description": "Ver GWS GIANTS vs. Gold Coast SUNS en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/9dc79fcac0f89494ab6d92a0e37c637f-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "GWS GIANTS vs. Gold Coast SUNS",
+        "description": "Transmisión en vivo de GWS GIANTS vs. Gold Coast SUNS",
+        "startDate": "2026-05-03T09:20:00.000Z",
+        "endDate": "2026-05-03T12:20:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-03/gcfc-gws"
+        },
+        "image": "https://api.ppv.to/assets/thumb/9dc79fcac0f89494ab6d92a0e37c637f-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "GWS GIANTS"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Gold Coast SUNS"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "GWS GIANTS"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Gold Coast SUNS"
+        },
+        "sport": "Australian Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Australian Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/australian-football"
+          },
+          {
+            "name": "GWS GIANTS vs. Gold Coast SUNS",
+            "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-05-03/gcfc-gws"
+          }
+        ],
+        "h1": "GWS GIANTS vs. Gold Coast SUNS EN VIVO",
+        "h2": "Ver GWS GIANTS vs. Gold Coast SUNS Online Gratis"
+      },
+      "event": {
+        "name": "GWS GIANTS vs. Gold Coast SUNS",
+        "category": "Australian Football",
+        "broadcaster": "Fox Footy",
+        "start_time": "2026-05-03T09:20:00.000Z",
+        "end_time": "2026-05-03T12:20:00.000Z",
+        "duration_minutes": 180,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "GWS GIANTS",
+        "away_team": "Gold Coast SUNS"
+      },
+      "technical": {
+        "last_modified": "2026-04-26T18:55:43.926Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, GWS GIANTS vs. Gold Coast SUNS, GWS GIANTS"
       }
     },
     {
@@ -403,13 +1381,13 @@
         "start_time": "2026-04-26T17:35:00.000Z",
         "end_time": "2026-04-26T21:05:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "2",
+        "status": "live",
+        "viewers": "152",
         "home_team": "Boston Red Sox",
         "away_team": "Baltimore Orioles"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.572Z",
+        "last_modified": "2026-04-26T18:55:43.926Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -509,13 +1487,13 @@
         "start_time": "2026-04-26T17:35:00.000Z",
         "end_time": "2026-04-26T21:05:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "166",
         "home_team": "Philadelphia Phillies",
         "away_team": "Atlanta Braves"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.572Z",
+        "last_modified": "2026-04-26T18:55:43.926Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -615,13 +1593,13 @@
         "start_time": "2026-04-26T17:37:00.000Z",
         "end_time": "2026-04-26T21:07:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "295",
         "home_team": "Cleveland Guardians",
         "away_team": "Toronto Blue Jays"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.572Z",
+        "last_modified": "2026-04-26T18:55:43.926Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -721,13 +1699,13 @@
         "start_time": "2026-04-26T17:40:00.000Z",
         "end_time": "2026-04-26T21:10:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "173",
         "home_team": "Colorado Rockies",
         "away_team": "New York Mets"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.572Z",
+        "last_modified": "2026-04-26T18:55:43.926Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -827,13 +1805,13 @@
         "start_time": "2026-04-26T17:40:00.000Z",
         "end_time": "2026-04-26T21:10:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "100",
         "home_team": "Detroit Tigers",
         "away_team": "Cincinnati Reds"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.572Z",
+        "last_modified": "2026-04-26T18:55:43.926Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -933,13 +1911,13 @@
         "start_time": "2026-04-26T17:40:00.000Z",
         "end_time": "2026-04-26T21:10:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "35",
         "home_team": "Minnesota Twins",
         "away_team": "Tampa Bay Rays"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
+        "last_modified": "2026-04-26T18:55:43.926Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1039,13 +2017,13 @@
         "start_time": "2026-04-26T18:10:00.000Z",
         "end_time": "2026-04-26T21:40:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "165",
         "home_team": "New York Yankees",
         "away_team": "Houston Astros"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
+        "last_modified": "2026-04-26T18:55:43.926Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1145,13 +2123,13 @@
         "start_time": "2026-04-26T18:10:00.000Z",
         "end_time": "2026-04-26T21:40:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "55",
         "home_team": "Pittsburgh Pirates",
         "away_team": "Milwaukee Brewers"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
+        "last_modified": "2026-04-26T18:55:43.926Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1251,13 +2229,13 @@
         "start_time": "2026-04-26T18:10:00.000Z",
         "end_time": "2026-04-26T21:40:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "43",
         "home_team": "Washington Nationals",
         "away_team": "Chicago White Sox"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
+        "last_modified": "2026-04-26T18:55:43.926Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1357,13 +2335,13 @@
         "start_time": "2026-04-26T18:15:00.000Z",
         "end_time": "2026-04-26T21:45:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "63",
         "home_team": "Seattle Mariners",
         "away_team": "St. Louis Cardinals"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
+        "last_modified": "2026-04-26T18:55:43.926Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1463,13 +2441,13 @@
         "start_time": "2026-04-26T18:35:00.000Z",
         "end_time": "2026-04-26T22:05:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "26",
         "home_team": "Athletics",
         "away_team": "Texas Rangers"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
+        "last_modified": "2026-04-26T18:55:43.926Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1575,7 +2553,7 @@
         "away_team": "San Francisco Giants"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
+        "last_modified": "2026-04-26T18:55:43.926Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1681,7 +2659,7 @@
         "away_team": "Arizona Diamondbacks"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
+        "last_modified": "2026-04-26T18:55:43.926Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1787,7 +2765,7 @@
         "away_team": "Los Angeles Dodgers"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
+        "last_modified": "2026-04-26T18:55:43.926Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1893,7 +2871,7 @@
         "away_team": "New York Mets"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
+        "last_modified": "2026-04-26T18:55:43.926Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1999,7 +2977,7 @@
         "away_team": "Kansas City Royals"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
+        "last_modified": "2026-04-26T18:55:43.926Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2099,13 +3077,13 @@
         "start_time": "2026-04-26T17:00:00.000Z",
         "end_time": "2026-04-26T19:48:00.000Z",
         "duration_minutes": 168,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "4926",
         "home_team": "Cleveland Cavaliers",
         "away_team": "Toronto Raptors"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
+        "last_modified": "2026-04-26T18:55:43.927Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2206,12 +3184,12 @@
         "end_time": "2026-04-26T22:18:00.000Z",
         "duration_minutes": 168,
         "status": "upcoming",
-        "viewers": "0",
+        "viewers": "7",
         "home_team": "San Antonio Spurs",
         "away_team": "Portland Trail Blazers"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
+        "last_modified": "2026-04-26T18:55:43.927Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2317,7 +3295,7 @@
         "away_team": "Philadelphia 76ers"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
+        "last_modified": "2026-04-26T18:55:43.927Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2418,230 +3396,18 @@
         "end_time": "2026-04-27T04:18:00.000Z",
         "duration_minutes": 168,
         "status": "upcoming",
-        "viewers": "1",
+        "viewers": "0",
         "home_team": "Los Angeles Lakers",
         "away_team": "Houston Rockets"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
+        "last_modified": "2026-04-26T18:55:43.927Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
         "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Los Angeles Lakers vs. Houston Rockets, Los Angeles Lakers"
-      }
-    },
-    {
-      "id": 20880,
-      "slug": "chennai-super-kings-vs-gujarat-titans",
-      "uri_name": "ipl/2026-04-26/csk-gt",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ipl/2026-04-26/csk-gt",
-      "meta": {
-        "title": "Chennai Super Kings vs. Gujarat Titans EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Chennai Super Kings vs. Gujarat Titans en vivo gratis por Tarjeta Roja TV. Chennai Super Kings vs Gujarat Titans transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Chennai Super Kings vs. Gujarat Titans, Chennai Super Kings, Gujarat Titans, Cricket, ver online gratis, en vivo gratis, Indian Premier League",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/ipl/2026-04-26/csk-gt",
-        "title": "Chennai Super Kings vs. Gujarat Titans EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Chennai Super Kings vs. Gujarat Titans en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/bc004230bdc9f66e7fb57a1d202dadc9-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Chennai Super Kings vs. Gujarat Titans EN VIVO",
-        "description": "Ver Chennai Super Kings vs. Gujarat Titans en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/bc004230bdc9f66e7fb57a1d202dadc9-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Chennai Super Kings vs. Gujarat Titans",
-        "description": "Transmisión en vivo de Chennai Super Kings vs. Gujarat Titans",
-        "startDate": "2026-04-26T10:00:00.000Z",
-        "endDate": "2026-04-26T14:00:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/ipl/2026-04-26/csk-gt"
-        },
-        "image": "https://api.ppv.to/assets/thumb/bc004230bdc9f66e7fb57a1d202dadc9-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Chennai Super Kings"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Gujarat Titans"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Chennai Super Kings"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Gujarat Titans"
-        },
-        "sport": "Cricket"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Cricket",
-            "url": "https://tarjetarojaenvivo.live/categoria/cricket"
-          },
-          {
-            "name": "Chennai Super Kings vs. Gujarat Titans",
-            "url": "https://tarjetarojaenvivo.live/eventos/ipl/2026-04-26/csk-gt"
-          }
-        ],
-        "h1": "Chennai Super Kings vs. Gujarat Titans EN VIVO",
-        "h2": "Ver Chennai Super Kings vs. Gujarat Titans Online Gratis"
-      },
-      "event": {
-        "name": "Chennai Super Kings vs. Gujarat Titans",
-        "category": "Cricket",
-        "broadcaster": "Indian Premier League",
-        "start_time": "2026-04-26T10:00:00.000Z",
-        "end_time": "2026-04-26T14:00:00.000Z",
-        "duration_minutes": 240,
-        "status": "live",
-        "viewers": "197",
-        "home_team": "Chennai Super Kings",
-        "away_team": "Gujarat Titans"
-      },
-      "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Chennai Super Kings vs. Gujarat Titans, Chennai Super Kings"
-      }
-    },
-    {
-      "id": 20886,
-      "slug": "lucknow-super-giants-vs-kolkata-knight-riders",
-      "uri_name": "ipl/2026-04-26/lsg-kkr",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ipl/2026-04-26/lsg-kkr",
-      "meta": {
-        "title": "Lucknow Super Giants vs. Kolkata Knight Riders EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Lucknow Super Giants vs. Kolkata Knight Riders en vivo gratis por Tarjeta Roja TV. Lucknow Super Giants vs Kolkata Knight Riders transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Lucknow Super Giants vs. Kolkata Knight Riders, Lucknow Super Giants, Kolkata Knight Riders, Cricket, ver online gratis, en vivo gratis, Indian Premier League",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/ipl/2026-04-26/lsg-kkr",
-        "title": "Lucknow Super Giants vs. Kolkata Knight Riders EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Lucknow Super Giants vs. Kolkata Knight Riders en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/e64c9d29523142b8d4d9ae59578d41d5-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Lucknow Super Giants vs. Kolkata Knight Riders EN VIVO",
-        "description": "Ver Lucknow Super Giants vs. Kolkata Knight Riders en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/e64c9d29523142b8d4d9ae59578d41d5-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Lucknow Super Giants vs. Kolkata Knight Riders",
-        "description": "Transmisión en vivo de Lucknow Super Giants vs. Kolkata Knight Riders",
-        "startDate": "2026-04-26T14:00:00.000Z",
-        "endDate": "2026-04-26T18:00:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/ipl/2026-04-26/lsg-kkr"
-        },
-        "image": "https://api.ppv.to/assets/thumb/e64c9d29523142b8d4d9ae59578d41d5-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Lucknow Super Giants"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Kolkata Knight Riders"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Lucknow Super Giants"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Kolkata Knight Riders"
-        },
-        "sport": "Cricket"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Cricket",
-            "url": "https://tarjetarojaenvivo.live/categoria/cricket"
-          },
-          {
-            "name": "Lucknow Super Giants vs. Kolkata Knight Riders",
-            "url": "https://tarjetarojaenvivo.live/eventos/ipl/2026-04-26/lsg-kkr"
-          }
-        ],
-        "h1": "Lucknow Super Giants vs. Kolkata Knight Riders EN VIVO",
-        "h2": "Ver Lucknow Super Giants vs. Kolkata Knight Riders Online Gratis"
-      },
-      "event": {
-        "name": "Lucknow Super Giants vs. Kolkata Knight Riders",
-        "category": "Cricket",
-        "broadcaster": "Indian Premier League",
-        "start_time": "2026-04-26T14:00:00.000Z",
-        "end_time": "2026-04-26T18:00:00.000Z",
-        "duration_minutes": 240,
-        "status": "upcoming",
-        "viewers": "1",
-        "home_team": "Lucknow Super Giants",
-        "away_team": "Kolkata Knight Riders"
-      },
-      "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Lucknow Super Giants vs. Kolkata Knight Riders, Lucknow Super Giants"
       }
     },
     {
@@ -2736,12 +3502,12 @@
         "end_time": "2026-04-27T18:00:00.000Z",
         "duration_minutes": 240,
         "status": "upcoming",
-        "viewers": "0",
+        "viewers": "3",
         "home_team": "Delhi Capitals",
         "away_team": "Royal Challengers Bengaluru"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
+        "last_modified": "2026-04-26T18:55:43.927Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2827,1709 +3593,13 @@
         "viewers": "0"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
+        "last_modified": "2026-04-26T18:55:43.927Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
         "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, 2026 Players Championship 12, 2026 Players Championship 12"
-      }
-    },
-    {
-      "id": 20705,
-      "slug": "fiorentina-vs-sassuolo",
-      "uri_name": "seriea/2026-04-26/fio-sas",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/seriea/2026-04-26/fio-sas",
-      "meta": {
-        "title": "Fiorentina vs. Sassuolo EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Fiorentina vs. Sassuolo en vivo gratis por Tarjeta Roja TV. Fiorentina vs Sassuolo transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Fiorentina vs. Sassuolo, Fiorentina, Sassuolo, Football, ver online gratis, en vivo gratis, Serie A",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/seriea/2026-04-26/fio-sas",
-        "title": "Fiorentina vs. Sassuolo EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Fiorentina vs. Sassuolo en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/46795f52c5defd694a957c3a3fce4d9c-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Fiorentina vs. Sassuolo EN VIVO",
-        "description": "Ver Fiorentina vs. Sassuolo en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/46795f52c5defd694a957c3a3fce4d9c-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Fiorentina vs. Sassuolo",
-        "description": "Transmisión en vivo de Fiorentina vs. Sassuolo",
-        "startDate": "2026-04-26T10:30:00.000Z",
-        "endDate": "2026-04-26T13:00:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/seriea/2026-04-26/fio-sas"
-        },
-        "image": "https://api.ppv.to/assets/thumb/46795f52c5defd694a957c3a3fce4d9c-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Fiorentina"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Sassuolo"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Fiorentina"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Sassuolo"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Fiorentina vs. Sassuolo",
-            "url": "https://tarjetarojaenvivo.live/eventos/seriea/2026-04-26/fio-sas"
-          }
-        ],
-        "h1": "Fiorentina vs. Sassuolo EN VIVO",
-        "h2": "Ver Fiorentina vs. Sassuolo Online Gratis"
-      },
-      "event": {
-        "name": "Fiorentina vs. Sassuolo",
-        "category": "Football",
-        "broadcaster": "Serie A",
-        "start_time": "2026-04-26T10:30:00.000Z",
-        "end_time": "2026-04-26T13:00:00.000Z",
-        "duration_minutes": 150,
-        "status": "completed",
-        "viewers": "14",
-        "home_team": "Fiorentina",
-        "away_team": "Sassuolo"
-      },
-      "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Fiorentina vs. Sassuolo, Fiorentina"
-      }
-    },
-    {
-      "id": 20895,
-      "slug": "coventry-city-vs-wrexham",
-      "uri_name": "efl-championship/2026-04-26/cov-wxm",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/efl-championship/2026-04-26/cov-wxm",
-      "meta": {
-        "title": "Coventry City vs. Wrexham EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Coventry City vs. Wrexham en vivo gratis por Tarjeta Roja TV. Coventry City vs Wrexham transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Coventry City vs. Wrexham, Coventry City, Wrexham, Football, ver online gratis, en vivo gratis, EFL Championship",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/efl-championship/2026-04-26/cov-wxm",
-        "title": "Coventry City vs. Wrexham EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Coventry City vs. Wrexham en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/bb89e3abad2405d40b901fbf54953e5f-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Coventry City vs. Wrexham EN VIVO",
-        "description": "Ver Coventry City vs. Wrexham en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/bb89e3abad2405d40b901fbf54953e5f-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Coventry City vs. Wrexham",
-        "description": "Transmisión en vivo de Coventry City vs. Wrexham",
-        "startDate": "2026-04-26T11:00:00.000Z",
-        "endDate": "2026-04-26T13:30:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/efl-championship/2026-04-26/cov-wxm"
-        },
-        "image": "https://api.ppv.to/assets/thumb/bb89e3abad2405d40b901fbf54953e5f-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Coventry City"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Wrexham"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Coventry City"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Wrexham"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Coventry City vs. Wrexham",
-            "url": "https://tarjetarojaenvivo.live/eventos/efl-championship/2026-04-26/cov-wxm"
-          }
-        ],
-        "h1": "Coventry City vs. Wrexham EN VIVO",
-        "h2": "Ver Coventry City vs. Wrexham Online Gratis"
-      },
-      "event": {
-        "name": "Coventry City vs. Wrexham",
-        "category": "Football",
-        "broadcaster": "EFL Championship",
-        "start_time": "2026-04-26T11:00:00.000Z",
-        "end_time": "2026-04-26T13:30:00.000Z",
-        "duration_minutes": 150,
-        "status": "live",
-        "viewers": "414",
-        "home_team": "Coventry City",
-        "away_team": "Wrexham"
-      },
-      "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Coventry City vs. Wrexham, Coventry City"
-      }
-    },
-    {
-      "id": 20677,
-      "slug": "rayo-vallecano-vs-real-sociedad",
-      "uri_name": "laliga/2026-04-26/ray-rso",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/laliga/2026-04-26/ray-rso",
-      "meta": {
-        "title": "Rayo Vallecano vs. Real Sociedad EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Rayo Vallecano vs. Real Sociedad en vivo gratis por Tarjeta Roja TV. Rayo Vallecano vs Real Sociedad transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Rayo Vallecano vs. Real Sociedad, Rayo Vallecano, Real Sociedad, Football, ver online gratis, en vivo gratis, LaLiga",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/laliga/2026-04-26/ray-rso",
-        "title": "Rayo Vallecano vs. Real Sociedad EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Rayo Vallecano vs. Real Sociedad en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/a1a2e1df4a9927b61183c8e846225b0b-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Rayo Vallecano vs. Real Sociedad EN VIVO",
-        "description": "Ver Rayo Vallecano vs. Real Sociedad en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/a1a2e1df4a9927b61183c8e846225b0b-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Rayo Vallecano vs. Real Sociedad",
-        "description": "Transmisión en vivo de Rayo Vallecano vs. Real Sociedad",
-        "startDate": "2026-04-26T12:00:00.000Z",
-        "endDate": "2026-04-26T14:30:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/laliga/2026-04-26/ray-rso"
-        },
-        "image": "https://api.ppv.to/assets/thumb/a1a2e1df4a9927b61183c8e846225b0b-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Rayo Vallecano"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Real Sociedad"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Rayo Vallecano"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Real Sociedad"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Rayo Vallecano vs. Real Sociedad",
-            "url": "https://tarjetarojaenvivo.live/eventos/laliga/2026-04-26/ray-rso"
-          }
-        ],
-        "h1": "Rayo Vallecano vs. Real Sociedad EN VIVO",
-        "h2": "Ver Rayo Vallecano vs. Real Sociedad Online Gratis"
-      },
-      "event": {
-        "name": "Rayo Vallecano vs. Real Sociedad",
-        "category": "Football",
-        "broadcaster": "LaLiga",
-        "start_time": "2026-04-26T12:00:00.000Z",
-        "end_time": "2026-04-26T14:30:00.000Z",
-        "duration_minutes": 150,
-        "status": "live",
-        "viewers": "80",
-        "home_team": "Rayo Vallecano",
-        "away_team": "Real Sociedad"
-      },
-      "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Rayo Vallecano vs. Real Sociedad, Rayo Vallecano"
-      }
-    },
-    {
-      "id": 20933,
-      "slug": "djurgarden-vs-hammarby-if",
-      "uri_name": "swedish-allsvenskan/2026-04-26/dju-ham",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/swedish-allsvenskan/2026-04-26/dju-ham",
-      "meta": {
-        "title": "Djurgården vs. Hammarby IF EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Djurgården vs. Hammarby IF en vivo gratis por Tarjeta Roja TV. Djurgården vs Hammarby IF transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Djurgården vs. Hammarby IF, Djurgården, Hammarby IF, Football, ver online gratis, en vivo gratis, Swedish Allsvenskan",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/swedish-allsvenskan/2026-04-26/dju-ham",
-        "title": "Djurgården vs. Hammarby IF EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Djurgården vs. Hammarby IF en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/8f79f477d7c0b97a3cc17a4ab3e88915-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Djurgården vs. Hammarby IF EN VIVO",
-        "description": "Ver Djurgården vs. Hammarby IF en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/8f79f477d7c0b97a3cc17a4ab3e88915-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Djurgården vs. Hammarby IF",
-        "description": "Transmisión en vivo de Djurgården vs. Hammarby IF",
-        "startDate": "2026-04-26T12:00:00.000Z",
-        "endDate": "2026-04-26T14:30:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/swedish-allsvenskan/2026-04-26/dju-ham"
-        },
-        "image": "https://api.ppv.to/assets/thumb/8f79f477d7c0b97a3cc17a4ab3e88915-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Djurgården"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Hammarby IF"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Djurgården"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Hammarby IF"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Djurgården vs. Hammarby IF",
-            "url": "https://tarjetarojaenvivo.live/eventos/swedish-allsvenskan/2026-04-26/dju-ham"
-          }
-        ],
-        "h1": "Djurgården vs. Hammarby IF EN VIVO",
-        "h2": "Ver Djurgården vs. Hammarby IF Online Gratis"
-      },
-      "event": {
-        "name": "Djurgården vs. Hammarby IF",
-        "category": "Football",
-        "broadcaster": "Swedish Allsvenskan",
-        "start_time": "2026-04-26T12:00:00.000Z",
-        "end_time": "2026-04-26T14:30:00.000Z",
-        "duration_minutes": 150,
-        "status": "live",
-        "viewers": "79",
-        "home_team": "Djurgården",
-        "away_team": "Hammarby IF"
-      },
-      "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Djurgården vs. Hammarby IF, Djurgården"
-      }
-    },
-    {
-      "id": 20706,
-      "slug": "genoa-vs-como",
-      "uri_name": "seriea/2026-04-26/gen-como",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/seriea/2026-04-26/gen-como",
-      "meta": {
-        "title": "Genoa vs. Como EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Genoa vs. Como en vivo gratis por Tarjeta Roja TV. Genoa vs Como transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Genoa vs. Como, Genoa, Como, Football, ver online gratis, en vivo gratis, Serie A",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/seriea/2026-04-26/gen-como",
-        "title": "Genoa vs. Como EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Genoa vs. Como en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/e138391f67d0a163df8ff1fce2ae69fe-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Genoa vs. Como EN VIVO",
-        "description": "Ver Genoa vs. Como en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/e138391f67d0a163df8ff1fce2ae69fe-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Genoa vs. Como",
-        "description": "Transmisión en vivo de Genoa vs. Como",
-        "startDate": "2026-04-26T13:00:00.000Z",
-        "endDate": "2026-04-26T15:30:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/seriea/2026-04-26/gen-como"
-        },
-        "image": "https://api.ppv.to/assets/thumb/e138391f67d0a163df8ff1fce2ae69fe-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Genoa"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Como"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Genoa"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Como"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Genoa vs. Como",
-            "url": "https://tarjetarojaenvivo.live/eventos/seriea/2026-04-26/gen-como"
-          }
-        ],
-        "h1": "Genoa vs. Como EN VIVO",
-        "h2": "Ver Genoa vs. Como Online Gratis"
-      },
-      "event": {
-        "name": "Genoa vs. Como",
-        "category": "Football",
-        "broadcaster": "Serie A",
-        "start_time": "2026-04-26T13:00:00.000Z",
-        "end_time": "2026-04-26T15:30:00.000Z",
-        "duration_minutes": 150,
-        "status": "live",
-        "viewers": "9",
-        "home_team": "Genoa",
-        "away_team": "Como"
-      },
-      "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Genoa vs. Como, Genoa"
-      }
-    },
-    {
-      "id": 20716,
-      "slug": "lorient-vs-strasbourg",
-      "uri_name": "ligue1/2026-04-26/lor-str",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ligue1/2026-04-26/lor-str",
-      "meta": {
-        "title": "Lorient vs. Strasbourg EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Lorient vs. Strasbourg en vivo gratis por Tarjeta Roja TV. Lorient vs Strasbourg transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Lorient vs. Strasbourg, Lorient, Strasbourg, Football, ver online gratis, en vivo gratis, Ligue 1",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/ligue1/2026-04-26/lor-str",
-        "title": "Lorient vs. Strasbourg EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Lorient vs. Strasbourg en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/0a674c34baadf4e73331e667e3be8d80-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Lorient vs. Strasbourg EN VIVO",
-        "description": "Ver Lorient vs. Strasbourg en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/0a674c34baadf4e73331e667e3be8d80-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Lorient vs. Strasbourg",
-        "description": "Transmisión en vivo de Lorient vs. Strasbourg",
-        "startDate": "2026-04-26T13:00:00.000Z",
-        "endDate": "2026-04-26T15:30:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/ligue1/2026-04-26/lor-str"
-        },
-        "image": "https://api.ppv.to/assets/thumb/0a674c34baadf4e73331e667e3be8d80-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Lorient"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Strasbourg"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Lorient"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Strasbourg"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Lorient vs. Strasbourg",
-            "url": "https://tarjetarojaenvivo.live/eventos/ligue1/2026-04-26/lor-str"
-          }
-        ],
-        "h1": "Lorient vs. Strasbourg EN VIVO",
-        "h2": "Ver Lorient vs. Strasbourg Online Gratis"
-      },
-      "event": {
-        "name": "Lorient vs. Strasbourg",
-        "category": "Football",
-        "broadcaster": "Ligue 1",
-        "start_time": "2026-04-26T13:00:00.000Z",
-        "end_time": "2026-04-26T15:30:00.000Z",
-        "duration_minutes": 150,
-        "status": "live",
-        "viewers": "15",
-        "home_team": "Lorient",
-        "away_team": "Strasbourg"
-      },
-      "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Lorient vs. Strasbourg, Lorient"
-      }
-    },
-    {
-      "id": 20689,
-      "slug": "vfb-stuttgart-vs-werder-bremen",
-      "uri_name": "bundesliga/2026-04-26/vfb-svw",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/bundesliga/2026-04-26/vfb-svw",
-      "meta": {
-        "title": "VfB Stuttgart vs. Werder Bremen EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver VfB Stuttgart vs. Werder Bremen en vivo gratis por Tarjeta Roja TV. VfB Stuttgart vs Werder Bremen transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, VfB Stuttgart vs. Werder Bremen, VfB Stuttgart, Werder Bremen, Football, ver online gratis, en vivo gratis, Bundesliga",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/bundesliga/2026-04-26/vfb-svw",
-        "title": "VfB Stuttgart vs. Werder Bremen EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver VfB Stuttgart vs. Werder Bremen en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/0476bb04eb799866c049e099052cd5c0-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "VfB Stuttgart vs. Werder Bremen EN VIVO",
-        "description": "Ver VfB Stuttgart vs. Werder Bremen en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/0476bb04eb799866c049e099052cd5c0-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "VfB Stuttgart vs. Werder Bremen",
-        "description": "Transmisión en vivo de VfB Stuttgart vs. Werder Bremen",
-        "startDate": "2026-04-26T13:30:00.000Z",
-        "endDate": "2026-04-26T16:00:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/bundesliga/2026-04-26/vfb-svw"
-        },
-        "image": "https://api.ppv.to/assets/thumb/0476bb04eb799866c049e099052cd5c0-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "VfB Stuttgart"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Werder Bremen"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "VfB Stuttgart"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Werder Bremen"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "VfB Stuttgart vs. Werder Bremen",
-            "url": "https://tarjetarojaenvivo.live/eventos/bundesliga/2026-04-26/vfb-svw"
-          }
-        ],
-        "h1": "VfB Stuttgart vs. Werder Bremen EN VIVO",
-        "h2": "Ver VfB Stuttgart vs. Werder Bremen Online Gratis"
-      },
-      "event": {
-        "name": "VfB Stuttgart vs. Werder Bremen",
-        "category": "Football",
-        "broadcaster": "Bundesliga",
-        "start_time": "2026-04-26T13:30:00.000Z",
-        "end_time": "2026-04-26T16:00:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "3",
-        "home_team": "VfB Stuttgart",
-        "away_team": "Werder Bremen"
-      },
-      "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, VfB Stuttgart vs. Werder Bremen, VfB Stuttgart"
-      }
-    },
-    {
-      "id": 20902,
-      "slug": "chelsea-vs-leeds-united",
-      "uri_name": "english-fa-cup/2026-04-26/che-lee",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/english-fa-cup/2026-04-26/che-lee",
-      "meta": {
-        "title": "Chelsea vs. Leeds United EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Chelsea vs. Leeds United en vivo gratis por Tarjeta Roja TV. Chelsea vs Leeds United transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Chelsea vs. Leeds United, Chelsea, Leeds United, Football, ver online gratis, en vivo gratis, English FA Cup",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/english-fa-cup/2026-04-26/che-lee",
-        "title": "Chelsea vs. Leeds United EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Chelsea vs. Leeds United en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/b9ac80f1dddc5507b2e8462317a2e598-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Chelsea vs. Leeds United EN VIVO",
-        "description": "Ver Chelsea vs. Leeds United en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/b9ac80f1dddc5507b2e8462317a2e598-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Chelsea vs. Leeds United",
-        "description": "Transmisión en vivo de Chelsea vs. Leeds United",
-        "startDate": "2026-04-26T14:00:00.000Z",
-        "endDate": "2026-04-26T16:30:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/english-fa-cup/2026-04-26/che-lee"
-        },
-        "image": "https://api.ppv.to/assets/thumb/b9ac80f1dddc5507b2e8462317a2e598-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Chelsea"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Leeds United"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Chelsea"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Leeds United"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Chelsea vs. Leeds United",
-            "url": "https://tarjetarojaenvivo.live/eventos/english-fa-cup/2026-04-26/che-lee"
-          }
-        ],
-        "h1": "Chelsea vs. Leeds United EN VIVO",
-        "h2": "Ver Chelsea vs. Leeds United Online Gratis"
-      },
-      "event": {
-        "name": "Chelsea vs. Leeds United",
-        "category": "Football",
-        "broadcaster": "English FA Cup",
-        "start_time": "2026-04-26T14:00:00.000Z",
-        "end_time": "2026-04-26T16:30:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "26",
-        "home_team": "Chelsea",
-        "away_team": "Leeds United"
-      },
-      "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Chelsea vs. Leeds United, Chelsea"
-      }
-    },
-    {
-      "id": 20678,
-      "slug": "real-oviedo-vs-elche",
-      "uri_name": "laliga/2026-04-26/ovi-elc",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/laliga/2026-04-26/ovi-elc",
-      "meta": {
-        "title": "Real Oviedo vs. Elche EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Real Oviedo vs. Elche en vivo gratis por Tarjeta Roja TV. Real Oviedo vs Elche transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Real Oviedo vs. Elche, Real Oviedo, Elche, Football, ver online gratis, en vivo gratis, LaLiga",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/laliga/2026-04-26/ovi-elc",
-        "title": "Real Oviedo vs. Elche EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Real Oviedo vs. Elche en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/bdefa8499dbcb3c05dccb93e30e7346f-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Real Oviedo vs. Elche EN VIVO",
-        "description": "Ver Real Oviedo vs. Elche en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/bdefa8499dbcb3c05dccb93e30e7346f-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Real Oviedo vs. Elche",
-        "description": "Transmisión en vivo de Real Oviedo vs. Elche",
-        "startDate": "2026-04-26T14:15:00.000Z",
-        "endDate": "2026-04-26T16:45:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/laliga/2026-04-26/ovi-elc"
-        },
-        "image": "https://api.ppv.to/assets/thumb/bdefa8499dbcb3c05dccb93e30e7346f-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Real Oviedo"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Elche"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Real Oviedo"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Elche"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Real Oviedo vs. Elche",
-            "url": "https://tarjetarojaenvivo.live/eventos/laliga/2026-04-26/ovi-elc"
-          }
-        ],
-        "h1": "Real Oviedo vs. Elche EN VIVO",
-        "h2": "Ver Real Oviedo vs. Elche Online Gratis"
-      },
-      "event": {
-        "name": "Real Oviedo vs. Elche",
-        "category": "Football",
-        "broadcaster": "LaLiga",
-        "start_time": "2026-04-26T14:15:00.000Z",
-        "end_time": "2026-04-26T16:45:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "1",
-        "home_team": "Real Oviedo",
-        "away_team": "Elche"
-      },
-      "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Real Oviedo vs. Elche, Real Oviedo"
-      }
-    },
-    {
-      "id": 20934,
-      "slug": "if-brommapojkarna-vs-vasteras-sk",
-      "uri_name": "swedish-allsvenskan/2026-04-26/bro-vas",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/swedish-allsvenskan/2026-04-26/bro-vas",
-      "meta": {
-        "title": "IF Brommapojkarna vs. Västerås SK EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver IF Brommapojkarna vs. Västerås SK en vivo gratis por Tarjeta Roja TV. IF Brommapojkarna vs Västerås SK transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, IF Brommapojkarna vs. Västerås SK, IF Brommapojkarna, Västerås SK, Football, ver online gratis, en vivo gratis, Swedish Allsvenskan",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/swedish-allsvenskan/2026-04-26/bro-vas",
-        "title": "IF Brommapojkarna vs. Västerås SK EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver IF Brommapojkarna vs. Västerås SK en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/b6a8cad866413c48d3fcafe27cef70cf-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "IF Brommapojkarna vs. Västerås SK EN VIVO",
-        "description": "Ver IF Brommapojkarna vs. Västerås SK en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/b6a8cad866413c48d3fcafe27cef70cf-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "IF Brommapojkarna vs. Västerås SK",
-        "description": "Transmisión en vivo de IF Brommapojkarna vs. Västerås SK",
-        "startDate": "2026-04-26T14:30:00.000Z",
-        "endDate": "2026-04-26T17:00:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/swedish-allsvenskan/2026-04-26/bro-vas"
-        },
-        "image": "https://api.ppv.to/assets/thumb/b6a8cad866413c48d3fcafe27cef70cf-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "IF Brommapojkarna"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Västerås SK"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "IF Brommapojkarna"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Västerås SK"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "IF Brommapojkarna vs. Västerås SK",
-            "url": "https://tarjetarojaenvivo.live/eventos/swedish-allsvenskan/2026-04-26/bro-vas"
-          }
-        ],
-        "h1": "IF Brommapojkarna vs. Västerås SK EN VIVO",
-        "h2": "Ver IF Brommapojkarna vs. Västerås SK Online Gratis"
-      },
-      "event": {
-        "name": "IF Brommapojkarna vs. Västerås SK",
-        "category": "Football",
-        "broadcaster": "Swedish Allsvenskan",
-        "start_time": "2026-04-26T14:30:00.000Z",
-        "end_time": "2026-04-26T17:00:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "0",
-        "home_team": "IF Brommapojkarna",
-        "away_team": "Västerås SK"
-      },
-      "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, IF Brommapojkarna vs. Västerås SK, IF Brommapojkarna"
-      }
-    },
-    {
-      "id": 20935,
-      "slug": "ifk-goteborg-vs-gais",
-      "uri_name": "swedish-allsvenskan/2026-04-26/got-gais",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/swedish-allsvenskan/2026-04-26/got-gais",
-      "meta": {
-        "title": "IFK Göteborg vs. GAIS EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver IFK Göteborg vs. GAIS en vivo gratis por Tarjeta Roja TV. IFK Göteborg vs GAIS transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, IFK Göteborg vs. GAIS, IFK Göteborg, GAIS, Football, ver online gratis, en vivo gratis, Swedish Allsvenskan",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/swedish-allsvenskan/2026-04-26/got-gais",
-        "title": "IFK Göteborg vs. GAIS EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver IFK Göteborg vs. GAIS en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/e9888da5702377f010d9665c6ec08aa5-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "IFK Göteborg vs. GAIS EN VIVO",
-        "description": "Ver IFK Göteborg vs. GAIS en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/e9888da5702377f010d9665c6ec08aa5-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "IFK Göteborg vs. GAIS",
-        "description": "Transmisión en vivo de IFK Göteborg vs. GAIS",
-        "startDate": "2026-04-26T14:30:00.000Z",
-        "endDate": "2026-04-26T17:00:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/swedish-allsvenskan/2026-04-26/got-gais"
-        },
-        "image": "https://api.ppv.to/assets/thumb/e9888da5702377f010d9665c6ec08aa5-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "IFK Göteborg"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "GAIS"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "IFK Göteborg"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "GAIS"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "IFK Göteborg vs. GAIS",
-            "url": "https://tarjetarojaenvivo.live/eventos/swedish-allsvenskan/2026-04-26/got-gais"
-          }
-        ],
-        "h1": "IFK Göteborg vs. GAIS EN VIVO",
-        "h2": "Ver IFK Göteborg vs. GAIS Online Gratis"
-      },
-      "event": {
-        "name": "IFK Göteborg vs. GAIS",
-        "category": "Football",
-        "broadcaster": "Swedish Allsvenskan",
-        "start_time": "2026-04-26T14:30:00.000Z",
-        "end_time": "2026-04-26T17:00:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "0",
-        "home_team": "IFK Göteborg",
-        "away_team": "GAIS"
-      },
-      "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, IFK Göteborg vs. GAIS, IFK Göteborg"
-      }
-    },
-    {
-      "id": 20717,
-      "slug": "le-havre-ac-vs-metz",
-      "uri_name": "ligue1/2026-04-26/hac-metz",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ligue1/2026-04-26/hac-metz",
-      "meta": {
-        "title": "Le Havre AC vs. Metz EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Le Havre AC vs. Metz en vivo gratis por Tarjeta Roja TV. Le Havre AC vs Metz transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Le Havre AC vs. Metz, Le Havre AC, Metz, Football, ver online gratis, en vivo gratis, Ligue 1",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/ligue1/2026-04-26/hac-metz",
-        "title": "Le Havre AC vs. Metz EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Le Havre AC vs. Metz en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/bcbc26a1eefcd19aa0206904b61973aa-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Le Havre AC vs. Metz EN VIVO",
-        "description": "Ver Le Havre AC vs. Metz en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/bcbc26a1eefcd19aa0206904b61973aa-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Le Havre AC vs. Metz",
-        "description": "Transmisión en vivo de Le Havre AC vs. Metz",
-        "startDate": "2026-04-26T15:15:00.000Z",
-        "endDate": "2026-04-26T17:45:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/ligue1/2026-04-26/hac-metz"
-        },
-        "image": "https://api.ppv.to/assets/thumb/bcbc26a1eefcd19aa0206904b61973aa-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Le Havre AC"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Metz"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Le Havre AC"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Metz"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Le Havre AC vs. Metz",
-            "url": "https://tarjetarojaenvivo.live/eventos/ligue1/2026-04-26/hac-metz"
-          }
-        ],
-        "h1": "Le Havre AC vs. Metz EN VIVO",
-        "h2": "Ver Le Havre AC vs. Metz Online Gratis"
-      },
-      "event": {
-        "name": "Le Havre AC vs. Metz",
-        "category": "Football",
-        "broadcaster": "Ligue 1",
-        "start_time": "2026-04-26T15:15:00.000Z",
-        "end_time": "2026-04-26T17:45:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "0",
-        "home_team": "Le Havre AC",
-        "away_team": "Metz"
-      },
-      "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Le Havre AC vs. Metz, Le Havre AC"
-      }
-    },
-    {
-      "id": 20718,
-      "slug": "paris-fc-vs-lille",
-      "uri_name": "ligue1/2026-04-26/par-lill",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ligue1/2026-04-26/par-lill",
-      "meta": {
-        "title": "Paris FC vs. Lille EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Paris FC vs. Lille en vivo gratis por Tarjeta Roja TV. Paris FC vs Lille transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Paris FC vs. Lille, Paris FC, Lille, Football, ver online gratis, en vivo gratis, Ligue 1",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/ligue1/2026-04-26/par-lill",
-        "title": "Paris FC vs. Lille EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Paris FC vs. Lille en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/045f90df2715ab1edc45184ab84229cc-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Paris FC vs. Lille EN VIVO",
-        "description": "Ver Paris FC vs. Lille en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/045f90df2715ab1edc45184ab84229cc-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Paris FC vs. Lille",
-        "description": "Transmisión en vivo de Paris FC vs. Lille",
-        "startDate": "2026-04-26T15:15:00.000Z",
-        "endDate": "2026-04-26T17:45:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/ligue1/2026-04-26/par-lill"
-        },
-        "image": "https://api.ppv.to/assets/thumb/045f90df2715ab1edc45184ab84229cc-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Paris FC"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Lille"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Paris FC"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Lille"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Paris FC vs. Lille",
-            "url": "https://tarjetarojaenvivo.live/eventos/ligue1/2026-04-26/par-lill"
-          }
-        ],
-        "h1": "Paris FC vs. Lille EN VIVO",
-        "h2": "Ver Paris FC vs. Lille Online Gratis"
-      },
-      "event": {
-        "name": "Paris FC vs. Lille",
-        "category": "Football",
-        "broadcaster": "Ligue 1",
-        "start_time": "2026-04-26T15:15:00.000Z",
-        "end_time": "2026-04-26T17:45:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "1",
-        "home_team": "Paris FC",
-        "away_team": "Lille"
-      },
-      "technical": {
-        "last_modified": "2026-04-26T13:07:20.573Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Paris FC vs. Lille, Paris FC"
-      }
-    },
-    {
-      "id": 20719,
-      "slug": "stade-rennais-vs-nantes",
-      "uri_name": "ligue1/2026-04-26/ren-nan",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ligue1/2026-04-26/ren-nan",
-      "meta": {
-        "title": "Stade Rennais vs. Nantes EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Stade Rennais vs. Nantes en vivo gratis por Tarjeta Roja TV. Stade Rennais vs Nantes transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Stade Rennais vs. Nantes, Stade Rennais, Nantes, Football, ver online gratis, en vivo gratis, Ligue 1",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/ligue1/2026-04-26/ren-nan",
-        "title": "Stade Rennais vs. Nantes EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Stade Rennais vs. Nantes en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/a013205f5cf2dce0d130ab845a725662-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Stade Rennais vs. Nantes EN VIVO",
-        "description": "Ver Stade Rennais vs. Nantes en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/a013205f5cf2dce0d130ab845a725662-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Stade Rennais vs. Nantes",
-        "description": "Transmisión en vivo de Stade Rennais vs. Nantes",
-        "startDate": "2026-04-26T15:15:00.000Z",
-        "endDate": "2026-04-26T17:45:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/ligue1/2026-04-26/ren-nan"
-        },
-        "image": "https://api.ppv.to/assets/thumb/a013205f5cf2dce0d130ab845a725662-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Stade Rennais"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Nantes"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Stade Rennais"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Nantes"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Stade Rennais vs. Nantes",
-            "url": "https://tarjetarojaenvivo.live/eventos/ligue1/2026-04-26/ren-nan"
-          }
-        ],
-        "h1": "Stade Rennais vs. Nantes EN VIVO",
-        "h2": "Ver Stade Rennais vs. Nantes Online Gratis"
-      },
-      "event": {
-        "name": "Stade Rennais vs. Nantes",
-        "category": "Football",
-        "broadcaster": "Ligue 1",
-        "start_time": "2026-04-26T15:15:00.000Z",
-        "end_time": "2026-04-26T17:45:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "1",
-        "home_team": "Stade Rennais",
-        "away_team": "Nantes"
-      },
-      "technical": {
-        "last_modified": "2026-04-26T13:07:20.574Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Stade Rennais vs. Nantes, Stade Rennais"
-      }
-    },
-    {
-      "id": 20690,
-      "slug": "borussia-dortmund-vs-sc-freiburg",
-      "uri_name": "bundesliga/2026-04-26/dor-scf",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/bundesliga/2026-04-26/dor-scf",
-      "meta": {
-        "title": "Borussia Dortmund vs. SC Freiburg EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Borussia Dortmund vs. SC Freiburg en vivo gratis por Tarjeta Roja TV. Borussia Dortmund vs SC Freiburg transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Borussia Dortmund vs. SC Freiburg, Borussia Dortmund, SC Freiburg, Football, ver online gratis, en vivo gratis, Bundesliga",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/bundesliga/2026-04-26/dor-scf",
-        "title": "Borussia Dortmund vs. SC Freiburg EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Borussia Dortmund vs. SC Freiburg en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/8e43c247bdeab8398fb29bc764259835-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Borussia Dortmund vs. SC Freiburg EN VIVO",
-        "description": "Ver Borussia Dortmund vs. SC Freiburg en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/8e43c247bdeab8398fb29bc764259835-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Borussia Dortmund vs. SC Freiburg",
-        "description": "Transmisión en vivo de Borussia Dortmund vs. SC Freiburg",
-        "startDate": "2026-04-26T15:30:00.000Z",
-        "endDate": "2026-04-26T18:00:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/bundesliga/2026-04-26/dor-scf"
-        },
-        "image": "https://api.ppv.to/assets/thumb/8e43c247bdeab8398fb29bc764259835-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Borussia Dortmund"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "SC Freiburg"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Borussia Dortmund"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "SC Freiburg"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Borussia Dortmund vs. SC Freiburg",
-            "url": "https://tarjetarojaenvivo.live/eventos/bundesliga/2026-04-26/dor-scf"
-          }
-        ],
-        "h1": "Borussia Dortmund vs. SC Freiburg EN VIVO",
-        "h2": "Ver Borussia Dortmund vs. SC Freiburg Online Gratis"
-      },
-      "event": {
-        "name": "Borussia Dortmund vs. SC Freiburg",
-        "category": "Football",
-        "broadcaster": "Bundesliga",
-        "start_time": "2026-04-26T15:30:00.000Z",
-        "end_time": "2026-04-26T18:00:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "1",
-        "home_team": "Borussia Dortmund",
-        "away_team": "SC Freiburg"
-      },
-      "technical": {
-        "last_modified": "2026-04-26T13:07:20.574Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Borussia Dortmund vs. SC Freiburg, Borussia Dortmund"
-      }
-    },
-    {
-      "id": 20707,
-      "slug": "torino-vs-inter-milan",
-      "uri_name": "seriea/2026-04-26/tor-int",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/seriea/2026-04-26/tor-int",
-      "meta": {
-        "title": "Torino vs. Inter Milan EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Torino vs. Inter Milan en vivo gratis por Tarjeta Roja TV. Torino vs Inter Milan transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Torino vs. Inter Milan, Torino, Inter Milan, Football, ver online gratis, en vivo gratis, Serie A",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/seriea/2026-04-26/tor-int",
-        "title": "Torino vs. Inter Milan EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Torino vs. Inter Milan en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/a6090bbeeb2ed331392b6682fc58008f-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Torino vs. Inter Milan EN VIVO",
-        "description": "Ver Torino vs. Inter Milan en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/a6090bbeeb2ed331392b6682fc58008f-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Torino vs. Inter Milan",
-        "description": "Transmisión en vivo de Torino vs. Inter Milan",
-        "startDate": "2026-04-26T16:00:00.000Z",
-        "endDate": "2026-04-26T18:30:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/seriea/2026-04-26/tor-int"
-        },
-        "image": "https://api.ppv.to/assets/thumb/a6090bbeeb2ed331392b6682fc58008f-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Torino"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Inter Milan"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Torino"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Inter Milan"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Torino vs. Inter Milan",
-            "url": "https://tarjetarojaenvivo.live/eventos/seriea/2026-04-26/tor-int"
-          }
-        ],
-        "h1": "Torino vs. Inter Milan EN VIVO",
-        "h2": "Ver Torino vs. Inter Milan Online Gratis"
-      },
-      "event": {
-        "name": "Torino vs. Inter Milan",
-        "category": "Football",
-        "broadcaster": "Serie A",
-        "start_time": "2026-04-26T16:00:00.000Z",
-        "end_time": "2026-04-26T18:30:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "1",
-        "home_team": "Torino",
-        "away_team": "Inter Milan"
-      },
-      "technical": {
-        "last_modified": "2026-04-26T13:07:20.574Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Torino vs. Inter Milan, Torino"
       }
     },
     {
@@ -4623,19 +3693,125 @@
         "start_time": "2026-04-26T16:30:00.000Z",
         "end_time": "2026-04-26T19:00:00.000Z",
         "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "1",
+        "status": "live",
+        "viewers": "28",
         "home_team": "Osasuna",
         "away_team": "Sevilla"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.574Z",
+        "last_modified": "2026-04-26T18:55:43.927Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
         "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Osasuna vs. Sevilla, Osasuna"
+      }
+    },
+    {
+      "id": 20947,
+      "slug": "galatasaray-vs-fenerbahce",
+      "uri_name": "turkish-super-lig/2026-04-26/gal-fen",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/turkish-super-lig/2026-04-26/gal-fen",
+      "meta": {
+        "title": "Galatasaray vs. Fenerbahce EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Galatasaray vs. Fenerbahce en vivo gratis por Tarjeta Roja TV. Galatasaray vs Fenerbahce transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Galatasaray vs. Fenerbahce, Galatasaray, Fenerbahce, Football, ver online gratis, en vivo gratis, Turkish Super Lig",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/turkish-super-lig/2026-04-26/gal-fen",
+        "title": "Galatasaray vs. Fenerbahce EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Galatasaray vs. Fenerbahce en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/3b525b81584cf72291ae18d036c3ddc8-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Galatasaray vs. Fenerbahce EN VIVO",
+        "description": "Ver Galatasaray vs. Fenerbahce en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/3b525b81584cf72291ae18d036c3ddc8-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Galatasaray vs. Fenerbahce",
+        "description": "Transmisión en vivo de Galatasaray vs. Fenerbahce",
+        "startDate": "2026-04-26T17:00:00.000Z",
+        "endDate": "2026-04-26T19:30:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/turkish-super-lig/2026-04-26/gal-fen"
+        },
+        "image": "https://api.ppv.to/assets/thumb/3b525b81584cf72291ae18d036c3ddc8-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Galatasaray"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Fenerbahce"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Galatasaray"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Fenerbahce"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Galatasaray vs. Fenerbahce",
+            "url": "https://tarjetarojaenvivo.live/eventos/turkish-super-lig/2026-04-26/gal-fen"
+          }
+        ],
+        "h1": "Galatasaray vs. Fenerbahce EN VIVO",
+        "h2": "Ver Galatasaray vs. Fenerbahce Online Gratis"
+      },
+      "event": {
+        "name": "Galatasaray vs. Fenerbahce",
+        "category": "Football",
+        "broadcaster": "Turkish Super Lig",
+        "start_time": "2026-04-26T17:00:00.000Z",
+        "end_time": "2026-04-26T19:30:00.000Z",
+        "duration_minutes": 150,
+        "status": "live",
+        "viewers": "937",
+        "home_team": "Galatasaray",
+        "away_team": "Fenerbahce"
+      },
+      "technical": {
+        "last_modified": "2026-04-26T18:55:43.927Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Galatasaray vs. Fenerbahce, Galatasaray"
       }
     },
     {
@@ -4729,13 +3905,13 @@
         "start_time": "2026-04-26T18:45:00.000Z",
         "end_time": "2026-04-26T21:15:00.000Z",
         "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "1",
+        "status": "live",
+        "viewers": "165",
         "home_team": "AC Milan",
         "away_team": "Juventus"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.574Z",
+        "last_modified": "2026-04-26T18:55:43.927Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4835,13 +4011,13 @@
         "start_time": "2026-04-26T18:45:00.000Z",
         "end_time": "2026-04-26T21:15:00.000Z",
         "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "1",
+        "status": "live",
+        "viewers": "84",
         "home_team": "Marseille",
         "away_team": "Nice"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.574Z",
+        "last_modified": "2026-04-26T18:55:43.927Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4947,7 +4123,7 @@
         "away_team": "Celta Vigo"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.574Z",
+        "last_modified": "2026-04-26T18:55:43.927Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5053,7 +4229,7 @@
         "away_team": "Real Salt Lake"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.574Z",
+        "last_modified": "2026-04-26T18:55:43.927Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5154,12 +4330,12 @@
         "end_time": "2026-04-27T19:00:00.000Z",
         "duration_minutes": 150,
         "status": "upcoming",
-        "viewers": "1",
+        "viewers": "0",
         "home_team": "Cagliari",
         "away_team": "Atalanta"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.574Z",
+        "last_modified": "2026-04-26T18:55:43.927Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5260,12 +4436,12 @@
         "end_time": "2026-04-27T21:15:00.000Z",
         "duration_minutes": 150,
         "status": "upcoming",
-        "viewers": "1",
+        "viewers": "0",
         "home_team": "Lazio",
         "away_team": "Udinese"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.574Z",
+        "last_modified": "2026-04-26T18:55:43.927Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5371,7 +4547,7 @@
         "away_team": "Levante"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.574Z",
+        "last_modified": "2026-04-26T18:55:43.927Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5472,12 +4648,12 @@
         "end_time": "2026-04-27T21:30:00.000Z",
         "duration_minutes": 150,
         "status": "upcoming",
-        "viewers": "1",
+        "viewers": "2",
         "home_team": "Manchester United",
         "away_team": "Brentford"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.574Z",
+        "last_modified": "2026-04-26T18:55:43.927Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5583,7 +4759,7 @@
         "away_team": "Southend United"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.574Z",
+        "last_modified": "2026-04-26T18:55:43.927Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5689,7 +4865,7 @@
         "away_team": "Forest Green Rovers"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.574Z",
+        "last_modified": "2026-04-26T18:55:43.928Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5789,13 +4965,13 @@
         "start_time": "2026-04-26T18:00:00.000Z",
         "end_time": "2026-04-26T21:00:00.000Z",
         "duration_minutes": 180,
-        "status": "upcoming",
-        "viewers": "1",
+        "status": "live",
+        "viewers": "464",
         "home_team": "Buffalo Sabres",
         "away_team": "Boston Bruins"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.574Z",
+        "last_modified": "2026-04-26T18:55:43.928Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5901,7 +5077,7 @@
         "away_team": "Los Angeles Kings"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.574Z",
+        "last_modified": "2026-04-26T18:55:43.928Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -6002,12 +5178,12 @@
         "end_time": "2026-04-27T02:00:00.000Z",
         "duration_minutes": 180,
         "status": "upcoming",
-        "viewers": "0",
+        "viewers": "1",
         "home_team": "Tampa Bay Lightning",
         "away_team": "Montreal Canadiens"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.574Z",
+        "last_modified": "2026-04-26T18:55:43.928Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -6113,13 +5289,99 @@
         "away_team": "Anaheim Ducks"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.574Z",
+        "last_modified": "2026-04-26T18:55:43.928Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
         "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Edmonton Oilers vs. Anaheim Ducks, Edmonton Oilers"
+      }
+    },
+    {
+      "id": 20633,
+      "slug": "nascar-cup-series-jack-links-500",
+      "uri_name": "nascar-cup-series-jack-links-500",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/nascar-cup-series-jack-links-500",
+      "meta": {
+        "title": "NASCAR Cup Series: Jack Links 500 EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver NASCAR Cup Series: Jack Links 500 en vivo gratis por Tarjeta Roja TV. NASCAR Cup Series: Jack Links 500 transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, NASCAR Cup Series: Jack Links 500, NASCAR Cup Series: Jack Links 500, Motorsports, ver online gratis, en vivo gratis, FOX",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/nascar-cup-series-jack-links-500",
+        "title": "NASCAR Cup Series: Jack Links 500 EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver NASCAR Cup Series: Jack Links 500 en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/5824156851a3607b2739900ffb980eb4-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "NASCAR Cup Series: Jack Links 500 EN VIVO",
+        "description": "Ver NASCAR Cup Series: Jack Links 500 en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/5824156851a3607b2739900ffb980eb4-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "NASCAR Cup Series: Jack Links 500",
+        "description": "Transmisión en vivo de NASCAR Cup Series: Jack Links 500",
+        "startDate": "2026-04-26T19:00:00.000Z",
+        "endDate": "2026-04-27T01:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/nascar-cup-series-jack-links-500"
+        },
+        "image": "https://api.ppv.to/assets/thumb/5824156851a3607b2739900ffb980eb4-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "sport": "Motorsports"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Motorsports",
+            "url": "https://tarjetarojaenvivo.live/categoria/motorsports"
+          },
+          {
+            "name": "NASCAR Cup Series: Jack Links 500",
+            "url": "https://tarjetarojaenvivo.live/eventos/nascar-cup-series-jack-links-500"
+          }
+        ],
+        "h1": "NASCAR Cup Series: Jack Links 500 EN VIVO",
+        "h2": "Ver NASCAR Cup Series: Jack Links 500 Online Gratis"
+      },
+      "event": {
+        "name": "NASCAR Cup Series: Jack Links 500",
+        "category": "Motorsports",
+        "broadcaster": "FOX",
+        "start_time": "2026-04-26T19:00:00.000Z",
+        "end_time": "2026-04-27T01:00:00.000Z",
+        "duration_minutes": 360,
+        "status": "upcoming",
+        "viewers": "22"
+      },
+      "technical": {
+        "last_modified": "2026-04-26T18:55:43.928Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, NASCAR Cup Series: Jack Links 500, NASCAR Cup Series: Jack Links 500"
       }
     },
     {
@@ -6196,10 +5458,10 @@
         "end_time": "1970-01-01T00:00:00.000Z",
         "duration_minutes": 0,
         "status": "completed",
-        "viewers": "11"
+        "viewers": "12"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.574Z",
+        "last_modified": "2026-04-26T18:55:43.928Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -6285,7 +5547,7 @@
         "viewers": "1"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.574Z",
+        "last_modified": "2026-04-26T18:55:43.928Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -6371,7 +5633,7 @@
         "viewers": "24"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.574Z",
+        "last_modified": "2026-04-26T18:55:43.928Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -6454,10 +5716,10 @@
         "end_time": "2025-01-18T10:28:00.000Z",
         "duration_minutes": 0,
         "status": "completed",
-        "viewers": "0"
+        "viewers": "2"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.574Z",
+        "last_modified": "2026-04-26T18:55:43.928Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -6540,10 +5802,10 @@
         "end_time": "2026-01-28T03:00:00.000Z",
         "duration_minutes": 180,
         "status": "completed",
-        "viewers": "4"
+        "viewers": "7"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.574Z",
+        "last_modified": "2026-04-26T18:55:43.928Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -6626,10 +5888,10 @@
         "end_time": "2026-02-12T03:00:00.000Z",
         "duration_minutes": 180,
         "status": "completed",
-        "viewers": "47"
+        "viewers": "4"
       },
       "technical": {
-        "last_modified": "2026-04-26T13:07:20.574Z",
+        "last_modified": "2026-04-26T18:55:43.928Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
