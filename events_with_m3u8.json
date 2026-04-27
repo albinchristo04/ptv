@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "fetched_at": "2026-04-27T13:26:38.199710Z",
+    "fetched_at": "2026-04-27T19:09:45.243916Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-04-27T14:28:39.343349",
+      "extracted_at": "2026-04-27T19:15:36.449663",
       "total_streams": 122,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
@@ -12,15 +12,15 @@
         "total_requests": 122,
         "successful_requests": 122,
         "failed_requests": 0,
-        "elapsed_time_seconds": 365.13
+        "elapsed_time_seconds": 335.93
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1777296400,
+    "timestamp": 1777316990,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.03404593467712402,
+    "performance": 0.021334171295166016,
     "streams": [
       {
         "category": "Australian Football",
@@ -44,7 +44,7 @@
             "locale": "en",
             "category_name": "Australian Football",
             "iframe": "https://pooembed.eu/embed/afl/2026-04-30/coll-haw",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -464,30 +464,57 @@
         ]
       },
       {
+        "category": "Combat Sports",
+        "id": 33,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 21052,
+            "name": "Naoya Inoue vs. Junto Nakatani",
+            "tag": "DAZN",
+            "poster": "https://api.ppv.to/assets/thumb/ab0ac545b5586ab4df85110b403b1e39-thumbnail.jpg",
+            "blurhash": "LLLLzl?H0daK~p=|9[r=E1tRO@xG",
+            "colors": [
+              "#f1c2b0",
+              "#8e2e41"
+            ],
+            "uri_name": "naoya-inoue-vs.-junto-nakatani",
+            "starts_at": 1777714800,
+            "ends_at": 1777736400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Combat Sports",
+            "iframe": "https://pooembed.eu/embed/naoya-inoue-vs.-junto-nakatani",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 21053,
+            "name": "Benavidez vs. Zurdo",
+            "tag": "DAZN",
+            "poster": "https://api.ppv.to/assets/thumb/61fe2a76d9920106c0e61996715be250-thumbnail.jpg",
+            "blurhash": "LVI;9eaL9FWB|{oKF^sp4nfkyDoL",
+            "colors": [
+              "#9d664d",
+              "#8e7162"
+            ],
+            "uri_name": "benavidez-vs.-zurdo",
+            "starts_at": 1777770000,
+            "ends_at": 1777791600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Combat Sports",
+            "iframe": "https://pooembed.eu/embed/benavidez-vs.-zurdo",
+            "viewers": "0",
+            "substreams": []
+          }
+        ]
+      },
+      {
         "category": "Cricket",
         "id": 47,
         "always_live": false,
         "streams": [
-          {
-            "id": 20915,
-            "name": "Delhi Capitals vs. Royal Challengers Bengaluru",
-            "tag": "Indian Premier League",
-            "poster": "https://api.ppv.to/assets/thumb/f76c1e2a1c0ef52bb6ed09b9c87764c2-thumbnail.jpg",
-            "blurhash": "LIE15x3Z#qW9oMW=jtn%0d+tS|xG",
-            "colors": [
-              "#2561ae",
-              "#f10920"
-            ],
-            "uri_name": "ipl/2026-04-27/dc-rcb",
-            "starts_at": 1777298400,
-            "ends_at": 1777312800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Cricket",
-            "iframe": "https://pooembed.eu/embed/ipl/2026-04-27/dc-rcb",
-            "viewers": "4",
-            "substreams": []
-          },
           {
             "id": 20960,
             "name": "Punjab Kings vs. Rajasthan Royals",
@@ -515,48 +542,6 @@
         "id": 32,
         "always_live": false,
         "streams": [
-          {
-            "id": 21040,
-            "name": "2026 Players Championship 11",
-            "tag": "PDC.TV",
-            "poster": "https://api.ppv.to/assets/thumb/7d4dd33867452558399f05dd8de0efd5-thumbnail.jpg",
-            "blurhash": "LSKvm#}[I:v~0e9t?HNbM{I:NG%2",
-            "colors": [
-              "#d41a0b",
-              "#000000"
-            ],
-            "uri_name": "darts/2026/players-championship-11",
-            "starts_at": 1777291200,
-            "ends_at": 1777312800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Darts",
-            "iframe": "https://pooembed.eu/embed/darts/2026/players-championship-11",
-            "viewers": "65",
-            "substreams": [
-              {
-                "id": 21041,
-                "name": "2026 Players Championship 11",
-                "tag": "Board 2",
-                "locale": "en",
-                "iframe": "https://pooembed.eu/embed/darts/2026/players-championship-11/board-2"
-              },
-              {
-                "id": 21042,
-                "name": "2026 Players Championship 11",
-                "tag": "Board 3",
-                "locale": "en",
-                "iframe": "https://pooembed.eu/embed/darts/2026/players-championship-11/board-3"
-              },
-              {
-                "id": 21043,
-                "name": "2026 Players Championship 11",
-                "tag": "Board 4",
-                "locale": "en",
-                "iframe": "https://pooembed.eu/embed/darts/2026/players-championship-11/board-4"
-              }
-            ]
-          },
           {
             "id": 20820,
             "name": "2026 Players Championship 12",
@@ -607,26 +592,6 @@
         "always_live": false,
         "streams": [
           {
-            "id": 20709,
-            "name": "Cagliari vs. Atalanta",
-            "tag": "Serie A",
-            "poster": "https://api.ppv.to/assets/thumb/ded95ecca2e0f8fb12a70265332d60cf-thumbnail.jpg",
-            "blurhash": "L58XhXzT4TK9t8sljYWY00KS_4$h",
-            "colors": [
-              "#002350",
-              "#2d5cae"
-            ],
-            "uri_name": "seriea/2026-04-27/cag-ata",
-            "starts_at": 1777307400,
-            "ends_at": 1777316400,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/seriea/2026-04-27/cag-ata",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
             "id": 21047,
             "name": "AIK vs. Malmö FF",
             "tag": "Swedish Allsvenskan",
@@ -643,7 +608,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/swedish-allsvenskan/2026-04-27/aik-mal",
-            "viewers": "0",
+            "viewers": "32",
             "substreams": []
           },
           {
@@ -663,7 +628,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/swedish-allsvenskan/2026-04-27/bkh-sir",
-            "viewers": "0",
+            "viewers": "5",
             "substreams": []
           },
           {
@@ -683,7 +648,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/swedish-allsvenskan/2026-04-27/kff-elf",
-            "viewers": "0",
+            "viewers": "5",
             "substreams": []
           },
           {
@@ -703,7 +668,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/swedish-allsvenskan/2026-04-27/mja-hbk",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -723,7 +688,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/swedish-allsvenskan/2026-04-27/org-deg",
-            "viewers": "0",
+            "viewers": "5",
             "substreams": []
           },
           {
@@ -743,7 +708,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/seriea/2026-04-27/laz-udi",
-            "viewers": "0",
+            "viewers": "54",
             "substreams": []
           },
           {
@@ -763,7 +728,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/laliga/2026-04-27/esp-lev",
-            "viewers": "0",
+            "viewers": "31",
             "substreams": []
           },
           {
@@ -783,7 +748,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/pl/2026-04-27/mun-bre",
-            "viewers": "1",
+            "viewers": "7400",
             "substreams": []
           },
           {
@@ -803,6 +768,46 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/national-league/2026-04-28/scu-sout",
+            "viewers": "2",
+            "substreams": []
+          },
+          {
+            "id": 21054,
+            "name": "Buxton vs. Scarborough",
+            "tag": "National League North",
+            "poster": "https://api.ppv.to/assets/thumb/2bca66f8945e535ae4ec1982a1606b23-thumbnail.jpg",
+            "blurhash": "LHSs1[yDxuMxofj[j[ay_NMxRPx]",
+            "colors": [
+              "#fefefe",
+              "#ffffff"
+            ],
+            "uri_name": "national-league-north/2026-04-28/bux-sca",
+            "starts_at": 1777401900,
+            "ends_at": 1777410900,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/national-league-north/2026-04-28/bux-sca",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 21055,
+            "name": "Hemel Hempstead vs. Weston-super-Mare",
+            "tag": "National League South",
+            "poster": "https://api.ppv.to/assets/thumb/c372be7bfa6e42a49a976a86a840bf8e-thumbnail.jpg",
+            "blurhash": "LLSpw^y@rDQ7aeofj[WB=eIATJyD",
+            "colors": [
+              "#fe0000",
+              "#ffffff"
+            ],
+            "uri_name": "national-league-south/2026-04-28/hht-wsm",
+            "starts_at": 1777401900,
+            "ends_at": 1777410900,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/national-league-south/2026-04-28/hht-wsm",
             "viewers": "0",
             "substreams": []
           },
@@ -823,7 +828,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/ucl/2026-04-28/psg-mun",
-            "viewers": "0",
+            "viewers": "3",
             "substreams": []
           },
           {
@@ -847,6 +852,46 @@
             "substreams": []
           },
           {
+            "id": 21056,
+            "name": "Macclesfield vs. Chester",
+            "tag": "National League North",
+            "poster": "https://api.ppv.to/assets/thumb/51db5a7519632e8d312fc4ae2f41d7b7-thumbnail.jpg",
+            "blurhash": "LNM7x~00M{~qofayfQj[M{IUxt-;",
+            "colors": [
+              "#1b2342",
+              "#ffffff"
+            ],
+            "uri_name": "national-league-north/2026-04-29/mac-che",
+            "starts_at": 1777488300,
+            "ends_at": 1777497300,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/national-league-north/2026-04-29/mac-che",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 21057,
+            "name": "Dorking vs. Maidenhead",
+            "tag": "National League South",
+            "poster": "https://api.ppv.to/assets/thumb/0e5eb9c5a05fec12543804d13c5bcca6-thumbnail.jpg",
+            "blurhash": "L:J;iS|eRPOBj[jtfQfQR5smtRS4",
+            "colors": [
+              "#e50e20",
+              "#000000"
+            ],
+            "uri_name": "national-league-south/2026-04-29/dor-mai",
+            "starts_at": 1777488300,
+            "ends_at": 1777497300,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/national-league-south/2026-04-29/dor-mai",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
             "id": 21029,
             "name": "Atlético Madrid vs. Arsenal",
             "tag": "Champions League",
@@ -863,7 +908,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/ucl/2026-04-29/atm-ars",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -903,7 +948,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/uel/2026-04-30/nfo-avl",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1203,7 +1248,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/pl/2026-05-02/new-bha",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -2256,80 +2301,6 @@
         ]
       },
       {
-        "category": "Rugby",
-        "id": 42,
-        "always_live": false,
-        "streams": [
-          {
-            "id": 21045,
-            "name": "U20 RC: New Zealand vs. Australia",
-            "tag": "Sky Sport 2 NZ",
-            "poster": "https://api.ppv.to/assets/thumb/0b8507efda5137ea95dd14d435ae1802-thumbnail.jpg",
-            "blurhash": "L9BNA]9[x_#i~X?vbbR500xuRio$",
-            "colors": [
-              "#080d2a",
-              "#20364e"
-            ],
-            "uri_name": "u20-rc-new-zealand-vs.-australia",
-            "starts_at": 1777291200,
-            "ends_at": 1777298400,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Rugby",
-            "iframe": "https://pooembed.eu/embed/u20-rc-new-zealand-vs.-australia",
-            "viewers": "3",
-            "substreams": []
-          },
-          {
-            "id": 21046,
-            "name": "U20 RC: South Africa vs. Argentina",
-            "tag": "Sky Sport 2 NZ",
-            "poster": "https://api.ppv.to/assets/thumb/0b8507efda5137ea95dd14d435ae1802-thumbnail.jpg",
-            "blurhash": "L9BNA]9[x_#i~X?vbbR500xuRio$",
-            "colors": [
-              "#080d2a",
-              "#20364e"
-            ],
-            "uri_name": "u20-rc-south-africa-vs.-argentina",
-            "starts_at": 1777299000,
-            "ends_at": 1777306200,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Rugby",
-            "iframe": "https://pooembed.eu/embed/u20-rc-south-africa-vs.-argentina",
-            "viewers": "0",
-            "substreams": []
-          }
-        ]
-      },
-      {
-        "category": "Tennis",
-        "id": 63,
-        "always_live": false,
-        "streams": [
-          {
-            "id": 21044,
-            "name": "ATP 1000 - Madrid Open - Day 6",
-            "tag": "Tennis Channel",
-            "poster": "https://api.ppv.to/assets/thumb/f34257353cdaf1c69bec07f4b5abd48e-thumbnail.jpg",
-            "blurhash": "L97o@*Pe00-;vxg4R+i^00sS~pNI",
-            "colors": [
-              "#05759b",
-              "#002668"
-            ],
-            "uri_name": "atp-1000---madrid-open---day-6",
-            "starts_at": 1777280400,
-            "ends_at": 1777316400,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Tennis",
-            "iframe": "https://pooembed.eu/embed/atp-1000---madrid-open---day-6",
-            "viewers": "38",
-            "substreams": []
-          }
-        ]
-      },
-      {
         "category": "Wrestling",
         "id": 38,
         "always_live": false,
@@ -2478,7 +2449,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-south-park",
-            "viewers": "20",
+            "viewers": "22",
             "substreams": []
           },
           {
@@ -2498,7 +2469,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-cows",
-            "viewers": "2",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -2518,7 +2489,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-family-guy",
-            "viewers": "37",
+            "viewers": "27",
             "substreams": []
           },
           {
@@ -2558,7 +2529,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-spongebob-squarepants",
-            "viewers": "3",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -2578,7 +2549,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/rally-tv",
-            "viewers": "3",
+            "viewers": "1",
             "substreams": []
           }
         ]
