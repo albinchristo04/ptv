@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2026-05-04T08:22:28.107662Z",
+    "fetched_at": "2026-05-04T13:45:41.985351Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-05-04T08:46:43.708831",
-      "total_streams": 121,
+      "extracted_at": "2026-05-04T13:51:39.228409",
+      "total_streams": 123,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 121,
-        "successful_requests": 121,
+        "total_requests": 123,
+        "successful_requests": 123,
         "failed_requests": 0,
-        "elapsed_time_seconds": 354.73
+        "elapsed_time_seconds": 335.55
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1777882950,
+    "timestamp": 1777902350,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.05337882041931152,
+    "performance": 0.03548598289489746,
     "streams": [
       {
         "category": "Australian Football",
@@ -66,7 +66,7 @@
             "locale": "en",
             "category_name": "Australian Football",
             "iframe": "https://pooembed.eu/embed/afl/2026-05-08/bl-carl",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -521,7 +521,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-05-04/min-sa",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           }
         ]
@@ -549,7 +549,7 @@
             "locale": "en",
             "category_name": "Cricket",
             "iframe": "https://pooembed.eu/embed/ipl/2026-05-04/mi-lsg",
-            "viewers": "0",
+            "viewers": "13",
             "substreams": []
           },
           {
@@ -576,6 +576,62 @@
         ]
       },
       {
+        "category": "Darts",
+        "id": 32,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 21378,
+            "name": "Players Championship 13",
+            "tag": "PDC.TV",
+            "source_tag": "Board 1",
+            "poster": "https://api.ppv.to/assets/thumb/7d4dd33867452558399f05dd8de0efd5-thumbnail.jpg",
+            "blurhash": "LSKvjs}[I:v~0f9t?HNaM{I:NG%2",
+            "colors": [
+              "#d41a0b",
+              "#000000"
+            ],
+            "uri_name": "darts/2026/players-championship-13",
+            "starts_at": 1777892400,
+            "ends_at": 1777921200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Darts",
+            "iframe": "https://pooembed.eu/embed/darts/2026/players-championship-13",
+            "viewers": "102",
+            "substreams": [
+              {
+                "id": 21379,
+                "name": "Players Championship 13",
+                "tag": "PDC.TV",
+                "uri_name": "darts/2026/players-championship-13/board-2",
+                "source_tag": "Board 2",
+                "locale": "en",
+                "iframe": "https://pooembed.eu/embed/darts/2026/players-championship-13/board-2"
+              },
+              {
+                "id": 21380,
+                "name": "Players Championship 13",
+                "tag": "PDC.TV",
+                "uri_name": "darts/2026/players-championship-13/board-3",
+                "source_tag": "Board 3",
+                "locale": "en",
+                "iframe": "https://pooembed.eu/embed/darts/2026/players-championship-13/board-3"
+              },
+              {
+                "id": 21381,
+                "name": "Players Championship 13",
+                "tag": "PDC.TV",
+                "uri_name": "darts/2026/players-championship-13/board-4",
+                "source_tag": "Board 4",
+                "locale": "en",
+                "iframe": "https://pooembed.eu/embed/darts/2026/players-championship-13/board-4"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "category": "Football",
         "id": 34,
         "always_live": false,
@@ -598,7 +654,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/pl/2026-05-04/che-nfo",
-            "viewers": "0",
+            "viewers": "263",
             "substreams": []
           },
           {
@@ -640,7 +696,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/seriea/2026-05-04/roma-fio",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -682,7 +738,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/pl/2026-05-04/eve-mci",
-            "viewers": "0",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -703,7 +759,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/ucl/2026-05-05/ars-atm",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -913,7 +969,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/pl/2026-05-09/liv-che",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -934,7 +990,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/laliga/2026-05-09/elc-ala",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1438,7 +1494,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/mls/2026-05-09/col-stl",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -1669,6 +1725,27 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/bundesliga/2026-05-10/hsv-scf",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 21377,
+            "name": "Boreham Wood vs. Rochdale",
+            "tag": "National League",
+            "source_tag": "National League",
+            "poster": "https://api.ppv.to/assets/thumb/46df6deba1ac5dbf865ac70d8a9d7269-thumbnail.jpg",
+            "blurhash": "LSF6FU~o%K%Mj[fQfQj[00R-RkIU",
+            "colors": [
+              "#ffffff",
+              "#0f1086"
+            ],
+            "uri_name": "national-league/2026-05-10/bor-rch",
+            "starts_at": 1778421600,
+            "ends_at": 1778430600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/national-league/2026-05-10/bor-rch",
             "viewers": "0",
             "substreams": []
           },
@@ -2516,7 +2593,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-south-park",
-            "viewers": "27",
+            "viewers": "20",
             "substreams": []
           },
           {
@@ -2558,7 +2635,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-family-guy",
-            "viewers": "41",
+            "viewers": "27",
             "substreams": []
           },
           {
@@ -2579,7 +2656,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-the-simpsons",
-            "viewers": "1",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -2621,7 +2698,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/rally-tv",
-            "viewers": "3",
+            "viewers": "5",
             "substreams": []
           }
         ]
