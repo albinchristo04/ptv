@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2026-05-05T08:00:28.734508Z",
+    "fetched_at": "2026-05-05T19:10:35.831598Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-05-05T13:46:41.552467",
-      "total_streams": 127,
+      "extracted_at": "2026-05-05T19:17:10.279674",
+      "total_streams": 126,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 127,
-        "successful_requests": 127,
+        "total_requests": 126,
+        "successful_requests": 126,
         "failed_requests": 0,
-        "elapsed_time_seconds": 390.09
+        "elapsed_time_seconds": 372.76
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1777968030,
+    "timestamp": 1778008240,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.03655195236206055,
+    "performance": 0.03544187545776367,
     "streams": [
       {
         "category": "American Football",
@@ -45,7 +45,7 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://pooembed.eu/embed/ufl/2026-05-08/clb-stl",
-            "viewers": "0",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -66,7 +66,7 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://pooembed.eu/embed/ufl/2026-05-09/lou-dc",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -199,7 +199,7 @@
             "locale": "en",
             "category_name": "Australian Football",
             "iframe": "https://pooembed.eu/embed/afl/2026-05-09/nmfc-syd",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -654,7 +654,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-05-05/cle-det",
-            "viewers": "0",
+            "viewers": "3",
             "substreams": []
           },
           {
@@ -675,7 +675,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-05-05/lal-okc",
-            "viewers": "1",
+            "viewers": "3",
             "substreams": []
           }
         ]
@@ -685,27 +685,6 @@
         "id": 47,
         "always_live": false,
         "streams": [
-          {
-            "id": 21277,
-            "name": "Delhi Capitals vs. Chennai Super Kings",
-            "tag": "Indian Premier League",
-            "source_tag": "Indian Premier League",
-            "poster": "https://api.ppv.to/assets/thumb/0660bd6d14d758a24373b02539e19a96-thumbnail.jpg",
-            "blurhash": "LJEB{Y0[wOe,ofW=jtjY0K$JX7xZ",
-            "colors": [
-              "#2561ae",
-              "#f5ae0c"
-            ],
-            "uri_name": "ipl/2026-05-05/dc-csk",
-            "starts_at": 1777989600,
-            "ends_at": 1778004000,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Cricket",
-            "iframe": "https://pooembed.eu/embed/ipl/2026-05-05/dc-csk",
-            "viewers": "0",
-            "substreams": []
-          },
           {
             "id": 21401,
             "name": "Sunrisers Hyderabad vs. Punjab Kings",
@@ -726,62 +705,6 @@
             "iframe": "https://pooembed.eu/embed/ipl/2026-05-06/srh-pbks",
             "viewers": "0",
             "substreams": []
-          }
-        ]
-      },
-      {
-        "category": "Darts",
-        "id": 32,
-        "always_live": false,
-        "streams": [
-          {
-            "id": 21389,
-            "name": "Players Championship 14",
-            "tag": "PDC.TV",
-            "source_tag": "Board 1",
-            "poster": "https://api.ppv.to/assets/thumb/7d4dd33867452558399f05dd8de0efd5-thumbnail.jpg",
-            "blurhash": "LSKvjs}[I:v~0f9t?HNaM{I:NG%2",
-            "colors": [
-              "#d41a0b",
-              "#000000"
-            ],
-            "uri_name": "darts/2026/players-championship-14",
-            "starts_at": 1777978800,
-            "ends_at": 1778007600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Darts",
-            "iframe": "https://pooembed.eu/embed/darts/2026/players-championship-14",
-            "viewers": "0",
-            "substreams": [
-              {
-                "id": 21390,
-                "name": "Players Championship 14",
-                "tag": "PDC.TV",
-                "uri_name": "darts/2026/players-championship-14/2",
-                "source_tag": "Board 2",
-                "locale": "en",
-                "iframe": "https://pooembed.eu/embed/darts/2026/players-championship-14/2"
-              },
-              {
-                "id": 21391,
-                "name": "Players Championship 14",
-                "tag": "PDC.TV",
-                "uri_name": "darts/2026/players-championship-14/3",
-                "source_tag": "Board 3",
-                "locale": "en",
-                "iframe": "https://pooembed.eu/embed/darts/2026/players-championship-14/3"
-              },
-              {
-                "id": 21392,
-                "name": "Players Championship 14",
-                "tag": "PDC.TV",
-                "uri_name": "darts/2026/players-championship-14/4",
-                "source_tag": "Board 4",
-                "locale": "en",
-                "iframe": "https://pooembed.eu/embed/darts/2026/players-championship-14/4"
-              }
-            ]
           }
         ]
       },
@@ -808,8 +731,27 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/ucl/2026-05-05/ars-atm",
-            "viewers": "0",
-            "substreams": []
+            "viewers": "18594",
+            "substreams": [
+              {
+                "id": 21417,
+                "name": "Arsenal vs. Atlético Madrid",
+                "tag": "Champions League",
+                "uri_name": "ucl/2026-05-05/ars-atm/2",
+                "source_tag": "Prime Vision",
+                "locale": "en",
+                "iframe": "https://pooembed.eu/embed/ucl/2026-05-05/ars-atm/2"
+              },
+              {
+                "id": 21418,
+                "name": "Arsenal vs. Atlético Madrid",
+                "tag": "Champions League",
+                "uri_name": "ucl/2026-05-05/ars-atm/3",
+                "source_tag": "Paramount+",
+                "locale": "en",
+                "iframe": "https://pooembed.eu/embed/ucl/2026-05-05/ars-atm/3"
+              }
+            ]
           },
           {
             "id": 21349,
@@ -829,7 +771,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/ucl/2026-05-06/mun-psg",
-            "viewers": "0",
+            "viewers": "20",
             "substreams": []
           },
           {
@@ -850,7 +792,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/uel/2026-05-07/avl-nfo",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1186,7 +1128,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/bundesliga/2026-05-09/vfb-b04",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1333,7 +1275,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/bundesliga/2026-05-09/wob-mun",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -2005,7 +1947,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/laliga/2026-05-10/bar-rma",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -2341,7 +2283,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/efl-championship/2026-05-12/sou-mid",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           }
         ]
@@ -2369,7 +2311,7 @@
             "locale": "en",
             "category_name": "Ice Hockey",
             "iframe": "https://pooembed.eu/embed/nhl/2026-05-05/min-col",
-            "viewers": "0",
+            "viewers": "4",
             "substreams": []
           }
         ]
@@ -2684,7 +2626,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-south-park",
-            "viewers": "20",
+            "viewers": "12",
             "substreams": []
           },
           {
@@ -2726,7 +2668,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-family-guy",
-            "viewers": "39",
+            "viewers": "24",
             "substreams": []
           },
           {
@@ -2747,7 +2689,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-the-simpsons",
-            "viewers": "2",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -2768,7 +2710,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-spongebob-squarepants",
-            "viewers": "2",
+            "viewers": "4",
             "substreams": []
           },
           {
@@ -2790,6 +2732,34 @@
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/rally-tv",
             "viewers": "3",
+            "substreams": []
+          }
+        ]
+      },
+      {
+        "category": "VIP | NZ Sports",
+        "id": 51,
+        "always_live": true,
+        "streams": [
+          {
+            "id": 21419,
+            "name": "Sky Sport 1 UHD",
+            "tag": "24/7 channel",
+            "source_tag": "24/7 channel",
+            "poster": "https://api.ppv.to/assets/thumb/a719ac868d009c4014cea59a33ffe88d-thumbnail.jpg",
+            "blurhash": "L76kC+RQ00x]Wpj[jZWB0KtQ~WMx",
+            "colors": [
+              "#00012f",
+              "#00012f"
+            ],
+            "uri_name": "vip/sky-nz/sky-sport-1-uhd",
+            "starts_at": 1753920000,
+            "ends_at": 1753934400,
+            "always_live": 1,
+            "locale": "en",
+            "category_name": "VIP | NZ Sports",
+            "iframe": "https://pooembed.eu/embed/vip/sky-nz/sky-sport-1-uhd",
+            "viewers": "5",
             "substreams": []
           }
         ]
