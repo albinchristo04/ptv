@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2026-05-08T07:21:25.275046Z",
+    "fetched_at": "2026-05-08T13:19:00.174251Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-05-08T08:00:21.769003",
-      "total_streams": 122,
+      "extracted_at": "2026-05-08T13:25:03.448971",
+      "total_streams": 118,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 122,
-        "successful_requests": 122,
+        "total_requests": 118,
+        "successful_requests": 118,
         "failed_requests": 0,
-        "elapsed_time_seconds": 328.56
+        "elapsed_time_seconds": 341.35
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1778224890,
+    "timestamp": 1778246340,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.029635190963745117,
+    "performance": 0.0669708251953125,
     "streams": [
       {
         "category": "American Football",
@@ -118,48 +118,6 @@
         "id": 66,
         "always_live": false,
         "streams": [
-          {
-            "id": 21355,
-            "name": "Carlton vs. Brisbane Lions",
-            "tag": "Fox Footy",
-            "source_tag": "Fox Footy",
-            "poster": "https://api.ppv.to/assets/thumb/c4270e8af3aab87b0eeca41bea39f253-thumbnail.jpg",
-            "blurhash": "L6AJBA.-R5.TWYWCj[j?00lV%MDO",
-            "colors": [
-              "#6d144a",
-              "#0d0e5f"
-            ],
-            "uri_name": "afl/2026-05-08/bl-carl",
-            "starts_at": 1778232600,
-            "ends_at": 1778243400,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Australian Football",
-            "iframe": "https://pooembed.eu/embed/afl/2026-05-08/bl-carl",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 21356,
-            "name": "Western Bulldogs vs. Port Adelaide",
-            "tag": "Fox Footy",
-            "source_tag": "Fox Footy",
-            "poster": "https://api.ppv.to/assets/thumb/3dbb5c71032931640c02125c2ec5f21b-thumbnail.jpg",
-            "blurhash": "LA7VJ^UOOTt8ayoefQWV00ryxGRP",
-            "colors": [
-              "#2498a5",
-              "#25269f"
-            ],
-            "uri_name": "afl/2026-05-08/port-wb",
-            "starts_at": 1778235000,
-            "ends_at": 1778245800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Australian Football",
-            "iframe": "https://pooembed.eu/embed/afl/2026-05-08/port-wb",
-            "viewers": "0",
-            "substreams": []
-          },
           {
             "id": 21357,
             "name": "Sydney Swans vs. North Melbourne",
@@ -416,7 +374,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://pooembed.eu/embed/mlb/2026-05-08/wsh-mia",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -723,6 +681,34 @@
         ]
       },
       {
+        "category": "Combat Sports",
+        "id": 33,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 21489,
+            "name": "UFC 328: Chimaev vs. Strickland",
+            "tag": "Paramount+",
+            "source_tag": "Paramount+",
+            "poster": "https://api.ppv.to/assets/thumb/65c5acb9006e4336a9d897500bb8ad6b-thumbnail.jpg",
+            "blurhash": "L7AA?k,tDPSL?]tRD%EfMJrrMyRP",
+            "colors": [
+              "#172a28",
+              "#0b1919"
+            ],
+            "uri_name": "ufc-328",
+            "starts_at": 1778356800,
+            "ends_at": 1778392800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Combat Sports",
+            "iframe": "https://pooembed.eu/embed/ufc-328",
+            "viewers": "0",
+            "substreams": []
+          }
+        ]
+      },
+      {
         "category": "Cricket",
         "id": 47,
         "always_live": false,
@@ -745,7 +731,7 @@
             "locale": "en",
             "category_name": "Cricket",
             "iframe": "https://pooembed.eu/embed/ipl/2026-05-08/dc-kkr",
-            "viewers": "0",
+            "viewers": "6",
             "substreams": []
           },
           {
@@ -794,7 +780,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/bundesliga/2026-05-08/dor-sge",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -899,7 +885,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/pl/2026-05-09/liv-che",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1025,7 +1011,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/bundesliga/2026-05-09/tsg-svw",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -2261,27 +2247,6 @@
         "always_live": false,
         "streams": [
           {
-            "id": 21463,
-            "name": "6 Hours of Spa-Francorchamps | FP3",
-            "tag": "FIA WEC",
-            "source_tag": "TNT Sports UK",
-            "poster": "https://api.ppv.to/assets/thumb/5a32773216f1b34a9fcfb017dd113324-thumbnail.jpg",
-            "blurhash": "LoQR:ZNKxTS*~9xUWAogMwNfRjjE",
-            "colors": [
-              "#ffc105",
-              "#ffc30d"
-            ],
-            "uri_name": "wec/2026/spa/fp3",
-            "starts_at": 1778227200,
-            "ends_at": 1778232600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Motorsports",
-            "iframe": "https://pooembed.eu/embed/wec/2026/spa/fp3",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
             "id": 21464,
             "name": "6 Hours of Spa-Francorchamps | Qualifying",
             "tag": "FIA WEC",
@@ -2299,7 +2264,7 @@
             "locale": "en",
             "category_name": "Motorsports",
             "iframe": "https://pooembed.eu/embed/wec/2026/spa/qualifying",
-            "viewers": "0",
+            "viewers": "88",
             "substreams": []
           },
           {
@@ -2330,48 +2295,6 @@
         "id": 42,
         "always_live": false,
         "streams": [
-          {
-            "id": 21364,
-            "name": "Roosters vs. Titans",
-            "tag": "FOX League",
-            "source_tag": "FOX League",
-            "poster": "https://api.ppv.to/assets/thumb/34fd507517eb11e9563b41e4875577b8-thumbnail.jpg",
-            "blurhash": "LPDRpz{Jr]R*j[j[f7f60dK5baf,",
-            "colors": [
-              "#d12b3f",
-              "#3a82b8"
-            ],
-            "uri_name": "nrl/2026-05-08/syd-gol",
-            "starts_at": 1778227200,
-            "ends_at": 1778236200,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Rugby",
-            "iframe": "https://pooembed.eu/embed/nrl/2026-05-08/syd-gol",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 21365,
-            "name": "Cowboys vs. Eels",
-            "tag": "FOX League",
-            "source_tag": "FOX League",
-            "poster": "https://api.ppv.to/assets/thumb/d171abf007d2d5050837142fa096f170-thumbnail.jpg",
-            "blurhash": "L67U;{MHIqx{kDf5ayfR00x|xtRO",
-            "colors": [
-              "#244a61",
-              "#1f61b8"
-            ],
-            "uri_name": "nrl/2026-05-08/nor-par",
-            "starts_at": 1778234400,
-            "ends_at": 1778243400,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Rugby",
-            "iframe": "https://pooembed.eu/embed/nrl/2026-05-08/nor-par",
-            "viewers": "0",
-            "substreams": []
-          },
           {
             "id": 21366,
             "name": "Dragons vs. Knights",
@@ -2523,7 +2446,7 @@
             "locale": "en",
             "category_name": "Wrestling",
             "iframe": "https://pooembed.eu/embed/aew/collision/2026-05-09",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           }
         ]
@@ -2551,7 +2474,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-south-park",
-            "viewers": "8",
+            "viewers": "14",
             "substreams": []
           },
           {
@@ -2593,7 +2516,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-family-guy",
-            "viewers": "13",
+            "viewers": "26",
             "substreams": []
           },
           {
@@ -2614,7 +2537,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-the-simpsons",
-            "viewers": "3",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -2635,7 +2558,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-spongebob-squarepants",
-            "viewers": "2",
+            "viewers": "3",
             "substreams": []
           },
           {
@@ -2656,7 +2579,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/rally-tv",
-            "viewers": "29",
+            "viewers": "39",
             "substreams": []
           }
         ]
