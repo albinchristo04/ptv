@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2026-05-21T14:52:00.530927Z",
+    "fetched_at": "2026-05-21T19:46:14.869979Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-05-21T15:52:41.504251",
-      "total_streams": 97,
+      "extracted_at": "2026-05-21T19:51:18.298310",
+      "total_streams": 95,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 97,
-        "successful_requests": 97,
+        "total_requests": 95,
+        "successful_requests": 95,
         "failed_requests": 0,
-        "elapsed_time_seconds": 253.21
+        "elapsed_time_seconds": 284.63
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1779375120,
+    "timestamp": 1779392780,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.030970096588134766,
+    "performance": 0.030253887176513672,
     "streams": [
       {
         "category": "American Football",
@@ -66,7 +66,7 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://pooembed.eu/embed/ufl/2026-05-23/bham-clb",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -311,7 +311,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://pooembed.eu/embed/mlb/2026-05-21/cle-det",
-            "viewers": "0",
+            "viewers": "72",
             "substreams": []
           },
           {
@@ -332,7 +332,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://pooembed.eu/embed/mlb/2026-05-21/pit-stl",
-            "viewers": "0",
+            "viewers": "67",
             "substreams": []
           },
           {
@@ -353,7 +353,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://pooembed.eu/embed/mlb/2026-05-21/nym-wsh",
-            "viewers": "0",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -465,7 +465,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-05-21/cle-ny",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -539,27 +539,6 @@
         "always_live": false,
         "streams": [
           {
-            "id": 22036,
-            "name": "Gujarat Titans vs. Chennai Super Kings",
-            "tag": "Indian Premier League",
-            "source_tag": "Indian Premier League",
-            "poster": "https://api.ppv.to/assets/thumb/415f98dbc9a596e9d342c2d2c34309ca-thumbnail.jpg",
-            "blurhash": "L9EU.00I,EVsoJR-jtoJ00;^XS-n",
-            "colors": [
-              "#334779",
-              "#f5ae0c"
-            ],
-            "uri_name": "ipl/2026-05-21/gt-csk",
-            "starts_at": 1779372000,
-            "ends_at": 1779386400,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Cricket",
-            "iframe": "https://pooembed.eu/embed/ipl/2026-05-21/gt-csk",
-            "viewers": "274",
-            "substreams": []
-          },
-          {
             "id": 22058,
             "name": "Sunrisers Hyderabad vs. Royal Challengers Bengaluru",
             "tag": "Indian Premier League",
@@ -578,6 +557,34 @@
             "category_name": "Cricket",
             "iframe": "https://pooembed.eu/embed/ipl/2026-05-22/srh-rcb",
             "viewers": "0",
+            "substreams": []
+          }
+        ]
+      },
+      {
+        "category": "Darts",
+        "id": 32,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 22068,
+            "name": "2026 Premier League Darts: Sheffield",
+            "tag": "Night 16",
+            "source_tag": "Sky Sport 2 NZ",
+            "poster": "https://api.ppv.to/assets/thumb/209eab7d4a09da5eaf9ac5c946243d16-thumbnail.jpg",
+            "blurhash": "LRJk47~p%K02-:E2%0NHR3DioetR",
+            "colors": [
+              "#483c2c",
+              "#363530"
+            ],
+            "uri_name": "2026-premier-league-darts-sheffield",
+            "starts_at": 1779386400,
+            "ends_at": 1779400800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Darts",
+            "iframe": "https://pooembed.eu/embed/2026-premier-league-darts-sheffield",
+            "viewers": "427",
             "substreams": []
           }
         ]
@@ -626,7 +633,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/mls/2026-05-23/stl-atx",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -752,7 +759,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/laliga/2026-05-23/mll-ovi",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1487,7 +1494,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/seriea/2026-05-24/tor-juv",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -1603,48 +1610,6 @@
         "always_live": false,
         "streams": [
           {
-            "id": 22050,
-            "name": "Latvia vs. Finland",
-            "tag": "IIHF World Championship",
-            "source_tag": "TSN4",
-            "poster": "https://api.ppv.to/assets/thumb/63e183fed89ee9de0b442b3858c80169-thumbnail.jpg",
-            "blurhash": "L5B:Hu_ORnYQs:jZW;fk00L3xZrD",
-            "colors": [
-              "#6e1e28",
-              "#003580"
-            ],
-            "uri_name": "iihf-world-championship/2026-05-21/lat-fin",
-            "starts_at": 1779373200,
-            "ends_at": 1779382200,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.eu/embed/iihf-world-championship/2026-05-21/lat-fin",
-            "viewers": "40",
-            "substreams": []
-          },
-          {
-            "id": 22051,
-            "name": "Canada vs. Norway",
-            "tag": "IIHF World Championship",
-            "source_tag": "TSN1",
-            "poster": "https://api.ppv.to/assets/thumb/9bf18d68acdafe9b9a8b01a6421c6648-thumbnail.jpg",
-            "blurhash": "L8G$;=y?Z~8_sofkbHaz00DPkq?a",
-            "colors": [
-              "#a6192e",
-              "#ba0c2f"
-            ],
-            "uri_name": "iihf-world-championship/2026-05-21/can-nor",
-            "starts_at": 1779373200,
-            "ends_at": 1779382200,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.eu/embed/iihf-world-championship/2026-05-21/can-nor",
-            "viewers": "72",
-            "substreams": []
-          },
-          {
             "id": 22056,
             "name": "Switzerland vs. United Kingdom",
             "tag": "IIHF World Championship",
@@ -1662,7 +1627,7 @@
             "locale": "en",
             "category_name": "Ice Hockey",
             "iframe": "https://pooembed.eu/embed/iihf-world-championship/2026-05-21/sui-gbr",
-            "viewers": "0",
+            "viewers": "42",
             "substreams": []
           },
           {
@@ -1683,7 +1648,7 @@
             "locale": "en",
             "category_name": "Ice Hockey",
             "iframe": "https://pooembed.eu/embed/iihf-world-championship/2026-05-21/den-svk",
-            "viewers": "0",
+            "viewers": "45",
             "substreams": []
           },
           {
@@ -1704,7 +1669,7 @@
             "locale": "en",
             "category_name": "Ice Hockey",
             "iframe": "https://pooembed.eu/embed/nhl/2026-05-21/mtl-car",
-            "viewers": "0",
+            "viewers": "2",
             "substreams": []
           }
         ]
@@ -2076,7 +2041,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-south-park",
-            "viewers": "11",
+            "viewers": "14",
             "substreams": []
           },
           {
@@ -2097,7 +2062,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-cows",
-            "viewers": "3",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -2118,7 +2083,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-family-guy",
-            "viewers": "22",
+            "viewers": "29",
             "substreams": []
           },
           {
@@ -2139,7 +2104,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-the-simpsons",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -2160,7 +2125,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-spongebob-squarepants",
-            "viewers": "0",
+            "viewers": "3",
             "substreams": []
           },
           {
