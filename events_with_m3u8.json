@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2026-05-21T19:46:14.869979Z",
+    "fetched_at": "2026-05-22T02:47:14.590315Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-05-21T20:10:42.593500",
-      "total_streams": 95,
+      "extracted_at": "2026-05-22T02:51:37.002298",
+      "total_streams": 87,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 95,
-        "successful_requests": 95,
+        "total_requests": 87,
+        "successful_requests": 87,
         "failed_requests": 0,
-        "elapsed_time_seconds": 252.65
+        "elapsed_time_seconds": 244.8
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1779392780,
+    "timestamp": 1779418040,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.030253887176513672,
+    "performance": 0.03184199333190918,
     "streams": [
       {
         "category": "American Football",
@@ -66,7 +66,7 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://pooembed.eu/embed/ufl/2026-05-23/bham-clb",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -294,111 +294,6 @@
         "always_live": false,
         "streams": [
           {
-            "id": 22054,
-            "name": "Cleveland Guardians vs. Detroit Tigers",
-            "tag": "Tigers.TV",
-            "source_tag": "Tigers.TV",
-            "poster": "https://api.ppv.to/assets/thumb/8b355dc2e7cdc7d334dab422a9a64b44-thumbnail.jpg",
-            "blurhash": "LQB^|x{}rrOXjtjtjtfQ9[K4kWni",
-            "colors": [
-              "#c41e3a",
-              "#102a44"
-            ],
-            "uri_name": "mlb/2026-05-21/cle-det",
-            "starts_at": 1779383400,
-            "ends_at": 1779396000,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Baseball",
-            "iframe": "https://pooembed.eu/embed/mlb/2026-05-21/cle-det",
-            "viewers": "72",
-            "substreams": []
-          },
-          {
-            "id": 22057,
-            "name": "Pittsburgh Pirates vs. St. Louis Cardinals",
-            "tag": "Cardinals.TV",
-            "source_tag": "Cardinals.TV",
-            "poster": "https://api.ppv.to/assets/thumb/b8c3c97aaaa278064ea2ed8c4caa4e03-thumbnail.jpg",
-            "blurhash": "LHGZsS.bbDVxoKj@bHaz0OM*ogk9",
-            "colors": [
-              "#c9a227",
-              "#b22234"
-            ],
-            "uri_name": "mlb/2026-05-21/pit-stl",
-            "starts_at": 1779383700,
-            "ends_at": 1779396300,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Baseball",
-            "iframe": "https://pooembed.eu/embed/mlb/2026-05-21/pit-stl",
-            "viewers": "67",
-            "substreams": []
-          },
-          {
-            "id": 22061,
-            "name": "New York Mets vs. Washington Nationals",
-            "tag": "Nationals.TV",
-            "source_tag": "Nationals.TV",
-            "poster": "https://api.ppv.to/assets/thumb/9956d892b678e47d954d98094b7c220b-thumbnail.jpg",
-            "blurhash": "LAARuS3Gras9jafRj[a|0_+@tQn$",
-            "colors": [
-              "#003f87",
-              "#ab0003"
-            ],
-            "uri_name": "mlb/2026-05-21/nym-wsh",
-            "starts_at": 1779393900,
-            "ends_at": 1779406500,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Baseball",
-            "iframe": "https://pooembed.eu/embed/mlb/2026-05-21/nym-wsh",
-            "viewers": "2",
-            "substreams": []
-          },
-          {
-            "id": 22063,
-            "name": "Atlanta Braves vs. Miami Marlins",
-            "tag": "Marlins.TV",
-            "source_tag": "Marlins.TV",
-            "poster": "https://api.ppv.to/assets/thumb/b14865bffac80a3b3fc0798fa83e8d36-thumbnail.jpg",
-            "blurhash": "LKAS[M_%r?S#fkjZj[a|9sKPoyj@",
-            "colors": [
-              "#b01c2e",
-              "#008e97"
-            ],
-            "uri_name": "mlb/2026-05-21/atl-mia",
-            "starts_at": 1779403200,
-            "ends_at": 1779415800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Baseball",
-            "iframe": "https://pooembed.eu/embed/mlb/2026-05-21/atl-mia",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 22064,
-            "name": "Toronto Blue Jays vs. New York Yankees",
-            "tag": "YES",
-            "source_tag": "YES",
-            "poster": "https://api.ppv.to/assets/thumb/e335ae0b2231c1c468c1f051e8a2c513-thumbnail.jpg",
-            "blurhash": "LS5YK_tWRpR%jujufRa|ISRht4s.",
-            "colors": [
-              "#1d4ed8",
-              "#0c2340"
-            ],
-            "uri_name": "mlb/2026-05-21/tor-nyy",
-            "starts_at": 1779404700,
-            "ends_at": 1779417300,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Baseball",
-            "iframe": "https://pooembed.eu/embed/mlb/2026-05-21/tor-nyy",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
             "id": 22065,
             "name": "Athletics vs. Los Angeles Angels",
             "tag": "Angels.TV",
@@ -416,7 +311,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://pooembed.eu/embed/mlb/2026-05-21/ath-laa",
-            "viewers": "0",
+            "viewers": "132",
             "substreams": []
           },
           {
@@ -437,7 +332,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://pooembed.eu/embed/mlb/2026-05-21/col-ari",
-            "viewers": "0",
+            "viewers": "184",
             "substreams": []
           }
         ]
@@ -465,7 +360,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/nba/2026-05-21/cle-ny",
-            "viewers": "1",
+            "viewers": "4401",
             "substreams": []
           },
           {
@@ -486,7 +381,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/wnba/2026-05-21/gs-ny",
-            "viewers": "0",
+            "viewers": "12",
             "substreams": []
           },
           {
@@ -507,7 +402,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/wnba/2026-05-21/tor-min",
-            "viewers": "0",
+            "viewers": "9",
             "substreams": []
           },
           {
@@ -528,7 +423,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/wnba/2026-05-21/la-phx",
-            "viewers": "0",
+            "viewers": "127",
             "substreams": []
           }
         ]
@@ -557,34 +452,6 @@
             "category_name": "Cricket",
             "iframe": "https://pooembed.eu/embed/ipl/2026-05-22/srh-rcb",
             "viewers": "0",
-            "substreams": []
-          }
-        ]
-      },
-      {
-        "category": "Darts",
-        "id": 32,
-        "always_live": false,
-        "streams": [
-          {
-            "id": 22068,
-            "name": "2026 Premier League Darts: Sheffield",
-            "tag": "Night 16",
-            "source_tag": "Sky Sport 2 NZ",
-            "poster": "https://api.ppv.to/assets/thumb/209eab7d4a09da5eaf9ac5c946243d16-thumbnail.jpg",
-            "blurhash": "LRJk47~p%K02-:E2%0NHR3DioetR",
-            "colors": [
-              "#483c2c",
-              "#363530"
-            ],
-            "uri_name": "2026-premier-league-darts-sheffield",
-            "starts_at": 1779386400,
-            "ends_at": 1779400800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Darts",
-            "iframe": "https://pooembed.eu/embed/2026-premier-league-darts-sheffield",
-            "viewers": "427",
             "substreams": []
           }
         ]
@@ -633,7 +500,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/mls/2026-05-23/stl-atx",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -759,7 +626,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/laliga/2026-05-23/mll-ovi",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -1610,48 +1477,6 @@
         "always_live": false,
         "streams": [
           {
-            "id": 22056,
-            "name": "Switzerland vs. United Kingdom",
-            "tag": "IIHF World Championship",
-            "source_tag": "TSN4",
-            "poster": "https://api.ppv.to/assets/thumb/9c13f5853d8b4ee70f1edb78397a6e08-thumbnail.jpg",
-            "blurhash": "LCDHv}{wRjOFoLjsbHfQ00Joxaoe",
-            "colors": [
-              "#8b1d2c",
-              "#1b3a6b"
-            ],
-            "uri_name": "iihf-world-championship/2026-05-21/sui-gbr",
-            "starts_at": 1779387600,
-            "ends_at": 1779396600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.eu/embed/iihf-world-championship/2026-05-21/sui-gbr",
-            "viewers": "42",
-            "substreams": []
-          },
-          {
-            "id": 22060,
-            "name": "Denmark vs. Slovakia",
-            "tag": "IIHF World Championship",
-            "source_tag": "TSN1",
-            "poster": "https://api.ppv.to/assets/thumb/479c8dd76425df953f974ca453c15e72-thumbnail.jpg",
-            "blurhash": "LDD8Y5{HR;TJtRaKbHoz00FzxCnP",
-            "colors": [
-              "#8c1d18",
-              "#0b4ea2"
-            ],
-            "uri_name": "iihf-world-championship/2026-05-21/den-svk",
-            "starts_at": 1779387600,
-            "ends_at": 1779396600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.eu/embed/iihf-world-championship/2026-05-21/den-svk",
-            "viewers": "45",
-            "substreams": []
-          },
-          {
             "id": 22052,
             "name": "Montreal Canadiens vs. Carolina Hurricanes",
             "tag": "TNT",
@@ -1669,7 +1494,7 @@
             "locale": "en",
             "category_name": "Ice Hockey",
             "iframe": "https://pooembed.eu/embed/nhl/2026-05-21/mtl-car",
-            "viewers": "2",
+            "viewers": "1886",
             "substreams": []
           }
         ]
@@ -1697,7 +1522,7 @@
             "locale": "en",
             "category_name": "Motorsports",
             "iframe": "https://pooembed.eu/embed/f1/2026/canada/fp1",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": [
               {
                 "id": 21815,
@@ -1852,7 +1677,7 @@
             "locale": "en",
             "category_name": "Motorsports",
             "iframe": "https://pooembed.eu/embed/smx-wk17",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           }
         ]
@@ -1971,7 +1796,7 @@
             "locale": "en",
             "category_name": "Wrestling",
             "iframe": "https://pooembed.eu/embed/tna/impact/2026-05-21",
-            "viewers": "0",
+            "viewers": "42",
             "substreams": []
           },
           {
@@ -2041,7 +1866,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-south-park",
-            "viewers": "14",
+            "viewers": "21",
             "substreams": []
           },
           {
@@ -2062,7 +1887,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-cows",
-            "viewers": "2",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -2083,7 +1908,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-family-guy",
-            "viewers": "29",
+            "viewers": "42",
             "substreams": []
           },
           {
@@ -2104,7 +1929,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-the-simpsons",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -2146,7 +1971,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/rally-tv",
-            "viewers": "3",
+            "viewers": "2",
             "substreams": []
           }
         ]
