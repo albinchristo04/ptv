@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2026-05-23T08:10:21.775063Z",
+    "fetched_at": "2026-05-23T13:12:14.763537Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-05-23T08:34:12.146010",
-      "total_streams": 107,
+      "extracted_at": "2026-05-23T13:17:31.860115",
+      "total_streams": 102,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 107,
-        "successful_requests": 107,
+        "total_requests": 102,
+        "successful_requests": 102,
         "failed_requests": 0,
-        "elapsed_time_seconds": 281.96
+        "elapsed_time_seconds": 302.24
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1779523830,
+    "timestamp": 1779541940,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.03061389923095703,
+    "performance": 0.029912948608398438,
     "streams": [
       {
         "category": "American Football",
@@ -66,7 +66,7 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://pooembed.eu/embed/ufl/2026-05-24/dal-lou",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -97,69 +97,6 @@
         "id": 66,
         "always_live": false,
         "streams": [
-          {
-            "id": 21967,
-            "name": "Geelong Cats vs. Sydney Swans",
-            "tag": "Fox Sports 503",
-            "source_tag": "Fox Sports 503",
-            "poster": "https://api.ppv.to/assets/thumb/23c91d27c5d6c51e837f6d9a1bce0b3a-thumbnail.jpg",
-            "blurhash": "L6BxKH3?z;zoxaozf6WB00@spIpc",
-            "colors": [
-              "#173246",
-              "#b61300"
-            ],
-            "uri_name": "afl/2026-05-23/geel-syd",
-            "starts_at": 1779516900,
-            "ends_at": 1779527700,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Australian Football",
-            "iframe": "https://pooembed.eu/embed/afl/2026-05-23/geel-syd",
-            "viewers": "54",
-            "substreams": []
-          },
-          {
-            "id": 21968,
-            "name": "Collingwood vs. Waalitj Marawar",
-            "tag": "Fox Footy",
-            "source_tag": "Fox Footy",
-            "poster": "https://api.ppv.to/assets/thumb/a7d7d50b985242d46a102f5e18d79778-thumbnail.jpg",
-            "blurhash": "L26Hi$kx0Km,xVNKayxW00Z.~WX.",
-            "colors": [
-              "#222222",
-              "#24275a"
-            ],
-            "uri_name": "afl/2026-05-23/coll-wce",
-            "starts_at": 1779518100,
-            "ends_at": 1779528900,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Australian Football",
-            "iframe": "https://pooembed.eu/embed/afl/2026-05-23/coll-wce",
-            "viewers": "76",
-            "substreams": []
-          },
-          {
-            "id": 21969,
-            "name": "Yartapuulti vs. Carlton",
-            "tag": "Fox Footy",
-            "source_tag": "Fox Footy",
-            "poster": "https://api.ppv.to/assets/thumb/d11f07f2608f5783d8e23da2d81377e7-thumbnail.jpg",
-            "blurhash": "L78Oe;D1KI?boMjsj[az00-C$+9F",
-            "colors": [
-              "#2498a5",
-              "#0d0e5f"
-            ],
-            "uri_name": "afl/2026-05-23/port-carl",
-            "starts_at": 1779528900,
-            "ends_at": 1779539700,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Australian Football",
-            "iframe": "https://pooembed.eu/embed/afl/2026-05-23/port-carl",
-            "viewers": "0",
-            "substreams": []
-          },
           {
             "id": 21970,
             "name": "GWS GIANTS vs. Brisbane Lions",
@@ -591,7 +528,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://pooembed.eu/embed/wnba/2026-05-23/por-tor",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -661,7 +598,7 @@
             "locale": "en",
             "category_name": "Combat Sports",
             "iframe": "https://pooembed.eu/embed/oleksandr-usyk-vs-rico-verhoeven",
-            "viewers": "7",
+            "viewers": "25",
             "substreams": []
           }
         ]
@@ -689,6 +626,27 @@
             "locale": "en",
             "category_name": "Cricket",
             "iframe": "https://pooembed.eu/embed/ipl/2026-05-23/lsg-pbks",
+            "viewers": "3",
+            "substreams": []
+          },
+          {
+            "id": 22133,
+            "name": "Glamorgan vs. Gloucestershire",
+            "tag": "Vitality Blast",
+            "source_tag": "Sky Sport 7 NZ",
+            "poster": "https://api.ppv.to/assets/thumb/7329ef9b07a14c9f787ed95cc888a0bd-thumbnail.jpg",
+            "blurhash": "LcEdfU}Ow~M|j[j?fQaz9XIuWno}",
+            "colors": [
+              "#ec2021",
+              "#1f20ec"
+            ],
+            "uri_name": "vitality-blast/2026-05-23/gla-glo",
+            "starts_at": 1779559200,
+            "ends_at": 1779573600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Cricket",
+            "iframe": "https://pooembed.eu/embed/vitality-blast/2026-05-23/gla-glo",
             "viewers": "0",
             "substreams": []
           },
@@ -759,7 +717,7 @@
             "locale": "en",
             "category_name": "Darts",
             "iframe": "https://pooembed.eu/embed/international-darts-open--day-2---afternoon",
-            "viewers": "0",
+            "viewers": "146",
             "substreams": []
           },
           {
@@ -833,31 +791,31 @@
         "always_live": false,
         "streams": [
           {
-            "id": 22130,
-            "name": "Auckland FC vs. Sydney FC",
-            "tag": "A-League Men",
-            "source_tag": "TNT Sports 2",
-            "poster": "https://api.ppv.to/assets/thumb/2f6316245e5fda21bf095cadac365491-thumbnail.jpg",
-            "blurhash": "LA8h%,00X:%LkCaxj[j[00.Tw[Rq",
+            "id": 22134,
+            "name": "Celtic vs. Dunfermline Athletic",
+            "tag": "Scottish Cup",
+            "source_tag": "Premier Sports 2",
+            "poster": "https://api.ppv.to/assets/thumb/09fc838fcb37092180e4e0a092c84ac1-thumbnail.jpg",
+            "blurhash": "LJ72$r*GkUIUj[a{fQj[8yIBagxu",
             "colors": [
-              "#000000",
-              "#87cefa"
+              "#019922",
+              "#1a1a1a"
             ],
-            "uri_name": "a-league-men/2026-05-23/afc-syd",
-            "starts_at": 1779523800,
-            "ends_at": 1779532800,
+            "uri_name": "scottish-cup/2026-05-23/cel-dfa",
+            "starts_at": 1779544800,
+            "ends_at": 1779553800,
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/a-league-men/2026-05-23/afc-syd",
-            "viewers": "30",
+            "iframe": "https://pooembed.eu/embed/scottish-cup/2026-05-23/cel-dfa",
+            "viewers": "3",
             "substreams": []
           },
           {
             "id": 22067,
             "name": "Hull City vs. Middlesbrough",
             "tag": "EFL Championship",
-            "source_tag": "Paramount+",
+            "source_tag": "Sky Sports Football",
             "poster": "https://api.ppv.to/assets/thumb/2003a5b690dd32b414d446e4796cb468-thumbnail.jpg",
             "blurhash": "L4J}uE8dmP_4s:W;jZo000=*UG8_",
             "colors": [
@@ -871,7 +829,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/efl-championship/2026-05-23/hul-mid",
-            "viewers": "0",
+            "viewers": "28",
             "substreams": []
           },
           {
@@ -913,7 +871,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/german-cup/2026-05-23/mun-vfb",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1585,7 +1543,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/pl/2026-05-24/tot-eve",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -1890,48 +1848,6 @@
         "always_live": false,
         "streams": [
           {
-            "id": 22101,
-            "name": "Latvia vs. United States",
-            "tag": "IIHF World Championship",
-            "source_tag": "TSN3",
-            "poster": "https://api.ppv.to/assets/thumb/0b4b5ad56acdfabfff5cd3db174f2d68-thumbnail.jpg",
-            "blurhash": "L2E-E^1FmkKkNMxDoeEk00[DpK}U",
-            "colors": [
-              "#6e1e28",
-              "#b22234"
-            ],
-            "uri_name": "iihf-world-championship/2026-05-23/lat-usa",
-            "starts_at": 1779531600,
-            "ends_at": 1779540600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.eu/embed/iihf-world-championship/2026-05-23/lat-usa",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 22104,
-            "name": "Denmark vs. Slovenia",
-            "tag": "IIHF World Championship",
-            "source_tag": "TSN1",
-            "poster": "https://api.ppv.to/assets/thumb/852947a1f2f0db87c8435bc65146509d-thumbnail.jpg",
-            "blurhash": "LEC=Y~{HS7KPo}enbHbv00FzslwJ",
-            "colors": [
-              "#8c1d18",
-              "#1f5aa8"
-            ],
-            "uri_name": "iihf-world-championship/2026-05-23/den-slo",
-            "starts_at": 1779531600,
-            "ends_at": 1779540600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://pooembed.eu/embed/iihf-world-championship/2026-05-23/den-slo",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
             "id": 22108,
             "name": "Switzerland vs. Hungary",
             "tag": "IIHF World Championship",
@@ -2061,7 +1977,7 @@
             "locale": "en",
             "category_name": "Motorsports",
             "iframe": "https://pooembed.eu/embed/f1/2026/canada/sprint",
-            "viewers": "6",
+            "viewers": "16",
             "substreams": [
               {
                 "id": 21821,
@@ -2092,7 +2008,7 @@
             "locale": "en",
             "category_name": "Motorsports",
             "iframe": "https://pooembed.eu/embed/f1/2026/canada/qualifying",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": [
               {
                 "id": 21824,
@@ -2154,7 +2070,7 @@
             "locale": "en",
             "category_name": "Motorsports",
             "iframe": "https://pooembed.eu/embed/smx-wk17",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           }
         ]
@@ -2165,45 +2081,24 @@
         "always_live": false,
         "streams": [
           {
-            "id": 21974,
-            "name": "Dragons vs. Warriors",
-            "tag": "Fox League",
-            "source_tag": "Fox League",
-            "poster": "https://api.ppv.to/assets/thumb/82f1947715afb61f1198cc168c1affc5-thumbnail.jpg",
-            "blurhash": "LMB{cL{mn#M{ofj[ayay4.EykCtQ",
+            "id": 22132,
+            "name": "Leinster vs. Bordeaux Begles",
+            "tag": "European Rugby Champions Cup",
+            "source_tag": "Premier Sports 1",
+            "poster": "https://api.ppv.to/assets/thumb/7ec5bc09489c5b556e68f187e516fd98-thumbnail.jpg",
+            "blurhash": "LDA0#K0IRq_2afofa#WB00^}s*Di",
             "colors": [
-              "#b32437",
-              "#29854a"
+              "#0000fe",
+              "#000098"
             ],
-            "uri_name": "nrl/2026-05-23/st.-new",
-            "starts_at": 1779521400,
-            "ends_at": 1779530400,
+            "uri_name": "european-rugby-champions-cup/2026-05-23/lei-uni",
+            "starts_at": 1779543900,
+            "ends_at": 1779558300,
             "always_live": 0,
             "locale": "en",
             "category_name": "Rugby",
-            "iframe": "https://pooembed.eu/embed/nrl/2026-05-23/st.-new",
-            "viewers": "118",
-            "substreams": []
-          },
-          {
-            "id": 21975,
-            "name": "Sea Eagles vs. Titans",
-            "tag": "Fox League",
-            "source_tag": "Fox League",
-            "poster": "https://api.ppv.to/assets/thumb/e6b86e7f794b0921a8865503e13aa7f2-thumbnail.jpg",
-            "blurhash": "L69j$g_hNKInt7ofayWB00Fyxttm",
-            "colors": [
-              "#6b2d5f",
-              "#3a82b8"
-            ],
-            "uri_name": "nrl/2026-05-23/man-gol",
-            "starts_at": 1779528900,
-            "ends_at": 1779537900,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Rugby",
-            "iframe": "https://pooembed.eu/embed/nrl/2026-05-23/man-gol",
-            "viewers": "1",
+            "iframe": "https://pooembed.eu/embed/european-rugby-champions-cup/2026-05-23/lei-uni",
+            "viewers": "7",
             "substreams": []
           },
           {
@@ -2280,7 +2175,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-south-park",
-            "viewers": "9",
+            "viewers": "13",
             "substreams": []
           },
           {
@@ -2301,7 +2196,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-cows",
-            "viewers": "3",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -2322,7 +2217,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-family-guy",
-            "viewers": "32",
+            "viewers": "21",
             "substreams": []
           },
           {
@@ -2343,7 +2238,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-the-simpsons",
-            "viewers": "2",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -2364,7 +2259,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-spongebob-squarepants",
-            "viewers": "3",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -2385,7 +2280,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/rally-tv",
-            "viewers": "5",
+            "viewers": "8",
             "substreams": []
           }
         ]
