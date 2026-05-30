@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "fetched_at": "2026-05-30T08:21:27.596138Z",
+    "fetched_at": "2026-05-30T13:15:31.909661Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null
   },
   "events": {
     "success": true,
-    "timestamp": 1780129290,
+    "timestamp": 1780146940,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.029225826263427734,
+    "performance": 0.028367996215820312,
     "streams": [
       {
         "category": "American Football",
@@ -33,7 +33,7 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://pooembed.eu/embed/ufl/2026-05-30/hou-bham",
-            "viewers": "0",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -107,48 +107,6 @@
         "always_live": false,
         "streams": [
           {
-            "id": 22250,
-            "name": "Brisbane Lions vs. Fremantle",
-            "tag": "Fox Footy",
-            "source_tag": "Fox Footy",
-            "poster": "https://api.ppv.to/assets/thumb/8b68541caa367577815f0d9b6ff8de06-thumbnail.jpg",
-            "blurhash": "L4ASM]_}IUGIf,R*ayoe00B?%M+t",
-            "colors": [
-              "#6d144a",
-              "#5d368f"
-            ],
-            "uri_name": "afl/2026-05-30/bl-fre",
-            "starts_at": 1780121700,
-            "ends_at": 1780132500,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Australian Football",
-            "iframe": "https://pooembed.eu/embed/afl/2026-05-30/bl-fre",
-            "viewers": "43",
-            "substreams": []
-          },
-          {
-            "id": 22200,
-            "name": "Western Bulldogs vs. Collingwood",
-            "tag": "Fox Footy",
-            "source_tag": "Fox Footy",
-            "poster": "https://api.ppv.to/assets/thumb/89763f7b9e1bf52761ae33261da9fad4-thumbnail.jpg",
-            "blurhash": "LG6[2ptDRnRiWVayf6j[9DRgt6t7",
-            "colors": [
-              "#25269f",
-              "#222222"
-            ],
-            "uri_name": "afl/2026-05-30/wb-coll",
-            "starts_at": 1780133700,
-            "ends_at": 1780144500,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Australian Football",
-            "iframe": "https://pooembed.eu/embed/afl/2026-05-30/wb-coll",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
             "id": 22251,
             "name": "Melbourne vs. GWS GIANTS",
             "tag": "Fox Footy",
@@ -166,7 +124,7 @@
             "locale": "en",
             "category_name": "Australian Football",
             "iframe": "https://pooembed.eu/embed/afl/2026-05-31/melb-gws",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -446,7 +404,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://pooembed.eu/embed/mlb/2026-05-30/sf-col",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -488,7 +446,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://pooembed.eu/embed/mlb/2026-05-30/ari-sea",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -628,7 +586,7 @@
             "locale": "en",
             "category_name": "Combat Sports",
             "iframe": "https://pooembed.eu/embed/ufc-fight-night-song-vs-figueiredo",
-            "viewers": "1079",
+            "viewers": "3515",
             "substreams": []
           },
           {
@@ -649,7 +607,7 @@
             "locale": "en",
             "category_name": "Combat Sports",
             "iframe": "https://pooembed.eu/embed/bivol-vs-eifert",
-            "viewers": "2",
+            "viewers": "6",
             "substreams": []
           },
           {
@@ -712,7 +670,7 @@
             "id": 22193,
             "name": "Paris Saint-Germain vs. Arsenal",
             "tag": "Champions League",
-            "source_tag": "Champions League",
+            "source_tag": "TNT Sports 1",
             "poster": "https://api.ppv.to/assets/thumb/04dde5bde80cfea592f10c44e7273252-thumbnail.jpg",
             "blurhash": "LGD%qk3G+~wHofazfQj@0w;KSxoM",
             "colors": [
@@ -726,8 +684,18 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://pooembed.eu/embed/ucl/2026-05-30/psg-ars",
-            "viewers": "9",
-            "substreams": []
+            "viewers": "83",
+            "substreams": [
+              {
+                "id": 22371,
+                "name": "Paris Saint-Germain vs. Arsenal",
+                "tag": "Champions League",
+                "uri_name": "ucl/2026-05-30/psg-ars/paramount",
+                "source_tag": "Paramount+",
+                "locale": "en",
+                "iframe": "https://pooembed.eu/embed/ucl/2026-05-30/psg-ars/paramount"
+              }
+            ]
           }
         ]
       },
@@ -740,7 +708,7 @@
             "id": 22366,
             "name": "Switzerland vs. Norway",
             "tag": "IIHF World Championship",
-            "source_tag": "IIHF World Championship",
+            "source_tag": "TSN4",
             "poster": "https://api.ppv.to/assets/thumb/8ebcffa0b8c01731084627150a180cde-thumbnail.jpg",
             "blurhash": "L4F{r97^VE13w{fjW;a|00D+tm}q",
             "colors": [
@@ -754,14 +722,14 @@
             "locale": "en",
             "category_name": "Ice Hockey",
             "iframe": "https://pooembed.eu/embed/iihf-world-championship/2026-05-30/sui-nor",
-            "viewers": "1",
+            "viewers": "24",
             "substreams": []
           },
           {
             "id": 22367,
             "name": "Canada vs. Finland",
             "tag": "IIHF World Championship",
-            "source_tag": "IIHF World Championship",
+            "source_tag": "TSN4",
             "poster": "https://api.ppv.to/assets/thumb/8530274229747a7565002f0f7deb1b32-thumbnail.jpg",
             "blurhash": "LHD[#5{^r]NeoLjsbHfQ00K6kBs-",
             "colors": [
@@ -803,7 +771,7 @@
             "locale": "en",
             "category_name": "Motorsports",
             "iframe": "https://pooembed.eu/embed/smx-wk17",
-            "viewers": "0",
+            "viewers": "7",
             "substreams": []
           },
           {
@@ -969,48 +937,6 @@
         "always_live": false,
         "streams": [
           {
-            "id": 22206,
-            "name": "Wests Tigers vs. Bulldogs",
-            "tag": "Fox League",
-            "source_tag": "Fox League",
-            "poster": "https://api.ppv.to/assets/thumb/853731484689e4b0d5671f77aa623c15-thumbnail.jpg",
-            "blurhash": "LMD90U}4r^o#ofayf6j[0KOabaNH",
-            "colors": [
-              "#d1881e",
-              "#2958a8"
-            ],
-            "uri_name": "nrl/2026-05-30/wes-can",
-            "starts_at": 1780126200,
-            "ends_at": 1780135200,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Rugby",
-            "iframe": "https://pooembed.eu/embed/nrl/2026-05-30/wes-can",
-            "viewers": "53",
-            "substreams": []
-          },
-          {
-            "id": 22207,
-            "name": "Storm vs. Roosters",
-            "tag": "Fox League",
-            "source_tag": "Fox League",
-            "poster": "https://api.ppv.to/assets/thumb/c05b71ca3d146ba00dcc6f42d99d854a-thumbnail.jpg",
-            "blurhash": "L7D%^H1SrY-pbcWBayof00}qo|R5",
-            "colors": [
-              "#5c4788",
-              "#d12b3f"
-            ],
-            "uri_name": "nrl/2026-05-30/mel-syd",
-            "starts_at": 1780133700,
-            "ends_at": 1780142700,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Rugby",
-            "iframe": "https://pooembed.eu/embed/nrl/2026-05-30/mel-syd",
-            "viewers": "2",
-            "substreams": []
-          },
-          {
             "id": 22208,
             "name": "Broncos vs. Dragons",
             "tag": "Fox League",
@@ -1098,7 +1024,7 @@
             "locale": "en",
             "category_name": "Tennis",
             "iframe": "https://pooembed.eu/embed/roland-garros-tnt-sports-1",
-            "viewers": "5",
+            "viewers": "18",
             "substreams": []
           },
           {
@@ -1119,7 +1045,7 @@
             "locale": "en",
             "category_name": "Tennis",
             "iframe": "https://pooembed.eu/embed/roland-garros-tnt-sports-4",
-            "viewers": "16",
+            "viewers": "89",
             "substreams": []
           }
         ]
@@ -1147,7 +1073,7 @@
             "locale": "en",
             "category_name": "Wrestling",
             "iframe": "https://pooembed.eu/embed/aew/collision/2026-05-30",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           }
         ]
@@ -1175,7 +1101,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-south-park",
-            "viewers": "10",
+            "viewers": "7",
             "substreams": []
           },
           {
@@ -1196,7 +1122,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-cows",
-            "viewers": "1",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -1217,7 +1143,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-family-guy",
-            "viewers": "21",
+            "viewers": "20",
             "substreams": []
           },
           {
@@ -1238,7 +1164,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-the-simpsons",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1280,7 +1206,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/rally-tv",
-            "viewers": "16",
+            "viewers": "9",
             "substreams": []
           }
         ]
