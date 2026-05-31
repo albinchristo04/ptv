@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-31T13:45:22.747Z",
-  "total_events": 45,
+  "generated_at": "2026-05-31T19:17:24.346Z",
+  "total_events": 43,
   "categories": [
     {
       "id": 26,
       "name": "American Football",
       "slug": "american-football",
-      "event_count": 3,
+      "event_count": 8,
       "always_live": false,
       "meta": {
         "title": "American Football EN VIVO - Tarjeta Roja TV",
@@ -39,22 +39,10 @@
       }
     },
     {
-      "id": 47,
-      "name": "Cricket",
-      "slug": "cricket",
-      "event_count": 1,
-      "always_live": false,
-      "meta": {
-        "title": "Cricket EN VIVO - Tarjeta Roja TV",
-        "description": "Ver Cricket en vivo gratis.",
-        "keywords": "Cricket, tarjeta roja, rojadirecta"
-      }
-    },
-    {
       "id": 34,
       "name": "Football",
       "slug": "football",
-      "event_count": 8,
+      "event_count": 4,
       "always_live": false,
       "meta": {
         "title": "Football EN VIVO - Tarjeta Roja TV",
@@ -66,7 +54,7 @@
       "id": 39,
       "name": "Ice Hockey",
       "slug": "ice-hockey",
-      "event_count": 2,
+      "event_count": 1,
       "always_live": false,
       "meta": {
         "title": "Ice Hockey EN VIVO - Tarjeta Roja TV",
@@ -78,7 +66,7 @@
       "id": 35,
       "name": "Motorsports",
       "slug": "motorsports",
-      "event_count": 6,
+      "event_count": 5,
       "always_live": false,
       "meta": {
         "title": "Motorsports EN VIVO - Tarjeta Roja TV",
@@ -124,6 +112,112 @@
     }
   ],
   "events": [
+    {
+      "id": 22419,
+      "slug": "berlin-thunder-vs-alpine-rams",
+      "uri_name": "afle/2026-05-31/ber-alp",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/afle/2026-05-31/ber-alp",
+      "meta": {
+        "title": "Berlin Thunder vs. Alpine Rams EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Berlin Thunder vs. Alpine Rams en vivo gratis por Tarjeta Roja TV. Berlin Thunder vs Alpine Rams transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Berlin Thunder vs. Alpine Rams, Berlin Thunder, Alpine Rams, American Football, ver online gratis, en vivo gratis, AFLE+",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/afle/2026-05-31/ber-alp",
+        "title": "Berlin Thunder vs. Alpine Rams EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Berlin Thunder vs. Alpine Rams en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/0533a7adae2af684fca84c553778be74-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Berlin Thunder vs. Alpine Rams EN VIVO",
+        "description": "Ver Berlin Thunder vs. Alpine Rams en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/0533a7adae2af684fca84c553778be74-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Berlin Thunder vs. Alpine Rams",
+        "description": "Transmisión en vivo de Berlin Thunder vs. Alpine Rams",
+        "startDate": "2026-05-31T13:55:00.000Z",
+        "endDate": "2026-05-31T19:55:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/afle/2026-05-31/ber-alp"
+        },
+        "image": "https://api.ppv.to/assets/thumb/0533a7adae2af684fca84c553778be74-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Berlin Thunder"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Alpine Rams"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Berlin Thunder"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Alpine Rams"
+        },
+        "sport": "American Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "American Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/american-football"
+          },
+          {
+            "name": "Berlin Thunder vs. Alpine Rams",
+            "url": "https://tarjetarojaenvivo.live/eventos/afle/2026-05-31/ber-alp"
+          }
+        ],
+        "h1": "Berlin Thunder vs. Alpine Rams EN VIVO",
+        "h2": "Ver Berlin Thunder vs. Alpine Rams Online Gratis"
+      },
+      "event": {
+        "name": "Berlin Thunder vs. Alpine Rams",
+        "category": "American Football",
+        "broadcaster": "AFLE+",
+        "start_time": "2026-05-31T13:55:00.000Z",
+        "end_time": "2026-05-31T19:55:00.000Z",
+        "duration_minutes": 360,
+        "status": "live",
+        "viewers": "9",
+        "home_team": "Berlin Thunder",
+        "away_team": "Alpine Rams"
+      },
+      "technical": {
+        "last_modified": "2026-05-31T19:17:24.347Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Berlin Thunder vs. Alpine Rams, Berlin Thunder"
+      }
+    },
     {
       "id": 22237,
       "slug": "orlando-storm-vs-dc-defenders",
@@ -215,13 +309,13 @@
         "start_time": "2026-05-31T16:00:00.000Z",
         "end_time": "2026-05-31T19:30:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "1",
+        "status": "live",
+        "viewers": "23",
         "home_team": "Orlando Storm",
         "away_team": "DC Defenders"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.747Z",
+        "last_modified": "2026-05-31T19:17:24.348Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -327,7 +421,7 @@
         "away_team": "Columbus Aviators"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.747Z",
+        "last_modified": "2026-05-31T19:17:24.348Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -433,13 +527,437 @@
         "away_team": "Hamilton Tiger-Cats"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.747Z",
+        "last_modified": "2026-05-31T19:17:24.348Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
         "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Montreal Alouettes vs. Hamilton Tiger-Cats, Montreal Alouettes"
+      }
+    },
+    {
+      "id": 22420,
+      "slug": "panthers-wroclaw-vs-paris-lights",
+      "uri_name": "afle/2026-06-06/pan-par",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/afle/2026-06-06/pan-par",
+      "meta": {
+        "title": "Panthers Wroclaw vs. Paris Lights EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Panthers Wroclaw vs. Paris Lights en vivo gratis por Tarjeta Roja TV. Panthers Wroclaw vs Paris Lights transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Panthers Wroclaw vs. Paris Lights, Panthers Wroclaw, Paris Lights, American Football, ver online gratis, en vivo gratis, AFLE+",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/afle/2026-06-06/pan-par",
+        "title": "Panthers Wroclaw vs. Paris Lights EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Panthers Wroclaw vs. Paris Lights en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/3326e7d98b44ae8c27005708534a2b16-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Panthers Wroclaw vs. Paris Lights EN VIVO",
+        "description": "Ver Panthers Wroclaw vs. Paris Lights en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/3326e7d98b44ae8c27005708534a2b16-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Panthers Wroclaw vs. Paris Lights",
+        "description": "Transmisión en vivo de Panthers Wroclaw vs. Paris Lights",
+        "startDate": "2026-06-06T11:00:00.000Z",
+        "endDate": "2026-06-06T14:30:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/afle/2026-06-06/pan-par"
+        },
+        "image": "https://api.ppv.to/assets/thumb/3326e7d98b44ae8c27005708534a2b16-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Panthers Wroclaw"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Paris Lights"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Panthers Wroclaw"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Paris Lights"
+        },
+        "sport": "American Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "American Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/american-football"
+          },
+          {
+            "name": "Panthers Wroclaw vs. Paris Lights",
+            "url": "https://tarjetarojaenvivo.live/eventos/afle/2026-06-06/pan-par"
+          }
+        ],
+        "h1": "Panthers Wroclaw vs. Paris Lights EN VIVO",
+        "h2": "Ver Panthers Wroclaw vs. Paris Lights Online Gratis"
+      },
+      "event": {
+        "name": "Panthers Wroclaw vs. Paris Lights",
+        "category": "American Football",
+        "broadcaster": "AFLE+",
+        "start_time": "2026-06-06T11:00:00.000Z",
+        "end_time": "2026-06-06T14:30:00.000Z",
+        "duration_minutes": 210,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Panthers Wroclaw",
+        "away_team": "Paris Lights"
+      },
+      "technical": {
+        "last_modified": "2026-05-31T19:17:24.348Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Panthers Wroclaw vs. Paris Lights, Panthers Wroclaw"
+      }
+    },
+    {
+      "id": 22421,
+      "slug": "berlin-thunder-vs-firenze-red-lions",
+      "uri_name": "afle/2026-06-06/ber-fir",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/afle/2026-06-06/ber-fir",
+      "meta": {
+        "title": "Berlin Thunder vs. Firenze Red Lions EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Berlin Thunder vs. Firenze Red Lions en vivo gratis por Tarjeta Roja TV. Berlin Thunder vs Firenze Red Lions transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Berlin Thunder vs. Firenze Red Lions, Berlin Thunder, Firenze Red Lions, American Football, ver online gratis, en vivo gratis, AFLE+",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/afle/2026-06-06/ber-fir",
+        "title": "Berlin Thunder vs. Firenze Red Lions EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Berlin Thunder vs. Firenze Red Lions en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/981e393700d80f21ebe8c1c980ff4793-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Berlin Thunder vs. Firenze Red Lions EN VIVO",
+        "description": "Ver Berlin Thunder vs. Firenze Red Lions en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/981e393700d80f21ebe8c1c980ff4793-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Berlin Thunder vs. Firenze Red Lions",
+        "description": "Transmisión en vivo de Berlin Thunder vs. Firenze Red Lions",
+        "startDate": "2026-06-06T14:10:00.000Z",
+        "endDate": "2026-06-06T17:40:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/afle/2026-06-06/ber-fir"
+        },
+        "image": "https://api.ppv.to/assets/thumb/981e393700d80f21ebe8c1c980ff4793-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Berlin Thunder"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Firenze Red Lions"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Berlin Thunder"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Firenze Red Lions"
+        },
+        "sport": "American Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "American Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/american-football"
+          },
+          {
+            "name": "Berlin Thunder vs. Firenze Red Lions",
+            "url": "https://tarjetarojaenvivo.live/eventos/afle/2026-06-06/ber-fir"
+          }
+        ],
+        "h1": "Berlin Thunder vs. Firenze Red Lions EN VIVO",
+        "h2": "Ver Berlin Thunder vs. Firenze Red Lions Online Gratis"
+      },
+      "event": {
+        "name": "Berlin Thunder vs. Firenze Red Lions",
+        "category": "American Football",
+        "broadcaster": "AFLE+",
+        "start_time": "2026-06-06T14:10:00.000Z",
+        "end_time": "2026-06-06T17:40:00.000Z",
+        "duration_minutes": 210,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Berlin Thunder",
+        "away_team": "Firenze Red Lions"
+      },
+      "technical": {
+        "last_modified": "2026-05-31T19:17:24.348Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Berlin Thunder vs. Firenze Red Lions, Berlin Thunder"
+      }
+    },
+    {
+      "id": 22422,
+      "slug": "rhein-fire-vs-vienna-vikings",
+      "uri_name": "afle/2026-06-06/rhe-vie",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/afle/2026-06-06/rhe-vie",
+      "meta": {
+        "title": "Rhein Fire vs. Vienna Vikings EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Rhein Fire vs. Vienna Vikings en vivo gratis por Tarjeta Roja TV. Rhein Fire vs Vienna Vikings transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Rhein Fire vs. Vienna Vikings, Rhein Fire, Vienna Vikings, American Football, ver online gratis, en vivo gratis, AFLE+",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/afle/2026-06-06/rhe-vie",
+        "title": "Rhein Fire vs. Vienna Vikings EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Rhein Fire vs. Vienna Vikings en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/33ddeb339c7cc9b6c46ef185c18db511-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Rhein Fire vs. Vienna Vikings EN VIVO",
+        "description": "Ver Rhein Fire vs. Vienna Vikings en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/33ddeb339c7cc9b6c46ef185c18db511-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Rhein Fire vs. Vienna Vikings",
+        "description": "Transmisión en vivo de Rhein Fire vs. Vienna Vikings",
+        "startDate": "2026-06-06T14:45:00.000Z",
+        "endDate": "2026-06-06T18:15:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/afle/2026-06-06/rhe-vie"
+        },
+        "image": "https://api.ppv.to/assets/thumb/33ddeb339c7cc9b6c46ef185c18db511-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Rhein Fire"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Vienna Vikings"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Rhein Fire"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Vienna Vikings"
+        },
+        "sport": "American Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "American Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/american-football"
+          },
+          {
+            "name": "Rhein Fire vs. Vienna Vikings",
+            "url": "https://tarjetarojaenvivo.live/eventos/afle/2026-06-06/rhe-vie"
+          }
+        ],
+        "h1": "Rhein Fire vs. Vienna Vikings EN VIVO",
+        "h2": "Ver Rhein Fire vs. Vienna Vikings Online Gratis"
+      },
+      "event": {
+        "name": "Rhein Fire vs. Vienna Vikings",
+        "category": "American Football",
+        "broadcaster": "AFLE+",
+        "start_time": "2026-06-06T14:45:00.000Z",
+        "end_time": "2026-06-06T18:15:00.000Z",
+        "duration_minutes": 210,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Rhein Fire",
+        "away_team": "Vienna Vikings"
+      },
+      "technical": {
+        "last_modified": "2026-05-31T19:17:24.348Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Rhein Fire vs. Vienna Vikings, Rhein Fire"
+      }
+    },
+    {
+      "id": 22423,
+      "slug": "alpine-rams-vs-london-warriors",
+      "uri_name": "afle/2026-06-07/alp-lon",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/afle/2026-06-07/alp-lon",
+      "meta": {
+        "title": "Alpine Rams vs. London Warriors EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Alpine Rams vs. London Warriors en vivo gratis por Tarjeta Roja TV. Alpine Rams vs London Warriors transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Alpine Rams vs. London Warriors, Alpine Rams, London Warriors, American Football, ver online gratis, en vivo gratis, AFLE+",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/afle/2026-06-07/alp-lon",
+        "title": "Alpine Rams vs. London Warriors EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Alpine Rams vs. London Warriors en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/0edf2b5405d2cd3bdab4bd4c12a52990-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Alpine Rams vs. London Warriors EN VIVO",
+        "description": "Ver Alpine Rams vs. London Warriors en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/0edf2b5405d2cd3bdab4bd4c12a52990-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Alpine Rams vs. London Warriors",
+        "description": "Transmisión en vivo de Alpine Rams vs. London Warriors",
+        "startDate": "2026-06-07T13:00:00.000Z",
+        "endDate": "2026-06-07T16:30:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/afle/2026-06-07/alp-lon"
+        },
+        "image": "https://api.ppv.to/assets/thumb/0edf2b5405d2cd3bdab4bd4c12a52990-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Alpine Rams"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "London Warriors"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Alpine Rams"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "London Warriors"
+        },
+        "sport": "American Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "American Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/american-football"
+          },
+          {
+            "name": "Alpine Rams vs. London Warriors",
+            "url": "https://tarjetarojaenvivo.live/eventos/afle/2026-06-07/alp-lon"
+          }
+        ],
+        "h1": "Alpine Rams vs. London Warriors EN VIVO",
+        "h2": "Ver Alpine Rams vs. London Warriors Online Gratis"
+      },
+      "event": {
+        "name": "Alpine Rams vs. London Warriors",
+        "category": "American Football",
+        "broadcaster": "AFLE+",
+        "start_time": "2026-06-07T13:00:00.000Z",
+        "end_time": "2026-06-07T16:30:00.000Z",
+        "duration_minutes": 210,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Alpine Rams",
+        "away_team": "London Warriors"
+      },
+      "technical": {
+        "last_modified": "2026-05-31T19:17:24.348Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Alpine Rams vs. London Warriors, Alpine Rams"
       }
     },
     {
@@ -533,13 +1051,13 @@
         "start_time": "2026-05-31T16:15:00.000Z",
         "end_time": "2026-05-31T19:45:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "64",
         "home_team": "Toronto Blue Jays",
         "away_team": "Baltimore Orioles"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.349Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -639,13 +1157,13 @@
         "start_time": "2026-05-31T17:35:00.000Z",
         "end_time": "2026-05-31T21:05:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "86",
         "home_team": "Minnesota Twins",
         "away_team": "Pittsburgh Pirates"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.349Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -745,13 +1263,13 @@
         "start_time": "2026-05-31T17:35:00.000Z",
         "end_time": "2026-05-31T21:05:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "105",
         "home_team": "San Diego Padres",
         "away_team": "Washington Nationals"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.349Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -851,13 +1369,13 @@
         "start_time": "2026-05-31T17:40:00.000Z",
         "end_time": "2026-05-31T21:10:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "65",
         "home_team": "Los Angeles Angels",
         "away_team": "Tampa Bay Rays"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.349Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -957,13 +1475,13 @@
         "start_time": "2026-05-31T17:40:00.000Z",
         "end_time": "2026-05-31T21:10:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "234",
         "home_team": "Atlanta Braves",
         "away_team": "Cincinnati Reds"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.349Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1063,13 +1581,13 @@
         "start_time": "2026-05-31T17:40:00.000Z",
         "end_time": "2026-05-31T21:10:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "97",
         "home_team": "Boston Red Sox",
         "away_team": "Cleveland Guardians"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.349Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1169,13 +1687,13 @@
         "start_time": "2026-05-31T17:40:00.000Z",
         "end_time": "2026-05-31T21:10:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "126",
         "home_team": "Miami Marlins",
         "away_team": "New York Mets"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.349Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1275,13 +1793,13 @@
         "start_time": "2026-05-31T18:10:00.000Z",
         "end_time": "2026-05-31T21:40:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "78",
         "home_team": "Detroit Tigers",
         "away_team": "Chicago White Sox"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.349Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1381,13 +1899,13 @@
         "start_time": "2026-05-31T18:10:00.000Z",
         "end_time": "2026-05-31T21:40:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "171",
         "home_team": "Milwaukee Brewers",
         "away_team": "Houston Astros"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.349Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1487,13 +2005,13 @@
         "start_time": "2026-05-31T18:35:00.000Z",
         "end_time": "2026-05-31T22:05:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "28",
         "home_team": "Kansas City Royals",
         "away_team": "Texas Rangers"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.349Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1593,13 +2111,13 @@
         "start_time": "2026-05-31T19:10:00.000Z",
         "end_time": "2026-05-31T22:40:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "3",
         "home_team": "San Francisco Giants",
         "away_team": "Colorado Rockies"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.349Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1705,7 +2223,7 @@
         "away_team": "Athletics"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.349Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1811,7 +2329,7 @@
         "away_team": "Seattle Mariners"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.349Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1917,7 +2435,7 @@
         "away_team": "Los Angeles Dodgers"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.349Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2023,7 +2541,7 @@
         "away_team": "St. Louis Cardinals"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.349Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2124,548 +2642,18 @@
         "end_time": "2026-05-31T22:30:00.000Z",
         "duration_minutes": 180,
         "status": "upcoming",
-        "viewers": "0",
+        "viewers": "4",
         "home_team": "Las Vegas Aces",
         "away_team": "Golden State Valkyries"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.349Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
         "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Las Vegas Aces vs. Golden State Valkyries, Las Vegas Aces"
-      }
-    },
-    {
-      "id": 22365,
-      "slug": "gujarat-titans-vs-royal-challengers-bengaluru",
-      "uri_name": "ipl/2026-05-31/gt-rcb",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/ipl/2026-05-31/gt-rcb",
-      "meta": {
-        "title": "Gujarat Titans vs. Royal Challengers Bengaluru EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Gujarat Titans vs. Royal Challengers Bengaluru en vivo gratis por Tarjeta Roja TV. Gujarat Titans vs Royal Challengers Bengaluru transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Gujarat Titans vs. Royal Challengers Bengaluru, Gujarat Titans, Royal Challengers Bengaluru, Cricket, ver online gratis, en vivo gratis, Indian Premier League",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/ipl/2026-05-31/gt-rcb",
-        "title": "Gujarat Titans vs. Royal Challengers Bengaluru EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Gujarat Titans vs. Royal Challengers Bengaluru en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/2a49bc6cc8c5b5ef7b7db1fa93c7566c-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Gujarat Titans vs. Royal Challengers Bengaluru EN VIVO",
-        "description": "Ver Gujarat Titans vs. Royal Challengers Bengaluru en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/2a49bc6cc8c5b5ef7b7db1fa93c7566c-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Gujarat Titans vs. Royal Challengers Bengaluru",
-        "description": "Transmisión en vivo de Gujarat Titans vs. Royal Challengers Bengaluru",
-        "startDate": "2026-05-31T14:00:00.000Z",
-        "endDate": "2026-05-31T18:00:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/ipl/2026-05-31/gt-rcb"
-        },
-        "image": "https://api.ppv.to/assets/thumb/2a49bc6cc8c5b5ef7b7db1fa93c7566c-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Gujarat Titans"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Royal Challengers Bengaluru"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Gujarat Titans"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Royal Challengers Bengaluru"
-        },
-        "sport": "Cricket"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Cricket",
-            "url": "https://tarjetarojaenvivo.live/categoria/cricket"
-          },
-          {
-            "name": "Gujarat Titans vs. Royal Challengers Bengaluru",
-            "url": "https://tarjetarojaenvivo.live/eventos/ipl/2026-05-31/gt-rcb"
-          }
-        ],
-        "h1": "Gujarat Titans vs. Royal Challengers Bengaluru EN VIVO",
-        "h2": "Ver Gujarat Titans vs. Royal Challengers Bengaluru Online Gratis"
-      },
-      "event": {
-        "name": "Gujarat Titans vs. Royal Challengers Bengaluru",
-        "category": "Cricket",
-        "broadcaster": "Indian Premier League",
-        "start_time": "2026-05-31T14:00:00.000Z",
-        "end_time": "2026-05-31T18:00:00.000Z",
-        "duration_minutes": 240,
-        "status": "upcoming",
-        "viewers": "32",
-        "home_team": "Gujarat Titans",
-        "away_team": "Royal Challengers Bengaluru"
-      },
-      "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Gujarat Titans vs. Royal Challengers Bengaluru, Gujarat Titans"
-      }
-    },
-    {
-      "id": 22374,
-      "slug": "switzerland-vs-jordan",
-      "uri_name": "mens-international-friendly/2026-05-31/sui-jor",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-05-31/sui-jor",
-      "meta": {
-        "title": "Switzerland vs. Jordan EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Switzerland vs. Jordan en vivo gratis por Tarjeta Roja TV. Switzerland vs Jordan transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Switzerland vs. Jordan, Switzerland, Jordan, Football, ver online gratis, en vivo gratis, Men's International Friendly",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-05-31/sui-jor",
-        "title": "Switzerland vs. Jordan EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Switzerland vs. Jordan en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/832f4cc7ce0802aaaba5b990170f8b71-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Switzerland vs. Jordan EN VIVO",
-        "description": "Ver Switzerland vs. Jordan en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/832f4cc7ce0802aaaba5b990170f8b71-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Switzerland vs. Jordan",
-        "description": "Transmisión en vivo de Switzerland vs. Jordan",
-        "startDate": "2026-05-31T13:00:00.000Z",
-        "endDate": "2026-05-31T15:30:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-05-31/sui-jor"
-        },
-        "image": "https://api.ppv.to/assets/thumb/832f4cc7ce0802aaaba5b990170f8b71-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Switzerland"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Jordan"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Switzerland"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Jordan"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Switzerland vs. Jordan",
-            "url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-05-31/sui-jor"
-          }
-        ],
-        "h1": "Switzerland vs. Jordan EN VIVO",
-        "h2": "Ver Switzerland vs. Jordan Online Gratis"
-      },
-      "event": {
-        "name": "Switzerland vs. Jordan",
-        "category": "Football",
-        "broadcaster": "Men's International Friendly",
-        "start_time": "2026-05-31T13:00:00.000Z",
-        "end_time": "2026-05-31T15:30:00.000Z",
-        "duration_minutes": 150,
-        "status": "live",
-        "viewers": "122",
-        "home_team": "Switzerland",
-        "away_team": "Jordan"
-      },
-      "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Switzerland vs. Jordan, Switzerland"
-      }
-    },
-    {
-      "id": 22373,
-      "slug": "brighton-hove-albion-vs-manchester-city",
-      "uri_name": "womens-fa-cup/2026-05-31/bha-mci",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/womens-fa-cup/2026-05-31/bha-mci",
-      "meta": {
-        "title": "Brighton & Hove Albion vs. Manchester City EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Brighton & Hove Albion vs. Manchester City en vivo gratis por Tarjeta Roja TV. Brighton & Hove Albion vs Manchester City transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Brighton & Hove Albion vs. Manchester City, Brighton & Hove Albion, Manchester City, Football, ver online gratis, en vivo gratis, Women's FA Cup",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/womens-fa-cup/2026-05-31/bha-mci",
-        "title": "Brighton & Hove Albion vs. Manchester City EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Brighton & Hove Albion vs. Manchester City en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/6f4afb3018c9bdf6675d8a8f10b1674b-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Brighton & Hove Albion vs. Manchester City EN VIVO",
-        "description": "Ver Brighton & Hove Albion vs. Manchester City en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/6f4afb3018c9bdf6675d8a8f10b1674b-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Brighton & Hove Albion vs. Manchester City",
-        "description": "Transmisión en vivo de Brighton & Hove Albion vs. Manchester City",
-        "startDate": "2026-05-31T14:00:00.000Z",
-        "endDate": "2026-05-31T16:30:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/womens-fa-cup/2026-05-31/bha-mci"
-        },
-        "image": "https://api.ppv.to/assets/thumb/6f4afb3018c9bdf6675d8a8f10b1674b-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Brighton & Hove Albion"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Manchester City"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Brighton & Hove Albion"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Manchester City"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Brighton & Hove Albion vs. Manchester City",
-            "url": "https://tarjetarojaenvivo.live/eventos/womens-fa-cup/2026-05-31/bha-mci"
-          }
-        ],
-        "h1": "Brighton & Hove Albion vs. Manchester City EN VIVO",
-        "h2": "Ver Brighton & Hove Albion vs. Manchester City Online Gratis"
-      },
-      "event": {
-        "name": "Brighton & Hove Albion vs. Manchester City",
-        "category": "Football",
-        "broadcaster": "Women's FA Cup",
-        "start_time": "2026-05-31T14:00:00.000Z",
-        "end_time": "2026-05-31T16:30:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "4",
-        "home_team": "Brighton & Hove Albion",
-        "away_team": "Manchester City"
-      },
-      "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Brighton & Hove Albion vs. Manchester City, Brighton & Hove Albion"
-      }
-    },
-    {
-      "id": 22375,
-      "slug": "czechia-vs-kosovo",
-      "uri_name": "mens-international-friendly/2026-05-31/cze-kos",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-05-31/cze-kos",
-      "meta": {
-        "title": "Czechia vs. Kosovo EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Czechia vs. Kosovo en vivo gratis por Tarjeta Roja TV. Czechia vs Kosovo transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Czechia vs. Kosovo, Czechia, Kosovo, Football, ver online gratis, en vivo gratis, Men's International Friendly",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-05-31/cze-kos",
-        "title": "Czechia vs. Kosovo EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Czechia vs. Kosovo en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/d3ad0f75ce54911ef6dbf5775a8cb0be-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Czechia vs. Kosovo EN VIVO",
-        "description": "Ver Czechia vs. Kosovo en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/d3ad0f75ce54911ef6dbf5775a8cb0be-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Czechia vs. Kosovo",
-        "description": "Transmisión en vivo de Czechia vs. Kosovo",
-        "startDate": "2026-05-31T14:00:00.000Z",
-        "endDate": "2026-05-31T16:30:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-05-31/cze-kos"
-        },
-        "image": "https://api.ppv.to/assets/thumb/d3ad0f75ce54911ef6dbf5775a8cb0be-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Czechia"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Kosovo"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Czechia"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Kosovo"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Czechia vs. Kosovo",
-            "url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-05-31/cze-kos"
-          }
-        ],
-        "h1": "Czechia vs. Kosovo EN VIVO",
-        "h2": "Ver Czechia vs. Kosovo Online Gratis"
-      },
-      "event": {
-        "name": "Czechia vs. Kosovo",
-        "category": "Football",
-        "broadcaster": "Men's International Friendly",
-        "start_time": "2026-05-31T14:00:00.000Z",
-        "end_time": "2026-05-31T16:30:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "1",
-        "home_team": "Czechia",
-        "away_team": "Kosovo"
-      },
-      "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Czechia vs. Kosovo, Czechia"
-      }
-    },
-    {
-      "id": 22376,
-      "slug": "poland-vs-ukraine",
-      "uri_name": "mens-international-friendly/2026-05-31/pol-ukr",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-05-31/pol-ukr",
-      "meta": {
-        "title": "Poland vs. Ukraine EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Poland vs. Ukraine en vivo gratis por Tarjeta Roja TV. Poland vs Ukraine transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Poland vs. Ukraine, Poland, Ukraine, Football, ver online gratis, en vivo gratis, Men's International Friendly",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-05-31/pol-ukr",
-        "title": "Poland vs. Ukraine EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Poland vs. Ukraine en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/c90d8b337d41ddf28fe006ab91e73eac-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Poland vs. Ukraine EN VIVO",
-        "description": "Ver Poland vs. Ukraine en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/c90d8b337d41ddf28fe006ab91e73eac-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Poland vs. Ukraine",
-        "description": "Transmisión en vivo de Poland vs. Ukraine",
-        "startDate": "2026-05-31T15:30:00.000Z",
-        "endDate": "2026-05-31T18:00:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-05-31/pol-ukr"
-        },
-        "image": "https://api.ppv.to/assets/thumb/c90d8b337d41ddf28fe006ab91e73eac-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Poland"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Ukraine"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Poland"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Ukraine"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Poland vs. Ukraine",
-            "url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-05-31/pol-ukr"
-          }
-        ],
-        "h1": "Poland vs. Ukraine EN VIVO",
-        "h2": "Ver Poland vs. Ukraine Online Gratis"
-      },
-      "event": {
-        "name": "Poland vs. Ukraine",
-        "category": "Football",
-        "broadcaster": "Men's International Friendly",
-        "start_time": "2026-05-31T15:30:00.000Z",
-        "end_time": "2026-05-31T18:00:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "1",
-        "home_team": "Poland",
-        "away_team": "Ukraine"
-      },
-      "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Poland vs. Ukraine, Poland"
       }
     },
     {
@@ -2759,13 +2747,13 @@
         "start_time": "2026-05-31T18:45:00.000Z",
         "end_time": "2026-05-31T21:15:00.000Z",
         "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "745",
         "home_team": "Germany",
         "away_team": "Finland"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.349Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2866,12 +2854,12 @@
         "end_time": "2026-05-31T22:00:00.000Z",
         "duration_minutes": 150,
         "status": "upcoming",
-        "viewers": "1",
+        "viewers": "38",
         "home_team": "United States",
         "away_team": "Senegal"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.349Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2977,7 +2965,7 @@
         "away_team": "South Africa"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.349Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3083,119 +3071,13 @@
         "away_team": "Czechia"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.349Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
         "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, South Korea vs. Czechia, South Korea"
-      }
-    },
-    {
-      "id": 22414,
-      "slug": "canada-vs-norway",
-      "uri_name": "iihf-world-championship/2026-05-31/can-nor",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/iihf-world-championship/2026-05-31/can-nor",
-      "meta": {
-        "title": "Canada vs. Norway EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Canada vs. Norway en vivo gratis por Tarjeta Roja TV. Canada vs Norway transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Canada vs. Norway, Canada, Norway, Ice Hockey, ver online gratis, en vivo gratis, IIHF World Championship",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/iihf-world-championship/2026-05-31/can-nor",
-        "title": "Canada vs. Norway EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Canada vs. Norway en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/9bf18d68acdafe9b9a8b01a6421c6648-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Canada vs. Norway EN VIVO",
-        "description": "Ver Canada vs. Norway en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/9bf18d68acdafe9b9a8b01a6421c6648-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Canada vs. Norway",
-        "description": "Transmisión en vivo de Canada vs. Norway",
-        "startDate": "2026-05-31T13:30:00.000Z",
-        "endDate": "2026-05-31T16:00:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/iihf-world-championship/2026-05-31/can-nor"
-        },
-        "image": "https://api.ppv.to/assets/thumb/9bf18d68acdafe9b9a8b01a6421c6648-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Canada"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Norway"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Canada"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Norway"
-        },
-        "sport": "Ice Hockey"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Ice Hockey",
-            "url": "https://tarjetarojaenvivo.live/categoria/ice-hockey"
-          },
-          {
-            "name": "Canada vs. Norway",
-            "url": "https://tarjetarojaenvivo.live/eventos/iihf-world-championship/2026-05-31/can-nor"
-          }
-        ],
-        "h1": "Canada vs. Norway EN VIVO",
-        "h2": "Ver Canada vs. Norway Online Gratis"
-      },
-      "event": {
-        "name": "Canada vs. Norway",
-        "category": "Ice Hockey",
-        "broadcaster": "IIHF World Championship",
-        "start_time": "2026-05-31T13:30:00.000Z",
-        "end_time": "2026-05-31T16:00:00.000Z",
-        "duration_minutes": 150,
-        "status": "live",
-        "viewers": "26",
-        "home_team": "Canada",
-        "away_team": "Norway"
-      },
-      "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Canada vs. Norway, Canada"
       }
     },
     {
@@ -3289,105 +3171,19 @@
         "start_time": "2026-05-31T18:20:00.000Z",
         "end_time": "2026-05-31T20:50:00.000Z",
         "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "2",
+        "status": "live",
+        "viewers": "361",
         "home_team": "Switzerland",
         "away_team": "Finland"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.349Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
         "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Switzerland vs. Finland, Switzerland"
-      }
-    },
-    {
-      "id": 22418,
-      "slug": "motogp-grand-prix-of-italy",
-      "uri_name": "motogp-grand-prix-of-italy",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/motogp-grand-prix-of-italy",
-      "meta": {
-        "title": "MotoGP: Grand Prix of Italy EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver MotoGP: Grand Prix of Italy en vivo gratis por Tarjeta Roja TV. MotoGP: Grand Prix of Italy transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, MotoGP: Grand Prix of Italy, MotoGP: Grand Prix of Italy, Motorsports, ver online gratis, en vivo gratis, TNT Sports 2",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/motogp-grand-prix-of-italy",
-        "title": "MotoGP: Grand Prix of Italy EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver MotoGP: Grand Prix of Italy en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/5a4541d40aa01c59be5bb0db842b69ce-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "MotoGP: Grand Prix of Italy EN VIVO",
-        "description": "Ver MotoGP: Grand Prix of Italy en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/5a4541d40aa01c59be5bb0db842b69ce-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "MotoGP: Grand Prix of Italy",
-        "description": "Transmisión en vivo de MotoGP: Grand Prix of Italy",
-        "startDate": "2026-05-31T12:00:00.000Z",
-        "endDate": "2026-05-31T15:00:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/motogp-grand-prix-of-italy"
-        },
-        "image": "https://api.ppv.to/assets/thumb/5a4541d40aa01c59be5bb0db842b69ce-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "sport": "Motorsports"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Motorsports",
-            "url": "https://tarjetarojaenvivo.live/categoria/motorsports"
-          },
-          {
-            "name": "MotoGP: Grand Prix of Italy",
-            "url": "https://tarjetarojaenvivo.live/eventos/motogp-grand-prix-of-italy"
-          }
-        ],
-        "h1": "MotoGP: Grand Prix of Italy EN VIVO",
-        "h2": "Ver MotoGP: Grand Prix of Italy Online Gratis"
-      },
-      "event": {
-        "name": "MotoGP: Grand Prix of Italy",
-        "category": "Motorsports",
-        "broadcaster": "TNT Sports 2",
-        "start_time": "2026-05-31T12:00:00.000Z",
-        "end_time": "2026-05-31T15:00:00.000Z",
-        "duration_minutes": 180,
-        "status": "live",
-        "viewers": "35"
-      },
-      "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, MotoGP: Grand Prix of Italy, MotoGP: Grand Prix of Italy"
       }
     },
     {
@@ -3464,10 +3260,10 @@
         "end_time": "2026-06-05T13:30:00.000Z",
         "duration_minutes": 120,
         "status": "upcoming",
-        "viewers": "0"
+        "viewers": "1"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.349Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3553,7 +3349,7 @@
         "viewers": "0"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.349Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3639,7 +3435,7 @@
         "viewers": "0"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.350Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3725,7 +3521,7 @@
         "viewers": "0"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.350Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3808,10 +3604,10 @@
         "end_time": "2026-06-07T16:00:00.000Z",
         "duration_minutes": 180,
         "status": "upcoming",
-        "viewers": "1"
+        "viewers": "0"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.350Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3894,10 +3690,10 @@
         "end_time": "1970-01-01T00:00:00.000Z",
         "duration_minutes": 0,
         "status": "completed",
-        "viewers": "21"
+        "viewers": "272"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.748Z",
+        "last_modified": "2026-05-31T19:17:24.350Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -3980,10 +3776,10 @@
         "end_time": "1970-01-01T00:00:00.000Z",
         "duration_minutes": 0,
         "status": "completed",
-        "viewers": "86"
+        "viewers": "113"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.749Z",
+        "last_modified": "2026-05-31T19:17:24.350Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -4065,11 +3861,11 @@
         "start_time": "2026-05-31T18:00:00.000Z",
         "end_time": "2026-05-31T22:00:00.000Z",
         "duration_minutes": 240,
-        "status": "upcoming",
-        "viewers": "1"
+        "status": "live",
+        "viewers": "2714"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.749Z",
+        "last_modified": "2026-05-31T19:17:24.350Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4152,10 +3948,10 @@
         "end_time": "1970-01-01T00:00:00.000Z",
         "duration_minutes": 0,
         "status": "completed",
-        "viewers": "7"
+        "viewers": "12"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.749Z",
+        "last_modified": "2026-05-31T19:17:24.350Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -4238,10 +4034,10 @@
         "end_time": "2025-02-28T20:00:00.000Z",
         "duration_minutes": 59940,
         "status": "completed",
-        "viewers": "1"
+        "viewers": "2"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.749Z",
+        "last_modified": "2026-05-31T19:17:24.350Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -4327,7 +4123,7 @@
         "viewers": "17"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.749Z",
+        "last_modified": "2026-05-31T19:17:24.350Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -4413,7 +4209,7 @@
         "viewers": "1"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.749Z",
+        "last_modified": "2026-05-31T19:17:24.350Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -4496,10 +4292,10 @@
         "end_time": "2026-01-28T03:00:00.000Z",
         "duration_minutes": 180,
         "status": "completed",
-        "viewers": "6"
+        "viewers": "5"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.749Z",
+        "last_modified": "2026-05-31T19:17:24.350Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -4582,10 +4378,10 @@
         "end_time": "2026-02-12T03:00:00.000Z",
         "duration_minutes": 180,
         "status": "completed",
-        "viewers": "4"
+        "viewers": "5"
       },
       "technical": {
-        "last_modified": "2026-05-31T13:45:22.749Z",
+        "last_modified": "2026-05-31T19:17:24.350Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
