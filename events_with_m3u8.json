@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2026-06-01T03:28:26.225673Z",
+    "fetched_at": "2026-06-01T11:20:19.704862Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-06-01T05:09:47.936737",
-      "total_streams": 21,
+      "extracted_at": "2026-06-01T11:23:33.234852",
+      "total_streams": 63,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 21,
-        "successful_requests": 21,
+        "total_requests": 63,
+        "successful_requests": 63,
         "failed_requests": 0,
-        "elapsed_time_seconds": 57.33
+        "elapsed_time_seconds": 179.21
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1780284510,
+    "timestamp": 1780312820,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.028323888778686523,
+    "performance": 0.028877973556518555,
     "streams": [
       {
         "category": "American Football",
@@ -30,8 +30,8 @@
           {
             "id": 22334,
             "name": "Montreal Alouettes vs. Hamilton Tiger-Cats",
-            "tag": "TSN",
-            "source_tag": "TSN",
+            "tag": "CFL+",
+            "source_tag": "CFL+",
             "poster": "https://api.ppv.to/assets/thumb/07aaa43adf4d866a3aaf2274768e036c-thumbnail.jpg",
             "blurhash": "L7Ga5g04#ipbs.aya|j[00~nXo+t",
             "colors": [
@@ -45,6 +45,27 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://pooembed.eu/embed/cfl/2026-06-04/mtl-ham",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22431,
+            "name": "Winnipeg Blue Bombers vs. Calgary Stampeders",
+            "tag": "CFL+",
+            "source_tag": "CFL+",
+            "poster": "https://api.ppv.to/assets/thumb/bfbf16b638a692fef1a8a0c000d8fc4e-thumbnail.jpg",
+            "blurhash": "LAD*q@3?rDMdt7j[j[ay00vLtl-p",
+            "colors": [
+              "#1b3d6e",
+              "#c8102e"
+            ],
+            "uri_name": "cfl/2026-06-05/wpg-cgy",
+            "starts_at": 1780707600,
+            "ends_at": 1780720200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.eu/embed/cfl/2026-06-05/wpg-cgy",
             "viewers": "0",
             "substreams": []
           },
@@ -112,6 +133,27 @@
             "substreams": []
           },
           {
+            "id": 22433,
+            "name": "Edmonton Elks vs. Ottawa RedBlacks",
+            "tag": "CFL+",
+            "source_tag": "CFL+",
+            "poster": "https://api.ppv.to/assets/thumb/c6000aa243d1f469ce149563473f5570-thumbnail.jpg",
+            "blurhash": "L5B2.J1DZM.9oLayj[j[00}]%#ZN",
+            "colors": [
+              "#0f4d2c",
+              "#b5121b"
+            ],
+            "uri_name": "cfl/2026-06-06/edm-ott",
+            "starts_at": 1780786800,
+            "ends_at": 1780799400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.eu/embed/cfl/2026-06-06/edm-ott",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
             "id": 22423,
             "name": "Alpine Rams vs. London Warriors",
             "tag": "AFLE+",
@@ -131,33 +173,495 @@
             "iframe": "https://pooembed.eu/embed/afle/2026-06-07/alp-lon",
             "viewers": "0",
             "substreams": []
+          },
+          {
+            "id": 22427,
+            "name": "DC Defenders vs. Orlando Storm",
+            "tag": "ABC",
+            "source_tag": "ABC",
+            "poster": "https://api.ppv.to/assets/thumb/e517c3234aecdb8cc42578f4ceee40d6-thumbnail.jpg",
+            "blurhash": "L5InXb2Lvz56xGj[WqjZ00MwTK}@",
+            "colors": [
+              "#c8102e",
+              "#fe5000"
+            ],
+            "uri_name": "ufl/2026-06-07/dc-orl",
+            "starts_at": 1780858800,
+            "ends_at": 1780871400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.eu/embed/ufl/2026-06-07/dc-orl",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22428,
+            "name": "Louisville Kings vs. St. Louis Battlehawks",
+            "tag": "FOX",
+            "source_tag": "FOX",
+            "poster": "https://api.ppv.to/assets/thumb/8717e27525999e5ed6156a21713446a9-thumbnail.jpg",
+            "blurhash": "L14e]D~Y030CRjRjjut7008]~p_J",
+            "colors": [
+              "#06190a",
+              "#002677"
+            ],
+            "uri_name": "ufl/2026-06-07/lou-stl",
+            "starts_at": 1780869600,
+            "ends_at": 1780882200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://pooembed.eu/embed/ufl/2026-06-07/lou-stl",
+            "viewers": "0",
+            "substreams": []
           }
         ]
       },
       {
-        "category": "Combat Sports",
-        "id": 33,
+        "category": "Australian Football",
+        "id": 66,
         "always_live": false,
         "streams": [
           {
-            "id": 22424,
-            "name": "FURY FC 120",
-            "tag": "UFC Fight Pass",
-            "source_tag": "UFC Fight Pass",
-            "poster": "https://api.ppv.to/assets/thumb/a739bebcde7628e2bf6940c0446b4684-thumbnail.jpg",
-            "blurhash": "LIGIMv8w~pxZ^c?FRjt700.9IURj",
+            "id": 22442,
+            "name": "Adelaide Crows vs. Geelong Cats",
+            "tag": "Fox Footy",
+            "source_tag": "Fox Footy",
+            "poster": "https://api.ppv.to/assets/thumb/1e1d707885232c24c9f10cbdb0807ff0-thumbnail.jpg",
+            "blurhash": "L25}zN4e4..m%MM{jYxt00.l^,Hq",
             "colors": [
-              "#756742",
-              "#fcffff"
+              "#002a6f",
+              "#173246"
             ],
-            "uri_name": "fury-fc-120",
-            "starts_at": 1780263000,
-            "ends_at": 1780291800,
+            "uri_name": "afl/2026-06-04/adel-geel",
+            "starts_at": 1780565400,
+            "ends_at": 1780576200,
             "always_live": 0,
             "locale": "en",
-            "category_name": "Combat Sports",
-            "iframe": "https://pooembed.eu/embed/fury-fc-120",
-            "viewers": "17",
+            "category_name": "Australian Football",
+            "iframe": "https://pooembed.eu/embed/afl/2026-06-04/adel-geel",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22443,
+            "name": "Hawthorn vs. Western Bulldogs",
+            "tag": "Fox Footy",
+            "source_tag": "Fox Footy",
+            "poster": "https://api.ppv.to/assets/thumb/87cf58eefce0d6ce13b00337b0322a85-thumbnail.jpg",
+            "blurhash": "L78DxDvcN1tnWCoejtWB00cIxuMw",
+            "colors": [
+              "#462d22",
+              "#25269f"
+            ],
+            "uri_name": "afl/2026-06-05/haw-wb",
+            "starts_at": 1780652400,
+            "ends_at": 1780663200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Australian Football",
+            "iframe": "https://pooembed.eu/embed/afl/2026-06-05/haw-wb",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22444,
+            "name": "North Melbourne vs. Fremantle",
+            "tag": "Fox Footy",
+            "source_tag": "Fox Footy",
+            "poster": "https://api.ppv.to/assets/thumb/a0cafcebc44cf14a5625a2fe6a8a4811-thumbnail.jpg",
+            "blurhash": "L98z.%T#M}Mxa~WCfQoe00Mwxs%2",
+            "colors": [
+              "#124cb1",
+              "#5d368f"
+            ],
+            "uri_name": "afl/2026-06-06/nmfc-fre",
+            "starts_at": 1780719300,
+            "ends_at": 1780730100,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Australian Football",
+            "iframe": "https://pooembed.eu/embed/afl/2026-06-06/nmfc-fre",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22445,
+            "name": "Gold Coast SUNS vs. Brisbane Lions",
+            "tag": "Fox Footy",
+            "source_tag": "Fox Footy",
+            "poster": "https://api.ppv.to/assets/thumb/eba227028b503766232ffc779c29954d-thumbnail.jpg",
+            "blurhash": "L29ixi4GDh:rR.ocjsR-00@$?cKd",
+            "colors": [
+              "#173246",
+              "#6d144a"
+            ],
+            "uri_name": "afl/2026-06-06/gcfc-bl",
+            "starts_at": 1780730100,
+            "ends_at": 1780740900,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Australian Football",
+            "iframe": "https://pooembed.eu/embed/afl/2026-06-06/gcfc-bl",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22446,
+            "name": "West Coast Eagles vs. Port Adelaide",
+            "tag": "Fox Footy",
+            "source_tag": "Fox Footy",
+            "poster": "https://api.ppv.to/assets/thumb/dc19c3347ad510b6a590694dd9fa09a4-thumbnail.jpg",
+            "blurhash": "L36lZ1L#Bg%#$$s+jsR-00y?=zNG",
+            "colors": [
+              "#24275a",
+              "#2498a5"
+            ],
+            "uri_name": "afl/2026-06-06/wce-port",
+            "starts_at": 1780740900,
+            "ends_at": 1780751700,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Australian Football",
+            "iframe": "https://pooembed.eu/embed/afl/2026-06-06/wce-port",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22447,
+            "name": "Sydney Swans vs. St Kilda",
+            "tag": "Fox Footy",
+            "source_tag": "Fox Footy",
+            "poster": "https://api.ppv.to/assets/thumb/182ba14c16739e2b91aa56cd88825c54-thumbnail.jpg",
+            "blurhash": "L4FfN[l:mky?$kR*jZsp00lnY6QS",
+            "colors": [
+              "#b61300",
+              "#b12526"
+            ],
+            "uri_name": "afl/2026-06-07/syd-stk",
+            "starts_at": 1780809300,
+            "ends_at": 1780820100,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Australian Football",
+            "iframe": "https://pooembed.eu/embed/afl/2026-06-07/syd-stk",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22448,
+            "name": "Essendon vs. Carlton",
+            "tag": "Fox Footy",
+            "source_tag": "Fox Footy",
+            "poster": "https://api.ppv.to/assets/thumb/38172afc67cc0de450e9cde120c5e81e-thumbnail.jpg",
+            "blurhash": "LCC5Yx_~v#-=a}ayj[fQ00cYo}D%",
+            "colors": [
+              "#b93535",
+              "#0d0e5f"
+            ],
+            "uri_name": "afl/2026-06-07/ess-carl",
+            "starts_at": 1780824000,
+            "ends_at": 1780834800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Australian Football",
+            "iframe": "https://pooembed.eu/embed/afl/2026-06-07/ess-carl",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22449,
+            "name": "Collingwood vs. Melbourne",
+            "tag": "Fox Footy",
+            "source_tag": "Fox Footy",
+            "poster": "https://api.ppv.to/assets/thumb/73a10a40c4a972ff6cdcd72ebbd36906-thumbnail.jpg",
+            "blurhash": "L25;,eyM4-m8sCS2ayso00ZP^,YP",
+            "colors": [
+              "#222222",
+              "#00274d"
+            ],
+            "uri_name": "afl/2026-06-08/coll-melb",
+            "starts_at": 1780895700,
+            "ends_at": 1780906500,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Australian Football",
+            "iframe": "https://pooembed.eu/embed/afl/2026-06-08/coll-melb",
+            "viewers": "0",
+            "substreams": []
+          }
+        ]
+      },
+      {
+        "category": "Baseball",
+        "id": 36,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 22432,
+            "name": "Detroit Tigers vs. Tampa Bay Rays",
+            "tag": "Rays.TV",
+            "source_tag": "Rays.TV",
+            "poster": "https://api.ppv.to/assets/thumb/948e984a70b26f56d3886640756dd162-thumbnail.jpg",
+            "blurhash": "L24L^Avv4oR:a}j[j[ay00Nh_3t6",
+            "colors": [
+              "#102a44",
+              "#1a3e6e"
+            ],
+            "uri_name": "mlb/2026-06-01/det-tb",
+            "starts_at": 1780353600,
+            "ends_at": 1780366200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-06-01/det-tb",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22434,
+            "name": "Miami Marlins vs. Washington Nationals",
+            "tag": "Nationals.TV",
+            "source_tag": "Nationals.TV",
+            "poster": "https://api.ppv.to/assets/thumb/324552ee40ae5c4d78417729aa9f5818-thumbnail.jpg",
+            "blurhash": "LDA0LF49spwJfkbHj[f655+aozWB",
+            "colors": [
+              "#008e97",
+              "#ab0003"
+            ],
+            "uri_name": "mlb/2026-06-01/mia-wsh",
+            "starts_at": 1780353900,
+            "ends_at": 1780366500,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-06-01/mia-wsh",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22435,
+            "name": "Kansas City Royals vs. Cincinnati Reds",
+            "tag": "Gray Media",
+            "source_tag": "Gray Media",
+            "poster": "https://api.ppv.to/assets/thumb/be19c9152a6152848bc9dbc8a80e6f22-thumbnail.jpg",
+            "blurhash": "LGAk@B3Grv#+jba}j@jt5h+@ozNw",
+            "colors": [
+              "#0051a5",
+              "#b0021b"
+            ],
+            "uri_name": "mlb/2026-06-01/kc-cin",
+            "starts_at": 1780355400,
+            "ends_at": 1780368000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-06-01/kc-cin",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22436,
+            "name": "Chicago White Sox vs. Minnesota Twins",
+            "tag": "Twins.TV",
+            "source_tag": "Twins.TV",
+            "poster": "https://api.ppv.to/assets/thumb/d151bfab2414427ec2df1973a5dcbc7b-thumbnail.jpg",
+            "blurhash": "L26t%%pg4pzCSgs:ofW:00zh_2G]",
+            "colors": [
+              "#2b2b2b",
+              "#003a8f"
+            ],
+            "uri_name": "mlb/2026-06-01/chw-min",
+            "starts_at": 1780357200,
+            "ends_at": 1780369800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-06-01/chw-min",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22437,
+            "name": "San Francisco Giants vs. Milwaukee Brewers",
+            "tag": "Brewers.TV",
+            "source_tag": "Brewers.TV",
+            "poster": "https://api.ppv.to/assets/thumb/6612c8a795208830f140ff7ed745b5ec-thumbnail.jpg",
+            "blurhash": "LVEAl.|swJS#jsj[fQa{5RK4bbaf",
+            "colors": [
+              "#e05a1e",
+              "#1a2f5a"
+            ],
+            "uri_name": "mlb/2026-06-01/sf-mil",
+            "starts_at": 1780357200,
+            "ends_at": 1780369800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-06-01/sf-mil",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22438,
+            "name": "Texas Rangers vs. St. Louis Cardinals",
+            "tag": "Cardinals.TV",
+            "source_tag": "Cardinals.TV",
+            "poster": "https://api.ppv.to/assets/thumb/a7870ba0374b05178413835944928f35-thumbnail.jpg",
+            "blurhash": "L6Bd,J2|z;,psAsTj[SN0v|EtlR+",
+            "colors": [
+              "#003278",
+              "#b22234"
+            ],
+            "uri_name": "mlb/2026-06-01/tex-stl",
+            "starts_at": 1780357500,
+            "ends_at": 1780370100,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-06-01/tex-stl",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22439,
+            "name": "Colorado Rockies vs. Los Angeles Angels",
+            "tag": "KCOP",
+            "source_tag": "KCOP",
+            "poster": "https://api.ppv.to/assets/thumb/72e46a3116eafcd32755a60f898d2c68-thumbnail.jpg",
+            "blurhash": "L6Bx7-3Tm,,[e.bGj[j[0J{~tlR%",
+            "colors": [
+              "#3c3c3c",
+              "#ba0021"
+            ],
+            "uri_name": "mlb/2026-06-01/col-laa",
+            "starts_at": 1780364280,
+            "ends_at": 1780376880,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-06-01/col-laa",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22440,
+            "name": "Los Angeles Dodgers vs. Arizona Diamondbacks",
+            "tag": "DBACKS.TV",
+            "source_tag": "DBACKS.TV",
+            "poster": "https://api.ppv.to/assets/thumb/c4979538831207668bf4bd277ed759a9-thumbnail.jpg",
+            "blurhash": "LD8|C]3ZnQw[jZbHj[jZ53+@o|WC",
+            "colors": [
+              "#005a9c",
+              "#9a1e2c"
+            ],
+            "uri_name": "mlb/2026-06-01/lad-ari",
+            "starts_at": 1780364400,
+            "ends_at": 1780377000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-06-01/lad-ari",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22441,
+            "name": "New York Mets vs. Seattle Mariners",
+            "tag": "Mariners.TV",
+            "source_tag": "Mariners.TV",
+            "poster": "https://api.ppv.to/assets/thumb/648fae0b8e46847ca9b02f3a8afad8e2-thumbnail.jpg",
+            "blurhash": "L55Ov@aDD*pbjujtj[bH00ga-:VX",
+            "colors": [
+              "#003f87",
+              "#0a2f44"
+            ],
+            "uri_name": "mlb/2026-06-01/nym-sea",
+            "starts_at": 1780364400,
+            "ends_at": 1780377000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://pooembed.eu/embed/mlb/2026-06-01/nym-sea",
+            "viewers": "0",
+            "substreams": []
+          }
+        ]
+      },
+      {
+        "category": "Basketball",
+        "id": 37,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 22429,
+            "name": "Seattle Storm vs. Dallas Wings",
+            "tag": "USA Net",
+            "source_tag": "USA Net",
+            "poster": "https://api.ppv.to/assets/thumb/918b462b6d4b3416b9b0612296c708f0-thumbnail.jpg",
+            "blurhash": "L468pi_79]E9WCafayj[00D@=x$}",
+            "colors": [
+              "#2c5235",
+              "#002b5c"
+            ],
+            "uri_name": "wnba/2026-06-01/sea-dal",
+            "starts_at": 1780358400,
+            "ends_at": 1780369200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://pooembed.eu/embed/wnba/2026-06-01/sea-dal",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22430,
+            "name": "Minnesota Lynx vs. Phoenix Mercury",
+            "tag": "Peacock",
+            "source_tag": "Peacock",
+            "poster": "https://api.ppv.to/assets/thumb/abafaf2c201bc288453a602bef266ee4-thumbnail.jpg",
+            "blurhash": "L8AJ$.1LI:}[ofR*j[oe00}@$*56",
+            "colors": [
+              "#266092",
+              "#3c286e"
+            ],
+            "uri_name": "wnba/2026-06-01/min-phx",
+            "starts_at": 1780365600,
+            "ends_at": 1780376400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://pooembed.eu/embed/wnba/2026-06-01/min-phx",
+            "viewers": "0",
+            "substreams": []
+          }
+        ]
+      },
+      {
+        "category": "Cricket",
+        "id": 47,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 22469,
+            "name": "England vs. New Zealand",
+            "tag": "Fox Sports 507",
+            "source_tag": "Fox Sports 507",
+            "poster": "https://api.ppv.to/assets/thumb/9679984208c3a875e5810b747bd6b62c-thumbnail.jpg",
+            "blurhash": "LBE{X|00_M?H00~qIAtR00%3M{M|",
+            "colors": [
+              "#011e3d",
+              "#f5efe8"
+            ],
+            "uri_name": "cricket/2026-06-04/eng-nzl",
+            "starts_at": 1780567200,
+            "ends_at": 1780603200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Cricket",
+            "iframe": "https://pooembed.eu/embed/cricket/2026-06-04/eng-nzl",
+            "viewers": "0",
             "substreams": []
           }
         ]
@@ -167,6 +671,132 @@
         "id": 34,
         "always_live": false,
         "streams": [
+          {
+            "id": 22463,
+            "name": "Bulgaria vs. Montenegro",
+            "tag": "Men's International Friendly",
+            "source_tag": "Sky Sport 1 NZ",
+            "poster": "https://api.ppv.to/assets/thumb/1aa4c4b1fcf4751602693c430dcb66b0-thumbnail.jpg",
+            "blurhash": "L4H[2F8v{vqa%Mo}jsVs00zB3ElT",
+            "colors": [
+              "#d52613",
+              "#e70103"
+            ],
+            "uri_name": "mens-international-friendly/2026-06-01/bul-mne",
+            "starts_at": 1780329600,
+            "ends_at": 1780338600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/mens-international-friendly/2026-06-01/bul-mne",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22464,
+            "name": "Slovakia vs. Malta",
+            "tag": "Men's International Friendly",
+            "source_tag": "Fubo Sports Network 2",
+            "poster": "https://api.ppv.to/assets/thumb/ce305fd45c1a209f92cc77148f012ab6-thumbnail.jpg",
+            "blurhash": "LaD@qx6Xw6t7ofj]fQay54w@XPi^",
+            "colors": [
+              "#0d30fe",
+              "#dc2400"
+            ],
+            "uri_name": "mens-international-friendly/2026-06-01/svk-mlt",
+            "starts_at": 1780329600,
+            "ends_at": 1780338600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/mens-international-friendly/2026-06-01/svk-mlt",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22465,
+            "name": "Norway vs. Sweden",
+            "tag": "Men's International Friendly",
+            "source_tag": "FS2",
+            "poster": "https://api.ppv.to/assets/thumb/8fff60da492f1b3e3bd8e024dee5f90b-thumbnail.jpg",
+            "blurhash": "L6JYkCqS~0GDs.jajsa|00H517=s",
+            "colors": [
+              "#ee2c2d",
+              "#fecb02"
+            ],
+            "uri_name": "mens-international-friendly/2026-06-01/nor-swe",
+            "starts_at": 1780333200,
+            "ends_at": 1780342200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/mens-international-friendly/2026-06-01/nor-swe",
+            "viewers": "1",
+            "substreams": []
+          },
+          {
+            "id": 22466,
+            "name": "Türkiye vs. North Macedonia",
+            "tag": "Men's International Friendly",
+            "source_tag": "Sky Sport 5 NZ",
+            "poster": "https://api.ppv.to/assets/thumb/b238e13f1d3365a6f62bded9cd0cc2f4-thumbnail.jpg",
+            "blurhash": "LbJ~v5y?x[oxj[fkfQfQ0zemNHVt",
+            "colors": [
+              "#ffffff",
+              "#e70103"
+            ],
+            "uri_name": "mens-international-friendly/2026-06-01/tur-mkd",
+            "starts_at": 1780335000,
+            "ends_at": 1780344000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/mens-international-friendly/2026-06-01/tur-mkd",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22467,
+            "name": "Austria vs. Tunisia",
+            "tag": "Men's International Friendly",
+            "source_tag": "Sky Sport 1 NZ",
+            "poster": "https://api.ppv.to/assets/thumb/995ecc9a00256ddae5d2d6a54fc56343-thumbnail.jpg",
+            "blurhash": "L4H[2MlT{vz;w|fkjZf600q]2_Kj",
+            "colors": [
+              "#d52b2c",
+              "#d00300"
+            ],
+            "uri_name": "mens-international-friendly/2026-06-01/aut-tun",
+            "starts_at": 1780339500,
+            "ends_at": 1780348500,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/mens-international-friendly/2026-06-01/aut-tun",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22468,
+            "name": "Canada vs. Uzbekistan",
+            "tag": "Men's International Friendly",
+            "source_tag": "TSN3",
+            "poster": "https://api.ppv.to/assets/thumb/4b5b405d97187fcf4ed2cd99cec0c065-thumbnail.jpg",
+            "blurhash": "LaEBOE{b$RSgj]jsfQfR55KPSLa~",
+            "colors": [
+              "#ed2225",
+              "#0080d4"
+            ],
+            "uri_name": "mens-international-friendly/2026-06-02/can-uzb",
+            "starts_at": 1780362000,
+            "ends_at": 1780371000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://pooembed.eu/embed/mens-international-friendly/2026-06-02/can-uzb",
+            "viewers": "0",
+            "substreams": []
+          },
           {
             "id": 22392,
             "name": "Mexico vs. South Africa",
@@ -272,7 +902,7 @@
             "locale": "en",
             "category_name": "Motorsports",
             "iframe": "https://pooembed.eu/embed/f1/2026/monaco/fp1",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": [
               {
                 "id": 22295,
@@ -412,6 +1042,160 @@
         ]
       },
       {
+        "category": "Rugby",
+        "id": 42,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 22450,
+            "name": "Sea Eagles vs. Rabbitohs",
+            "tag": "Fox League",
+            "source_tag": "Fox League",
+            "poster": "https://api.ppv.to/assets/thumb/a2cf8cf06e8f9dc79d0da74ffe8d5c34-thumbnail.jpg",
+            "blurhash": "L4B.NLCTMeMcxaofayWB00e7x]x^",
+            "colors": [
+              "#6b2d5f",
+              "#8f3950"
+            ],
+            "uri_name": "nrl/2026-06-04/man-sou",
+            "starts_at": 1780566600,
+            "ends_at": 1780575600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Rugby",
+            "iframe": "https://pooembed.eu/embed/nrl/2026-06-04/man-sou",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22451,
+            "name": "Storm vs. Knights",
+            "tag": "Fox League",
+            "source_tag": "Fox League",
+            "poster": "https://api.ppv.to/assets/thumb/ce50d4cdd79bc71d34f67c640ccb9a83-thumbnail.jpg",
+            "blurhash": "L18NSE@X8y?J,:AIjF-500%i_L9Y",
+            "colors": [
+              "#5c4788",
+              "#2e4a92"
+            ],
+            "uri_name": "nrl/2026-06-05/mel-new",
+            "starts_at": 1780646400,
+            "ends_at": 1780655400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Rugby",
+            "iframe": "https://pooembed.eu/embed/nrl/2026-06-05/mel-new",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22452,
+            "name": "Raiders vs. Roosters",
+            "tag": "Fox League",
+            "source_tag": "Fox League",
+            "poster": "https://api.ppv.to/assets/thumb/b4243b041996e9647dfc801d81e3ad58-thumbnail.jpg",
+            "blurhash": "L9C=h+3w#k-Dozf6aybH00|5bwRP",
+            "colors": [
+              "#288028",
+              "#d12b3f"
+            ],
+            "uri_name": "nrl/2026-06-05/can-syd",
+            "starts_at": 1780653600,
+            "ends_at": 1780662600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Rugby",
+            "iframe": "https://pooembed.eu/embed/nrl/2026-06-05/can-syd",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22453,
+            "name": "Cowboys vs. Dolphins",
+            "tag": "Fox League",
+            "source_tag": "Fox League",
+            "poster": "https://api.ppv.to/assets/thumb/3efc8a6b27d1ec485c31114681c966be-thumbnail.jpg",
+            "blurhash": "L27eej8w4.?J%MNGRj%100.A?aEb",
+            "colors": [
+              "#244a61",
+              "#2a7581"
+            ],
+            "uri_name": "nrl/2026-06-06/nor-dol",
+            "starts_at": 1780731000,
+            "ends_at": 1780740000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Rugby",
+            "iframe": "https://pooembed.eu/embed/nrl/2026-06-06/nor-dol",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22454,
+            "name": "Broncos vs. Titans",
+            "tag": "Fox League",
+            "source_tag": "Fox League",
+            "poster": "https://api.ppv.to/assets/thumb/491e0ab0d6f69abe96af969e705c90d4-thumbnail.jpg",
+            "blurhash": "LBAvqr_he@gNoLjsf6fP00PBoyR-",
+            "colors": [
+              "#9a2f36",
+              "#3a82b8"
+            ],
+            "uri_name": "nrl/2026-06-06/bri-gol",
+            "starts_at": 1780738500,
+            "ends_at": 1780747500,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Rugby",
+            "iframe": "https://pooembed.eu/embed/nrl/2026-06-06/bri-gol",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22455,
+            "name": "Wests Tigers vs. Panthers",
+            "tag": "Fox League",
+            "source_tag": "Fox League",
+            "poster": "https://api.ppv.to/assets/thumb/338b4ef01df197ee0ab1057e598f1e75-thumbnail.jpg",
+            "blurhash": "LRC6Y*}8r?R+j[jtfPfQ9aJAbbj]",
+            "colors": [
+              "#d1881e",
+              "#217a6f"
+            ],
+            "uri_name": "nrl/2026-06-07/wes-pen",
+            "starts_at": 1780804800,
+            "ends_at": 1780813800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Rugby",
+            "iframe": "https://pooembed.eu/embed/nrl/2026-06-07/wes-pen",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22456,
+            "name": "Sharks vs. Dragons",
+            "tag": "Fox League",
+            "source_tag": "Fox League",
+            "poster": "https://api.ppv.to/assets/thumb/9f91facb9675713ad8a6a13be67fd791-thumbnail.jpg",
+            "blurhash": "L9BVx03Av~^jozWBaykC00}Zo#E1",
+            "colors": [
+              "#1a746e",
+              "#b32437"
+            ],
+            "uri_name": "nrl/2026-06-07/cro-st.",
+            "starts_at": 1780812300,
+            "ends_at": 1780821300,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Rugby",
+            "iframe": "https://pooembed.eu/embed/nrl/2026-06-07/cro-st.",
+            "viewers": "0",
+            "substreams": []
+          }
+        ]
+      },
+      {
         "category": "Tennis",
         "id": 63,
         "always_live": false,
@@ -434,7 +1218,7 @@
             "locale": "en",
             "category_name": "Tennis",
             "iframe": "https://pooembed.eu/embed/roland-garros-tnt-sports-1",
-            "viewers": "25",
+            "viewers": "59",
             "substreams": []
           },
           {
@@ -455,7 +1239,140 @@
             "locale": "en",
             "category_name": "Tennis",
             "iframe": "https://pooembed.eu/embed/roland-garros-tnt-sports-4",
-            "viewers": "13",
+            "viewers": "87",
+            "substreams": []
+          }
+        ]
+      },
+      {
+        "category": "Wrestling",
+        "id": 38,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 22457,
+            "name": "WWE: Monday Night RAW",
+            "tag": "Netflix",
+            "source_tag": "Netflix",
+            "poster": "https://api.ppv.to/assets/thumb/56336f9d22c51c416e1a56afbd18f314-thumbnail.jpg",
+            "blurhash": "L68M:aW;00n%EL;h%2s:4TW;~qsA",
+            "colors": [
+              "#040001",
+              "#020001"
+            ],
+            "uri_name": "wwe/raw/2026-06-01",
+            "starts_at": 1780336800,
+            "ends_at": 1780347600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Wrestling",
+            "iframe": "https://pooembed.eu/embed/wwe/raw/2026-06-01",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22458,
+            "name": "WWE: NXT",
+            "tag": "CW",
+            "source_tag": "CW",
+            "poster": "https://api.ppv.to/assets/thumb/ef5595e08561ede45c52b36a0b62af76-thumbnail.jpg",
+            "blurhash": "LLGSDh4n00RjD%~qof4nD%%MWBj[",
+            "colors": [
+              "#030303",
+              "#040404"
+            ],
+            "uri_name": "wwe/nxt/2026-06-02",
+            "starts_at": 1780444800,
+            "ends_at": 1780455600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Wrestling",
+            "iframe": "https://pooembed.eu/embed/wwe/nxt/2026-06-02",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22459,
+            "name": "AEW: Wednesday Night Dynamite",
+            "tag": "TBS",
+            "source_tag": "TBS",
+            "poster": "https://api.ppv.to/assets/thumb/b406ff9100d91b9210600260350246ff-thumbnail.jpg",
+            "blurhash": "LHExeyNWV6M|$dbtRir?ZtWZ~Bwg",
+            "colors": [
+              "#152441",
+              "#9c4ec5"
+            ],
+            "uri_name": "aew/dynamite/2026-06-03",
+            "starts_at": 1780531200,
+            "ends_at": 1780542000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Wrestling",
+            "iframe": "https://pooembed.eu/embed/aew/dynamite/2026-06-03",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22460,
+            "name": "TNA: Impact",
+            "tag": "AMC",
+            "source_tag": "AMC",
+            "poster": "https://api.ppv.to/assets/thumb/78f581ee61589a76f6bcdeb095f95c12-thumbnail.jpg",
+            "blurhash": "L6GFdr].0|t700EfGZR*3;J-{gt6",
+            "colors": [
+              "#030303",
+              "#050505"
+            ],
+            "uri_name": "tna/impact/2026-06-04",
+            "starts_at": 1780621200,
+            "ends_at": 1780632000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Wrestling",
+            "iframe": "https://pooembed.eu/embed/tna/impact/2026-06-04",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22461,
+            "name": "WWE: Friday Night Smackdown",
+            "tag": "USA",
+            "source_tag": "USA",
+            "poster": "https://api.ppv.to/assets/thumb/ec7810b68fc39115ce3510bcf9687a63-thumbnail.jpg",
+            "blurhash": "LF4ezej]M?s{kFkDf2fKIUWGxsfT",
+            "colors": [
+              "#001b65",
+              "#0001b4"
+            ],
+            "uri_name": "wwe/smackdown/2026-06-05",
+            "starts_at": 1780704000,
+            "ends_at": 1780714800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Wrestling",
+            "iframe": "https://pooembed.eu/embed/wwe/smackdown/2026-06-05",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22462,
+            "name": "AEW: Saturday Night Collision",
+            "tag": "TNT",
+            "source_tag": "TNT",
+            "poster": "https://api.ppv.to/assets/thumb/6e29b1bb679dd5133c85bbaadc2c4b13-thumbnail.jpg",
+            "blurhash": "LDDk_9Na01of}mNwNMbF0TS#^cae",
+            "colors": [
+              "#210e10",
+              "#160c0a"
+            ],
+            "uri_name": "aew/collision/2026-06-06",
+            "starts_at": 1780790400,
+            "ends_at": 1780801200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Wrestling",
+            "iframe": "https://pooembed.eu/embed/aew/collision/2026-06-06",
+            "viewers": "0",
             "substreams": []
           }
         ]
@@ -483,7 +1400,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-south-park",
-            "viewers": "13",
+            "viewers": "9",
             "substreams": []
           },
           {
@@ -525,7 +1442,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-family-guy",
-            "viewers": "36",
+            "viewers": "23",
             "substreams": []
           },
           {
@@ -546,7 +1463,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-the-simpsons",
-            "viewers": "4",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -567,7 +1484,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-spongebob-squarepants",
-            "viewers": "5",
+            "viewers": "3",
             "substreams": []
           },
           {
@@ -588,7 +1505,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/rally-tv",
-            "viewers": "4",
+            "viewers": "2",
             "substreams": []
           }
         ]
