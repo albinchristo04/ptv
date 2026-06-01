@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2026-06-01T17:25:41.416077Z",
+    "fetched_at": "2026-06-01T21:24:38.792502Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-06-01T18:16:37.011587",
-      "total_streams": 63,
+      "extracted_at": "2026-06-01T21:27:34.246799",
+      "total_streams": 60,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 63,
-        "successful_requests": 63,
+        "total_requests": 60,
+        "successful_requests": 60,
         "failed_requests": 0,
-        "elapsed_time_seconds": 172.34
+        "elapsed_time_seconds": 160.75
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1780334750,
+    "timestamp": 1780349080,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.02934718132019043,
+    "performance": 0.021135807037353516,
     "streams": [
       {
         "category": "American Football",
@@ -416,7 +416,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://pooembed.eu/embed/mlb/2026-06-01/det-tb",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -500,7 +500,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://pooembed.eu/embed/mlb/2026-06-01/sf-mil",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -639,6 +639,53 @@
         ]
       },
       {
+        "category": "Combat Sports",
+        "id": 33,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 22470,
+            "name": "UFC Fight Night: Muhammad vs. Bonfim",
+            "tag": "Paramount+",
+            "source_tag": "Paramount+",
+            "poster": "https://api.ppv.to/assets/thumb/630f3ff3526d171fc728abd342ea8da3-thumbnail.jpg",
+            "blurhash": "LQFFNl%hS%xZ~V?btl%1?a%Mo#Rj",
+            "colors": [
+              "#99968f",
+              "#000000"
+            ],
+            "uri_name": "ufc-fight-night-muhammad-vs-bonfim",
+            "starts_at": 1780779600,
+            "ends_at": 1780808400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Combat Sports",
+            "iframe": "https://pooembed.eu/embed/ufc-fight-night-muhammad-vs-bonfim",
+            "viewers": "0",
+            "substreams": [
+              {
+                "id": 22471,
+                "name": "UFC Fight Night: Muhammad vs. Bonfim",
+                "tag": "Paramount+",
+                "uri_name": "ufc-fight-night-muhammad-vs-bonfim/spanish",
+                "source_tag": "Paramount+",
+                "locale": "es",
+                "iframe": "https://pooembed.eu/embed/ufc-fight-night-muhammad-vs-bonfim/spanish"
+              },
+              {
+                "id": 22472,
+                "name": "UFC Fight Night: Muhammad vs. Bonfim",
+                "tag": "Paramount+",
+                "uri_name": "ufc-fight-night-muhammad-vs-bonfim/portuguese",
+                "source_tag": "Paramount+",
+                "locale": "pt",
+                "iframe": "https://pooembed.eu/embed/ufc-fight-night-muhammad-vs-bonfim/portuguese"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "category": "Cricket",
         "id": 47,
         "always_live": false,
@@ -672,108 +719,24 @@
         "always_live": false,
         "streams": [
           {
-            "id": 22463,
-            "name": "Bulgaria vs. Montenegro",
+            "id": 22473,
+            "name": "Colombia vs. Costa Rica",
             "tag": "Men's International Friendly",
-            "source_tag": "Sky Sport 1 NZ",
-            "poster": "https://api.ppv.to/assets/thumb/1aa4c4b1fcf4751602693c430dcb66b0-thumbnail.jpg",
-            "blurhash": "L4H[2F8v{vqa%Mo}jsVs00zB3ElT",
+            "source_tag": "Fubo PPV",
+            "poster": "https://api.ppv.to/assets/thumb/b32e90c197a25c39507b2cec7ecdd0b0-thumbnail.jpg",
+            "blurhash": "LOIMlp?*%EbJodk9fQa#0fRWNMV@",
             "colors": [
-              "#d52613",
-              "#e70103"
+              "#fbd534",
+              "#cd1227"
             ],
-            "uri_name": "mens-international-friendly/2026-06-01/bul-mne",
-            "starts_at": 1780329600,
-            "ends_at": 1780338600,
+            "uri_name": "mens-international-friendly/2026-06-01/col-crc",
+            "starts_at": 1780354800,
+            "ends_at": 1780363800,
             "always_live": 0,
             "locale": "en",
             "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/mens-international-friendly/2026-06-01/bul-mne",
-            "viewers": "42",
-            "substreams": []
-          },
-          {
-            "id": 22464,
-            "name": "Slovakia vs. Malta",
-            "tag": "Men's International Friendly",
-            "source_tag": "Fubo Sports Network 2",
-            "poster": "https://api.ppv.to/assets/thumb/ce305fd45c1a209f92cc77148f012ab6-thumbnail.jpg",
-            "blurhash": "LaD@qx6Xw6t7ofj]fQay54w@XPi^",
-            "colors": [
-              "#0d30fe",
-              "#dc2400"
-            ],
-            "uri_name": "mens-international-friendly/2026-06-01/svk-mlt",
-            "starts_at": 1780329600,
-            "ends_at": 1780338600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/mens-international-friendly/2026-06-01/svk-mlt",
-            "viewers": "67",
-            "substreams": []
-          },
-          {
-            "id": 22465,
-            "name": "Norway vs. Sweden",
-            "tag": "Men's International Friendly",
-            "source_tag": "FS2",
-            "poster": "https://api.ppv.to/assets/thumb/8fff60da492f1b3e3bd8e024dee5f90b-thumbnail.jpg",
-            "blurhash": "L6JYkCqS~0GDs.jajsa|00H517=s",
-            "colors": [
-              "#ee2c2d",
-              "#fecb02"
-            ],
-            "uri_name": "mens-international-friendly/2026-06-01/nor-swe",
-            "starts_at": 1780333200,
-            "ends_at": 1780342200,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/mens-international-friendly/2026-06-01/nor-swe",
-            "viewers": "794",
-            "substreams": []
-          },
-          {
-            "id": 22466,
-            "name": "Türkiye vs. North Macedonia",
-            "tag": "Men's International Friendly",
-            "source_tag": "Sky Sport 5 NZ",
-            "poster": "https://api.ppv.to/assets/thumb/b238e13f1d3365a6f62bded9cd0cc2f4-thumbnail.jpg",
-            "blurhash": "LbJ~v5y?x[oxj[fkfQfQ0zemNHVt",
-            "colors": [
-              "#ffffff",
-              "#e70103"
-            ],
-            "uri_name": "mens-international-friendly/2026-06-01/tur-mkd",
-            "starts_at": 1780335000,
-            "ends_at": 1780344000,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/mens-international-friendly/2026-06-01/tur-mkd",
-            "viewers": "24",
-            "substreams": []
-          },
-          {
-            "id": 22467,
-            "name": "Austria vs. Tunisia",
-            "tag": "Men's International Friendly",
-            "source_tag": "Sky Sport 1 NZ",
-            "poster": "https://api.ppv.to/assets/thumb/995ecc9a00256ddae5d2d6a54fc56343-thumbnail.jpg",
-            "blurhash": "L4H[2MlT{vz;w|fkjZf600q]2_Kj",
-            "colors": [
-              "#d52b2c",
-              "#d00300"
-            ],
-            "uri_name": "mens-international-friendly/2026-06-01/aut-tun",
-            "starts_at": 1780339500,
-            "ends_at": 1780348500,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://pooembed.eu/embed/mens-international-friendly/2026-06-01/aut-tun",
-            "viewers": "0",
+            "iframe": "https://pooembed.eu/embed/mens-international-friendly/2026-06-01/col-crc",
+            "viewers": "4",
             "substreams": []
           },
           {
@@ -902,7 +865,7 @@
             "locale": "en",
             "category_name": "Motorsports",
             "iframe": "https://pooembed.eu/embed/f1/2026/monaco/fp1",
-            "viewers": "0",
+            "viewers": "2",
             "substreams": [
               {
                 "id": 22295,
@@ -1218,7 +1181,7 @@
             "locale": "en",
             "category_name": "Tennis",
             "iframe": "https://pooembed.eu/embed/roland-garros-tnt-sports-1",
-            "viewers": "88",
+            "viewers": "89",
             "substreams": []
           },
           {
@@ -1239,7 +1202,7 @@
             "locale": "en",
             "category_name": "Tennis",
             "iframe": "https://pooembed.eu/embed/roland-garros-tnt-sports-4",
-            "viewers": "108",
+            "viewers": "314",
             "substreams": []
           }
         ]
@@ -1262,12 +1225,12 @@
             ],
             "uri_name": "wwe/raw/2026-06-01",
             "starts_at": 1780336800,
-            "ends_at": 1780347600,
+            "ends_at": 1780351200,
             "always_live": 0,
             "locale": "en",
             "category_name": "Wrestling",
             "iframe": "https://pooembed.eu/embed/wwe/raw/2026-06-01",
-            "viewers": "1",
+            "viewers": "116",
             "substreams": []
           },
           {
@@ -1400,7 +1363,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-south-park",
-            "viewers": "8",
+            "viewers": "6",
             "substreams": []
           },
           {
@@ -1421,7 +1384,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-cows",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1442,7 +1405,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-family-guy",
-            "viewers": "18",
+            "viewers": "19",
             "substreams": []
           },
           {
@@ -1463,7 +1426,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/247-the-simpsons",
-            "viewers": "2",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -1505,7 +1468,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://pooembed.eu/embed/rally-tv",
-            "viewers": "6",
+            "viewers": "7",
             "substreams": []
           }
         ]
