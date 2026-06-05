@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2026-06-05T14:35:25.736781Z",
+    "fetched_at": "2026-06-05T19:46:13.542965Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-06-05T15:27:51.290169",
-      "total_streams": 67,
+      "extracted_at": "2026-06-05T19:49:08.528640",
+      "total_streams": 59,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 67,
-        "successful_requests": 67,
+        "total_requests": 59,
+        "successful_requests": 59,
         "failed_requests": 0,
-        "elapsed_time_seconds": 194.98
+        "elapsed_time_seconds": 159.06
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1780670130,
+    "timestamp": 1780688780,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.030511856079101562,
+    "performance": 0.029627084732055664,
     "streams": [
       {
         "category": "American Football",
@@ -108,7 +108,7 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://funplayer.eu/embed/afle/2026-06-06/rhe-vie",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -220,7 +220,7 @@
             "locale": "en",
             "category_name": "Arm Wrestling",
             "iframe": "https://funplayer.eu/embed/east-vs-west-24",
-            "viewers": "2",
+            "viewers": "0",
             "substreams": []
           }
         ]
@@ -381,7 +381,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://funplayer.eu/embed/mlb/2026-06-05/sf-chc",
-            "viewers": "0",
+            "viewers": "252",
             "substreams": []
           },
           {
@@ -402,7 +402,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://funplayer.eu/embed/mlb/2026-06-05/chw-phi",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -724,7 +724,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://funplayer.eu/embed/nba/2026-06-05/ny-sa",
-            "viewers": "1",
+            "viewers": "5",
             "substreams": []
           },
           {
@@ -777,27 +777,6 @@
         "always_live": false,
         "streams": [
           {
-            "id": 22577,
-            "name": "ONE Friday Fights 157 & The Inner Circle",
-            "tag": "ONE Championship",
-            "source_tag": "ONE Championship",
-            "poster": "https://api.ppv.to/assets/thumb/36127ab2ce99531acc560ed7c14977ba-thumbnail.jpg",
-            "blurhash": "LQE_KpNaE2WC}?j[EMayE1xZJVay",
-            "colors": [
-              "#190a03",
-              "#1a0b04"
-            ],
-            "uri_name": "one-friday-fights-157--the-inner-circle",
-            "starts_at": 1780659000,
-            "ends_at": 1780680600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Combat Sports",
-            "iframe": "https://funplayer.eu/embed/one-friday-fights-157--the-inner-circle",
-            "viewers": "127",
-            "substreams": []
-          },
-          {
             "id": 22525,
             "name": "OKTAGON 89: Severino VS. Zhumagulov",
             "tag": "OKTAGON.TV",
@@ -815,7 +794,7 @@
             "locale": "en",
             "category_name": "Combat Sports",
             "iframe": "https://funplayer.eu/embed/oktagon-89",
-            "viewers": "1",
+            "viewers": "2",
             "substreams": [
               {
                 "id": 22526,
@@ -855,7 +834,7 @@
             "locale": "en",
             "category_name": "Combat Sports",
             "iframe": "https://funplayer.eu/embed/ufc-fight-night-muhammad-vs-bonfim",
-            "viewers": "1",
+            "viewers": "2",
             "substreams": [
               {
                 "id": 22471,
@@ -880,143 +859,10 @@
         ]
       },
       {
-        "category": "Cricket",
-        "id": 47,
-        "always_live": false,
-        "streams": [
-          {
-            "id": 22469,
-            "name": "England vs. New Zealand",
-            "tag": "Fox Cricket",
-            "source_tag": "Fox Cricket",
-            "poster": "https://api.ppv.to/assets/thumb/1555dc2c7108f95597bd14c9eb341e47-thumbnail.jpg",
-            "blurhash": "LBEVvs00?b^+00_4MxW=00%MIAkW",
-            "colors": [
-              "#011e3d",
-              "#f9f9fb"
-            ],
-            "uri_name": "cricket/2026-06-04/eng-nzl",
-            "starts_at": 1780653600,
-            "ends_at": 1780682400,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Cricket",
-            "iframe": "https://funplayer.eu/embed/cricket/2026-06-04/eng-nzl",
-            "viewers": "237",
-            "substreams": []
-          }
-        ]
-      },
-      {
         "category": "Football",
         "id": 34,
         "always_live": false,
         "streams": [
-          {
-            "id": 22549,
-            "name": "Belarus vs. Syria",
-            "tag": "Men's International Friendly",
-            "source_tag": "Fubo Sports 3",
-            "poster": "https://api.ppv.to/assets/thumb/717141099104a74489ffe4cf183c2c98-thumbnail.jpg",
-            "blurhash": "LXJPoly?x]ozsoa}fQj@0yaKNGRO",
-            "colors": [
-              "#ffffff",
-              "#e70103"
-            ],
-            "uri_name": "mens-international-friendly/2026-06-05/blr-syr",
-            "starts_at": 1780675200,
-            "ends_at": 1780684200,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://funplayer.eu/embed/mens-international-friendly/2026-06-05/blr-syr",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 22550,
-            "name": "Georgia vs. Bahrain",
-            "tag": "Men's International Friendly",
-            "source_tag": "Sky Sport 6 NZ",
-            "poster": "https://api.ppv.to/assets/thumb/9e2bea8f4d13dff3b81b4a502579fb54-thumbnail.jpg",
-            "blurhash": "LeJi@e*JxtoLj[fkfQfQ0eVYR,Rj",
-            "colors": [
-              "#ffffff",
-              "#d50133"
-            ],
-            "uri_name": "mens-international-friendly/2026-06-05/geo-bhr",
-            "starts_at": 1780675200,
-            "ends_at": 1780684200,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://funplayer.eu/embed/mens-international-friendly/2026-06-05/geo-bhr",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 22551,
-            "name": "Slovakia vs. Montenegro",
-            "tag": "Men's International Friendly",
-            "source_tag": "Fubo Sports",
-            "poster": "https://api.ppv.to/assets/thumb/161090faf17c7155768521a93a2ed3a7-thumbnail.jpg",
-            "blurhash": "LfD?|9BtwiaekCj]fQay9?r:Sds+",
-            "colors": [
-              "#0d30fe",
-              "#e70103"
-            ],
-            "uri_name": "mens-international-friendly/2026-06-05/svk-mne",
-            "starts_at": 1780677000,
-            "ends_at": 1780686000,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://funplayer.eu/embed/mens-international-friendly/2026-06-05/svk-mne",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 22552,
-            "name": "Moldova vs. Bulgaria",
-            "tag": "Men's International Friendly",
-            "source_tag": "Fubo Sports 4",
-            "poster": "https://api.ppv.to/assets/thumb/9f981cb3d3d0e77de787553285c49f86-thumbnail.jpg",
-            "blurhash": "LDCq.d1n,0kqozWBf7kC0J-OSzvz",
-            "colors": [
-              "#0146ad",
-              "#d52613"
-            ],
-            "uri_name": "mens-international-friendly/2026-06-05/mda-bul",
-            "starts_at": 1780678800,
-            "ends_at": 1780687800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://funplayer.eu/embed/mens-international-friendly/2026-06-05/mda-bul",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
-            "id": 22553,
-            "name": "San Marino vs. Bangladesh",
-            "tag": "Men's International Friendly",
-            "source_tag": "Fubo Sports 5",
-            "poster": "https://api.ppv.to/assets/thumb/38328a6ba9f0c37c72a9509b4a439fac-thumbnail.jpg",
-            "blurhash": "Lg6c?1pfbcV@oej[fQayI9VrjFof",
-            "colors": [
-              "#00bdfd",
-              "#036848"
-            ],
-            "uri_name": "mens-international-friendly/2026-06-05/smr-ban",
-            "starts_at": 1780678800,
-            "ends_at": 1780687800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://funplayer.eu/embed/mens-international-friendly/2026-06-05/smr-ban",
-            "viewers": "1",
-            "substreams": []
-          },
           {
             "id": 22554,
             "name": "Hungary vs. Finland",
@@ -1035,7 +881,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://funplayer.eu/embed/mens-international-friendly/2026-06-05/hun-fin",
-            "viewers": "0",
+            "viewers": "75",
             "substreams": []
           },
           {
@@ -1056,7 +902,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://funplayer.eu/embed/mens-international-friendly/2026-06-05/aze-mlt",
-            "viewers": "0",
+            "viewers": "71",
             "substreams": []
           },
           {
@@ -1077,7 +923,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://funplayer.eu/embed/mens-international-friendly/2026-06-05/can-irl",
-            "viewers": "0",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -1159,7 +1005,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://funplayer.eu/embed/wc/2026-06-11/kor-cze",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": [
               {
                 "id": 22396,
@@ -1188,37 +1034,6 @@
         "id": 35,
         "always_live": false,
         "streams": [
-          {
-            "id": 22297,
-            "name": "Monaco Grand Prix - Practice 2",
-            "tag": "Formula 1",
-            "source_tag": "Sky Sport 3 NZ",
-            "poster": "https://api.ppv.to/assets/thumb/e86534a424dc4a31d9b0e93409f70773-thumbnail.jpg",
-            "blurhash": "L5EVg9HX.9000xAD=x^R00~qEfXm",
-            "colors": [
-              "#88635a",
-              "#b4988c"
-            ],
-            "uri_name": "f1/2026/monaco/fp2",
-            "starts_at": 1780671600,
-            "ends_at": 1780678800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Motorsports",
-            "iframe": "https://funplayer.eu/embed/f1/2026/monaco/fp2",
-            "viewers": "117",
-            "substreams": [
-              {
-                "id": 22298,
-                "name": "Monaco Grand Prix - Practice 2",
-                "tag": "Apple TV (F1TV)",
-                "uri_name": "f1/2026/monaco/fp2-f1tv",
-                "source_tag": "Apple TV (F1TV)",
-                "locale": "en",
-                "iframe": "https://funplayer.eu/embed/f1/2026/monaco/fp2-f1tv"
-              }
-            ]
-          },
           {
             "id": 22300,
             "name": "Monaco Grand Prix - Practice 3",
@@ -1268,7 +1083,7 @@
             "locale": "en",
             "category_name": "Motorsports",
             "iframe": "https://funplayer.eu/embed/f1/2026/monaco/qualifying",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": [
               {
                 "id": 22304,
@@ -1428,7 +1243,7 @@
             "locale": "en",
             "category_name": "Tennis",
             "iframe": "https://funplayer.eu/embed/roland-garros-tnt-sports-1",
-            "viewers": "406",
+            "viewers": "44",
             "substreams": []
           },
           {
@@ -1449,7 +1264,7 @@
             "locale": "en",
             "category_name": "Tennis",
             "iframe": "https://funplayer.eu/embed/roland-garros-tnt-sports-4",
-            "viewers": "8",
+            "viewers": "3",
             "substreams": []
           }
         ]
@@ -1477,7 +1292,7 @@
             "locale": "en",
             "category_name": "Wrestling",
             "iframe": "https://funplayer.eu/embed/wwe/smackdown/2026-06-05",
-            "viewers": "0",
+            "viewers": "316",
             "substreams": []
           },
           {
@@ -1526,7 +1341,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://funplayer.eu/embed/247-south-park",
-            "viewers": "10",
+            "viewers": "16",
             "substreams": []
           },
           {
@@ -1547,7 +1362,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://funplayer.eu/embed/247-cows",
-            "viewers": "2",
+            "viewers": "3",
             "substreams": []
           },
           {
@@ -1568,7 +1383,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://funplayer.eu/embed/247-family-guy",
-            "viewers": "19",
+            "viewers": "20",
             "substreams": []
           },
           {
@@ -1589,7 +1404,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://funplayer.eu/embed/247-the-simpsons",
-            "viewers": "3",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -1610,7 +1425,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://funplayer.eu/embed/247-spongebob-squarepants",
-            "viewers": "3",
+            "viewers": "4",
             "substreams": []
           },
           {
