@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2026-06-06T08:27:04.631789Z",
+    "fetched_at": "2026-06-06T13:19:05.808936Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-06-06T08:47:41.510760",
-      "total_streams": 67,
+      "extracted_at": "2026-06-06T13:22:11.008296",
+      "total_streams": 64,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 67,
-        "successful_requests": 67,
+        "total_requests": 64,
+        "successful_requests": 64,
         "failed_requests": 0,
-        "elapsed_time_seconds": 189.72
+        "elapsed_time_seconds": 171.18
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1780734430,
+    "timestamp": 1780751950,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.029361963272094727,
+    "performance": 0.030607938766479492,
     "streams": [
       {
         "category": "American Football",
@@ -209,48 +209,6 @@
         "id": 66,
         "always_live": false,
         "streams": [
-          {
-            "id": 22445,
-            "name": "Gold Coast SUNS vs. Brisbane Lions",
-            "tag": "Fox Footy",
-            "source_tag": "Fox Footy",
-            "poster": "https://api.ppv.to/assets/thumb/eba227028b503766232ffc779c29954d-thumbnail.jpg",
-            "blurhash": "L29ixi4GDh:rR.ocjsR-00@$?cKd",
-            "colors": [
-              "#173246",
-              "#6d144a"
-            ],
-            "uri_name": "afl/2026-06-06/gcfc-bl",
-            "starts_at": 1780730100,
-            "ends_at": 1780740900,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Australian Football",
-            "iframe": "https://embedindia.st/embed/afl/2026-06-06/gcfc-bl",
-            "viewers": "19",
-            "substreams": []
-          },
-          {
-            "id": 22446,
-            "name": "West Coast Eagles vs. Port Adelaide",
-            "tag": "Fox Footy",
-            "source_tag": "Fox Footy",
-            "poster": "https://api.ppv.to/assets/thumb/dc19c3347ad510b6a590694dd9fa09a4-thumbnail.jpg",
-            "blurhash": "L36lZ1L#Bg%#$$s+jsR-00y?=zNG",
-            "colors": [
-              "#24275a",
-              "#2498a5"
-            ],
-            "uri_name": "afl/2026-06-06/wce-port",
-            "starts_at": 1780740900,
-            "ends_at": 1780751700,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Australian Football",
-            "iframe": "https://embedindia.st/embed/afl/2026-06-06/wce-port",
-            "viewers": "0",
-            "substreams": []
-          },
           {
             "id": 22447,
             "name": "Sydney Swans vs. St Kilda",
@@ -817,6 +775,34 @@
         ]
       },
       {
+        "category": "Cricket",
+        "id": 47,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 22469,
+            "name": "England vs. New Zealand",
+            "tag": "Fox Cricket",
+            "source_tag": "Fox Cricket",
+            "poster": "https://api.ppv.to/assets/thumb/1555dc2c7108f95597bd14c9eb341e47-thumbnail.jpg",
+            "blurhash": "LBEVvs00?b^+00_4MxW=00%MIAkW",
+            "colors": [
+              "#011e3d",
+              "#f9f9fb"
+            ],
+            "uri_name": "cricket/2026-06-06/eng-nzl",
+            "starts_at": 1780740000,
+            "ends_at": 1780768800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Cricket",
+            "iframe": "https://embedindia.st/embed/cricket/2026-06-06/eng-nzl",
+            "viewers": "4",
+            "substreams": []
+          }
+        ]
+      },
+      {
         "category": "Football",
         "id": 34,
         "always_live": false,
@@ -839,7 +825,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://embedindia.st/embed/mens-international-friendly/2026-06-06/bel-tun",
-            "viewers": "0",
+            "viewers": "21",
             "substreams": []
           },
           {
@@ -1231,37 +1217,6 @@
         "always_live": false,
         "streams": [
           {
-            "id": 22300,
-            "name": "Monaco Grand Prix - Practice 3",
-            "tag": "Formula 1",
-            "source_tag": "Sky Sport 3 NZ",
-            "poster": "https://api.ppv.to/assets/thumb/ecca83b07fb621777f164edd1aa1f3b3-thumbnail.jpg",
-            "blurhash": "L5EVg9HX.9000xAD=x^R00~qEfXm",
-            "colors": [
-              "#88635a",
-              "#b4988c"
-            ],
-            "uri_name": "f1/2026/monaco/fp3",
-            "starts_at": 1780741800,
-            "ends_at": 1780749000,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Motorsports",
-            "iframe": "https://embedindia.st/embed/f1/2026/monaco/fp3",
-            "viewers": "0",
-            "substreams": [
-              {
-                "id": 22301,
-                "name": "Monaco Grand Prix - Practice 3",
-                "tag": "Apple TV (F1TV)",
-                "uri_name": "f1/2026/monaco/fp3-f1tv",
-                "source_tag": "Apple TV (F1TV)",
-                "locale": "en",
-                "iframe": "https://embedindia.st/embed/f1/2026/monaco/fp3-f1tv"
-              }
-            ]
-          },
-          {
             "id": 22303,
             "name": "Monaco Grand Prix - Qualifying",
             "tag": "Formula 1",
@@ -1279,7 +1234,7 @@
             "locale": "en",
             "category_name": "Motorsports",
             "iframe": "https://embedindia.st/embed/f1/2026/monaco/qualifying",
-            "viewers": "0",
+            "viewers": "11",
             "substreams": [
               {
                 "id": 22304,
@@ -1291,6 +1246,27 @@
                 "iframe": "https://embedindia.st/embed/f1/2026/monaco/qualifying-f1tv"
               }
             ]
+          },
+          {
+            "id": 15856,
+            "name": "Pro Motocross: Hangtown",
+            "tag": "Peacock",
+            "source_tag": "Peacock",
+            "poster": "https://api.ppv.to/assets/thumb/987906340148eb24238a7ba4ceb6cb9f-thumbnail.jpg",
+            "blurhash": "L3559Pof00NDx^fhMzWT00R%~oxc",
+            "colors": [
+              "#0e0727",
+              "#120931"
+            ],
+            "uri_name": "smx-wk19",
+            "starts_at": 1780765200,
+            "ends_at": 1780808400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Motorsports",
+            "iframe": "https://embedindia.st/embed/smx-wk19",
+            "viewers": "0",
+            "substreams": []
           },
           {
             "id": 22306,
@@ -1330,48 +1306,6 @@
         "id": 42,
         "always_live": false,
         "streams": [
-          {
-            "id": 22453,
-            "name": "Cowboys vs. Dolphins",
-            "tag": "Fox League",
-            "source_tag": "Fox League",
-            "poster": "https://api.ppv.to/assets/thumb/3efc8a6b27d1ec485c31114681c966be-thumbnail.jpg",
-            "blurhash": "L27eej8w4.?J%MNGRj%100.A?aEb",
-            "colors": [
-              "#244a61",
-              "#2a7581"
-            ],
-            "uri_name": "nrl/2026-06-06/nor-dol",
-            "starts_at": 1780731000,
-            "ends_at": 1780740000,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Rugby",
-            "iframe": "https://embedindia.st/embed/nrl/2026-06-06/nor-dol",
-            "viewers": "30",
-            "substreams": []
-          },
-          {
-            "id": 22454,
-            "name": "Broncos vs. Titans",
-            "tag": "Fox League",
-            "source_tag": "Fox League",
-            "poster": "https://api.ppv.to/assets/thumb/491e0ab0d6f69abe96af969e705c90d4-thumbnail.jpg",
-            "blurhash": "LBAvqr_he@gNoLjsf6fP00PBoyR-",
-            "colors": [
-              "#9a2f36",
-              "#3a82b8"
-            ],
-            "uri_name": "nrl/2026-06-06/bri-gol",
-            "starts_at": 1780738500,
-            "ends_at": 1780747500,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Rugby",
-            "iframe": "https://embedindia.st/embed/nrl/2026-06-06/bri-gol",
-            "viewers": "0",
-            "substreams": []
-          },
           {
             "id": 22455,
             "name": "Wests Tigers vs. Panthers",
@@ -1439,7 +1373,7 @@
             "locale": "en",
             "category_name": "Tennis",
             "iframe": "https://embedindia.st/embed/roland-garros-tnt-sports-1",
-            "viewers": "4",
+            "viewers": "10",
             "substreams": []
           },
           {
@@ -1516,7 +1450,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embedindia.st/embed/247-south-park",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1537,7 +1471,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embedindia.st/embed/247-cows",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -1558,7 +1492,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embedindia.st/embed/247-family-guy",
-            "viewers": "2",
+            "viewers": "4",
             "substreams": []
           },
           {
