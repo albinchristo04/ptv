@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-07T08:55:36.860Z",
-  "total_events": 37,
+  "generated_at": "2026-06-07T13:52:46.632Z",
+  "total_events": 42,
   "categories": [
     {
       "id": 26,
@@ -18,7 +18,7 @@
       "id": 66,
       "name": "Australian Football",
       "slug": "australian-football",
-      "event_count": 2,
+      "event_count": 1,
       "always_live": false,
       "meta": {
         "title": "Australian Football EN VIVO - Tarjeta Roja TV",
@@ -66,12 +66,24 @@
       "id": 34,
       "name": "Football",
       "slug": "football",
-      "event_count": 5,
+      "event_count": 10,
       "always_live": false,
       "meta": {
         "title": "Football EN VIVO - Tarjeta Roja TV",
         "description": "Ver Football en vivo gratis.",
         "keywords": "Football, tarjeta roja, rojadirecta"
+      }
+    },
+    {
+      "id": 44,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "event_count": 1,
+      "always_live": false,
+      "meta": {
+        "title": "Miscellaneous EN VIVO - Tarjeta Roja TV",
+        "description": "Ver Miscellaneous en vivo gratis.",
+        "keywords": "Miscellaneous, tarjeta roja, rojadirecta"
       }
     },
     {
@@ -203,13 +215,13 @@
         "start_time": "2026-06-07T13:00:00.000Z",
         "end_time": "2026-06-07T16:30:00.000Z",
         "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "12",
         "home_team": "Alpine Rams",
         "away_team": "London Warriors"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.861Z",
+        "last_modified": "2026-06-07T13:52:46.632Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -310,12 +322,12 @@
         "end_time": "2026-06-07T22:30:00.000Z",
         "duration_minutes": 210,
         "status": "upcoming",
-        "viewers": "0",
+        "viewers": "1",
         "home_team": "DC Defenders",
         "away_team": "Orlando Storm"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.861Z",
+        "last_modified": "2026-06-07T13:52:46.632Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -421,119 +433,13 @@
         "away_team": "St. Louis Battlehawks"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.861Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
         "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Louisville Kings vs. St. Louis Battlehawks, Louisville Kings"
-      }
-    },
-    {
-      "id": 22448,
-      "slug": "essendon-vs-carlton",
-      "uri_name": "afl/2026-06-07/ess-carl",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/afl/2026-06-07/ess-carl",
-      "meta": {
-        "title": "Essendon vs. Carlton EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Essendon vs. Carlton en vivo gratis por Tarjeta Roja TV. Essendon vs Carlton transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Essendon vs. Carlton, Essendon, Carlton, Australian Football, ver online gratis, en vivo gratis, Fox Footy",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-06-07/ess-carl",
-        "title": "Essendon vs. Carlton EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Essendon vs. Carlton en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/38172afc67cc0de450e9cde120c5e81e-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Essendon vs. Carlton EN VIVO",
-        "description": "Ver Essendon vs. Carlton en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/38172afc67cc0de450e9cde120c5e81e-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Essendon vs. Carlton",
-        "description": "Transmisión en vivo de Essendon vs. Carlton",
-        "startDate": "2026-06-07T09:20:00.000Z",
-        "endDate": "2026-06-07T12:20:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-06-07/ess-carl"
-        },
-        "image": "https://api.ppv.to/assets/thumb/38172afc67cc0de450e9cde120c5e81e-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Essendon"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Carlton"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Essendon"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Carlton"
-        },
-        "sport": "Australian Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Australian Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/australian-football"
-          },
-          {
-            "name": "Essendon vs. Carlton",
-            "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-06-07/ess-carl"
-          }
-        ],
-        "h1": "Essendon vs. Carlton EN VIVO",
-        "h2": "Ver Essendon vs. Carlton Online Gratis"
-      },
-      "event": {
-        "name": "Essendon vs. Carlton",
-        "category": "Australian Football",
-        "broadcaster": "Fox Footy",
-        "start_time": "2026-06-07T09:20:00.000Z",
-        "end_time": "2026-06-07T12:20:00.000Z",
-        "duration_minutes": 180,
-        "status": "upcoming",
-        "viewers": "3",
-        "home_team": "Essendon",
-        "away_team": "Carlton"
-      },
-      "technical": {
-        "last_modified": "2026-06-07T08:55:36.861Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Essendon vs. Carlton, Essendon"
       }
     },
     {
@@ -633,7 +539,7 @@
         "away_team": "Melbourne"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.861Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -739,7 +645,7 @@
         "away_team": "New York Yankees"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.861Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -845,7 +751,7 @@
         "away_team": "Philadelphia Phillies"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.861Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -951,7 +857,7 @@
         "away_team": "Atlanta Braves"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.861Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1057,7 +963,7 @@
         "away_team": "Toronto Blue Jays"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1163,7 +1069,7 @@
         "away_team": "Detroit Tigers"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1269,7 +1175,7 @@
         "away_team": "Miami Marlins"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1375,7 +1281,7 @@
         "away_team": "Houston Astros"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1481,7 +1387,7 @@
         "away_team": "Minnesota Twins"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1587,7 +1493,7 @@
         "away_team": "St. Louis Cardinals"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1693,7 +1599,7 @@
         "away_team": "Texas Rangers"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1799,7 +1705,7 @@
         "away_team": "Colorado Rockies"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1905,7 +1811,7 @@
         "away_team": "Arizona Diamondbacks"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2011,7 +1917,7 @@
         "away_team": "Los Angeles Dodgers"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2117,7 +2023,7 @@
         "away_team": "San Diego Padres"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2223,7 +2129,7 @@
         "away_team": "Chicago Cubs"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2329,7 +2235,7 @@
         "away_team": "Toronto Tempo"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2430,12 +2336,12 @@
         "end_time": "2026-06-08T02:00:00.000Z",
         "duration_minutes": 180,
         "status": "upcoming",
-        "viewers": "0",
+        "viewers": "1",
         "home_team": "Portland Fire",
         "away_team": "Los Angeles Sparks"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2477,7 +2383,7 @@
         "name": "England vs. New Zealand",
         "description": "Transmisión en vivo de England vs. New Zealand",
         "startDate": "2026-06-07T10:00:00.000Z",
-        "endDate": "2026-06-07T18:00:00.000Z",
+        "endDate": "2026-06-07T14:00:00.000Z",
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
         "location": {
@@ -2533,15 +2439,15 @@
         "category": "Cricket",
         "broadcaster": "Fox Cricket",
         "start_time": "2026-06-07T10:00:00.000Z",
-        "end_time": "2026-06-07T18:00:00.000Z",
-        "duration_minutes": 480,
-        "status": "upcoming",
-        "viewers": "1",
+        "end_time": "2026-06-07T14:00:00.000Z",
+        "duration_minutes": 240,
+        "status": "live",
+        "viewers": "10",
         "home_team": "England",
         "away_team": "New Zealand"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2641,13 +2547,13 @@
         "start_time": "2026-06-07T13:00:00.000Z",
         "end_time": "2026-06-07T15:30:00.000Z",
         "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "50",
         "home_team": "Liechtenstein",
         "away_team": "Cyprus"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2748,12 +2654,12 @@
         "end_time": "2026-06-07T19:00:00.000Z",
         "duration_minutes": 150,
         "status": "upcoming",
-        "viewers": "0",
+        "viewers": "1",
         "home_team": "Denmark",
         "away_team": "Ukraine"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2859,13 +2765,543 @@
         "away_team": "Andorra"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
         "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Kosovo vs. Andorra, Kosovo"
+      }
+    },
+    {
+      "id": 22640,
+      "slug": "croatia-vs-slovenia",
+      "uri_name": "mens-international-friendly/2026-06-07/cro-svn",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-06-07/cro-svn",
+      "meta": {
+        "title": "Croatia vs. Slovenia EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Croatia vs. Slovenia en vivo gratis por Tarjeta Roja TV. Croatia vs Slovenia transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Croatia vs. Slovenia, Croatia, Slovenia, Football, ver online gratis, en vivo gratis, Men's International Friendly",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-06-07/cro-svn",
+        "title": "Croatia vs. Slovenia EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Croatia vs. Slovenia en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/62a34d1861ba157b2f193d465dbf6739-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Croatia vs. Slovenia EN VIVO",
+        "description": "Ver Croatia vs. Slovenia en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/62a34d1861ba157b2f193d465dbf6739-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Croatia vs. Slovenia",
+        "description": "Transmisión en vivo de Croatia vs. Slovenia",
+        "startDate": "2026-06-07T18:45:00.000Z",
+        "endDate": "2026-06-07T21:15:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-06-07/cro-svn"
+        },
+        "image": "https://api.ppv.to/assets/thumb/62a34d1861ba157b2f193d465dbf6739-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Croatia"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Slovenia"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Croatia"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Slovenia"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Croatia vs. Slovenia",
+            "url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-06-07/cro-svn"
+          }
+        ],
+        "h1": "Croatia vs. Slovenia EN VIVO",
+        "h2": "Ver Croatia vs. Slovenia Online Gratis"
+      },
+      "event": {
+        "name": "Croatia vs. Slovenia",
+        "category": "Football",
+        "broadcaster": "Men's International Friendly",
+        "start_time": "2026-06-07T18:45:00.000Z",
+        "end_time": "2026-06-07T21:15:00.000Z",
+        "duration_minutes": 150,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Croatia",
+        "away_team": "Slovenia"
+      },
+      "technical": {
+        "last_modified": "2026-06-07T13:52:46.633Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Croatia vs. Slovenia, Croatia"
+      }
+    },
+    {
+      "id": 22641,
+      "slug": "greece-vs-italy",
+      "uri_name": "mens-international-friendly/2026-06-07/gre-ita",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-06-07/gre-ita",
+      "meta": {
+        "title": "Greece vs. Italy EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Greece vs. Italy en vivo gratis por Tarjeta Roja TV. Greece vs Italy transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Greece vs. Italy, Greece, Italy, Football, ver online gratis, en vivo gratis, Men's International Friendly",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-06-07/gre-ita",
+        "title": "Greece vs. Italy EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Greece vs. Italy en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/82d918c83c8a6dff9396f73f31f59e87-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Greece vs. Italy EN VIVO",
+        "description": "Ver Greece vs. Italy en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/82d918c83c8a6dff9396f73f31f59e87-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Greece vs. Italy",
+        "description": "Transmisión en vivo de Greece vs. Italy",
+        "startDate": "2026-06-07T19:00:00.000Z",
+        "endDate": "2026-06-07T21:30:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-06-07/gre-ita"
+        },
+        "image": "https://api.ppv.to/assets/thumb/82d918c83c8a6dff9396f73f31f59e87-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Greece"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Italy"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Greece"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Italy"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Greece vs. Italy",
+            "url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-06-07/gre-ita"
+          }
+        ],
+        "h1": "Greece vs. Italy EN VIVO",
+        "h2": "Ver Greece vs. Italy Online Gratis"
+      },
+      "event": {
+        "name": "Greece vs. Italy",
+        "category": "Football",
+        "broadcaster": "Men's International Friendly",
+        "start_time": "2026-06-07T19:00:00.000Z",
+        "end_time": "2026-06-07T21:30:00.000Z",
+        "duration_minutes": 150,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Greece",
+        "away_team": "Italy"
+      },
+      "technical": {
+        "last_modified": "2026-06-07T13:52:46.633Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Greece vs. Italy, Greece"
+      }
+    },
+    {
+      "id": 22642,
+      "slug": "morocco-vs-norway",
+      "uri_name": "mens-international-friendly/2026-06-07/mar-nor",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-06-07/mar-nor",
+      "meta": {
+        "title": "Morocco vs. Norway EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Morocco vs. Norway en vivo gratis por Tarjeta Roja TV. Morocco vs Norway transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Morocco vs. Norway, Morocco, Norway, Football, ver online gratis, en vivo gratis, Men's International Friendly",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-06-07/mar-nor",
+        "title": "Morocco vs. Norway EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Morocco vs. Norway en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/7546858068965d99349668fba526a052-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Morocco vs. Norway EN VIVO",
+        "description": "Ver Morocco vs. Norway en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/7546858068965d99349668fba526a052-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Morocco vs. Norway",
+        "description": "Transmisión en vivo de Morocco vs. Norway",
+        "startDate": "2026-06-07T19:00:00.000Z",
+        "endDate": "2026-06-07T21:30:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-06-07/mar-nor"
+        },
+        "image": "https://api.ppv.to/assets/thumb/7546858068965d99349668fba526a052-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Morocco"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Norway"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Morocco"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Norway"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Morocco vs. Norway",
+            "url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-06-07/mar-nor"
+          }
+        ],
+        "h1": "Morocco vs. Norway EN VIVO",
+        "h2": "Ver Morocco vs. Norway Online Gratis"
+      },
+      "event": {
+        "name": "Morocco vs. Norway",
+        "category": "Football",
+        "broadcaster": "Men's International Friendly",
+        "start_time": "2026-06-07T19:00:00.000Z",
+        "end_time": "2026-06-07T21:30:00.000Z",
+        "duration_minutes": 150,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Morocco",
+        "away_team": "Norway"
+      },
+      "technical": {
+        "last_modified": "2026-06-07T13:52:46.633Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Morocco vs. Norway, Morocco"
+      }
+    },
+    {
+      "id": 22643,
+      "slug": "ecuador-vs-guatemala",
+      "uri_name": "mens-international-friendly/2026-06-07/ecu-gua",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-06-07/ecu-gua",
+      "meta": {
+        "title": "Ecuador vs. Guatemala EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Ecuador vs. Guatemala en vivo gratis por Tarjeta Roja TV. Ecuador vs Guatemala transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Ecuador vs. Guatemala, Ecuador, Guatemala, Football, ver online gratis, en vivo gratis, Men's International Friendly",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-06-07/ecu-gua",
+        "title": "Ecuador vs. Guatemala EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Ecuador vs. Guatemala en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/fce7de672c0b07f7606a1b34640a7a1f-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Ecuador vs. Guatemala EN VIVO",
+        "description": "Ver Ecuador vs. Guatemala en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/fce7de672c0b07f7606a1b34640a7a1f-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Ecuador vs. Guatemala",
+        "description": "Transmisión en vivo de Ecuador vs. Guatemala",
+        "startDate": "2026-06-07T20:00:00.000Z",
+        "endDate": "2026-06-07T22:30:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-06-07/ecu-gua"
+        },
+        "image": "https://api.ppv.to/assets/thumb/fce7de672c0b07f7606a1b34640a7a1f-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Ecuador"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Guatemala"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Ecuador"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Guatemala"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Ecuador vs. Guatemala",
+            "url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-06-07/ecu-gua"
+          }
+        ],
+        "h1": "Ecuador vs. Guatemala EN VIVO",
+        "h2": "Ver Ecuador vs. Guatemala Online Gratis"
+      },
+      "event": {
+        "name": "Ecuador vs. Guatemala",
+        "category": "Football",
+        "broadcaster": "Men's International Friendly",
+        "start_time": "2026-06-07T20:00:00.000Z",
+        "end_time": "2026-06-07T22:30:00.000Z",
+        "duration_minutes": 150,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Ecuador",
+        "away_team": "Guatemala"
+      },
+      "technical": {
+        "last_modified": "2026-06-07T13:52:46.633Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Ecuador vs. Guatemala, Ecuador"
+      }
+    },
+    {
+      "id": 22644,
+      "slug": "colombia-vs-jordan",
+      "uri_name": "mens-international-friendly/2026-06-07/col-jor",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-06-07/col-jor",
+      "meta": {
+        "title": "Colombia vs. Jordan EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Colombia vs. Jordan en vivo gratis por Tarjeta Roja TV. Colombia vs Jordan transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Colombia vs. Jordan, Colombia, Jordan, Football, ver online gratis, en vivo gratis, Men's International Friendly",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-06-07/col-jor",
+        "title": "Colombia vs. Jordan EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Colombia vs. Jordan en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/57e34efd61af2d5e1181fc3808fffab5-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Colombia vs. Jordan EN VIVO",
+        "description": "Ver Colombia vs. Jordan en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/57e34efd61af2d5e1181fc3808fffab5-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Colombia vs. Jordan",
+        "description": "Transmisión en vivo de Colombia vs. Jordan",
+        "startDate": "2026-06-07T23:00:00.000Z",
+        "endDate": "2026-06-08T01:30:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-06-07/col-jor"
+        },
+        "image": "https://api.ppv.to/assets/thumb/57e34efd61af2d5e1181fc3808fffab5-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Colombia"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Jordan"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Colombia"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Jordan"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Colombia vs. Jordan",
+            "url": "https://tarjetarojaenvivo.live/eventos/mens-international-friendly/2026-06-07/col-jor"
+          }
+        ],
+        "h1": "Colombia vs. Jordan EN VIVO",
+        "h2": "Ver Colombia vs. Jordan Online Gratis"
+      },
+      "event": {
+        "name": "Colombia vs. Jordan",
+        "category": "Football",
+        "broadcaster": "Men's International Friendly",
+        "start_time": "2026-06-07T23:00:00.000Z",
+        "end_time": "2026-06-08T01:30:00.000Z",
+        "duration_minutes": 150,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Colombia",
+        "away_team": "Jordan"
+      },
+      "technical": {
+        "last_modified": "2026-06-07T13:52:46.633Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Colombia vs. Jordan, Colombia"
       }
     },
     {
@@ -2960,12 +3396,12 @@
         "end_time": "2026-06-11T21:30:00.000Z",
         "duration_minutes": 150,
         "status": "upcoming",
-        "viewers": "1",
+        "viewers": "0",
         "home_team": "Mexico",
         "away_team": "South Africa"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3071,13 +3507,99 @@
         "away_team": "Czechia"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
         "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, South Korea vs. Czechia, South Korea"
+      }
+    },
+    {
+      "id": 22645,
+      "slug": "women-s-vnl-2026-china-v-poland",
+      "uri_name": "vnl/2026-06-07/chn-pol",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/vnl/2026-06-07/chn-pol",
+      "meta": {
+        "title": "Women's VNL 2026 | China v Poland EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Women's VNL 2026 | China v Poland en vivo gratis por Tarjeta Roja TV. Women's VNL 2026 | China v Poland transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Women's VNL 2026 | China v Poland, Women's VNL 2026 | China v Poland, Miscellaneous, ver online gratis, en vivo gratis, Volleyball",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/vnl/2026-06-07/chn-pol",
+        "title": "Women's VNL 2026 | China v Poland EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Women's VNL 2026 | China v Poland en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/4c6af54313900221e125ac2687bb59dc-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Women's VNL 2026 | China v Poland EN VIVO",
+        "description": "Ver Women's VNL 2026 | China v Poland en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/4c6af54313900221e125ac2687bb59dc-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Women's VNL 2026 | China v Poland",
+        "description": "Transmisión en vivo de Women's VNL 2026 | China v Poland",
+        "startDate": "2026-06-07T11:00:00.000Z",
+        "endDate": "2026-06-07T15:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/vnl/2026-06-07/chn-pol"
+        },
+        "image": "https://api.ppv.to/assets/thumb/4c6af54313900221e125ac2687bb59dc-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "sport": "Miscellaneous"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Miscellaneous",
+            "url": "https://tarjetarojaenvivo.live/categoria/miscellaneous"
+          },
+          {
+            "name": "Women's VNL 2026 | China v Poland",
+            "url": "https://tarjetarojaenvivo.live/eventos/vnl/2026-06-07/chn-pol"
+          }
+        ],
+        "h1": "Women's VNL 2026 | China v Poland EN VIVO",
+        "h2": "Ver Women's VNL 2026 | China v Poland Online Gratis"
+      },
+      "event": {
+        "name": "Women's VNL 2026 | China v Poland",
+        "category": "Miscellaneous",
+        "broadcaster": "Volleyball",
+        "start_time": "2026-06-07T11:00:00.000Z",
+        "end_time": "2026-06-07T15:00:00.000Z",
+        "duration_minutes": 240,
+        "status": "live",
+        "viewers": "7"
+      },
+      "technical": {
+        "last_modified": "2026-06-07T13:52:46.633Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Women's VNL 2026 | China v Poland, Women's VNL 2026 | China v Poland"
       }
     },
     {
@@ -3153,11 +3675,11 @@
         "start_time": "2026-06-07T13:00:00.000Z",
         "end_time": "2026-06-07T16:00:00.000Z",
         "duration_minutes": 180,
-        "status": "upcoming",
-        "viewers": "29"
+        "status": "live",
+        "viewers": "13267"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3240,10 +3762,10 @@
         "end_time": "1970-01-01T00:00:00.000Z",
         "duration_minutes": 0,
         "status": "completed",
-        "viewers": "3"
+        "viewers": "629"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -3326,10 +3848,10 @@
         "end_time": "1970-01-01T00:00:00.000Z",
         "duration_minutes": 0,
         "status": "completed",
-        "viewers": "3"
+        "viewers": "6"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.633Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -3412,10 +3934,10 @@
         "end_time": "1970-01-01T00:00:00.000Z",
         "duration_minutes": 0,
         "status": "completed",
-        "viewers": "16"
+        "viewers": "13"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.634Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -3498,10 +4020,10 @@
         "end_time": "2025-02-28T20:00:00.000Z",
         "duration_minutes": 59940,
         "status": "completed",
-        "viewers": "2"
+        "viewers": "1"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.634Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -3584,10 +4106,10 @@
         "end_time": "2025-01-18T09:00:00.000Z",
         "duration_minutes": 60,
         "status": "completed",
-        "viewers": "24"
+        "viewers": "15"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.634Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -3670,10 +4192,10 @@
         "end_time": "2025-01-18T10:28:00.000Z",
         "duration_minutes": 0,
         "status": "completed",
-        "viewers": "0"
+        "viewers": "1"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.634Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -3759,7 +4281,7 @@
         "viewers": "4"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.634Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -3842,10 +4364,10 @@
         "end_time": "2026-02-12T03:00:00.000Z",
         "duration_minutes": 180,
         "status": "completed",
-        "viewers": "1"
+        "viewers": "2"
       },
       "technical": {
-        "last_modified": "2026-06-07T08:55:36.862Z",
+        "last_modified": "2026-06-07T13:52:46.634Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
