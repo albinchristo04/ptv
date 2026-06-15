@@ -1,27 +1,181 @@
 {
   "metadata": {
-    "fetched_at": "2026-06-15T00:45:14.458431Z",
+    "fetched_at": "2026-06-15T07:56:42.377617Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-06-15T01:27:52.857192",
-      "total_streams": 22,
+      "extracted_at": "2026-06-15T07:59:37.529446",
+      "total_streams": 56,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 22,
-        "successful_requests": 22,
+        "total_requests": 56,
+        "successful_requests": 56,
         "failed_requests": 0,
-        "elapsed_time_seconds": 62.11
+        "elapsed_time_seconds": 150.52
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1781484320,
+    "timestamp": 1781510210,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.018355846405029297,
+    "performance": 0.030459880828857422,
     "streams": [
+      {
+        "category": "American Football",
+        "id": 26,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 22996,
+            "name": "BC Lions vs. Hamilton Tiger-Cats",
+            "tag": "CFL+",
+            "source_tag": "CFL+",
+            "poster": "https://api.ppv.to/assets/thumb/7759e49d995ae6ec03cdc47e1e31ee2c-thumbnail.jpg",
+            "blurhash": "L5J$NU4WvxPU$in%azW:00y:PC#j",
+            "colors": [
+              "#f05a22",
+              "#ffb81c"
+            ],
+            "uri_name": "cfl/2026-06-19/bc-ham",
+            "starts_at": 1781911800,
+            "ends_at": 1781924400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://embedindia.st/embed/cfl/2026-06-19/bc-ham",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23002,
+            "name": "Paris Lights vs. Alpine Rams",
+            "tag": "AFLE+",
+            "source_tag": "AFLE+",
+            "poster": "https://api.ppv.to/assets/thumb/67ffdb3628a436114baa101077b6a29a-thumbnail.jpg",
+            "blurhash": "LACi,V_3?aDi~U%NIURO9aE1WYf5",
+            "colors": [
+              "#141d26",
+              "#34364f"
+            ],
+            "uri_name": "afle/2026-06-20/par-alp",
+            "starts_at": 1781971200,
+            "ends_at": 1781983800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://embedindia.st/embed/afle/2026-06-20/par-alp",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 22998,
+            "name": "Toronto Argonauts vs. Ottawa RedBlacks",
+            "tag": "CFL+",
+            "source_tag": "CFL+",
+            "poster": "https://api.ppv.to/assets/thumb/e67a044783c1549e59ae7c8873502047-thumbnail.jpg",
+            "blurhash": "L9ByE$3GmnNGxat7jtRj00#kyC#,",
+            "colors": [
+              "#003087",
+              "#b5121b"
+            ],
+            "uri_name": "cfl/2026-06-20/tor-ott",
+            "starts_at": 1781974800,
+            "ends_at": 1781987400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://embedindia.st/embed/cfl/2026-06-20/tor-ott",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23000,
+            "name": "Montreal Alouettes vs. Edmonton Elks",
+            "tag": "CFL+",
+            "source_tag": "CFL+",
+            "poster": "https://api.ppv.to/assets/thumb/f5a362d080ef15e5bd72e04b7d3c970b-thumbnail.jpg",
+            "blurhash": "LA8|Fj{SMdOooLjtfQa|0eKK%Nr@",
+            "colors": [
+              "#7a2b3b",
+              "#0f4d2c"
+            ],
+            "uri_name": "cfl/2026-06-20/mtl-edm",
+            "starts_at": 1781985600,
+            "ends_at": 1781998200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://embedindia.st/embed/cfl/2026-06-20/mtl-edm",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23001,
+            "name": "Saskatchewan Roughriders vs. Calgary Stampeders",
+            "tag": "CFL+",
+            "source_tag": "CFL+",
+            "poster": "https://api.ppv.to/assets/thumb/93231d58f574e1a75128f898624f4b94-thumbnail.jpg",
+            "blurhash": "L8C=xP4Hn2,aofWUfjj[00{mx^V@",
+            "colors": [
+              "#2d8b3f",
+              "#c8102e"
+            ],
+            "uri_name": "cfl/2026-06-20/ssk-cgy",
+            "starts_at": 1781996400,
+            "ends_at": 1782009000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://embedindia.st/embed/cfl/2026-06-20/ssk-cgy",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23004,
+            "name": "Vienna Vikings vs. London Warriors",
+            "tag": "AFLE+",
+            "source_tag": "AFLE+",
+            "poster": "https://api.ppv.to/assets/thumb/38b44ae606bfcb3d3bc80d2e13dd6db8-thumbnail.jpg",
+            "blurhash": "LLD9Sa^noyE1%3x]NFRiS8N2of$~",
+            "colors": [
+              "#452274",
+              "#272727"
+            ],
+            "uri_name": "afle/2026-06-21/vie-lon",
+            "starts_at": 1782046800,
+            "ends_at": 1782059400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://embedindia.st/embed/afle/2026-06-21/vie-lon",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23006,
+            "name": "Berlin Thunder vs. Rhein Fire",
+            "tag": "AFLE+",
+            "source_tag": "AFLE+",
+            "poster": "https://api.ppv.to/assets/thumb/6ab1922d212e6c5f52169092fbeb6f62-thumbnail.jpg",
+            "blurhash": "L6C~bp1t~WDP^iInIAxv9GyDRQWU",
+            "colors": [
+              "#10171f",
+              "#6f3533"
+            ],
+            "uri_name": "afle/2026-06-21/ber-rhe",
+            "starts_at": 1782054600,
+            "ends_at": 1782067200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "American Football",
+            "iframe": "https://embedindia.st/embed/afle/2026-06-21/ber-rhe",
+            "viewers": "0",
+            "substreams": []
+          }
+        ]
+      },
       {
         "category": "Australian Football",
         "id": 66,
@@ -66,7 +220,7 @@
             "locale": "en",
             "category_name": "Australian Football",
             "iframe": "https://embedindia.st/embed/afl/2026-06-19/gcfc-haw",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -108,7 +262,7 @@
             "locale": "en",
             "category_name": "Australian Football",
             "iframe": "https://embedindia.st/embed/afl/2026-06-20/gws-carl",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -131,6 +285,48 @@
             "iframe": "https://embedindia.st/embed/afl/2026-06-20/coll-port",
             "viewers": "1",
             "substreams": []
+          },
+          {
+            "id": 23018,
+            "name": "Richmond vs. North Melbourne",
+            "tag": "Fox Footy",
+            "source_tag": "Fox Footy",
+            "poster": "https://api.ppv.to/assets/thumb/b121b6e3326b8d8e6b2b8c9841c4890f-thumbnail.jpg",
+            "blurhash": "LRD+uZ}zxFt8ayj@fQfQ4nNhWrNG",
+            "colors": [
+              "#e6b843",
+              "#124cb1"
+            ],
+            "uri_name": "afl/2026-06-21/rich-nmfc",
+            "starts_at": 1782011400,
+            "ends_at": 1782022200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Australian Football",
+            "iframe": "https://embedindia.st/embed/afl/2026-06-21/rich-nmfc",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23019,
+            "name": "St Kilda vs. Western Bulldogs",
+            "tag": "Fox Sports 503",
+            "source_tag": "Fox Sports 503",
+            "poster": "https://api.ppv.to/assets/thumb/a6172a5883ed42e29efe05c4a3495f4c-thumbnail.jpg",
+            "blurhash": "LIB_[S|-ruS5o2oLfQWV0JJWkVW;",
+            "colors": [
+              "#b12526",
+              "#25269f"
+            ],
+            "uri_name": "afl/2026-06-21/stk-wb",
+            "starts_at": 1782018900,
+            "ends_at": 1782029700,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Australian Football",
+            "iframe": "https://embedindia.st/embed/afl/2026-06-21/stk-wb",
+            "viewers": "0",
+            "substreams": []
           }
         ]
       },
@@ -140,24 +336,283 @@
         "always_live": false,
         "streams": [
           {
-            "id": 22924,
-            "name": "Texas Rangers vs. Boston Red Sox",
-            "tag": "NBC",
-            "source_tag": "NBC",
-            "poster": "https://api.ppv.to/assets/thumb/c3bd8866ba3eaafe2776fa6d796734dd-thumbnail.jpg",
-            "blurhash": "L6Akta2|vhs,wdsTj[Wq0v;dtlni",
+            "id": 23008,
+            "name": "Miami Marlins vs. Philadelphia Phillies",
+            "tag": "NBC Sports Phil",
+            "source_tag": "NBC Sports Phil",
+            "poster": "https://api.ppv.to/assets/thumb/3af831a52eaa2d58ce8f27cdfe7ba9a0-thumbnail.jpg",
+            "blurhash": "LCCF6q49#,;MoLW;j[n%0d{ekWJ8",
             "colors": [
-              "#003278",
-              "#a51c30"
+              "#008e97",
+              "#c8102e"
             ],
-            "uri_name": "mlb/2026-06-14/tex-bos",
-            "starts_at": 1781479200,
-            "ends_at": 1781491800,
+            "uri_name": "mlb/2026-06-15/mia-phi",
+            "starts_at": 1781563200,
+            "ends_at": 1781575800,
             "always_live": 0,
             "locale": "en",
             "category_name": "Baseball",
-            "iframe": "https://embedindia.st/embed/mlb/2026-06-14/tex-bos",
-            "viewers": "185",
+            "iframe": "https://embedindia.st/embed/mlb/2026-06-15/mia-phi",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23009,
+            "name": "Kansas City Royals vs. Washington Nationals",
+            "tag": "Royals.TV",
+            "source_tag": "Royals.TV",
+            "poster": "https://api.ppv.to/assets/thumb/35abebb4fe7889aea82cef7cfd478895-thumbnail.jpg",
+            "blurhash": "LG9=,l3Grwwbjaa}j[fQ9=+@oyWV",
+            "colors": [
+              "#0051a5",
+              "#ab0003"
+            ],
+            "uri_name": "mlb/2026-06-15/kc-wsh",
+            "starts_at": 1781563500,
+            "ends_at": 1781576100,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://embedindia.st/embed/mlb/2026-06-15/kc-wsh",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23010,
+            "name": "New York Mets vs. Cincinnati Reds",
+            "tag": "Gray Media",
+            "source_tag": "Gray Media",
+            "poster": "https://api.ppv.to/assets/thumb/fea052623e2ac343d86a0e5a4ed2ce98-thumbnail.jpg",
+            "blurhash": "L9B1#[3Zv$#,n*a}j[fQ0w;KtRS1",
+            "colors": [
+              "#003f87",
+              "#b0021b"
+            ],
+            "uri_name": "mlb/2026-06-15/nym-cin",
+            "starts_at": 1781565000,
+            "ends_at": 1781577600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://embedindia.st/embed/mlb/2026-06-15/nym-cin",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23011,
+            "name": "San Diego Padres vs. St. Louis Cardinals",
+            "tag": "Cardinals.TV",
+            "source_tag": "Cardinals.TV",
+            "poster": "https://api.ppv.to/assets/thumb/06bbc7f18327f6b06cbdddc8f6e9a105-thumbnail.jpg",
+            "blurhash": "L7B-b|36VY]UjZjtfka|0y|1x]E#",
+            "colors": [
+              "#4a3c31",
+              "#b22234"
+            ],
+            "uri_name": "mlb/2026-06-15/sd-stl",
+            "starts_at": 1781567100,
+            "ends_at": 1781579700,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://embedindia.st/embed/mlb/2026-06-15/sd-stl",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23012,
+            "name": "Colorado Rockies vs. Chicago Cubs",
+            "tag": "Marquee Sports Net",
+            "source_tag": "Marquee Sports Net",
+            "poster": "https://api.ppv.to/assets/thumb/74367630089ec91d5fb3d7d6f8f86fa3-thumbnail.jpg",
+            "blurhash": "L684cB4,IV}]ayayj[j[00^m%M5Q",
+            "colors": [
+              "#3c3c3c",
+              "#1d428a"
+            ],
+            "uri_name": "mlb/2026-06-15/col-chc",
+            "starts_at": 1781568300,
+            "ends_at": 1781580900,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://embedindia.st/embed/mlb/2026-06-15/col-chc",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23013,
+            "name": "Minnesota Twins vs. Texas Rangers",
+            "tag": "Rangers Sports Network",
+            "source_tag": "Rangers Sports Network",
+            "poster": "https://api.ppv.to/assets/thumb/e8ce9a1c1b7030aeb7b123c7a943f99d-thumbnail.jpg",
+            "blurhash": "L26j|tkc0L$*wcJ,j]#-00J#~VV?",
+            "colors": [
+              "#003a8f",
+              "#003278"
+            ],
+            "uri_name": "mlb/2026-06-15/min-tex",
+            "starts_at": 1781568300,
+            "ends_at": 1781580900,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://embedindia.st/embed/mlb/2026-06-15/min-tex",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23014,
+            "name": "Detroit Tigers vs. Houston Astros",
+            "tag": "Space City Home Network",
+            "source_tag": "Space City Home Network",
+            "poster": "https://api.ppv.to/assets/thumb/90d8eb4834d8e0e1fc32a14232a0cd42-thumbnail.jpg",
+            "blurhash": "L46kVT0w9G}[oLa}j[jZ00^k?H57",
+            "colors": [
+              "#102a44",
+              "#002d62"
+            ],
+            "uri_name": "mlb/2026-06-15/det-hou",
+            "starts_at": 1781568600,
+            "ends_at": 1781581200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://embedindia.st/embed/mlb/2026-06-15/det-hou",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23015,
+            "name": "Los Angeles Angels vs. Arizona Diamondbacks",
+            "tag": "DBACKS.TV",
+            "source_tag": "DBACKS.TV",
+            "poster": "https://api.ppv.to/assets/thumb/62b7baed62673f6c7b2012e7134771c9-thumbnail.jpg",
+            "blurhash": "L7EJAE{~R5OBnia|fkjZ0dJ*tln+",
+            "colors": [
+              "#ba0021",
+              "#9a1e2c"
+            ],
+            "uri_name": "mlb/2026-06-15/laa-ari",
+            "starts_at": 1781574000,
+            "ends_at": 1781586600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://embedindia.st/embed/mlb/2026-06-15/laa-ari",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23016,
+            "name": "Pittsburgh Pirates vs. Athletics",
+            "tag": "NBC Sports CA",
+            "source_tag": "NBC Sports CA",
+            "poster": "https://api.ppv.to/assets/thumb/176e3d24f176ddafb5e52008e28bc2ba-thumbnail.jpg",
+            "blurhash": "LUC6bp},s8NKj@j@fQaz9cEQbcsm",
+            "colors": [
+              "#c9a227",
+              "#004b3a"
+            ],
+            "uri_name": "mlb/2026-06-15/pit-ath",
+            "starts_at": 1781574000,
+            "ends_at": 1781586600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://embedindia.st/embed/mlb/2026-06-15/pit-ath",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23017,
+            "name": "Tampa Bay Rays vs. Los Angeles Dodgers",
+            "tag": "ESPN",
+            "source_tag": "ESPN",
+            "poster": "https://api.ppv.to/assets/thumb/de5bf8a2010bf2be43c2d1de17b712ea-thumbnail.jpg",
+            "blurhash": "L23TGlu%4ob|WYf6oefk00X=_2W9",
+            "colors": [
+              "#1a3e6e",
+              "#005a9c"
+            ],
+            "uri_name": "mlb/2026-06-15/tb-lad",
+            "starts_at": 1781575200,
+            "ends_at": 1781587800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Baseball",
+            "iframe": "https://embedindia.st/embed/mlb/2026-06-15/tb-lad",
+            "viewers": "0",
+            "substreams": []
+          }
+        ]
+      },
+      {
+        "category": "Basketball",
+        "id": 37,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 23003,
+            "name": "Las Vegas Aces vs. Dallas Wings",
+            "tag": "USA Net",
+            "source_tag": "USA Net",
+            "poster": "https://api.ppv.to/assets/thumb/6da2b4737aaf9997cb993de3cb8ed8ef-thumbnail.jpg",
+            "blurhash": "LG9@ek~poyWBj[j[fQay4nIon%WB",
+            "colors": [
+              "#a7a8aa",
+              "#002b5c"
+            ],
+            "uri_name": "wnba/2026-06-15/lv-dal",
+            "starts_at": 1781568000,
+            "ends_at": 1781578800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://embedindia.st/embed/wnba/2026-06-15/lv-dal",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23005,
+            "name": "Portland Fire vs. Minnesota Lynx",
+            "tag": "Victory+ MIN",
+            "source_tag": "Victory+ MIN",
+            "poster": "https://api.ppv.to/assets/thumb/15f3a3e2b5957dc8589a31c5d09d8528-thumbnail.jpg",
+            "blurhash": "LQDA7S~pt7SxbbkBfQf64mIojFi{",
+            "colors": [
+              "#cee5eb",
+              "#266092"
+            ],
+            "uri_name": "wnba/2026-06-15/por-min",
+            "starts_at": 1781568000,
+            "ends_at": 1781578800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://embedindia.st/embed/wnba/2026-06-15/por-min",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23007,
+            "name": "Los Angeles Sparks vs. Golden State Valkyries",
+            "tag": "Peacock",
+            "source_tag": "Peacock",
+            "poster": "https://api.ppv.to/assets/thumb/299c8d756c27ae3ef93d8980f0891395-thumbnail.jpg",
+            "blurhash": "L5C~AN00Os0iXAkEa|ac00I|$e~A",
+            "colors": [
+              "#552583",
+              "#b38fcf"
+            ],
+            "uri_name": "wnba/2026-06-15/la-gs",
+            "starts_at": 1781575200,
+            "ends_at": 1781586000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Basketball",
+            "iframe": "https://embedindia.st/embed/wnba/2026-06-15/la-gs",
+            "viewers": "0",
             "substreams": []
           }
         ]
@@ -185,7 +640,7 @@
             "locale": "en",
             "category_name": "Combat Sports",
             "iframe": "https://embedindia.st/embed/ufc-freedom-250",
-            "viewers": "24587",
+            "viewers": "2149",
             "substreams": []
           }
         ]
@@ -195,86 +650,6 @@
         "id": 34,
         "always_live": false,
         "streams": [
-          {
-            "id": 22957,
-            "name": "Ivory Coast vs. Ecuador",
-            "tag": "FIFA World Cup",
-            "source_tag": "FS1",
-            "poster": "https://api.ppv.to/assets/thumb/6ba091c441b968764b11be74d7e89576-thumbnail.jpg",
-            "blurhash": "L4Kl.uuz:g*{%GVxf6ov00TRCTLe",
-            "colors": [
-              "#ff8200",
-              "#ffdd00"
-            ],
-            "uri_name": "wc/2026-06-14/civ-ecu",
-            "starts_at": 1781478000,
-            "ends_at": 1781487000,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://embedindia.st/embed/wc/2026-06-14/civ-ecu",
-            "viewers": "9246",
-            "substreams": [
-              {
-                "id": 22958,
-                "name": "Ivory Coast vs. Ecuador",
-                "tag": "FIFA World Cup",
-                "uri_name": "wc/2026-06-14/civ-ecu/uk",
-                "source_tag": "BBC One",
-                "locale": "en",
-                "iframe": "https://embedindia.st/embed/wc/2026-06-14/civ-ecu/uk"
-              },
-              {
-                "id": 22959,
-                "name": "Ivory Coast vs. Ecuador",
-                "tag": "FIFA World Cup",
-                "uri_name": "wc/2026-06-14/civ-ecu/telemundo",
-                "source_tag": "Telemundo",
-                "locale": "es",
-                "iframe": "https://embedindia.st/embed/wc/2026-06-14/civ-ecu/telemundo"
-              }
-            ]
-          },
-          {
-            "id": 22961,
-            "name": "Sweden vs. Tunisia",
-            "tag": "FIFA World Cup",
-            "source_tag": "FS1",
-            "poster": "https://api.ppv.to/assets/thumb/cf0db2aaed590997e06cc434b2216260-thumbnail.jpg",
-            "blurhash": "LNJFoC*Ck5#,oLfjfQjt0MrZg4I@",
-            "colors": [
-              "#fecb00",
-              "#d20300"
-            ],
-            "uri_name": "wc/2026-06-14/swe-tun",
-            "starts_at": 1781488800,
-            "ends_at": 1781497800,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Football",
-            "iframe": "https://embedindia.st/embed/wc/2026-06-14/swe-tun",
-            "viewers": "19",
-            "substreams": [
-              {
-                "id": 22962,
-                "name": "Sweden vs. Tunisia",
-                "tag": "FIFA World Cup",
-                "uri_name": "wc/2026-06-14/swe-tun/uk",
-                "source_tag": "ITV1",
-                "locale": "en",
-                "iframe": "https://embedindia.st/embed/wc/2026-06-14/swe-tun/uk"
-              },
-              {
-                "id": 22963,
-                "name": "Sweden vs. Tunisia",
-                "tag": "FIFA World Cup",
-                "uri_name": "wc/2026-06-14/swe-tun/telemundo",
-                "source_tag": "Telemundo",
-                "locale": "es",
-                "iframe": "https://embedindia.st/embed/wc/2026-06-14/swe-tun/telemundo"
-              }
-            ]
-          },
           {
             "id": 22965,
             "name": "Spain vs. Cape Verde",
@@ -293,7 +668,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://embedindia.st/embed/wc/2026-06-15/esp-cpv",
-            "viewers": "2",
+            "viewers": "8",
             "substreams": [
               {
                 "id": 22966,
@@ -436,6 +811,126 @@
             ]
           },
           {
+            "id": 22986,
+            "name": "France vs. Senegal",
+            "tag": "FIFA World Cup",
+            "source_tag": "FOX",
+            "poster": "https://api.ppv.to/assets/thumb/5212770f3bc7f48643dbdf2a1dceabae-thumbnail.jpg",
+            "blurhash": "LA8||yR09aJ|j[fRazfQ00s#-:w~",
+            "colors": [
+              "#000080",
+              "#006436"
+            ],
+            "uri_name": "wc/2026-06-16/fra-sen",
+            "starts_at": 1781636400,
+            "ends_at": 1781645400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://embedindia.st/embed/wc/2026-06-16/fra-sen",
+            "viewers": "0",
+            "substreams": [
+              {
+                "id": 22987,
+                "name": "France vs. Senegal",
+                "tag": "FIFA World Cup",
+                "uri_name": "wc/2026-06-16/fra-sen/uk",
+                "source_tag": "BBC/ITV",
+                "locale": "en",
+                "iframe": "https://embedindia.st/embed/wc/2026-06-16/fra-sen/uk"
+              },
+              {
+                "id": 22988,
+                "name": "France vs. Senegal",
+                "tag": "FIFA World Cup",
+                "uri_name": "wc/2026-06-16/fra-sen/telemundo",
+                "source_tag": "Telemundo",
+                "locale": "es",
+                "iframe": "https://embedindia.st/embed/wc/2026-06-16/fra-sen/telemundo"
+              }
+            ]
+          },
+          {
+            "id": 22990,
+            "name": "Iraq vs. Norway",
+            "tag": "FIFA World Cup",
+            "source_tag": "FOX",
+            "poster": "https://api.ppv.to/assets/thumb/9c4c09837ca4ec4cc6cb41a030651261-thumbnail.jpg",
+            "blurhash": "L5DkDX44Ub#9xGsoayS200{M.Sxa",
+            "colors": [
+              "#0a4d2e",
+              "#c8102e"
+            ],
+            "uri_name": "wc/2026-06-16/irq-nor",
+            "starts_at": 1781647200,
+            "ends_at": 1781656200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://embedindia.st/embed/wc/2026-06-16/irq-nor",
+            "viewers": "0",
+            "substreams": [
+              {
+                "id": 22991,
+                "name": "Iraq vs. Norway",
+                "tag": "FIFA World Cup",
+                "uri_name": "wc/2026-06-16/irq-nor/uk",
+                "source_tag": "BBC/ITV",
+                "locale": "en",
+                "iframe": "https://embedindia.st/embed/wc/2026-06-16/irq-nor/uk"
+              },
+              {
+                "id": 22992,
+                "name": "Iraq vs. Norway",
+                "tag": "FIFA World Cup",
+                "uri_name": "wc/2026-06-16/irq-nor/telemundo",
+                "source_tag": "Telemundo",
+                "locale": "es",
+                "iframe": "https://embedindia.st/embed/wc/2026-06-16/irq-nor/telemundo"
+              }
+            ]
+          },
+          {
+            "id": 22994,
+            "name": "Argentina vs. Algeria",
+            "tag": "FIFA World Cup",
+            "source_tag": "FOX",
+            "poster": "https://api.ppv.to/assets/thumb/c2e691d40140db20766ef98b0a0d9a35-thumbnail.jpg",
+            "blurhash": "LQBEmxo,R:W9j[fRfQfQ4Tn{s,of",
+            "colors": [
+              "#74acdf",
+              "#4f9a44"
+            ],
+            "uri_name": "wc/2026-06-16/arg-alg",
+            "starts_at": 1781658000,
+            "ends_at": 1781667000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Football",
+            "iframe": "https://embedindia.st/embed/wc/2026-06-16/arg-alg",
+            "viewers": "2",
+            "substreams": [
+              {
+                "id": 22995,
+                "name": "Argentina vs. Algeria",
+                "tag": "FIFA World Cup",
+                "uri_name": "wc/2026-06-16/arg-alg/uk",
+                "source_tag": "BBC/ITV",
+                "locale": "en",
+                "iframe": "https://embedindia.st/embed/wc/2026-06-16/arg-alg/uk"
+              },
+              {
+                "id": 22997,
+                "name": "Argentina vs. Algeria",
+                "tag": "FIFA World Cup",
+                "uri_name": "wc/2026-06-16/arg-alg/telemundo",
+                "source_tag": "Telemundo",
+                "locale": "es",
+                "iframe": "https://embedindia.st/embed/wc/2026-06-16/arg-alg/telemundo"
+              }
+            ]
+          },
+          {
             "id": 22985,
             "name": "Almería vs. Málaga",
             "tag": "LALIGA 2",
@@ -459,57 +954,309 @@
         ]
       },
       {
-        "category": "Ice Hockey",
-        "id": 39,
+        "category": "Rugby",
+        "id": 42,
         "always_live": false,
         "streams": [
           {
-            "id": 22907,
-            "name": "Carolina Hurricanes vs. Vegas Golden Knights",
-            "tag": "ABC",
-            "source_tag": "ABC",
-            "poster": "https://api.ppv.to/assets/thumb/d092e55198454abeba219515dd80ab20-thumbnail.jpg",
-            "blurhash": "L69QdYxc00I,K7Rja0xb00NF~X-W",
+            "id": 23020,
+            "name": "New South Wales vs. Queensland",
+            "tag": "Fox League",
+            "source_tag": "Fox League",
+            "poster": "https://api.ppv.to/assets/thumb/cbc6203b659a7f2f4c594fd49a467d05-thumbnail.jpg",
+            "blurhash": "LEEyY:00?b-ps:f5fQbH00~pM{S5",
             "colors": [
-              "#05080d",
-              "#05080d"
+              "#000000",
+              "#ffffff"
             ],
-            "uri_name": "nhl/2026-06-14/car-vgk",
-            "starts_at": 1781481600,
-            "ends_at": 1781496000,
+            "uri_name": "nrl/2026-06-17/new-que",
+            "starts_at": 1781690700,
+            "ends_at": 1781699700,
             "always_live": 0,
             "locale": "en",
-            "category_name": "Ice Hockey",
-            "iframe": "https://embedindia.st/embed/nhl/2026-06-14/car-vgk",
-            "viewers": "1199",
+            "category_name": "Rugby",
+            "iframe": "https://embedindia.st/embed/nrl/2026-06-17/new-que",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23021,
+            "name": "Knights vs. Dragons",
+            "tag": "Fox League",
+            "source_tag": "Fox League",
+            "poster": "https://api.ppv.to/assets/thumb/a6234ffcd973f2d22b65f051da4bb31b-thumbnail.jpg",
+            "blurhash": "L6CX~w1Un6-:$%nhayS$00}ltRR5",
+            "colors": [
+              "#2e4a92",
+              "#b32437"
+            ],
+            "uri_name": "nrl/2026-06-19/new-st.",
+            "starts_at": 1781863200,
+            "ends_at": 1781872200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Rugby",
+            "iframe": "https://embedindia.st/embed/nrl/2026-06-19/new-st.",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23022,
+            "name": "Wests Tigers vs. Dolphins",
+            "tag": "Fox League",
+            "source_tag": "Fox League",
+            "poster": "https://api.ppv.to/assets/thumb/30c46083eb18055de074f5a6a6e2e0c8-thumbnail.jpg",
+            "blurhash": "LMC~q]|:r?ogofayayoL0LOGbbNa",
+            "colors": [
+              "#d1881e",
+              "#2a7581"
+            ],
+            "uri_name": "nrl/2026-06-20/wes-dol",
+            "starts_at": 1781931600,
+            "ends_at": 1781940600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Rugby",
+            "iframe": "https://embedindia.st/embed/nrl/2026-06-20/wes-dol",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23023,
+            "name": "Titans vs. Panthers",
+            "tag": "Fox League",
+            "source_tag": "Fox League",
+            "poster": "https://api.ppv.to/assets/thumb/80b5d073b41e918855d83afa6314e90e-thumbnail.jpg",
+            "blurhash": "LD69wh%7RlNGj[f7ayfkD4NEt6xW",
+            "colors": [
+              "#3a82b8",
+              "#217a6f"
+            ],
+            "uri_name": "nrl/2026-06-20/gol-pen",
+            "starts_at": 1781940600,
+            "ends_at": 1781949600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Rugby",
+            "iframe": "https://embedindia.st/embed/nrl/2026-06-20/gol-pen",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23024,
+            "name": "Bulldogs vs. Sea Eagles",
+            "tag": "Fox League",
+            "source_tag": "Fox League",
+            "poster": "https://api.ppv.to/assets/thumb/ae3467b32b9fbe99ebf669d0127757e8-thumbnail.jpg",
+            "blurhash": "LA9t1fGdRRn+t7j[aya#00rpxtjX",
+            "colors": [
+              "#2958a8",
+              "#6b2d5f"
+            ],
+            "uri_name": "nrl/2026-06-20/can-man",
+            "starts_at": 1781948100,
+            "ends_at": 1781957100,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Rugby",
+            "iframe": "https://embedindia.st/embed/nrl/2026-06-20/can-man",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23025,
+            "name": "Warriors vs. Cowboys",
+            "tag": "Fox League",
+            "source_tag": "Fox League",
+            "poster": "https://api.ppv.to/assets/thumb/0ccbe4e31f0e759e477a534001034ba7-thumbnail.jpg",
+            "blurhash": "L46b-[LlEK%GofjZaybH00#;%MII",
+            "colors": [
+              "#29854a",
+              "#244a61"
+            ],
+            "uri_name": "nrl/2026-06-21/new-nor",
+            "starts_at": 1782014400,
+            "ends_at": 1782023400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Rugby",
+            "iframe": "https://embedindia.st/embed/nrl/2026-06-21/new-nor",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23026,
+            "name": "Storm vs. Raiders",
+            "tag": "Fox League",
+            "source_tag": "Fox League",
+            "poster": "https://api.ppv.to/assets/thumb/b6887bc60e8bea1b52d424755462b463-thumbnail.jpg",
+            "blurhash": "L87eVB*vM}S_bIWCayoL00TUxtjE",
+            "colors": [
+              "#5c4788",
+              "#288028"
+            ],
+            "uri_name": "nrl/2026-06-21/mel-can",
+            "starts_at": 1782021900,
+            "ends_at": 1782030900,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Rugby",
+            "iframe": "https://embedindia.st/embed/nrl/2026-06-21/mel-can",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23027,
+            "name": "Roosters vs. Sharks",
+            "tag": "Fox League",
+            "source_tag": "Fox League",
+            "poster": "https://api.ppv.to/assets/thumb/ba99588a531aca3b621324630ac2fcc0-thumbnail.jpg",
+            "blurhash": "LUCYI3{#r?NHj[j[f6f69sJ7bbt6",
+            "colors": [
+              "#d12b3f",
+              "#1a746e"
+            ],
+            "uri_name": "nrl/2026-06-21/syd-cro",
+            "starts_at": 1782029700,
+            "ends_at": 1782038700,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Rugby",
+            "iframe": "https://embedindia.st/embed/nrl/2026-06-21/syd-cro",
+            "viewers": "0",
             "substreams": []
           }
         ]
       },
       {
-        "category": "Volleyball",
-        "id": 74,
+        "category": "Wrestling",
+        "id": 38,
         "always_live": false,
         "streams": [
           {
-            "id": 22932,
-            "name": "USA vs. Italy",
-            "tag": "Men's VNL 2026",
-            "source_tag": "Men's VNL 2026",
-            "poster": "https://api.ppv.to/assets/thumb/7afc1426f96b798adeed6fb92f0a208b-thumbnail.jpg",
-            "blurhash": "LDDu+RGwUu0$9pR4EBxs0[$TJM$j",
+            "id": 23028,
+            "name": "WWE: Monday Night RAW",
+            "tag": "Netflix",
+            "source_tag": "Netflix",
+            "poster": "https://api.ppv.to/assets/thumb/56336f9d22c51c416e1a56afbd18f314-thumbnail.jpg",
+            "blurhash": "L68M:aW;00n%EL;h%2s:4TW;~qsA",
             "colors": [
-              "#0c0d50",
-              "#e82c0f"
+              "#040001",
+              "#020001"
             ],
-            "uri_name": "mensvnl/2026-06-14/usa-ita",
-            "starts_at": 1781474400,
-            "ends_at": 1781487000,
+            "uri_name": "wwe/raw/2026-06-15",
+            "starts_at": 1781568000,
+            "ends_at": 1781578800,
             "always_live": 0,
             "locale": "en",
-            "category_name": "Volleyball",
-            "iframe": "https://embedindia.st/embed/mensvnl/2026-06-14/usa-ita",
-            "viewers": "12",
+            "category_name": "Wrestling",
+            "iframe": "https://embedindia.st/embed/wwe/raw/2026-06-15",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23029,
+            "name": "WWE: NXT",
+            "tag": "CW",
+            "source_tag": "CW",
+            "poster": "https://api.ppv.to/assets/thumb/ef5595e08561ede45c52b36a0b62af76-thumbnail.jpg",
+            "blurhash": "LLGSDh4n00RjD%~qof4nD%%MWBj[",
+            "colors": [
+              "#030303",
+              "#040404"
+            ],
+            "uri_name": "wwe/nxt/2026-06-16",
+            "starts_at": 1781654400,
+            "ends_at": 1781665200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Wrestling",
+            "iframe": "https://embedindia.st/embed/wwe/nxt/2026-06-16",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23030,
+            "name": "AEW: Wednesday Night Dynamite",
+            "tag": "TBS",
+            "source_tag": "TBS",
+            "poster": "https://api.ppv.to/assets/thumb/b406ff9100d91b9210600260350246ff-thumbnail.jpg",
+            "blurhash": "LHExeyNWV6M|$dbtRir?ZtWZ~Bwg",
+            "colors": [
+              "#152441",
+              "#9c4ec5"
+            ],
+            "uri_name": "aew/dynamite/2026-06-17",
+            "starts_at": 1781740800,
+            "ends_at": 1781751600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Wrestling",
+            "iframe": "https://embedindia.st/embed/aew/dynamite/2026-06-17",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23031,
+            "name": "TNA: Impact",
+            "tag": "AMC",
+            "source_tag": "AMC",
+            "poster": "https://api.ppv.to/assets/thumb/78f581ee61589a76f6bcdeb095f95c12-thumbnail.jpg",
+            "blurhash": "L6GFdr].0|t700EfGZR*3;J-{gt6",
+            "colors": [
+              "#030303",
+              "#050505"
+            ],
+            "uri_name": "tna/impact/2026-06-18",
+            "starts_at": 1781830800,
+            "ends_at": 1781841600,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Wrestling",
+            "iframe": "https://embedindia.st/embed/tna/impact/2026-06-18",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23032,
+            "name": "WWE: Friday Night Smackdown",
+            "tag": "USA",
+            "source_tag": "USA",
+            "poster": "https://api.ppv.to/assets/thumb/ec7810b68fc39115ce3510bcf9687a63-thumbnail.jpg",
+            "blurhash": "LF4ezej]M?s{kFkDf2fKIUWGxsfT",
+            "colors": [
+              "#001b65",
+              "#0001b4"
+            ],
+            "uri_name": "wwe/smackdown/2026-06-19",
+            "starts_at": 1781913600,
+            "ends_at": 1781924400,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Wrestling",
+            "iframe": "https://embedindia.st/embed/wwe/smackdown/2026-06-19",
+            "viewers": "0",
+            "substreams": []
+          },
+          {
+            "id": 23033,
+            "name": "AEW: Saturday Night Collision",
+            "tag": "TNT",
+            "source_tag": "TNT",
+            "poster": "https://api.ppv.to/assets/thumb/6e29b1bb679dd5133c85bbaadc2c4b13-thumbnail.jpg",
+            "blurhash": "LDDk_9Na01of}mNwNMbF0TS#^cae",
+            "colors": [
+              "#210e10",
+              "#160c0a"
+            ],
+            "uri_name": "aew/collision/2026-06-20",
+            "starts_at": 1782000000,
+            "ends_at": 1782010800,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Wrestling",
+            "iframe": "https://embedindia.st/embed/aew/collision/2026-06-20",
+            "viewers": "0",
             "substreams": []
           }
         ]
@@ -537,7 +1284,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embedindia.st/embed/247-south-park",
-            "viewers": "18",
+            "viewers": "20",
             "substreams": []
           },
           {
@@ -558,7 +1305,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embedindia.st/embed/247-cows",
-            "viewers": "7",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -579,7 +1326,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embedindia.st/embed/247-family-guy",
-            "viewers": "26",
+            "viewers": "47",
             "substreams": []
           },
           {
@@ -600,7 +1347,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embedindia.st/embed/247-the-simpsons",
-            "viewers": "4",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -621,7 +1368,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embedindia.st/embed/247-spongebob-squarepants",
-            "viewers": "6",
+            "viewers": "7",
             "substreams": []
           },
           {
@@ -642,7 +1389,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embedindia.st/embed/rally-tv",
-            "viewers": "1",
+            "viewers": "2",
             "substreams": []
           }
         ]
