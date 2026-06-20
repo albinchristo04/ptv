@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-20T00:55:50.466Z",
-  "total_events": 55,
+  "generated_at": "2026-06-20T07:25:22.504Z",
+  "total_events": 64,
   "categories": [
     {
       "id": 26,
       "name": "American Football",
       "slug": "american-football",
-      "event_count": 7,
+      "event_count": 6,
       "always_live": false,
       "meta": {
         "title": "American Football EN VIVO - Tarjeta Roja TV",
@@ -18,7 +18,7 @@
       "id": 66,
       "name": "Australian Football",
       "slug": "australian-football",
-      "event_count": 5,
+      "event_count": 4,
       "always_live": false,
       "meta": {
         "title": "Australian Football EN VIVO - Tarjeta Roja TV",
@@ -30,7 +30,7 @@
       "id": 36,
       "name": "Baseball",
       "slug": "baseball",
-      "event_count": 13,
+      "event_count": 14,
       "always_live": false,
       "meta": {
         "title": "Baseball EN VIVO - Tarjeta Roja TV",
@@ -90,12 +90,24 @@
       "id": 34,
       "name": "Football",
       "slug": "football",
-      "event_count": 6,
+      "event_count": 9,
       "always_live": false,
       "meta": {
         "title": "Football EN VIVO - Tarjeta Roja TV",
         "description": "Ver Football en vivo gratis.",
         "keywords": "Football, tarjeta roja, rojadirecta"
+      }
+    },
+    {
+      "id": 35,
+      "name": "Motorsports",
+      "slug": "motorsports",
+      "event_count": 1,
+      "always_live": false,
+      "meta": {
+        "title": "Motorsports EN VIVO - Tarjeta Roja TV",
+        "description": "Ver Motorsports en vivo gratis.",
+        "keywords": "Motorsports, tarjeta roja, rojadirecta"
       }
     },
     {
@@ -111,10 +123,22 @@
       }
     },
     {
+      "id": 74,
+      "name": "Volleyball",
+      "slug": "volleyball",
+      "event_count": 7,
+      "always_live": false,
+      "meta": {
+        "title": "Volleyball EN VIVO - Tarjeta Roja TV",
+        "description": "Ver Volleyball en vivo gratis.",
+        "keywords": "Volleyball, tarjeta roja, rojadirecta"
+      }
+    },
+    {
       "id": 38,
       "name": "Wrestling",
       "slug": "wrestling",
-      "event_count": 2,
+      "event_count": 1,
       "always_live": false,
       "meta": {
         "title": "Wrestling EN VIVO - Tarjeta Roja TV",
@@ -136,112 +160,6 @@
     }
   ],
   "events": [
-    {
-      "id": 22996,
-      "slug": "bc-lions-vs-hamilton-tiger-cats",
-      "uri_name": "cfl/2026-06-19/bc-ham",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/cfl/2026-06-19/bc-ham",
-      "meta": {
-        "title": "BC Lions vs. Hamilton Tiger-Cats EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver BC Lions vs. Hamilton Tiger-Cats en vivo gratis por Tarjeta Roja TV. BC Lions vs Hamilton Tiger-Cats transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, BC Lions vs. Hamilton Tiger-Cats, BC Lions, Hamilton Tiger-Cats, American Football, ver online gratis, en vivo gratis, CFL+",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/cfl/2026-06-19/bc-ham",
-        "title": "BC Lions vs. Hamilton Tiger-Cats EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver BC Lions vs. Hamilton Tiger-Cats en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/7759e49d995ae6ec03cdc47e1e31ee2c-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "BC Lions vs. Hamilton Tiger-Cats EN VIVO",
-        "description": "Ver BC Lions vs. Hamilton Tiger-Cats en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/7759e49d995ae6ec03cdc47e1e31ee2c-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "BC Lions vs. Hamilton Tiger-Cats",
-        "description": "Transmisión en vivo de BC Lions vs. Hamilton Tiger-Cats",
-        "startDate": "2026-06-19T23:30:00.000Z",
-        "endDate": "2026-06-20T03:00:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/cfl/2026-06-19/bc-ham"
-        },
-        "image": "https://api.ppv.to/assets/thumb/7759e49d995ae6ec03cdc47e1e31ee2c-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "BC Lions"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Hamilton Tiger-Cats"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "BC Lions"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Hamilton Tiger-Cats"
-        },
-        "sport": "American Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "American Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/american-football"
-          },
-          {
-            "name": "BC Lions vs. Hamilton Tiger-Cats",
-            "url": "https://tarjetarojaenvivo.live/eventos/cfl/2026-06-19/bc-ham"
-          }
-        ],
-        "h1": "BC Lions vs. Hamilton Tiger-Cats EN VIVO",
-        "h2": "Ver BC Lions vs. Hamilton Tiger-Cats Online Gratis"
-      },
-      "event": {
-        "name": "BC Lions vs. Hamilton Tiger-Cats",
-        "category": "American Football",
-        "broadcaster": "CFL+",
-        "start_time": "2026-06-19T23:30:00.000Z",
-        "end_time": "2026-06-20T03:00:00.000Z",
-        "duration_minutes": 210,
-        "status": "live",
-        "viewers": "64",
-        "home_team": "BC Lions",
-        "away_team": "Hamilton Tiger-Cats"
-      },
-      "technical": {
-        "last_modified": "2026-06-20T00:55:50.467Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, BC Lions vs. Hamilton Tiger-Cats, BC Lions"
-      }
-    },
     {
       "id": 23002,
       "slug": "paris-lights-vs-alpine-rams",
@@ -339,7 +257,7 @@
         "away_team": "Alpine Rams"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.467Z",
+        "last_modified": "2026-06-20T07:25:22.504Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -445,7 +363,7 @@
         "away_team": "Ottawa RedBlacks"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.467Z",
+        "last_modified": "2026-06-20T07:25:22.504Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -551,7 +469,7 @@
         "away_team": "Edmonton Elks"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.467Z",
+        "last_modified": "2026-06-20T07:25:22.504Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -652,12 +570,12 @@
         "end_time": "2026-06-21T02:30:00.000Z",
         "duration_minutes": 210,
         "status": "upcoming",
-        "viewers": "1",
+        "viewers": "0",
         "home_team": "Saskatchewan Roughriders",
         "away_team": "Calgary Stampeders"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.467Z",
+        "last_modified": "2026-06-20T07:25:22.505Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -763,7 +681,7 @@
         "away_team": "London Warriors"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.467Z",
+        "last_modified": "2026-06-20T07:25:22.505Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -864,124 +782,18 @@
         "end_time": "2026-06-21T18:40:00.000Z",
         "duration_minutes": 210,
         "status": "upcoming",
-        "viewers": "0",
+        "viewers": "1",
         "home_team": "Berlin Thunder",
         "away_team": "Rhein Fire"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.467Z",
+        "last_modified": "2026-06-20T07:25:22.505Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
         "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Berlin Thunder vs. Rhein Fire, Berlin Thunder"
-      }
-    },
-    {
-      "id": 22876,
-      "slug": "adelaide-crows-vs-melbourne",
-      "uri_name": "afl/2026-06-20/adel-melb",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/afl/2026-06-20/adel-melb",
-      "meta": {
-        "title": "Adelaide Crows vs. Melbourne EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Adelaide Crows vs. Melbourne en vivo gratis por Tarjeta Roja TV. Adelaide Crows vs Melbourne transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Adelaide Crows vs. Melbourne, Adelaide Crows, Melbourne, Australian Football, ver online gratis, en vivo gratis, Fox Footy",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-06-20/adel-melb",
-        "title": "Adelaide Crows vs. Melbourne EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Adelaide Crows vs. Melbourne en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/9ec6670606b2ffe9548010a834ea998e-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Adelaide Crows vs. Melbourne EN VIVO",
-        "description": "Ver Adelaide Crows vs. Melbourne en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/9ec6670606b2ffe9548010a834ea998e-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Adelaide Crows vs. Melbourne",
-        "description": "Transmisión en vivo de Adelaide Crows vs. Melbourne",
-        "startDate": "2026-06-20T03:15:00.000Z",
-        "endDate": "2026-06-20T06:15:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-06-20/adel-melb"
-        },
-        "image": "https://api.ppv.to/assets/thumb/9ec6670606b2ffe9548010a834ea998e-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Adelaide Crows"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Melbourne"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Adelaide Crows"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Melbourne"
-        },
-        "sport": "Australian Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Australian Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/australian-football"
-          },
-          {
-            "name": "Adelaide Crows vs. Melbourne",
-            "url": "https://tarjetarojaenvivo.live/eventos/afl/2026-06-20/adel-melb"
-          }
-        ],
-        "h1": "Adelaide Crows vs. Melbourne EN VIVO",
-        "h2": "Ver Adelaide Crows vs. Melbourne Online Gratis"
-      },
-      "event": {
-        "name": "Adelaide Crows vs. Melbourne",
-        "category": "Australian Football",
-        "broadcaster": "Fox Footy",
-        "start_time": "2026-06-20T03:15:00.000Z",
-        "end_time": "2026-06-20T06:15:00.000Z",
-        "duration_minutes": 180,
-        "status": "upcoming",
-        "viewers": "0",
-        "home_team": "Adelaide Crows",
-        "away_team": "Melbourne"
-      },
-      "technical": {
-        "last_modified": "2026-06-20T00:55:50.467Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Adelaide Crows vs. Melbourne, Adelaide Crows"
       }
     },
     {
@@ -1075,13 +887,13 @@
         "start_time": "2026-06-20T06:15:00.000Z",
         "end_time": "2026-06-20T09:15:00.000Z",
         "duration_minutes": 180,
-        "status": "upcoming",
-        "viewers": "0",
+        "status": "live",
+        "viewers": "119",
         "home_team": "GWS GIANTS",
         "away_team": "Carlton"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.467Z",
+        "last_modified": "2026-06-20T07:25:22.505Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1187,7 +999,7 @@
         "away_team": "Port Adelaide"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.467Z",
+        "last_modified": "2026-06-20T07:25:22.505Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1293,7 +1105,7 @@
         "away_team": "North Melbourne"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.467Z",
+        "last_modified": "2026-06-20T07:25:22.505Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1399,7 +1211,7 @@
         "away_team": "Western Bulldogs"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.467Z",
+        "last_modified": "2026-06-20T07:25:22.505Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1409,10 +1221,10 @@
       }
     },
     {
-      "id": 23305,
+      "id": 23441,
       "slug": "chicago-white-sox-vs-detroit-tigers",
-      "uri_name": "mlb/2026-06-19/chw-det",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/chw-det",
+      "uri_name": "mlb/2026-06-20/chw-det",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/chw-det",
       "meta": {
         "title": "Chicago White Sox vs. Detroit Tigers EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
         "description": "⚽ Ver Chicago White Sox vs. Detroit Tigers en vivo gratis por Tarjeta Roja TV. Chicago White Sox vs Detroit Tigers transmisión en directo.",
@@ -1421,7 +1233,7 @@
       },
       "og": {
         "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/chw-det",
+        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/chw-det",
         "title": "Chicago White Sox vs. Detroit Tigers EN VIVO ⚽ Tarjeta Roja TV",
         "description": "Ver Chicago White Sox vs. Detroit Tigers en vivo gratis.",
         "image": "https://api.ppv.to/assets/thumb/06cec066993770c81ab112f5e54f8e02-thumbnail.jpg",
@@ -1440,13 +1252,13 @@
         "@type": "SportsEvent",
         "name": "Chicago White Sox vs. Detroit Tigers",
         "description": "Transmisión en vivo de Chicago White Sox vs. Detroit Tigers",
-        "startDate": "2026-06-19T22:40:00.000Z",
-        "endDate": "2026-06-20T02:10:00.000Z",
+        "startDate": "2026-06-20T17:10:00.000Z",
+        "endDate": "2026-06-20T20:40:00.000Z",
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
         "location": {
           "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/chw-det"
+          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/chw-det"
         },
         "image": "https://api.ppv.to/assets/thumb/06cec066993770c81ab112f5e54f8e02-thumbnail.jpg",
         "organizer": {
@@ -1486,7 +1298,7 @@
           },
           {
             "name": "Chicago White Sox vs. Detroit Tigers",
-            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/chw-det"
+            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/chw-det"
           }
         ],
         "h1": "Chicago White Sox vs. Detroit Tigers EN VIVO",
@@ -1496,16 +1308,16 @@
         "name": "Chicago White Sox vs. Detroit Tigers",
         "category": "Baseball",
         "broadcaster": "Tigers.TV",
-        "start_time": "2026-06-19T22:40:00.000Z",
-        "end_time": "2026-06-20T02:10:00.000Z",
+        "start_time": "2026-06-20T17:10:00.000Z",
+        "end_time": "2026-06-20T20:40:00.000Z",
         "duration_minutes": 210,
-        "status": "live",
-        "viewers": "252",
+        "status": "upcoming",
+        "viewers": "0",
         "home_team": "Chicago White Sox",
         "away_team": "Detroit Tigers"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.468Z",
+        "last_modified": "2026-06-20T07:25:22.505Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1515,10 +1327,10 @@
       }
     },
     {
-      "id": 23306,
+      "id": 23442,
       "slug": "cincinnati-reds-vs-new-york-yankees",
-      "uri_name": "mlb/2026-06-19/cin-nyy",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/cin-nyy",
+      "uri_name": "mlb/2026-06-20/cin-nyy",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/cin-nyy",
       "meta": {
         "title": "Cincinnati Reds vs. New York Yankees EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
         "description": "⚽ Ver Cincinnati Reds vs. New York Yankees en vivo gratis por Tarjeta Roja TV. Cincinnati Reds vs New York Yankees transmisión en directo.",
@@ -1527,7 +1339,7 @@
       },
       "og": {
         "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/cin-nyy",
+        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/cin-nyy",
         "title": "Cincinnati Reds vs. New York Yankees EN VIVO ⚽ Tarjeta Roja TV",
         "description": "Ver Cincinnati Reds vs. New York Yankees en vivo gratis.",
         "image": "https://api.ppv.to/assets/thumb/ecdf1f8a51ff5bde46ef6291bb047a9e-thumbnail.jpg",
@@ -1546,13 +1358,13 @@
         "@type": "SportsEvent",
         "name": "Cincinnati Reds vs. New York Yankees",
         "description": "Transmisión en vivo de Cincinnati Reds vs. New York Yankees",
-        "startDate": "2026-06-19T23:05:00.000Z",
-        "endDate": "2026-06-20T02:35:00.000Z",
+        "startDate": "2026-06-20T17:35:00.000Z",
+        "endDate": "2026-06-20T21:05:00.000Z",
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
         "location": {
           "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/cin-nyy"
+          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/cin-nyy"
         },
         "image": "https://api.ppv.to/assets/thumb/ecdf1f8a51ff5bde46ef6291bb047a9e-thumbnail.jpg",
         "organizer": {
@@ -1592,7 +1404,7 @@
           },
           {
             "name": "Cincinnati Reds vs. New York Yankees",
-            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/cin-nyy"
+            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/cin-nyy"
           }
         ],
         "h1": "Cincinnati Reds vs. New York Yankees EN VIVO",
@@ -1602,16 +1414,16 @@
         "name": "Cincinnati Reds vs. New York Yankees",
         "category": "Baseball",
         "broadcaster": "YES",
-        "start_time": "2026-06-19T23:05:00.000Z",
-        "end_time": "2026-06-20T02:35:00.000Z",
+        "start_time": "2026-06-20T17:35:00.000Z",
+        "end_time": "2026-06-20T21:05:00.000Z",
         "duration_minutes": 210,
-        "status": "live",
-        "viewers": "257",
+        "status": "upcoming",
+        "viewers": "0",
         "home_team": "Cincinnati Reds",
         "away_team": "New York Yankees"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.468Z",
+        "last_modified": "2026-06-20T07:25:22.505Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -1621,46 +1433,46 @@
       }
     },
     {
-      "id": 23307,
-      "slug": "san-francisco-giants-vs-miami-marlins",
-      "uri_name": "mlb/2026-06-19/sf-mia",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/sf-mia",
+      "id": 23443,
+      "slug": "toronto-blue-jays-vs-chicago-cubs",
+      "uri_name": "mlb/2026-06-20/tor-chc",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/tor-chc",
       "meta": {
-        "title": "San Francisco Giants vs. Miami Marlins EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver San Francisco Giants vs. Miami Marlins en vivo gratis por Tarjeta Roja TV. San Francisco Giants vs Miami Marlins transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, San Francisco Giants vs. Miami Marlins, San Francisco Giants, Miami Marlins, Baseball, ver online gratis, en vivo gratis, Marlins.TV",
+        "title": "Toronto Blue Jays vs. Chicago Cubs EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Toronto Blue Jays vs. Chicago Cubs en vivo gratis por Tarjeta Roja TV. Toronto Blue Jays vs Chicago Cubs transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Toronto Blue Jays vs. Chicago Cubs, Toronto Blue Jays, Chicago Cubs, Baseball, ver online gratis, en vivo gratis, Marquee Sports Net",
         "robots": "index, follow"
       },
       "og": {
         "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/sf-mia",
-        "title": "San Francisco Giants vs. Miami Marlins EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver San Francisco Giants vs. Miami Marlins en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/7d5c93e7d0a516e7a2af857c594282af-thumbnail.jpg",
+        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/tor-chc",
+        "title": "Toronto Blue Jays vs. Chicago Cubs EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Toronto Blue Jays vs. Chicago Cubs en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/763a9528aa8d96bde7e04136136cee12-thumbnail.jpg",
         "site_name": "Tarjeta Roja En Vivo",
         "locale": "es_ES"
       },
       "twitter": {
         "card": "summary_large_image",
         "site": "@tarjetarojatvs",
-        "title": "San Francisco Giants vs. Miami Marlins EN VIVO",
-        "description": "Ver San Francisco Giants vs. Miami Marlins en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/7d5c93e7d0a516e7a2af857c594282af-thumbnail.jpg"
+        "title": "Toronto Blue Jays vs. Chicago Cubs EN VIVO",
+        "description": "Ver Toronto Blue Jays vs. Chicago Cubs en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/763a9528aa8d96bde7e04136136cee12-thumbnail.jpg"
       },
       "schema": {
         "@context": "https://schema.org",
         "@type": "SportsEvent",
-        "name": "San Francisco Giants vs. Miami Marlins",
-        "description": "Transmisión en vivo de San Francisco Giants vs. Miami Marlins",
-        "startDate": "2026-06-19T23:10:00.000Z",
-        "endDate": "2026-06-20T02:40:00.000Z",
+        "name": "Toronto Blue Jays vs. Chicago Cubs",
+        "description": "Transmisión en vivo de Toronto Blue Jays vs. Chicago Cubs",
+        "startDate": "2026-06-20T18:20:00.000Z",
+        "endDate": "2026-06-20T21:50:00.000Z",
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
         "location": {
           "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/sf-mia"
+          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/tor-chc"
         },
-        "image": "https://api.ppv.to/assets/thumb/7d5c93e7d0a516e7a2af857c594282af-thumbnail.jpg",
+        "image": "https://api.ppv.to/assets/thumb/763a9528aa8d96bde7e04136136cee12-thumbnail.jpg",
         "organizer": {
           "@type": "Organization",
           "name": "Tarjeta Roja En Vivo",
@@ -1669,20 +1481,20 @@
         "competitor": [
           {
             "@type": "SportsTeam",
-            "name": "San Francisco Giants"
+            "name": "Toronto Blue Jays"
           },
           {
             "@type": "SportsTeam",
-            "name": "Miami Marlins"
+            "name": "Chicago Cubs"
           }
         ],
         "homeTeam": {
           "@type": "SportsTeam",
-          "name": "San Francisco Giants"
+          "name": "Toronto Blue Jays"
         },
         "awayTeam": {
           "@type": "SportsTeam",
-          "name": "Miami Marlins"
+          "name": "Chicago Cubs"
         },
         "sport": "Baseball"
       },
@@ -1697,252 +1509,40 @@
             "url": "https://tarjetarojaenvivo.live/categoria/baseball"
           },
           {
-            "name": "San Francisco Giants vs. Miami Marlins",
-            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/sf-mia"
+            "name": "Toronto Blue Jays vs. Chicago Cubs",
+            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/tor-chc"
           }
         ],
-        "h1": "San Francisco Giants vs. Miami Marlins EN VIVO",
-        "h2": "Ver San Francisco Giants vs. Miami Marlins Online Gratis"
+        "h1": "Toronto Blue Jays vs. Chicago Cubs EN VIVO",
+        "h2": "Ver Toronto Blue Jays vs. Chicago Cubs Online Gratis"
       },
       "event": {
-        "name": "San Francisco Giants vs. Miami Marlins",
+        "name": "Toronto Blue Jays vs. Chicago Cubs",
         "category": "Baseball",
-        "broadcaster": "Marlins.TV",
-        "start_time": "2026-06-19T23:10:00.000Z",
-        "end_time": "2026-06-20T02:40:00.000Z",
+        "broadcaster": "Marquee Sports Net",
+        "start_time": "2026-06-20T18:20:00.000Z",
+        "end_time": "2026-06-20T21:50:00.000Z",
         "duration_minutes": 210,
-        "status": "live",
-        "viewers": "103",
-        "home_team": "San Francisco Giants",
-        "away_team": "Miami Marlins"
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Toronto Blue Jays",
+        "away_team": "Chicago Cubs"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.468Z",
+        "last_modified": "2026-06-20T07:25:22.505Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, San Francisco Giants vs. Miami Marlins, San Francisco Giants"
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Toronto Blue Jays vs. Chicago Cubs, Toronto Blue Jays"
       }
     },
     {
-      "id": 23308,
-      "slug": "washington-nationals-vs-tampa-bay-rays",
-      "uri_name": "mlb/2026-06-19/wsh-tb",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/wsh-tb",
-      "meta": {
-        "title": "Washington Nationals vs. Tampa Bay Rays EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Washington Nationals vs. Tampa Bay Rays en vivo gratis por Tarjeta Roja TV. Washington Nationals vs Tampa Bay Rays transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Washington Nationals vs. Tampa Bay Rays, Washington Nationals, Tampa Bay Rays, Baseball, ver online gratis, en vivo gratis, Rays.TV",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/wsh-tb",
-        "title": "Washington Nationals vs. Tampa Bay Rays EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Washington Nationals vs. Tampa Bay Rays en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/e8410e69102f710645ed14f84aaf270e-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Washington Nationals vs. Tampa Bay Rays EN VIVO",
-        "description": "Ver Washington Nationals vs. Tampa Bay Rays en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/e8410e69102f710645ed14f84aaf270e-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Washington Nationals vs. Tampa Bay Rays",
-        "description": "Transmisión en vivo de Washington Nationals vs. Tampa Bay Rays",
-        "startDate": "2026-06-19T23:10:00.000Z",
-        "endDate": "2026-06-20T02:40:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/wsh-tb"
-        },
-        "image": "https://api.ppv.to/assets/thumb/e8410e69102f710645ed14f84aaf270e-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Washington Nationals"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Tampa Bay Rays"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Washington Nationals"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Tampa Bay Rays"
-        },
-        "sport": "Baseball"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Baseball",
-            "url": "https://tarjetarojaenvivo.live/categoria/baseball"
-          },
-          {
-            "name": "Washington Nationals vs. Tampa Bay Rays",
-            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/wsh-tb"
-          }
-        ],
-        "h1": "Washington Nationals vs. Tampa Bay Rays EN VIVO",
-        "h2": "Ver Washington Nationals vs. Tampa Bay Rays Online Gratis"
-      },
-      "event": {
-        "name": "Washington Nationals vs. Tampa Bay Rays",
-        "category": "Baseball",
-        "broadcaster": "Rays.TV",
-        "start_time": "2026-06-19T23:10:00.000Z",
-        "end_time": "2026-06-20T02:40:00.000Z",
-        "duration_minutes": 210,
-        "status": "live",
-        "viewers": "66",
-        "home_team": "Washington Nationals",
-        "away_team": "Tampa Bay Rays"
-      },
-      "technical": {
-        "last_modified": "2026-06-20T00:55:50.468Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Washington Nationals vs. Tampa Bay Rays, Washington Nationals"
-      }
-    },
-    {
-      "id": 23309,
-      "slug": "milwaukee-brewers-vs-atlanta-braves",
-      "uri_name": "mlb/2026-06-19/mil-atl",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/mil-atl",
-      "meta": {
-        "title": "Milwaukee Brewers vs. Atlanta Braves EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Milwaukee Brewers vs. Atlanta Braves en vivo gratis por Tarjeta Roja TV. Milwaukee Brewers vs Atlanta Braves transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Milwaukee Brewers vs. Atlanta Braves, Milwaukee Brewers, Atlanta Braves, Baseball, ver online gratis, en vivo gratis, BravesVision",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/mil-atl",
-        "title": "Milwaukee Brewers vs. Atlanta Braves EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Milwaukee Brewers vs. Atlanta Braves en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/2f97b69669cd7fb3bf4d346eb4f19334-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Milwaukee Brewers vs. Atlanta Braves EN VIVO",
-        "description": "Ver Milwaukee Brewers vs. Atlanta Braves en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/2f97b69669cd7fb3bf4d346eb4f19334-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Milwaukee Brewers vs. Atlanta Braves",
-        "description": "Transmisión en vivo de Milwaukee Brewers vs. Atlanta Braves",
-        "startDate": "2026-06-19T23:15:00.000Z",
-        "endDate": "2026-06-20T02:45:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/mil-atl"
-        },
-        "image": "https://api.ppv.to/assets/thumb/2f97b69669cd7fb3bf4d346eb4f19334-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Milwaukee Brewers"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Atlanta Braves"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Milwaukee Brewers"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Atlanta Braves"
-        },
-        "sport": "Baseball"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Baseball",
-            "url": "https://tarjetarojaenvivo.live/categoria/baseball"
-          },
-          {
-            "name": "Milwaukee Brewers vs. Atlanta Braves",
-            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/mil-atl"
-          }
-        ],
-        "h1": "Milwaukee Brewers vs. Atlanta Braves EN VIVO",
-        "h2": "Ver Milwaukee Brewers vs. Atlanta Braves Online Gratis"
-      },
-      "event": {
-        "name": "Milwaukee Brewers vs. Atlanta Braves",
-        "category": "Baseball",
-        "broadcaster": "BravesVision",
-        "start_time": "2026-06-19T23:15:00.000Z",
-        "end_time": "2026-06-20T02:45:00.000Z",
-        "duration_minutes": 210,
-        "status": "live",
-        "viewers": "301",
-        "home_team": "Milwaukee Brewers",
-        "away_team": "Atlanta Braves"
-      },
-      "technical": {
-        "last_modified": "2026-06-20T00:55:50.468Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Milwaukee Brewers vs. Atlanta Braves, Milwaukee Brewers"
-      }
-    },
-    {
-      "id": 23310,
+      "id": 23444,
       "slug": "san-diego-padres-vs-texas-rangers",
-      "uri_name": "mlb/2026-06-19/sd-tex",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/sd-tex",
+      "uri_name": "mlb/2026-06-20/sd-tex",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/sd-tex",
       "meta": {
         "title": "San Diego Padres vs. Texas Rangers EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
         "description": "⚽ Ver San Diego Padres vs. Texas Rangers en vivo gratis por Tarjeta Roja TV. San Diego Padres vs Texas Rangers transmisión en directo.",
@@ -1951,7 +1551,7 @@
       },
       "og": {
         "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/sd-tex",
+        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/sd-tex",
         "title": "San Diego Padres vs. Texas Rangers EN VIVO ⚽ Tarjeta Roja TV",
         "description": "Ver San Diego Padres vs. Texas Rangers en vivo gratis.",
         "image": "https://api.ppv.to/assets/thumb/86c51b0095c76e5125e2ba00ff4d5020-thumbnail.jpg",
@@ -1970,13 +1570,13 @@
         "@type": "SportsEvent",
         "name": "San Diego Padres vs. Texas Rangers",
         "description": "Transmisión en vivo de San Diego Padres vs. Texas Rangers",
-        "startDate": "2026-06-20T00:05:00.000Z",
-        "endDate": "2026-06-20T03:35:00.000Z",
+        "startDate": "2026-06-20T20:05:00.000Z",
+        "endDate": "2026-06-20T23:35:00.000Z",
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
         "location": {
           "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/sd-tex"
+          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/sd-tex"
         },
         "image": "https://api.ppv.to/assets/thumb/86c51b0095c76e5125e2ba00ff4d5020-thumbnail.jpg",
         "organizer": {
@@ -2016,7 +1616,7 @@
           },
           {
             "name": "San Diego Padres vs. Texas Rangers",
-            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/sd-tex"
+            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/sd-tex"
           }
         ],
         "h1": "San Diego Padres vs. Texas Rangers EN VIVO",
@@ -2026,16 +1626,16 @@
         "name": "San Diego Padres vs. Texas Rangers",
         "category": "Baseball",
         "broadcaster": "Rangers Sports Network",
-        "start_time": "2026-06-20T00:05:00.000Z",
-        "end_time": "2026-06-20T03:35:00.000Z",
+        "start_time": "2026-06-20T20:05:00.000Z",
+        "end_time": "2026-06-20T23:35:00.000Z",
         "duration_minutes": 210,
-        "status": "live",
-        "viewers": "106",
+        "status": "upcoming",
+        "viewers": "0",
         "home_team": "San Diego Padres",
         "away_team": "Texas Rangers"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.468Z",
+        "last_modified": "2026-06-20T07:25:22.505Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2045,19 +1645,443 @@
       }
     },
     {
-      "id": 23311,
-      "slug": "cleveland-guardians-vs-houston-astros",
-      "uri_name": "mlb/2026-06-19/cle-hou",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/cle-hou",
+      "id": 23445,
+      "slug": "milwaukee-brewers-vs-atlanta-braves",
+      "uri_name": "mlb/2026-06-20/mil-atl",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/mil-atl",
       "meta": {
-        "title": "Cleveland Guardians vs. Houston Astros EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Cleveland Guardians vs. Houston Astros en vivo gratis por Tarjeta Roja TV. Cleveland Guardians vs Houston Astros transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Cleveland Guardians vs. Houston Astros, Cleveland Guardians, Houston Astros, Baseball, ver online gratis, en vivo gratis, Space City Home Network",
+        "title": "Milwaukee Brewers vs. Atlanta Braves EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Milwaukee Brewers vs. Atlanta Braves en vivo gratis por Tarjeta Roja TV. Milwaukee Brewers vs Atlanta Braves transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Milwaukee Brewers vs. Atlanta Braves, Milwaukee Brewers, Atlanta Braves, Baseball, ver online gratis, en vivo gratis, BravesVision",
         "robots": "index, follow"
       },
       "og": {
         "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/cle-hou",
+        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/mil-atl",
+        "title": "Milwaukee Brewers vs. Atlanta Braves EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Milwaukee Brewers vs. Atlanta Braves en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/2f97b69669cd7fb3bf4d346eb4f19334-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Milwaukee Brewers vs. Atlanta Braves EN VIVO",
+        "description": "Ver Milwaukee Brewers vs. Atlanta Braves en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/2f97b69669cd7fb3bf4d346eb4f19334-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Milwaukee Brewers vs. Atlanta Braves",
+        "description": "Transmisión en vivo de Milwaukee Brewers vs. Atlanta Braves",
+        "startDate": "2026-06-20T20:10:00.000Z",
+        "endDate": "2026-06-20T23:40:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/mil-atl"
+        },
+        "image": "https://api.ppv.to/assets/thumb/2f97b69669cd7fb3bf4d346eb4f19334-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Milwaukee Brewers"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Atlanta Braves"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Milwaukee Brewers"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Atlanta Braves"
+        },
+        "sport": "Baseball"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Baseball",
+            "url": "https://tarjetarojaenvivo.live/categoria/baseball"
+          },
+          {
+            "name": "Milwaukee Brewers vs. Atlanta Braves",
+            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/mil-atl"
+          }
+        ],
+        "h1": "Milwaukee Brewers vs. Atlanta Braves EN VIVO",
+        "h2": "Ver Milwaukee Brewers vs. Atlanta Braves Online Gratis"
+      },
+      "event": {
+        "name": "Milwaukee Brewers vs. Atlanta Braves",
+        "category": "Baseball",
+        "broadcaster": "BravesVision",
+        "start_time": "2026-06-20T20:10:00.000Z",
+        "end_time": "2026-06-20T23:40:00.000Z",
+        "duration_minutes": 210,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Milwaukee Brewers",
+        "away_team": "Atlanta Braves"
+      },
+      "technical": {
+        "last_modified": "2026-06-20T07:25:22.505Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Milwaukee Brewers vs. Atlanta Braves, Milwaukee Brewers"
+      }
+    },
+    {
+      "id": 23446,
+      "slug": "san-francisco-giants-vs-miami-marlins",
+      "uri_name": "mlb/2026-06-20/sf-mia",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/sf-mia",
+      "meta": {
+        "title": "San Francisco Giants vs. Miami Marlins EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver San Francisco Giants vs. Miami Marlins en vivo gratis por Tarjeta Roja TV. San Francisco Giants vs Miami Marlins transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, San Francisco Giants vs. Miami Marlins, San Francisco Giants, Miami Marlins, Baseball, ver online gratis, en vivo gratis, Marlins.TV",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/sf-mia",
+        "title": "San Francisco Giants vs. Miami Marlins EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver San Francisco Giants vs. Miami Marlins en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/7d5c93e7d0a516e7a2af857c594282af-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "San Francisco Giants vs. Miami Marlins EN VIVO",
+        "description": "Ver San Francisco Giants vs. Miami Marlins en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/7d5c93e7d0a516e7a2af857c594282af-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "San Francisco Giants vs. Miami Marlins",
+        "description": "Transmisión en vivo de San Francisco Giants vs. Miami Marlins",
+        "startDate": "2026-06-20T20:10:00.000Z",
+        "endDate": "2026-06-20T23:40:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/sf-mia"
+        },
+        "image": "https://api.ppv.to/assets/thumb/7d5c93e7d0a516e7a2af857c594282af-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "San Francisco Giants"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Miami Marlins"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "San Francisco Giants"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Miami Marlins"
+        },
+        "sport": "Baseball"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Baseball",
+            "url": "https://tarjetarojaenvivo.live/categoria/baseball"
+          },
+          {
+            "name": "San Francisco Giants vs. Miami Marlins",
+            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/sf-mia"
+          }
+        ],
+        "h1": "San Francisco Giants vs. Miami Marlins EN VIVO",
+        "h2": "Ver San Francisco Giants vs. Miami Marlins Online Gratis"
+      },
+      "event": {
+        "name": "San Francisco Giants vs. Miami Marlins",
+        "category": "Baseball",
+        "broadcaster": "Marlins.TV",
+        "start_time": "2026-06-20T20:10:00.000Z",
+        "end_time": "2026-06-20T23:40:00.000Z",
+        "duration_minutes": 210,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "San Francisco Giants",
+        "away_team": "Miami Marlins"
+      },
+      "technical": {
+        "last_modified": "2026-06-20T07:25:22.505Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, San Francisco Giants vs. Miami Marlins, San Francisco Giants"
+      }
+    },
+    {
+      "id": 23447,
+      "slug": "washington-nationals-vs-tampa-bay-rays",
+      "uri_name": "mlb/2026-06-20/wsh-tb",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/wsh-tb",
+      "meta": {
+        "title": "Washington Nationals vs. Tampa Bay Rays EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Washington Nationals vs. Tampa Bay Rays en vivo gratis por Tarjeta Roja TV. Washington Nationals vs Tampa Bay Rays transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Washington Nationals vs. Tampa Bay Rays, Washington Nationals, Tampa Bay Rays, Baseball, ver online gratis, en vivo gratis, Rays.TV",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/wsh-tb",
+        "title": "Washington Nationals vs. Tampa Bay Rays EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Washington Nationals vs. Tampa Bay Rays en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/e8410e69102f710645ed14f84aaf270e-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Washington Nationals vs. Tampa Bay Rays EN VIVO",
+        "description": "Ver Washington Nationals vs. Tampa Bay Rays en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/e8410e69102f710645ed14f84aaf270e-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Washington Nationals vs. Tampa Bay Rays",
+        "description": "Transmisión en vivo de Washington Nationals vs. Tampa Bay Rays",
+        "startDate": "2026-06-20T20:10:00.000Z",
+        "endDate": "2026-06-20T23:40:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/wsh-tb"
+        },
+        "image": "https://api.ppv.to/assets/thumb/e8410e69102f710645ed14f84aaf270e-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Washington Nationals"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Tampa Bay Rays"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Washington Nationals"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Tampa Bay Rays"
+        },
+        "sport": "Baseball"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Baseball",
+            "url": "https://tarjetarojaenvivo.live/categoria/baseball"
+          },
+          {
+            "name": "Washington Nationals vs. Tampa Bay Rays",
+            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/wsh-tb"
+          }
+        ],
+        "h1": "Washington Nationals vs. Tampa Bay Rays EN VIVO",
+        "h2": "Ver Washington Nationals vs. Tampa Bay Rays Online Gratis"
+      },
+      "event": {
+        "name": "Washington Nationals vs. Tampa Bay Rays",
+        "category": "Baseball",
+        "broadcaster": "Rays.TV",
+        "start_time": "2026-06-20T20:10:00.000Z",
+        "end_time": "2026-06-20T23:40:00.000Z",
+        "duration_minutes": 210,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Washington Nationals",
+        "away_team": "Tampa Bay Rays"
+      },
+      "technical": {
+        "last_modified": "2026-06-20T07:25:22.505Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Washington Nationals vs. Tampa Bay Rays, Washington Nationals"
+      }
+    },
+    {
+      "id": 23448,
+      "slug": "new-york-mets-vs-philadelphia-phillies",
+      "uri_name": "mlb/2026-06-20/nym-phi",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/nym-phi",
+      "meta": {
+        "title": "New York Mets vs. Philadelphia Phillies EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver New York Mets vs. Philadelphia Phillies en vivo gratis por Tarjeta Roja TV. New York Mets vs Philadelphia Phillies transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, New York Mets vs. Philadelphia Phillies, New York Mets, Philadelphia Phillies, Baseball, ver online gratis, en vivo gratis, MLB.TV",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/nym-phi",
+        "title": "New York Mets vs. Philadelphia Phillies EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver New York Mets vs. Philadelphia Phillies en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/d394e4f61515e10b48d37f904cc7fcfd-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "New York Mets vs. Philadelphia Phillies EN VIVO",
+        "description": "Ver New York Mets vs. Philadelphia Phillies en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/d394e4f61515e10b48d37f904cc7fcfd-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "New York Mets vs. Philadelphia Phillies",
+        "description": "Transmisión en vivo de New York Mets vs. Philadelphia Phillies",
+        "startDate": "2026-06-20T23:15:00.000Z",
+        "endDate": "2026-06-21T02:45:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/nym-phi"
+        },
+        "image": "https://api.ppv.to/assets/thumb/d394e4f61515e10b48d37f904cc7fcfd-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "New York Mets"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Philadelphia Phillies"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "New York Mets"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Philadelphia Phillies"
+        },
+        "sport": "Baseball"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Baseball",
+            "url": "https://tarjetarojaenvivo.live/categoria/baseball"
+          },
+          {
+            "name": "New York Mets vs. Philadelphia Phillies",
+            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/nym-phi"
+          }
+        ],
+        "h1": "New York Mets vs. Philadelphia Phillies EN VIVO",
+        "h2": "Ver New York Mets vs. Philadelphia Phillies Online Gratis"
+      },
+      "event": {
+        "name": "New York Mets vs. Philadelphia Phillies",
+        "category": "Baseball",
+        "broadcaster": "MLB.TV",
+        "start_time": "2026-06-20T23:15:00.000Z",
+        "end_time": "2026-06-21T02:45:00.000Z",
+        "duration_minutes": 210,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "New York Mets",
+        "away_team": "Philadelphia Phillies"
+      },
+      "technical": {
+        "last_modified": "2026-06-20T07:25:22.505Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, New York Mets vs. Philadelphia Phillies, New York Mets"
+      }
+    },
+    {
+      "id": 23449,
+      "slug": "cleveland-guardians-vs-houston-astros",
+      "uri_name": "mlb/2026-06-20/cle-hou",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/cle-hou",
+      "meta": {
+        "title": "Cleveland Guardians vs. Houston Astros EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Cleveland Guardians vs. Houston Astros en vivo gratis por Tarjeta Roja TV. Cleveland Guardians vs Houston Astros transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Cleveland Guardians vs. Houston Astros, Cleveland Guardians, Houston Astros, Baseball, ver online gratis, en vivo gratis, MLB.TV",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/cle-hou",
         "title": "Cleveland Guardians vs. Houston Astros EN VIVO ⚽ Tarjeta Roja TV",
         "description": "Ver Cleveland Guardians vs. Houston Astros en vivo gratis.",
         "image": "https://api.ppv.to/assets/thumb/6e82030998e177b0e85a1a6d6d6d9962-thumbnail.jpg",
@@ -2076,13 +2100,13 @@
         "@type": "SportsEvent",
         "name": "Cleveland Guardians vs. Houston Astros",
         "description": "Transmisión en vivo de Cleveland Guardians vs. Houston Astros",
-        "startDate": "2026-06-20T00:10:00.000Z",
-        "endDate": "2026-06-20T03:40:00.000Z",
+        "startDate": "2026-06-20T23:15:00.000Z",
+        "endDate": "2026-06-21T02:45:00.000Z",
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
         "location": {
           "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/cle-hou"
+          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/cle-hou"
         },
         "image": "https://api.ppv.to/assets/thumb/6e82030998e177b0e85a1a6d6d6d9962-thumbnail.jpg",
         "organizer": {
@@ -2122,7 +2146,7 @@
           },
           {
             "name": "Cleveland Guardians vs. Houston Astros",
-            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/cle-hou"
+            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/cle-hou"
           }
         ],
         "h1": "Cleveland Guardians vs. Houston Astros EN VIVO",
@@ -2131,17 +2155,17 @@
       "event": {
         "name": "Cleveland Guardians vs. Houston Astros",
         "category": "Baseball",
-        "broadcaster": "Space City Home Network",
-        "start_time": "2026-06-20T00:10:00.000Z",
-        "end_time": "2026-06-20T03:40:00.000Z",
+        "broadcaster": "MLB.TV",
+        "start_time": "2026-06-20T23:15:00.000Z",
+        "end_time": "2026-06-21T02:45:00.000Z",
         "duration_minutes": 210,
-        "status": "live",
-        "viewers": "70",
+        "status": "upcoming",
+        "viewers": "0",
         "home_team": "Cleveland Guardians",
         "away_team": "Houston Astros"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.468Z",
+        "last_modified": "2026-06-20T07:25:22.505Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2151,116 +2175,10 @@
       }
     },
     {
-      "id": 23312,
-      "slug": "st-louis-cardinals-vs-kansas-city-royals",
-      "uri_name": "mlb/2026-06-19/stl-kc",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/stl-kc",
-      "meta": {
-        "title": "St. Louis Cardinals vs. Kansas City Royals EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver St. Louis Cardinals vs. Kansas City Royals en vivo gratis por Tarjeta Roja TV. St. Louis Cardinals vs Kansas City Royals transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, St. Louis Cardinals vs. Kansas City Royals, St. Louis Cardinals, Kansas City Royals, Baseball, ver online gratis, en vivo gratis, Apple TV",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/stl-kc",
-        "title": "St. Louis Cardinals vs. Kansas City Royals EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver St. Louis Cardinals vs. Kansas City Royals en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/0739848adc9ffec5dbca3083dd1e1d3d-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "St. Louis Cardinals vs. Kansas City Royals EN VIVO",
-        "description": "Ver St. Louis Cardinals vs. Kansas City Royals en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/0739848adc9ffec5dbca3083dd1e1d3d-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "St. Louis Cardinals vs. Kansas City Royals",
-        "description": "Transmisión en vivo de St. Louis Cardinals vs. Kansas City Royals",
-        "startDate": "2026-06-20T00:15:00.000Z",
-        "endDate": "2026-06-20T03:45:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/stl-kc"
-        },
-        "image": "https://api.ppv.to/assets/thumb/0739848adc9ffec5dbca3083dd1e1d3d-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "St. Louis Cardinals"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Kansas City Royals"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "St. Louis Cardinals"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Kansas City Royals"
-        },
-        "sport": "Baseball"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Baseball",
-            "url": "https://tarjetarojaenvivo.live/categoria/baseball"
-          },
-          {
-            "name": "St. Louis Cardinals vs. Kansas City Royals",
-            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/stl-kc"
-          }
-        ],
-        "h1": "St. Louis Cardinals vs. Kansas City Royals EN VIVO",
-        "h2": "Ver St. Louis Cardinals vs. Kansas City Royals Online Gratis"
-      },
-      "event": {
-        "name": "St. Louis Cardinals vs. Kansas City Royals",
-        "category": "Baseball",
-        "broadcaster": "Apple TV",
-        "start_time": "2026-06-20T00:15:00.000Z",
-        "end_time": "2026-06-20T03:45:00.000Z",
-        "duration_minutes": 210,
-        "status": "live",
-        "viewers": "33",
-        "home_team": "St. Louis Cardinals",
-        "away_team": "Kansas City Royals"
-      },
-      "technical": {
-        "last_modified": "2026-06-20T00:55:50.468Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, St. Louis Cardinals vs. Kansas City Royals, St. Louis Cardinals"
-      }
-    },
-    {
-      "id": 23313,
+      "id": 23450,
       "slug": "pittsburgh-pirates-vs-colorado-rockies",
-      "uri_name": "mlb/2026-06-19/pit-col",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/pit-col",
+      "uri_name": "mlb/2026-06-20/pit-col",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/pit-col",
       "meta": {
         "title": "Pittsburgh Pirates vs. Colorado Rockies EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
         "description": "⚽ Ver Pittsburgh Pirates vs. Colorado Rockies en vivo gratis por Tarjeta Roja TV. Pittsburgh Pirates vs Colorado Rockies transmisión en directo.",
@@ -2269,7 +2187,7 @@
       },
       "og": {
         "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/pit-col",
+        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/pit-col",
         "title": "Pittsburgh Pirates vs. Colorado Rockies EN VIVO ⚽ Tarjeta Roja TV",
         "description": "Ver Pittsburgh Pirates vs. Colorado Rockies en vivo gratis.",
         "image": "https://api.ppv.to/assets/thumb/8ac078f08b2afdc08721512da99232ef-thumbnail.jpg",
@@ -2288,13 +2206,13 @@
         "@type": "SportsEvent",
         "name": "Pittsburgh Pirates vs. Colorado Rockies",
         "description": "Transmisión en vivo de Pittsburgh Pirates vs. Colorado Rockies",
-        "startDate": "2026-06-20T00:40:00.000Z",
-        "endDate": "2026-06-20T04:10:00.000Z",
+        "startDate": "2026-06-21T01:10:00.000Z",
+        "endDate": "2026-06-21T04:40:00.000Z",
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
         "location": {
           "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/pit-col"
+          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/pit-col"
         },
         "image": "https://api.ppv.to/assets/thumb/8ac078f08b2afdc08721512da99232ef-thumbnail.jpg",
         "organizer": {
@@ -2334,7 +2252,7 @@
           },
           {
             "name": "Pittsburgh Pirates vs. Colorado Rockies",
-            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/pit-col"
+            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/pit-col"
           }
         ],
         "h1": "Pittsburgh Pirates vs. Colorado Rockies EN VIVO",
@@ -2344,16 +2262,16 @@
         "name": "Pittsburgh Pirates vs. Colorado Rockies",
         "category": "Baseball",
         "broadcaster": "Rockies.TV",
-        "start_time": "2026-06-20T00:40:00.000Z",
-        "end_time": "2026-06-20T04:10:00.000Z",
+        "start_time": "2026-06-21T01:10:00.000Z",
+        "end_time": "2026-06-21T04:40:00.000Z",
         "duration_minutes": 210,
-        "status": "live",
-        "viewers": "11",
+        "status": "upcoming",
+        "viewers": "0",
         "home_team": "Pittsburgh Pirates",
         "away_team": "Colorado Rockies"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.468Z",
+        "last_modified": "2026-06-20T07:25:22.505Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2363,10 +2281,10 @@
       }
     },
     {
-      "id": 23314,
+      "id": 23451,
       "slug": "los-angeles-angels-vs-athletics",
-      "uri_name": "mlb/2026-06-19/laa-ath",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/laa-ath",
+      "uri_name": "mlb/2026-06-20/laa-ath",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/laa-ath",
       "meta": {
         "title": "Los Angeles Angels vs. Athletics EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
         "description": "⚽ Ver Los Angeles Angels vs. Athletics en vivo gratis por Tarjeta Roja TV. Los Angeles Angels vs Athletics transmisión en directo.",
@@ -2375,7 +2293,7 @@
       },
       "og": {
         "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/laa-ath",
+        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/laa-ath",
         "title": "Los Angeles Angels vs. Athletics EN VIVO ⚽ Tarjeta Roja TV",
         "description": "Ver Los Angeles Angels vs. Athletics en vivo gratis.",
         "image": "https://api.ppv.to/assets/thumb/e8cc687540db7b4862b162bee6fa5aec-thumbnail.jpg",
@@ -2394,13 +2312,13 @@
         "@type": "SportsEvent",
         "name": "Los Angeles Angels vs. Athletics",
         "description": "Transmisión en vivo de Los Angeles Angels vs. Athletics",
-        "startDate": "2026-06-20T01:40:00.000Z",
-        "endDate": "2026-06-20T05:10:00.000Z",
+        "startDate": "2026-06-21T02:05:00.000Z",
+        "endDate": "2026-06-21T05:35:00.000Z",
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
         "location": {
           "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/laa-ath"
+          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/laa-ath"
         },
         "image": "https://api.ppv.to/assets/thumb/e8cc687540db7b4862b162bee6fa5aec-thumbnail.jpg",
         "organizer": {
@@ -2440,7 +2358,7 @@
           },
           {
             "name": "Los Angeles Angels vs. Athletics",
-            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/laa-ath"
+            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/laa-ath"
           }
         ],
         "h1": "Los Angeles Angels vs. Athletics EN VIVO",
@@ -2450,8 +2368,8 @@
         "name": "Los Angeles Angels vs. Athletics",
         "category": "Baseball",
         "broadcaster": "NBC Sports CA",
-        "start_time": "2026-06-20T01:40:00.000Z",
-        "end_time": "2026-06-20T05:10:00.000Z",
+        "start_time": "2026-06-21T02:05:00.000Z",
+        "end_time": "2026-06-21T05:35:00.000Z",
         "duration_minutes": 210,
         "status": "upcoming",
         "viewers": "0",
@@ -2459,7 +2377,7 @@
         "away_team": "Athletics"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.468Z",
+        "last_modified": "2026-06-20T07:25:22.505Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2469,222 +2387,10 @@
       }
     },
     {
-      "id": 23315,
-      "slug": "minnesota-twins-vs-arizona-diamondbacks",
-      "uri_name": "mlb/2026-06-19/min-ari",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/min-ari",
-      "meta": {
-        "title": "Minnesota Twins vs. Arizona Diamondbacks EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Minnesota Twins vs. Arizona Diamondbacks en vivo gratis por Tarjeta Roja TV. Minnesota Twins vs Arizona Diamondbacks transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Minnesota Twins vs. Arizona Diamondbacks, Minnesota Twins, Arizona Diamondbacks, Baseball, ver online gratis, en vivo gratis, Apple TV",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/min-ari",
-        "title": "Minnesota Twins vs. Arizona Diamondbacks EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Minnesota Twins vs. Arizona Diamondbacks en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/bf560e6a2cb2ca186061b2d0cb239c13-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Minnesota Twins vs. Arizona Diamondbacks EN VIVO",
-        "description": "Ver Minnesota Twins vs. Arizona Diamondbacks en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/bf560e6a2cb2ca186061b2d0cb239c13-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Minnesota Twins vs. Arizona Diamondbacks",
-        "description": "Transmisión en vivo de Minnesota Twins vs. Arizona Diamondbacks",
-        "startDate": "2026-06-20T01:45:00.000Z",
-        "endDate": "2026-06-20T05:15:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/min-ari"
-        },
-        "image": "https://api.ppv.to/assets/thumb/bf560e6a2cb2ca186061b2d0cb239c13-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Minnesota Twins"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Arizona Diamondbacks"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Minnesota Twins"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Arizona Diamondbacks"
-        },
-        "sport": "Baseball"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Baseball",
-            "url": "https://tarjetarojaenvivo.live/categoria/baseball"
-          },
-          {
-            "name": "Minnesota Twins vs. Arizona Diamondbacks",
-            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/min-ari"
-          }
-        ],
-        "h1": "Minnesota Twins vs. Arizona Diamondbacks EN VIVO",
-        "h2": "Ver Minnesota Twins vs. Arizona Diamondbacks Online Gratis"
-      },
-      "event": {
-        "name": "Minnesota Twins vs. Arizona Diamondbacks",
-        "category": "Baseball",
-        "broadcaster": "Apple TV",
-        "start_time": "2026-06-20T01:45:00.000Z",
-        "end_time": "2026-06-20T05:15:00.000Z",
-        "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "0",
-        "home_team": "Minnesota Twins",
-        "away_team": "Arizona Diamondbacks"
-      },
-      "technical": {
-        "last_modified": "2026-06-20T00:55:50.468Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Minnesota Twins vs. Arizona Diamondbacks, Minnesota Twins"
-      }
-    },
-    {
-      "id": 23316,
-      "slug": "baltimore-orioles-vs-los-angeles-dodgers",
-      "uri_name": "mlb/2026-06-19/bal-lad",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/bal-lad",
-      "meta": {
-        "title": "Baltimore Orioles vs. Los Angeles Dodgers EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Baltimore Orioles vs. Los Angeles Dodgers en vivo gratis por Tarjeta Roja TV. Baltimore Orioles vs Los Angeles Dodgers transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Baltimore Orioles vs. Los Angeles Dodgers, Baltimore Orioles, Los Angeles Dodgers, Baseball, ver online gratis, en vivo gratis, Sportsnet LA",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/bal-lad",
-        "title": "Baltimore Orioles vs. Los Angeles Dodgers EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Baltimore Orioles vs. Los Angeles Dodgers en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/c12603876fc61be7d66840690d9b2571-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Baltimore Orioles vs. Los Angeles Dodgers EN VIVO",
-        "description": "Ver Baltimore Orioles vs. Los Angeles Dodgers en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/c12603876fc61be7d66840690d9b2571-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Baltimore Orioles vs. Los Angeles Dodgers",
-        "description": "Transmisión en vivo de Baltimore Orioles vs. Los Angeles Dodgers",
-        "startDate": "2026-06-20T02:10:00.000Z",
-        "endDate": "2026-06-20T05:40:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/bal-lad"
-        },
-        "image": "https://api.ppv.to/assets/thumb/c12603876fc61be7d66840690d9b2571-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Baltimore Orioles"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Los Angeles Dodgers"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Baltimore Orioles"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Los Angeles Dodgers"
-        },
-        "sport": "Baseball"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Baseball",
-            "url": "https://tarjetarojaenvivo.live/categoria/baseball"
-          },
-          {
-            "name": "Baltimore Orioles vs. Los Angeles Dodgers",
-            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/bal-lad"
-          }
-        ],
-        "h1": "Baltimore Orioles vs. Los Angeles Dodgers EN VIVO",
-        "h2": "Ver Baltimore Orioles vs. Los Angeles Dodgers Online Gratis"
-      },
-      "event": {
-        "name": "Baltimore Orioles vs. Los Angeles Dodgers",
-        "category": "Baseball",
-        "broadcaster": "Sportsnet LA",
-        "start_time": "2026-06-20T02:10:00.000Z",
-        "end_time": "2026-06-20T05:40:00.000Z",
-        "duration_minutes": 210,
-        "status": "upcoming",
-        "viewers": "1",
-        "home_team": "Baltimore Orioles",
-        "away_team": "Los Angeles Dodgers"
-      },
-      "technical": {
-        "last_modified": "2026-06-20T00:55:50.468Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Baltimore Orioles vs. Los Angeles Dodgers, Baltimore Orioles"
-      }
-    },
-    {
-      "id": 23317,
+      "id": 23452,
       "slug": "boston-red-sox-vs-seattle-mariners",
-      "uri_name": "mlb/2026-06-19/bos-sea",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/bos-sea",
+      "uri_name": "mlb/2026-06-20/bos-sea",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/bos-sea",
       "meta": {
         "title": "Boston Red Sox vs. Seattle Mariners EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
         "description": "⚽ Ver Boston Red Sox vs. Seattle Mariners en vivo gratis por Tarjeta Roja TV. Boston Red Sox vs Seattle Mariners transmisión en directo.",
@@ -2693,7 +2399,7 @@
       },
       "og": {
         "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/bos-sea",
+        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/bos-sea",
         "title": "Boston Red Sox vs. Seattle Mariners EN VIVO ⚽ Tarjeta Roja TV",
         "description": "Ver Boston Red Sox vs. Seattle Mariners en vivo gratis.",
         "image": "https://api.ppv.to/assets/thumb/02a2fd07ea55992126e844c4bc1daecb-thumbnail.jpg",
@@ -2712,13 +2418,13 @@
         "@type": "SportsEvent",
         "name": "Boston Red Sox vs. Seattle Mariners",
         "description": "Transmisión en vivo de Boston Red Sox vs. Seattle Mariners",
-        "startDate": "2026-06-20T02:10:00.000Z",
-        "endDate": "2026-06-20T05:40:00.000Z",
+        "startDate": "2026-06-21T02:10:00.000Z",
+        "endDate": "2026-06-21T05:40:00.000Z",
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
         "location": {
           "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/bos-sea"
+          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/bos-sea"
         },
         "image": "https://api.ppv.to/assets/thumb/02a2fd07ea55992126e844c4bc1daecb-thumbnail.jpg",
         "organizer": {
@@ -2758,7 +2464,7 @@
           },
           {
             "name": "Boston Red Sox vs. Seattle Mariners",
-            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-19/bos-sea"
+            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/bos-sea"
           }
         ],
         "h1": "Boston Red Sox vs. Seattle Mariners EN VIVO",
@@ -2768,8 +2474,8 @@
         "name": "Boston Red Sox vs. Seattle Mariners",
         "category": "Baseball",
         "broadcaster": "Mariners.TV",
-        "start_time": "2026-06-20T02:10:00.000Z",
-        "end_time": "2026-06-20T05:40:00.000Z",
+        "start_time": "2026-06-21T02:10:00.000Z",
+        "end_time": "2026-06-21T05:40:00.000Z",
         "duration_minutes": 210,
         "status": "upcoming",
         "viewers": "0",
@@ -2777,7 +2483,7 @@
         "away_team": "Seattle Mariners"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.468Z",
+        "last_modified": "2026-06-20T07:25:22.505Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -2787,46 +2493,46 @@
       }
     },
     {
-      "id": 23301,
-      "slug": "toronto-tempo-vs-connecticut-sun",
-      "uri_name": "wnba/2026-06-19/tor-con",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/wnba/2026-06-19/tor-con",
+      "id": 23453,
+      "slug": "baltimore-orioles-vs-los-angeles-dodgers",
+      "uri_name": "mlb/2026-06-20/bal-lad",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/bal-lad",
       "meta": {
-        "title": "Toronto Tempo vs. Connecticut Sun EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Toronto Tempo vs. Connecticut Sun en vivo gratis por Tarjeta Roja TV. Toronto Tempo vs Connecticut Sun transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Toronto Tempo vs. Connecticut Sun, Toronto Tempo, Connecticut Sun, Basketball, ver online gratis, en vivo gratis, NBC Sports BO",
+        "title": "Baltimore Orioles vs. Los Angeles Dodgers EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Baltimore Orioles vs. Los Angeles Dodgers en vivo gratis por Tarjeta Roja TV. Baltimore Orioles vs Los Angeles Dodgers transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Baltimore Orioles vs. Los Angeles Dodgers, Baltimore Orioles, Los Angeles Dodgers, Baseball, ver online gratis, en vivo gratis, Sportsnet LA",
         "robots": "index, follow"
       },
       "og": {
         "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/wnba/2026-06-19/tor-con",
-        "title": "Toronto Tempo vs. Connecticut Sun EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Toronto Tempo vs. Connecticut Sun en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/b40c435b22b21881fdf5eba133f6bfed-thumbnail.jpg",
+        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/bal-lad",
+        "title": "Baltimore Orioles vs. Los Angeles Dodgers EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Baltimore Orioles vs. Los Angeles Dodgers en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/c12603876fc61be7d66840690d9b2571-thumbnail.jpg",
         "site_name": "Tarjeta Roja En Vivo",
         "locale": "es_ES"
       },
       "twitter": {
         "card": "summary_large_image",
         "site": "@tarjetarojatvs",
-        "title": "Toronto Tempo vs. Connecticut Sun EN VIVO",
-        "description": "Ver Toronto Tempo vs. Connecticut Sun en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/b40c435b22b21881fdf5eba133f6bfed-thumbnail.jpg"
+        "title": "Baltimore Orioles vs. Los Angeles Dodgers EN VIVO",
+        "description": "Ver Baltimore Orioles vs. Los Angeles Dodgers en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/c12603876fc61be7d66840690d9b2571-thumbnail.jpg"
       },
       "schema": {
         "@context": "https://schema.org",
         "@type": "SportsEvent",
-        "name": "Toronto Tempo vs. Connecticut Sun",
-        "description": "Transmisión en vivo de Toronto Tempo vs. Connecticut Sun",
-        "startDate": "2026-06-19T23:30:00.000Z",
-        "endDate": "2026-06-20T02:30:00.000Z",
+        "name": "Baltimore Orioles vs. Los Angeles Dodgers",
+        "description": "Transmisión en vivo de Baltimore Orioles vs. Los Angeles Dodgers",
+        "startDate": "2026-06-21T02:10:00.000Z",
+        "endDate": "2026-06-21T05:40:00.000Z",
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
         "location": {
           "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/wnba/2026-06-19/tor-con"
+          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/bal-lad"
         },
-        "image": "https://api.ppv.to/assets/thumb/b40c435b22b21881fdf5eba133f6bfed-thumbnail.jpg",
+        "image": "https://api.ppv.to/assets/thumb/c12603876fc61be7d66840690d9b2571-thumbnail.jpg",
         "organizer": {
           "@type": "Organization",
           "name": "Tarjeta Roja En Vivo",
@@ -2835,22 +2541,22 @@
         "competitor": [
           {
             "@type": "SportsTeam",
-            "name": "Toronto Tempo"
+            "name": "Baltimore Orioles"
           },
           {
             "@type": "SportsTeam",
-            "name": "Connecticut Sun"
+            "name": "Los Angeles Dodgers"
           }
         ],
         "homeTeam": {
           "@type": "SportsTeam",
-          "name": "Toronto Tempo"
+          "name": "Baltimore Orioles"
         },
         "awayTeam": {
           "@type": "SportsTeam",
-          "name": "Connecticut Sun"
+          "name": "Los Angeles Dodgers"
         },
-        "sport": "Basketball"
+        "sport": "Baseball"
       },
       "seo": {
         "breadcrumbs": [
@@ -2859,80 +2565,80 @@
             "url": "https://tarjetarojaenvivo.live"
           },
           {
-            "name": "Basketball",
-            "url": "https://tarjetarojaenvivo.live/categoria/basketball"
+            "name": "Baseball",
+            "url": "https://tarjetarojaenvivo.live/categoria/baseball"
           },
           {
-            "name": "Toronto Tempo vs. Connecticut Sun",
-            "url": "https://tarjetarojaenvivo.live/eventos/wnba/2026-06-19/tor-con"
+            "name": "Baltimore Orioles vs. Los Angeles Dodgers",
+            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/bal-lad"
           }
         ],
-        "h1": "Toronto Tempo vs. Connecticut Sun EN VIVO",
-        "h2": "Ver Toronto Tempo vs. Connecticut Sun Online Gratis"
+        "h1": "Baltimore Orioles vs. Los Angeles Dodgers EN VIVO",
+        "h2": "Ver Baltimore Orioles vs. Los Angeles Dodgers Online Gratis"
       },
       "event": {
-        "name": "Toronto Tempo vs. Connecticut Sun",
-        "category": "Basketball",
-        "broadcaster": "NBC Sports BO",
-        "start_time": "2026-06-19T23:30:00.000Z",
-        "end_time": "2026-06-20T02:30:00.000Z",
-        "duration_minutes": 180,
-        "status": "live",
-        "viewers": "95",
-        "home_team": "Toronto Tempo",
-        "away_team": "Connecticut Sun"
+        "name": "Baltimore Orioles vs. Los Angeles Dodgers",
+        "category": "Baseball",
+        "broadcaster": "Sportsnet LA",
+        "start_time": "2026-06-21T02:10:00.000Z",
+        "end_time": "2026-06-21T05:40:00.000Z",
+        "duration_minutes": 210,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Baltimore Orioles",
+        "away_team": "Los Angeles Dodgers"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.468Z",
+        "last_modified": "2026-06-20T07:25:22.505Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Toronto Tempo vs. Connecticut Sun, Toronto Tempo"
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Baltimore Orioles vs. Los Angeles Dodgers, Baltimore Orioles"
       }
     },
     {
-      "id": 23302,
-      "slug": "washington-mystics-vs-new-york-liberty",
-      "uri_name": "wnba/2026-06-19/wsh-ny",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/wnba/2026-06-19/wsh-ny",
+      "id": 23454,
+      "slug": "minnesota-twins-vs-arizona-diamondbacks",
+      "uri_name": "mlb/2026-06-20/min-ari",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/min-ari",
       "meta": {
-        "title": "Washington Mystics vs. New York Liberty EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Washington Mystics vs. New York Liberty en vivo gratis por Tarjeta Roja TV. Washington Mystics vs New York Liberty transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Washington Mystics vs. New York Liberty, Washington Mystics, New York Liberty, Basketball, ver online gratis, en vivo gratis, ION",
+        "title": "Minnesota Twins vs. Arizona Diamondbacks EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Minnesota Twins vs. Arizona Diamondbacks en vivo gratis por Tarjeta Roja TV. Minnesota Twins vs Arizona Diamondbacks transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Minnesota Twins vs. Arizona Diamondbacks, Minnesota Twins, Arizona Diamondbacks, Baseball, ver online gratis, en vivo gratis, DBACKS.TV",
         "robots": "index, follow"
       },
       "og": {
         "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/wnba/2026-06-19/wsh-ny",
-        "title": "Washington Mystics vs. New York Liberty EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Washington Mystics vs. New York Liberty en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/0fe5c4879054ec1b08ec581b55c5682c-thumbnail.jpg",
+        "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/min-ari",
+        "title": "Minnesota Twins vs. Arizona Diamondbacks EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Minnesota Twins vs. Arizona Diamondbacks en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/bf560e6a2cb2ca186061b2d0cb239c13-thumbnail.jpg",
         "site_name": "Tarjeta Roja En Vivo",
         "locale": "es_ES"
       },
       "twitter": {
         "card": "summary_large_image",
         "site": "@tarjetarojatvs",
-        "title": "Washington Mystics vs. New York Liberty EN VIVO",
-        "description": "Ver Washington Mystics vs. New York Liberty en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/0fe5c4879054ec1b08ec581b55c5682c-thumbnail.jpg"
+        "title": "Minnesota Twins vs. Arizona Diamondbacks EN VIVO",
+        "description": "Ver Minnesota Twins vs. Arizona Diamondbacks en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/bf560e6a2cb2ca186061b2d0cb239c13-thumbnail.jpg"
       },
       "schema": {
         "@context": "https://schema.org",
         "@type": "SportsEvent",
-        "name": "Washington Mystics vs. New York Liberty",
-        "description": "Transmisión en vivo de Washington Mystics vs. New York Liberty",
-        "startDate": "2026-06-19T23:30:00.000Z",
-        "endDate": "2026-06-20T02:30:00.000Z",
+        "name": "Minnesota Twins vs. Arizona Diamondbacks",
+        "description": "Transmisión en vivo de Minnesota Twins vs. Arizona Diamondbacks",
+        "startDate": "2026-06-21T02:10:00.000Z",
+        "endDate": "2026-06-21T05:40:00.000Z",
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
         "location": {
           "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/wnba/2026-06-19/wsh-ny"
+          "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/min-ari"
         },
-        "image": "https://api.ppv.to/assets/thumb/0fe5c4879054ec1b08ec581b55c5682c-thumbnail.jpg",
+        "image": "https://api.ppv.to/assets/thumb/bf560e6a2cb2ca186061b2d0cb239c13-thumbnail.jpg",
         "organizer": {
           "@type": "Organization",
           "name": "Tarjeta Roja En Vivo",
@@ -2941,22 +2647,22 @@
         "competitor": [
           {
             "@type": "SportsTeam",
-            "name": "Washington Mystics"
+            "name": "Minnesota Twins"
           },
           {
             "@type": "SportsTeam",
-            "name": "New York Liberty"
+            "name": "Arizona Diamondbacks"
           }
         ],
         "homeTeam": {
           "@type": "SportsTeam",
-          "name": "Washington Mystics"
+          "name": "Minnesota Twins"
         },
         "awayTeam": {
           "@type": "SportsTeam",
-          "name": "New York Liberty"
+          "name": "Arizona Diamondbacks"
         },
-        "sport": "Basketball"
+        "sport": "Baseball"
       },
       "seo": {
         "breadcrumbs": [
@@ -2965,80 +2671,80 @@
             "url": "https://tarjetarojaenvivo.live"
           },
           {
-            "name": "Basketball",
-            "url": "https://tarjetarojaenvivo.live/categoria/basketball"
+            "name": "Baseball",
+            "url": "https://tarjetarojaenvivo.live/categoria/baseball"
           },
           {
-            "name": "Washington Mystics vs. New York Liberty",
-            "url": "https://tarjetarojaenvivo.live/eventos/wnba/2026-06-19/wsh-ny"
+            "name": "Minnesota Twins vs. Arizona Diamondbacks",
+            "url": "https://tarjetarojaenvivo.live/eventos/mlb/2026-06-20/min-ari"
           }
         ],
-        "h1": "Washington Mystics vs. New York Liberty EN VIVO",
-        "h2": "Ver Washington Mystics vs. New York Liberty Online Gratis"
+        "h1": "Minnesota Twins vs. Arizona Diamondbacks EN VIVO",
+        "h2": "Ver Minnesota Twins vs. Arizona Diamondbacks Online Gratis"
       },
       "event": {
-        "name": "Washington Mystics vs. New York Liberty",
-        "category": "Basketball",
-        "broadcaster": "ION",
-        "start_time": "2026-06-19T23:30:00.000Z",
-        "end_time": "2026-06-20T02:30:00.000Z",
-        "duration_minutes": 180,
-        "status": "live",
-        "viewers": "103",
-        "home_team": "Washington Mystics",
-        "away_team": "New York Liberty"
+        "name": "Minnesota Twins vs. Arizona Diamondbacks",
+        "category": "Baseball",
+        "broadcaster": "DBACKS.TV",
+        "start_time": "2026-06-21T02:10:00.000Z",
+        "end_time": "2026-06-21T05:40:00.000Z",
+        "duration_minutes": 210,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Minnesota Twins",
+        "away_team": "Arizona Diamondbacks"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.468Z",
+        "last_modified": "2026-06-20T07:25:22.505Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Washington Mystics vs. New York Liberty, Washington Mystics"
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Minnesota Twins vs. Arizona Diamondbacks, Minnesota Twins"
       }
     },
     {
-      "id": 23303,
-      "slug": "minnesota-lynx-vs-golden-state-valkyries",
-      "uri_name": "wnba/2026-06-19/min-gs",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/wnba/2026-06-19/min-gs",
+      "id": 23438,
+      "slug": "indiana-fever-vs-atlanta-dream",
+      "uri_name": "wnba/2026-06-20/ind-atl",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/wnba/2026-06-20/ind-atl",
       "meta": {
-        "title": "Minnesota Lynx vs. Golden State Valkyries EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Minnesota Lynx vs. Golden State Valkyries en vivo gratis por Tarjeta Roja TV. Minnesota Lynx vs Golden State Valkyries transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Minnesota Lynx vs. Golden State Valkyries, Minnesota Lynx, Golden State Valkyries, Basketball, ver online gratis, en vivo gratis, ION",
+        "title": "Indiana Fever vs. Atlanta Dream EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Indiana Fever vs. Atlanta Dream en vivo gratis por Tarjeta Roja TV. Indiana Fever vs Atlanta Dream transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Indiana Fever vs. Atlanta Dream, Indiana Fever, Atlanta Dream, Basketball, ver online gratis, en vivo gratis, ABC",
         "robots": "index, follow"
       },
       "og": {
         "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/wnba/2026-06-19/min-gs",
-        "title": "Minnesota Lynx vs. Golden State Valkyries EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Minnesota Lynx vs. Golden State Valkyries en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/f3c64f130c71a3f3c74c40e491bd96db-thumbnail.jpg",
+        "url": "https://tarjetarojaenvivo.live/eventos/wnba/2026-06-20/ind-atl",
+        "title": "Indiana Fever vs. Atlanta Dream EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Indiana Fever vs. Atlanta Dream en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/fbfa453d83555c93919687160a06abb7-thumbnail.jpg",
         "site_name": "Tarjeta Roja En Vivo",
         "locale": "es_ES"
       },
       "twitter": {
         "card": "summary_large_image",
         "site": "@tarjetarojatvs",
-        "title": "Minnesota Lynx vs. Golden State Valkyries EN VIVO",
-        "description": "Ver Minnesota Lynx vs. Golden State Valkyries en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/f3c64f130c71a3f3c74c40e491bd96db-thumbnail.jpg"
+        "title": "Indiana Fever vs. Atlanta Dream EN VIVO",
+        "description": "Ver Indiana Fever vs. Atlanta Dream en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/fbfa453d83555c93919687160a06abb7-thumbnail.jpg"
       },
       "schema": {
         "@context": "https://schema.org",
         "@type": "SportsEvent",
-        "name": "Minnesota Lynx vs. Golden State Valkyries",
-        "description": "Transmisión en vivo de Minnesota Lynx vs. Golden State Valkyries",
-        "startDate": "2026-06-20T02:00:00.000Z",
-        "endDate": "2026-06-20T05:00:00.000Z",
+        "name": "Indiana Fever vs. Atlanta Dream",
+        "description": "Transmisión en vivo de Indiana Fever vs. Atlanta Dream",
+        "startDate": "2026-06-20T17:00:00.000Z",
+        "endDate": "2026-06-20T20:00:00.000Z",
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
         "location": {
           "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/wnba/2026-06-19/min-gs"
+          "url": "https://tarjetarojaenvivo.live/eventos/wnba/2026-06-20/ind-atl"
         },
-        "image": "https://api.ppv.to/assets/thumb/f3c64f130c71a3f3c74c40e491bd96db-thumbnail.jpg",
+        "image": "https://api.ppv.to/assets/thumb/fbfa453d83555c93919687160a06abb7-thumbnail.jpg",
         "organizer": {
           "@type": "Organization",
           "name": "Tarjeta Roja En Vivo",
@@ -3047,20 +2753,20 @@
         "competitor": [
           {
             "@type": "SportsTeam",
-            "name": "Minnesota Lynx"
+            "name": "Indiana Fever"
           },
           {
             "@type": "SportsTeam",
-            "name": "Golden State Valkyries"
+            "name": "Atlanta Dream"
           }
         ],
         "homeTeam": {
           "@type": "SportsTeam",
-          "name": "Minnesota Lynx"
+          "name": "Indiana Fever"
         },
         "awayTeam": {
           "@type": "SportsTeam",
-          "name": "Golden State Valkyries"
+          "name": "Atlanta Dream"
         },
         "sport": "Basketball"
       },
@@ -3075,33 +2781,245 @@
             "url": "https://tarjetarojaenvivo.live/categoria/basketball"
           },
           {
-            "name": "Minnesota Lynx vs. Golden State Valkyries",
-            "url": "https://tarjetarojaenvivo.live/eventos/wnba/2026-06-19/min-gs"
+            "name": "Indiana Fever vs. Atlanta Dream",
+            "url": "https://tarjetarojaenvivo.live/eventos/wnba/2026-06-20/ind-atl"
           }
         ],
-        "h1": "Minnesota Lynx vs. Golden State Valkyries EN VIVO",
-        "h2": "Ver Minnesota Lynx vs. Golden State Valkyries Online Gratis"
+        "h1": "Indiana Fever vs. Atlanta Dream EN VIVO",
+        "h2": "Ver Indiana Fever vs. Atlanta Dream Online Gratis"
       },
       "event": {
-        "name": "Minnesota Lynx vs. Golden State Valkyries",
+        "name": "Indiana Fever vs. Atlanta Dream",
         "category": "Basketball",
-        "broadcaster": "ION",
-        "start_time": "2026-06-20T02:00:00.000Z",
-        "end_time": "2026-06-20T05:00:00.000Z",
+        "broadcaster": "ABC",
+        "start_time": "2026-06-20T17:00:00.000Z",
+        "end_time": "2026-06-20T20:00:00.000Z",
         "duration_minutes": 180,
         "status": "upcoming",
         "viewers": "1",
-        "home_team": "Minnesota Lynx",
-        "away_team": "Golden State Valkyries"
+        "home_team": "Indiana Fever",
+        "away_team": "Atlanta Dream"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.468Z",
+        "last_modified": "2026-06-20T07:25:22.505Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Minnesota Lynx vs. Golden State Valkyries, Minnesota Lynx"
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Indiana Fever vs. Atlanta Dream, Indiana Fever"
+      }
+    },
+    {
+      "id": 23439,
+      "slug": "seattle-storm-vs-phoenix-mercury",
+      "uri_name": "wnba/2026-06-20/sea-phx",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/wnba/2026-06-20/sea-phx",
+      "meta": {
+        "title": "Seattle Storm vs. Phoenix Mercury EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Seattle Storm vs. Phoenix Mercury en vivo gratis por Tarjeta Roja TV. Seattle Storm vs Phoenix Mercury transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Seattle Storm vs. Phoenix Mercury, Seattle Storm, Phoenix Mercury, Basketball, ver online gratis, en vivo gratis, ABC",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/wnba/2026-06-20/sea-phx",
+        "title": "Seattle Storm vs. Phoenix Mercury EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Seattle Storm vs. Phoenix Mercury en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/b2818a77fa2cde6b51ae1977cf818735-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Seattle Storm vs. Phoenix Mercury EN VIVO",
+        "description": "Ver Seattle Storm vs. Phoenix Mercury en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/b2818a77fa2cde6b51ae1977cf818735-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Seattle Storm vs. Phoenix Mercury",
+        "description": "Transmisión en vivo de Seattle Storm vs. Phoenix Mercury",
+        "startDate": "2026-06-20T19:00:00.000Z",
+        "endDate": "2026-06-20T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/wnba/2026-06-20/sea-phx"
+        },
+        "image": "https://api.ppv.to/assets/thumb/b2818a77fa2cde6b51ae1977cf818735-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Seattle Storm"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Phoenix Mercury"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Seattle Storm"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Phoenix Mercury"
+        },
+        "sport": "Basketball"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Basketball",
+            "url": "https://tarjetarojaenvivo.live/categoria/basketball"
+          },
+          {
+            "name": "Seattle Storm vs. Phoenix Mercury",
+            "url": "https://tarjetarojaenvivo.live/eventos/wnba/2026-06-20/sea-phx"
+          }
+        ],
+        "h1": "Seattle Storm vs. Phoenix Mercury EN VIVO",
+        "h2": "Ver Seattle Storm vs. Phoenix Mercury Online Gratis"
+      },
+      "event": {
+        "name": "Seattle Storm vs. Phoenix Mercury",
+        "category": "Basketball",
+        "broadcaster": "ABC",
+        "start_time": "2026-06-20T19:00:00.000Z",
+        "end_time": "2026-06-20T22:00:00.000Z",
+        "duration_minutes": 180,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Seattle Storm",
+        "away_team": "Phoenix Mercury"
+      },
+      "technical": {
+        "last_modified": "2026-06-20T07:25:22.505Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Seattle Storm vs. Phoenix Mercury, Seattle Storm"
+      }
+    },
+    {
+      "id": 23440,
+      "slug": "chicago-sky-vs-dallas-wings",
+      "uri_name": "wnba/2026-06-20/chi-dal",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/wnba/2026-06-20/chi-dal",
+      "meta": {
+        "title": "Chicago Sky vs. Dallas Wings EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Chicago Sky vs. Dallas Wings en vivo gratis por Tarjeta Roja TV. Chicago Sky vs Dallas Wings transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Chicago Sky vs. Dallas Wings, Chicago Sky, Dallas Wings, Basketball, ver online gratis, en vivo gratis, CBS",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/wnba/2026-06-20/chi-dal",
+        "title": "Chicago Sky vs. Dallas Wings EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Chicago Sky vs. Dallas Wings en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/028d3f042bd2a74d8f85f441c8580c78-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Chicago Sky vs. Dallas Wings EN VIVO",
+        "description": "Ver Chicago Sky vs. Dallas Wings en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/028d3f042bd2a74d8f85f441c8580c78-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Chicago Sky vs. Dallas Wings",
+        "description": "Transmisión en vivo de Chicago Sky vs. Dallas Wings",
+        "startDate": "2026-06-21T00:00:00.000Z",
+        "endDate": "2026-06-21T03:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/wnba/2026-06-20/chi-dal"
+        },
+        "image": "https://api.ppv.to/assets/thumb/028d3f042bd2a74d8f85f441c8580c78-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Chicago Sky"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Dallas Wings"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Chicago Sky"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Dallas Wings"
+        },
+        "sport": "Basketball"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Basketball",
+            "url": "https://tarjetarojaenvivo.live/categoria/basketball"
+          },
+          {
+            "name": "Chicago Sky vs. Dallas Wings",
+            "url": "https://tarjetarojaenvivo.live/eventos/wnba/2026-06-20/chi-dal"
+          }
+        ],
+        "h1": "Chicago Sky vs. Dallas Wings EN VIVO",
+        "h2": "Ver Chicago Sky vs. Dallas Wings Online Gratis"
+      },
+      "event": {
+        "name": "Chicago Sky vs. Dallas Wings",
+        "category": "Basketball",
+        "broadcaster": "CBS",
+        "start_time": "2026-06-21T00:00:00.000Z",
+        "end_time": "2026-06-21T03:00:00.000Z",
+        "duration_minutes": 180,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Chicago Sky",
+        "away_team": "Dallas Wings"
+      },
+      "technical": {
+        "last_modified": "2026-06-20T07:25:22.505Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Chicago Sky vs. Dallas Wings, Chicago Sky"
       }
     },
     {
@@ -3196,12 +3114,12 @@
         "end_time": "2026-06-21T00:00:00.000Z",
         "duration_minutes": 360,
         "status": "upcoming",
-        "viewers": "1",
+        "viewers": "0",
         "home_team": "Ryan Garner",
         "away_team": "Michael Magnesi"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.468Z",
+        "last_modified": "2026-06-20T07:25:22.506Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3284,10 +3202,10 @@
         "end_time": "2026-06-21T01:30:00.000Z",
         "duration_minutes": 360,
         "status": "upcoming",
-        "viewers": "1"
+        "viewers": "0"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.468Z",
+        "last_modified": "2026-06-20T07:25:22.506Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3393,7 +3311,7 @@
         "away_team": "Horiguchi"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.468Z",
+        "last_modified": "2026-06-20T07:25:22.506Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3479,7 +3397,7 @@
         "viewers": "0"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.468Z",
+        "last_modified": "2026-06-20T07:25:22.506Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3580,12 +3498,12 @@
         "end_time": "2026-06-20T20:00:00.000Z",
         "duration_minutes": 600,
         "status": "upcoming",
-        "viewers": "8",
+        "viewers": "6",
         "home_team": "England",
         "away_team": "New Zealand"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.469Z",
+        "last_modified": "2026-06-20T07:25:22.506Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3671,7 +3589,7 @@
         "viewers": "0"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.469Z",
+        "last_modified": "2026-06-20T07:25:22.506Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -3757,225 +3675,13 @@
         "viewers": "0"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.469Z",
+        "last_modified": "2026-06-20T07:25:22.506Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
         "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Slovak Darts Open | Day 3, Slovak Darts Open | Day 3"
-      }
-    },
-    {
-      "id": 23340,
-      "slug": "brazil-vs-haiti",
-      "uri_name": "wc/2026-06-19/bra-hai",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-19/bra-hai",
-      "meta": {
-        "title": "Brazil vs. Haiti EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Brazil vs. Haiti en vivo gratis por Tarjeta Roja TV. Brazil vs Haiti transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Brazil vs. Haiti, Brazil, Haiti, Football, ver online gratis, en vivo gratis, FIFA World Cup",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-19/bra-hai",
-        "title": "Brazil vs. Haiti EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Brazil vs. Haiti en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/f99bc8d8020299f14f5595ed8210fe69-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Brazil vs. Haiti EN VIVO",
-        "description": "Ver Brazil vs. Haiti en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/f99bc8d8020299f14f5595ed8210fe69-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Brazil vs. Haiti",
-        "description": "Transmisión en vivo de Brazil vs. Haiti",
-        "startDate": "2026-06-20T00:30:00.000Z",
-        "endDate": "2026-06-20T03:00:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-19/bra-hai"
-        },
-        "image": "https://api.ppv.to/assets/thumb/f99bc8d8020299f14f5595ed8210fe69-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Brazil"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Haiti"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Brazil"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Haiti"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Brazil vs. Haiti",
-            "url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-19/bra-hai"
-          }
-        ],
-        "h1": "Brazil vs. Haiti EN VIVO",
-        "h2": "Ver Brazil vs. Haiti Online Gratis"
-      },
-      "event": {
-        "name": "Brazil vs. Haiti",
-        "category": "Football",
-        "broadcaster": "FIFA World Cup",
-        "start_time": "2026-06-20T00:30:00.000Z",
-        "end_time": "2026-06-20T03:00:00.000Z",
-        "duration_minutes": 150,
-        "status": "live",
-        "viewers": "10467",
-        "home_team": "Brazil",
-        "away_team": "Haiti"
-      },
-      "technical": {
-        "last_modified": "2026-06-20T00:55:50.469Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Brazil vs. Haiti, Brazil"
-      }
-    },
-    {
-      "id": 23348,
-      "slug": "turkiye-vs-paraguay",
-      "uri_name": "wc/2026-06-19/tur-par",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-19/tur-par",
-      "meta": {
-        "title": "Türkiye vs. Paraguay EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver Türkiye vs. Paraguay en vivo gratis por Tarjeta Roja TV. Türkiye vs Paraguay transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Türkiye vs. Paraguay, Türkiye, Paraguay, Football, ver online gratis, en vivo gratis, FIFA World Cup",
-        "robots": "index, follow"
-      },
-      "og": {
-        "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-19/tur-par",
-        "title": "Türkiye vs. Paraguay EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver Türkiye vs. Paraguay en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/edcdc7f424c4e1844b7b066bbd2b3936-thumbnail.jpg",
-        "site_name": "Tarjeta Roja En Vivo",
-        "locale": "es_ES"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "site": "@tarjetarojatvs",
-        "title": "Türkiye vs. Paraguay EN VIVO",
-        "description": "Ver Türkiye vs. Paraguay en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/edcdc7f424c4e1844b7b066bbd2b3936-thumbnail.jpg"
-      },
-      "schema": {
-        "@context": "https://schema.org",
-        "@type": "SportsEvent",
-        "name": "Türkiye vs. Paraguay",
-        "description": "Transmisión en vivo de Türkiye vs. Paraguay",
-        "startDate": "2026-06-20T03:00:00.000Z",
-        "endDate": "2026-06-20T05:30:00.000Z",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-        "location": {
-          "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-19/tur-par"
-        },
-        "image": "https://api.ppv.to/assets/thumb/edcdc7f424c4e1844b7b066bbd2b3936-thumbnail.jpg",
-        "organizer": {
-          "@type": "Organization",
-          "name": "Tarjeta Roja En Vivo",
-          "url": "https://tarjetarojaenvivo.live"
-        },
-        "competitor": [
-          {
-            "@type": "SportsTeam",
-            "name": "Türkiye"
-          },
-          {
-            "@type": "SportsTeam",
-            "name": "Paraguay"
-          }
-        ],
-        "homeTeam": {
-          "@type": "SportsTeam",
-          "name": "Türkiye"
-        },
-        "awayTeam": {
-          "@type": "SportsTeam",
-          "name": "Paraguay"
-        },
-        "sport": "Football"
-      },
-      "seo": {
-        "breadcrumbs": [
-          {
-            "name": "Inicio",
-            "url": "https://tarjetarojaenvivo.live"
-          },
-          {
-            "name": "Football",
-            "url": "https://tarjetarojaenvivo.live/categoria/football"
-          },
-          {
-            "name": "Türkiye vs. Paraguay",
-            "url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-19/tur-par"
-          }
-        ],
-        "h1": "Türkiye vs. Paraguay EN VIVO",
-        "h2": "Ver Türkiye vs. Paraguay Online Gratis"
-      },
-      "event": {
-        "name": "Türkiye vs. Paraguay",
-        "category": "Football",
-        "broadcaster": "FIFA World Cup",
-        "start_time": "2026-06-20T03:00:00.000Z",
-        "end_time": "2026-06-20T05:30:00.000Z",
-        "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "5",
-        "home_team": "Türkiye",
-        "away_team": "Paraguay"
-      },
-      "technical": {
-        "last_modified": "2026-06-20T00:55:50.469Z",
-        "priority": 0.8,
-        "changefreq": "hourly",
-        "hreflang": "es"
-      },
-      "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Türkiye vs. Paraguay, Türkiye"
       }
     },
     {
@@ -4070,12 +3776,12 @@
         "end_time": "2026-06-20T19:30:00.000Z",
         "duration_minutes": 150,
         "status": "upcoming",
-        "viewers": "0",
+        "viewers": "5",
         "home_team": "Netherlands",
         "away_team": "Sweden"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.469Z",
+        "last_modified": "2026-06-20T07:25:22.506Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4181,7 +3887,7 @@
         "away_team": "Málaga"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.469Z",
+        "last_modified": "2026-06-20T07:25:22.506Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4287,7 +3993,7 @@
         "away_team": "Ivory Coast"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.469Z",
+        "last_modified": "2026-06-20T07:25:22.506Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4388,18 +4094,634 @@
         "end_time": "2026-06-21T02:30:00.000Z",
         "duration_minutes": 150,
         "status": "upcoming",
-        "viewers": "2",
+        "viewers": "0",
         "home_team": "Ecuador",
         "away_team": "Curaçao"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.469Z",
+        "last_modified": "2026-06-20T07:25:22.506Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
         "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Ecuador vs. Curaçao, Ecuador"
+      }
+    },
+    {
+      "id": 23398,
+      "slug": "tunisia-vs-japan",
+      "uri_name": "wc/2026-06-20/tun-jpn",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-20/tun-jpn",
+      "meta": {
+        "title": "Tunisia vs. Japan EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Tunisia vs. Japan en vivo gratis por Tarjeta Roja TV. Tunisia vs Japan transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Tunisia vs. Japan, Tunisia, Japan, Football, ver online gratis, en vivo gratis, FIFA World Cup",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-20/tun-jpn",
+        "title": "Tunisia vs. Japan EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Tunisia vs. Japan en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/2056a3155d2e5ea1e2e8d32ba080c81e-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Tunisia vs. Japan EN VIVO",
+        "description": "Ver Tunisia vs. Japan en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/2056a3155d2e5ea1e2e8d32ba080c81e-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Tunisia vs. Japan",
+        "description": "Transmisión en vivo de Tunisia vs. Japan",
+        "startDate": "2026-06-21T04:00:00.000Z",
+        "endDate": "2026-06-21T06:30:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-20/tun-jpn"
+        },
+        "image": "https://api.ppv.to/assets/thumb/2056a3155d2e5ea1e2e8d32ba080c81e-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Tunisia"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Japan"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Tunisia"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Japan"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Tunisia vs. Japan",
+            "url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-20/tun-jpn"
+          }
+        ],
+        "h1": "Tunisia vs. Japan EN VIVO",
+        "h2": "Ver Tunisia vs. Japan Online Gratis"
+      },
+      "event": {
+        "name": "Tunisia vs. Japan",
+        "category": "Football",
+        "broadcaster": "FIFA World Cup",
+        "start_time": "2026-06-21T04:00:00.000Z",
+        "end_time": "2026-06-21T06:30:00.000Z",
+        "duration_minutes": 150,
+        "status": "upcoming",
+        "viewers": "1",
+        "home_team": "Tunisia",
+        "away_team": "Japan"
+      },
+      "technical": {
+        "last_modified": "2026-06-20T07:25:22.506Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Tunisia vs. Japan, Tunisia"
+      }
+    },
+    {
+      "id": 23406,
+      "slug": "spain-vs-saudi-arabia",
+      "uri_name": "wc/2026-06-21/esp-ksa",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-21/esp-ksa",
+      "meta": {
+        "title": "Spain vs. Saudi Arabia EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Spain vs. Saudi Arabia en vivo gratis por Tarjeta Roja TV. Spain vs Saudi Arabia transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Spain vs. Saudi Arabia, Spain, Saudi Arabia, Football, ver online gratis, en vivo gratis, FIFA World Cup",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-21/esp-ksa",
+        "title": "Spain vs. Saudi Arabia EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Spain vs. Saudi Arabia en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/ec3d94756c3620c631cdb4810d68c1f1-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Spain vs. Saudi Arabia EN VIVO",
+        "description": "Ver Spain vs. Saudi Arabia en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/ec3d94756c3620c631cdb4810d68c1f1-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Spain vs. Saudi Arabia",
+        "description": "Transmisión en vivo de Spain vs. Saudi Arabia",
+        "startDate": "2026-06-21T16:00:00.000Z",
+        "endDate": "2026-06-21T18:30:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-21/esp-ksa"
+        },
+        "image": "https://api.ppv.to/assets/thumb/ec3d94756c3620c631cdb4810d68c1f1-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Spain"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Saudi Arabia"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Spain"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Saudi Arabia"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Spain vs. Saudi Arabia",
+            "url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-21/esp-ksa"
+          }
+        ],
+        "h1": "Spain vs. Saudi Arabia EN VIVO",
+        "h2": "Ver Spain vs. Saudi Arabia Online Gratis"
+      },
+      "event": {
+        "name": "Spain vs. Saudi Arabia",
+        "category": "Football",
+        "broadcaster": "FIFA World Cup",
+        "start_time": "2026-06-21T16:00:00.000Z",
+        "end_time": "2026-06-21T18:30:00.000Z",
+        "duration_minutes": 150,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Spain",
+        "away_team": "Saudi Arabia"
+      },
+      "technical": {
+        "last_modified": "2026-06-20T07:25:22.506Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Spain vs. Saudi Arabia, Spain"
+      }
+    },
+    {
+      "id": 23414,
+      "slug": "belgium-vs-iran",
+      "uri_name": "wc/2026-06-21/bel-irn",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-21/bel-irn",
+      "meta": {
+        "title": "Belgium vs. Iran EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Belgium vs. Iran en vivo gratis por Tarjeta Roja TV. Belgium vs Iran transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Belgium vs. Iran, Belgium, Iran, Football, ver online gratis, en vivo gratis, FIFA World Cup",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-21/bel-irn",
+        "title": "Belgium vs. Iran EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Belgium vs. Iran en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/90c9450f391bd2f08f9c479d88fbc11d-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Belgium vs. Iran EN VIVO",
+        "description": "Ver Belgium vs. Iran en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/90c9450f391bd2f08f9c479d88fbc11d-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Belgium vs. Iran",
+        "description": "Transmisión en vivo de Belgium vs. Iran",
+        "startDate": "2026-06-21T19:00:00.000Z",
+        "endDate": "2026-06-21T21:30:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-21/bel-irn"
+        },
+        "image": "https://api.ppv.to/assets/thumb/90c9450f391bd2f08f9c479d88fbc11d-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Belgium"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Iran"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Belgium"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Iran"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Belgium vs. Iran",
+            "url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-21/bel-irn"
+          }
+        ],
+        "h1": "Belgium vs. Iran EN VIVO",
+        "h2": "Ver Belgium vs. Iran Online Gratis"
+      },
+      "event": {
+        "name": "Belgium vs. Iran",
+        "category": "Football",
+        "broadcaster": "FIFA World Cup",
+        "start_time": "2026-06-21T19:00:00.000Z",
+        "end_time": "2026-06-21T21:30:00.000Z",
+        "duration_minutes": 150,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Belgium",
+        "away_team": "Iran"
+      },
+      "technical": {
+        "last_modified": "2026-06-20T07:25:22.506Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Belgium vs. Iran, Belgium"
+      }
+    },
+    {
+      "id": 23422,
+      "slug": "uruguay-vs-cape-verde",
+      "uri_name": "wc/2026-06-21/uru-cpv",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-21/uru-cpv",
+      "meta": {
+        "title": "Uruguay vs. Cape Verde EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Uruguay vs. Cape Verde en vivo gratis por Tarjeta Roja TV. Uruguay vs Cape Verde transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Uruguay vs. Cape Verde, Uruguay, Cape Verde, Football, ver online gratis, en vivo gratis, FIFA World Cup",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-21/uru-cpv",
+        "title": "Uruguay vs. Cape Verde EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Uruguay vs. Cape Verde en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/b7974e3df742c4f561f925dab6ab3d59-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Uruguay vs. Cape Verde EN VIVO",
+        "description": "Ver Uruguay vs. Cape Verde en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/b7974e3df742c4f561f925dab6ab3d59-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Uruguay vs. Cape Verde",
+        "description": "Transmisión en vivo de Uruguay vs. Cape Verde",
+        "startDate": "2026-06-21T22:00:00.000Z",
+        "endDate": "2026-06-22T00:30:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-21/uru-cpv"
+        },
+        "image": "https://api.ppv.to/assets/thumb/b7974e3df742c4f561f925dab6ab3d59-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Uruguay"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Cape Verde"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Uruguay"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Cape Verde"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "Uruguay vs. Cape Verde",
+            "url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-21/uru-cpv"
+          }
+        ],
+        "h1": "Uruguay vs. Cape Verde EN VIVO",
+        "h2": "Ver Uruguay vs. Cape Verde Online Gratis"
+      },
+      "event": {
+        "name": "Uruguay vs. Cape Verde",
+        "category": "Football",
+        "broadcaster": "FIFA World Cup",
+        "start_time": "2026-06-21T22:00:00.000Z",
+        "end_time": "2026-06-22T00:30:00.000Z",
+        "duration_minutes": 150,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Uruguay",
+        "away_team": "Cape Verde"
+      },
+      "technical": {
+        "last_modified": "2026-06-20T07:25:22.506Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Uruguay vs. Cape Verde, Uruguay"
+      }
+    },
+    {
+      "id": 23430,
+      "slug": "new-zealand-vs-egypt",
+      "uri_name": "wc/2026-06-21/nzl-egy",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-21/nzl-egy",
+      "meta": {
+        "title": "New Zealand vs. Egypt EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver New Zealand vs. Egypt en vivo gratis por Tarjeta Roja TV. New Zealand vs Egypt transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, New Zealand vs. Egypt, New Zealand, Egypt, Football, ver online gratis, en vivo gratis, FIFA World Cup",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-21/nzl-egy",
+        "title": "New Zealand vs. Egypt EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver New Zealand vs. Egypt en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/cfaa953171592d7565947af1bb442d70-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "New Zealand vs. Egypt EN VIVO",
+        "description": "Ver New Zealand vs. Egypt en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/cfaa953171592d7565947af1bb442d70-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "New Zealand vs. Egypt",
+        "description": "Transmisión en vivo de New Zealand vs. Egypt",
+        "startDate": "2026-06-22T01:00:00.000Z",
+        "endDate": "2026-06-22T03:30:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-21/nzl-egy"
+        },
+        "image": "https://api.ppv.to/assets/thumb/cfaa953171592d7565947af1bb442d70-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "New Zealand"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Egypt"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "New Zealand"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Egypt"
+        },
+        "sport": "Football"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Football",
+            "url": "https://tarjetarojaenvivo.live/categoria/football"
+          },
+          {
+            "name": "New Zealand vs. Egypt",
+            "url": "https://tarjetarojaenvivo.live/eventos/wc/2026-06-21/nzl-egy"
+          }
+        ],
+        "h1": "New Zealand vs. Egypt EN VIVO",
+        "h2": "Ver New Zealand vs. Egypt Online Gratis"
+      },
+      "event": {
+        "name": "New Zealand vs. Egypt",
+        "category": "Football",
+        "broadcaster": "FIFA World Cup",
+        "start_time": "2026-06-22T01:00:00.000Z",
+        "end_time": "2026-06-22T03:30:00.000Z",
+        "duration_minutes": 150,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "New Zealand",
+        "away_team": "Egypt"
+      },
+      "technical": {
+        "last_modified": "2026-06-20T07:25:22.506Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, New Zealand vs. Egypt, New Zealand"
+      }
+    },
+    {
+      "id": 15856,
+      "slug": "pro-motocross-high-point",
+      "uri_name": "smx-wk21",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/smx-wk21",
+      "meta": {
+        "title": "Pro Motocross: High Point EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Pro Motocross: High Point en vivo gratis por Tarjeta Roja TV. Pro Motocross: High Point transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Pro Motocross: High Point, Pro Motocross: High Point, Motorsports, ver online gratis, en vivo gratis, Peacock",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/smx-wk21",
+        "title": "Pro Motocross: High Point EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Pro Motocross: High Point en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/987906340148eb24238a7ba4ceb6cb9f-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Pro Motocross: High Point EN VIVO",
+        "description": "Ver Pro Motocross: High Point en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/987906340148eb24238a7ba4ceb6cb9f-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Pro Motocross: High Point",
+        "description": "Transmisión en vivo de Pro Motocross: High Point",
+        "startDate": "2026-06-20T14:00:00.000Z",
+        "endDate": "2026-06-20T22:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/smx-wk21"
+        },
+        "image": "https://api.ppv.to/assets/thumb/987906340148eb24238a7ba4ceb6cb9f-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "sport": "Motorsports"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Motorsports",
+            "url": "https://tarjetarojaenvivo.live/categoria/motorsports"
+          },
+          {
+            "name": "Pro Motocross: High Point",
+            "url": "https://tarjetarojaenvivo.live/eventos/smx-wk21"
+          }
+        ],
+        "h1": "Pro Motocross: High Point EN VIVO",
+        "h2": "Ver Pro Motocross: High Point Online Gratis"
+      },
+      "event": {
+        "name": "Pro Motocross: High Point",
+        "category": "Motorsports",
+        "broadcaster": "Peacock",
+        "start_time": "2026-06-20T14:00:00.000Z",
+        "end_time": "2026-06-20T22:00:00.000Z",
+        "duration_minutes": 480,
+        "status": "upcoming",
+        "viewers": "1"
+      },
+      "technical": {
+        "last_modified": "2026-06-20T07:25:22.506Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Pro Motocross: High Point, Pro Motocross: High Point"
       }
     },
     {
@@ -4493,13 +4815,13 @@
         "start_time": "2026-06-20T05:00:00.000Z",
         "end_time": "2026-06-20T07:30:00.000Z",
         "duration_minutes": 150,
-        "status": "upcoming",
-        "viewers": "1",
+        "status": "live",
+        "viewers": "82",
         "home_team": "Wests Tigers",
         "away_team": "Dolphins"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.469Z",
+        "last_modified": "2026-06-20T07:25:22.506Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4600,12 +4922,12 @@
         "end_time": "2026-06-20T10:00:00.000Z",
         "duration_minutes": 150,
         "status": "upcoming",
-        "viewers": "0",
+        "viewers": "9",
         "home_team": "Titans",
         "away_team": "Panthers"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.469Z",
+        "last_modified": "2026-06-20T07:25:22.506Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4711,7 +5033,7 @@
         "away_team": "Sea Eagles"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.469Z",
+        "last_modified": "2026-06-20T07:25:22.506Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4817,7 +5139,7 @@
         "away_team": "Cowboys"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.469Z",
+        "last_modified": "2026-06-20T07:25:22.506Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -4923,7 +5245,7 @@
         "away_team": "Raiders"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.469Z",
+        "last_modified": "2026-06-20T07:25:22.506Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5029,7 +5351,7 @@
         "away_team": "Sharks"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.469Z",
+        "last_modified": "2026-06-20T07:25:22.506Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5039,52 +5361,70 @@
       }
     },
     {
-      "id": 23032,
-      "slug": "wwe-friday-night-smackdown",
-      "uri_name": "wwe/smackdown/2026-06-19",
-      "canonical_url": "https://tarjetarojaenvivo.live/eventos/wwe/smackdown/2026-06-19",
+      "id": 23455,
+      "slug": "usa-vs-italy",
+      "uri_name": "womensvnl/2026-06-20/usa-ita",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-20/usa-ita",
       "meta": {
-        "title": "WWE: Friday Night Smackdown EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
-        "description": "⚽ Ver WWE: Friday Night Smackdown en vivo gratis por Tarjeta Roja TV. WWE: Friday Night Smackdown transmisión en directo.",
-        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, WWE: Friday Night Smackdown, WWE: Friday Night Smackdown, Wrestling, ver online gratis, en vivo gratis, USA",
+        "title": "USA vs. Italy EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver USA vs. Italy en vivo gratis por Tarjeta Roja TV. USA vs Italy transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, USA vs. Italy, USA, Italy, Volleyball, ver online gratis, en vivo gratis, Women's VNL 2026",
         "robots": "index, follow"
       },
       "og": {
         "type": "website",
-        "url": "https://tarjetarojaenvivo.live/eventos/wwe/smackdown/2026-06-19",
-        "title": "WWE: Friday Night Smackdown EN VIVO ⚽ Tarjeta Roja TV",
-        "description": "Ver WWE: Friday Night Smackdown en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/ec7810b68fc39115ce3510bcf9687a63-thumbnail.jpg",
+        "url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-20/usa-ita",
+        "title": "USA vs. Italy EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver USA vs. Italy en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/5a504c693c5cea05a9a6d9e75f8505d0-thumbnail.jpg",
         "site_name": "Tarjeta Roja En Vivo",
         "locale": "es_ES"
       },
       "twitter": {
         "card": "summary_large_image",
         "site": "@tarjetarojatvs",
-        "title": "WWE: Friday Night Smackdown EN VIVO",
-        "description": "Ver WWE: Friday Night Smackdown en vivo gratis.",
-        "image": "https://api.ppv.to/assets/thumb/ec7810b68fc39115ce3510bcf9687a63-thumbnail.jpg"
+        "title": "USA vs. Italy EN VIVO",
+        "description": "Ver USA vs. Italy en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/5a504c693c5cea05a9a6d9e75f8505d0-thumbnail.jpg"
       },
       "schema": {
         "@context": "https://schema.org",
         "@type": "SportsEvent",
-        "name": "WWE: Friday Night Smackdown",
-        "description": "Transmisión en vivo de WWE: Friday Night Smackdown",
-        "startDate": "2026-06-20T00:00:00.000Z",
-        "endDate": "2026-06-20T03:00:00.000Z",
+        "name": "USA vs. Italy",
+        "description": "Transmisión en vivo de USA vs. Italy",
+        "startDate": "2026-06-20T08:00:00.000Z",
+        "endDate": "2026-06-20T11:30:00.000Z",
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
         "location": {
           "@type": "VirtualLocation",
-          "url": "https://tarjetarojaenvivo.live/eventos/wwe/smackdown/2026-06-19"
+          "url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-20/usa-ita"
         },
-        "image": "https://api.ppv.to/assets/thumb/ec7810b68fc39115ce3510bcf9687a63-thumbnail.jpg",
+        "image": "https://api.ppv.to/assets/thumb/5a504c693c5cea05a9a6d9e75f8505d0-thumbnail.jpg",
         "organizer": {
           "@type": "Organization",
           "name": "Tarjeta Roja En Vivo",
           "url": "https://tarjetarojaenvivo.live"
         },
-        "sport": "Wrestling"
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "USA"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Italy"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "USA"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Italy"
+        },
+        "sport": "Volleyball"
       },
       "seo": {
         "breadcrumbs": [
@@ -5093,35 +5433,673 @@
             "url": "https://tarjetarojaenvivo.live"
           },
           {
-            "name": "Wrestling",
-            "url": "https://tarjetarojaenvivo.live/categoria/wrestling"
+            "name": "Volleyball",
+            "url": "https://tarjetarojaenvivo.live/categoria/volleyball"
           },
           {
-            "name": "WWE: Friday Night Smackdown",
-            "url": "https://tarjetarojaenvivo.live/eventos/wwe/smackdown/2026-06-19"
+            "name": "USA vs. Italy",
+            "url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-20/usa-ita"
           }
         ],
-        "h1": "WWE: Friday Night Smackdown EN VIVO",
-        "h2": "Ver WWE: Friday Night Smackdown Online Gratis"
+        "h1": "USA vs. Italy EN VIVO",
+        "h2": "Ver USA vs. Italy Online Gratis"
       },
       "event": {
-        "name": "WWE: Friday Night Smackdown",
-        "category": "Wrestling",
-        "broadcaster": "USA",
-        "start_time": "2026-06-20T00:00:00.000Z",
-        "end_time": "2026-06-20T03:00:00.000Z",
-        "duration_minutes": 180,
-        "status": "live",
-        "viewers": "643"
+        "name": "USA vs. Italy",
+        "category": "Volleyball",
+        "broadcaster": "Women's VNL 2026",
+        "start_time": "2026-06-20T08:00:00.000Z",
+        "end_time": "2026-06-20T11:30:00.000Z",
+        "duration_minutes": 210,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "USA",
+        "away_team": "Italy"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.469Z",
+        "last_modified": "2026-06-20T07:25:22.506Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
       },
       "bing": {
-        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, WWE: Friday Night Smackdown, WWE: Friday Night Smackdown"
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, USA vs. Italy, USA"
+      }
+    },
+    {
+      "id": 23456,
+      "slug": "netherlands-vs-poland",
+      "uri_name": "womensvnl/2026-06-20/net-pol",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-20/net-pol",
+      "meta": {
+        "title": "Netherlands vs. Poland EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Netherlands vs. Poland en vivo gratis por Tarjeta Roja TV. Netherlands vs Poland transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Netherlands vs. Poland, Netherlands, Poland, Volleyball, ver online gratis, en vivo gratis, Women's VNL 2026",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-20/net-pol",
+        "title": "Netherlands vs. Poland EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Netherlands vs. Poland en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/d586528f9e509f3ecf8771bac4a1b46b-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Netherlands vs. Poland EN VIVO",
+        "description": "Ver Netherlands vs. Poland en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/d586528f9e509f3ecf8771bac4a1b46b-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Netherlands vs. Poland",
+        "description": "Transmisión en vivo de Netherlands vs. Poland",
+        "startDate": "2026-06-20T10:00:00.000Z",
+        "endDate": "2026-06-20T13:30:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-20/net-pol"
+        },
+        "image": "https://api.ppv.to/assets/thumb/d586528f9e509f3ecf8771bac4a1b46b-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Netherlands"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Poland"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Netherlands"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Poland"
+        },
+        "sport": "Volleyball"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Volleyball",
+            "url": "https://tarjetarojaenvivo.live/categoria/volleyball"
+          },
+          {
+            "name": "Netherlands vs. Poland",
+            "url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-20/net-pol"
+          }
+        ],
+        "h1": "Netherlands vs. Poland EN VIVO",
+        "h2": "Ver Netherlands vs. Poland Online Gratis"
+      },
+      "event": {
+        "name": "Netherlands vs. Poland",
+        "category": "Volleyball",
+        "broadcaster": "Women's VNL 2026",
+        "start_time": "2026-06-20T10:00:00.000Z",
+        "end_time": "2026-06-20T13:30:00.000Z",
+        "duration_minutes": 210,
+        "status": "upcoming",
+        "viewers": "1",
+        "home_team": "Netherlands",
+        "away_team": "Poland"
+      },
+      "technical": {
+        "last_modified": "2026-06-20T07:25:22.506Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Netherlands vs. Poland, Netherlands"
+      }
+    },
+    {
+      "id": 23457,
+      "slug": "japan-vs-dominican-republic",
+      "uri_name": "womensvnl/2026-06-20/jap-dom",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-20/jap-dom",
+      "meta": {
+        "title": "Japan vs. Dominican Republic EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Japan vs. Dominican Republic en vivo gratis por Tarjeta Roja TV. Japan vs Dominican Republic transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Japan vs. Dominican Republic, Japan, Dominican Republic, Volleyball, ver online gratis, en vivo gratis, Women's VNL 2026",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-20/jap-dom",
+        "title": "Japan vs. Dominican Republic EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Japan vs. Dominican Republic en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/6840c277f0ea1e26460abccc7b80d076-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Japan vs. Dominican Republic EN VIVO",
+        "description": "Ver Japan vs. Dominican Republic en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/6840c277f0ea1e26460abccc7b80d076-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Japan vs. Dominican Republic",
+        "description": "Transmisión en vivo de Japan vs. Dominican Republic",
+        "startDate": "2026-06-20T12:00:00.000Z",
+        "endDate": "2026-06-20T15:30:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-20/jap-dom"
+        },
+        "image": "https://api.ppv.to/assets/thumb/6840c277f0ea1e26460abccc7b80d076-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Japan"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Dominican Republic"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Japan"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Dominican Republic"
+        },
+        "sport": "Volleyball"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Volleyball",
+            "url": "https://tarjetarojaenvivo.live/categoria/volleyball"
+          },
+          {
+            "name": "Japan vs. Dominican Republic",
+            "url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-20/jap-dom"
+          }
+        ],
+        "h1": "Japan vs. Dominican Republic EN VIVO",
+        "h2": "Ver Japan vs. Dominican Republic Online Gratis"
+      },
+      "event": {
+        "name": "Japan vs. Dominican Republic",
+        "category": "Volleyball",
+        "broadcaster": "Women's VNL 2026",
+        "start_time": "2026-06-20T12:00:00.000Z",
+        "end_time": "2026-06-20T15:30:00.000Z",
+        "duration_minutes": 210,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Japan",
+        "away_team": "Dominican Republic"
+      },
+      "technical": {
+        "last_modified": "2026-06-20T07:25:22.506Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Japan vs. Dominican Republic, Japan"
+      }
+    },
+    {
+      "id": 23458,
+      "slug": "china-vs-brazil",
+      "uri_name": "womensvnl/2026-06-20/chi-bra",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-20/chi-bra",
+      "meta": {
+        "title": "China vs. Brazil EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver China vs. Brazil en vivo gratis por Tarjeta Roja TV. China vs Brazil transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, China vs. Brazil, China, Brazil, Volleyball, ver online gratis, en vivo gratis, Women's VNL 2026",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-20/chi-bra",
+        "title": "China vs. Brazil EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver China vs. Brazil en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/96571b206db09be87de115301a5aab02-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "China vs. Brazil EN VIVO",
+        "description": "Ver China vs. Brazil en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/96571b206db09be87de115301a5aab02-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "China vs. Brazil",
+        "description": "Transmisión en vivo de China vs. Brazil",
+        "startDate": "2026-06-20T13:00:00.000Z",
+        "endDate": "2026-06-20T16:30:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-20/chi-bra"
+        },
+        "image": "https://api.ppv.to/assets/thumb/96571b206db09be87de115301a5aab02-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "China"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Brazil"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "China"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Brazil"
+        },
+        "sport": "Volleyball"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Volleyball",
+            "url": "https://tarjetarojaenvivo.live/categoria/volleyball"
+          },
+          {
+            "name": "China vs. Brazil",
+            "url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-20/chi-bra"
+          }
+        ],
+        "h1": "China vs. Brazil EN VIVO",
+        "h2": "Ver China vs. Brazil Online Gratis"
+      },
+      "event": {
+        "name": "China vs. Brazil",
+        "category": "Volleyball",
+        "broadcaster": "Women's VNL 2026",
+        "start_time": "2026-06-20T13:00:00.000Z",
+        "end_time": "2026-06-20T16:30:00.000Z",
+        "duration_minutes": 210,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "China",
+        "away_team": "Brazil"
+      },
+      "technical": {
+        "last_modified": "2026-06-20T07:25:22.506Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, China vs. Brazil, China"
+      }
+    },
+    {
+      "id": 23459,
+      "slug": "thailand-vs-canada",
+      "uri_name": "womensvnl/2026-06-20/tha-can",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-20/tha-can",
+      "meta": {
+        "title": "Thailand vs. Canada EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Thailand vs. Canada en vivo gratis por Tarjeta Roja TV. Thailand vs Canada transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Thailand vs. Canada, Thailand, Canada, Volleyball, ver online gratis, en vivo gratis, Women's VNL 2026",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-20/tha-can",
+        "title": "Thailand vs. Canada EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Thailand vs. Canada en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/acf0c1a681e24e6c3ec956395c3b9016-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Thailand vs. Canada EN VIVO",
+        "description": "Ver Thailand vs. Canada en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/acf0c1a681e24e6c3ec956395c3b9016-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Thailand vs. Canada",
+        "description": "Transmisión en vivo de Thailand vs. Canada",
+        "startDate": "2026-06-20T13:30:00.000Z",
+        "endDate": "2026-06-20T17:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-20/tha-can"
+        },
+        "image": "https://api.ppv.to/assets/thumb/acf0c1a681e24e6c3ec956395c3b9016-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Thailand"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Canada"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Thailand"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Canada"
+        },
+        "sport": "Volleyball"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Volleyball",
+            "url": "https://tarjetarojaenvivo.live/categoria/volleyball"
+          },
+          {
+            "name": "Thailand vs. Canada",
+            "url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-20/tha-can"
+          }
+        ],
+        "h1": "Thailand vs. Canada EN VIVO",
+        "h2": "Ver Thailand vs. Canada Online Gratis"
+      },
+      "event": {
+        "name": "Thailand vs. Canada",
+        "category": "Volleyball",
+        "broadcaster": "Women's VNL 2026",
+        "start_time": "2026-06-20T13:30:00.000Z",
+        "end_time": "2026-06-20T17:00:00.000Z",
+        "duration_minutes": 210,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Thailand",
+        "away_team": "Canada"
+      },
+      "technical": {
+        "last_modified": "2026-06-20T07:25:22.506Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Thailand vs. Canada, Thailand"
+      }
+    },
+    {
+      "id": 23460,
+      "slug": "turkiye-vs-germany",
+      "uri_name": "womensvnl/2026-06-20/tür-ger",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-20/tür-ger",
+      "meta": {
+        "title": "Türkiye vs. Germany EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Türkiye vs. Germany en vivo gratis por Tarjeta Roja TV. Türkiye vs Germany transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Türkiye vs. Germany, Türkiye, Germany, Volleyball, ver online gratis, en vivo gratis, Women's VNL 2026",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-20/tür-ger",
+        "title": "Türkiye vs. Germany EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Türkiye vs. Germany en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/ea6c4318049d3a4cc782f591ea9a34ef-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Türkiye vs. Germany EN VIVO",
+        "description": "Ver Türkiye vs. Germany en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/ea6c4318049d3a4cc782f591ea9a34ef-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Türkiye vs. Germany",
+        "description": "Transmisión en vivo de Türkiye vs. Germany",
+        "startDate": "2026-06-20T16:30:00.000Z",
+        "endDate": "2026-06-20T20:00:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-20/tür-ger"
+        },
+        "image": "https://api.ppv.to/assets/thumb/ea6c4318049d3a4cc782f591ea9a34ef-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Türkiye"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Germany"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Türkiye"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "Germany"
+        },
+        "sport": "Volleyball"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Volleyball",
+            "url": "https://tarjetarojaenvivo.live/categoria/volleyball"
+          },
+          {
+            "name": "Türkiye vs. Germany",
+            "url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-20/tür-ger"
+          }
+        ],
+        "h1": "Türkiye vs. Germany EN VIVO",
+        "h2": "Ver Türkiye vs. Germany Online Gratis"
+      },
+      "event": {
+        "name": "Türkiye vs. Germany",
+        "category": "Volleyball",
+        "broadcaster": "Women's VNL 2026",
+        "start_time": "2026-06-20T16:30:00.000Z",
+        "end_time": "2026-06-20T20:00:00.000Z",
+        "duration_minutes": 210,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Türkiye",
+        "away_team": "Germany"
+      },
+      "technical": {
+        "last_modified": "2026-06-20T07:25:22.506Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Türkiye vs. Germany, Türkiye"
+      }
+    },
+    {
+      "id": 23461,
+      "slug": "serbia-vs-usa",
+      "uri_name": "womensvnl/2026-06-21/ser-usa",
+      "canonical_url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-21/ser-usa",
+      "meta": {
+        "title": "Serbia vs. USA EN VIVO - Tarjeta Roja TV | Rojadirecta Gratis",
+        "description": "⚽ Ver Serbia vs. USA en vivo gratis por Tarjeta Roja TV. Serbia vs USA transmisión en directo.",
+        "keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Serbia vs. USA, Serbia, USA, Volleyball, ver online gratis, en vivo gratis, Women's VNL 2026",
+        "robots": "index, follow"
+      },
+      "og": {
+        "type": "website",
+        "url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-21/ser-usa",
+        "title": "Serbia vs. USA EN VIVO ⚽ Tarjeta Roja TV",
+        "description": "Ver Serbia vs. USA en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/37ac74a15dd0383d9be586f5d6152d09-thumbnail.jpg",
+        "site_name": "Tarjeta Roja En Vivo",
+        "locale": "es_ES"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@tarjetarojatvs",
+        "title": "Serbia vs. USA EN VIVO",
+        "description": "Ver Serbia vs. USA en vivo gratis.",
+        "image": "https://api.ppv.to/assets/thumb/37ac74a15dd0383d9be586f5d6152d09-thumbnail.jpg"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Serbia vs. USA",
+        "description": "Transmisión en vivo de Serbia vs. USA",
+        "startDate": "2026-06-21T04:00:00.000Z",
+        "endDate": "2026-06-21T07:30:00.000Z",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-21/ser-usa"
+        },
+        "image": "https://api.ppv.to/assets/thumb/37ac74a15dd0383d9be586f5d6152d09-thumbnail.jpg",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Tarjeta Roja En Vivo",
+          "url": "https://tarjetarojaenvivo.live"
+        },
+        "competitor": [
+          {
+            "@type": "SportsTeam",
+            "name": "Serbia"
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "USA"
+          }
+        ],
+        "homeTeam": {
+          "@type": "SportsTeam",
+          "name": "Serbia"
+        },
+        "awayTeam": {
+          "@type": "SportsTeam",
+          "name": "USA"
+        },
+        "sport": "Volleyball"
+      },
+      "seo": {
+        "breadcrumbs": [
+          {
+            "name": "Inicio",
+            "url": "https://tarjetarojaenvivo.live"
+          },
+          {
+            "name": "Volleyball",
+            "url": "https://tarjetarojaenvivo.live/categoria/volleyball"
+          },
+          {
+            "name": "Serbia vs. USA",
+            "url": "https://tarjetarojaenvivo.live/eventos/womensvnl/2026-06-21/ser-usa"
+          }
+        ],
+        "h1": "Serbia vs. USA EN VIVO",
+        "h2": "Ver Serbia vs. USA Online Gratis"
+      },
+      "event": {
+        "name": "Serbia vs. USA",
+        "category": "Volleyball",
+        "broadcaster": "Women's VNL 2026",
+        "start_time": "2026-06-21T04:00:00.000Z",
+        "end_time": "2026-06-21T07:30:00.000Z",
+        "duration_minutes": 210,
+        "status": "upcoming",
+        "viewers": "0",
+        "home_team": "Serbia",
+        "away_team": "USA"
+      },
+      "technical": {
+        "last_modified": "2026-06-20T07:25:22.507Z",
+        "priority": 0.8,
+        "changefreq": "hourly",
+        "hreflang": "es"
+      },
+      "bing": {
+        "news_keywords": "rojadirecta, tarjeta roja, rojadirecta tv, pirlotv, tarjeta roja tv, rojadirecta en vivo, tarjeta roja directa, tarjeta roja en vivo, Serbia vs. USA, Serbia"
       }
     },
     {
@@ -5201,7 +6179,7 @@
         "viewers": "0"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.469Z",
+        "last_modified": "2026-06-20T07:25:22.507Z",
         "priority": 0.8,
         "changefreq": "hourly",
         "hreflang": "es"
@@ -5284,10 +6262,10 @@
         "end_time": "1970-01-01T00:00:00.000Z",
         "duration_minutes": 0,
         "status": "completed",
-        "viewers": "13"
+        "viewers": "20"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.469Z",
+        "last_modified": "2026-06-20T07:25:22.507Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -5370,10 +6348,10 @@
         "end_time": "2025-02-28T20:00:00.000Z",
         "duration_minutes": 59940,
         "status": "completed",
-        "viewers": "0"
+        "viewers": "1"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.469Z",
+        "last_modified": "2026-06-20T07:25:22.507Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -5456,10 +6434,10 @@
         "end_time": "2025-01-18T09:00:00.000Z",
         "duration_minutes": 60,
         "status": "completed",
-        "viewers": "28"
+        "viewers": "39"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.469Z",
+        "last_modified": "2026-06-20T07:25:22.507Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -5545,7 +6523,7 @@
         "viewers": "1"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.469Z",
+        "last_modified": "2026-06-20T07:25:22.507Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -5628,10 +6606,10 @@
         "end_time": "2026-01-28T03:00:00.000Z",
         "duration_minutes": 180,
         "status": "completed",
-        "viewers": "8"
+        "viewers": "13"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.469Z",
+        "last_modified": "2026-06-20T07:25:22.507Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
@@ -5714,10 +6692,10 @@
         "end_time": "2026-02-12T03:00:00.000Z",
         "duration_minutes": 180,
         "status": "completed",
-        "viewers": "5"
+        "viewers": "3"
       },
       "technical": {
-        "last_modified": "2026-06-20T00:55:50.469Z",
+        "last_modified": "2026-06-20T07:25:22.507Z",
         "priority": 0.9,
         "changefreq": "always",
         "hreflang": "es"
