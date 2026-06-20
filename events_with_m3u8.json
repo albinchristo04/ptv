@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "fetched_at": "2026-06-20T07:19:29.505882Z",
+    "fetched_at": "2026-06-20T12:35:27.754320Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-06-20T07:37:28.445978",
-      "total_streams": 64,
+      "extracted_at": "2026-06-20T12:38:25.407595",
+      "total_streams": 59,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
       "extraction_stats": {
-        "total_requests": 64,
-        "successful_requests": 64,
+        "total_requests": 59,
+        "successful_requests": 59,
         "failed_requests": 0,
-        "elapsed_time_seconds": 177.43
+        "elapsed_time_seconds": 164.41
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1781939970,
+    "timestamp": 1781958930,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.03197503089904785,
+    "performance": 0.030003070831298828,
     "streams": [
       {
         "category": "American Football",
@@ -160,48 +160,6 @@
         "id": 66,
         "always_live": false,
         "streams": [
-          {
-            "id": 22903,
-            "name": "GWS GIANTS vs. Carlton",
-            "tag": "Fox Footy",
-            "source_tag": "Fox Footy",
-            "poster": "https://api.ppv.to/assets/thumb/141e3b0497f6d37d9da7d4f2a06ad918-thumbnail.jpg",
-            "blurhash": "LXF4QR|;wckqj[jtjtaz0yKPX9RP",
-            "colors": [
-              "#f07947",
-              "#0d0e5f"
-            ],
-            "uri_name": "afl/2026-06-20/gws-carl",
-            "starts_at": 1781936100,
-            "ends_at": 1781946900,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Australian Football",
-            "iframe": "https://embedindia.st/embed/afl/2026-06-20/gws-carl",
-            "viewers": "119",
-            "substreams": []
-          },
-          {
-            "id": 22904,
-            "name": "Collingwood vs. Port Adelaide",
-            "tag": "Fox Footy",
-            "source_tag": "Fox Footy",
-            "poster": "https://api.ppv.to/assets/thumb/89a51c42fe2d08ea964d139ef732eaf8-thumbnail.jpg",
-            "blurhash": "L36lc0HXBmx]oMWCayoK00ys=zTJ",
-            "colors": [
-              "#222222",
-              "#2498a5"
-            ],
-            "uri_name": "afl/2026-06-20/coll-port",
-            "starts_at": 1781948100,
-            "ends_at": 1781958900,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Australian Football",
-            "iframe": "https://embedindia.st/embed/afl/2026-06-20/coll-port",
-            "viewers": "0",
-            "substreams": []
-          },
           {
             "id": 23018,
             "name": "Richmond vs. North Melbourne",
@@ -682,7 +640,7 @@
             "locale": "en",
             "category_name": "Combat Sports",
             "iframe": "https://embedindia.st/embed/ufc-fight-night-kape-vs-horiguchi",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -731,7 +689,7 @@
             "locale": "en",
             "category_name": "Cricket",
             "iframe": "https://embedindia.st/embed/cricket/2026/eng-nzl/2nd-test",
-            "viewers": "6",
+            "viewers": "67",
             "substreams": []
           }
         ]
@@ -759,7 +717,7 @@
             "locale": "en",
             "category_name": "Darts",
             "iframe": "https://embedindia.st/embed/darts/2026/et9/day-2",
-            "viewers": "0",
+            "viewers": "107",
             "substreams": []
           },
           {
@@ -808,7 +766,7 @@
             "locale": "en-CA",
             "category_name": "Football",
             "iframe": "https://embedindia.st/embed/wc/2026-06-20/ned-swe",
-            "viewers": "5",
+            "viewers": "26",
             "substreams": [
               {
                 "id": 23357,
@@ -833,7 +791,7 @@
                 "name": "Netherlands vs. Sweden",
                 "tag": "FIFA World Cup",
                 "uri_name": "wc/2026-06-20/ned-swe/uk",
-                "source_tag": "BBC/ITV",
+                "source_tag": "BBC One",
                 "locale": "en-GB",
                 "iframe": "https://embedindia.st/embed/wc/2026-06-20/ned-swe/uk"
               },
@@ -872,6 +830,15 @@
                 "source_tag": "Peacock 4K (HEVC)",
                 "locale": "es",
                 "iframe": "https://embedindia.st/embed/wc/2026-06-20/ned-swe/peacock-4k"
+              },
+              {
+                "id": 23463,
+                "name": "Netherlands vs. Sweden",
+                "tag": "FIFA World Cup",
+                "uri_name": "wc/2026-06-20/ned-swe/zdf",
+                "source_tag": "ZDF",
+                "locale": "de",
+                "iframe": "https://embedindia.st/embed/wc/2026-06-20/ned-swe/zdf"
               }
             ]
           },
@@ -879,7 +846,7 @@
             "id": 22985,
             "name": "Almería vs. Málaga",
             "tag": "LALIGA 2",
-            "source_tag": "LALIGA 2",
+            "source_tag": "LALIGATV",
             "poster": "https://api.ppv.to/assets/thumb/4e44af48b56ccb3bd87b68c2c0a26876-thumbnail.jpg",
             "blurhash": "L7GHud_OhKJVxZbHfQjY00HDicyC",
             "colors": [
@@ -893,7 +860,7 @@
             "locale": "en",
             "category_name": "Football",
             "iframe": "https://embedindia.st/embed/laliga-2/2026-06-20/alm-mcf",
-            "viewers": "0",
+            "viewers": "2",
             "substreams": []
           },
           {
@@ -939,7 +906,7 @@
                 "name": "Germany vs. Ivory Coast",
                 "tag": "FIFA World Cup",
                 "uri_name": "wc/2026-06-20/ger-civ/uk",
-                "source_tag": "BBC/ITV",
+                "source_tag": "ITV1",
                 "locale": "en-GB",
                 "iframe": "https://embedindia.st/embed/wc/2026-06-20/ger-civ/uk"
               },
@@ -978,6 +945,15 @@
                 "source_tag": "Peacock 4K (HEVC)",
                 "locale": "es",
                 "iframe": "https://embedindia.st/embed/wc/2026-06-20/ger-civ/peacock-4k"
+              },
+              {
+                "id": 23464,
+                "name": "Germany vs. Ivory Coast",
+                "tag": "FIFA World Cup",
+                "uri_name": "wc/2026-06-20/ger-civ/zdf",
+                "source_tag": "ZDF",
+                "locale": "de",
+                "iframe": "https://embedindia.st/embed/wc/2026-06-20/ger-civ/zdf"
               }
             ]
           },
@@ -999,7 +975,7 @@
             "locale": "en-CA",
             "category_name": "Football",
             "iframe": "https://embedindia.st/embed/wc/2026-06-20/ecu-cuw",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": [
               {
                 "id": 23373,
@@ -1024,7 +1000,7 @@
                 "name": "Ecuador vs. Curaçao",
                 "tag": "FIFA World Cup",
                 "uri_name": "wc/2026-06-20/ecu-cuw/uk",
-                "source_tag": "BBC/ITV",
+                "source_tag": "BBC One",
                 "locale": "en-GB",
                 "iframe": "https://embedindia.st/embed/wc/2026-06-20/ecu-cuw/uk"
               },
@@ -1063,6 +1039,15 @@
                 "source_tag": "Peacock 4K (HEVC)",
                 "locale": "es",
                 "iframe": "https://embedindia.st/embed/wc/2026-06-20/ecu-cuw/peacock-4k"
+              },
+              {
+                "id": 23465,
+                "name": "Ecuador vs. Curaçao",
+                "tag": "FIFA World Cup",
+                "uri_name": "wc/2026-06-20/ecu-cuw/zdf",
+                "source_tag": "ZDF",
+                "locale": "de",
+                "iframe": "https://embedindia.st/embed/wc/2026-06-20/ecu-cuw/zdf"
               }
             ]
           },
@@ -1109,7 +1094,7 @@
                 "name": "Tunisia vs. Japan",
                 "tag": "FIFA World Cup",
                 "uri_name": "wc/2026-06-20/tun-jpn/uk",
-                "source_tag": "BBC/ITV",
+                "source_tag": "BBC One",
                 "locale": "en-GB",
                 "iframe": "https://embedindia.st/embed/wc/2026-06-20/tun-jpn/uk"
               },
@@ -1148,6 +1133,15 @@
                 "source_tag": "Peacock 4K (HEVC)",
                 "locale": "es",
                 "iframe": "https://embedindia.st/embed/wc/2026-06-20/tun-jpn/peacock-4k"
+              },
+              {
+                "id": 23466,
+                "name": "Tunisia vs. Japan",
+                "tag": "FIFA World Cup",
+                "uri_name": "wc/2026-06-20/tun-jpn/orf",
+                "source_tag": "ORF 1",
+                "locale": "de-AT",
+                "iframe": "https://embedindia.st/embed/wc/2026-06-20/tun-jpn/orf"
               }
             ]
           },
@@ -1169,7 +1163,7 @@
             "locale": "en-CA",
             "category_name": "Football",
             "iframe": "https://embedindia.st/embed/wc/2026-06-21/esp-ksa",
-            "viewers": "0",
+            "viewers": "2",
             "substreams": [
               {
                 "id": 23407,
@@ -1494,6 +1488,62 @@
         ]
       },
       {
+        "category": "Golf",
+        "id": 64,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 23467,
+            "name": "US Open | Round 3",
+            "tag": "PGA Tour",
+            "source_tag": "TSN5",
+            "poster": "https://api.ppv.to/assets/thumb/fcfaff510b50af223cbba10c2fb4e9f6-thumbnail.jpg",
+            "blurhash": "LQE2w%E4ItRj_NIoRjWAO_nMngoI",
+            "colors": [
+              "#01356e",
+              "#01356e"
+            ],
+            "uri_name": "golf/2026-06-20/us-open",
+            "starts_at": 1781964000,
+            "ends_at": 1782000000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Golf",
+            "iframe": "https://embedindia.st/embed/golf/2026-06-20/us-open",
+            "viewers": "2",
+            "substreams": [
+              {
+                "id": 23468,
+                "name": "US Open | Round 3",
+                "tag": "PGA Tour",
+                "uri_name": "golf/2026-06-20/us-open/fg1",
+                "source_tag": "Featured Groups 1",
+                "locale": "en",
+                "iframe": "https://embedindia.st/embed/golf/2026-06-20/us-open/fg1"
+              },
+              {
+                "id": 23469,
+                "name": "US Open | Round 3",
+                "tag": "PGA Tour",
+                "uri_name": "golf/2026-06-20/us-open/fg2",
+                "source_tag": "Featured Groups 2",
+                "locale": "en",
+                "iframe": "https://embedindia.st/embed/golf/2026-06-20/us-open/fg2"
+              },
+              {
+                "id": 23470,
+                "name": "US Open | Round 3",
+                "tag": "PGA Tour",
+                "uri_name": "golf/2026-06-20/us-open/fg3",
+                "source_tag": "Featured Groups 3",
+                "locale": "en",
+                "iframe": "https://embedindia.st/embed/golf/2026-06-20/us-open/fg3"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "category": "Motorsports",
         "id": 35,
         "always_live": false,
@@ -1516,7 +1566,7 @@
             "locale": "en",
             "category_name": "Motorsports",
             "iframe": "https://embedindia.st/embed/smx-wk21",
-            "viewers": "1",
+            "viewers": "7",
             "substreams": []
           }
         ]
@@ -1526,69 +1576,6 @@
         "id": 42,
         "always_live": false,
         "streams": [
-          {
-            "id": 23022,
-            "name": "Wests Tigers vs. Dolphins",
-            "tag": "Fox League",
-            "source_tag": "Fox League",
-            "poster": "https://api.ppv.to/assets/thumb/30c46083eb18055de074f5a6a6e2e0c8-thumbnail.jpg",
-            "blurhash": "LMC~q]|:r?ogofayayoL0LOGbbNa",
-            "colors": [
-              "#d1881e",
-              "#2a7581"
-            ],
-            "uri_name": "nrl/2026-06-20/wes-dol",
-            "starts_at": 1781931600,
-            "ends_at": 1781940600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Rugby",
-            "iframe": "https://embedindia.st/embed/nrl/2026-06-20/wes-dol",
-            "viewers": "82",
-            "substreams": []
-          },
-          {
-            "id": 23023,
-            "name": "Titans vs. Panthers",
-            "tag": "Fox League",
-            "source_tag": "Fox League",
-            "poster": "https://api.ppv.to/assets/thumb/80b5d073b41e918855d83afa6314e90e-thumbnail.jpg",
-            "blurhash": "LD69wh%7RlNGj[f7ayfkD4NEt6xW",
-            "colors": [
-              "#3a82b8",
-              "#217a6f"
-            ],
-            "uri_name": "nrl/2026-06-20/gol-pen",
-            "starts_at": 1781940600,
-            "ends_at": 1781949600,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Rugby",
-            "iframe": "https://embedindia.st/embed/nrl/2026-06-20/gol-pen",
-            "viewers": "9",
-            "substreams": []
-          },
-          {
-            "id": 23024,
-            "name": "Bulldogs vs. Sea Eagles",
-            "tag": "Fox League",
-            "source_tag": "Fox League",
-            "poster": "https://api.ppv.to/assets/thumb/ae3467b32b9fbe99ebf669d0127757e8-thumbnail.jpg",
-            "blurhash": "LA9t1fGdRRn+t7j[aya#00rpxtjX",
-            "colors": [
-              "#2958a8",
-              "#6b2d5f"
-            ],
-            "uri_name": "nrl/2026-06-20/can-man",
-            "starts_at": 1781948100,
-            "ends_at": 1781957100,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Rugby",
-            "iframe": "https://embedindia.st/embed/nrl/2026-06-20/can-man",
-            "viewers": "0",
-            "substreams": []
-          },
           {
             "id": 23025,
             "name": "Warriors vs. Cowboys",
@@ -1660,27 +1647,6 @@
         "always_live": false,
         "streams": [
           {
-            "id": 23455,
-            "name": "USA vs. Italy",
-            "tag": "Women's VNL 2026",
-            "source_tag": "Women's VNL 2026",
-            "poster": "https://api.ppv.to/assets/thumb/5a504c693c5cea05a9a6d9e75f8505d0-thumbnail.jpg",
-            "blurhash": "LDDk[,5tQRBWKVt2D@nM5L#?JM$j",
-            "colors": [
-              "#0c0d50",
-              "#e82c0f"
-            ],
-            "uri_name": "womensvnl/2026-06-20/usa-ita",
-            "starts_at": 1781942400,
-            "ends_at": 1781955000,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Volleyball",
-            "iframe": "https://embedindia.st/embed/womensvnl/2026-06-20/usa-ita",
-            "viewers": "0",
-            "substreams": []
-          },
-          {
             "id": 23456,
             "name": "Netherlands vs. Poland",
             "tag": "Women's VNL 2026",
@@ -1698,7 +1664,7 @@
             "locale": "en",
             "category_name": "Volleyball",
             "iframe": "https://embedindia.st/embed/womensvnl/2026-06-20/net-pol",
-            "viewers": "1",
+            "viewers": "7",
             "substreams": []
           },
           {
@@ -1719,7 +1685,7 @@
             "locale": "en",
             "category_name": "Volleyball",
             "iframe": "https://embedindia.st/embed/womensvnl/2026-06-20/jap-dom",
-            "viewers": "0",
+            "viewers": "77",
             "substreams": []
           },
           {
@@ -1859,7 +1825,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embedindia.st/embed/247-south-park",
-            "viewers": "20",
+            "viewers": "21",
             "substreams": []
           },
           {
@@ -1901,7 +1867,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embedindia.st/embed/247-family-guy",
-            "viewers": "39",
+            "viewers": "33",
             "substreams": []
           },
           {
@@ -1943,7 +1909,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embedindia.st/embed/247-spongebob-squarepants",
-            "viewers": "13",
+            "viewers": "7",
             "substreams": []
           },
           {
