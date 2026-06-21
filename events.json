@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "fetched_at": "2026-06-21T07:37:32.223194Z",
+    "fetched_at": "2026-06-21T12:38:54.859449Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null
   },
   "events": {
     "success": true,
-    "timestamp": 1782027460,
+    "timestamp": 1782045540,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.03081679344177246,
+    "performance": 0.030341148376464844,
     "streams": [
       {
         "category": "American Football",
@@ -60,34 +60,6 @@
         ]
       },
       {
-        "category": "Australian Football",
-        "id": 66,
-        "always_live": false,
-        "streams": [
-          {
-            "id": 23019,
-            "name": "St Kilda vs. Western Bulldogs",
-            "tag": "Fox Sports 503",
-            "source_tag": "Fox Sports 503",
-            "poster": "https://api.ppv.to/assets/thumb/a6172a5883ed42e29efe05c4a3495f4c-thumbnail.jpg",
-            "blurhash": "LIB_[S|-ruS5o2oLfQWV0JJWkVW;",
-            "colors": [
-              "#b12526",
-              "#25269f"
-            ],
-            "uri_name": "afl/2026-06-21/stk-wb",
-            "starts_at": 1782018900,
-            "ends_at": 1782029700,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Australian Football",
-            "iframe": "https://embedindia.st/embed/afl/2026-06-21/stk-wb",
-            "viewers": "88",
-            "substreams": []
-          }
-        ]
-      },
-      {
         "category": "Baseball",
         "id": 36,
         "always_live": false,
@@ -110,7 +82,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://embedindia.st/embed/mlb/2026-06-21/cin-nyy",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -194,7 +166,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://embedindia.st/embed/mlb/2026-06-21/wsh-tb",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -432,7 +404,7 @@
             "locale": "en",
             "category_name": "Basketball",
             "iframe": "https://embedindia.st/embed/wnba/2026-06-21/gs-lv",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -508,6 +480,34 @@
         ]
       },
       {
+        "category": "Cricket",
+        "id": 47,
+        "always_live": false,
+        "streams": [
+          {
+            "id": 23275,
+            "name": "England vs. New Zealand",
+            "tag": "2nd Test",
+            "source_tag": "Sky Sport 1 NZ",
+            "poster": "https://api.ppv.to/assets/thumb/f11f6a6175ccc11ea58858f2439945e6-thumbnail.jpg",
+            "blurhash": "L7F5:h$s01xZzpMtkYIT00%K.A%N",
+            "colors": [
+              "#00011f",
+              "#876e71"
+            ],
+            "uri_name": "cricket/2026-06-21/eng-nzl",
+            "starts_at": 1782036000,
+            "ends_at": 1782072000,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Cricket",
+            "iframe": "https://embedindia.st/embed/cricket/2026-06-21/eng-nzl",
+            "viewers": "20",
+            "substreams": []
+          }
+        ]
+      },
+      {
         "category": "Darts",
         "id": 32,
         "always_live": false,
@@ -530,7 +530,7 @@
             "locale": "en",
             "category_name": "Darts",
             "iframe": "https://embedindia.st/embed/darts/2026/et9/day-3",
-            "viewers": "0",
+            "viewers": "152",
             "substreams": []
           }
         ]
@@ -558,7 +558,7 @@
             "locale": "en-CA",
             "category_name": "Football",
             "iframe": "https://embedindia.st/embed/wc/2026-06-21/esp-ksa",
-            "viewers": "3",
+            "viewers": "17",
             "substreams": [
               {
                 "id": 23407,
@@ -952,7 +952,7 @@
             "locale": "en-CA",
             "category_name": "Football",
             "iframe": "https://embedindia.st/embed/wc/2026-06-22/arg-aut",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": [
               {
                 "id": 23477,
@@ -1037,7 +1037,7 @@
             "locale": "en-CA",
             "category_name": "Football",
             "iframe": "https://embedindia.st/embed/wc/2026-06-22/fra-irq",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": [
               {
                 "id": 23485,
@@ -1277,101 +1277,10 @@
         ]
       },
       {
-        "category": "Rugby",
-        "id": 42,
-        "always_live": false,
-        "streams": [
-          {
-            "id": 23026,
-            "name": "Storm vs. Raiders",
-            "tag": "Fox League",
-            "source_tag": "Fox League",
-            "poster": "https://api.ppv.to/assets/thumb/b6887bc60e8bea1b52d424755462b463-thumbnail.jpg",
-            "blurhash": "L87eVB*vM}S_bIWCayoL00TUxtjE",
-            "colors": [
-              "#5c4788",
-              "#288028"
-            ],
-            "uri_name": "nrl/2026-06-21/mel-can",
-            "starts_at": 1782021900,
-            "ends_at": 1782030900,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Rugby",
-            "iframe": "https://embedindia.st/embed/nrl/2026-06-21/mel-can",
-            "viewers": "116",
-            "substreams": []
-          },
-          {
-            "id": 23027,
-            "name": "Roosters vs. Sharks",
-            "tag": "Fox League",
-            "source_tag": "Fox League",
-            "poster": "https://api.ppv.to/assets/thumb/ba99588a531aca3b621324630ac2fcc0-thumbnail.jpg",
-            "blurhash": "LUCYI3{#r?NHj[j[f6f69sJ7bbt6",
-            "colors": [
-              "#d12b3f",
-              "#1a746e"
-            ],
-            "uri_name": "nrl/2026-06-21/syd-cro",
-            "starts_at": 1782029700,
-            "ends_at": 1782038700,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Rugby",
-            "iframe": "https://embedindia.st/embed/nrl/2026-06-21/syd-cro",
-            "viewers": "0",
-            "substreams": []
-          }
-        ]
-      },
-      {
         "category": "Volleyball",
         "id": 74,
         "always_live": false,
         "streams": [
-          {
-            "id": 23526,
-            "name": "Bulgaria vs. Ukraine",
-            "tag": "Women's VNL 2026",
-            "source_tag": "Women's VNL 2026",
-            "poster": "https://api.ppv.to/assets/thumb/61c624e386fddee6c9e14deb3db4cba1-thumbnail.jpg",
-            "blurhash": "LCD[n_F}HX5@GLS0D[$d0u,vJzr[",
-            "colors": [
-              "#0c0d50",
-              "#e82c0f"
-            ],
-            "uri_name": "womensvnl/2026-06-21/bul-ukr",
-            "starts_at": 1782021600,
-            "ends_at": 1782034200,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Volleyball",
-            "iframe": "https://embedindia.st/embed/womensvnl/2026-06-21/bul-ukr",
-            "viewers": "41",
-            "substreams": []
-          },
-          {
-            "id": 23527,
-            "name": "Czechia vs. Dominican Republic",
-            "tag": "Women's VNL 2026",
-            "source_tag": "Women's VNL 2026",
-            "poster": "https://api.ppv.to/assets/thumb/c513a3da8ba8f209a7d15678aa528af4-thumbnail.jpg",
-            "blurhash": "LDC$Qz6:L}E+x#w?9koc0[$9OQwM",
-            "colors": [
-              "#0c0d50",
-              "#e82c0f"
-            ],
-            "uri_name": "womensvnl/2026-06-21/cze-dom",
-            "starts_at": 1782028800,
-            "ends_at": 1782041400,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Volleyball",
-            "iframe": "https://embedindia.st/embed/womensvnl/2026-06-21/cze-dom",
-            "viewers": "0",
-            "substreams": []
-          },
           {
             "id": 23528,
             "name": "Belgium vs. France",
@@ -1390,7 +1299,7 @@
             "locale": "en",
             "category_name": "Volleyball",
             "iframe": "https://embedindia.st/embed/womensvnl/2026-06-21/bel-fra",
-            "viewers": "0",
+            "viewers": "6",
             "substreams": []
           },
           {
@@ -1411,7 +1320,7 @@
             "locale": "en",
             "category_name": "Volleyball",
             "iframe": "https://embedindia.st/embed/womensvnl/2026-06-21/can-pol",
-            "viewers": "0",
+            "viewers": "11",
             "substreams": []
           },
           {
@@ -1432,7 +1341,7 @@
             "locale": "en",
             "category_name": "Volleyball",
             "iframe": "https://embedindia.st/embed/womensvnl/2026-06-21/jap-ita",
-            "viewers": "0",
+            "viewers": "27",
             "substreams": []
           },
           {
@@ -1523,7 +1432,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embedindia.st/embed/247-south-park",
-            "viewers": "26",
+            "viewers": "19",
             "substreams": []
           },
           {
@@ -1565,7 +1474,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embedindia.st/embed/247-family-guy",
-            "viewers": "42",
+            "viewers": "39",
             "substreams": []
           },
           {
@@ -1607,7 +1516,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embedindia.st/embed/247-spongebob-squarepants",
-            "viewers": "13",
+            "viewers": "11",
             "substreams": []
           },
           {
