@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "fetched_at": "2026-06-23T12:55:58.551251Z",
+    "fetched_at": "2026-06-23T18:40:56.641039Z",
     "source": "https://api.ppv.to/api/streams",
     "total_events": null,
     "m3u8_extraction": {
-      "extracted_at": "2026-06-23T13:17:21.299163",
+      "extracted_at": "2026-06-23T18:44:07.608651",
       "total_streams": 59,
       "streams_with_m3u8": 0,
       "success_rate": "0.0%",
@@ -12,15 +12,15 @@
         "total_requests": 59,
         "successful_requests": 59,
         "failed_requests": 0,
-        "elapsed_time_seconds": 166.33
+        "elapsed_time_seconds": 169.75
       }
     }
   },
   "events": {
     "success": true,
-    "timestamp": 1782219360,
+    "timestamp": 1782240060,
     "READ_ME": "Interested in using our API? Contact us for more information.",
-    "performance": 0.0312800407409668,
+    "performance": 0.020016908645629883,
     "streams": [
       {
         "category": "American Football",
@@ -45,7 +45,7 @@
             "locale": "en",
             "category_name": "American Football",
             "iframe": "https://embedindia.st/embed/cfl/2026-06-25/edm-wpg",
-            "viewers": "2",
+            "viewers": "1",
             "substreams": []
           },
           {
@@ -178,7 +178,7 @@
             "locale": "en",
             "category_name": "Australian Football",
             "iframe": "https://embedindia.st/embed/afl/2026-06-25/bl-syd",
-            "viewers": "1",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -584,7 +584,7 @@
             "locale": "en",
             "category_name": "Baseball",
             "iframe": "https://embedindia.st/embed/mlb/2026-06-23/bal-laa",
-            "viewers": "2",
+            "viewers": "0",
             "substreams": []
           },
           {
@@ -682,7 +682,7 @@
             "locale": "en",
             "category_name": "Combat Sports",
             "iframe": "https://embedindia.st/embed/one-friday-fights-160--the-inner-circle-20",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": []
           }
         ]
@@ -710,7 +710,7 @@
             "locale": "en-CA",
             "category_name": "Football",
             "iframe": "https://embedindia.st/embed/wc/2026-06-23/por-uzb",
-            "viewers": "31",
+            "viewers": "37984",
             "substreams": [
               {
                 "id": 23543,
@@ -810,6 +810,15 @@
                 "source_tag": "Servus TV",
                 "locale": "de-AT",
                 "iframe": "https://embedindia.st/embed/wc/2026-06-23/por-uzb/servus-tv"
+              },
+              {
+                "id": 23718,
+                "name": "Portugal vs. Uzbekistan",
+                "tag": "FIFA World Cup",
+                "uri_name": "wc/2026-06-23/por-uzb/nocomm",
+                "source_tag": "FIFA Direct (No Commentary)",
+                "locale": "en",
+                "iframe": "https://embedindia.st/embed/wc/2026-06-23/por-uzb/nocomm"
               }
             ]
           },
@@ -831,7 +840,7 @@
             "locale": "en-CA",
             "category_name": "Football",
             "iframe": "https://embedindia.st/embed/wc/2026-06-23/eng-gha",
-            "viewers": "1",
+            "viewers": "24",
             "substreams": [
               {
                 "id": 23552,
@@ -940,6 +949,15 @@
                 "source_tag": "Servus TV",
                 "locale": "de-AT",
                 "iframe": "https://embedindia.st/embed/wc/2026-06-23/eng-gha/servus-tv"
+              },
+              {
+                "id": 23719,
+                "name": "England vs. Ghana",
+                "tag": "FIFA World Cup",
+                "uri_name": "wc/2026-06-23/eng-gha/fifa-direct-no-commentary",
+                "source_tag": "FIFA Direct (No Commentary)",
+                "locale": "en",
+                "iframe": "https://embedindia.st/embed/wc/2026-06-23/eng-gha/fifa-direct-no-commentary"
               }
             ]
           },
@@ -1082,7 +1100,7 @@
             "locale": "en-CA",
             "category_name": "Football",
             "iframe": "https://embedindia.st/embed/wc/2026-06-23/col-cod",
-            "viewers": "0",
+            "viewers": "2",
             "substreams": [
               {
                 "id": 23571,
@@ -1203,7 +1221,7 @@
             "locale": "en-CA",
             "category_name": "Football",
             "iframe": "https://embedindia.st/embed/wc/2026-06-24/bih-qat",
-            "viewers": "0",
+            "viewers": "1",
             "substreams": [
               {
                 "id": 23638,
@@ -1878,27 +1896,6 @@
         "always_live": false,
         "streams": [
           {
-            "id": 23616,
-            "name": "WWE: Smackdown",
-            "tag": "USA",
-            "source_tag": "Netflix",
-            "poster": "https://api.ppv.to/assets/thumb/ec7810b68fc39115ce3510bcf9687a63-thumbnail.jpg",
-            "blurhash": "LF4ezej]M?s{kFkDf2fKIUWGxsfT",
-            "colors": [
-              "#001b65",
-              "#0001b4"
-            ],
-            "uri_name": "wwe/smackdown/2026-06-23",
-            "starts_at": 1782230400,
-            "ends_at": 1782241200,
-            "always_live": 0,
-            "locale": "en",
-            "category_name": "Wrestling",
-            "iframe": "https://embedindia.st/embed/wwe/smackdown/2026-06-23",
-            "viewers": "1",
-            "substreams": []
-          },
-          {
             "id": 23613,
             "name": "WWE: NXT",
             "tag": "CW",
@@ -1962,6 +1959,27 @@
             "substreams": []
           },
           {
+            "id": 23616,
+            "name": "WWE: Friday Night Smackdown",
+            "tag": "USA",
+            "source_tag": "USA",
+            "poster": "https://api.ppv.to/assets/thumb/ec7810b68fc39115ce3510bcf9687a63-thumbnail.jpg",
+            "blurhash": "LF4ezej]M?s{kFkDf2fKIUWGxsfT",
+            "colors": [
+              "#001b65",
+              "#0001b4"
+            ],
+            "uri_name": "wwe/smackdown/2026-06-26",
+            "starts_at": 1782518400,
+            "ends_at": 1782529200,
+            "always_live": 0,
+            "locale": "en",
+            "category_name": "Wrestling",
+            "iframe": "https://embedindia.st/embed/wwe/smackdown/2026-06-26",
+            "viewers": "4",
+            "substreams": []
+          },
+          {
             "id": 23617,
             "name": "AEW: Saturday Night Collision",
             "tag": "TNT",
@@ -2007,7 +2025,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embedindia.st/embed/247-south-park",
-            "viewers": "19",
+            "viewers": "17",
             "substreams": []
           },
           {
@@ -2049,7 +2067,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embedindia.st/embed/247-family-guy",
-            "viewers": "30",
+            "viewers": "23",
             "substreams": []
           },
           {
@@ -2070,7 +2088,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embedindia.st/embed/247-the-simpsons",
-            "viewers": "5",
+            "viewers": "3",
             "substreams": []
           },
           {
@@ -2091,7 +2109,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embedindia.st/embed/247-spongebob-squarepants",
-            "viewers": "8",
+            "viewers": "6",
             "substreams": []
           },
           {
@@ -2112,7 +2130,7 @@
             "locale": "en",
             "category_name": "24/7 Streams",
             "iframe": "https://embedindia.st/embed/rally-tv",
-            "viewers": "3",
+            "viewers": "1",
             "substreams": []
           }
         ]
